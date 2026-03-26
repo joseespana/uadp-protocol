@@ -280,7 +280,11 @@ graph TD
     GW --> COMPASS & ATLAS
 ```
 
-Each service is fully independent: its own port, its own data, its own manifest. The gateway provides a single entry point for convenience but is not required &mdash; agents can talk to services directly.
+Each service is fully independent: its own port, its own data, its own manifest.
+
+> **Important note about this architecture:** The gateway in this project exists only for demo purposes. In a real-world scenario, **there is no central gateway**. UADP is designed so that any regular website or service on the internet can adopt the protocol independently &mdash; just publish a `/.well-known/uadp.json` manifest on your own domain, expose the UADP endpoints, and you're done. An AI agent discovers your service the same way a browser discovers a favicon: by checking a well-known path.
+>
+> This project simulates 14 different services behind a single gateway to showcase the protocol's capabilities in one place, but the real vision is a decentralized ecosystem where every website, app, or API speaks UADP on its own &mdash; no gateway, no middleware, no central authority needed.
 
 ---
 
@@ -532,9 +536,75 @@ uadp-protocol/
 
 ## Author
 
-Created by **Jose Espana** &mdash; [LinkedIn](https://www.linkedin.com/in/jose-espana/) &middot; [GitHub](https://github.com/joseespana)
+Created by **Jose Espana**, founder of [**Perseusoft**](https://perseusoft.tech/) &mdash; [LinkedIn](https://www.linkedin.com/in/jose-espana/) &middot; [GitHub](https://github.com/joseespana)
 
 UADP was born from a simple observation: AI agents are incredibly capable, but they're held back by the fragmented landscape of web APIs. Every new integration is a custom engineering effort. UADP proposes a world where any service can become agent-friendly by adding a single manifest file.
+
+### The Problem Today: Scraping & Token Waste
+
+Right now, when an AI agent needs to interact with a website, it has to **scrape the entire HTML page** &mdash; navigation bars, footers, ads, scripts, stylesheets, and thousands of lines of markup &mdash; just to extract a few pieces of useful data. This is incredibly wasteful:
+
+- A typical webpage generates **5,000 to 50,000+ tokens** when scraped, but only **200-500 tokens** contain the actual data the agent needs.
+- That means **90-99% of tokens are wasted** on irrelevant HTML, CSS classes, and JavaScript.
+- Multiply that across dozens of requests per task, and agents are burning through millions of tokens just to do simple things like checking a balance or reading an email.
+- This translates directly into **higher costs, slower responses, and larger context windows consumed** for every LLM in the market &mdash; OpenAI, Anthropic, Google, Meta, and every other provider.
+
+**With UADP, a single request returns only the structured data the agent needs** &mdash; clean, typed, and ready to use. No scraping, no parsing, no wasted tokens. What today takes 30,000 tokens of scraped HTML could take **less than 500 tokens** with a UADP response. That's a **60x reduction** in token usage for the same task.
+
+> **Need help with UADP, custom integrations, or software development?**
+> At [Perseusoft](https://perseusoft.tech/) we build modern software solutions &mdash; from protocol design to full-stack products. Feel free to reach out for any project, consultation, or collaboration. We'd love to hear from you!
+
+### Why Open Source?
+
+UADP is released as an open-source project because we believe this is a concept that the entire community should push forward together. The idea is simple but powerful: if every service, website, and API adopts a standardized protocol for AI agents, we can **dramatically reduce token consumption across all existing LLMs**. Instead of agents wasting tokens parsing inconsistent APIs, scraping HTML, or navigating complex documentation, they get clean, structured, self-describing data in a single request.
+
+We encourage developers, companies, and the open-source community to start adopting UADP in their own services and platforms. The more services that speak UADP, the more efficient every AI agent becomes &mdash; saving tokens, reducing costs, and making the entire ecosystem faster and smarter for everyone.
+
+---
+
+## Promoting UADP as a Standard
+
+Protocols don't become standards overnight &mdash; they grow through adoption, community feedback, and formal recognition. Here's the roadmap we envision for UADP:
+
+### Phase 1 &mdash; Community Adoption (current)
+- Open-source the reference implementation (this repo)
+- Encourage developers to add `/.well-known/uadp.json` to their own sites and services
+- Gather real-world feedback and iterate on the spec
+- Build plugins, libraries, and SDKs in multiple languages
+
+### Phase 2 &mdash; Industry Collaboration
+- Partner with AI companies (OpenAI, Anthropic, Google, etc.) to support UADP in their agents
+- Propose UADP as a community standard to the **IETF** (Internet Engineering Task Force) via an Internet-Draft (I-D)
+- Submit the `/.well-known/uadp.json` path for registration in the [IANA Well-Known URIs registry](https://www.iana.org/assignments/well-known-uris/)
+- Engage with the **W3C** (World Wide Web Consortium) for alignment with existing web standards
+
+### Phase 3 &mdash; Formal Standardization
+- Advance the Internet-Draft to **RFC** (Request for Comments) status through the IETF process
+- Establish a working group for ongoing protocol governance
+- Define compliance levels and certification for UADP-compatible services
+
+### How You Can Help Right Now
+
+The most powerful thing you can do is **adopt UADP in your own service**. Every site that serves a `/.well-known/uadp.json` manifest is a vote for a more efficient, agent-friendly internet. You can also:
+
+- Star this repo and share it with your network
+- Open issues with feedback on the spec
+- Build tools, libraries, or agents that use UADP
+- Write about UADP and why token efficiency matters
+- [Reach out to Perseusoft](https://perseusoft.tech/) if you want to collaborate on adoption
+
+### Full Protocol Documentation
+
+For detailed technical documentation on each component of the protocol, see the **[docs/](docs/)** folder:
+
+| Document | Description |
+|---|---|
+| [Protocol Overview](docs/protocol-overview.md) | High-level architecture and design philosophy |
+| [Service Manifest](docs/service-manifest.md) | The `/.well-known/uadp.json` spec and all its fields |
+| [Endpoints](docs/endpoints.md) | Standard endpoint patterns, request/response format, pagination |
+| [Authentication](docs/authentication.md) | Auth flow, token format, endpoint-level access control |
+| [AI Hints](docs/ai-hints.md) | The `ai_hints` object &mdash; the heart of what makes UADP unique |
+| [Security](docs/security.md) | Security model, safety rules, privacy constraints, threat model |
 
 ---
 
