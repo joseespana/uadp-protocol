@@ -1,0 +1,98 @@
+services:
+  nginx:
+    image: nginx:alpine
+    ports: ['41900:80']
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - gateway
+      - nova
+      - pulse
+      - orbit
+      - zinc
+      - market
+      - stream
+      - echo
+      - herald
+      - lyra
+      - vortex
+      - beacon
+      - compass
+      - flame
+      - atlas
+    restart: unless-stopped
+
+  gateway:
+    build: .
+    command: bun run packages/cosmos-gateway/src/index.ts
+    restart: unless-stopped
+
+  nova:
+    build: .
+    command: bun run services/nova/src/index.ts
+    restart: unless-stopped
+
+  pulse:
+    build: .
+    command: bun run services/pulse/src/index.ts
+    restart: unless-stopped
+
+  orbit:
+    build: .
+    command: bun run services/orbit/src/index.ts
+    restart: unless-stopped
+
+  zinc:
+    build: .
+    command: bun run services/zinc/src/index.ts
+    restart: unless-stopped
+
+  market:
+    build: .
+    command: bun run services/market/src/index.ts
+    restart: unless-stopped
+
+  stream:
+    build: .
+    command: bun run services/stream/src/index.ts
+    restart: unless-stopped
+
+  echo:
+    build: .
+    command: bun run services/echo/src/index.ts
+    restart: unless-stopped
+
+  herald:
+    build: .
+    command: bun run services/herald/src/index.ts
+    restart: unless-stopped
+
+  lyra:
+    build: .
+    command: bun run services/lyra/src/index.ts
+    restart: unless-stopped
+
+  vortex:
+    build: .
+    command: bun run services/vortex/src/index.ts
+    restart: unless-stopped
+
+  beacon:
+    build: .
+    command: bun run services/beacon/src/index.ts
+    restart: unless-stopped
+
+  compass:
+    build: .
+    command: bun run services/compass/src/index.ts
+    restart: unless-stopped
+
+  flame:
+    build: .
+    command: bun run services/flame/src/index.ts
+    restart: unless-stopped
+
+  atlas:
+    build: .
+    command: bun run services/atlas/src/index.ts
+    restart: unless-stopped

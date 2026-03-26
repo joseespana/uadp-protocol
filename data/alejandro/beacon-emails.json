@@ -1,0 +1,4395 @@
+{
+  "emails": [
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:RSzUDdgmTZw3",
+      "ts": 1774350977,
+      "label": "Caries vespillo adhuc adsuesco socius su",
+      "subject": "Ab convoco quidem vulgus decimus.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "LyraMusic",
+          "address": "updates@lyra-demo.local"
+        }
+      ],
+      "body_text": "Sopor officia aiunt amet vinitor spoliatio turba ager vir peccatus.",
+      "folder": "drafts",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:xLU5pIK4l6Ax",
+      "ts": 1774347966,
+      "label": "30% off your next purchase — MercadoMart: Quisquam accusator curtus denego accedo ",
+      "subject": "30% off your next purchase — MercadoMart: Quisquam accusator curtus denego accedo ",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Torrens vesco creptio caput testimonium. Commemoro admiratio sursum suus concido magni aggredior sperno sulum bardus. Adduco totam uredo adulescens vado suscipit concedo adamo vindico.\nSolium caritas vinco aut aveho uter. Uberrime arto subiungo. Conitor temperantia sumo consuasor apto.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:cHRuEzfRPo0e",
+      "ts": 1774324443,
+      "label": "Security update on your account: Conitor cornu viduo dolores voluptatibus",
+      "subject": "Security update on your account: Conitor cornu viduo dolores voluptatibus",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Territo torqueo cornu alioqui quos soluta depono vulgo derideo. Bis contabesco paulatim capio culpo cauda. Uredo animi vergo spoliatio ea adsum demitto patruus thesaurus addo.\nSophismata provident crepusculum sperno ullus adhuc. Tum compono credo strenuus. Synagoga contigo curvo sollicito desparatus delibero earum statim culpa asporto.\nConsuasor depromo vomica caecus officia totidem creo. Cohibeo basium decimus tepidus laborum tubineus claudeo tredecim. Crapula vester vaco aeternus subito tollo cras conor uterque decerno.\nDemoror comminor tres deporto cedo volubilis arceo aperio. Veniam tempus arcus tantillus astrum adulatio cometes sulum compello sumptus. Nostrum adfectus adicio arto speciosus colligo corrigo conservo copiose quae.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:215OiD1bNIrO",
+      "ts": 1774287406,
+      "label": "New episode: Tandem optio acies.",
+      "subject": "New episode: Tandem optio acies.",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vae utilis adduco. Comprehendo confugo sono cubitum stultus ocer tribuo amor minima. Assentator theatrum tabella.\nCurtus nemo conicio conicio. Spiculum arbustum delinquo suasoria surculus. Aperte utique consuasor collum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:5xa2LBGZzi5t",
+      "ts": 1774276648,
+      "label": "Reminder: Thymum conduco sub conicio avaritia dign",
+      "subject": "Reminder: Thymum conduco sub conicio avaritia dign",
+      "from": {
+        "name": "TechCorp - HR",
+        "address": "rrhh@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Uter vehemens sonitus pecco eaque cruciamentum occaecati. Tribuo bibo considero corrigo sol uredo. Versus abbas vix vulgo amissio quasi aliquid.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "archaeology_variable_aside.html.pdf",
+          "size_bytes": 3824439,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:mEmzkuu1mNDC",
+      "ts": 1774269878,
+      "label": "Re: Comitatus tener creo suggero nulla toler",
+      "subject": "Re: Comitatus tener creo suggero nulla toler",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Orbit Bank",
+          "address": "notificaciones@orbit-demo.local"
+        }
+      ],
+      "body_text": "Cruciamentum creber dapifer adsuesco cinis aut celer ceno. Comitatus victoria conqueror caput umerus undique sollicito. Benigne cupiditate tenus trucido.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ZUsLK2wqf3Cq",
+      "ts": 1774218655,
+      "label": "Hey Ale, did you see yesterday's deploy?: Subiungo crebro ventosus coadunatio dolo",
+      "subject": "Hey Ale, did you see yesterday's deploy?: Subiungo crebro ventosus coadunatio dolo",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vero colligo stillicidium thesis aro denuo tabula coadunatio alter inventore. Defero tres cultura nulla utrimque similique. Sequi credo amor creo pecto ad timor valeo.\nIure villa deludo. Autus ago ulciscor demergo conduco inventore synagoga deorsum conscendo. Quasi provident paens conservo virtus vir suggero crux ciminatio voco.\nConforto vinculum centum civis culpa vindico. Praesentium quos suspendo certus. Caries depereo decens ratione summa.\nDefero quas brevis suasoria vorax tristis corroboro depereo antea. Denego damnatio cumque absum amiculum bonus. Sapiente amissio terror deficio amo suscipit.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ows6WUHhFajW",
+      "ts": 1774202524,
+      "label": "Re: Torqueo conculco agnosco.",
+      "subject": "Re: Torqueo conculco agnosco.",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tum utrum spes contigo volva acidus. Vinitor cruentus aut thermae spiculum repudiandae torrens blandior attero ver. Stips cito desidero canis pecto articulus.\nStella cubo undique conitor. Blandior thema vilicus corpus curtus. Abeo testimonium consuasor virga ante.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:HtzlDFrbhktV",
+      "ts": 1774191020,
+      "label": "Sweetie, sending you the recipe you asked for: Deduco tergo cunabula collum.",
+      "subject": "Sweetie, sending you the recipe you asked for: Deduco tergo cunabula collum.",
+      "from": {
+        "name": "Mariana Torres",
+        "address": "mariana.torres@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Quisquam canonicus vulgus. Defero cohors celo viscus. Absens conturbo solus demo vorax sumo peior crur assentator sulum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:pGLMqjGfUcl2",
+      "ts": 1774179480,
+      "label": "[PR #338] fix: Debitis circumvenio sed aiunt.",
+      "subject": "[PR #338] fix: Debitis circumvenio sed aiunt.",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Apud certus ascisco caritas cenaculum textilis annus pauci censura. Cito statim sapiente cetera nihil appello. Virgo vix sublime denego vilicus adiuvo demo totus defessus tricesimus.\nCarmen attollo vinitor caecus quisquam decet contabesco aperio molestias collum. Socius voveo conor cruciamentum crepusculum defero. Adaugeo turba occaecati currus ab clamo clamo.\nArtificiose alter tabernus denique tendo benigne arcesso aegre. Despecto degusto temeritas repellat conduco derideo. Neque amoveo advenio supellex succurro.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:e1f5d633sgY5",
+      "ts": 1774172532,
+      "label": "Copiose aegrus sit peccatus laborum eos ",
+      "subject": "Delinquo corrupti copiose creator absum.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechCorp - HR",
+          "address": "rrhh@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Adfectus video ventus delicate cavus timor.",
+      "folder": "drafts",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:DVgHa4qWPHFg",
+      "ts": 1774153273,
+      "label": "Little bro, mom says come over on Sunday",
+      "subject": "Little bro, mom says come over on Sunday",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Contigo aequitas celebrer nihil ventosus. Coadunatio ter stips arbitro odio textor approbo adversus aeger. Ademptio demonstro eveniet barba voluntarius tamen crur.\nDecretum suppellex patrocinor deinde celebrer accusantium addo sed usus. Infit adflicto advoco attonbitus bis creator averto cognatus advenio. Eum supra aegre vesco decor cupio.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:h3TjCbysYbCP",
+      "ts": 1774104941,
+      "label": "Stipes tolero dignissimos defessus sub v",
+      "subject": "Cogo rerum aliqua comburo charisma molli",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechConf SF",
+          "address": "info@conftech-demo.local"
+        }
+      ],
+      "body_text": "Numquam arguo argentum laudantium subiungo officiis. Alveus vester decimus alias tabella.",
+      "folder": "drafts",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:RjS2LWg0Oj97",
+      "ts": 1774081436,
+      "label": "Re: Vaco laudantium antepono comitatus venus",
+      "subject": "Re: Vaco laudantium antepono comitatus venus",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Cunctatio super sui tracto cenaculum thesis animus cenaculum. Color verecundia et conor decens ademptio comprehendo amplexus tyrannus utor. Adfectus alienus cum curvo voco sursum fugit maiores stipes.\nVoro vorax varietas sumo iusto amet vulgus thymum. Maxime animadverto ancilla facere deinde subiungo urbanus acceptus odio. Aufero coaegresco victoria tabesco verbera conduco.\nCaveo eos sol talio aptus. Contabesco adaugeo supellex arcus crustulum. Spoliatio pecto aegre aeneus sapiente comedo coadunatio conduco sequi argumentum.\nVita subnecto vitae conventus audax auctor facilis audeo audacia usque. Sui vesper cicuta delibero sordeo. Patruus vorago voluptas sollers.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ABuTFlmbnqmm",
+      "ts": 1773957422,
+      "label": "[PR #342] feat: Doloremque arguo molestiae universe veni",
+      "subject": "[PR #342] feat: Doloremque arguo molestiae universe veni",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Quo possimus culpo cunae summisse subvenio. Ab culpa est audeo degusto cavus virtus speciosus. Colo careo cubicularis.\nTer quae neque. Studio toties tracto vindico aequitas conservo spiritus hic. Vapulus undique aurum bene subiungo vita conculco vero videlicet desino.\nAssentator substantia teneo ceno minima termes amaritudo ad ascit. Nihil verbum debitis crur succedo. Turbo cura animi.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:AtI9omEm5iUR",
+      "ts": 1773956456,
+      "label": "Re: Neque combibo spargo desolo abbas quasi ",
+      "subject": "Re: Neque combibo spargo desolo abbas quasi ",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Daniel Mora",
+          "address": "daniel.mora@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Numquam deludo talio complectus suffoco omnis. Delicate demergo amo adnuo dedico facere aqua vaco arbustum quas. Coruscus aiunt cupio aegre accusamus solio depulso advoco.\nAufero pauci thema subvenio demoror acidus solium. Ancilla amissio surgo tabgo teres volo alius coniecto color callide. Confero aptus somnus astrum uterque tertius surculus confugo.\nRepellat claustrum ager terror acervus benevolentia coerceo ante. Adiuvo vociferor repellat tempora. Tabula non tepesco tempore solum.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:zyfuUy6wbUwJ",
+      "ts": 1773920415,
+      "label": "Your flight to Austin — Confirmation: Centum est derelinquo pariatur contego t",
+      "subject": "Your flight to Austin — Confirmation: Centum est derelinquo pariatur contego t",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Amoveo adulatio veritatis amplitudo enim vinco abutor. Bellicus vicissitudo derideo arbustum doloribus quo porro tabula vulariter. Quasi adversus eos voluptatem defaeco.\nCresco virtus creptio tonsor territo arcus uberrime suffoco assentator. Conculco abstergo omnis spiculum. Compello tabula comitatus aliquam impedit.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "ext": {
+        "thread": "austin_tech_trip",
+        "topics": [
+          "austin",
+          "conference",
+          "tech",
+          "trip",
+          "uadp"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:CnmToHUJEgJc",
+      "ts": 1773811118,
+      "label": "FlameEats order confirmation #8834",
+      "subject": "FlameEats order confirmation #8834",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Claro collum maxime armarium spiritus demoror astrum delibero amoveo quidem. Temperantia statua adversus. Comis aperiam complectus.\nSpiritus antiquus adeptio brevis. Accusator talis tam demitto derelinquo. Tamdiu solium alveus odio ocer crinis aspernatur victus.\nDecimus cito cuppedia demum tergiversatio adipiscor stillicidium rem sono. Viscus thesaurus nam damnatio ulterius vulgaris voluptas ipsa. Tracto cunae subvenio cotidie quam arceo terebro aliquam.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Uz0Ow63uFvhM",
+      "ts": 1773784309,
+      "label": "Your biweekly pay stub is available: Vulgivagus tricesimus defero succurro co",
+      "subject": "Your biweekly pay stub is available: Vulgivagus tricesimus defero succurro co",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tergum desparatus ambulo adamo cumque conforto saepe nihil crebro. Convoco artificiose canis suscipio tam succurro acer ullam. Utor corrigo vomer iure autem ipsa.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "operating.mar.pdf",
+          "size_bytes": 95941,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:JpqzIhRqmfjM",
+      "ts": 1773745382,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Tempus temeritas comis certe carcer truc",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Tempus temeritas comis certe carcer truc",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Asperiores officia tener arma contabesco. Causa cauda apto addo arca clam tabula provident arcesso laudantium. Una vivo subvenio velociter cognatus sollicito numquam confero.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "phew.def.pdf",
+          "size_bytes": 1001740,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:TN0WH25iXeH8",
+      "ts": 1773720918,
+      "label": "Re: Temperantia quas ullam vomito fugiat urb",
+      "subject": "Re: Temperantia quas ullam vomito fugiat urb",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Camila Ruiz",
+          "address": "camila.ruiz@correo-demo.local"
+        }
+      ],
+      "body_text": "Turpis trepide vos tibi venio neque. Depraedor congregatio cuppedia candidus universe curatio consectetur virga apostolus. Vobis cresco terminatio spiculum cupressus veritatis.\nAccendo conitor candidus aspernatur caritas custodia cometes vespillo adnuo. Delectatio aspernatur auctus amiculum thermae. Tertius sortitus substantia.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ym7sFtIxsao9",
+      "ts": 1773695397,
+      "label": "Re: Vulnero excepturi abbas aut cetera degen",
+      "subject": "Re: Vulnero excepturi abbas aut cetera degen",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechCorp - Finance",
+          "address": "finanzas@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Accommodo tumultus dapifer atque. Ustulo adopto suadeo. Volaticus calcar labore carmen minima ciminatio turba thorax sunt.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:MLso6Bjuwxnn",
+      "ts": 1773633712,
+      "label": "Sweetie, sending you the recipe you asked for: Tonsor decipio cito absque creator beatu",
+      "subject": "Sweetie, sending you the recipe you asked for: Tonsor decipio cito absque creator beatu",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Compello defaeco defetiscor tendo corona assentator adeo tenax defessus. Commodi admoveo talio terga vilis cursus. Cultellus creptio illo attonbitus.\nVicissitudo turbo animadverto adinventitias nemo. Infit compono votum a agnitio adinventitias aliquam eos circumvenio. Terra bardus considero ustulo astrum subvenio magnam ipsa quisquam correptius.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:BXR2nLYbCTnn",
+      "ts": 1773596578,
+      "label": "Monthly expense summary — Zinc: Attero aggero alias cenaculum territo ni",
+      "subject": "Monthly expense summary — Zinc: Attero aggero alias cenaculum territo ni",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tonsor canis vito amicitia vulgo deinde canis aurum synagoga placeat. Video tubineus celer trado sustineo vehemens delectus caelum ubi porro. Quidem velociter aperte aveho animi optio.\nAegrotatio pauper censura pecus. Certus usque quam pecus vaco vetus trado. Facilis commodo aranea tepesco ullus crepusculum utpote.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ziyesP722sM4",
+      "ts": 1773569457,
+      "label": "FlameEats order confirmation #8834: Magni occaecati verecundia caecus stilli",
+      "subject": "FlameEats order confirmation #8834: Magni occaecati verecundia caecus stilli",
+      "from": {
+        "name": "Mariana Torres",
+        "address": "mariana.torres@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Usque cohaero inventore aeneus blanditiis aetas. Cilicium alter clamo amplus. Absconditus succurro cedo pax demonstro apparatus voveo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:mQdRunqHfEz0",
+      "ts": 1773565709,
+      "label": "Re: Sollicito subseco cinis soleo delectatio",
+      "subject": "Re: Sollicito subseco cinis soleo delectatio",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "LyraMusic",
+          "address": "updates@lyra-demo.local"
+        }
+      ],
+      "body_text": "Celebrer usus aro abeo vinculum clementia deserunt itaque. Adopto iusto vulpes sulum curatio terror. Inflammatio sulum tepidus caste defluo ventus succurro decimus cauda.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Cl2YO3sNXsUF",
+      "ts": 1773476215,
+      "label": "Re: Decor sophismata arbitro.",
+      "subject": "Re: Decor sophismata arbitro.",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Comprehendo veritatis blanditiis succedo tam clibanus confero vesica nesciunt. Balbus amor alter deprimo. Victus aiunt contego deinde soluta quaerat corpus conqueror.\nA itaque pauci nostrum auctus architecto pecto speciosus. Pel bonus complectus alo uxor viscus atque aro. Supra recusandae trucido aperiam uxor traho curso conscendo.\nDerelinquo uxor aestivus incidunt talus consequatur patruus. Tergiversatio centum volva agnosco. Adversus vorago agnitio corporis.\nCivis voco utique comparo spero. Ipsa urbs vicissitudo crux. Calamitas reprehenderit creta campana.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:xJrMv7JqMUUM",
+      "ts": 1773475601,
+      "label": "Your biweekly pay stub is available",
+      "subject": "Your biweekly pay stub is available",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vergo stipes bene quod corporis accommodo tyrannus. Est cometes benigne catena tui armarium via cursim sollicito curo. Corroboro cotidie ut ancilla atrocitas voluptates aliquid adimpleo templum deleniti.\nDucimus utroque cras thymbra nam arcus supplanto. Carus iure dedico. Despecto ipsam clarus cunae talis usque adamo.\nCrastinus facere ab coaegresco quaerat calculus. Canis tutamen cernuus. Angelus suus curso audeo volaticus tum.\nAnnus quae terminatio utor curis. Benigne accommodo testimonium dicta. Astrum color umquam provident conspergo ceno nulla creptio celo cotidie.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:BjjYBSgJj7Cn",
+      "ts": 1773468588,
+      "label": "Re: Aliquam spiritus aggredior tondeo corpus",
+      "subject": "Re: Aliquam spiritus aggredior tondeo corpus",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Centum annus peior antiquus tolero accommodo. Carus porro peccatus comis pauper delinquo spiritus comprehendo cuius. Adulescens vis corpus victoria comburo thesaurus aranea tantum.\nPorro tristis degusto suggero aliquam volup dolorem. Adhuc ara solitudo coma tempus tersus stipes pecco quaerat. Ventito soleo corrigo arx soleo cubicularis decens dedecor cubicularis tristis.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Cm0DIBZ7iqoK",
+      "ts": 1773388314,
+      "label": "Re: Client feedback on API v2",
+      "subject": "Re: Client feedback on API v2",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Strenuus textilis demulceo. Atrocitas demoror amissio amplitudo decipio accusantium. Vespillo complectus similique vereor calcar illo non tribuo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:OxZYXYxvv0db",
+      "ts": 1773362648,
+      "label": "ACH transfer confirmation: Atque auditor minus deserunt quibusdam e",
+      "subject": "ACH transfer confirmation: Atque auditor minus deserunt quibusdam e",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Abbas demulceo trucido corporis cohibeo defleo timidus certe vaco celo. Cruentus soluta animus cerno anser apud. Quae pariatur tam sol textus varietas.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:9sBjYvhFQksW",
+      "ts": 1773326336,
+      "label": "Vacation request — April 15 to 22",
+      "subject": "Vacation request — April 15 to 22",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechConf SF",
+          "address": "info@conftech-demo.local"
+        }
+      ],
+      "body_text": "Decens laboriosam doloribus quos dedecor consequuntur corrumpo quas damnatio curiositas. Tremo ascisco pecco voluptas aut. Supellex curvo abstergo suggero sunt tego.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:1FDPH2Rbxh17",
+      "ts": 1773285060,
+      "label": "Charge alert: In consequatur sui certe reprehenderit.",
+      "subject": "Charge alert: In consequatur sui certe reprehenderit.",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Voluntarius vehemens decretum volup adnuo tredecim coerceo vero summisse. Conservo aestas cognomen in vergo unus decet adsuesco. Vigilo sonitus aggredior accusator vinculum ver ago deleniti approbo.\nClementia tempus vociferor anser defluo tribuo. Conservo incidunt summopere voluptatibus tempus tabesco valetudo uterque cena. Auctor atqui alter reiciendis concedo bardus cogo quasi volo.\nCatena suasoria aut vere. Pariatur viriliter sunt cupiditate solutio amita soleo. Astrum tabernus ago avarus deludo sum pel attero.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:q4HzcpNJTdAZ",
+      "ts": 1773224740,
+      "label": "Cuppedia vado cupio.",
+      "subject": "Accommodo explicabo vulnero candidus tem",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "LyraMusic",
+          "address": "updates@lyra-demo.local"
+        }
+      ],
+      "body_text": "Blanditiis contigo valde ager vae cimentarius alo. Certus volo caterva ustulo voluntarius copia.",
+      "folder": "drafts",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:UoCgHz0jdV1H",
+      "ts": 1773202942,
+      "label": "Re: Canonicus aestas adeo arbitro.",
+      "subject": "Re: Canonicus aestas adeo arbitro.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "CloudSync",
+          "address": "billing@cloudsync-demo.local"
+        }
+      ],
+      "body_text": "Valens volubilis provident. Vinitor vis denuncio adsidue terebro tondeo balbus tandem summa utrimque. Asperiores aranea conor super socius arguo id capto volo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:bLtk5oj8v9TZ",
+      "ts": 1773186854,
+      "label": "Review requested on PR #345: Armarium thymbra adnuo cursim tutamen su",
+      "subject": "Review requested on PR #345: Armarium thymbra adnuo cursim tutamen su",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Volutabrum decumbo cultura vis defetiscor theologus. Substantia verto sodalitas voluntarius tabella adversus. Arbitro arbitro acsi.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:qVBY6gB7JVDH",
+      "ts": 1773171556,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Tamdiu alias corona vox benigne contabes",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Tamdiu alias corona vox benigne contabes",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tego cohaero sonitus aetas colo patruus. Nostrum deleniti pecco cicuta dedecor ars conspergo. Maiores adeptio suffoco patria cribro patruus adulatio tardus.\nCarbo acerbitas repellendus ustulo amplus vel tui. Crepusculum canonicus adulescens cervus totus dens. Eius synagoga tego.\nSuppellex absens cur condico deficio textor adficio spectaculum cultura. Claro depraedor vinitor asperiores nemo quia quaerat tempus appositus summisse. Damnatio verecundia artificiose succedo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:FuX4FRgpnUjx",
+      "ts": 1773118161,
+      "label": "ACH transfer confirmation",
+      "subject": "ACH transfer confirmation",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Infit ait viscus curtus denego demergo dolore dens. Delinquo iure cohors fugit pecto taceo tutamen sequi apud. Odit causa textilis.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Px6WCPEQgjrz",
+      "ts": 1773097591,
+      "label": "ACH transfer confirmation: Autus solus abeo timor tamquam ciminatio",
+      "subject": "ACH transfer confirmation: Autus solus abeo timor tamquam ciminatio",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Ut cernuus demum inventore ratione suadeo tametsi torrens alius ultra. Comparo caries denique cedo solum. Suffragium tondeo depulso spiculum veritas.\nCoruscus tolero ea cibo credo neque quaerat varius aequitas. Canonicus ambulo asporto concido placeat. Derideo alii ter ducimus ter casus certe bellicus.\nDepraedor fugit articulus vulnero. Considero ullam torrens canis turpis ciminatio. Ademptio eligendi conforto.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:KdRHrXKtiggs",
+      "ts": 1772905890,
+      "label": "[PR #338] fix: resolve race condition in payment flow",
+      "subject": "[PR #338] fix: resolve race condition in payment flow",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Aggero tam dignissimos aggredior cognomen vado sunt cubitum summa. Audacia versus compono beneficium pax. Tempore decet repellat baiulus dolore tum victoria synagoga cruciamentum cenaculum.\nTandem aut cuius vobis vero. Adopto victus audentia tardus aureus creta cupio desino vapulus rem. Curtus arbor confido currus.\nTer accedo victoria eos thorax. Consequatur volo fugit contego. Strenuus titulus aut abutor vergo cognomen tendo curtus vaco caute.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:KgHR29gdUCZ0",
+      "ts": 1772886142,
+      "label": "Re: Aureus utpote porro statua acidus.",
+      "subject": "Re: Aureus utpote porro statua acidus.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "CloudSync",
+          "address": "billing@cloudsync-demo.local"
+        }
+      ],
+      "body_text": "Dicta ubi veritas delectatio capio aliquid tollo. Amicitia caput quidem est vito deprimo. Debeo apostolus ceno.\nTergiversatio defessus via enim aspicio cursim decipio cilicium. Solitudo sollicito aequus eligendi admitto avaritia. Ea tondeo cubicularis suus cenaculum assumenda talis.\nVenustas pecto verbera subito voluntarius. Vere super clamo aliquam ullus. Defessus sublime clamo decerno terreo thesaurus ea aro.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:BG0V86AyfhD9",
+      "ts": 1772872731,
+      "label": "Re: Recusandae talus corrupti vapulus bardus",
+      "subject": "Re: Recusandae talus corrupti vapulus bardus",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Mariana Torres",
+          "address": "mariana.torres@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Tenus abbas ager arbitro magnam deleniti doloribus cometes arguo comitatus. Desparatus eius sopor adnuo capillus amor circumvenio accusantium vigor. Tergiversatio solvo crapula congregatio umquam apparatus tempora verecundia animus alius.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:vPpdig9ptDAn",
+      "ts": 1772862519,
+      "label": "Meetup invitation: Coerceo vetus ademptio cernuus.",
+      "subject": "Meetup invitation: Coerceo vetus ademptio cernuus.",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Corrupti blanditiis suadeo spero decipio complectus vester. Auctus clam varietas careo canis adsidue cupressus cunabula. Viduo vester compono constans viduo aestas corroboro repudiandae.\nCongregatio eligendi vapulus. Terebro defessus deputo absorbeo. Validus denuo quia auctor vomica.\nCorreptius usque audeo tantillus consectetur rem. Tenuis sono id adeptio ocer defetiscor concedo defungo aspicio aufero. Torrens tenetur textilis rem vulnus decimus vereor convoco et tametsi.\nCum sublime adamo consuasor eveniet bellum. Accusamus audeo corpus pecco comburo vulgo architecto molestias chirographum. Accendo coepi tremo cena natus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:PSVJFctWkn8z",
+      "ts": 1772833551,
+      "label": "Reminder: Aggero derelinquo infit umquam tam vinco",
+      "subject": "Reminder: Aggero derelinquo infit umquam tam vinco",
+      "from": {
+        "name": "Camila Ruiz",
+        "address": "camila.ruiz@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vita nostrum averto textilis aestas succurro rem coaegresco turba assentator. Autem dens ulciscor conforto vito doloremque crepusculum curiositas aliquam confido. Adflicto virgo conduco caries trado.\nTempore varietas cohaero sit. Earum cinis cuppedia solum patruus. Deleniti angulus conor.\nAbsum cerno labore comitatus peccatus demitto decimus tergeo asperiores strenuus. Tyrannus complectus strenuus subiungo demulceo decet suffragium delibero. Tot barba audacia tabula.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:lzOWelh4zLSt",
+      "ts": 1772794416,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Attonbitus agnitio dolorum alienus.",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Attonbitus agnitio dolorum alienus.",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Temptatio amicitia delinquo abundans videlicet deorsum anser pecto. Autem stips angustus sollicito subseco pax vester deficio depereo. Cunabula tener accendo cauda.\nVulpes vulariter dolores spes crux. Conventus aliquam annus. Victoria suasoria tam avaritia.\nDepraedor unus contra aut volup terreo vomito valde sub. Quae optio amplus fugit supellex adulescens. Architecto officiis abundans illum admoneo accommodo nihil benigne molestiae.\nDesidero ambulo tantum credo sursum quisquam comminor vir. Autus canis caterva trepide stella alveus demonstro. Ducimus atrox arbitro vomer callide adhuc cursus ulciscor.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Sw2RshT0WmYq",
+      "ts": 1772778352,
+      "label": "Charge alert: Accommodo calamitas acidus vindico vulne",
+      "subject": "Charge alert: Accommodo calamitas acidus vindico vulne",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Voro deporto vociferor defetiscor vulgo ullus compono decor. Stillicidium certe summa contra dolorum ubi iure alienus aduro. Necessitatibus tantum caritas sequi copia.\nPatria accedo tenus solutio urbs suspendo illum cum. Via tactus vesica audacia sortitus. Damno tempus trans.\nDamnatio illo comparo celebrer undique. Debeo excepturi decet unus bonus. Strues ulciscor vulnero terror.\nHic adflicto turbo quisquam casso spes. Tamdiu bardus commodi tener. Aetas tandem libero numquam bene conor unus bellum villa cupiditas.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:0qvrmJ56x1oc",
+      "ts": 1772741764,
+      "label": "Charge alert: $12.99 USD on your Zinc card",
+      "subject": "Charge alert: $12.99 USD on your Zinc card",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Cupio appono delinquo thermae spiculum eaque ara. Despecto tremo argumentum creta amaritudo error venio. Adaugeo corporis comparo recusandae suggero audeo auctus cinis acies nam.\nAbeo damnatio defluo pel tantum usitas aro crustulum. Deporto sono minima complectus versus traho suscipit. Admoneo voluptatem spiritus cito deficio carmen.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:fK1cMSCS8EFQ",
+      "ts": 1772598138,
+      "label": "Re: Summisse credo crudelis ratione.",
+      "subject": "Re: Summisse credo crudelis ratione.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Orbit Bank",
+          "address": "notificaciones@orbit-demo.local"
+        }
+      ],
+      "body_text": "Pecco viscus conspergo creta. Deserunt arbitro curatio vester cedo trucido consectetur. Statim solutio bene ago talis vir sed viridis addo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:aAQcKfEVjP8H",
+      "ts": 1772588349,
+      "label": "Re: Speculum antiquus tamisium.",
+      "subject": "Re: Speculum antiquus tamisium.",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Summopere somniculosus asper turpis cohors. Atrox attero eligendi corroboro cupiditate. Stillicidium agnitio cohaero vitiosus denique aperte.\nTui contra id vergo iure solus acer. Triduana patior aliqua voluptatem stella decor utor cumque sapiente. Varietas eveniet capillus ait.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:TAlsyBfaxlKr",
+      "ts": 1772547352,
+      "label": "Re: Adsuesco casso cedo infit virgo voluptat",
+      "subject": "Re: Adsuesco casso cedo infit virgo voluptat",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Zinc",
+          "address": "alerts@zinc-demo.local"
+        }
+      ],
+      "body_text": "Acervus tabula bis nam corona sapiente aliquam accusantium talus. Debeo blandior titulus cena theatrum caste. Aegrotatio demonstro surculus nisi talis laborum.\nVoro tamisium defaeco demo sint bellum comedo curso atque adhuc. Defungo tricesimus paens titulus contabesco sequi natus. Sodalitas addo ipsum similique supellex spoliatio video dedico ad.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:BAlsaggagENY",
+      "ts": 1772449492,
+      "label": "Sweetie, sending you the recipe you asked for: Volubilis velit suscipit bibo.",
+      "subject": "Sweetie, sending you the recipe you asked for: Volubilis velit suscipit bibo.",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Viscus quidem voluptatem suffragium est bos. Torrens conturbo coaegresco harum. Coma absens turbo urbs aetas quod crux ubi pariatur arbustum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:x8EStahCE7HY",
+      "ts": 1773698075,
+      "label": "Meetup invitation: Rust Bay Area - SF",
+      "subject": "Meetup invitation: Rust Bay Area - SF",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Voluptates adinventitias expedita conatus demens utrum. Suus testimonium sono arbor vita auctus. Appositus acer adflicto crepusculum dapifer nihil conitor.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "ext": {
+        "thread": "rust_bayarea",
+        "topics": [
+          "rust",
+          "bayarea",
+          "meetup",
+          "community",
+          "programming"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:StHsoVryLFXJ",
+      "ts": 1772408205,
+      "label": "Cuppedia aggero synagoga ademptio arbor ",
+      "subject": "Bonus ulciscor creptio decumbo.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Pablo Herrera",
+          "address": "pablo.herrera@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Temptatio strues talio claudeo. Valde consequatur aetas earum.",
+      "folder": "drafts",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:cOAv8A51GUjB",
+      "ts": 1772347457,
+      "label": "FlameEats order confirmation #8834: Volutabrum ver abstergo pauci vilicus co",
+      "subject": "FlameEats order confirmation #8834: Volutabrum ver abstergo pauci vilicus co",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Textor crustulum tunc umquam defendo. Degenero atque stips utor subiungo vinco nobis. Volubilis quasi volutabrum solium denego desino decerno.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "gladly_times_without.xlw.pdf",
+          "size_bytes": 629144,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:yvkC6HTGOcmR",
+      "ts": 1772297536,
+      "label": "Your flight to Austin — Confirmation: Auctus utrimque supplanto cras certus am",
+      "subject": "Your flight to Austin — Confirmation: Auctus utrimque supplanto cras certus am",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Eveniet sum sponte depereo summa nulla verbera. Eum complectus occaecati vilis volutabrum casso aufero tactus. Vere eius decumbo pax debeo reiciendis eaque decerno approbo tametsi.\nEos acquiro titulus charisma somniculosus comminor. Volutabrum vesper constans accusator calamitas cohibeo auxilium valde. Corrupti celebrer earum odio valeo.\nDemitto conculco a patria anser spargo varius cunae. Esse ciminatio amoveo territo celebrer. Bellicus concido tametsi.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:cMjMMzMJFFKc",
+      "ts": 1772284949,
+      "label": "[PR #338] fix: Fuga venia varius admitto.",
+      "subject": "[PR #338] fix: Fuga venia varius admitto.",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tollo voluptatem adeo similique. Assumenda clementia amoveo quod undique tero auctus. Dolorum necessitatibus bis.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:FJFQ5dJ7Ajh5",
+      "ts": 1772249145,
+      "label": "Re: Thesis caterva peccatus avaritia crebro ",
+      "subject": "Re: Thesis caterva peccatus avaritia crebro ",
+      "from": {
+        "name": "TechCorp - HR",
+        "address": "rrhh@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Cribro adimpleo pauci qui consequuntur torqueo suus communis copia. Color vado admiratio vobis. Ter cenaculum debitis cultura doloremque.\nCado collum vel avarus cibus tabella beneficium infit. Cuius tremo caste absens repudiandae. Paens inflammatio aegre approbo candidus abduco cultura hic desidero clam.\nVomito laudantium bos terreo. Bellum tabella tabesco umquam adeo deorsum. Verus cubo verbera voluptate vito vestigium.\nTametsi defluo totam victoria. Tunc curiositas tolero atavus abundans minus quae decerno. Cupressus aer communis talus tenus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:DPizHV3Ubp7S",
+      "ts": 1772239632,
+      "label": "[PR #338] fix: Porro crinis aliquid terminatio.",
+      "subject": "[PR #338] fix: Porro crinis aliquid terminatio.",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Utor adflicto cuppedia cattus caute exercitationem. Enim appositus vesper traho. Tonsor tenus aegrotatio.\nArgumentum adsidue spectaculum degusto nam arbitro. Antiquus desolo cultura vorago accusantium clibanus. Quasi iure una tamen vicissitudo spiculum celebrer.\nTempus triduana alii decretum campana tribuo aegrus. Animadverto solvo absque tumultus doloribus. Correptius commemoro colo vinum degero alias.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:NSUlBtIJdWue",
+      "ts": 1772218021,
+      "label": "Monthly expense summary — Zinc",
+      "subject": "Monthly expense summary — Zinc",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Ultra tum debitis derelinquo. Caput capio tunc. Adflicto ceno defendo assentator aegre arto.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:eCDoHlqZY6yd",
+      "ts": 1772179346,
+      "label": "ACH transfer confirmation: Volutabrum tabella curvo verbum conicio ",
+      "subject": "ACH transfer confirmation: Volutabrum tabella curvo verbum conicio ",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Commodo laboriosam solus enim abbas amitto allatus creptio. Communis molestiae allatus vulariter cuius adinventitias. Blandior adinventitias canonicus acies denuncio apud usus sustineo.\nComis una tribuo ago saepe valde tero sulum desidero victoria. Qui adnuo urbs veritatis aequitas officia annus deorsum comptus. Crux vindico tyrannus occaecati considero balbus.\nAccusator artificiose alienus quibusdam curvo. Nostrum damno vigilo ocer. Sodalitas cognatus utrum quidem voluptates vitiosus ocer aequitas.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "glass_under_circumference.m1v.pdf",
+          "size_bytes": 1718221,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:0dRH34oTDUp4",
+      "ts": 1772097076,
+      "label": "Re: Cursim vesper vulticulus somnus sto virg",
+      "subject": "Re: Cursim vesper vulticulus somnus sto virg",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Rosa Vega",
+          "address": "rosa.vega@correo-demo.local"
+        }
+      ],
+      "body_text": "Teneo pauci umbra audax cohaero thema crastinus. Repudiandae magnam blanditiis casso demulceo. Quis thesaurus viduo tabgo tepesco verecundia clarus.\nVelut perferendis subiungo capillus acidus adipisci agnosco. Cinis cohaero conscendo conduco viduo corrigo dignissimos. Vomica tabgo patruus cogo valeo tabula antepono sumptus.\nTurbo tollo terreo. Appono vis demitto deprimo quae considero somnus. Vinum ascisco eos optio supplanto admiratio atavus administratio.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:dz1Ny3O3qR3f",
+      "ts": 1771995434,
+      "label": "Re: Atqui consequatur cado ipsam deleo ultio",
+      "subject": "Re: Atqui consequatur cado ipsam deleo ultio",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tutis vel conscendo velut crudelis termes. Torqueo pecus theca nobis angulus testimonium suadeo. Alo strues terga corpus viridis spiculum adulatio sordeo accedo.\nCrepusculum comprehendo supplanto coerceo. Cervus ipsa reiciendis vigilo ad collum balbus stultus delinquo. Ager magnam coerceo teres conventus adfectus advoco.\nCompello statua clarus tenuis iste. Cattus commodo colo officia terreo. Terreo adfectus comedo conor.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:5q9dxQtIo0NT",
+      "ts": 1771980045,
+      "label": "Little bro, mom says come over on Sunday: Nobis dens nobis benigne doloribus.",
+      "subject": "Little bro, mom says come over on Sunday: Nobis dens nobis benigne doloribus.",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Audeo stipes spes. Tollo aut carus ambulo cibo doloremque careo sufficio verecundia autem. Vilis comprehendo illo supra tum bonus sed tergo conspergo truculenter.\nDucimus ascit vis argumentum stips adflicto attollo sublime. Videlicet depono comburo vulnero aspernatur comedo. Usque quasi arx est solvo conor victus caste bardus crudelis.\nNostrum aduro adstringo ater. Abeo officiis provident vester. Aestus cumque conor.\nCapto ipsum uter maxime talio socius ulciscor. Appositus vehemens triduana apud. Trucido volo est denego.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "wrongly.tar.pdf",
+          "size_bytes": 1677229,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:zcZg72E12gID",
+      "ts": 1771793897,
+      "label": "Your flight to Austin — Confirmation: Maxime demo utrum teres tamquam voluptas",
+      "subject": "Your flight to Austin — Confirmation: Maxime demo utrum teres tamquam voluptas",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curvo ascit commodi coniecto error recusandae despecto arceo subvenio aegrotatio. Cunabula aurum suscipit corona depopulo subseco triduana. Cruentus aeternus aedificium facilis.\nAscit arcus solus trucido votum ciminatio vergo. Acsi claro decumbo conforto ventosus vesper conicio cubitum. Articulus ante tam et auctus undique cur praesentium vorax.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "whenever_continually_shark.csh.pdf",
+          "size_bytes": 2620948,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:9HsUI0OyEXWn",
+      "ts": 1771769050,
+      "label": "New episode: Itaque tantillus defendo conforto titulu",
+      "subject": "New episode: Itaque tantillus defendo conforto titulu",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Earum tendo nihil tamen approbo derelinquo culpa. Tertius umquam cultura speciosus audax. Cresco patruus accusamus cruentus error voluptate vomer.\nAtrox cognomen constans caelestis tamen adsidue defero. Ter candidus adsum teres annus abduco adhuc quae aperiam bardus. Hic ago candidus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "private_numeracy.jpeg.pdf",
+          "size_bytes": 3739990,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:y4H2PgSigeoB",
+      "ts": 1771709925,
+      "label": "Weekly summary of your Orbit account: Admoveo cibo summisse torqueo arcus.",
+      "subject": "Weekly summary of your Orbit account: Admoveo cibo summisse torqueo arcus.",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Combibo dolores comprehendo corrumpo desparatus arguo. Armarium concido auxilium quidem. Bonus thorax speciosus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:WY6pdxudUTHI",
+      "ts": 1771678216,
+      "label": "Re: Sprint meeting tomorrow at 10am",
+      "subject": "Re: Sprint meeting tomorrow at 10am",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Repudiandae damno cernuus ustulo cibus quia. Qui tantum baiulus crudelis labore ut volaticus unde. Ad cimentarius cum.\nSpoliatio velut cubitum. Claro culpo adsidue sum abutor curtus calamitas quod bestia laboriosam. Aetas valde terreo.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:27LAXVH8hnbU",
+      "ts": 1771665750,
+      "label": "Re: Patior animadverto cresco quod theatrum ",
+      "subject": "Re: Patior animadverto cresco quod theatrum ",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Volva dolore defendo absorbeo alias tempus brevis. Amissio vacuus corrigo aliqua aspicio cito autem. Cura subseco animus corpus quod ars hic amplus.\nSub alii atque tutamen. Vulticulus teres pecto creber paens cado molestiae aureus canis totidem. Cetera uter utrimque civitas adficio bis.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:wc7uv8rZmGbT",
+      "ts": 1771614800,
+      "label": "Re: Cum conqueror aestas suscipio armarium c",
+      "subject": "Re: Cum conqueror aestas suscipio armarium c",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Daniel Mora",
+          "address": "daniel.mora@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Pecus circumvenio cultura cometes valetudo peccatus ultio. Accendo aut tenus attonbitus una coaegresco. Apparatus socius usus nam.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:BiSuKEHwZ6vm",
+      "ts": 1771596068,
+      "label": "Your flight to Austin — Confirmation: Curia amoveo copiose adsum denuncio adop",
+      "subject": "Your flight to Austin — Confirmation: Curia amoveo copiose adsum denuncio adop",
+      "from": {
+        "name": "Diana Vega",
+        "address": "diana.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Creo cunctatio dicta. Claudeo inventore venustas compello amiculum desidero. Apto ubi summisse laboriosam dedico curia sursum demitto solium.\nVilicus defero vergo. Solvo autus aeneus bis facere adeptio utrimque curriculum. Arbitro unde solutio alienus audax admiratio.\nAnser deorsum suffragium et delinquo alter ducimus. Abutor ullam vetus. Sed campana delectus.\nDesparatus saepe barba tantillus brevis varius aestivus. Alias sono amicitia. Compello solvo quas utroque.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Xy5soXHMFo8t",
+      "ts": 1771558535,
+      "label": "[PR #338] fix: Denuo communis curto vilis vado candidus",
+      "subject": "[PR #338] fix: Denuo communis curto vilis vado candidus",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Ipsa modi vulnero crebro cohors perspiciatis. Adopto adhaero causa bibo vel venio patruus valetudo. Conculco cernuus allatus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:esRBxXudiupq",
+      "ts": 1771536720,
+      "label": "Re: Sprint meeting tomorrow at 10am",
+      "subject": "Re: Sprint meeting tomorrow at 10am",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Pablo Herrera",
+          "address": "pablo.herrera@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Pauper tempora iusto. Vitiosus armarium contabesco crebro ver suppellex tumultus vehemens abundans. Auctus voveo consuasor minima aliquid.\nTener spargo laudantium bene sponte aequitas antea. Carmen cernuus crastinus aeger debeo. Provident advoco contego delectatio ancilla quidem tabgo absens.\nPecus abscido somniculosus totam utor deripio constans conicio aequus. Barba ratione asporto subnecto solio. Accendo corrupti angustus thymbra ultra adimpleo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:HobMYh5cKgbM",
+      "ts": 1771482960,
+      "label": "Monthly expense summary — Zinc: Arcesso cribro unus claustrum molestias ",
+      "subject": "Monthly expense summary — Zinc: Arcesso cribro unus claustrum molestias ",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Quam charisma averto depraedor textilis artificiose est speculum amita tabgo. Subnecto approbo causa aufero valens solitudo enim ea tener. Canto quos ustilo demens contra accendo.\nConqueror utique expedita adicio conspergo carbo cubitum cunabula reiciendis ratione. Utpote inflammatio cibo verto tubineus cultellus currus dedecor. Video basium spiritus ascit adduco alienus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:CXot4nvdY1RA",
+      "ts": 1771478425,
+      "label": "FlameEats order confirmation #8834: Accusamus exercitationem thorax clam con",
+      "subject": "FlameEats order confirmation #8834: Accusamus exercitationem thorax clam con",
+      "from": {
+        "name": "MercadoMart",
+        "address": "pedidos@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Balbus demulceo ubi. Laudantium chirographum creo accusamus tenuis uterque aspicio tribuo strenuus. Capio tam odit volo stultus demulceo strues vulnus textus vilitas.\nTimidus bestia tolero aggero credo volutabrum dolor excepturi suscipio coadunatio. Bellum terror copia. Reiciendis eligendi dedico.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:UFIICXesF9fj",
+      "ts": 1771469004,
+      "label": "Re: Omnis comptus congregatio.",
+      "subject": "Re: Omnis comptus congregatio.",
+      "from": {
+        "name": "Camila Ruiz",
+        "address": "camila.ruiz@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Corrigo auctus alioqui. Campana apud aperte super vulnero. Desparatus ascisco antepono.\nSopor angulus necessitatibus calamitas. Desidero totidem vinco commemoro abundans volva ater custodia damno apud. Templum culpa angelus nemo vilitas aeternus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:xP9IysSyPLkD",
+      "ts": 1771446463,
+      "label": "Hey Ale, did you see yesterday's deploy?: Sto super vado convoco avaritia copiose ",
+      "subject": "Hey Ale, did you see yesterday's deploy?: Sto super vado convoco avaritia copiose ",
+      "from": {
+        "name": "Diana Vega",
+        "address": "diana.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Conduco veritas truculenter volup armarium allatus adeo vicissitudo a absorbeo. Quaerat aggredior deleniti dolore. Doloribus xiphias terga bene ara aestus bibo.\nAsperiores quas aro. Tollo vaco amplitudo soluta cogito exercitationem. Esse talis adeptio.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:JCYfFmhpZFEr",
+      "ts": 1771394082,
+      "label": "Review requested on PR #345: Peccatus at sono.",
+      "subject": "Review requested on PR #345: Peccatus at sono.",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Cilicium comburo turpis territo tot tonsor crinis despecto. Nihil ascit convoco. Copia dens comis totam casso abscido arto vilicus caterva.\nDegenero cariosus crudelis atrox. Aspernatur architecto territo speculum defendo curia audax tricesimus suasoria pax. Teres currus tempore velum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:lD1xlDzpqqK6",
+      "ts": 1771393233,
+      "label": "Re: Arcesso ipsum arbustum.",
+      "subject": "Re: Arcesso ipsum arbustum.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Newsletter Dev",
+          "address": "newsletter@devweekly-demo.local"
+        }
+      ],
+      "body_text": "Argentum ustulo deprimo. At sol accendo conturbo ullus arguo abstergo circumvenio. Cumque dedico tergum.\nBarba ubi compono decerno cognatus pauci tutamen coerceo callide coepi. Vere spero aequitas aggero uxor tripudio villa. Deprimo subseco comedo cavus aut.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:qPOUUOz0Jt5J",
+      "ts": 1771203006,
+      "label": "[PR #338] fix: Arcus audio custodia angulus quod termes",
+      "subject": "[PR #338] fix: Arcus audio custodia angulus quod termes",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Clarus centum capillus casus magnam tonsor vitium absorbeo caecus. Voveo urbs comes confugo acsi suscipio. Canonicus tremo dolores deleniti cura paens labore surculus demoror.\nAranea auxilium conitor vigor. Curis aro tabella currus tenus tracto occaecati torrens. Dicta tenetur cur quas creo viduo suffoco.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:lZEO7S14mibM",
+      "ts": 1771183410,
+      "label": "Re: Stips deserunt beneficium communis viscu",
+      "subject": "Re: Stips deserunt beneficium communis viscu",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "FlameEats",
+          "address": "pedidos@flameeats-demo.local"
+        }
+      ],
+      "body_text": "Confugo auctor decens. Vaco sapiente bellicus sapiente caecus advoco suadeo terreo certus atavus. Apostolus volaticus abutor nemo nulla depulso temeritas placeat volubilis.\nCui deprecator subnecto. Thema anser ab. Bellum viriliter spero tribuo vicissitudo alii.\nDenique substantia statim utpote damno aperte tendo. Confugo uredo vulnero. Terebro adfero utique carcer alius capitulus repudiandae.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:y1wY5no9q6HV",
+      "ts": 1771177419,
+      "label": "Reminder: Capio exercitationem eveniet arceo tonso",
+      "subject": "Reminder: Capio exercitationem eveniet arceo tonso",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Adeo aspernatur ambitus sufficio suus cubitum triduana. Cedo ulterius tibi cunabula corrigo voluptatum cupiditate coaegresco pecto utilis. Valeo thesis validus tergo pauper adstringo contigo.\nVerumtamen vinculum arguo. Tremo ager volo pel copia libero maiores. Molestiae speciosus calculus.\nDistinctio agnosco celebrer. Adiuvo veritatis conventus defluo laboriosam doloremque. Arca atrocitas correptius summa.\nPectus asperiores aliquid attero theatrum texo stabilis velut. Sodalitas trepide eligendi. Stabilis sulum spiritus vitiosus volaticus quo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:uwUnMZwscocr",
+      "ts": 1771087799,
+      "label": "Re: Tabesco solutio ut earum compello tubine",
+      "subject": "Re: Tabesco solutio ut earum compello tubine",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Mariana Torres",
+          "address": "mariana.torres@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Vitae cometes ago turba ademptio alo contigo curatio. Tredecim vicissitudo abutor caecus clamo strues vita admiratio. Vestigium tepesco suspendo.\nCalco thesaurus canis carbo demoror rerum celebrer et apto vicissitudo. Vomito caput apud amor voco accusamus abeo sumptus. Non quas placeat celer cavus amet delicate auctor colo demitto.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:sJ2zDmuaNyyT",
+      "ts": 1771011246,
+      "label": "Re: Deleo vae vos angulus commemoro unus sol",
+      "subject": "Re: Deleo vae vos angulus commemoro unus sol",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechConf SF",
+          "address": "info@conftech-demo.local"
+        }
+      ],
+      "body_text": "Carmen caries tego aiunt teneo degero. Bestia ultra totam. Viridis articulus tripudio.\nSonitus contabesco cunctatio necessitatibus ullam victoria voluptate audax officiis. Vitae triumphus adaugeo. Acidus virtus adipisci voluptatibus statua excepturi.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:2zdutFLHl3iO",
+      "ts": 1771006426,
+      "label": "Invitation: Clementia cetera dens contigo surgo vult",
+      "subject": "Invitation: Clementia cetera dens contigo surgo vult",
+      "from": {
+        "name": "Mariana Torres",
+        "address": "mariana.torres@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Spiritus tantillus usque bellum adipiscor ducimus ver. Vicissitudo urbanus vix claro. Tristis chirographum voluptatibus aperte condico degero.\nAdsuesco vaco cometes minima. Tabgo amicitia sulum socius. Statua caveo paulatim adeo causa quod decor.\nOmnis trucido a. Cado amiculum fuga repellat adsidue adeptio uberrime aeger. Claustrum theca patior.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "even_neighboring.tar.pdf",
+          "size_bytes": 1381881,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:AyYbZ9QQe4cm",
+      "ts": 1770994289,
+      "label": "New episode: Spiculum creber autem molestiae argument",
+      "subject": "New episode: Spiculum creber autem molestiae argument",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tandem sublime acidus teneo ipsum villa ciminatio. Corona saepe confero cohors auctus. Sulum comedo suscipio curia summopere.\nAdfectus considero coruscus natus despecto stillicidium abscido verus neque speciosus. Canto stips vado aureus vitae. Derelinquo clamo quod amoveo.\nTerga tres dignissimos. Aedificium turbo thema tribuo canonicus itaque. Clarus ustilo rem custodia cruentus theatrum via acidus aggredior.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:cp65soKLwQ57",
+      "ts": 1770886249,
+      "label": "Re: Amissio tamisium cultellus aggredior stu",
+      "subject": "Re: Amissio tamisium cultellus aggredior stu",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Crepusculum avaritia voluptate conor cernuus cras quidem. Ancilla voveo corpus. Correptius abeo tantillus denego depereo eaque aveho.\nThymum cattus truculenter vinum accedo sortitus sursum dedico aeger. Vix eveniet sponte denique. Autem cedo confugo comitatus aliquid substantia aer.\nCum denique stillicidium patrocinor versus voco vos. Corporis curso beatus decor quos subito. Una cicuta subiungo.\nCuriositas cattus aspicio veritas appello coruscus usque provident appello. Torrens tandem ullus subvenio sulum ducimus bonus. Adficio totus vulgus pauper solvo cubo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:GUSk743zURNG",
+      "ts": 1770820960,
+      "label": "New episode: Adficio conturbo territo audentia coniur",
+      "subject": "New episode: Adficio conturbo territo audentia coniur",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curto provident auxilium tot dolor pariatur thema. Contigo antepono deduco solutio. Sumptus talus abbas nulla vociferor subvenio.\nDeduco aut valens vox auctus amor. Comminor tametsi caelum laborum ceno. Convoco constans adeo aegrus sursum nemo arma vis error.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:b9UOfPS7KwJI",
+      "ts": 1770795062,
+      "label": "Your order #1024 has been delivered: Carcer ipsa accendo decimus soluta.",
+      "subject": "Your order #1024 has been delivered: Carcer ipsa accendo decimus soluta.",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Omnis depopulo studio maiores consequuntur thalassinus taedium nostrum. Similique perspiciatis beatae ascisco caterva contigo unde. Spargo amplus corrumpo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:IK4A24W4Wf1Y",
+      "ts": 1770785778,
+      "label": "Re: Microservices architecture proposal",
+      "subject": "Re: Microservices architecture proposal",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vester casus vestrum aggredior aliquid depulso. Accusator illo cervus expedita officia. Toties depopulo suscipit patior.\nTibi compello sub barba spero corona accendo. Aliqua derideo tamen aliquid deleniti arbor vere deserunt delectatio pariatur. Vitiosus suppono uberrime amplexus utrum deprimo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:5E3bZMAwOl5N",
+      "ts": 1770744761,
+      "label": "Security update on your account: Decet defleo abutor casus statua nemo ta",
+      "subject": "Security update on your account: Decet defleo abutor casus statua nemo ta",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Ex taedium arma aiunt cedo vado. Animadverto voluptas carpo titulus tamisium tyrannus vallum barba omnis. Aiunt sto patrocinor.\nAbbas alioqui allatus beneficium deputo numquam explicabo corporis. Curia suasoria uterque inventore reiciendis tersus tergum. Cibus calamitas textilis talus assumenda artificiose amaritudo chirographum sui.\nVulnus ultio vomica arca cornu barba circumvenio amo unus. Curo angustus defero. Speciosus veniam altus acsi deleo.\nApud sonitus ter. Repellat vere demonstro vox addo ater. Soluta aliquid pecco dens animi.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:9THgYrbGaTV4",
+      "ts": 1770654106,
+      "label": "Your flight to Austin — Confirmation: Beatae architecto adversus depono ustilo",
+      "subject": "Your flight to Austin — Confirmation: Beatae architecto adversus depono ustilo",
+      "from": {
+        "name": "Camila Ruiz",
+        "address": "camila.ruiz@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Suggero cornu vicinus canis attollo. Veritas absque tolero ex aegrus solvo curia curiositas. Statua amitto deorsum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:GLu3b3vA1iV3",
+      "ts": 1770629435,
+      "label": "Your order #1024 has been delivered",
+      "subject": "Your order #1024 has been delivered",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Velum arca suadeo cupressus catena. Incidunt canonicus veritatis amissio laborum denique. Defendo patior vesper admiratio eius vesper altus vado accusator.\nUt abstergo caelestis curis deficio quisquam aestus accusamus aut. Comis sunt cubo sortitus abstergo administratio sustineo videlicet aperte. Textus angustus cognomen careo dicta.\nDolore solvo depopulo angelus. Vorax succurro uter. Tibi victus bestia.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:AtiOlokUD3eH",
+      "ts": 1770577170,
+      "label": "Weekly summary of your Orbit account: Degenero voluntarius tristis ea baiulus ",
+      "subject": "Weekly summary of your Orbit account: Degenero voluntarius tristis ea baiulus ",
+      "from": {
+        "name": "CloudSync",
+        "address": "billing@cloudsync-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Turbo tamisium desparatus consequatur. Angelus deinde alius vespillo cavus creator nostrum. Cogito velut tristis auxilium.\nDeleo spargo tametsi vester fuga tabgo. Ultra vae comminor solum stips callide vestigium succedo articulus. Suffragium illum tepesco.\nChirographum caelum adversus beatae rem. Comes averto denique eveniet voluptatem. Subvenio dolores velum concedo strues cohaero.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:GhwzQj9FLXsJ",
+      "ts": 1770468297,
+      "label": "30% off your next purchase — MercadoMart: Inflammatio abbas deduco atrox eaque pel",
+      "subject": "30% off your next purchase — MercadoMart: Inflammatio abbas deduco atrox eaque pel",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Quibusdam adaugeo defaeco callide valens demo delectatio comes adinventitias cicuta. Compello adsidue terra iusto aureus ipsam stultus. Sapiente ars ademptio argentum fugit molestiae speciosus defero.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:djnHPos4hN2K",
+      "ts": 1770446257,
+      "label": "Re: Dedico adnuo ait deleniti vorago vulgari",
+      "subject": "Re: Dedico adnuo ait deleniti vorago vulgari",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Defendo voluptates succedo cupiditate victus verto. Vigilo porro suscipit deleniti quia crudelis armarium. Crudelis terga cuius demergo temporibus.\nConiecto absens tamen verus abscido sopor dolores. Aspicio conservo aliquid cerno denego versus bellicus strues suffragium. Voluptates assumenda adstringo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:a0eCes2lCQbb",
+      "ts": 1770440822,
+      "label": "Your CloudSync invoice — March 2025: Pectus derideo vehemens cur atavus.",
+      "subject": "Your CloudSync invoice — March 2025: Pectus derideo vehemens cur atavus.",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Admoveo natus terga arx volva cohibeo. Advenio rem quo stillicidium cupiditas vergo defendo tenuis. Nulla quas ultio vicissitudo tollo quia conicio cum.\nCoepi viriliter contego officiis. Curso tyrannus vesper. Deputo ademptio dedico damnatio quos pauper triumphus.\nCulpo cerno traho. Ex temptatio venustas delicate enim suscipio xiphias sursum excepturi arguo. Solitudo est crudelis catena ullus harum tactus magni.\nQuam ad debilito temeritas umerus tertius repellendus benevolentia allatus confugo. Quaerat corroboro illum amita ullus paulatim ambulo. Torqueo callide cerno.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:nC9ZWrTSmx2v",
+      "ts": 1770428262,
+      "label": "Your flight to Austin — Confirmation: Vado speculum inventore tandem aggredior",
+      "subject": "Your flight to Austin — Confirmation: Vado speculum inventore tandem aggredior",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Peccatus trepide cupio. Sollicito advenio deficio calculus vereor villa tendo. Vulpes admitto video callide.\nIure numquam desolo umbra. Civis tergiversatio fuga. Decor adiuvo aurum solvo.\nIllum fugit amor victoria. Tracto facere tardus explicabo dolor ater addo. Auctus sonitus auditor aperiam.\nCogo ultra thorax tracto attero acidus comedo traho vorax. Astrum carpo umquam amplus comptus tubineus. Iusto caute adulatio conforto acceptus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:zURL2wLTBJlk",
+      "ts": 1770395299,
+      "label": "Re: Vomica carcer unus adsidue explicabo ann",
+      "subject": "Re: Vomica carcer unus adsidue explicabo ann",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Aliquid utpote est absens nulla speculum conqueror corroboro tenax decens. Adfero adstringo audentia. Verbum comparo tego vulgaris tyrannus quas alius ultio altus.\nDeprimo ambitus damno confugo. Demonstro asporto aequus tepesco. Aqua utrum veniam arto adhuc ventus.\nValidus aetas alioqui utrimque tego defungo terga solus. Abutor cubitum versus spiculum adipisci vulnus vulgo degusto vapulus. Cibo voluptatibus terra deprecator decipio agnosco.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:drWa4mUmI2kA",
+      "ts": 1770366650,
+      "label": "New episode: Spectaculum temptatio decor.",
+      "subject": "New episode: Spectaculum temptatio decor.",
+      "from": {
+        "name": "Mariana Torres",
+        "address": "mariana.torres@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Porro trepide aggero cresco supplanto textilis. Crudelis celo depromo conitor spero summopere ex. Annus valde antepono stella cui decumbo vesper exercitationem aro.\nUtroque vespillo cuius torqueo sustineo velociter talis uberrime. Deorsum beatae sit ancilla chirographum sunt. Thesaurus nam vicissitudo repellat bestia custodia usque vesper vere adhuc.\nDeripio decor aestivus creber delego cognatus tergum basium. Dolorum facilis argumentum aegrotatio utpote. Similique sunt testimonium.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:OxPT5U1Qz1m6",
+      "ts": 1770351840,
+      "label": "Re: Adulescens audio vae.",
+      "subject": "Re: Adulescens audio vae.",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tibi magni tenuis copia. Caries abscido vir uxor aeternus autem. Censura spiritus chirographum canto aperio articulus umquam verbera.\nTaceo vestrum mollitia ambitus vulgaris sopor vesica audio. Vestrum aegrus adstringo arx audeo clibanus terror animadverto aeneus ipsam. Quasi temptatio alioqui nulla denuncio copiose alius.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "appliance_waterlogged_hoick.m3a.pdf",
+          "size_bytes": 3144604,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:AttIlvkTczjy",
+      "ts": 1770338795,
+      "label": "ACH transfer confirmation: Ex caritas vulgo neque molestias utilis.",
+      "subject": "ACH transfer confirmation: Ex caritas vulgo neque molestias utilis.",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Decet cunctatio aranea vestigium voluptatum delectatio. Culpa blanditiis aestus acervus magni suggero. Deporto assentator armarium.\nVerus ventus ciminatio caute distinctio volo adimpleo vicissitudo. Coniuratio chirographum strenuus tactus. Aeternus aggero ventito theatrum versus stultus adsuesco stips venio.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "pleasure.ini.pdf",
+          "size_bytes": 2458753,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:mWnmszpapC4T",
+      "ts": 1770286148,
+      "label": "Re: Provident laboriosam audacia viriliter s",
+      "subject": "Re: Provident laboriosam audacia viriliter s",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechCorp - HR",
+          "address": "rrhh@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Compono collum caries ullus pecto adeo complectus aliquam. Porro aedificium victus supplanto. Vulgus cinis tantum peccatus vinculum supplanto id adhuc conqueror canto.\nCunctatio dolor curis cervus. Coerceo dolores trepide culpa votum crepusculum consequuntur decerno. Sonitus tenetur chirographum apparatus sollers.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:iqpxd6BAmSLd",
+      "ts": 1770156979,
+      "label": "Your flight to Austin — Confirmation",
+      "subject": "Your flight to Austin — Confirmation",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vergo vapulus charisma cinis virtus. Vilitas crepusculum sequi thesis ceno suadeo addo. Caute cupiditate corrumpo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:XQcKW6G50YcN",
+      "ts": 1770051318,
+      "label": "Charge alert: Sit congregatio unde tabesco patruus car",
+      "subject": "Charge alert: Sit congregatio unde tabesco patruus car",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Templum confido pax cubitum. Appositus crudelis absens vix. Spero mollitia suus tribuo utor.\nCresco depulso cornu virga commemoro celo inflammatio allatus. Voro conscendo ancilla chirographum curatio tum volaticus super vicissitudo attollo. Nihil deduco defetiscor viridis copiose armarium omnis amor summa a.\nThermae cunabula teneo succedo spargo cupio. Contigo creber subiungo tamen comburo theca tres adipisci delinquo soluta. Somniculosus atqui abstergo nobis aeger.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:bSnYqjH8b18F",
+      "ts": 1770039888,
+      "label": "Re: Nisi canto summisse degenero umbra demon",
+      "subject": "Re: Nisi canto summisse degenero umbra demon",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Newsletter Dev",
+          "address": "newsletter@devweekly-demo.local"
+        }
+      ],
+      "body_text": "Tutis depraedor argentum reprehenderit ventosus spiculum viscus tamen audentia. Tibi coruscus aspernatur optio beatus vere patior acidus degusto tertius. Harum supra iure saepe adsum reiciendis calamitas.\nDebitis bibo advenio celo uredo somniculosus defessus conatus communis. Acervus similique coniuratio ipsam dicta crepusculum. Ventosus viriliter casso tui ademptio cimentarius causa aut.\nCeler suggero cultura velociter. Caries umbra urbs esse audio ea acies abundans despecto. Appono cornu depraedor excepturi totus arto acervus suspendo ullam culpa.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:njOotaRfaC8Y",
+      "ts": 1770039029,
+      "label": "New episode: Podcast Dev Weekly #87",
+      "subject": "New episode: Podcast Dev Weekly #87",
+      "from": {
+        "name": "MercadoMart",
+        "address": "pedidos@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Victoria infit conspergo sub. Aranea tamdiu copia vomer ceno. Nobis amaritudo theatrum.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:cIjjaFyx7gpC",
+      "ts": 1769959783,
+      "label": "Invitation: Cupiditate sumptus aspernatur ago soleo ",
+      "subject": "Invitation: Cupiditate sumptus aspernatur ago soleo ",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vigilo vero laborum quod coepi complectus cogito culpo. Debeo aperiam tripudio. Tamquam blandior conscendo aetas ustilo repellat cuius.\nAutus compono eaque spes ipsum triumphus caelum victoria pax culpa. Arma dicta demonstro aeneus rerum demitto valde. Censura subnecto vomica brevis caelum adsum spiritus tamen supplanto utor.\nError tactus auctus. Vester ambitus conqueror derelinquo talis volaticus attonbitus. Demum consequatur asperiores depopulo cursus eligendi enim.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:JeZtohK4VnWF",
+      "ts": 1769926902,
+      "label": "Monthly expense summary — Zinc: Vigor sponte abeo nulla subseco claustru",
+      "subject": "Monthly expense summary — Zinc: Vigor sponte abeo nulla subseco claustru",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Sto bibo aestus studio spiculum ut spectaculum adsidue sursum colligo. Voluptatibus vobis vomito. Cognomen vorax solus correptius.\nUt suppellex coepi amitto quibusdam acsi adfectus. Sustineo consequatur absque voluptatibus circumvenio trucido. Damnatio cubitum termes curriculum quos sed cribro.\nAgo umerus bellum. Aperio villa amita absque tego vado cruentus ad unde. Viriliter theatrum ocer succedo quo.\nError officia demum coruscus adaugeo amita amicitia denego. Strenuus beatae temporibus uxor creo quis molestiae verus toties. Vulticulus ventito agnitio.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "from_vastly_except.m2a.pdf",
+          "size_bytes": 379807,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:qDBdtxfjCueQ",
+      "ts": 1769817861,
+      "label": "Sweetie, sending you the recipe you asked for: Tantillus sustineo tam aureus ater vesti",
+      "subject": "Sweetie, sending you the recipe you asked for: Tantillus sustineo tam aureus ater vesti",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Inventore amet compello vere subnecto advoco. Degero tres nam vulgo comis sursum comprehendo deprimo. Exercitationem quisquam tergiversatio tego tredecim nobis incidunt valens vesper.\nDefaeco adsidue appono chirographum. Patrocinor excepturi admoveo absens torqueo. Asper vicinus ubi.\nUrbanus ustilo canonicus territo crudelis veniam dens thermae voluptas vicinus. Itaque complectus depopulo aegrus. Nesciunt solus facere abundans cum magni.\nVictus aperte numquam cruentus tersus vigor maiores speculum voluptatum perspiciatis. Defluo rerum urbanus universe nisi vox debitis cognatus defessus. Vero adulescens dolore arcesso ante vapulus denuo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:IQN32vSh80Wi",
+      "ts": 1769790487,
+      "label": "FlameEats order confirmation #8834: Consectetur crinis summopere cubicularis",
+      "subject": "FlameEats order confirmation #8834: Consectetur crinis summopere cubicularis",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Synagoga denego quisquam testimonium tripudio esse. Dens solium video tollo. Collum venia deprecator ambulo appello adipisci corroboro crur.\nArbitro paulatim socius auctor videlicet ventosus. Recusandae arcesso cimentarius nesciunt tendo. Ulterius urbanus sollers cubo blandior tristis adopto dolore colo.\nCurriculum pecus apto undique. Curiositas varietas cupiditas. Uterque adficio tribuo ceno aeger tametsi utroque votum theca.\nUtrum thesis cubo universe abeo despecto corrigo eius. Valens adiuvo commemoro patrocinor pauci nesciunt patria viriliter. Aestivus alienus supplanto uxor solio arca vulgivagus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:lZNOUCJNgYry",
+      "ts": 1769671348,
+      "label": "ACH transfer confirmation: Ait conscendo sit teres circumvenio expe",
+      "subject": "ACH transfer confirmation: Ait conscendo sit teres circumvenio expe",
+      "from": {
+        "name": "MercadoMart",
+        "address": "pedidos@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vacuus adimpleo cariosus xiphias benevolentia contra. Cariosus tepesco ventito adsidue vinculum deputo paulatim cibo despecto. Thymbra colligo suasoria truculenter vestrum aranea bos suscipit verbum.\nCanto venio ara. Acer caste cernuus accedo terga supplanto absconditus. Ter caecus natus.\nAufero adopto officia comedo solvo vivo minus statim caelestis tantillus. Utpote decretum civis. Truculenter cubo sono verto tergiversatio virga uberrime.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:vo1O4EmJhmYo",
+      "ts": 1769629761,
+      "label": "Security update on your account: Spiritus approbo annus ascit magni caveo",
+      "subject": "Security update on your account: Spiritus approbo annus ascit magni caveo",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Creo cribro curso cura conservo libero thermae odio. Subvenio dolorum quam suffragium. Cubo usitas universe sulum conatus suppono.\nSubito bellum absconditus ante paulatim cursus. Vado atavus ustulo derideo voluptates. Totus ea caput una iusto.\nQuibusdam aequitas pecto acceptus talis cinis defendo apostolus aperio. Ago depraedor ratione cubo dolore verecundia tactus temporibus. Crebro bellum aeternus tamquam celo decumbo capitulus officia benevolentia.\nSupra amet venustas urbanus vitiosus atqui vilitas vulgivagus. Allatus varius atrox creber despecto dicta. Calco comptus consequatur cilicium vulgo unde tyrannus credo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "smart.mid.pdf",
+          "size_bytes": 2730770,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:FjDY1cC1RoMJ",
+      "ts": 1769582431,
+      "label": "Your CloudSync invoice — March 2025: Thema tui alii admiratio verecundia brev",
+      "subject": "Your CloudSync invoice — March 2025: Thema tui alii admiratio verecundia brev",
+      "from": {
+        "name": "Diana Vega",
+        "address": "diana.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Adsum cura tricesimus dapifer tam tenax antiquus vesco depraedor tamen. Non sapiente communis solutio alter catena trans deorsum alioqui theatrum. Antiquus molestias stella carpo ventosus hic volutabrum vicinus vicinus.\nCruciamentum accusamus tribuo labore. Templum vestrum necessitatibus ipsa. Voveo surculus surgo bibo stultus totam amplexus.\nVoluptate pectus tui paulatim ab magnam vindico ratione quisquam. Deprecator universe constans deserunt vesper umerus ascisco qui urbs. Vulpes cubitum terreo vorax temporibus cotidie nobis tumultus turpis stella.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:3kDiqQYYvsq0",
+      "ts": 1769578042,
+      "label": "Feedback on the payments endpoint",
+      "subject": "Feedback on the payments endpoint",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "LyraMusic",
+          "address": "updates@lyra-demo.local"
+        }
+      ],
+      "body_text": "Comptus dolores ventito suffragium antiquus stultus patior tersus aggredior vitiosus. Delibero strues suppono. Saepe admoneo conitor victoria defungo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:eOPFw8yq97gJ",
+      "ts": 1769568481,
+      "label": "Security update on your account",
+      "subject": "Security update on your account",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Certus veniam aeger cogito capio cuius. Canis verecundia aufero. Crux caterva rem voluptas exercitationem.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "phooey_general.xsd.pdf",
+          "size_bytes": 1315774,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:gFYYmm95gvD5",
+      "ts": 1769519463,
+      "label": "FlameEats order confirmation #8834: Debitis repellat deinde votum degusto ve",
+      "subject": "FlameEats order confirmation #8834: Debitis repellat deinde votum degusto ve",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Acervus tutamen tristis. Vapulus voluptates clarus confido reprehenderit cultura quae centum tutamen solutio. Sodalitas alioqui dolores utrum modi avarus aduro.\nVeritatis vestrum temporibus comminor paens demonstro ullam peior studio dens. Eius velit caries libero alioqui aufero crinis illo. Adamo stultus trepide ars quasi vesica patruus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "bah.vss.pdf",
+          "size_bytes": 2402357,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:CrcjDrYEv2Gz",
+      "ts": 1769469260,
+      "label": "Monthly expense summary — Zinc: Valeo volaticus amplitudo curo pecco amp",
+      "subject": "Monthly expense summary — Zinc: Valeo volaticus amplitudo curo pecco amp",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vesco bis bene acquiro communis tumultus cauda. Magnam auctor aperio stillicidium calculus vetus torqueo totus administratio. Curiositas caries compello arbor.\nCornu vereor utrum. Sub comparo arbor adulescens defaeco demonstro curto. Eligendi subnecto ultra ut cogito quo vobis.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:J0rcogC286Tn",
+      "ts": 1769445243,
+      "label": "Re: Cribro terror aveho amissio cenaculum de",
+      "subject": "Re: Cribro terror aveho amissio cenaculum de",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "MercadoMart",
+          "address": "pedidos@mercadomart-demo.local"
+        }
+      ],
+      "body_text": "Studio civis vomica praesentium vulgaris cena tamquam creo recusandae reprehenderit. Veritatis tremo animadverto turbo. Taedium benigne vulnus defetiscor templum ultio blanditiis.\nExcepturi accendo coerceo angulus cumque cibo vulgivagus volup. Curis vaco paens cibus tollo complectus cinis. Benevolentia bestia ventito talus ante acervus auctus vulnero veritatis.\nModi nam tepesco conduco. Despecto comburo thermae. Cultellus atque ademptio adsum vergo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:KjxPp8VolBPY",
+      "ts": 1769444125,
+      "label": "Microservices architecture proposal",
+      "subject": "Microservices architecture proposal",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Rosa Vega",
+          "address": "rosa.vega@correo-demo.local"
+        }
+      ],
+      "body_text": "Stella volaticus vorago sortitus conturbo debeo. Suspendo confido dolorum depereo turpis accedo tabesco atrox combibo sophismata. Synagoga cibus earum comburo delectatio porro adsum vita infit.\nDemoror trucido angustus ventosus campana studio. Tenax argumentum totidem sol tergo depopulo tribuo. Asporto voco volup vorago altus tamisium rerum voluptates peior.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:NYDMij1wDrjN",
+      "ts": 1769394042,
+      "label": "New episode: Vicissitudo vulgivagus umerus vociferor ",
+      "subject": "New episode: Vicissitudo vulgivagus umerus vociferor ",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Verumtamen villa tersus placeat pauci volo. Demum via vereor cogito ter facere. Harum coruscus auditor comminor agnosco cenaculum defessus derelinquo.\nAeger adsuesco claudeo admitto accommodo dens iste carus vinculum. Aetas vis provident arceo alienus angelus dolores denuncio. Arma cauda tergum depono quibusdam cupiditate cur volutabrum viduo.\nCedo texo inventore quos pel adeptio aspernatur crur. Sublime cado victoria. Pecus calco rerum arcus deinde cohibeo compono civis cetera depulso.\nCasso caelestis terra amitto cras. Audax conicio acer tempora terreo itaque saepe beneficium sordeo. Auditor tego soluta curso ab tredecim conitor adulatio tamquam.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:OqooRqDHIpgE",
+      "ts": 1769328680,
+      "label": "Re: Artificiose antea claustrum doloribus to",
+      "subject": "Re: Artificiose antea claustrum doloribus to",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Mariana Torres",
+          "address": "mariana.torres@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Spiritus conitor casso. Vaco denique urbs versus vilis crinis iure. Temperantia validus careo.\nAgnosco civitas suffragium paens voluptatibus tergum cibo molestias vorax sto. Bonus fugit curso odio artificiose. Absque autus cultura vulnero allatus a.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:x3WxD12X9aSN",
+      "ts": 1769299570,
+      "label": "New episode: Ea facere civitas talio delectatio delic",
+      "subject": "New episode: Ea facere civitas talio delectatio delic",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Statua calco calamitas. Curis ex suscipit velum defero pariatur. Abbas trepide tabgo vitiosus corroboro tracto.\nAngelus voluntarius arguo triduana demitto paulatim ducimus aegre. Uterque occaecati depraedor concedo ater tero ea spiritus claustrum vallum. Solvo ultra canonicus voluptas calcar calco verumtamen cinis convoco ultio.\nAgnosco comitatus caput velociter clementia capio claudeo utique aufero. Tui astrum desolo denuncio. Pecus spectaculum baiulus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "fatally_oof_mountain.m2a.pdf",
+          "size_bytes": 4394263,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:NKY9rKGaKrP9",
+      "ts": 1769267504,
+      "label": "Re: Tyrannus aeternus benevolentia assumenda",
+      "subject": "Re: Tyrannus aeternus benevolentia assumenda",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Eaque benevolentia facere suggero. Testimonium cernuus vir curiositas allatus synagoga sollers conventus. Timor tabula ancilla atque curso doloribus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "untried.rmi.pdf",
+          "size_bytes": 3924789,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:1BBSpqY1BH5I",
+      "ts": 1769262114,
+      "label": "Invitation: TechConf SF 2025 — Early bird",
+      "subject": "Invitation: TechConf SF 2025 — Early bird",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Repellendus vester quidem currus praesentium urbanus curiositas curo amet. Decor crapula adflicto peccatus adsidue alienus admoveo. Ea pariatur conitor sub terminatio.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false,
+      "ext": {
+        "thread": "austin_tech_trip",
+        "topics": [
+          "austin",
+          "conference",
+          "tech",
+          "trip",
+          "uadp"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:b1cYFZ8QwSzF",
+      "ts": 1769236193,
+      "label": "Hey Ale, did you see yesterday's deploy?: Creptio assumenda texo officiis ter titu",
+      "subject": "Hey Ale, did you see yesterday's deploy?: Creptio assumenda texo officiis ter titu",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Conservo aestas explicabo crudelis nobis. Barba patruus arx civitas omnis crebro conor unde usus iste. Deprimo tredecim vetus cultellus arbustum alias culpo super adduco concedo.\nComprehendo curiositas acsi tracto pectus vos quaerat convoco vox. Stultus canis vos pax venustas. Pecus recusandae thesis adsidue.\nSponte ad combibo cura verto cometes decor delinquo adopto. Coruscus canis apto facilis harum sopor. Truculenter non celer vehemens aveho adeptio ventosus.\nAppositus defessus terror cito canonicus. Solium thema ulterius desino umquam virga tergiversatio cotidie. Coniuratio adflicto crustulum tot cito defungo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ZGifQo2ma5SH",
+      "ts": 1769175534,
+      "label": "Hey Ale, did you see yesterday's deploy?",
+      "subject": "Hey Ale, did you see yesterday's deploy?",
+      "from": {
+        "name": "Mariana Torres",
+        "address": "mariana.torres@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vinitor aegre adeptio laudantium cultura agnitio vis tener. Vis tenus aestus sonitus demens omnis. Deleo compono decipio amet.\nDefungo carcer cernuus sint. Degenero nam conor. Tribuo decimus depereo unde defungo villa velut.\nAttonbitus deputo appello. Decretum arx spiritus subseco dolorem arbustum torqueo validus verus. Patruus substantia aetas laborum.",
+      "folder": "inbox",
+      "read": false,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:aKQL7LrBo0Za",
+      "ts": 1769155919,
+      "label": "Your flight to Austin — Confirmation: Taedium vulnero aetas aer quis comprehen",
+      "subject": "Your flight to Austin — Confirmation: Taedium vulnero aetas aer quis comprehen",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Voveo absconditus quae. Maxime tenuis assumenda acervus facere damno tenetur adulescens. Condico texo delicate.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:dnRQivxYlXvE",
+      "ts": 1769135981,
+      "label": "Little bro, mom says come over on Sunday: Vinum cruciamentum vere coniuratio vere ",
+      "subject": "Little bro, mom says come over on Sunday: Vinum cruciamentum vere coniuratio vere ",
+      "from": {
+        "name": "Mariana Torres",
+        "address": "mariana.torres@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Velit cur sopor carpo suppono vox tollo ambitus. Culpa cruentus cruentus strenuus adnuo crudelis aestas vere. Appositus consequuntur quis.\nDerelinquo acer solus corroboro summa curis tripudio. Stillicidium ventus antea villa. Cupiditate animadverto vallum solium unus sulum.\nDegusto ulciscor demitto argentum consuasor totus. Dicta concido cruentus. Talis vinco consequuntur defluo subiungo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:mMmPK2w9NUiw",
+      "ts": 1769132648,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Aliquid deserunt convoco casso adopto tu",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Aliquid deserunt convoco casso adopto tu",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Verus turbo tergum arbor incidunt suffoco. Surgo decet tubineus. Adinventitias concedo addo absens volva celebrer articulus uter.\nClaudeo vae nemo bellum clam. Solus ater custodia. Decumbo defetiscor ver tibi corroboro paulatim curriculum reprehenderit.\nMaxime aqua tunc synagoga atrocitas quibusdam vere velum vorax statua. Alius bestia esse corroboro adulescens antepono comminor totus velut valetudo. Tandem comedo quasi tum campana.\nDeorsum coruscus umquam aggredior vita veritatis. Truculenter amaritudo verbum tamdiu socius. A talio temporibus peior coepi altus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true,
+      "attachments": [
+        {
+          "name": "furthermore.pot.pdf",
+          "size_bytes": 1235929,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:hvaWX9xhFI8G",
+      "ts": 1769126816,
+      "label": "Invitation: Arto aedificium creptio conspergo vobis ",
+      "subject": "Invitation: Arto aedificium creptio conspergo vobis ",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Architecto defleo confido earum auctor clarus magnam. Defendo conqueror atrox sordeo patruus nihil adeptio surgo iusto admoveo. Statua anser vilis turba acerbitas atrocitas sono.\nTermes cohors unde aestas. Vinitor bis illo carcer conforto aestus. Apto cinis spiritus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Gcve6Hx3Idwb",
+      "ts": 1769112114,
+      "label": "Reminder: FibraMax internet payment",
+      "subject": "Reminder: FibraMax internet payment",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vestrum taceo tantum thorax voro abbas incidunt. Tubineus alioqui cognomen aro unus odit trado sopor demitto voco. Tyrannus voluptates arcesso urbs tactus adiuvo altus villa colo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:LsGETaKv1Xy7",
+      "ts": 1769007433,
+      "label": "Invitation: Claro officiis collum supplanto deleniti",
+      "subject": "Invitation: Claro officiis collum supplanto deleniti",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Cunctatio derideo vis. Reprehenderit ver accusator crur deleo reiciendis vester addo. Crastinus solutio balbus.\nApud conculco vox cedo tactus summa creator. Thorax adulatio tantillus inventore verus dolore. Valeo curto eaque sub cohibeo theatrum.\nTrepide voluptatibus utrimque solvo benigne impedit astrum similique terminatio. Aduro abduco volaticus calcar. Certe derelinquo approbo deludo vigilo viscus curia.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:RJjOHIQjUdhn",
+      "ts": 1768985299,
+      "label": "Security update on your account: Corona tempore adinventitias omnis tyran",
+      "subject": "Security update on your account: Corona tempore adinventitias omnis tyran",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curso considero virga artificiose adsuesco. Appono dolorem admoneo vesco coadunatio communis. Catena cedo urbanus vaco adstringo bellicus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:BcGsDqN54Xjg",
+      "ts": 1768946147,
+      "label": "Charge alert: Id modi comptus libero cometes aegre abu",
+      "subject": "Charge alert: Id modi comptus libero cometes aegre abu",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Aperte toties vere caries. Sublime sopor sordeo suppellex. Terminatio advoco voluntarius culpo corporis caries caelestis dolorem.\nCaelestis demum illum conspergo tantillus terra asporto. Statim vulticulus triduana utrimque tempus harum dedico cupiditas. Constans speciosus crur a contra aperio ad bellum vulgivagus.\nStabilis voluptatibus molestiae veniam. Crustulum eligendi averto tremo amoveo aeger ut. Ubi abscido cetera brevis advenio suggero vulticulus vereor supra.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:LOP4VR74SWxr",
+      "ts": 1768937989,
+      "label": "Meetup invitation: Utpote sit defluo aeternus suppono crux ",
+      "subject": "Meetup invitation: Utpote sit defluo aeternus suppono crux ",
+      "from": {
+        "name": "GitHub Notifications",
+        "address": "noreply@github-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vallum occaecati careo ter porro speculum iste laudantium. Commemoro blandior attollo vinum virgo vesper. Ambitus cubicularis veniam brevis veritatis voluptatem vestrum desolo praesentium verus.\nVirga laborum quis crur caritas accommodo cavus convoco. Cursim aureus coepi considero clementia amaritudo claudeo contabesco. Alias abstergo supra confido urbanus cedo cogo valens delicate abduco.\nTabgo stabilis voluptas vis titulus. Curtus aperio ventito trepide nam vis vicinus saepe cubo. Tactus tabesco collum magnam balbus veritatis delinquo vito vereor.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:GVkSyNw1uLYC",
+      "ts": 1768896784,
+      "label": "Re: Tepidus brevis comes adeptio vae.",
+      "subject": "Re: Tepidus brevis comes adeptio vae.",
+      "from": {
+        "name": "LyraMusic",
+        "address": "updates@lyra-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Truculenter supplanto hic suffragium aptus amor cribro aperte cunae. Terreo charisma vetus aegrus doloribus ascisco conculco crastinus curso stips. Explicabo censura consuasor aufero advoco considero minus esse.\nCertus delectus vociferor consequatur debitis ago aqua sapiente. Vicissitudo labore deorsum voluntarius iure vicissitudo trans eaque callide dolorem. Taceo uberrime delicate desino addo curriculum tondeo placeat.\nCedo spargo stultus. Creber paens harum ultra appello aut verbum cognatus. Verbera demens cribro crastinus dolore complectus vacuus denique acidus.\nComptus tempus textor urbanus verus. Cicuta corpus maiores aegrotatio tempus demulceo vespillo suffragium summisse. Vitae volup officia barba.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:t48cUF4gYT0i",
+      "ts": 1768867821,
+      "label": "Your CloudSync invoice — March 2025: Solio audentia delectatio triumphus comp",
+      "subject": "Your CloudSync invoice — March 2025: Solio audentia delectatio triumphus comp",
+      "from": {
+        "name": "Rosa Vega",
+        "address": "rosa.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Volaticus bardus casus utroque ab deduco cognomen unus. Denuncio substantia cursus coerceo contigo ustilo. Valens audeo vorago valde usus.\nMinima addo contego adfectus cuppedia atque architecto timidus. Curia virga audentia id voluptate. Aegre arbitro vicissitudo valetudo calculus torqueo sequi conventus arma consectetur.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:yQCvkv0SEItY",
+      "ts": 1768862981,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Curriculum synagoga auxilium theca sunt ",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Curriculum synagoga auxilium theca sunt ",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Desipio utilis ducimus benevolentia adduco contabesco sum barba officia cupiditas. Usus eum pariatur ago surculus admoneo est arbitro conitor. Timidus ab calamitas spes caecus amplexus nulla.\nAtrox dolores illum error. Aegrotatio apostolus clamo cur aegrus assumenda succurro defessus video. Vito nesciunt carus accommodo vitiosus.\nQui cogito deripio abscido illo casso quo acervus. Terra voluptates bestia cibus cilicium aequitas temperantia clamo decimus fugiat. Doloremque amiculum laborum adnuo cariosus terga considero trado.\nAdvoco conservo nesciunt fugit ullam. Debitis tendo arto distinctio auxilium strues comminor textor. Venustas nobis minus vulgivagus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:HvyHOefZ36vx",
+      "ts": 1768830489,
+      "label": "Sweetie, sending you the recipe you asked for",
+      "subject": "Sweetie, sending you the recipe you asked for",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Reprehenderit temeritas solium ascit vinco tutamen alter voro turpis varius. Ventosus conculco aro adicio cedo ut similique. Calamitas cattus spero ascisco appono.\nUtroque tergiversatio ait tero venio sub tenetur utrimque. Id pecco beatae curvo excepturi adimpleo demulceo. Tandem adipiscor incidunt temporibus audax confugo aggero cubicularis.\nConstans attollo cervus crur accedo. Arguo victus corporis cruentus valens. Aequitas adulatio tyrannus amplus defungo arca debilito beatae repellat.\nSpeculum et pectus. Victoria ambitus vehemens inflammatio uberrime. Cariosus bestia deputo sum conforto vapulus conforto adhuc taceo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:MGnm1ZK9yV9R",
+      "ts": 1768793070,
+      "label": "Re: Sumptus patior vilitas accusantium reici",
+      "subject": "Re: Sumptus patior vilitas accusantium reici",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Quo damno cimentarius tui. Excepturi alienus appono thalassinus vigor amitto asporto veniam deripio volup. Audax ancilla expedita pectus dolores pecco.\nOfficia temperantia odio voluptatem spectaculum tenuis consectetur calamitas. Succurro allatus statua qui thesis vix. Adduco talis alii celer quos bardus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "shoulder_yippee.vss.pdf",
+          "size_bytes": 4556070,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:nzR7EOSV4sr0",
+      "ts": 1768736754,
+      "label": "Little bro, mom says come over on Sunday: Vulticulus campana cibo aut cetera amita",
+      "subject": "Little bro, mom says come over on Sunday: Vulticulus campana cibo aut cetera amita",
+      "from": {
+        "name": "CloudSync",
+        "address": "billing@cloudsync-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Una comes color laboriosam. Tardus cavus nisi caries. Victoria deleniti spoliatio bonus subnecto.\nSuffragium deporto angustus fuga caput talus complectus arma ara arceo. Admiratio vix avaritia comprehendo assumenda vacuus adfectus sumptus. Xiphias cresco commodi.\nCopiose ater ut recusandae conqueror corrupti. Creta tener cumque. Audax arguo suffoco stabilis qui ter.\nAnte in catena substantia sollicito casus. Varius stips curia patrocinor concedo conicio depraedor color supplanto. Alienus ex degenero considero.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:alKujHvBKerV",
+      "ts": 1768725181,
+      "label": "Re: Excepturi vicinus comis territo demulceo",
+      "subject": "Re: Excepturi vicinus comis territo demulceo",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechConf SF",
+          "address": "info@conftech-demo.local"
+        }
+      ],
+      "body_text": "Tamisium sed spiritus. Subnecto versus curso vulticulus distinctio canonicus tandem. Defetiscor tener vetus adversus uterque defaeco eius adfectus.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:qWvn5tdjWgit",
+      "ts": 1768685509,
+      "label": "Re: Subseco thema sint subnecto summa cibus ",
+      "subject": "Re: Subseco thema sint subnecto summa cibus ",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Rosa Vega",
+          "address": "rosa.vega@correo-demo.local"
+        }
+      ],
+      "body_text": "Sollicito admitto reiciendis tersus. Decumbo sunt accusamus minus excepturi voro tabesco corrigo. Aliquid arx suspendo tamdiu collum sapiente.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:eXofbWz1yS8m",
+      "ts": 1768683762,
+      "label": "Re: Deorsum aptus aranea cras pectus audenti",
+      "subject": "Re: Deorsum aptus aranea cras pectus audenti",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "FlameEats",
+          "address": "pedidos@flameeats-demo.local"
+        }
+      ],
+      "body_text": "Sulum certus autus volo necessitatibus solium tracto clibanus correptius contra. Valetudo vivo callide sub ullam acervus. Talio aequus reiciendis calculus alienus adsum.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:voMswSLNDa6K",
+      "ts": 1768633041,
+      "label": "Your biweekly pay stub is available: Victus creator viriliter.",
+      "subject": "Your biweekly pay stub is available: Victus creator viriliter.",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Velociter conor cedo talio articulus. Thorax suffoco concido sono damnatio denego surgo sed. Cariosus ustilo ulciscor cuius uredo.\nUlciscor attonbitus teneo cupiditas desino ipsum. Amiculum caste supplanto a cotidie complectus deputo vomito. Vitae campana stips sumptus volaticus vulnus neque corona.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:tGay2lacJn5X",
+      "ts": 1768528870,
+      "label": "Re: Adimpleo spoliatio theca inventore coadu",
+      "subject": "Re: Adimpleo spoliatio theca inventore coadu",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Pablo Herrera",
+          "address": "pablo.herrera@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Vitium adulescens crebro peior. Debitis eveniet cattus a arca antepono. Derelinquo turba saepe supplanto depono.\nExpedita capio termes tempore textor consectetur. Animus officia depulso apud barba. Quos audacia sol depopulo.\nAcsi altus conculco patior. Ducimus tabella utor. Apto vulariter voro magni odio certe certe callide deorsum.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:x7wSee2TMpu7",
+      "ts": 1768513605,
+      "label": "Re: Soleo explicabo abstergo apostolus optio",
+      "subject": "Re: Soleo explicabo abstergo apostolus optio",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "MercadoMart",
+          "address": "pedidos@mercadomart-demo.local"
+        }
+      ],
+      "body_text": "Acervus crepusculum correptius aliqua ceno consectetur. Baiulus terreo succedo. Sol uter tantillus dicta vir defessus.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:1YYky5jEy1dY",
+      "ts": 1768377270,
+      "label": "Re: Sollicito caput coma supellex arbitro co",
+      "subject": "Re: Sollicito caput coma supellex arbitro co",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Argentum tero argumentum vel adstringo suspendo. Molestiae amissio adsuesco utrum volup. Infit doloribus vilitas attollo uberrime viscus impedit auxilium decimus.\nCausa vergo iusto capitulus comitatus sint valens. Adipiscor architecto a tenax carmen. Vero capto tolero cribro repudiandae tenax deinde ater absque.\nDolor umquam derelinquo. Apud compono varietas deorsum anser. Vulnus facilis amaritudo consectetur.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true,
+      "attachments": [
+        {
+          "name": "gratefully_since_row.bmp.pdf",
+          "size_bytes": 4134787,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:mhtXMn75GgHf",
+      "ts": 1768316989,
+      "label": "30% off your next purchase — MercadoMart: Dolorum eligendi caveo vigilo trado.",
+      "subject": "30% off your next purchase — MercadoMart: Dolorum eligendi caveo vigilo trado.",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Celer confero aptus assentator denego supplanto demonstro solum clementia. Angelus inflammatio copia. Sed carpo demulceo numquam celo terror.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "in.doc.pdf",
+          "size_bytes": 4352457,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:bCzGJBLeSUeZ",
+      "ts": 1768281691,
+      "label": "ACH transfer confirmation: Territo amiculum saepe vitiosus accedo d",
+      "subject": "ACH transfer confirmation: Territo amiculum saepe vitiosus accedo d",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Absens defero sto conventus artificiose vita. Voluptas sortitus apto turba. Architecto non vado ter beatae alo non dens volo curvo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:KzWlTP479jIL",
+      "ts": 1768207794,
+      "label": "Re: Tenax accusantium tutis caelum cicuta su",
+      "subject": "Re: Tenax accusantium tutis caelum cicuta su",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "CloudSync",
+          "address": "billing@cloudsync-demo.local"
+        }
+      ],
+      "body_text": "Autus totam careo cura abundans summa triduana. Cilicium dolores arcesso. Inflammatio ustilo temeritas.\nCauda valetudo terga tolero vero varius. Tepidus vestigium aggero tenuis sonitus itaque. Voluptatibus utor vorago tabula absque coniecto aiunt deputo.\nCerno amita sodalitas versus. Solus vero crastinus varius subvenio aggredior suggero aliquid. Caries abscido pariatur suadeo vespillo acerbitas vox teneo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:EoN4oB9eCxdp",
+      "ts": 1768193031,
+      "label": "Invitation: Natus dolor degusto perferendis.",
+      "subject": "Invitation: Natus dolor degusto perferendis.",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Celo aliqua claudeo aequus confero quia cometes auctor aegrotatio. Voco sollers thesaurus sodalitas sub non. Exercitationem creo quas thymum repudiandae avaritia ciminatio.\nAit peior paulatim angulus cohors autem taedium velit. Delego calculus pauci congregatio adipisci degenero dolores vicissitudo decet. Exercitationem averto tamquam iusto amicitia.\nCinis aureus aiunt vero thema tredecim aegrus. Voluntarius tabula verus ullam summopere cuius similique tam colo dedico. Sui inventore ambitus depopulo adulescens tandem aestivus supellex corporis admoneo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:7TgnDEv8jtUl",
+      "ts": 1768185748,
+      "label": "30% off your next purchase — MercadoMart: Adipisci beatus creator facere iure arbi",
+      "subject": "30% off your next purchase — MercadoMart: Adipisci beatus creator facere iure arbi",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Caste undique balbus vel est. Conqueror color angelus quos aro soleo aeger arbustum vitiosus. Amplexus creta approbo denuncio viduo comprehendo tener angustus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:ehuB3POVQ7z3",
+      "ts": 1768150601,
+      "label": "Re: Dens testimonium adaugeo excepturi tempo",
+      "subject": "Re: Dens testimonium adaugeo excepturi tempo",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "TechCorp - HR",
+          "address": "rrhh@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Quasi sustineo arguo bis. Audacia comminor xiphias vigor abduco. Patria testimonium depereo cunae abeo corporis suffoco timidus animadverto.\nTrado cometes turba. Articulus certus tempus conventus adfectus desidero corona antepono assentator comitatus. Argentum derelinquo facere alter ipsa doloremque studio theologus tui.\nLaboriosam reiciendis voluptas aer iure ad sustineo. Accusantium tumultus cuius clementia antepono amitto conqueror crustulum voro. Vinco commodi blanditiis amita cupressus conservo collum aegre corrigo turba.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:uoueNB7uWWZd",
+      "ts": 1768143801,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Copia vomito magnam uxor autem id.",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Copia vomito magnam uxor autem id.",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Socius capitulus aliquam deporto crepusculum cupiditate nihil tenus sursum. Exercitationem non tempora utrum et urbanus. Avarus deleniti comprehendo ara celer cupiditas eius doloribus compono viridis.\nTendo verus tepidus. Ustulo coerceo capto vilitas. Decretum casso eos deputo conservo confero.\nSuspendo vaco patrocinor fugiat tamdiu. Colligo dapifer cumque cur pax exercitationem adicio. Abduco varius cruciamentum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "unzip_powerfully.vsd.pdf",
+          "size_bytes": 615671,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Tek7aH9ZW4Mn",
+      "ts": 1768114662,
+      "label": "Security update on your account: Dens confido auctor solus fugit suffragi",
+      "subject": "Security update on your account: Dens confido auctor solus fugit suffragi",
+      "from": {
+        "name": "CloudSync",
+        "address": "billing@cloudsync-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Sunt tyrannus valeo absum tametsi arca facere. Caecus cognatus cavus calamitas soleo. Varius harum eaque vesper utpote.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:X1WF6fY01Su4",
+      "ts": 1768084431,
+      "label": "Hey Ale, did you see yesterday's deploy?: Accusantium cohibeo adaugeo.",
+      "subject": "Hey Ale, did you see yesterday's deploy?: Accusantium cohibeo adaugeo.",
+      "from": {
+        "name": "MercadoMart",
+        "address": "pedidos@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Ulterius acsi vacuus terebro avaritia cubicularis. Campana celebrer ea pariatur conventus vita arx. Tenus quasi amoveo cimentarius depromo.\nCribro absque carus avaritia adfero creta. Aliquam vigor quaerat. Caries causa complectus aestivus statua circumvenio vetus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:iZMLDecaMmdU",
+      "ts": 1768008612,
+      "label": "Your order #1024 has been delivered: Cribro antea eveniet patrocinor.",
+      "subject": "Your order #1024 has been delivered: Cribro antea eveniet patrocinor.",
+      "from": {
+        "name": "CloudSync",
+        "address": "billing@cloudsync-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curo benigne deleniti illum eius. Ulciscor absconditus adflicto uterque termes taceo. Allatus caste verumtamen cometes occaecati.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "gee_briefly_towards.elc.pdf",
+          "size_bytes": 4886907,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:QWmhZ13w0dpJ",
+      "ts": 1767992306,
+      "label": "Re: Virga suspendo non correptius sto villa ",
+      "subject": "Re: Virga suspendo non correptius sto villa ",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Daniel Mora",
+          "address": "daniel.mora@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Deporto aurum adamo. Curia calculus cunae altus universe. Cado nostrum error sed stips sed admoneo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:kx6ZIdPAMRDF",
+      "ts": 1767982954,
+      "label": "Invitation: Ut pax comitatus.",
+      "subject": "Invitation: Ut pax comitatus.",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Summopere cruentus delinquo contego urbs dapifer. Tergeo accedo valens ipsum iure conforto tripudio aperio demulceo. Tenax aut appositus avaritia.\nCum acidus temptatio sortitus deludo vulpes concido derelinquo conculco eveniet. Adamo suscipio in censura commodo attonbitus excepturi acceptus textilis strenuus. Campana derideo confero terra contego supra.\nLibero utrimque rerum vilis demergo crapula quasi. Deleo conscendo supellex quidem ipsa deduco. Velut templum ceno somnus adsuesco utrum hic stella.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:jIY14L3Knv1i",
+      "ts": 1767881576,
+      "label": "30% off your next purchase — MercadoMart",
+      "subject": "30% off your next purchase — MercadoMart",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vorax alter ustulo tego amplus sublime socius. Calcar comprehendo aufero vicinus undique chirographum undique vitium antiquus viridis. Veniam adsum vigor vulgus summa tui depono alo demergo velum.\nConfido rem volo minus expedita delicate. Curatio voluntarius cibus demulceo animi demens. Denuo damnatio validus pecus cumque.\nAdnuo campana valeo correptius vitae ascit. Utor eaque ulterius cohors. Quod comedo ademptio velut.\nEst causa compello adeo antea condico tres tergum cunctatio. Libero vesper acerbitas urbs suggero confido sublime subvenio pax. Velociter calculus canto degenero spiritus templum vox cedo fugiat beatus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:SPnY0JDuhm2Q",
+      "ts": 1767839983,
+      "label": "Re: Ventus cogo commodi sopor commodi contab",
+      "subject": "Re: Ventus cogo commodi sopor commodi contab",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Zinc",
+          "address": "alerts@zinc-demo.local"
+        }
+      ],
+      "body_text": "Vulgus pauper solvo adinventitias somnus arto socius sed autem casso. Abbas thalassinus fugit fuga. Iste demoror succedo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:1MOBsAog5hy1",
+      "ts": 1767774060,
+      "label": "Weekly summary of your Orbit account",
+      "subject": "Weekly summary of your Orbit account",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Caste vulgaris debeo bardus viriliter abstergo vito. Tam comparo pectus minima trepide. Vado triumphus curso molestias trans velit alii.\nFugiat placeat creptio aequus vinculum video autus creptio optio. Anser absum vomer vorago ipsam decet vitae. Demens annus copia socius sustineo vulnero.\nStabilis attonbitus contigo sursum demonstro tempus somniculosus deleniti conculco. Decet sperno aequus comes. Claro timor crustulum uter.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:vlZm7JPkhqcT",
+      "ts": 1767754023,
+      "label": "Your CloudSync invoice — March 2025",
+      "subject": "Your CloudSync invoice — March 2025",
+      "from": {
+        "name": "Camila Ruiz",
+        "address": "camila.ruiz@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Caste demulceo copiose tredecim arcesso auditor praesentium creo arcesso. Demitto taceo adnuo. Porro comprehendo adaugeo volubilis coruscus victoria esse minus.\nCultura solutio deleo crur ad. Aufero vicinus cauda aduro aspernatur. Atrox carbo viriliter teneo.\nSpiritus similique compello corpus. Denique vilitas auctor adfero deprimo odit eius soleo considero appono. Aequus aeneus coruscus velit depulso.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:dygKJM0Gb0OS",
+      "ts": 1767735616,
+      "label": "Review requested on PR #345: Crapula temperantia natus tempus sponte ",
+      "subject": "Review requested on PR #345: Crapula temperantia natus tempus sponte ",
+      "from": {
+        "name": "Camila Ruiz",
+        "address": "camila.ruiz@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tamen valde aedificium. Numquam curatio supplanto ullam ter paulatim ascit alo. Conor degero colo defendo vulnero.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Mq1BCBOrD1K3",
+      "ts": 1767647767,
+      "label": "Re: Adeo decens voro comparo patria delinquo",
+      "subject": "Re: Adeo decens voro comparo patria delinquo",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Lucia Reyes",
+          "address": "lucia.reyes@techcorp-demo.local"
+        }
+      ],
+      "body_text": "Spes cado fugiat synagoga ait ager. Ubi conduco statim paulatim suppellex colo delego clamo terreo blanditiis. Umquam talis volup harum comes sublime voveo enim civis appello.\nComminor tamdiu villa adeo altus approbo quas vobis crux. Perspiciatis similique molestias voluptatibus cerno amissio bos. Territo sufficio demum termes aufero.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:vSkkxQciJZHy",
+      "ts": 1767583938,
+      "label": "Review requested on PR #345",
+      "subject": "Review requested on PR #345",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Capto crur super pectus ventito beatae depraedor admoveo. Peccatus attonbitus ulterius amor vado adflicto vilicus coadunatio corona quisquam. Aurum contabesco spiritus aegrus confugo recusandae debilito volutabrum voluptates vestigium.\nViridis turba vir absorbeo terra facilis delicate antepono constans creo. Vinculum pel voco ocer. Cresco auxilium attollo suscipio tonsor adeptio amicitia.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:7W2oF5RPRi5O",
+      "ts": 1767543177,
+      "label": "Hey Ale, did you see yesterday's deploy?: Velit congregatio absens thalassinus.",
+      "subject": "Hey Ale, did you see yesterday's deploy?: Velit congregatio absens thalassinus.",
+      "from": {
+        "name": "Newsletter Dev",
+        "address": "newsletter@devweekly-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tenuis temperantia asperiores debitis accendo pauci arto. Cimentarius delicate cattus doloribus conatus possimus valde tollo conor articulus. Adopto patrocinor delectus copiose ascisco temperantia voco.\nCorrumpo calamitas vulpes volubilis. Celer anser quo cunctatio. Compono demo tendo cibo aeternus distinctio ex sustineo nemo tener.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:1HSHxKJJd875",
+      "ts": 1767537148,
+      "label": "Hey Ale, did you see yesterday's deploy?: Sequi excepturi debilito.",
+      "subject": "Hey Ale, did you see yesterday's deploy?: Sequi excepturi debilito.",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curis aestas audentia tamquam. Articulus ocer incidunt solvo vinitor arceo varius. Comprehendo deludo tepidus sum denego.\nPlaceat vilicus delectus tego aedificium comminor veritatis ea virgo. Deludo sursum complectus. Aspernatur damnatio dignissimos pauci deinde benevolentia.\nTerga tonsor repellendus tunc ocer torqueo vicissitudo alioqui suggero considero. Arbitro vix tamen aedificium defleo. Allatus spectaculum ascisco arbor crepusculum bestia.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:6lKfVqKbkpdU",
+      "ts": 1767470075,
+      "label": "Your CloudSync invoice — March 2025: Addo ter confugo vos vicissitudo facere ",
+      "subject": "Your CloudSync invoice — March 2025: Addo ter confugo vos vicissitudo facere ",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Amissio abeo thesaurus bibo tenax suscipit verumtamen capillus vita alii. Cubitum adduco crastinus ullam non abduco quos altus decipio. Sollers vinum acervus aequus.\nAlveus ventosus undique xiphias bestia teneo sopor cursus creator. Conventus adaugeo libero vaco adhuc caritas antiquus caelum allatus. Autus bonus molestias subseco torqueo tyrannus amitto campana amor.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:44IBvAIAUeCe",
+      "ts": 1767430422,
+      "label": "Your flight to Austin — Confirmation: Carbo suggero una cenaculum ciminatio ad",
+      "subject": "Your flight to Austin — Confirmation: Carbo suggero una cenaculum ciminatio ad",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Aestus utilis ante victoria varietas tamen acsi aeneus toties vitae. Confero derelinquo acceptus itaque depono. Sordeo ad confugo ater sopor.\nDemum arma cimentarius tepesco. Xiphias asporto cernuus trucido alo coruscus. Solutio sum solio certe.\nAutem paulatim timor. Consuasor cauda atrox derideo. Sortitus deserunt vestrum ulterius colligo sol.\nPax paens alias vesica minus cunae tot casus. Comminor officiis verus. Contego thalassinus vigor cur vulgivagus curo ultio cavus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:CiXUtSo6aMgR",
+      "ts": 1767393948,
+      "label": "Monthly expense summary — Zinc: Corona venustas appositus cursus cotidie",
+      "subject": "Monthly expense summary — Zinc: Corona venustas appositus cursus cotidie",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Cultellus absens carus. Deficio repellat ad demergo cur carbo stips. Derelinquo aurum attero molestiae alii.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:tYNw12eIi2Gz",
+      "ts": 1767389321,
+      "label": "Review requested on PR #345: Arcesso ars ea toties umbra dedico voco ",
+      "subject": "Review requested on PR #345: Arcesso ars ea toties umbra dedico voco ",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Coaegresco clibanus volva voluptas baiulus deleniti iure veritatis anser charisma. Vetus artificiose itaque quisquam curso. Alo consectetur tunc.\nCarmen vulgo tum bis attonbitus. Fugit ambitus antea harum id taedium certus cupio. Vesco quaerat tantum vallum maxime voluptate cenaculum assumenda est cursim.\nAlo voluntarius labore ullam statua attollo. Adhaero deripio ater abstergo surculus utpote. Assentator consuasor argumentum claustrum denuo considero tendo currus.\nNemo demens caritas. Cibus saepe caput abutor totus magnam molestias. Aro cupiditas vociferor.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "priesthood_pish.vsd.pdf",
+          "size_bytes": 3871270,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:fVZclImdpH1F",
+      "ts": 1767387790,
+      "label": "Meetup invitation: Correptius vergo copia adversus distinct",
+      "subject": "Meetup invitation: Correptius vergo copia adversus distinct",
+      "from": {
+        "name": "FlameEats",
+        "address": "pedidos@flameeats-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tamdiu aspicio candidus solutio toties. Creo usitas tardus. Cum culpo sollicito.\nConventus ventosus ager. Patria copia accendo. Laudantium triduana sit abscido.\nArbitro defungo colligo iure. Subnecto cur consuasor stipes. Alveus uxor sortitus condico deputo audax aro velociter.\nSophismata tribuo thesis amplexus teres confido defero. Demoror coadunatio denique. Tantillus curo claustrum caute quibusdam contabesco denuncio circumvenio explicabo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:nn7wbvqjj5To",
+      "ts": 1767315571,
+      "label": "Re: Creber tabgo solvo abstergo adicio valde",
+      "subject": "Re: Creber tabgo solvo abstergo adicio valde",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "LyraMusic",
+          "address": "updates@lyra-demo.local"
+        }
+      ],
+      "body_text": "Victoria triumphus temperantia confugo adfero. Verecundia sapiente addo aqua. Coruscus veritatis benigne audeo creptio ultio cohibeo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:H3uvKGDhqAoS",
+      "ts": 1767301133,
+      "label": "Re: Theologus coepi callide volup cernuus.",
+      "subject": "Re: Theologus coepi callide volup cernuus.",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Caput villa theologus. Coruscus conservo labore magni pax natus comis attollo. Aliqua totidem auxilium viriliter deserunt confero verto confugo eum thesaurus.\nVehemens corona barba dapifer statua cedo spiculum assentator. Infit aetas angulus officia itaque cupio pecto alter annus clamo. Capto tabula nesciunt congregatio antea suscipit dapifer pecus decumbo.\nAdsidue administratio celebrer thesaurus curso voluptatibus termes perspiciatis. Celer confugo uberrime theologus tabesco. Corpus tabgo concedo tergeo argentum quibusdam altus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "custody_instantly_evince.zip.pdf",
+          "size_bytes": 2842713,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:5mzxZdNR4084",
+      "ts": 1767280690,
+      "label": "Review requested on PR #345: Cubitum vulticulus clementia canis suspe",
+      "subject": "Review requested on PR #345: Cubitum vulticulus clementia canis suspe",
+      "from": {
+        "name": "Daniel Mora",
+        "address": "daniel.mora@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vulgo credo cernuus ventus denuncio tardus. Depopulo usus ventosus canonicus maxime virtus. Validus vae vir utrimque nulla venia deporto amplexus conforto causa.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:iMgcgflZ6rU0",
+      "ts": 1767274544,
+      "label": "Re: Your biweekly pay stub is available",
+      "subject": "Re: Your biweekly pay stub is available",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "MercadoMart",
+          "address": "pedidos@mercadomart-demo.local"
+        }
+      ],
+      "body_text": "Bonus somnus vorax tergiversatio tardus delibero. Explicabo corona volo vacuus vallum cavus tamquam. Nam aspernatur deficio depromo stips pauper cariosus.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:UwLsDA69P7iB",
+      "ts": 1767260867,
+      "label": "Sweetie, sending you the recipe you asked for: Turbo pauper bibo creta varietas commino",
+      "subject": "Sweetie, sending you the recipe you asked for: Turbo pauper bibo creta varietas commino",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Voco tantum comparo tamdiu coniecto sordeo attollo. Crudelis avarus tremo. Aegrus creber curvo tribuo valetudo cunctatio thymbra.\nAestivus animadverto cilicium subiungo amaritudo quo a sopor viscus. Teres cinis admitto vae annus adhuc necessitatibus explicabo attollo. Caterva tenetur tui commodi viriliter cruciamentum via.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:JGYxkEwl88kp",
+      "ts": 1767254584,
+      "label": "FlameEats order confirmation #8834: Sophismata suasoria aegrotatio animi aud",
+      "subject": "FlameEats order confirmation #8834: Sophismata suasoria aegrotatio animi aud",
+      "from": {
+        "name": "Diana Vega",
+        "address": "diana.vega@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Itaque dedecor cui tredecim quae quae. Cultellus nemo adamo iusto abbas. Tepesco decerno cupressus texo tener conscendo pecco ventosus vinum verumtamen.\nSit capillus neque. Usque tero cernuus. Volubilis virtus sui capto pectus demum solum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:Y7lGPHGOVxcS",
+      "ts": 1767171413,
+      "label": "Re: Derideo itaque sed mollitia perferendis.",
+      "subject": "Re: Derideo itaque sed mollitia perferendis.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "FlameEats",
+          "address": "pedidos@flameeats-demo.local"
+        }
+      ],
+      "body_text": "Sono arx ambitus clarus averto compono cunabula eos. Viscus utrum conturbo valde acsi ulterius adicio. Beatus colo coniuratio statua.\nViridis tredecim surgo vos tametsi amplus. Avaritia admoneo vulgus vergo qui sortitus civitas. Thymum mollitia deinde.\nDepromo cubo suppellex expedita astrum suffragium crastinus ter. Dicta talis fugit volup maiores curtus considero basium convoco pax. Delego colligo video.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:FYyC4rGcbX2V",
+      "ts": 1767156234,
+      "label": "Re: Inventore autem confero nostrum coaegres",
+      "subject": "Re: Inventore autem confero nostrum coaegres",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "LyraMusic",
+          "address": "updates@lyra-demo.local"
+        }
+      ],
+      "body_text": "Desparatus ante adeo. Teres antiquus patruus villa audax speciosus voveo culpa. Conitor vigilo cultellus.\nAduro temporibus temporibus numquam amet nulla abbas. Quos angelus accendo capillus thalassinus conforto triumphus audacia uterque eum. Brevis tamquam vinitor cras veritatis ambitus decens caste cattus.\nEveniet comedo conturbo deduco capitulus thymum. Constans nihil appositus trepide templum video territo iste corrumpo. Admoveo sit utique sonitus conventus.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:4qt5OJg8Z1wJ",
+      "ts": 1767098786,
+      "label": "[PR #342] feat: add UADP auth middleware — merged",
+      "subject": "[PR #342] feat: add UADP auth middleware — merged",
+      "from": {
+        "name": "Pablo Herrera",
+        "address": "pablo.herrera@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Vallum cumque corroboro validus suscipio sophismata ascit. Crux vergo adiuvo vorax vereor repellat. Tepesco trucido at utique arca cultellus.\nHarum vicinus conitor toties. Torrens velut damno crur benevolentia validus tam. Crinis ambulo aveho cimentarius vado sopor.\nConsequuntur audeo claro armarium. Adsum dedecor circumvenio cultellus varius defungo debeo curia arbor. Cicuta perspiciatis somnus torrens sufficio praesentium tenus.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:9isT4wGQg15v",
+      "ts": 1767062375,
+      "label": "Re: Nobis adsum ciminatio ante qui.",
+      "subject": "Re: Nobis adsum ciminatio ante qui.",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "FlameEats",
+          "address": "pedidos@flameeats-demo.local"
+        }
+      ],
+      "body_text": "Tabella commemoro defluo blanditiis rem vigor cilicium tristis. Usque aureus deserunt cenaculum debeo tendo commodo unus astrum capio. Cado appono debitis collum cursim antea ter.\nCimentarius sulum spectaculum umquam vere benevolentia turpis arbustum aperte solio. Celo tabula voco coadunatio viridis. Somniculosus terra capio coerceo volutabrum.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:1SLErNgdV4Ue",
+      "ts": 1767058469,
+      "label": "Your playlist \"Focus Mode\" has new recommendations",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Adipiscor tremo usitas summa tabgo cohors. Abutor suscipio vero capio aequus sufficio victoria validus. Sopor crur debeo versus sordeo possimus somniculosus tumultus adopto aspicio.\nBenevolentia esse cogito corporis. Expedita defero laudantium circumvenio quae corpus. Vereor ter tres voluptas audeo sapiente arcus carmen cursim antepono.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:HFDTbBvu7axg",
+      "ts": 1767034435,
+      "label": "Your order #1024 has been delivered: Certe cavus sponte teres depraedor causa",
+      "subject": "Your order #1024 has been delivered: Certe cavus sponte teres depraedor causa",
+      "from": {
+        "name": "TechCorp - Finance",
+        "address": "finanzas@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curiositas laudantium denique cattus vinum ante amet. Cursim decipio canis enim calcar vir alveus consuasor dolore usque. Labore aperte alius.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "pfft.war.pdf",
+          "size_bytes": 1776403,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:NeF8numCRyyu",
+      "ts": 1766925850,
+      "label": "ACH transfer confirmation: Veniam vinco carcer aeternus.",
+      "subject": "ACH transfer confirmation: Veniam vinco carcer aeternus.",
+      "from": {
+        "name": "CloudSync",
+        "address": "billing@cloudsync-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Curia tunc vicinus. Capillus curia sordeo uberrime speciosus venia benevolentia ipsa derideo umquam. Patior spero aro.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:3DiQJXaZrkBS",
+      "ts": 1766922246,
+      "label": "[PR #342] feat: Soleo totam uredo temporibus amitto.",
+      "subject": "[PR #342] feat: Soleo totam uredo temporibus amitto.",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Combibo depulso tenuis adeptio tamisium aptus. Aggredior arbitro succedo rem certus earum tolero depopulo corona. Atrox ter demoror cuius eum similique.\nSubiungo ante thorax cicuta aureus. Uter solutio ipsum cohaero reiciendis cilicium dedecor minus capio perferendis. Architecto thesis strenuus cimentarius.\nAudentia tabernus absorbeo acceptus aeternus decor attero temeritas. Deleo pariatur confido cur quis fuga collum carpo porro vereor. Agnitio bellicus stabilis.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:9GFToemH55W5",
+      "ts": 1766903981,
+      "label": "Monthly expense summary — Zinc: Ultra victus odio casso ceno utor arceo ",
+      "subject": "Monthly expense summary — Zinc: Ultra victus odio casso ceno utor arceo ",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Advenio curto velit rem conatus depono. Capto tandem solvo solium teneo tabgo error. Depromo concido circumvenio animus taedium adduco timor ulterius quidem.\nAverto aer venia deripio creber. Ager terra urbanus thema ustulo cohaero viridis utroque sol ver. Toties alii est coniecto audacia quaerat solum conatus ocer.\nSulum claudeo vulticulus uterque teneo vorago tumultus tenus ubi. Nihil cohors denuo. Comitatus aliquid adsum combibo casus accendo congregatio nostrum defendo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:qHI7506Vk9OI",
+      "ts": 1766870576,
+      "label": "Re: Ventito aequitas advenio antepono numqua",
+      "subject": "Re: Ventito aequitas advenio antepono numqua",
+      "from": {
+        "name": "Alejandro Vega",
+        "address": "alejandro@cosmos-demo.local"
+      },
+      "to": [
+        {
+          "name": "Orbit Bank",
+          "address": "notificaciones@orbit-demo.local"
+        }
+      ],
+      "body_text": "Summopere compono ocer quasi. Cuius adopto cometes utrum. Creator utpote super corrigo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:KDZBBCxXTIPo",
+      "ts": 1766843799,
+      "label": "Re: Trucido sortitus bibo tremo.",
+      "subject": "Re: Trucido sortitus bibo tremo.",
+      "from": {
+        "name": "CloudSync",
+        "address": "billing@cloudsync-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Deprimo absque aufero succurro dolorum thorax colo via aeternus ustulo. Tui stabilis unde deorsum itaque abutor ter amoveo. Decretum volubilis conforto supra terra vomica asperiores.\nConvoco crudelis harum crinis excepturi deporto amiculum acervus aequus. Suggero concido auctor strenuus aspicio theca enim adeptio. Verus reprehenderit urbs tamisium sublime.\nExplicabo crastinus fugiat. Voluptate victus utroque bestia subnecto. Perferendis territo fugiat denuo spoliatio civis varietas commemoro adsum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:gcNAhMfdMYXL",
+      "ts": 1766770925,
+      "label": "Reminder: Tum caveo aurum ademptio claro condico.",
+      "subject": "Reminder: Tum caveo aurum ademptio claro condico.",
+      "from": {
+        "name": "MercadoMart",
+        "address": "pedidos@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Volutabrum triduana colligo solio. Soluta solvo talio. Deserunt valde virgo clibanus terror benigne cubo amplitudo pax.\nBarba nam ustilo contego conventus viduo deprimo tui. Deripio vae thymum coaegresco auditor paens deserunt thorax venustas statim. Casus ceno adipiscor asporto succedo dicta corrigo tener suggero altus.\nDecumbo audentia sapiente appositus vulgivagus uxor canto omnis. Valens corrigo quas suppono aperiam dolorem talio ademptio bene demitto. Vulgivagus valens supellex cognatus vix tam spiculum unus.\nDens acquiro iure temeritas aedificium verbum tabesco. Uxor callide magnam inflammatio angulus cur umbra universe. Aiunt claudeo strues acerbitas cerno cometes uterque vulgaris cuppedia.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:cKDoCNRloooa",
+      "ts": 1766717635,
+      "label": "Security update on your account: Reiciendis decens carpo amoveo.",
+      "subject": "Security update on your account: Reiciendis decens carpo amoveo.",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notificaciones@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Tamdiu atavus attonbitus cuius. At vae veniam abundans candidus damnatio capitulus antea delectus claudeo. Cura umerus inflammatio.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:4nHeOe2jpfwt",
+      "ts": 1766632204,
+      "label": "Your playlist \"Focus Mode\" has new recommendations: Atque necessitatibus addo vetus vilicus ",
+      "subject": "Your playlist \"Focus Mode\" has new recommendations: Atque necessitatibus addo vetus vilicus ",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Aggredior comedo curatio suadeo virtus utroque debeo absque subito tergo. Adversus terminatio charisma velociter in capto vito voluptatum vespillo desidero. Strenuus vae tendo.\nMolestiae vita voluptates sint cenaculum damnatio aut bellicus. Absorbeo abduco thesis degusto. Triduana degenero creptio.\nConsequuntur accendo arbitro. Cursus aegrus adhuc sint audentia videlicet nisi. Taceo tergiversatio quasi suppono.\nAut thema cur dedecor quia cupio admiratio allatus taedium autem. Appono demo arceo virgo volva. Quo urbanus delectatio accedo.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:bySoa1LFwacC",
+      "ts": 1766623585,
+      "label": "Reminder: Vir trado barba versus alii.",
+      "subject": "Reminder: Vir trado barba versus alii.",
+      "from": {
+        "name": "Lucia Reyes",
+        "address": "lucia.reyes@techcorp-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Video utique facilis degero aegrus aegrotatio aurum denuo delectatio conduco. Aer turbo ad vesica tamen quo armarium colligo. Tener beatae truculenter thesis quam spoliatio.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:oWCQmZdmhOlR",
+      "ts": 1773526437,
+      "label": "Order confirmed: MacBook Pro 14\" M5 Pro — MercadoMart",
+      "subject": "Order confirmed: MacBook Pro 14\" M5 Pro — MercadoMart",
+      "from": {
+        "name": "MercadoMart",
+        "address": "orders@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Hi Alejandro, your order #1025 has been confirmed. MacBook Pro 14\" M5 Pro — 24GB RAM / 1TB SSD — Space Black. Total: $2,499.00 USD. Estimated delivery: 3-5 business days.",
+      "folder": "inbox",
+      "read": true,
+      "starred": true,
+      "ext": {
+        "thread": "macbook_m5_purchase",
+        "topics": [
+          "macbook",
+          "m5",
+          "laptop",
+          "apple",
+          "hardware",
+          "developer",
+          "purchase"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:rmrD8eaqasyp",
+      "ts": 1773785577,
+      "label": "Your MacBook Pro has been delivered! — MercadoMart",
+      "subject": "Your MacBook Pro has been delivered! — MercadoMart",
+      "from": {
+        "name": "MercadoMart",
+        "address": "orders@mercadomart-demo.local"
+      },
+      "to": [
+        {
+          "name": "Alejandro Vega",
+          "address": "alejandro@cosmos-demo.local"
+        }
+      ],
+      "body_text": "Great news! Your order #1025 (MacBook Pro 14\" M5 Pro) has been delivered to 245 Valencia St, Apt 8B. Enjoy your new laptop!",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "ext": {
+        "thread": "macbook_m5_purchase",
+        "topics": [
+          "macbook",
+          "m5",
+          "laptop",
+          "apple",
+          "hardware",
+          "developer",
+          "purchase"
+        ]
+      }
+    }
+  ],
+  "folders": {
+    "inbox": {
+      "count": 150,
+      "unread": 13
+    },
+    "sent": {
+      "count": 40
+    },
+    "drafts": {
+      "count": 5
+    },
+    "spam": {
+      "count": 3
+    },
+    "trash": {
+      "count": 7
+    }
+  }
+}

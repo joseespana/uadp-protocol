@@ -1,0 +1,636 @@
+{
+  "rides": [
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:i9uVDHImlLMa",
+      "ts": 1773363043,
+      "label": "BART Powell Station → Tenderloin Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "BART Powell Station",
+        "lat": 37.78570833831302,
+        "lng": -122.40780658398144
+      },
+      "destination": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.78559979432337,
+        "lng": -122.41312733916335
+      },
+      "distance_km": 1.75,
+      "duration_minutes": 7,
+      "fare": {
+        "value": 2.14,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kayla Howe",
+        "rating": 4.29,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "XPX-0107"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:CXJSpVYDNnrd",
+      "ts": 1772927165,
+      "label": "Gaming Cafe — Pixel Arena → MiniExpress Convenience",
+      "status": "completed",
+      "origin": {
+        "name": "Gaming Cafe — Pixel Arena",
+        "lat": 37.77953726239105,
+        "lng": -122.41003982047087
+      },
+      "destination": {
+        "name": "MiniExpress Convenience",
+        "lat": 37.784978966427516,
+        "lng": -122.41331728695685
+      },
+      "distance_km": 8.84,
+      "duration_minutes": 41,
+      "fare": {
+        "value": 18.08,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Eugene Emard",
+        "rating": 4.38,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "ISL-4093"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:D2Fs3lT4MIad",
+      "ts": 1772828488,
+      "label": "College Campus → MiniExpress Convenience",
+      "status": "completed",
+      "origin": {
+        "name": "College Campus",
+        "lat": 37.76766192364972,
+        "lng": -122.45143021967435
+      },
+      "destination": {
+        "name": "MiniExpress Convenience",
+        "lat": 37.78198778329467,
+        "lng": -122.4105839044683
+      },
+      "distance_km": 8.42,
+      "duration_minutes": 38,
+      "fare": {
+        "value": 12.62,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Odie Hagenes",
+        "rating": 4.44,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "ZAI-2365"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:QQmH7fsIPzv1",
+      "ts": 1772664293,
+      "label": "Westfield Mall → College Campus",
+      "status": "completed",
+      "origin": {
+        "name": "Westfield Mall",
+        "lat": 37.78270128431554,
+        "lng": -122.40752572406444
+      },
+      "destination": {
+        "name": "College Campus",
+        "lat": 37.7699011710393,
+        "lng": -122.4526026963156
+      },
+      "distance_km": 14.3,
+      "duration_minutes": 56,
+      "fare": {
+        "value": 16.85,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Rasheed Kemmer",
+        "rating": 4.18,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "FRT-8229"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:TRO4D9YmD3F3",
+      "ts": 1772136833,
+      "label": "Tenderloin Apartment → PerseusOft HQ — SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.785668656863244,
+        "lng": -122.41176649700637
+      },
+      "destination": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.78556225770295,
+        "lng": -122.4012274496041
+      },
+      "distance_km": 12.24,
+      "duration_minutes": 60,
+      "fare": {
+        "value": 15.54,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Laurie Block",
+        "rating": 4.15,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "CGH-5919"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:uqeaLWoqX3VA",
+      "ts": 1771797429,
+      "label": "College Campus → MiniExpress Convenience",
+      "status": "completed",
+      "origin": {
+        "name": "College Campus",
+        "lat": 37.76923636894868,
+        "lng": -122.45187622601374
+      },
+      "destination": {
+        "name": "MiniExpress Convenience",
+        "lat": 37.78326062201621,
+        "lng": -122.41141996337758
+      },
+      "distance_km": 2.45,
+      "duration_minutes": 12,
+      "fare": {
+        "value": 4.21,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Alexis Reilly",
+        "rating": 4.31,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "YWG-2858"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:yWtCkT6hNdH1",
+      "ts": 1771629026,
+      "label": "Westfield Mall → Gaming Cafe — Pixel Arena",
+      "status": "cancelled",
+      "origin": {
+        "name": "Westfield Mall",
+        "lat": 37.78585444093278,
+        "lng": -122.40671737032842
+      },
+      "destination": {
+        "name": "Gaming Cafe — Pixel Arena",
+        "lat": 37.77760449300832,
+        "lng": -122.4106649471277
+      },
+      "distance_km": 9.22,
+      "duration_minutes": 40,
+      "fare": {
+        "value": 18.96,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Gregorio Schmeler",
+        "rating": 4.82,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "VZR-0924"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:vQTDzIjf1UCe",
+      "ts": 1771082578,
+      "label": "Gaming Cafe — Pixel Arena → Tenderloin Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "Gaming Cafe — Pixel Arena",
+        "lat": 37.77860324639883,
+        "lng": -122.41055782320188
+      },
+      "destination": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.783321675154745,
+        "lng": -122.41295886344632
+      },
+      "distance_km": 4.36,
+      "duration_minutes": 25,
+      "fare": {
+        "value": 8.24,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Autumn Rogahn",
+        "rating": 4.44,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "OGN-0548"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:VIvNPocUpuZJ",
+      "ts": 1770820785,
+      "label": "MiniExpress Convenience → Tenderloin Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "MiniExpress Convenience",
+        "lat": 37.78344757428864,
+        "lng": -122.41054224605887
+      },
+      "destination": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.785317648310546,
+        "lng": -122.41167468356085
+      },
+      "distance_km": 7.23,
+      "duration_minutes": 32,
+      "fare": {
+        "value": 6.85,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Ramiro Padberg",
+        "rating": 4.6,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "FPH-3666"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:efyvzXunltY6",
+      "ts": 1770722322,
+      "label": "Gaming Cafe — Pixel Arena → Westfield Mall",
+      "status": "completed",
+      "origin": {
+        "name": "Gaming Cafe — Pixel Arena",
+        "lat": 37.780109318144234,
+        "lng": -122.4107902728569
+      },
+      "destination": {
+        "name": "Westfield Mall",
+        "lat": 37.782956750090094,
+        "lng": -122.40793105812733
+      },
+      "distance_km": 8.84,
+      "duration_minutes": 50,
+      "fare": {
+        "value": 11.64,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lila Hintz",
+        "rating": 4.34,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "ONF-8127"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:igToaJqhCCmR",
+      "ts": 1770683747,
+      "label": "PerseusOft HQ — SoMa → Tenderloin Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.78678007941882,
+        "lng": -122.40117117461283
+      },
+      "destination": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.783168129327244,
+        "lng": -122.41184226285895
+      },
+      "distance_km": 9.13,
+      "duration_minutes": 29,
+      "fare": {
+        "value": 9.83,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Hazel Schaden",
+        "rating": 4.55,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "OBQ-3322"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:gHAH9BMID8d3",
+      "ts": 1770539814,
+      "label": "BART Powell Station → Tenderloin Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "BART Powell Station",
+        "lat": 37.78588154041988,
+        "lng": -122.40982914751278
+      },
+      "destination": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.78530786653241,
+        "lng": -122.41086157110064
+      },
+      "distance_km": 11.68,
+      "duration_minutes": 58,
+      "fare": {
+        "value": 20.44,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Perry Marks",
+        "rating": 4.49,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "TTM-2422"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:rnobIrnraIUQ",
+      "ts": 1770509266,
+      "label": "Westfield Mall → BART Powell Station",
+      "status": "completed",
+      "origin": {
+        "name": "Westfield Mall",
+        "lat": 37.78244251216867,
+        "lng": -122.40826112949671
+      },
+      "destination": {
+        "name": "BART Powell Station",
+        "lat": 37.78560481171553,
+        "lng": -122.40771924968074
+      },
+      "distance_km": 14.11,
+      "duration_minutes": 52,
+      "fare": {
+        "value": 25.24,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Alfredo Lynch",
+        "rating": 4.17,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "WQQ-5243"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:5tOS1ngMWFV6",
+      "ts": 1769636774,
+      "label": "Westfield Mall → PerseusOft HQ — SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Westfield Mall",
+        "lat": 37.78584369722309,
+        "lng": -122.40774119859131
+      },
+      "destination": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.78370225994342,
+        "lng": -122.3977193000278
+      },
+      "distance_km": 11.19,
+      "duration_minutes": 59,
+      "fare": {
+        "value": 11.28,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Hulda Murphy",
+        "rating": 4.95,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "PLX-6053"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:IdKlJb9TbBxT",
+      "ts": 1768340192,
+      "label": "Westfield Mall → PerseusOft HQ — SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Westfield Mall",
+        "lat": 37.78468993596778,
+        "lng": -122.40553960577763
+      },
+      "destination": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.78370401854813,
+        "lng": -122.40117241504525
+      },
+      "distance_km": 2.53,
+      "duration_minutes": 9,
+      "fare": {
+        "value": 4.21,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Irene Crona",
+        "rating": 4.2,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "TGX-0554"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:QzX5ii6gTwZD",
+      "ts": 1767835922,
+      "label": "Gaming Cafe — Pixel Arena → Westfield Mall",
+      "status": "completed",
+      "origin": {
+        "name": "Gaming Cafe — Pixel Arena",
+        "lat": 37.78023668259202,
+        "lng": -122.40950985671145
+      },
+      "destination": {
+        "name": "Westfield Mall",
+        "lat": 37.78436404402354,
+        "lng": -122.40550700009354
+      },
+      "distance_km": 6.37,
+      "duration_minutes": 33,
+      "fare": {
+        "value": 11.57,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Osborne Koepp",
+        "rating": 4.16,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "ZCR-1462"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:KHgTFJnDJuYy",
+      "ts": 1767604290,
+      "label": "PerseusOft HQ — SoMa → Westfield Mall",
+      "status": "completed",
+      "origin": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.78429548291837,
+        "lng": -122.39744830279805
+      },
+      "destination": {
+        "name": "Westfield Mall",
+        "lat": 37.785273490435415,
+        "lng": -122.4089233742414
+      },
+      "distance_km": 10.67,
+      "duration_minutes": 63,
+      "fare": {
+        "value": 16.69,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Avis Hayes",
+        "rating": 4.17,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "UAF-4760"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:lORt3IkVX9NI",
+      "ts": 1766814658,
+      "label": "Gaming Cafe — Pixel Arena → BART Powell Station",
+      "status": "completed",
+      "origin": {
+        "name": "Gaming Cafe — Pixel Arena",
+        "lat": 37.7793335924158,
+        "lng": -122.4088238235503
+      },
+      "destination": {
+        "name": "BART Powell Station",
+        "lat": 37.78383568587803,
+        "lng": -122.40825246298519
+      },
+      "distance_km": 5.81,
+      "duration_minutes": 22,
+      "fare": {
+        "value": 12.91,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Winifred Rau",
+        "rating": 4.79,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "JAC-5854"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:RyBl3ZXpiHxk",
+      "ts": 1766761722,
+      "label": "BART Powell Station → PerseusOft HQ — SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "BART Powell Station",
+        "lat": 37.78371298425719,
+        "lng": -122.40770681606224
+      },
+      "destination": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.783476779842374,
+        "lng": -122.39947889861538
+      },
+      "distance_km": 5.42,
+      "duration_minutes": 30,
+      "fare": {
+        "value": 8.18,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Dianne Corkery",
+        "rating": 4.6,
+        "vehicle": "Hyundai Elantra Grey 2022",
+        "plate": "ZXR-5902"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:bdrStpMsokEs",
+      "ts": 1766641962,
+      "label": "Tenderloin Apartment → MiniExpress Convenience",
+      "status": "completed",
+      "origin": {
+        "name": "Tenderloin Apartment",
+        "lat": 37.7817522337475,
+        "lng": -122.41441170159837
+      },
+      "destination": {
+        "name": "MiniExpress Convenience",
+        "lat": 37.781315436352564,
+        "lng": -122.41312034862133
+      },
+      "distance_km": 14.43,
+      "duration_minutes": 54,
+      "fare": {
+        "value": 14.86,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Sally Kuvalis",
+        "rating": 4.9,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "ZUN-1712"
+      },
+      "ride_type": "shared"
+    }
+  ],
+  "saved_places": [
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:RudiLtIsGSej",
+      "name": "Home",
+      "label": "My apartment",
+      "address": "45 Turk St, Apt 3C, Tenderloin, SF",
+      "lat": 37.7837,
+      "lng": -122.4128,
+      "category": "home"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:mLFbQHdtxBdB",
+      "name": "Work",
+      "label": "PerseusOft",
+      "address": "101 2nd St, Floor 18, SoMa, SF",
+      "lat": 37.7849,
+      "lng": -122.3994,
+      "category": "work"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:OqYQimwiVIff",
+      "name": "Pixel Arena",
+      "label": "Gaming cafe",
+      "address": "120 Valencia St, Mission, SF",
+      "lat": 37.7785,
+      "lng": -122.41,
+      "category": "favorite"
+    }
+  ]
+}

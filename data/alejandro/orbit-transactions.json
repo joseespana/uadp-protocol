@@ -1,0 +1,7730 @@
+{
+  "accounts": [
+    {
+      "uadp_type": "uadp:account",
+      "id": "orbit:acc:checking",
+      "label": "Checking Account",
+      "type": "checking",
+      "balance": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "uadp_type": "uadp:account",
+      "id": "orbit:acc:savings",
+      "label": "Savings",
+      "type": "savings",
+      "balance": {
+        "value": 15000,
+        "currency": "USD"
+      },
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YIt02YN6Kaov",
+      "ts": 1774351186,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 21.9,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17556.58,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:boc3VTbuYAxq",
+      "ts": 1774294299,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 234.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24944.82,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BF59X26OOXRd",
+      "ts": 1774290282,
+      "label": "SuperMart",
+      "amount": {
+        "value": 99.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28841.4,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:OL9u03CvVNdz",
+      "ts": 1774215867,
+      "label": "CompassGo - Blue Bottle Coffee → Berkeley",
+      "amount": {
+        "value": 8.1,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17468.73,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Yzjy35MQb4mI",
+      "ts": 1774191258,
+      "label": "CompassGo - Golden Gate Park → Sausalito",
+      "amount": {
+        "value": 5.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17471.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:T7QKPT2r3j8z",
+      "ts": 1774188987,
+      "label": "DarkStitch",
+      "amount": {
+        "value": 118.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DarkStitch",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 25443.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Uiubcdsk46DC",
+      "ts": 1774179212,
+      "label": "CompassGo - Hayes Valley → TechCorp — Office",
+      "amount": {
+        "value": 69.22,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17407.61,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:MGLXcKW2kXZi",
+      "ts": 1774159956,
+      "label": "CompassGo - TechCorp — Office → Nob Hill",
+      "amount": {
+        "value": 43.88,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17432.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:vcVtmQJhdhjk",
+      "ts": 1774131547,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 61.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17415.15,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Nv7eqIeDgPiO",
+      "ts": 1774130839,
+      "label": "CornerMart",
+      "amount": {
+        "value": 34.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CornerMart",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17932.51,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:WJr2RxZB1eov",
+      "ts": 1774125481,
+      "label": "MercadoMart - Order #1009",
+      "amount": {
+        "value": 640.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16836.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Q3rlAR6HGLwe",
+      "ts": 1774110063,
+      "label": "CompassGo - SFO Airport → Mission District Apartment",
+      "amount": {
+        "value": 82.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17394.08,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2Y3AiI2IgAnc",
+      "ts": 1774100985,
+      "label": "CompassGo - Downtown / Union Square → GymFit Downtown",
+      "amount": {
+        "value": 74.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17402.01,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BvilsuqokEpj",
+      "ts": 1774084705,
+      "label": "BART SF",
+      "amount": {
+        "value": 20.76,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24165.29,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ASMex3hn4aQs",
+      "ts": 1774071550,
+      "label": "BART SF",
+      "amount": {
+        "value": 27.87,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23462.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kF0vaAOwpAf0",
+      "ts": 1774068139,
+      "label": "CompassGo - Mission District Apartment → Nob Hill",
+      "amount": {
+        "value": 54.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17422.27,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:8XjEYSv5I89S",
+      "ts": 1774042467,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 20.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24449.86,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:JPHW55sDxmmq",
+      "ts": 1773987295,
+      "label": "CompassGo - Nob Hill → TechCorp — Office",
+      "amount": {
+        "value": 40.09,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17436.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qYTsImtEnMlc",
+      "ts": 1773962402,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 249.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 25179.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:fPDLwOazksSY",
+      "ts": 1773957892,
+      "label": "LyraMusic Premium",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LyraMusic",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "music",
+          "subscription",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rCnjACjEQ7W4",
+      "ts": 1773951832,
+      "label": "FibraMax Internet",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Internet",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 32847.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:H7JBzyrT2Sqk",
+      "ts": 1773950801,
+      "label": "MobileX Unlimited Plan",
+      "amount": {
+        "value": 35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Unlimited Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 32892.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZzHS0NGk3yj2",
+      "ts": 1773924015,
+      "label": "Abuela's Kitchen",
+      "amount": {
+        "value": 24.21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Abuela's Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21891.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:eDkgnRdNmF8a",
+      "ts": 1773909349,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 391.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21338.7,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bz5wIxLw5Fkw",
+      "ts": 1773904657,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 4.14,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27363,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:TaIit0OX7b44",
+      "ts": 1773900705,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 287.41,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18033.31,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:crl3BQ3wY3ir",
+      "ts": 1773885835,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 44.03,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24602.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:vBfrGsz3NoQq",
+      "ts": 1773876939,
+      "label": "FlameEats - Cevicheria del Mar",
+      "amount": {
+        "value": 101.33,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17375.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YI6yKzkjdBbJ",
+      "ts": 1773867921,
+      "label": "VortexPlay Monthly",
+      "amount": {
+        "value": 14.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VortexPlay",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "movies",
+          "subscription",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2JYgEFrl3Wvi",
+      "ts": 1773860287,
+      "label": "GymFit Downtown",
+      "amount": {
+        "value": 49.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GymFit Downtown",
+        "category": "fitness",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 32927.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:A7vjfUnPPLGm",
+      "ts": 1773840336,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 65.67,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17411.16,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:1CggPDynsOni",
+      "ts": 1773837099,
+      "label": "CompassGo - Hayes Valley → Palo Alto",
+      "amount": {
+        "value": 14.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17462.18,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:advsXrqOiNfp",
+      "ts": 1773835035,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 7.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27377.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0GpJGJG1XsTa",
+      "ts": 1773781439,
+      "label": "Rent - Mission District Apt",
+      "amount": {
+        "value": 1800,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Mission District Apt",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 33000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tYdEKau8wzav",
+      "ts": 1773742475,
+      "label": "FlameEats - Veggie Verde",
+      "amount": {
+        "value": 59.25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17417.58,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4UZYzVzVqYYV",
+      "ts": 1773732034,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 78.24,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17398.59,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sHEe6mB5PvRE",
+      "ts": 1773726064,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 53.93,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24537.94,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XscXtGXVXQHc",
+      "ts": 1773702682,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 19,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19673.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VKp8PjPyxBq6",
+      "ts": 1773702466,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 4.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27447.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HJXQ1OXwaePX",
+      "ts": 1773697530,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 21.76,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19626.78,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SNhHeFXluo6W",
+      "ts": 1773694610,
+      "label": "StreamPlus",
+      "amount": {
+        "value": 12.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "StreamPlus",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 32987.01,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IdB5c64CgKkR",
+      "ts": 1773693823,
+      "label": "MelodyWave",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MelodyWave",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 32977.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:v1Ia8iuvE4kf",
+      "ts": 1773691478,
+      "label": "Green Market",
+      "amount": {
+        "value": 112.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28728.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ezP8Vtv1Y3hD",
+      "ts": 1773671570,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 67.24,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24470.7,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oRasL5O6sXvT",
+      "ts": 1773644247,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 24.02,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26064.15,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yeNerq4op9Sn",
+      "ts": 1773607675,
+      "label": "Payroll - TechCorp",
+      "amount": {
+        "value": 4800,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCorp",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 34800,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VraLSJrY69h8",
+      "ts": 1773590312,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 145.16,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26269.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wK9PCoY9RfOZ",
+      "ts": 1773580793,
+      "label": "FlameEats - Cevicheria del Mar",
+      "amount": {
+        "value": 69.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17406.99,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:EAjf09zyJ2NA",
+      "ts": 1773523608,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 21.31,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19916.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nkFY2DtXm3q9",
+      "ts": 1773493302,
+      "label": "CompassGo - Nob Hill → Blue Bottle Coffee",
+      "amount": {
+        "value": 34.07,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17442.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dTvUmIN2U21M",
+      "ts": 1773433995,
+      "label": "CompassGo - GymFit Downtown → Mission District Apartment",
+      "amount": {
+        "value": 8.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17468.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Uhbr9bygLspt",
+      "ts": 1773356829,
+      "label": "MercadoMart - Order #1014",
+      "amount": {
+        "value": 2950.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 14525.92,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sQYSoJZ0rlCY",
+      "ts": 1773347633,
+      "label": "FlameEats - Veggie Verde",
+      "amount": {
+        "value": 57.41,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17419.42,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:j6ISSgXNeSb9",
+      "ts": 1773337211,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 5.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27457.28,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oCx2tpgEWHbE",
+      "ts": 1773327193,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 29,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24915.82,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cPvnOQI4RPhB",
+      "ts": 1773314347,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 32.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17443.92,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4cNNUEn7drfj",
+      "ts": 1773306440,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 4.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27438.4,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ghcRwtZ2rdqa",
+      "ts": 1773300029,
+      "label": "CircuitCo",
+      "amount": {
+        "value": 333.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CircuitCo",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20621.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PV3UbBrHwo41",
+      "ts": 1773297879,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.06,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27281.62,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hsgKpzJo4Sqw",
+      "ts": 1773297583,
+      "label": "CompassGo - Sausalito → Downtown / Union Square",
+      "amount": {
+        "value": 117.38,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17359.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2kj69lYBwgFY",
+      "ts": 1773289868,
+      "label": "MercadoMart - Order #1005",
+      "amount": {
+        "value": 1908.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15568.22,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Uhp4noQ0viC4",
+      "ts": 1773219737,
+      "label": "FlameEats - Cevicheria del Mar",
+      "amount": {
+        "value": 46.23,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17430.6,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qHN12CslMuAk",
+      "ts": 1773169605,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 14.24,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MiniExpress",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 25429.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qNcAqsnh8hZW",
+      "ts": 1773127320,
+      "label": "FlameEats - Cevicheria del Mar",
+      "amount": {
+        "value": 67.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17408.99,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:73xzESUlDsKI",
+      "ts": 1773085761,
+      "label": "BART SF",
+      "amount": {
+        "value": 16.25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26681.44,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lMS4vYI4L3hu",
+      "ts": 1773083203,
+      "label": "MercadoMart - Order #1017",
+      "amount": {
+        "value": 1873.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15603.37,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RzCvJXnAQSPy",
+      "ts": 1773075159,
+      "label": "PetroMax",
+      "amount": {
+        "value": 66.35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "PetroMax",
+        "category": "gas",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26997.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VAJ7nyvn5GBq",
+      "ts": 1773040785,
+      "label": "TechZone",
+      "amount": {
+        "value": 101.27,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "TechZone",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20156.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:27Qao54COazI",
+      "ts": 1773034608,
+      "label": "FlameEats - Bistro Alameda",
+      "amount": {
+        "value": 59.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17417.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:MpZ78i60k2AP",
+      "ts": 1773005045,
+      "label": "Green Market",
+      "amount": {
+        "value": 117.44,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28611.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:t22vzj1sUusy",
+      "ts": 1773004406,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 44.37,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26716.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Yh8EiQS6YL3Z",
+      "ts": 1772964606,
+      "label": "CompassGo - Sausalito → Stanford",
+      "amount": {
+        "value": 68.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17407.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YZlfCajA2ri5",
+      "ts": 1772902696,
+      "label": "FlameEats - Falafel House",
+      "amount": {
+        "value": 33.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17443.71,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:28fDUen7zKth",
+      "ts": 1772837663,
+      "label": "CompassGo - Downtown / Union Square → Blue Bottle Coffee",
+      "amount": {
+        "value": 52.04,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17424.79,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:jQOFAdQARcCG",
+      "ts": 1772810982,
+      "label": "CompassGo - Hayes Valley → Nob Hill",
+      "amount": {
+        "value": 5.6,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17471.23,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HlQkjxZlcHTP",
+      "ts": 1772809742,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 29.93,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26573,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:aZvRofuLUb79",
+      "ts": 1772780216,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.43,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27332.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9SZ9zPlfikf4",
+      "ts": 1772753783,
+      "label": "Abuela's Kitchen",
+      "amount": {
+        "value": 15.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Abuela's Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24828.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:99g4Ng0NA1dj",
+      "ts": 1772680220,
+      "label": "The Grill House",
+      "amount": {
+        "value": 49.93,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Grill House",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26414.61,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:v1sxBlQAWACP",
+      "ts": 1772534035,
+      "label": "CompassGo - Palo Alto → Sausalito",
+      "amount": {
+        "value": 37.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17439.66,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:6l7F8dpOyFnk",
+      "ts": 1772490710,
+      "label": "FlameEats - Sushi Kaze",
+      "amount": {
+        "value": 47.55,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17429.28,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:3VbzsNnJMaFr",
+      "ts": 1772469954,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 117.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Green Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28494.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:InDAYg1wfXIh",
+      "ts": 1772464426,
+      "label": "FlameEats - Veggie Verde",
+      "amount": {
+        "value": 12.97,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17463.86,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:GHRSZlUD7An4",
+      "ts": 1772448972,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.71,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27420.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:c5nIz0PoHLtN",
+      "ts": 1772441572,
+      "label": "ByteShop",
+      "amount": {
+        "value": 194.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ByteShop",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18738.82,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Ou2MIVqCArzr",
+      "ts": 1772435687,
+      "label": "CompassGo - Golden Gate Park → Palo Alto",
+      "amount": {
+        "value": 49.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17427.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cgZ6Gw43NC2h",
+      "ts": 1772402319,
+      "label": "Payroll - TechCorp",
+      "amount": {
+        "value": 4800,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCorp",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 30000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bw9DL9fggNmq",
+      "ts": 1772297709,
+      "label": "CompassGo - SFO Airport → TechCorp — Office",
+      "amount": {
+        "value": 4.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17471.99,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:A9RkVn2jLCNF",
+      "ts": 1772297499,
+      "label": "FlameEats - Veggie Verde",
+      "amount": {
+        "value": 34.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17441.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lhJcGiRShAO4",
+      "ts": 1772261275,
+      "label": "Abuela's Kitchen",
+      "amount": {
+        "value": 22.52,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "pending",
+      "merchant": {
+        "name": "Abuela's Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24142.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZGgg17BZGnWc",
+      "ts": 1772255666,
+      "label": "CompassGo - Blue Bottle Coffee → Golden Gate Park",
+      "amount": {
+        "value": 43.97,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17432.86,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gmvTvMzeqpZy",
+      "ts": 1772207016,
+      "label": "CircuitCo",
+      "amount": {
+        "value": 452.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CircuitCo",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18933.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xNOV2Yh2ZSbf",
+      "ts": 1772147490,
+      "label": "CompassGo - Hayes Valley → Golden Gate Park",
+      "amount": {
+        "value": 41.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17434.91,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IWHhB3eWhlwj",
+      "ts": 1772133136,
+      "label": "CompassGo - Market Street → SuperMart SoMa",
+      "amount": {
+        "value": 39.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17437.22,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7s1mgCaHpum8",
+      "ts": 1772133050,
+      "label": "CompassGo - Hayes Valley → Nob Hill",
+      "amount": {
+        "value": 40.2,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17436.63,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Y7bqhPaI7gJ5",
+      "ts": 1772121890,
+      "label": "QuickStop",
+      "amount": {
+        "value": 19.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickStop",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18013.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:peo8xdPI1F04",
+      "ts": 1772094878,
+      "label": "MercadoMart - Order #1008",
+      "amount": {
+        "value": 1268.16,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16208.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:fHeCENBVGfWb",
+      "ts": 1772035263,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 16.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20257.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CfCWK9sO566i",
+      "ts": 1772020669,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 12.64,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17464.19,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:8aDhCdJfSAjW",
+      "ts": 1771991495,
+      "label": "CompassGo - Berkeley → Hayes Valley",
+      "amount": {
+        "value": 23.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17453.55,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:vBl9h8Dx9tzg",
+      "ts": 1771958789,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 47.11,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17429.72,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:8X3ANKH1jj4L",
+      "ts": 1771958175,
+      "label": "CompassGo - Sausalito → Berkeley",
+      "amount": {
+        "value": 65.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17411,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:odXiBhNGMalc",
+      "ts": 1771897256,
+      "label": "Taqueria Don Julio",
+      "amount": {
+        "value": 17.2,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Taqueria Don Julio",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17654.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bQjpZrnkdDJc",
+      "ts": 1771895489,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 16.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17460.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HFVNlszoZ2EC",
+      "ts": 1771878606,
+      "label": "CornerMart",
+      "amount": {
+        "value": 12.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CornerMart",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22782.65,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gtxxOQlvKS9K",
+      "ts": 1771865925,
+      "label": "FreshCo",
+      "amount": {
+        "value": 102.23,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28391.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zJAWz7YJMxjY",
+      "ts": 1771862270,
+      "label": "FlameEats - Abuela's Kitchen",
+      "amount": {
+        "value": 38.85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17437.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:M8mTB7772xGr",
+      "ts": 1771844013,
+      "label": "FlameEats - La Cocina de Sol",
+      "amount": {
+        "value": 33.19,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17443.64,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:u4lFpeu8pAbS",
+      "ts": 1771741803,
+      "label": "FlameEats - Bistro Alameda",
+      "amount": {
+        "value": 51.06,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17425.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CIpyScagdS25",
+      "ts": 1771666792,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 4.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27434.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VszASGlHTO24",
+      "ts": 1771666513,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 23.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "pending",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24069.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CK8fALOnrGh5",
+      "ts": 1771656327,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 30.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "pending",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26650.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:m35MZ3fMdOHs",
+      "ts": 1771615258,
+      "label": "FlameEats - Abuela's Kitchen",
+      "amount": {
+        "value": 60.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17416.2,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:eXED5ckhihHE",
+      "ts": 1771568571,
+      "label": "CompassGo - Market Street → TechCorp — Office",
+      "amount": {
+        "value": 2.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17474.66,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:6SVsqd0HvW2k",
+      "ts": 1771553902,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 325.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22424,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:suS3ByoqGzEr",
+      "ts": 1771541078,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27325.21,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HaVsznpntRQk",
+      "ts": 1771531293,
+      "label": "Health Express",
+      "amount": {
+        "value": 71.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24844,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Zqj84S7SyFOx",
+      "ts": 1771528091,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 206.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24186.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:5gjYV2PvxFVT",
+      "ts": 1771475083,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 65.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17411.18,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:LfKzYqTI9IDY",
+      "ts": 1771435483,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 4.35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27373.6,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mV2MrJi6N6Ox",
+      "ts": 1771414596,
+      "label": "DarkStitch",
+      "amount": {
+        "value": 87.09,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DarkStitch",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22896.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0bLyjRuyKu9a",
+      "ts": 1771411778,
+      "label": "CompassGo - Mission District Apartment → Stanford",
+      "amount": {
+        "value": 34.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17442.36,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PM1yp6uWtBUd",
+      "ts": 1771407135,
+      "label": "CompassGo - Golden Gate Park → Market Street",
+      "amount": {
+        "value": 83.21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17393.62,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oOJqJP1JifJP",
+      "ts": 1771366499,
+      "label": "LyraMusic Premium",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LyraMusic",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "music",
+          "subscription",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QUJlbke6sc4y",
+      "ts": 1771355083,
+      "label": "Green Market",
+      "amount": {
+        "value": 137.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28254.27,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:FqWeOMktLQGV",
+      "ts": 1771353988,
+      "label": "PetroMax",
+      "amount": {
+        "value": 48.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickGas",
+        "category": "gas",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26948.56,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Ir2ISKY9z5Yd",
+      "ts": 1771353817,
+      "label": "StreamPlus",
+      "amount": {
+        "value": 12.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "StreamPlus",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 31034.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PrnzVxjlcC1G",
+      "ts": 1771295515,
+      "label": "RidaGo",
+      "amount": {
+        "value": 20.22,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21791.54,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:NXeOTyFrq9Ga",
+      "ts": 1771278363,
+      "label": "MelodyWave",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MelodyWave",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 31024.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dbwCmq4apXDJ",
+      "ts": 1771277107,
+      "label": "VortexPlay Monthly",
+      "amount": {
+        "value": 14.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VortexPlay",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "movies",
+          "subscription",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xPuyqbY17IJ9",
+      "ts": 1771200287,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 185.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19731.13,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yI6tOFywmriF",
+      "ts": 1771189948,
+      "label": "Payroll - TechCorp",
+      "amount": {
+        "value": 4800,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCorp",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 25200,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sEwj3Au5Hf20",
+      "ts": 1771186811,
+      "label": "GymFit Downtown",
+      "amount": {
+        "value": 49.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GymFit Downtown",
+        "category": "fitness",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 30974.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:reZ1QpYsDz6W",
+      "ts": 1771149709,
+      "label": "CompassGo - GymFit Downtown → TechCorp — Office",
+      "amount": {
+        "value": 44.4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17432.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Chk1dqgcCzTw",
+      "ts": 1771129626,
+      "label": "CompassGo - Stanford → Sausalito",
+      "amount": {
+        "value": 74.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17401.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:FCb3OiAQSE8B",
+      "ts": 1771116061,
+      "label": "FlameEats - El Fogon Kitchen",
+      "amount": {
+        "value": 33.73,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17443.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yfTYu4g0b0EP",
+      "ts": 1771112784,
+      "label": "CompassGo - Palo Alto → Mission District Apartment",
+      "amount": {
+        "value": 47.32,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17429.51,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:fv0B44JbYotj",
+      "ts": 1771104173,
+      "label": "FibraMax Internet",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Internet",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 30894.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Q6jjQNXw0T2P",
+      "ts": 1771100712,
+      "label": "MobileX Unlimited Plan",
+      "amount": {
+        "value": 35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Unlimited Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 30939.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:fH2tCxb1rbmQ",
+      "ts": 1771100278,
+      "label": "Rent - Mission District Apt",
+      "amount": {
+        "value": 1800,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Mission District Apt",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 31047.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dyHgeb3UU9Oo",
+      "ts": 1771086311,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 249.52,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22983.52,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:p3ZjwOvebVqh",
+      "ts": 1771063528,
+      "label": "FlameEats - Veggie Verde",
+      "amount": {
+        "value": 19.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17457.36,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:njswUi3jInco",
+      "ts": 1771062810,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 82.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18655.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:veiKMj3nGUJa",
+      "ts": 1770984405,
+      "label": "FlameEats - Cevicheria del Mar",
+      "amount": {
+        "value": 136.25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17340.58,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tAEBhb10TZmd",
+      "ts": 1770954586,
+      "label": "BART SF",
+      "amount": {
+        "value": 25.01,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20131.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RgyHJ2engM9U",
+      "ts": 1770946513,
+      "label": "CompassGo - Stanford → Nob Hill",
+      "amount": {
+        "value": 45.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17431.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oA8kz4fuFjCf",
+      "ts": 1770921564,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 245.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18410.26,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RwOnaj0YL0Pb",
+      "ts": 1770899770,
+      "label": "CompassGo - SFO Airport → Market Street",
+      "amount": {
+        "value": 40.36,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17436.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oaWJkAwtXrCg",
+      "ts": 1770868559,
+      "label": "Abuela's Kitchen",
+      "amount": {
+        "value": 41.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Abuela's Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26531.18,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ujHY8izcoOla",
+      "ts": 1770857351,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 50.24,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17426.59,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dhiBP3wwXOoB",
+      "ts": 1770830548,
+      "label": "ByteShop",
+      "amount": {
+        "value": 311.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ByteShop",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23757.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VcdWu5yBFrLI",
+      "ts": 1770788283,
+      "label": "CompassGo - Berkeley → SuperMart SoMa",
+      "amount": {
+        "value": 53.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17423.37,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:u3sVpHZytgey",
+      "ts": 1770776373,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.27,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27311.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:TfAh7DKxkZ2y",
+      "ts": 1770758918,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 37.89,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22225.36,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:MQXyjDAAmSyB",
+      "ts": 1770752628,
+      "label": "The Grill House",
+      "amount": {
+        "value": 23.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Grill House",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20598.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:eOVvy4o8HXOo",
+      "ts": 1770737972,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 97.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "failed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23510.75,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:l5bWmdaAslmc",
+      "ts": 1770737376,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 38.88,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19692.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0onX2g51AImQ",
+      "ts": 1770720381,
+      "label": "CompassGo - Market Street → SFO Airport",
+      "amount": {
+        "value": 39.54,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17437.29,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IBPC3Lnd2kBQ",
+      "ts": 1770669425,
+      "label": "Green Market",
+      "amount": {
+        "value": 129.2,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28125.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:M5HIlFkdiOXk",
+      "ts": 1770633406,
+      "label": "MercadoMart - Order #1022",
+      "amount": {
+        "value": 1396.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16080.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bOzG334ImKwb",
+      "ts": 1770580689,
+      "label": "Health Express",
+      "amount": {
+        "value": 32.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22749.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:3tQOwY1PSvIB",
+      "ts": 1770491982,
+      "label": "CompassGo - Stanford → Berkeley",
+      "amount": {
+        "value": 47.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17429.2,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:A4kSJ5hcnYz9",
+      "ts": 1770400019,
+      "label": "QuickGas",
+      "amount": {
+        "value": 56.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickGas",
+        "category": "gas",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27224.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qvxI7ZhYGGVS",
+      "ts": 1770359337,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 66.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23665.2,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cxmLQzsHjv6I",
+      "ts": 1770356638,
+      "label": "CompassGo - Market Street → Nob Hill",
+      "amount": {
+        "value": 36.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17440.38,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zh4BEHV2dz03",
+      "ts": 1770322074,
+      "label": "QuickGas",
+      "amount": {
+        "value": 51.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickGas",
+        "category": "gas",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27113.53,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:5g0oVN3IJME4",
+      "ts": 1770276814,
+      "label": "ByteShop",
+      "amount": {
+        "value": 56.67,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ByteShop",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23608.53,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:aDR7RKpzlCkl",
+      "ts": 1770267691,
+      "label": "CompassGo - SFO Airport → Berkeley",
+      "amount": {
+        "value": 25.01,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17451.82,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kKhCOaPqITVm",
+      "ts": 1770267481,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 62.9,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17413.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IZXZu2JFXnZ4",
+      "ts": 1770204680,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.13,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27338.32,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:s2hnNoWJOTcN",
+      "ts": 1770188050,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 28.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24657.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ibepujnUb2Kk",
+      "ts": 1770146625,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 61.95,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21811.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZyLpkFaUTXne",
+      "ts": 1770105794,
+      "label": "FlameEats - El Fogon Kitchen",
+      "amount": {
+        "value": 75.04,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17401.79,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9uWBIdqSqj9A",
+      "ts": 1770069851,
+      "label": "SuperMart",
+      "amount": {
+        "value": 99.88,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28025.19,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wTxIR877ko2f",
+      "ts": 1770034381,
+      "label": "Abuela's Kitchen",
+      "amount": {
+        "value": 21.96,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Abuela's Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26602.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:R6ne6iNeUG5d",
+      "ts": 1770030086,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 21.81,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MiniExpress",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26247.64,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:46iBal9kJnOV",
+      "ts": 1770024504,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.29,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27305.16,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rAFx2UPBQReg",
+      "ts": 1769984474,
+      "label": "Payroll - TechCorp",
+      "amount": {
+        "value": 4800,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCorp",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20400,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:UIiWPXYr6v7u",
+      "ts": 1769983669,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.66,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27355.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BaoeNbX7pL7j",
+      "ts": 1769951510,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 4.48,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27300.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2rv2Gt7kvSsU",
+      "ts": 1769944547,
+      "label": "RidaGo",
+      "amount": {
+        "value": 28.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23233.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ezElss769KLq",
+      "ts": 1769911539,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 24.71,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19648.54,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9VSpy6mNYuhM",
+      "ts": 1769854644,
+      "label": "Health Express",
+      "amount": {
+        "value": 75.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17578.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:InNKSf56xg2P",
+      "ts": 1769849583,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 7.13,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27427.12,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Q3qJ7FLGCNFZ",
+      "ts": 1769841859,
+      "label": "CompassGo - SuperMart SoMa → Downtown / Union Square",
+      "amount": {
+        "value": 11.36,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17465.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kPH8ygJqfUUO",
+      "ts": 1769822656,
+      "label": "The Grill House",
+      "amount": {
+        "value": 63.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Grill House",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18346.28,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:myFfmyeWICJe",
+      "ts": 1769812041,
+      "label": "QuickGas",
+      "amount": {
+        "value": 49.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickGas",
+        "category": "gas",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27063.59,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7K7SQ2h1zOnE",
+      "ts": 1769731876,
+      "label": "CompassGo - Golden Gate Park → Berkeley",
+      "amount": {
+        "value": 61.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17414.85,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ehn69fHF04uq",
+      "ts": 1769712944,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 4.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27442.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sL09QVJ9zhyc",
+      "ts": 1769658111,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 6.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27367.14,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SNEMjun2fuE1",
+      "ts": 1769585930,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 10.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24591.87,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hfh77A6ba88N",
+      "ts": 1769559091,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 47.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21915.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:q0sYsO0Ksi0A",
+      "ts": 1769536211,
+      "label": "SuperMart",
+      "amount": {
+        "value": 86.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27938.63,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BcdMiHUutPwd",
+      "ts": 1769428446,
+      "label": "CompassGo - Nob Hill → Palo Alto",
+      "amount": {
+        "value": 27.62,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17449.21,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Qmoiy7b58Qbt",
+      "ts": 1769404777,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 20.14,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23490.61,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2UVyj9gSc9ki",
+      "ts": 1769388677,
+      "label": "BART SF",
+      "amount": {
+        "value": 26.79,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17987.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:w32uudATMzge",
+      "ts": 1769363970,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 167.48,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21171.22,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:e7BhCO935Y5V",
+      "ts": 1769355996,
+      "label": "Health Express",
+      "amount": {
+        "value": 25.36,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23731.88,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:AXlSXwmlqErL",
+      "ts": 1769347503,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 7.64,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27412.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:LPcGSLNePv0F",
+      "ts": 1769283630,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 5.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27452,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:6C6RVoHH3aSc",
+      "ts": 1769271267,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 56.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24393.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:100lQJFVABwb",
+      "ts": 1769252747,
+      "label": "CompassGo - Palo Alto → Downtown / Union Square",
+      "amount": {
+        "value": 42.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17434.38,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:NXuKNFnIYBJe",
+      "ts": 1769179279,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 187.85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26760.71,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CPKYsg0kP2G2",
+      "ts": 1769112926,
+      "label": "Presto 24h",
+      "amount": {
+        "value": 30.37,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Presto 24h",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21963.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YXX5qsr3lqHn",
+      "ts": 1769093188,
+      "label": "CompassGo - GymFit Downtown → SFO Airport",
+      "amount": {
+        "value": 19.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17457.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:DTkm5hQ8nQd9",
+      "ts": 1769070266,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 94.35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26153.29,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oNzRggpcDdi8",
+      "ts": 1769027585,
+      "label": "MercadoMart - Order #1013",
+      "amount": {
+        "value": 1640.2,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15836.63,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nQKLVAQfUWok",
+      "ts": 1769021789,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 25.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 18320.72,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mx2v1Nrf3BtQ",
+      "ts": 1768984623,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 31.79,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17445.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oXuQlJkhaDtm",
+      "ts": 1768973467,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 11.59,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17854.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Vwib3rud4JxS",
+      "ts": 1768933417,
+      "label": "FlameEats - Cevicheria del Mar",
+      "amount": {
+        "value": 83.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17393.55,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:N94PTouJb0QE",
+      "ts": 1768899623,
+      "label": "CircuitCo",
+      "amount": {
+        "value": 215.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CircuitCo",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20955.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Q3LREQimB8bZ",
+      "ts": 1768873442,
+      "label": "Health Express",
+      "amount": {
+        "value": 62.38,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24766.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uXVfWvtwAdP7",
+      "ts": 1768848341,
+      "label": "CompassGo - Golden Gate Park → SuperMart SoMa",
+      "amount": {
+        "value": 41.1,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17435.73,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rjTtKsiV8zc7",
+      "ts": 1768846285,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 11.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22815.13,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xUwgJVhAIG7Z",
+      "ts": 1768781586,
+      "label": "MercadoMart - Order #1002",
+      "amount": {
+        "value": 3705.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 13771.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zotHh9x7FAeg",
+      "ts": 1768772701,
+      "label": "MelodyWave",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MelodyWave",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 29071.08,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sapdHnf1Z6bg",
+      "ts": 1768769915,
+      "label": "LyraMusic Premium",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LyraMusic",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "music",
+          "subscription",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:GrZzBZgL3uDc",
+      "ts": 1768768550,
+      "label": "FibraMax Internet",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Internet",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28941.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:M5DTFzTzWJb4",
+      "ts": 1768763196,
+      "label": "FlameEats - Falafel House",
+      "amount": {
+        "value": 56.52,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17420.31,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:OFNRwPMchSoZ",
+      "ts": 1768761128,
+      "label": "SuperMart",
+      "amount": {
+        "value": 132.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27805.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:M05uA3yow7Qg",
+      "ts": 1768725720,
+      "label": "MercadoMart - Order #1015",
+      "amount": {
+        "value": 2205.2,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15271.63,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rpd23AVbblar",
+      "ts": 1768702743,
+      "label": "CompassGo - GymFit Downtown → Berkeley",
+      "amount": {
+        "value": 39.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17437.66,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Z2EpYWyI9qWQ",
+      "ts": 1768688456,
+      "label": "VortexPlay Monthly",
+      "amount": {
+        "value": 14.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VortexPlay",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "movies",
+          "subscription",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RSrUwlLhpNu7",
+      "ts": 1768686789,
+      "label": "ByteShop",
+      "amount": {
+        "value": 155.11,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ByteShop",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21993.78,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4S1KCdWyQgsB",
+      "ts": 1768683416,
+      "label": "CompassGo - Berkeley → Golden Gate Park",
+      "amount": {
+        "value": 33.89,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17442.94,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QCJ23TdM3GSB",
+      "ts": 1768653992,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 45.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17430.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CFVSa6oMPmi6",
+      "ts": 1768647929,
+      "label": "MercadoMart - Order #1000",
+      "amount": {
+        "value": 1862.96,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15613.87,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ep78E0IRfSJP",
+      "ts": 1768591250,
+      "label": "MobileX Unlimited Plan",
+      "amount": {
+        "value": 35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Unlimited Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 28986.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:WLVeAnI9b8gb",
+      "ts": 1768582523,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 24.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24117.86,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Yn1JvGWfcpAR",
+      "ts": 1768579620,
+      "label": "FlameEats - Falafel House",
+      "amount": {
+        "value": 25.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17450.99,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0cZRZDv1lp8o",
+      "ts": 1768514559,
+      "label": "Payroll - TechCorp",
+      "amount": {
+        "value": 4800,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCorp",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15600,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Tc2hPuMPOAaD",
+      "ts": 1768511812,
+      "label": "Rent - Mission District Apt",
+      "amount": {
+        "value": 1800,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Mission District Apt",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 29094.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cE5NjYsf7ZoF",
+      "ts": 1768511559,
+      "label": "StreamPlus",
+      "amount": {
+        "value": 12.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "StreamPlus",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 29081.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:jU1oUI3u78rS",
+      "ts": 1768510937,
+      "label": "GymFit Downtown",
+      "amount": {
+        "value": 49.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GymFit Downtown",
+        "category": "fitness",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 29021.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bvs1ZHmzT2gW",
+      "ts": 1768497348,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27406.3,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lHqIHi1MizCS",
+      "ts": 1768494832,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 61.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21730.12,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:arTzn0BTcZdz",
+      "ts": 1768458741,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 200.71,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23262.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:AOBMOZG5PDev",
+      "ts": 1768379616,
+      "label": "FlameEats - Falafel House",
+      "amount": {
+        "value": 34.19,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17442.64,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Mwl8brXBRfoJ",
+      "ts": 1768352305,
+      "label": "Abuela's Kitchen",
+      "amount": {
+        "value": 79.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Abuela's Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17476.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mD4LkdI3unJD",
+      "ts": 1768196040,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 18.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26697.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gdXRpxPqNgiw",
+      "ts": 1768194308,
+      "label": "MercadoMart - Order #1006",
+      "amount": {
+        "value": 2434.88,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15041.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HbXHWcwB4mYH",
+      "ts": 1768169821,
+      "label": "CompassGo - GymFit Downtown → Berkeley",
+      "amount": {
+        "value": 35.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17441.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nlkcbNCgMAtC",
+      "ts": 1768164013,
+      "label": "Green Market",
+      "amount": {
+        "value": 105.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27699.99,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gdb35vjINrI7",
+      "ts": 1768152362,
+      "label": "CompassGo - TechCorp — Office → Stanford",
+      "amount": {
+        "value": 41.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17435.2,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cvnYGKuPbnEv",
+      "ts": 1768108358,
+      "label": "CompassGo - Mission District Apartment → Palo Alto",
+      "amount": {
+        "value": 6.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17470.15,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Ec0FzHDEK4vP",
+      "ts": 1768039556,
+      "label": "CompassGo - GymFit Downtown → Golden Gate Park",
+      "amount": {
+        "value": 70.03,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17406.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PdmUDQOv3x1k",
+      "ts": 1768034516,
+      "label": "Presto 24h",
+      "amount": {
+        "value": 7.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Presto 24h",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17671.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7UWevoK9JQ7e",
+      "ts": 1768002219,
+      "label": "Health Express",
+      "amount": {
+        "value": 66.64,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26464.54,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zdPdSmHJuPmQ",
+      "ts": 1767995326,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 69.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22826.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PemVM2dAtbl5",
+      "ts": 1767975573,
+      "label": "CompassGo - TechCorp — Office → SFO Airport",
+      "amount": {
+        "value": 23.49,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17453.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QbDXzZRo8LLO",
+      "ts": 1767944889,
+      "label": "FlameEats - Bistro Alameda",
+      "amount": {
+        "value": 13.16,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17463.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yppEUUMloJGU",
+      "ts": 1767941641,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 7.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27393.13,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2Yfx9d9VopPb",
+      "ts": 1767936144,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 59.3,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17417.53,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:V2UtfZmEpPQg",
+      "ts": 1767839548,
+      "label": "FlameEats - Veggie Verde",
+      "amount": {
+        "value": 43.93,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17432.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:R3P769Vuj37b",
+      "ts": 1767820969,
+      "label": "PetroMax",
+      "amount": {
+        "value": 59.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "PetroMax",
+        "category": "gas",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27165.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ilphEUqbcIJt",
+      "ts": 1767787233,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27287.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:43h5x1MEdkiV",
+      "ts": 1767787024,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.49,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27317.72,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:z85EacBUxtRi",
+      "ts": 1767738167,
+      "label": "TechZone",
+      "amount": {
+        "value": 192.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "TechZone",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19938.21,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0IaoNBSEn20f",
+      "ts": 1767715457,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.23,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27295.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:H6KrJVJCHJvP",
+      "ts": 1767712365,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27349.51,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:pGmdwHXmhoXm",
+      "ts": 1767691069,
+      "label": "CompassGo - GymFit Downtown → SFO Airport",
+      "amount": {
+        "value": 19.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17457.3,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wvEjZHkDSQW9",
+      "ts": 1767645307,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 139.09,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Green Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27560.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:LHTAOQNnNwlc",
+      "ts": 1767613680,
+      "label": "CornerMart",
+      "amount": {
+        "value": 19.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CornerMart",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22795.35,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QVODqi0PrSjk",
+      "ts": 1767546164,
+      "label": "BART SF",
+      "amount": {
+        "value": 25.08,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24092.78,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lIQr92Jwa0qq",
+      "ts": 1767512104,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 175.07,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17679.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wI2FQGXHjfD5",
+      "ts": 1767499577,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 34.25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26029.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IOii7ihuMkZp",
+      "ts": 1767366750,
+      "label": "CompassGo - Sausalito → Downtown / Union Square",
+      "amount": {
+        "value": 43.34,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17433.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:a3aS6aHOxcOn",
+      "ts": 1767330617,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 76.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22148.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BKVuMXnrEugB",
+      "ts": 1767301110,
+      "label": "Payroll - TechCorp",
+      "amount": {
+        "value": 4800,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCorp",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 10800,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:MwTAiWE8kEPZ",
+      "ts": 1767244718,
+      "label": "RidaGo",
+      "amount": {
+        "value": 25.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26624.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lEPMuZ8Gr0sX",
+      "ts": 1767211362,
+      "label": "FlameEats - Abuela's Kitchen",
+      "amount": {
+        "value": 32.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17444.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:U8WKms4pfIzV",
+      "ts": 1767194902,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 7.9,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27385.23,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dFtycbk17mBl",
+      "ts": 1767189257,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 154.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22263.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oWlWOkqWKNC3",
+      "ts": 1767184303,
+      "label": "BART SF",
+      "amount": {
+        "value": 6.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22417.37,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rRq760hq1s8x",
+      "ts": 1767114911,
+      "label": "CornerMart",
+      "amount": {
+        "value": 5.39,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CornerMart",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20593.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:O88yx1sWrFH1",
+      "ts": 1767082013,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 240.93,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19385.85,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BFjfgpVjhkeJ",
+      "ts": 1767051008,
+      "label": "TechZone",
+      "amount": {
+        "value": 467.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "TechZone",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 25562.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:p2gkCRXeQ5yl",
+      "ts": 1767018094,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 19.87,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MiniExpress",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17967.23,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dj97VF0Ow6sm",
+      "ts": 1766969773,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.06,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27343.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KvEzJcYvO19k",
+      "ts": 1766945656,
+      "label": "FreshCo",
+      "amount": {
+        "value": 97.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27463.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bTv6ty9L76zP",
+      "ts": 1766930705,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 66.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17865.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Ffe9MtT0uuYI",
+      "ts": 1766895972,
+      "label": "QuickStop",
+      "amount": {
+        "value": 11.33,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickStop",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24646.51,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tQLOZR7QmDjD",
+      "ts": 1766825710,
+      "label": "CompassGo - Hayes Valley → Golden Gate Park",
+      "amount": {
+        "value": 14.36,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17462.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:iFcAkCFIT6ha",
+      "ts": 1766807534,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 65.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 26088.17,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:trAFgaOl2RJI",
+      "ts": 1766785798,
+      "label": "Taqueria Don Julio",
+      "amount": {
+        "value": 79.86,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Taqueria Don Julio",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24686.59,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YlJr8JlLnaQ3",
+      "ts": 1766782770,
+      "label": "TechZone",
+      "amount": {
+        "value": 319.36,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "TechZone",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20274.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:6Vh7OLCGQqv5",
+      "ts": 1766746523,
+      "label": "CompassGo - Stanford → Market Street",
+      "amount": {
+        "value": 17.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17459.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Y0lg9ZY8w57H",
+      "ts": 1766739842,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 27400.58,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:I4tFP0qgG6Ga",
+      "ts": 1766731750,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 16.34,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17460.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "food",
+          "delivery",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BADYkP5EzDrH",
+      "ts": 1766717952,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 18.03,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21873.71,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:t5PKibMdkcht",
+      "ts": 1766682620,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 80.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17396.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZA31AxsO5izs",
+      "ts": 1766675657,
+      "label": "CompassGo - Mission District Apartment → Berkeley",
+      "amount": {
+        "value": 28.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 17448.36,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:UVTj1flbYSk9",
+      "ts": 1766499010,
+      "label": "MercadoMart - Order #1010",
+      "amount": {
+        "value": 2303.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15173.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tjd6lzx7MCnQ",
+      "ts": 1766389642,
+      "label": "MercadoMart - Order #1024",
+      "amount": {
+        "value": 1646.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15830.38,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:77gONN6Et8SP",
+      "ts": 1766001179,
+      "label": "MercadoMart - Order #1012",
+      "amount": {
+        "value": 1226.85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16249.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rYQKAIfGm2Mz",
+      "ts": 1765986515,
+      "label": "MercadoMart - Order #1011",
+      "amount": {
+        "value": 2134.73,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 15342.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:J6AUMT2MCYyo",
+      "ts": 1765674768,
+      "label": "MercadoMart - Order #1020",
+      "amount": {
+        "value": 655.25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16821.58,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dXeWfxKeDZMS",
+      "ts": 1765399713,
+      "label": "MercadoMart - Order #1016",
+      "amount": {
+        "value": 4318.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 13158.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2O1hsrbuPVPL",
+      "ts": 1764716960,
+      "label": "MercadoMart - Order #1003",
+      "amount": {
+        "value": 559.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16917.01,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KhVpiJU7i3q5",
+      "ts": 1762098875,
+      "label": "MercadoMart - Order #1021",
+      "amount": {
+        "value": 1440.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16036.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:jzs3mfcTjy6M",
+      "ts": 1760840941,
+      "label": "MercadoMart - Order #1004",
+      "amount": {
+        "value": 634.03,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16842.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dP5eIw1s9qCc",
+      "ts": 1760210747,
+      "label": "MercadoMart - Order #1007",
+      "amount": {
+        "value": 2831.54,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 14645.29,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:g1rJkAi4XvYZ",
+      "ts": 1760203030,
+      "label": "MercadoMart - Order #1019",
+      "amount": {
+        "value": 5121.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 12355.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IzLXtnIgBcym",
+      "ts": 1759028969,
+      "label": "MercadoMart - Order #1001",
+      "amount": {
+        "value": 2492.79,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "shopping",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 14984.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lRFoijcoKkbl",
+      "ts": 1773526377,
+      "label": "MercadoMart - Order #1025 MacBook Pro",
+      "amount": {
+        "value": 2499,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MercadoMart Online",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 14977.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:checking",
+      "ext": {
+        "thread": "macbook_m5_purchase",
+        "topics": [
+          "purchase",
+          "mercadomart",
+          "expense"
+        ]
+      }
+    }
+  ],
+  "cards": [
+    {
+      "uadp_type": "uadp:card",
+      "id": "orbit:card:debit",
+      "label": "Orbit Debit Card",
+      "type": "debit",
+      "last_four": "4823",
+      "account_id": "orbit:acc:checking",
+      "network": "Visa",
+      "status": "active"
+    }
+  ]
+}

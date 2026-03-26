@@ -1,0 +1,4594 @@
+{
+  "accounts": [
+    {
+      "uadp_type": "uadp:account",
+      "id": "orbit:acc:jose:checking",
+      "label": "Checking Account",
+      "type": "checking",
+      "balance": {
+        "value": 40801.25,
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "uadp_type": "uadp:account",
+      "id": "orbit:acc:jose:savings",
+      "label": "Savings",
+      "type": "savings",
+      "balance": {
+        "value": 35000,
+        "currency": "USD"
+      },
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CuYpIgAph6Uf",
+      "ts": 1774367286,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 5.96,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49852.17,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wjp0UIlkkXlh",
+      "ts": 1774357870,
+      "label": "RidaGo",
+      "amount": {
+        "value": 23.89,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47039.18,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4CgznTmylp50",
+      "ts": 1774339413,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.67,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49771.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XpOIyQ9jQpSr",
+      "ts": 1774288266,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 98.07,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 41928.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:89vOBpRHIRjA",
+      "ts": 1774287322,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 5.09,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49765.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gb6ww973j6aC",
+      "ts": 1774226937,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 115.3,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 45672.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tZEPNEgzMzQK",
+      "ts": 1774214849,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 131.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Green Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49386.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:5OE7KuywbRWE",
+      "ts": 1774202032,
+      "label": "CompassRide",
+      "amount": {
+        "value": 10.66,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassRide",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46931.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hCnnEN9K5iUG",
+      "ts": 1774179460,
+      "label": "State Bird Provisions",
+      "amount": {
+        "value": 31,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "State Bird Provisions",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50904.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tytaJJuXH5l3",
+      "ts": 1774129199,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49584.42,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rgVLM8s78CFT",
+      "ts": 1774070172,
+      "label": "Quince",
+      "amount": {
+        "value": 67.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Quince",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51586.12,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Cp3f2vkEsx2L",
+      "ts": 1773955980,
+      "label": "GitHub Enterprise",
+      "amount": {
+        "value": 21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GitHub Enterprise",
+        "category": "software",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61236.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:5gViLFXWM3TY",
+      "ts": 1773955813,
+      "label": "GymFit Black",
+      "amount": {
+        "value": 59.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GymFit Black",
+        "category": "fitness",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61176.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:O4yFIlzzyVTV",
+      "ts": 1773951987,
+      "label": "AWS Cloud Services",
+      "amount": {
+        "value": 165.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "AWS Cloud Services",
+        "category": "software",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61257.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:LQO3T78h7o3i",
+      "ts": 1773938938,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 6.62,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49537.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:OGW3SR5wLDY3",
+      "ts": 1773871244,
+      "label": "FibraMax Fiber 500Mbps",
+      "amount": {
+        "value": 65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Fiber 500Mbps",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61111.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XGmSUjhlpS0c",
+      "ts": 1773860597,
+      "label": "VortexPlay Premium",
+      "amount": {
+        "value": 15.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VortexPlay Premium",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61434.01,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:c7Fhs3CQQAgU",
+      "ts": 1773857996,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.03,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49839.92,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:glHrcMw4nhCc",
+      "ts": 1773785076,
+      "label": "Tesla Insurance",
+      "amount": {
+        "value": 195,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Insurance",
+        "category": "insurance",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 60831.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Ja8Qh4rJ2bR7",
+      "ts": 1773781119,
+      "label": "Rent - Pacific Heights Apt",
+      "amount": {
+        "value": 2800,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Pacific Heights Apt",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 62200,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:62hhMbnBBDIX",
+      "ts": 1773780440,
+      "label": "Tesla Financing",
+      "amount": {
+        "value": 750,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Financing",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61450,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nZAz6LJiL9qm",
+      "ts": 1773768702,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 41.3,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50980.81,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CDKPyMgbmRAd",
+      "ts": 1773749054,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.07,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49648.42,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:prriHQx3hrNW",
+      "ts": 1773729093,
+      "label": "Quince",
+      "amount": {
+        "value": 43.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Quince",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51830.41,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:5ZwJnhYaCQvq",
+      "ts": 1773700663,
+      "label": "TechZone",
+      "amount": {
+        "value": 415.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "TechZone",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 41431.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tNSUAlATRgpl",
+      "ts": 1773696893,
+      "label": "LyraMusic Family",
+      "amount": {
+        "value": 10.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LyraMusic Family",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61423.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:JOT4bgF74u8m",
+      "ts": 1773696892,
+      "label": "MobileX Premium Plan",
+      "amount": {
+        "value": 85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Premium Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 61026.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VMGzbiiKYjvT",
+      "ts": 1773682811,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 6.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49564.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RuLdPvT9egFw",
+      "ts": 1773646350,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49708.81,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bsFgFpinBuvq",
+      "ts": 1773617556,
+      "label": "State Bird Provisions",
+      "amount": {
+        "value": 40.85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "State Bird Provisions",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52019.62,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KgX1Z3s9BVBz",
+      "ts": 1773613237,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 65000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZoMPtqhWBjTY",
+      "ts": 1773595468,
+      "label": "SuperMart",
+      "amount": {
+        "value": 176.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49210.12,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nLNcPY5jd5cP",
+      "ts": 1773561141,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 5.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49834.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xK2R6GoVPA8z",
+      "ts": 1773502356,
+      "label": "Nopa",
+      "amount": {
+        "value": 74.2,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Nopa",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50128.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Bu4jlq8tEHRH",
+      "ts": 1773405263,
+      "label": "Quince",
+      "amount": {
+        "value": 69.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Quince",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52242.7,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yun8pLnVCXi4",
+      "ts": 1773374824,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49531.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:vz5TvD2En37D",
+      "ts": 1773352688,
+      "label": "RidaGo",
+      "amount": {
+        "value": 17.96,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46858.54,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9jaKAIIp7xvH",
+      "ts": 1773288229,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49598.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:x0okr4bB2th2",
+      "ts": 1773188498,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 5.62,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49618.96,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:L8JwrDrvmyiY",
+      "ts": 1773172675,
+      "label": "FreshCo",
+      "amount": {
+        "value": 199.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49010.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mEsqOmcVmWqA",
+      "ts": 1773109012,
+      "label": "Sushi Kaze",
+      "amount": {
+        "value": 50.95,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sushi Kaze",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51715.38,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:idhDOqUrIvxq",
+      "ts": 1773083681,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 45.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50935.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:y0LrcLrojGws",
+      "ts": 1773054280,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49655.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:z56mJ5mRokQ3",
+      "ts": 1773013290,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.79,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49612.17,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:6asegH2QFCwI",
+      "ts": 1773002800,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 5.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49683.65,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KnqpSBNxEU7u",
+      "ts": 1772929658,
+      "label": "RidaGo",
+      "amount": {
+        "value": 9.1,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46772.73,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:eXfGIszvGctR",
+      "ts": 1772903019,
+      "label": "Tesla Supercharger",
+      "amount": {
+        "value": 68.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Supercharger",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47397.13,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:N983wPrY5bYq",
+      "ts": 1772838816,
+      "label": "Trick Dog",
+      "amount": {
+        "value": 45.13,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trick Dog",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50859.12,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7XUFXSjADl8H",
+      "ts": 1772735260,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.23,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49518.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XshqhyHVicr7",
+      "ts": 1772654802,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 12.43,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46901.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ksjajGLVEZEf",
+      "ts": 1772628699,
+      "label": "Trick Dog",
+      "amount": {
+        "value": 44.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trick Dog",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51222.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:UGDNLNY1mNYq",
+      "ts": 1772569815,
+      "label": "CompassRide",
+      "amount": {
+        "value": 24.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassRide",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46781.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:JA3onsFMuu3I",
+      "ts": 1772568100,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 6.16,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49702.65,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZlL6rjxKIfns",
+      "ts": 1772500774,
+      "label": "Trick Dog",
+      "amount": {
+        "value": 77.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trick Dog",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50464.35,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gfk0RSQaeVIo",
+      "ts": 1772486765,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 126.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48884.26,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4JCpW41aufJV",
+      "ts": 1772486585,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 6.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49815.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kq7qG1W7niJR",
+      "ts": 1772428482,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 78.96,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51267.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hvvubBl3ds8j",
+      "ts": 1772399742,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 56500,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Nj4gp5gmdJLI",
+      "ts": 1772392267,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 7.19,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49668.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:8I0wUMZfeW44",
+      "ts": 1772386927,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 6.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49635.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IS8Dj7Y2TwUf",
+      "ts": 1772348760,
+      "label": "Sushi Kaze",
+      "amount": {
+        "value": 28.26,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sushi Kaze",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51022.11,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:EcxeA2LHnsk0",
+      "ts": 1772341182,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 27.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50072.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:fxsJmY42cO0c",
+      "ts": 1772333726,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 267.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 40801.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:EYbDbgU0A6qN",
+      "ts": 1772309531,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.86,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49803.6,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ShnOLR8Wd7GN",
+      "ts": 1772284807,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 58.88,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52117.27,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:dKoRJq1bsm1R",
+      "ts": 1772212241,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 59.03,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51163.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XUap8F1VeXxg",
+      "ts": 1772152192,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 64.43,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50609.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sdstHMdTChUT",
+      "ts": 1772145014,
+      "label": "Nopa",
+      "amount": {
+        "value": 66.55,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Nopa",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52176.15,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:UDK6miBxrQ20",
+      "ts": 1772074788,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 12.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46806.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:FzMd4TbeRjjj",
+      "ts": 1772041450,
+      "label": "Tesla Supercharger",
+      "amount": {
+        "value": 58.05,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Supercharger",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47265.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uNGUYLgbJPc1",
+      "ts": 1771882481,
+      "label": "FreshCo",
+      "amount": {
+        "value": 145.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48738.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:LcxuUDHDwBAP",
+      "ts": 1771861019,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.81,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49822.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:1n09PhcapT7e",
+      "ts": 1771769944,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 24.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46876.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:j3MFYz71dC70",
+      "ts": 1771735721,
+      "label": "RidaGo",
+      "amount": {
+        "value": 14.3,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46827.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XDaj3GJTwPm7",
+      "ts": 1771718554,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49557.81,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nQ27HUYAQJJW",
+      "ts": 1771690383,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 8.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47006.88,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VuUHegPXPflD",
+      "ts": 1771463567,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 17.26,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46913.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:raTuCUXlUoqm",
+      "ts": 1771448520,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 12.23,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46971.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hukRqKjhRLsR",
+      "ts": 1771423956,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 7.35,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49591.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uh69ZOrnI9SQ",
+      "ts": 1771379184,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 5.3,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49810.46,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YwhUf4W9IzFA",
+      "ts": 1771361433,
+      "label": "Rent - Pacific Heights Apt",
+      "amount": {
+        "value": 2800,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Pacific Heights Apt",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 58031.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZOCOE8DLviKD",
+      "ts": 1771350429,
+      "label": "Green Market",
+      "amount": {
+        "value": 195.04,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48543.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HRvoS21vrPQp",
+      "ts": 1771268677,
+      "label": "FibraMax Fiber 500Mbps",
+      "amount": {
+        "value": 65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Fiber 500Mbps",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 56942.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:1e9PNh1N8mdC",
+      "ts": 1771225350,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49715.28,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oZM6c04LZ25c",
+      "ts": 1771191974,
+      "label": "Tesla Insurance",
+      "amount": {
+        "value": 195,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Insurance",
+        "category": "insurance",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 56662.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:OGzobC0c2DK8",
+      "ts": 1771189854,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:P3fYo83P99Iq",
+      "ts": 1771189103,
+      "label": "Tesla Financing",
+      "amount": {
+        "value": 750,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Financing",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 57281.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RPeblRWpfLIh",
+      "ts": 1771184392,
+      "label": "GymFit Black",
+      "amount": {
+        "value": 59.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GymFit Black",
+        "category": "fitness",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 57007.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Mg8pr6W54PTj",
+      "ts": 1771184036,
+      "label": "AWS Cloud Services",
+      "amount": {
+        "value": 165.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "AWS Cloud Services",
+        "category": "software",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 57088.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yVoSvX3PY6d9",
+      "ts": 1771180659,
+      "label": "VortexPlay Premium",
+      "amount": {
+        "value": 15.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VortexPlay Premium",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 57265.26,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bPNV5XIzM1n8",
+      "ts": 1771161597,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 44.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52381.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:q6zK213UgjHM",
+      "ts": 1771105202,
+      "label": "MobileX Premium Plan",
+      "amount": {
+        "value": 85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Premium Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 56857.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ERvSNTwvwqaU",
+      "ts": 1771104605,
+      "label": "LyraMusic Family",
+      "amount": {
+        "value": 10.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LyraMusic Family",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 57254.27,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sTA2JZdu7O2q",
+      "ts": 1771096184,
+      "label": "GitHub Enterprise",
+      "amount": {
+        "value": 21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GitHub Enterprise",
+        "category": "software",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 57067.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:DY3nYv1lwzLE",
+      "ts": 1771026985,
+      "label": "UrbanFit",
+      "amount": {
+        "value": 410.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "UrbanFit",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 43508.08,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9ld9rdMbZpxn",
+      "ts": 1770773376,
+      "label": "CircuitCo",
+      "amount": {
+        "value": 869.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CircuitCo",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 42389.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HoIeYFDQY6tr",
+      "ts": 1770743972,
+      "label": "SuperMart",
+      "amount": {
+        "value": 131.07,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48412.73,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SNl43tHUyyQy",
+      "ts": 1770665332,
+      "label": "Tesla Supercharger",
+      "amount": {
+        "value": 66.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Supercharger",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47199.23,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nTb8vtREYmPZ",
+      "ts": 1770621853,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 37.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49977.17,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:GKOp5w8GXrcm",
+      "ts": 1770596732,
+      "label": "DarkStitch",
+      "amount": {
+        "value": 362.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DarkStitch",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 41069.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:w9avUZqSqoBN",
+      "ts": 1770552091,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 5.17,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49798.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9x17QCWHuWa9",
+      "ts": 1770526195,
+      "label": "State Bird Provisions",
+      "amount": {
+        "value": 68.62,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "State Bird Provisions",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50715.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:LnHqRPnHLZvj",
+      "ts": 1770444384,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.76,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49828.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:DfcGUJGb6jwg",
+      "ts": 1770434998,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 6.48,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49551.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YGIH63RymD6E",
+      "ts": 1770318711,
+      "label": "Nopa",
+      "amount": {
+        "value": 41.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Nopa",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50278.18,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wN3U6KYSUmvg",
+      "ts": 1770314114,
+      "label": "CircuitCo",
+      "amount": {
+        "value": 901.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CircuitCo",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 44771.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0Z9aGOdvAVtc",
+      "ts": 1770238983,
+      "label": "Tesla Supercharger",
+      "amount": {
+        "value": 58.06,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Supercharger",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47079.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rTwA5Z9tbNDH",
+      "ts": 1770229438,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 16.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46841.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ngAt3GJjWFzo",
+      "ts": 1770171024,
+      "label": "Sushi Kaze",
+      "amount": {
+        "value": 60.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sushi Kaze",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51050.37,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:os3HEOjNSjlE",
+      "ts": 1770144360,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 52.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51111.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:D8wib5pfIeq7",
+      "ts": 1770139455,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 194.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trader's Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48218.17,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xdZ9lFBWMcva",
+      "ts": 1770076440,
+      "label": "Sushi Kaze",
+      "amount": {
+        "value": 75.22,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sushi Kaze",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50202.96,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Wa5BvyUnWyWN",
+      "ts": 1769984697,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 10.9,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46960.13,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:16Y0VCZBC4LR",
+      "ts": 1769978317,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 39500,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uU59Ncqswqe6",
+      "ts": 1769933780,
+      "label": "DigitalPlus",
+      "amount": {
+        "value": 984.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DigitalPlus",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 45787.79,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:COVN2CR0ppTO",
+      "ts": 1769918430,
+      "label": "CompassRide",
+      "amount": {
+        "value": 8.13,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassRide",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47015.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SJPA8Irrt1VA",
+      "ts": 1769859586,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.14,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49784.75,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:OrHSKoqBIsyi",
+      "ts": 1769825601,
+      "label": "RidaGo",
+      "amount": {
+        "value": 16.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47063.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IipQZ7dxOwdk",
+      "ts": 1769758389,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 71.59,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51873.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZlYGeDN0MLMM",
+      "ts": 1769733471,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.87,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49544.46,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wj4tezLYX5dM",
+      "ts": 1769528949,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 7.54,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49790.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:C9L833RG2Vjd",
+      "ts": 1769519531,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 67.13,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50542.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cHejL9AA8YPy",
+      "ts": 1769503916,
+      "label": "Nopa",
+      "amount": {
+        "value": 69.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Nopa",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52311.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RPOE5NGSm0GY",
+      "ts": 1769426837,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 41.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50673.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:cK5KecL7xYzP",
+      "ts": 1769363411,
+      "label": "SuperMart",
+      "amount": {
+        "value": 130.71,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48087.46,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:x7gIv8ip92Fi",
+      "ts": 1769338202,
+      "label": "SafeTaxi",
+      "amount": {
+        "value": 18.44,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SafeTaxi",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46941.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:5hqCzqyfhZgp",
+      "ts": 1769323061,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 69.43,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49907.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ghPLaje1UbHh",
+      "ts": 1769217014,
+      "label": "Nopa",
+      "amount": {
+        "value": 49.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Nopa",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51536.62,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IsQJMZRxF6Ag",
+      "ts": 1769058662,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49736.57,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:vaaCxl3F755X",
+      "ts": 1769033495,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 5.41,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49888.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VZAaIRjtXKtY",
+      "ts": 1768856767,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 5.87,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49696.78,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:GFjMArm8zsYd",
+      "ts": 1768855519,
+      "label": "State Bird Provisions",
+      "amount": {
+        "value": 30.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "State Bird Provisions",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51432.28,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zosPYWQWSFXE",
+      "ts": 1768809595,
+      "label": "Nopa",
+      "amount": {
+        "value": 74.05,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Nopa",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51945.57,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KCmUycwaqjQ4",
+      "ts": 1768775081,
+      "label": "Tesla Financing",
+      "amount": {
+        "value": 750,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Financing",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 53112.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:NWtMsnbEcFXv",
+      "ts": 1768773102,
+      "label": "GitHub Enterprise",
+      "amount": {
+        "value": 21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GitHub Enterprise",
+        "category": "software",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52898.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uFm5GPStwWSG",
+      "ts": 1768767650,
+      "label": "SuperMart",
+      "amount": {
+        "value": 162.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47924.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:p4cqmbg3gFDQ",
+      "ts": 1768747231,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49893.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rNxDCzmItPse",
+      "ts": 1768710094,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 64.08,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51766.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:8ZZtS4JM4Wie",
+      "ts": 1768703174,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.38,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49750.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:JIiidD7tIAZI",
+      "ts": 1768685750,
+      "label": "LyraMusic Family",
+      "amount": {
+        "value": 10.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LyraMusic Family",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 53085.52,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZKPmZ5DoCHMp",
+      "ts": 1768684637,
+      "label": "GymFit Black",
+      "amount": {
+        "value": 59.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GymFit Black",
+        "category": "fitness",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52838.75,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qcsXsBXGSvEE",
+      "ts": 1768684389,
+      "label": "Tesla Insurance",
+      "amount": {
+        "value": 195,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Insurance",
+        "category": "insurance",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52493.75,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:d0N47MrMPGn3",
+      "ts": 1768682935,
+      "label": "MobileX Premium Plan",
+      "amount": {
+        "value": 85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Premium Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52688.75,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bV7qz8ELBQ4Y",
+      "ts": 1768676596,
+      "label": "Rent - Pacific Heights Apt",
+      "amount": {
+        "value": 2800,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Pacific Heights Apt",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 53862.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:AX2E4fpY6Hli",
+      "ts": 1768676537,
+      "label": "AWS Cloud Services",
+      "amount": {
+        "value": 165.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "AWS Cloud Services",
+        "category": "software",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52919.74,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Y3Ry7Ms7PFhA",
+      "ts": 1768600057,
+      "label": "VortexPlay Premium",
+      "amount": {
+        "value": 15.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VortexPlay Premium",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 53096.51,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bw4cuXP0BETf",
+      "ts": 1768545344,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 6.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49571.08,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XPyxP4ctPQfU",
+      "ts": 1768542789,
+      "label": "Vestimenta Co.",
+      "amount": {
+        "value": 92.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vestimenta Co.",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 43415.24,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:G6RHZFseoi4j",
+      "ts": 1768535992,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.01,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49863.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qZOrkqcE5saA",
+      "ts": 1768514565,
+      "label": "FibraMax Fiber 500Mbps",
+      "amount": {
+        "value": 65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Fiber 500Mbps",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52773.75,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:jVbhKBbiHf16",
+      "ts": 1768511629,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 31000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CRFAu63UQARm",
+      "ts": 1768467712,
+      "label": "Sushi Kaze",
+      "amount": {
+        "value": 36.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sushi Kaze",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50320.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CwdmSActmPju",
+      "ts": 1768462019,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 23.62,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46983.26,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7e0PfSww7cHM",
+      "ts": 1768424317,
+      "label": "State Bird Provisions",
+      "amount": {
+        "value": 28.9,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "State Bird Provisions",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50099.86,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:3gTdzabeRhfM",
+      "ts": 1768339184,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.59,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49577.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HUBOo3oRXHmX",
+      "ts": 1768251737,
+      "label": "Green Market",
+      "amount": {
+        "value": 120.89,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47803.88,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mTGvY00iDjNu",
+      "ts": 1768234647,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.14,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49689.64,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kNBxmj39umyf",
+      "ts": 1768234065,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 46.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51463.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lSts54IJtmPb",
+      "ts": 1768229161,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 6.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49641.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:EL9ROEWUFTKZ",
+      "ts": 1767968752,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 60.06,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51346.39,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:DB9nyWlmAicl",
+      "ts": 1767930691,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 98.78,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 43258.77,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Ha0fTRqIBTlb",
+      "ts": 1767922653,
+      "label": "Health Express",
+      "amount": {
+        "value": 57.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 43357.55,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xVprIHIFQhz8",
+      "ts": 1767888667,
+      "label": "ByteShop",
+      "amount": {
+        "value": 852.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ByteShop",
+        "category": "electronics",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 43919.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:O904DTXlMYTK",
+      "ts": 1767870512,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49662.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kZbVlWFosL03",
+      "ts": 1767839612,
+      "label": "Sushi Kaze",
+      "amount": {
+        "value": 55.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sushi Kaze",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50409.2,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:JRzzYHp4LAaK",
+      "ts": 1767827927,
+      "label": "Quince",
+      "amount": {
+        "value": 56.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Quince",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52060.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:w959tJSPQ25t",
+      "ts": 1767774379,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 5.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49630.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:TjIJEFBU8Xif",
+      "ts": 1767720054,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.54,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49730.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KjmUM957SvUX",
+      "ts": 1767682533,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 61.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51653.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2E83PWhxq05w",
+      "ts": 1767649501,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 183.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47620.42,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QUWZLOH6tMIf",
+      "ts": 1767553407,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 5.22,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49846.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RI0XbLaGPPcA",
+      "ts": 1767421283,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 6.06,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49778.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BY75ETK1MCc0",
+      "ts": 1767413925,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 5.52,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49624.58,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:vDl7DznYN9LQ",
+      "ts": 1767381355,
+      "label": "Tesla Supercharger",
+      "amount": {
+        "value": 61.4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Supercharger",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47137.83,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kzO9bA0WPZq2",
+      "ts": 1767326973,
+      "label": "Trick Dog",
+      "amount": {
+        "value": 52.27,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Trick Dog",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50356.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SwULu7WsflU2",
+      "ts": 1767318667,
+      "label": "CompassRide",
+      "amount": {
+        "value": 8.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CompassRide",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 46819.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:iar1RwJkNkI2",
+      "ts": 1767305826,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22500,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oZsnIuNRxfR8",
+      "ts": 1767267350,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 57.44,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50014.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lYDRSbguFe5b",
+      "ts": 1767181362,
+      "label": "Bistro Valencia",
+      "amount": {
+        "value": 75.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Bistro Valencia",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 50783.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PAucmO0c408B",
+      "ts": 1767175946,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 26.95,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51509.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7w5eiwjwbyIn",
+      "ts": 1767161199,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 5.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49882.44,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:kjvG9KuOoClP",
+      "ts": 1767159465,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 7.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49758.21,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Z37G6HxjbLWy",
+      "ts": 1767154650,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 7.26,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49900.48,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Fs6QMPdnVJTQ",
+      "ts": 1767145861,
+      "label": "Atelier Crenn",
+      "amount": {
+        "value": 25.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Atelier Crenn",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 51406.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:WBWRfYefP6lD",
+      "ts": 1767125754,
+      "label": "FreshCo",
+      "amount": {
+        "value": 154.66,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47465.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:X3eXKSq7p6Zi",
+      "ts": 1767118888,
+      "label": "Tesla Supercharger",
+      "amount": {
+        "value": 73.28,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Tesla Supercharger",
+        "category": "auto",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47323.85,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:rCmS6c5R41sg",
+      "ts": 1767114467,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.81,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49743.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:IU40dGL5AzxQ",
+      "ts": 1767036236,
+      "label": "DarkStitch",
+      "amount": {
+        "value": 362.18,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DarkStitch",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 42026.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Y6vqvYqwP7Iq",
+      "ts": 1767026492,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 5.3,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "The Golden Cup",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49858.13,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:2cU2v8sAN4NS",
+      "ts": 1766971412,
+      "label": "Sol Kitchen",
+      "amount": {
+        "value": 67.1,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Sol Kitchen",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 52426.65,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mrzS2lXTyzaB",
+      "ts": 1766840917,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 7.79,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49675.86,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Bf4LnvAhcPPV",
+      "ts": 1766840387,
+      "label": "Blue Bottle",
+      "amount": {
+        "value": 7.89,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49874.55,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XnWRA4f5Yp3Q",
+      "ts": 1766838944,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.55,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49525.29,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:F1VJzuIqqKE2",
+      "ts": 1766811705,
+      "label": "Cafe Ventana",
+      "amount": {
+        "value": 7.05,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Aroma Central",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49722.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xYisDJn2fHhm",
+      "ts": 1766769304,
+      "label": "The Golden Cup",
+      "amount": {
+        "value": 6.11,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Blue Bottle",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49868.44,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:q1Kt5oAwE5Ob",
+      "ts": 1766713564,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 81.56,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 41847.21,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:fIAq4n3Av2Ra",
+      "ts": 1766653474,
+      "label": "Aroma Central",
+      "amount": {
+        "value": 6.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Cafe Ventana",
+        "category": "food_drink",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 49605.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:U6FEr2pydAHA",
+      "ts": 1766628975,
+      "label": "RidaGo",
+      "amount": {
+        "value": 16,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 47023.18,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    }
+  ],
+  "cards": [
+    {
+      "uadp_type": "uadp:card",
+      "id": "orbit:card:jose:credit",
+      "label": "Orbit Platinum Credit Card",
+      "type": "credit",
+      "last_four": "7291",
+      "account_id": "orbit:acc:jose:checking",
+      "network": "Visa",
+      "status": "active"
+    }
+  ]
+}

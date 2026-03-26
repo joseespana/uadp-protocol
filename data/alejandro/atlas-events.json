@@ -1,0 +1,1705 @@
+{
+  "events": [
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:9Jgin6IYn0o1",
+      "ts": 1773723600,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1773723600,
+      "end_ts": 1773726300,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:5gN6B1nLOHcJ",
+      "ts": 1773738000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1773738000,
+      "end_ts": 1773738900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:AIib2Sv4kroR",
+      "ts": 1773813600,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1773813600,
+      "end_ts": 1773817200,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:HRURELSsndgx",
+      "ts": 1773824400,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1773824400,
+      "end_ts": 1773825300,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:phqn4Zsctxol",
+      "ts": 1773896400,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1773896400,
+      "end_ts": 1773899100,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:8Nam9QNlqT6W",
+      "ts": 1773910800,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1773910800,
+      "end_ts": 1773911700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:uUbhfgt6LcV0",
+      "ts": 1773910800,
+      "label": "Pay property tax",
+      "title": "Pay property tax",
+      "description": "Last day for property tax payment with discount",
+      "start_ts": 1773910800,
+      "end_ts": 1773914400,
+      "all_day": false,
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:HFjy8uubb8RJ",
+      "ts": 1773986400,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1773986400,
+      "end_ts": 1773990000,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:eEpt5BQsKkA6",
+      "ts": 1773997200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1773997200,
+      "end_ts": 1773998100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:rRquRyiePKPX",
+      "ts": 1774166400,
+      "label": "Renew passport",
+      "title": "Renew passport",
+      "description": "Post office appointment for passport renewal",
+      "start_ts": 1774166400,
+      "end_ts": 1774170000,
+      "all_day": false,
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:cPjl3Ids9MuW",
+      "ts": 1774245600,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1774245600,
+      "end_ts": 1774249200,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:SWUs7tzzEe4p",
+      "ts": 1774256400,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774256400,
+      "end_ts": 1774257300,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:oYResW6XY5f1",
+      "ts": 1774260000,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning",
+      "start_ts": 1774260000,
+      "end_ts": 1774263600,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:d2kwAPy9BaO5",
+      "ts": 1774328400,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1774328400,
+      "end_ts": 1774331100,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:EhKMgC2sfLwF",
+      "ts": 1774342800,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774342800,
+      "end_ts": 1774343700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:9pdyJH9Qf8q2",
+      "ts": 1774418400,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1774418400,
+      "end_ts": 1774422000,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:mE3flsMkLyFD",
+      "ts": 1774429200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774429200,
+      "end_ts": 1774430100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:xcY25hPOFJkS",
+      "ts": 1774465200,
+      "label": "Dinner with friends",
+      "title": "Dinner with friends",
+      "description": "Dinner at Bistro on Valencia with the SF crew",
+      "start_ts": 1774465200,
+      "end_ts": 1774468800,
+      "all_day": false,
+      "location": "Bistro on Valencia, Mission",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null,
+      "ext": {
+        "thread": "food_social",
+        "topics": [
+          "food",
+          "friends",
+          "sf",
+          "social",
+          "mission"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:aA0rMgPXCSPE",
+      "ts": 1774501200,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1774501200,
+      "end_ts": 1774503900,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:gpZ3jpmqPYQi",
+      "ts": 1774515600,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774515600,
+      "end_ts": 1774516500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:llQbRhNHo4n8",
+      "ts": 1774591200,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1774591200,
+      "end_ts": 1774594800,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:vB07DzEQn6AP",
+      "ts": 1774602000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774602000,
+      "end_ts": 1774602900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:wmqwSZbCiDLS",
+      "ts": 1774616400,
+      "label": "Lunch with mom",
+      "title": "Lunch with mom",
+      "description": "Lunch at mom Rosa's house, bring dessert",
+      "start_ts": 1774616400,
+      "end_ts": 1774620000,
+      "all_day": false,
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:nbZPQEjuWGYx",
+      "ts": 1774846800,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1774846800,
+      "end_ts": 1774850400,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:eo4sjEoHbLot",
+      "ts": 1774857600,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774857600,
+      "end_ts": 1774858500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:T8hVnnjUZReD",
+      "ts": 1774861200,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning",
+      "start_ts": 1774861200,
+      "end_ts": 1774864800,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:sucg6WpfVzCG",
+      "ts": 1774890000,
+      "label": "Meetup Rust Bay Area",
+      "title": "Meetup Rust Bay Area",
+      "description": "Monthly Rust community meetup in SF",
+      "start_ts": 1774890000,
+      "end_ts": 1774893600,
+      "all_day": false,
+      "location": "WeWork SoMa, SF",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null,
+      "ext": {
+        "thread": "rust_bayarea",
+        "topics": [
+          "rust",
+          "bayarea",
+          "meetup",
+          "community",
+          "programming"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:1pGURALDGvhQ",
+      "ts": 1774929600,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1774929600,
+      "end_ts": 1774932300,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:dKiTousBAzah",
+      "ts": 1774944000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1774944000,
+      "end_ts": 1774944900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:jcc5Z1ubAn0s",
+      "ts": 1774951200,
+      "label": "Haircut",
+      "title": "Haircut",
+      "description": "Fellow Barber appointment",
+      "start_ts": 1774951200,
+      "end_ts": 1774954800,
+      "all_day": false,
+      "location": "Fellow Barber, Hayes Valley",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:wgzMjAHAXAAH",
+      "ts": 1775019600,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1775019600,
+      "end_ts": 1775023200,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:yZnlnPEU7KqQ",
+      "ts": 1775030400,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775030400,
+      "end_ts": 1775031300,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:amFhxzFthXFb",
+      "ts": 1775102400,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1775102400,
+      "end_ts": 1775105100,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:e8JfueExxH22",
+      "ts": 1775116800,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775116800,
+      "end_ts": 1775117700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:xQoxCB6GCzvz",
+      "ts": 1775120400,
+      "label": "Dentist appointment",
+      "title": "Dentist appointment",
+      "description": "Biannual dental cleaning",
+      "start_ts": 1775120400,
+      "end_ts": 1775124000,
+      "all_day": false,
+      "location": "Dr. Ramirez Dental, Mission District",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:ntEJYfEdg3SX",
+      "ts": 1775192400,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1775192400,
+      "end_ts": 1775196000,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:6rlgSSeOvPjr",
+      "ts": 1775203200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775203200,
+      "end_ts": 1775204100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:JtGTT9K6SKvA",
+      "ts": 1775451600,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1775451600,
+      "end_ts": 1775455200,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:OO93tDDgfZbr",
+      "ts": 1775455200,
+      "label": "Car maintenance",
+      "title": "Car maintenance",
+      "description": "30,000 mile maintenance service",
+      "start_ts": 1775455200,
+      "end_ts": 1775458800,
+      "all_day": false,
+      "location": "AutoCare Express, SoMa",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:cWknD92tpP23",
+      "ts": 1775462400,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775462400,
+      "end_ts": 1775463300,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:rPPyRhBXnSBx",
+      "ts": 1775466000,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning",
+      "start_ts": 1775466000,
+      "end_ts": 1775469600,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:F4F2oe731bmf",
+      "ts": 1775534400,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1775534400,
+      "end_ts": 1775537100,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:IFhdyCQmb4kk",
+      "ts": 1775548800,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775548800,
+      "end_ts": 1775549700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:isgBcefWFkJP",
+      "ts": 1775624400,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1775624400,
+      "end_ts": 1775628000,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:YgTPDa450IpP",
+      "ts": 1775635200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775635200,
+      "end_ts": 1775636100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:V4QQOvTEomLQ",
+      "ts": 1775707200,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1775707200,
+      "end_ts": 1775709900,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:6rvXgRZmRGSO",
+      "ts": 1775710800,
+      "label": "Flight to Austin",
+      "title": "Flight to Austin",
+      "description": "TechConf Austin 2025",
+      "start_ts": 1775710800,
+      "end_ts": 1775714400,
+      "all_day": false,
+      "location": "SFO Terminal 2",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null,
+      "ext": {
+        "thread": "austin_tech_trip",
+        "topics": [
+          "austin",
+          "conference",
+          "tech",
+          "trip",
+          "uadp"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:sNHce2xqS2ZG",
+      "ts": 1775721600,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775721600,
+      "end_ts": 1775722500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:dPFG1I8qRtPU",
+      "ts": 1775797200,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1775797200,
+      "end_ts": 1775800800,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:sNGOBG1iIDHe",
+      "ts": 1775804400,
+      "label": "TechConf Austin",
+      "title": "TechConf Austin",
+      "description": "Technology conference in Austin, talk about UADP",
+      "start_ts": 1775804400,
+      "end_ts": 1775808000,
+      "all_day": false,
+      "location": "Austin Convention Center",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null,
+      "ext": {
+        "thread": "austin_tech_trip",
+        "topics": [
+          "austin",
+          "conference",
+          "tech",
+          "trip",
+          "uadp"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:QeZ1jBsPQ6JE",
+      "ts": 1775808000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1775808000,
+      "end_ts": 1775808900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:ZWTsOAvg1YnC",
+      "ts": 1776056400,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1776056400,
+      "end_ts": 1776060000,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:QhV4WSe04PqF",
+      "ts": 1776067200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776067200,
+      "end_ts": 1776068100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:ySHoiWFOaROP",
+      "ts": 1776070800,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning",
+      "start_ts": 1776070800,
+      "end_ts": 1776074400,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:vKeet1HPLXp9",
+      "ts": 1776139200,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1776139200,
+      "end_ts": 1776141900,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:GG04iJvviIkx",
+      "ts": 1776153600,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776153600,
+      "end_ts": 1776154500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:UmRzGLtpHbKD",
+      "ts": 1776229200,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1776229200,
+      "end_ts": 1776232800,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:IBgym2bHue3r",
+      "ts": 1776240000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776240000,
+      "end_ts": 1776240900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:zRPlkhyholdT",
+      "ts": 1776312000,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1776312000,
+      "end_ts": 1776314700,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:jnhYOjxzdLRB",
+      "ts": 1776326400,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776326400,
+      "end_ts": 1776327300,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:oDHy36Kj4BFP",
+      "ts": 1776355200,
+      "label": "Diana's birthday",
+      "title": "Diana's birthday",
+      "description": "My sister's birthday party",
+      "start_ts": 1776355200,
+      "end_ts": 1776358800,
+      "all_day": false,
+      "location": "Diana's place, Marina",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:quEG89VxsIzk",
+      "ts": 1776402000,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1776402000,
+      "end_ts": 1776405600,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:RAzwoyWStapH",
+      "ts": 1776412800,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776412800,
+      "end_ts": 1776413700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:wdFuGDuMKozL",
+      "ts": 1776661200,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1776661200,
+      "end_ts": 1776664800,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:7kPstnFh3U7I",
+      "ts": 1776672000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776672000,
+      "end_ts": 1776672900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:0DugXToOwPBR",
+      "ts": 1776675600,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning",
+      "start_ts": 1776675600,
+      "end_ts": 1776679200,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:PuOe04Tdqw0X",
+      "ts": 1776744000,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1776744000,
+      "end_ts": 1776746700,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:uLJC4hq1XdZd",
+      "ts": 1776758400,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776758400,
+      "end_ts": 1776759300,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:iIDPZpNsM29g",
+      "ts": 1776834000,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1776834000,
+      "end_ts": 1776837600,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:HuhJyEx4YCLc",
+      "ts": 1776844800,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776844800,
+      "end_ts": 1776845700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:nyYleoIbRUnn",
+      "ts": 1776916800,
+      "label": "Run at Golden Gate Park",
+      "title": "Run at Golden Gate Park",
+      "description": "5K at Golden Gate Park",
+      "start_ts": 1776916800,
+      "end_ts": 1776919500,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:BFrkGXCCkcS3",
+      "ts": 1776931200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1776931200,
+      "end_ts": 1776932100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:C8z9DR0lGqtC",
+      "ts": 1777006800,
+      "label": "Gym — Weights",
+      "title": "Gym — Weights",
+      "description": "Strength routine at GymFit Centro",
+      "start_ts": 1777006800,
+      "end_ts": 1777010400,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:CdSeVFl3mR2N",
+      "ts": 1777014000,
+      "label": "Hackathon Fintech",
+      "title": "Hackathon Fintech",
+      "description": "48-hour hackathon with the team",
+      "start_ts": 1777014000,
+      "end_ts": 1777017600,
+      "all_day": false,
+      "location": "Google SF Campus",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null,
+      "ext": {
+        "thread": "hackathon_fintech",
+        "topics": [
+          "hackathon",
+          "fintech",
+          "rust",
+          "cli",
+          "event"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:GAHQMtnouIMo",
+      "ts": 1777017600,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily dev team meeting",
+      "start_ts": 1777017600,
+      "end_ts": 1777018500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Daniel Mora",
+          "email": "daniel.mora@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Lucia Reyes",
+          "email": "lucia.reyes@techcorp-demo.local",
+          "status": "accepted"
+        },
+        {
+          "name": "Pablo Herrera",
+          "email": "pablo.herrera@techcorp-demo.local",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "calendars": [
+    {
+      "name": "Personal",
+      "color": "#4285F4"
+    },
+    {
+      "name": "Work",
+      "color": "#0B8043"
+    },
+    {
+      "name": "Fitness",
+      "color": "#D50000"
+    }
+  ]
+}

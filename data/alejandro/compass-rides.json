@@ -1,0 +1,2251 @@
+{
+  "rides": [
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:Ya57yBvYojuY",
+      "ts": 1774215867,
+      "label": "Blue Bottle Coffee → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "Blue Bottle Coffee",
+        "lat": 37.77502475048759,
+        "lng": -122.42241210486894
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.869920675227426,
+        "lng": -122.27458448919971
+      },
+      "distance_km": 2.58,
+      "duration_minutes": 9,
+      "fare": {
+        "value": 8.1,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Adah Jaskolski",
+        "rating": 4.58,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "TFS-1184"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:ri7XcF1eYCCm",
+      "ts": 1774191258,
+      "label": "Golden Gate Park → Sausalito",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park",
+        "lat": 37.77020021671786,
+        "lng": -122.48468319692878
+      },
+      "destination": {
+        "name": "Sausalito",
+        "lat": 37.859838030640006,
+        "lng": -122.48571981153462
+      },
+      "distance_km": 2.64,
+      "duration_minutes": 14,
+      "fare": {
+        "value": 5.15,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Marco Weber",
+        "rating": 4.4,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "VEF-2056"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:8TVfgap56fhX",
+      "ts": 1774179212,
+      "label": "Hayes Valley → TechCorp — Office",
+      "status": "completed",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.77789772684132,
+        "lng": -122.42417923441978
+      },
+      "destination": {
+        "name": "TechCorp — Office",
+        "lat": 37.78481597522065,
+        "lng": -122.3977341743401
+      },
+      "distance_km": 13.78,
+      "duration_minutes": 51,
+      "fare": {
+        "value": 69.22,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Jerald Jacobi",
+        "rating": 4.2,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "APA-8514"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:guDU6naEFDE9",
+      "ts": 1774159956,
+      "label": "TechCorp — Office → Nob Hill",
+      "status": "completed",
+      "origin": {
+        "name": "TechCorp — Office",
+        "lat": 37.78424957060292,
+        "lng": -122.39974218864437
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.7919922272029,
+        "lng": -122.41415442584518
+      },
+      "distance_km": 7.64,
+      "duration_minutes": 33,
+      "fare": {
+        "value": 43.88,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Elwyn Cronin",
+        "rating": 4.81,
+        "vehicle": "Hyundai Elantra Red 2022",
+        "plate": "UQX-3169"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:5wjt2Xq3ZYxH",
+      "ts": 1774110063,
+      "label": "SFO Airport → Mission District Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "SFO Airport",
+        "lat": 37.61979428505178,
+        "lng": -122.37849768024904
+      },
+      "destination": {
+        "name": "Mission District Apartment",
+        "lat": 37.76144220238906,
+        "lng": -122.41569266387717
+      },
+      "distance_km": 13.33,
+      "duration_minutes": 65,
+      "fare": {
+        "value": 82.75,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Hugh Satterfield",
+        "rating": 4.4,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "DIS-7927"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:mDRvVKn7QFHa",
+      "ts": 1774100985,
+      "label": "Downtown / Union Square → GymFit Downtown",
+      "status": "completed",
+      "origin": {
+        "name": "Downtown / Union Square",
+        "lat": 37.789829598505136,
+        "lng": -122.40751795839707
+      },
+      "destination": {
+        "name": "GymFit Downtown",
+        "lat": 37.78766378646524,
+        "lng": -122.40148941386448
+      },
+      "distance_km": 22.86,
+      "duration_minutes": 95,
+      "fare": {
+        "value": 74.82,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Makayla Boyer",
+        "rating": 4.97,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "AZW-7458"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:x1lUNnDnETEp",
+      "ts": 1774068139,
+      "label": "Mission District Apartment → Nob Hill",
+      "status": "completed",
+      "origin": {
+        "name": "Mission District Apartment",
+        "lat": 37.75931954673152,
+        "lng": -122.41401444918166
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.79214338165149,
+        "lng": -122.41469322576155
+      },
+      "distance_km": 16.99,
+      "duration_minutes": 87,
+      "fare": {
+        "value": 54.56,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Osbaldo Mante",
+        "rating": 4.7,
+        "vehicle": "Volkswagen Jetta Blue 2023",
+        "plate": "PIS-4580"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:oBjqdsEpspym",
+      "ts": 1773987295,
+      "label": "Nob Hill → TechCorp — Office",
+      "status": "completed",
+      "origin": {
+        "name": "Nob Hill",
+        "lat": 37.79205794330791,
+        "lng": -122.41565607232013
+      },
+      "destination": {
+        "name": "TechCorp — Office",
+        "lat": 37.78629094922398,
+        "lng": -122.39855285489439
+      },
+      "distance_km": 13.24,
+      "duration_minutes": 54,
+      "fare": {
+        "value": 40.09,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Johanna Jacobi",
+        "rating": 4.29,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "NXR-6341"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:JjQz1O40naeo",
+      "ts": 1773837099,
+      "label": "Hayes Valley → Palo Alto",
+      "status": "completed",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.774925610447546,
+        "lng": -122.42586795295641
+      },
+      "destination": {
+        "name": "Palo Alto",
+        "lat": 37.442485651168305,
+        "lng": -122.14206738107602
+      },
+      "distance_km": 10.16,
+      "duration_minutes": 57,
+      "fare": {
+        "value": 14.65,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lance Langworth",
+        "rating": 4.32,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "SOG-9824"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:hrP8TRiWpssq",
+      "ts": 1773493302,
+      "label": "Nob Hill → Blue Bottle Coffee",
+      "status": "completed",
+      "origin": {
+        "name": "Nob Hill",
+        "lat": 37.79349001740166,
+        "lng": -122.41550603320749
+      },
+      "destination": {
+        "name": "Blue Bottle Coffee",
+        "lat": 37.77553586590416,
+        "lng": -122.42219289880313
+      },
+      "distance_km": 18.85,
+      "duration_minutes": 89,
+      "fare": {
+        "value": 34.07,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kelly Bartell",
+        "rating": 4.48,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "XHZ-0044"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:wF9KpDU5RzpI",
+      "ts": 1773433995,
+      "label": "GymFit Downtown → Mission District Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.78610609804872,
+        "lng": -122.40130918777888
+      },
+      "destination": {
+        "name": "Mission District Apartment",
+        "lat": 37.75835503930805,
+        "lng": -122.41302385077964
+      },
+      "distance_km": 5.33,
+      "duration_minutes": 16,
+      "fare": {
+        "value": 8.5,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Pansy Stamm",
+        "rating": 4.45,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "ONT-3927"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:kfjXKZiBeWu7",
+      "ts": 1773297583,
+      "label": "Sausalito → Downtown / Union Square",
+      "status": "completed",
+      "origin": {
+        "name": "Sausalito",
+        "lat": 37.85918935277169,
+        "lng": -122.48445049368713
+      },
+      "destination": {
+        "name": "Downtown / Union Square",
+        "lat": 37.789445518354434,
+        "lng": -122.40791408251151
+      },
+      "distance_km": 24.16,
+      "duration_minutes": 142,
+      "fare": {
+        "value": 117.38,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Erick Pfannerstill",
+        "rating": 4.27,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "WAP-2783"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:1YQ4oG4FFyo6",
+      "ts": 1772964606,
+      "label": "Sausalito → Stanford",
+      "status": "completed",
+      "origin": {
+        "name": "Sausalito",
+        "lat": 37.860585640228194,
+        "lng": -122.48475662418714
+      },
+      "destination": {
+        "name": "Stanford",
+        "lat": 37.42647585335269,
+        "lng": -122.16957517193832
+      },
+      "distance_km": 22.16,
+      "duration_minutes": 82,
+      "fare": {
+        "value": 68.94,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Madeline Wisoky-Daniel",
+        "rating": 4.55,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "UOH-9627"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:iAx0LRW4CSs6",
+      "ts": 1772837663,
+      "label": "Downtown / Union Square → Blue Bottle Coffee",
+      "status": "completed",
+      "origin": {
+        "name": "Downtown / Union Square",
+        "lat": 37.787106088746455,
+        "lng": -122.40577129656805
+      },
+      "destination": {
+        "name": "Blue Bottle Coffee",
+        "lat": 37.774468616408626,
+        "lng": -122.42126810640727
+      },
+      "distance_km": 24.54,
+      "duration_minutes": 83,
+      "fare": {
+        "value": 52.04,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Demetris Graham",
+        "rating": 4.8,
+        "vehicle": "Toyota Camry Black 2023",
+        "plate": "XEZ-5158"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:ReZirTCTCioq",
+      "ts": 1772810982,
+      "label": "Hayes Valley → Nob Hill",
+      "status": "completed",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.77776912048565,
+        "lng": -122.4260988010213
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.79445520851557,
+        "lng": -122.41506895165313
+      },
+      "distance_km": 3.24,
+      "duration_minutes": 11,
+      "fare": {
+        "value": 5.6,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Stephany Ward",
+        "rating": 4.37,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "ZII-6680"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:trjv7BPHoxLb",
+      "ts": 1772639666,
+      "label": "Palo Alto → TechCorp — Office",
+      "status": "cancelled",
+      "origin": {
+        "name": "Palo Alto",
+        "lat": 37.4399910716603,
+        "lng": -122.14486079037995
+      },
+      "destination": {
+        "name": "TechCorp — Office",
+        "lat": 37.785617694292,
+        "lng": -122.3995877025676
+      },
+      "distance_km": 10.32,
+      "duration_minutes": 61,
+      "fare": {
+        "value": 61.67,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Regina Schuster",
+        "rating": 4.38,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "NFO-2942"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:N1fmvH37ok9M",
+      "ts": 1772534035,
+      "label": "Palo Alto → Sausalito",
+      "status": "completed",
+      "origin": {
+        "name": "Palo Alto",
+        "lat": 37.44252311313467,
+        "lng": -122.14247054773085
+      },
+      "destination": {
+        "name": "Sausalito",
+        "lat": 37.85709300361452,
+        "lng": -122.48450505671548
+      },
+      "distance_km": 13.09,
+      "duration_minutes": 67,
+      "fare": {
+        "value": 37.17,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Matt Smitham",
+        "rating": 4.55,
+        "vehicle": "Volkswagen Jetta Blue 2023",
+        "plate": "ZLK-0796"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:xRhwP1W3fM0w",
+      "ts": 1772435687,
+      "label": "Golden Gate Park → Palo Alto",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park",
+        "lat": 37.76834728188699,
+        "lng": -122.48776902540996
+      },
+      "destination": {
+        "name": "Palo Alto",
+        "lat": 37.44028122323108,
+        "lng": -122.14159081739587
+      },
+      "distance_km": 16.02,
+      "duration_minutes": 95,
+      "fare": {
+        "value": 49.42,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Darryl Shanahan",
+        "rating": 4.62,
+        "vehicle": "Volkswagen Jetta Blue 2023",
+        "plate": "YID-7632"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:8YKFPDsfIV60",
+      "ts": 1772297709,
+      "label": "SFO Airport → TechCorp — Office",
+      "status": "completed",
+      "origin": {
+        "name": "SFO Airport",
+        "lat": 37.6199721861154,
+        "lng": -122.3799762143386
+      },
+      "destination": {
+        "name": "TechCorp — Office",
+        "lat": 37.7830836990889,
+        "lng": -122.39798732513904
+      },
+      "distance_km": 2.41,
+      "duration_minutes": 14,
+      "fare": {
+        "value": 4.84,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lance Flatley",
+        "rating": 4.94,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "TLX-3766"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:B08z6t4gMdwK",
+      "ts": 1772255666,
+      "label": "Blue Bottle Coffee → Golden Gate Park",
+      "status": "completed",
+      "origin": {
+        "name": "Blue Bottle Coffee",
+        "lat": 37.77647735938055,
+        "lng": -122.42294150982545
+      },
+      "destination": {
+        "name": "Golden Gate Park",
+        "lat": 37.770137888024855,
+        "lng": -122.48761606938845
+      },
+      "distance_km": 21.6,
+      "duration_minutes": 122,
+      "fare": {
+        "value": 43.97,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Genevieve Hermiston",
+        "rating": 4.21,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "NOL-8211"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:Yh2lx4Ah5tFE",
+      "ts": 1772147490,
+      "label": "Hayes Valley → Golden Gate Park",
+      "status": "completed",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.777280397338615,
+        "lng": -122.42591971984386
+      },
+      "destination": {
+        "name": "Golden Gate Park",
+        "lat": 37.770648990922005,
+        "lng": -122.48772786617509
+      },
+      "distance_km": 12.4,
+      "duration_minutes": 60,
+      "fare": {
+        "value": 41.92,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Melinda Hane",
+        "rating": 4.27,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "JRZ-9143"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:0eFk762oLFn3",
+      "ts": 1772133136,
+      "label": "Market Street → SuperMart SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Market Street",
+        "lat": 37.782162830862916,
+        "lng": -122.41030962529976
+      },
+      "destination": {
+        "name": "SuperMart SoMa",
+        "lat": 37.780119881964985,
+        "lng": -122.39591341805145
+      },
+      "distance_km": 11.87,
+      "duration_minutes": 61,
+      "fare": {
+        "value": 39.61,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Merlin Koch",
+        "rating": 4.98,
+        "vehicle": "Hyundai Elantra Red 2022",
+        "plate": "AIV-7486"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:xKRN9yx5f1Cj",
+      "ts": 1772133050,
+      "label": "Hayes Valley → Nob Hill",
+      "status": "completed",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.776489670542404,
+        "lng": -122.42501784786162
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.79466781854204,
+        "lng": -122.41472621601828
+      },
+      "distance_km": 10.52,
+      "duration_minutes": 62,
+      "fare": {
+        "value": 40.2,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Laverne Kassulke",
+        "rating": 4.62,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "DOY-2598"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:7iCFVKpMLQrt",
+      "ts": 1771991495,
+      "label": "Berkeley → Hayes Valley",
+      "status": "completed",
+      "origin": {
+        "name": "Berkeley",
+        "lat": 37.87054798228608,
+        "lng": -122.27156474168247
+      },
+      "destination": {
+        "name": "Hayes Valley",
+        "lat": 37.77495364406673,
+        "lng": -122.42471906497147
+      },
+      "distance_km": 12.95,
+      "duration_minutes": 42,
+      "fare": {
+        "value": 23.28,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lola Collier",
+        "rating": 4.34,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "RNS-6424"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:xJCfv70p3oga",
+      "ts": 1771958175,
+      "label": "Sausalito → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "Sausalito",
+        "lat": 37.86061276605793,
+        "lng": -122.4834769557457
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.87222628880898,
+        "lng": -122.27290982133839
+      },
+      "distance_km": 14.7,
+      "duration_minutes": 65,
+      "fare": {
+        "value": 65.83,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Donald Stamm",
+        "rating": 4.47,
+        "vehicle": "Toyota Camry Black 2023",
+        "plate": "UMM-9998"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:dWqgGUHN2SrG",
+      "ts": 1771568571,
+      "label": "Market Street → TechCorp — Office",
+      "status": "completed",
+      "origin": {
+        "name": "Market Street",
+        "lat": 37.783878386825485,
+        "lng": -122.41091718524231
+      },
+      "destination": {
+        "name": "TechCorp — Office",
+        "lat": 37.78445259328238,
+        "lng": -122.39767395311475
+      },
+      "distance_km": 2.02,
+      "duration_minutes": 8,
+      "fare": {
+        "value": 2.17,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Marcus Kilback",
+        "rating": 4.87,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "PJT-8344"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:t4ZQJnBPn08h",
+      "ts": 1771411778,
+      "label": "Mission District Apartment → Stanford",
+      "status": "completed",
+      "origin": {
+        "name": "Mission District Apartment",
+        "lat": 37.75902250864012,
+        "lng": -122.41494592023614
+      },
+      "destination": {
+        "name": "Stanford",
+        "lat": 37.42875943393225,
+        "lng": -122.16795059574463
+      },
+      "distance_km": 11.13,
+      "duration_minutes": 45,
+      "fare": {
+        "value": 34.47,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Wilbert Koss",
+        "rating": 4.5,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "RAJ-2130"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:ekrCL83MKBU4",
+      "ts": 1771407135,
+      "label": "Golden Gate Park → Market Street",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park",
+        "lat": 37.769870404377784,
+        "lng": -122.48609557473304
+      },
+      "destination": {
+        "name": "Market Street",
+        "lat": 37.781567679591845,
+        "lng": -122.40807947795342
+      },
+      "distance_km": 15.04,
+      "duration_minutes": 82,
+      "fare": {
+        "value": 83.21,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Katarina Hyatt",
+        "rating": 4.57,
+        "vehicle": "Volkswagen Jetta Blue 2023",
+        "plate": "TXN-2543"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:cqQmEIrEDHmu",
+      "ts": 1771149709,
+      "label": "GymFit Downtown → TechCorp — Office",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.78688482742199,
+        "lng": -122.40134171463076
+      },
+      "destination": {
+        "name": "TechCorp — Office",
+        "lat": 37.786773622291186,
+        "lng": -122.39995733133956
+      },
+      "distance_km": 24.43,
+      "duration_minutes": 106,
+      "fare": {
+        "value": 44.4,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Robyn Bradtke",
+        "rating": 4.23,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "KFC-7505"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:9jHLOkweAJ00",
+      "ts": 1771129626,
+      "label": "Stanford → Sausalito",
+      "status": "completed",
+      "origin": {
+        "name": "Stanford",
+        "lat": 37.427732234408154,
+        "lng": -122.17010967436974
+      },
+      "destination": {
+        "name": "Sausalito",
+        "lat": 37.859750570362664,
+        "lng": -122.48594985128699
+      },
+      "distance_km": 13.55,
+      "duration_minutes": 68,
+      "fare": {
+        "value": 74.99,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Deontae Schaefer",
+        "rating": 4.39,
+        "vehicle": "Volkswagen Jetta Blue 2023",
+        "plate": "RCF-3330"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:z6x44FQrpszU",
+      "ts": 1771112784,
+      "label": "Palo Alto → Mission District Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "Palo Alto",
+        "lat": 37.440173530684994,
+        "lng": -122.14484441139912
+      },
+      "destination": {
+        "name": "Mission District Apartment",
+        "lat": 37.75967490133668,
+        "lng": -122.41412616449891
+      },
+      "distance_km": 18.12,
+      "duration_minutes": 85,
+      "fare": {
+        "value": 47.32,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Mario Bayer",
+        "rating": 4.76,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "JSB-5261"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:nKrBRI5LYLFl",
+      "ts": 1770946513,
+      "label": "Stanford → Nob Hill",
+      "status": "completed",
+      "origin": {
+        "name": "Stanford",
+        "lat": 37.42794267185978,
+        "lng": -122.17132571036396
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.791447268839754,
+        "lng": -122.41796238305484
+      },
+      "distance_km": 11.83,
+      "duration_minutes": 46,
+      "fare": {
+        "value": 45.78,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Darrin Ziemann",
+        "rating": 4.68,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "LXN-7307"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:5LPJFztI70e0",
+      "ts": 1770899770,
+      "label": "SFO Airport → Market Street",
+      "status": "completed",
+      "origin": {
+        "name": "SFO Airport",
+        "lat": 37.62164580637758,
+        "lng": -122.37780848471192
+      },
+      "destination": {
+        "name": "Market Street",
+        "lat": 37.78464888884257,
+        "lng": -122.40768447723434
+      },
+      "distance_km": 22.05,
+      "duration_minutes": 87,
+      "fare": {
+        "value": 40.36,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Hazel Cruickshank",
+        "rating": 4.88,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "WAV-9869"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:4BHHj228EmKu",
+      "ts": 1770788283,
+      "label": "Berkeley → SuperMart SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Berkeley",
+        "lat": 37.871650287199486,
+        "lng": -122.2737590737198
+      },
+      "destination": {
+        "name": "SuperMart SoMa",
+        "lat": 37.778145803000676,
+        "lng": -122.39665212061524
+      },
+      "distance_km": 14.41,
+      "duration_minutes": 58,
+      "fare": {
+        "value": 53.46,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kirstin Denesik",
+        "rating": 4.46,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "OWU-3206"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:0DdNltE8iVqH",
+      "ts": 1770720381,
+      "label": "Market Street → SFO Airport",
+      "status": "completed",
+      "origin": {
+        "name": "Market Street",
+        "lat": 37.784401857021805,
+        "lng": -122.41007367560739
+      },
+      "destination": {
+        "name": "SFO Airport",
+        "lat": 37.621276896703456,
+        "lng": -122.3791994238416
+      },
+      "distance_km": 17.58,
+      "duration_minutes": 57,
+      "fare": {
+        "value": 39.54,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Sherman Gibson",
+        "rating": 4.69,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "CRX-4251"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:l34etuDfGWLS",
+      "ts": 1770491982,
+      "label": "Stanford → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "Stanford",
+        "lat": 37.4281736658395,
+        "lng": -122.16868737731758
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.87021612103736,
+        "lng": -122.27337018909455
+      },
+      "distance_km": 24.41,
+      "duration_minutes": 117,
+      "fare": {
+        "value": 47.63,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Irma Cassin",
+        "rating": 4.23,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "CSU-9025"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:vlbkWoFsTRit",
+      "ts": 1770382042,
+      "label": "Hayes Valley → Palo Alto",
+      "status": "cancelled",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.77775528577467,
+        "lng": -122.42547346828151
+      },
+      "destination": {
+        "name": "Palo Alto",
+        "lat": 37.44149836953213,
+        "lng": -122.14479716909932
+      },
+      "distance_km": 21.08,
+      "duration_minutes": 90,
+      "fare": {
+        "value": 70.67,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lance Hilll",
+        "rating": 4.36,
+        "vehicle": "Volkswagen Jetta Blue 2023",
+        "plate": "LXH-1174"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:TWdZAHFRFOmR",
+      "ts": 1770356638,
+      "label": "Market Street → Nob Hill",
+      "status": "completed",
+      "origin": {
+        "name": "Market Street",
+        "lat": 37.784055452505775,
+        "lng": -122.41064120652183
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.794856338027614,
+        "lng": -122.41457138038339
+      },
+      "distance_km": 17.17,
+      "duration_minutes": 77,
+      "fare": {
+        "value": 36.45,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Irene Roob",
+        "rating": 4.45,
+        "vehicle": "Hyundai Elantra Red 2022",
+        "plate": "RSY-6652"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:Zbm9rsLwsvs2",
+      "ts": 1770267691,
+      "label": "SFO Airport → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "SFO Airport",
+        "lat": 37.623244787476004,
+        "lng": -122.37869477197282
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.87145025426408,
+        "lng": -122.27310230757736
+      },
+      "distance_km": 7.59,
+      "duration_minutes": 33,
+      "fare": {
+        "value": 25.01,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Minnie West",
+        "rating": 4.56,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "DUH-4780"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:PWrPvC36fMdK",
+      "ts": 1770122002,
+      "label": "Mission District Apartment → Nob Hill",
+      "status": "cancelled",
+      "origin": {
+        "name": "Mission District Apartment",
+        "lat": 37.759874101357994,
+        "lng": -122.41518507558068
+      },
+      "destination": {
+        "name": "Nob Hill",
+        "lat": 37.7911999418689,
+        "lng": -122.41576387377118
+      },
+      "distance_km": 23.21,
+      "duration_minutes": 139,
+      "fare": {
+        "value": 52.2,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lillie Pfeffer",
+        "rating": 4.7,
+        "vehicle": "Toyota Camry Black 2023",
+        "plate": "JUW-2045"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:VeHGv0l23Eg8",
+      "ts": 1769841859,
+      "label": "SuperMart SoMa → Downtown / Union Square",
+      "status": "completed",
+      "origin": {
+        "name": "SuperMart SoMa",
+        "lat": 37.77816580242658,
+        "lng": -122.39470517976584
+      },
+      "destination": {
+        "name": "Downtown / Union Square",
+        "lat": 37.78850888841328,
+        "lng": -122.40890633501319
+      },
+      "distance_km": 2.41,
+      "duration_minutes": 12,
+      "fare": {
+        "value": 11.36,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Winnifred Heathcote",
+        "rating": 4.57,
+        "vehicle": "Toyota Corolla Grey 2022",
+        "plate": "ZGF-0701"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:RPgckTJsoHNq",
+      "ts": 1769731876,
+      "label": "Golden Gate Park → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park",
+        "lat": 37.76880971180501,
+        "lng": -122.48463134237208
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.871081040765645,
+        "lng": -122.27396430080351
+      },
+      "distance_km": 20.09,
+      "duration_minutes": 66,
+      "fare": {
+        "value": 61.98,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Joannie Bogisich",
+        "rating": 4.66,
+        "vehicle": "Hyundai Elantra Red 2022",
+        "plate": "QDS-1339"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:faDaflTTheHz",
+      "ts": 1769710549,
+      "label": "Downtown / Union Square → Blue Bottle Coffee",
+      "status": "cancelled",
+      "origin": {
+        "name": "Downtown / Union Square",
+        "lat": 37.78939131261543,
+        "lng": -122.40753712557134
+      },
+      "destination": {
+        "name": "Blue Bottle Coffee",
+        "lat": 37.777243693849314,
+        "lng": -122.42092746609868
+      },
+      "distance_km": 23.48,
+      "duration_minutes": 110,
+      "fare": {
+        "value": 56.82,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Marion Beahan",
+        "rating": 4.64,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "XVQ-8563"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:ibZ8YuguRVyS",
+      "ts": 1769428446,
+      "label": "Nob Hill → Palo Alto",
+      "status": "completed",
+      "origin": {
+        "name": "Nob Hill",
+        "lat": 37.79467435964522,
+        "lng": -122.41582133895623
+      },
+      "destination": {
+        "name": "Palo Alto",
+        "lat": 37.43992298163729,
+        "lng": -122.1440557244174
+      },
+      "distance_km": 10.2,
+      "duration_minutes": 39,
+      "fare": {
+        "value": 27.62,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lola Willms",
+        "rating": 4.33,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "LKU-9718"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:CoccILNJRsZO",
+      "ts": 1769252747,
+      "label": "Palo Alto → Downtown / Union Square",
+      "status": "completed",
+      "origin": {
+        "name": "Palo Alto",
+        "lat": 37.4411799376602,
+        "lng": -122.14252350084558
+      },
+      "destination": {
+        "name": "Downtown / Union Square",
+        "lat": 37.78683651012469,
+        "lng": -122.40900910799239
+      },
+      "distance_km": 17.83,
+      "duration_minutes": 89,
+      "fare": {
+        "value": 42.45,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Torrance Jaskolski",
+        "rating": 4.31,
+        "vehicle": "Hyundai Elantra Red 2022",
+        "plate": "XXK-3901"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:Fc6XbIce7UU8",
+      "ts": 1769093188,
+      "label": "GymFit Downtown → SFO Airport",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.785896849458986,
+        "lng": -122.40085089397067
+      },
+      "destination": {
+        "name": "SFO Airport",
+        "lat": 37.62142335411564,
+        "lng": -122.37922507831244
+      },
+      "distance_km": 3.8,
+      "duration_minutes": 14,
+      "fare": {
+        "value": 19.77,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Louise Gislason",
+        "rating": 4.94,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "BLL-5055"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:pCLIAqpjlVgU",
+      "ts": 1768848341,
+      "label": "Golden Gate Park → SuperMart SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park",
+        "lat": 37.77119036008073,
+        "lng": -122.48425235213809
+      },
+      "destination": {
+        "name": "SuperMart SoMa",
+        "lat": 37.77898451715908,
+        "lng": -122.39605537691924
+      },
+      "distance_km": 12.65,
+      "duration_minutes": 57,
+      "fare": {
+        "value": 41.1,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Hillary Lindgren",
+        "rating": 4.68,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "XNL-9084"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:u84FjGYvgGKT",
+      "ts": 1768702743,
+      "label": "GymFit Downtown → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.78785133428965,
+        "lng": -122.40105853429681
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.87029138577721,
+        "lng": -122.27406368439837
+      },
+      "distance_km": 6.58,
+      "duration_minutes": 22,
+      "fare": {
+        "value": 39.17,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Patricia Kassulke",
+        "rating": 4.24,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "AMF-5920"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:EK9jcpdlSOM7",
+      "ts": 1768683416,
+      "label": "Berkeley → Golden Gate Park",
+      "status": "completed",
+      "origin": {
+        "name": "Berkeley",
+        "lat": 37.870024575182796,
+        "lng": -122.27425337965124
+      },
+      "destination": {
+        "name": "Golden Gate Park",
+        "lat": 37.76770286940986,
+        "lng": -122.48571347600802
+      },
+      "distance_km": 18.99,
+      "duration_minutes": 81,
+      "fare": {
+        "value": 33.89,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Nick Trantow",
+        "rating": 4.61,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "AHH-3340"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:LxLIJAcXEY3u",
+      "ts": 1768169821,
+      "label": "GymFit Downtown → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.786880388424905,
+        "lng": -122.4017901726724
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.871493099556886,
+        "lng": -122.27110687756682
+      },
+      "distance_km": 11.77,
+      "duration_minutes": 69,
+      "fare": {
+        "value": 35.78,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Eddie Zboncak",
+        "rating": 4.66,
+        "vehicle": "Toyota Camry Black 2023",
+        "plate": "PGM-8786"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:AJu7s3gM4yDT",
+      "ts": 1768152362,
+      "label": "TechCorp — Office → Stanford",
+      "status": "completed",
+      "origin": {
+        "name": "TechCorp — Office",
+        "lat": 37.78348201651648,
+        "lng": -122.39959173533045
+      },
+      "destination": {
+        "name": "Stanford",
+        "lat": 37.42824382424248,
+        "lng": -122.16829496311681
+      },
+      "distance_km": 17.93,
+      "duration_minutes": 83,
+      "fare": {
+        "value": 41.63,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Mitchell Baumbach",
+        "rating": 4.85,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "CUF-5422"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:2q8ot5A3JFl4",
+      "ts": 1768108358,
+      "label": "Mission District Apartment → Palo Alto",
+      "status": "completed",
+      "origin": {
+        "name": "Mission District Apartment",
+        "lat": 37.75931604037793,
+        "lng": -122.41561227860697
+      },
+      "destination": {
+        "name": "Palo Alto",
+        "lat": 37.44155293951796,
+        "lng": -122.14113158439588
+      },
+      "distance_km": 3.69,
+      "duration_minutes": 18,
+      "fare": {
+        "value": 6.68,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Pam Schuppe",
+        "rating": 4.67,
+        "vehicle": "Honda Civic Black 2021",
+        "plate": "JUI-6022"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:MQATJKmyOiDW",
+      "ts": 1768039556,
+      "label": "GymFit Downtown → Golden Gate Park",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.78588329794871,
+        "lng": -122.40006999369129
+      },
+      "destination": {
+        "name": "Golden Gate Park",
+        "lat": 37.76932266000464,
+        "lng": -122.48554611324043
+      },
+      "distance_km": 23.09,
+      "duration_minutes": 102,
+      "fare": {
+        "value": 70.03,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Anne Reynolds",
+        "rating": 4.46,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "PPX-7175"
+      },
+      "ride_type": "standard",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:B93NbzIs6lh6",
+      "ts": 1767975573,
+      "label": "TechCorp — Office → SFO Airport",
+      "status": "completed",
+      "origin": {
+        "name": "TechCorp — Office",
+        "lat": 37.784761846222096,
+        "lng": -122.40039182432544
+      },
+      "destination": {
+        "name": "SFO Airport",
+        "lat": 37.62316074212942,
+        "lng": -122.37991985350969
+      },
+      "distance_km": 11.53,
+      "duration_minutes": 35,
+      "fare": {
+        "value": 23.49,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Zena Padberg",
+        "rating": 4.95,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "PLV-6403"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:6lnrPSU3A4Qr",
+      "ts": 1767691069,
+      "label": "GymFit Downtown → SFO Airport",
+      "status": "completed",
+      "origin": {
+        "name": "GymFit Downtown",
+        "lat": 37.788081951274435,
+        "lng": -122.40188906036833
+      },
+      "destination": {
+        "name": "SFO Airport",
+        "lat": 37.62023069145039,
+        "lng": -122.38081175010903
+      },
+      "distance_km": 11.58,
+      "duration_minutes": 49,
+      "fare": {
+        "value": 19.53,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Edward Williamson",
+        "rating": 4.82,
+        "vehicle": "Kia Forte Silver 2023",
+        "plate": "BVK-7148"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:0ynUSDpU94zv",
+      "ts": 1767366750,
+      "label": "Sausalito → Downtown / Union Square",
+      "status": "completed",
+      "origin": {
+        "name": "Sausalito",
+        "lat": 37.85731553681764,
+        "lng": -122.48447012416018
+      },
+      "destination": {
+        "name": "Downtown / Union Square",
+        "lat": 37.78624610658753,
+        "lng": -122.40769371657376
+      },
+      "distance_km": 23.96,
+      "duration_minutes": 101,
+      "fare": {
+        "value": 43.34,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Lucio Bernier",
+        "rating": 4.21,
+        "vehicle": "Chevrolet Malibu Grey 2022",
+        "plate": "DRH-7129"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:5pRLIiGGH3Kh",
+      "ts": 1767286415,
+      "label": "Sausalito → Hayes Valley",
+      "status": "cancelled",
+      "origin": {
+        "name": "Sausalito",
+        "lat": 37.85810145854292,
+        "lng": -122.4865770210455
+      },
+      "destination": {
+        "name": "Hayes Valley",
+        "lat": 37.77667048387172,
+        "lng": -122.42639476032323
+      },
+      "distance_km": 5.35,
+      "duration_minutes": 18,
+      "fare": {
+        "value": 9.72,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Erica Wehner-Labadie",
+        "rating": 4.87,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "ENQ-5198"
+      },
+      "ride_type": "shared"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:1ypREmzytGis",
+      "ts": 1766825710,
+      "label": "Hayes Valley → Golden Gate Park",
+      "status": "completed",
+      "origin": {
+        "name": "Hayes Valley",
+        "lat": 37.77451146460991,
+        "lng": -122.42644132592359
+      },
+      "destination": {
+        "name": "Golden Gate Park",
+        "lat": 37.76834304242526,
+        "lng": -122.48797438940495
+      },
+      "distance_km": 11.09,
+      "duration_minutes": 55,
+      "fare": {
+        "value": 14.36,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Laurence Quigley",
+        "rating": 4.99,
+        "vehicle": "Toyota Camry Black 2023",
+        "plate": "VUJ-1167"
+      },
+      "ride_type": "shared",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:wTnhXaJqaoYd",
+      "ts": 1766746523,
+      "label": "Stanford → Market Street",
+      "status": "completed",
+      "origin": {
+        "name": "Stanford",
+        "lat": 37.427382904108356,
+        "lng": -122.16930619501399
+      },
+      "destination": {
+        "name": "Market Street",
+        "lat": 37.78163582781552,
+        "lng": -122.40784740646765
+      },
+      "distance_km": 2.87,
+      "duration_minutes": 10,
+      "fare": {
+        "value": 17.77,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Tami Kunde-McDermott",
+        "rating": 4.93,
+        "vehicle": "Nissan Sentra White 2023",
+        "plate": "QLD-4140"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:EWevBeihGIBG",
+      "ts": 1766675657,
+      "label": "Mission District Apartment → Berkeley",
+      "status": "completed",
+      "origin": {
+        "name": "Mission District Apartment",
+        "lat": 37.760749411862406,
+        "lng": -122.41342254096298
+      },
+      "destination": {
+        "name": "Berkeley",
+        "lat": 37.87275163675379,
+        "lng": -122.27220443415312
+      },
+      "distance_km": 10.18,
+      "duration_minutes": 32,
+      "fare": {
+        "value": 28.47,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Mandy Prohaska",
+        "rating": 4.67,
+        "vehicle": "Mazda 3 White 2024",
+        "plate": "WZQ-7779"
+      },
+      "ride_type": "premium",
+      "ext": {
+        "topics": [
+          "transport",
+          "trip",
+          "expense"
+        ]
+      }
+    }
+  ],
+  "saved_places": [
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:h8bGcMqXpD0f",
+      "name": "Home",
+      "label": "My apartment",
+      "address": "245 Valencia St, Apt 8B, Mission District, SF",
+      "lat": 37.7599,
+      "lng": -122.4148,
+      "category": "home"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:GTTfB3D4kXiT",
+      "name": "Work",
+      "label": "TechCorp",
+      "address": "101 2nd St, Floor 12, SoMa, SF",
+      "lat": 37.7849,
+      "lng": -122.3994,
+      "category": "work"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:XW9zm2xMTxG9",
+      "name": "Blue Bottle Coffee",
+      "label": "My favorite coffee shop",
+      "address": "315 Linden St, Hayes Valley, SF",
+      "lat": 37.7763,
+      "lng": -122.4213,
+      "category": "favorite",
+      "ext": {
+        "thread": "coffee_code",
+        "topics": [
+          "coffee",
+          "sf",
+          "hayesvalley",
+          "work",
+          "remote"
+        ]
+      }
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:9LeBIyZFO6wV",
+      "name": "Mom House",
+      "label": "Mom Rosa's house",
+      "address": "428 Noe St, Noe Valley, SF",
+      "lat": 37.751,
+      "lng": -122.431,
+      "category": "favorite"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:Hqtn3nPoPc2q",
+      "name": "Airport",
+      "label": "SFO Terminal 2",
+      "address": "San Francisco International Airport, T2",
+      "lat": 37.6213,
+      "lng": -122.379,
+      "category": "favorite"
+    }
+  ]
+}

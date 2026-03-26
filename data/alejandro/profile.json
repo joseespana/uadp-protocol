@@ -1,0 +1,37 @@
+{
+  "uadp_type": "uadp:profile",
+  "id": "user:alejandro_vega",
+  "name": "Alejandro Vega",
+  "handle": "@alejandro_v",
+  "age": 31,
+  "city": "San Francisco",
+  "country": "US",
+  "occupation": "Software developer",
+  "language": "en",
+  "currency": "USD",
+  "joined_cosmos": "2021-03-15",
+  "avatar_url": "https://picsum.photos/seed/alejandro_avatar/200/200",
+  "email": "alejandro@cosmos-demo.local",
+  "phone": "+1-415-555-1234",
+  "bio": "Full-stack developer in SF. Lover of coffee, hiking, and open source.",
+  "interests": [
+    "technology",
+    "coffee",
+    "hiking",
+    "electronic music",
+    "travel",
+    "craft coffee"
+  ],
+  "social_links": {
+    "nova": "@alejandro_v",
+    "pulse": "@alejandro_v",
+    "codeforge": "alejandrovega"
+  },
+  "stats": {
+    "nova_followers": 1243,
+    "nova_following": 387,
+    "pulse_followers": 892,
+    "pulse_following": 214,
+    "stream_subscribers": 156
+  }
+}

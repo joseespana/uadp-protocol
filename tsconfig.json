@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "cosmos-core": ["./packages/cosmos-core/src"],
+      "cosmos-core/*": ["./packages/cosmos-core/src/*"]
+    }
+  },
+  "include": ["packages/**/*.ts", "services/**/*.ts", "data/**/*.ts"]
+}

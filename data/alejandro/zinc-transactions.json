@@ -1,0 +1,1424 @@
+{
+  "accounts": [
+    {
+      "uadp_type": "uadp:account",
+      "id": "zinc:acc:mxn",
+      "label": "Zinc Pesos",
+      "type": "checking",
+      "balance": {
+        "value": 8000,
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "uadp_type": "uadp:account",
+      "id": "zinc:acc:credit",
+      "label": "Zinc International Credit",
+      "type": "credit",
+      "credit_limit": {
+        "value": 5000,
+        "currency": "USD"
+      },
+      "balance_used": {
+        "value": 1200,
+        "currency": "USD"
+      },
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:HrRAEgk24Xy7",
+      "ts": 1774042419,
+      "label": "CodeForge Pro",
+      "amount": {
+        "value": 4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CodeForge Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.08,
+        "zinc_points": 12,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:R4s4sILhgZ7E",
+      "ts": 1774037828,
+      "label": "DesignLab",
+      "amount": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DesignLab",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Doyo2agDRbeI",
+      "ts": 1774035456,
+      "label": "DevTools Pro",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DevTools Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Vkzvjj8kDAQd",
+      "ts": 1773968736,
+      "label": "GlobalShop",
+      "amount": {
+        "value": 191.29,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GlobalShop",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 3.83,
+        "zinc_points": 573,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Fp7zAEVrXdf7",
+      "ts": 1773958571,
+      "label": "CloudSync",
+      "amount": {
+        "value": 5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudSync",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.1,
+        "zinc_points": 15,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:RurJVfqEBe1a",
+      "ts": 1773693063,
+      "label": "CloudNova",
+      "amount": {
+        "value": 41.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudNova",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.83,
+        "zinc_points": 124,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:aIAy5RDzXyOd",
+      "ts": 1773665111,
+      "label": "LearnHub",
+      "amount": {
+        "value": 65.88,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LearnHub",
+        "category": "education",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 1.32,
+        "zinc_points": 197,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:dxLofA6asXkQ",
+      "ts": 1773515473,
+      "label": "NotePad Plus",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "NotePad Plus",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:kvNM9tR3uvPu",
+      "ts": 1773454031,
+      "label": "CloudNova",
+      "amount": {
+        "value": 14.82,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudNova",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.3,
+        "zinc_points": 44,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:HpB5rMIxbAFy",
+      "ts": 1772969922,
+      "label": "LearnHub",
+      "amount": {
+        "value": 53.6,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LearnHub",
+        "category": "education",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 1.07,
+        "zinc_points": 160,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:NMJ9ZQDGnzlI",
+      "ts": 1771536555,
+      "label": "CloudSync",
+      "amount": {
+        "value": 5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudSync",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.1,
+        "zinc_points": 15,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:UCcfAd0g3TG1",
+      "ts": 1771453260,
+      "label": "DesignLab",
+      "amount": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DesignLab",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:jmaux9dcBIiL",
+      "ts": 1771443963,
+      "label": "CodeForge Pro",
+      "amount": {
+        "value": 4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CodeForge Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.08,
+        "zinc_points": 12,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:YfP6fgCUiqon",
+      "ts": 1771361158,
+      "label": "DevTools Pro",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DevTools Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Ub8pKdRzbxec",
+      "ts": 1771076858,
+      "label": "NotePad Plus",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "NotePad Plus",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Qlt7YIeWnqaq",
+      "ts": 1770943176,
+      "label": "IndieMusic Hub",
+      "amount": {
+        "value": 18.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "IndieMusic Hub",
+        "category": "music",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.37,
+        "zinc_points": 55,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:mkWl32d5NFMx",
+      "ts": 1770753735,
+      "label": "GlobalShop",
+      "amount": {
+        "value": 162.22,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GlobalShop",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 3.24,
+        "zinc_points": 486,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:dDyvEm0qmL5M",
+      "ts": 1770377448,
+      "label": "LearnHub",
+      "amount": {
+        "value": 67.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LearnHub",
+        "category": "education",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 1.36,
+        "zinc_points": 203,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:zCx2wrLUFIoA",
+      "ts": 1770023722,
+      "label": "GlobalShop",
+      "amount": {
+        "value": 46.34,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "pending",
+      "merchant": {
+        "name": "GlobalShop",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.93,
+        "zinc_points": 139,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:4UQWWajtpXi7",
+      "ts": 1769909424,
+      "label": "DeployEdge Pro",
+      "amount": {
+        "value": 20,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DeployEdge Pro",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.4,
+        "zinc_points": 60,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:SRpPigRFf1Kj",
+      "ts": 1769741047,
+      "label": "CloudNova",
+      "amount": {
+        "value": 40.36,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudNova",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.81,
+        "zinc_points": 121,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:H0elom0WL0lr",
+      "ts": 1769708410,
+      "label": "CloudNova",
+      "amount": {
+        "value": 30.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudNova",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.61,
+        "zinc_points": 91,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:W4RBC0UQruik",
+      "ts": 1768943027,
+      "label": "DevTools Pro",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DevTools Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Q28JKEVwJgCL",
+      "ts": 1768854248,
+      "label": "DesignLab",
+      "amount": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DesignLab",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:ohhNQcnV0lC9",
+      "ts": 1768767980,
+      "label": "CloudSync",
+      "amount": {
+        "value": 5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudSync",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.1,
+        "zinc_points": 15,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:oOAgnXBvfx5o",
+      "ts": 1768766024,
+      "label": "CodeForge Pro",
+      "amount": {
+        "value": 4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CodeForge Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.08,
+        "zinc_points": 12,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:wacHIyUnJIsP",
+      "ts": 1768046891,
+      "label": "DeployEdge Pro",
+      "amount": {
+        "value": 20,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DeployEdge Pro",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.4,
+        "zinc_points": 60,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:bulEOpPaDqne",
+      "ts": 1767162059,
+      "label": "GameVault Store",
+      "amount": {
+        "value": 46.01,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GameVault Store",
+        "category": "gaming",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.92,
+        "zinc_points": 138,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:iuTREEBeCBzN",
+      "ts": 1766707565,
+      "label": "CloudNova",
+      "amount": {
+        "value": 40.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudNova",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.81,
+        "zinc_points": 121,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:n9IgphB0EpIQ",
+      "ts": 1766359279,
+      "label": "CraftMarket",
+      "amount": {
+        "value": 15.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CraftMarket",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.3,
+        "zinc_points": 45,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:bdeHa2IXxm1z",
+      "ts": 1766352641,
+      "label": "DesignLab",
+      "amount": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DesignLab",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:4OnY5WEjgXlw",
+      "ts": 1766345869,
+      "label": "CodeForge Pro",
+      "amount": {
+        "value": 4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CodeForge Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.08,
+        "zinc_points": 12,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:FVRDdRVUzSNC",
+      "ts": 1766345575,
+      "label": "DevTools Pro",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DevTools Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:X1GFAJn70oNA",
+      "ts": 1766268189,
+      "label": "CloudSync",
+      "amount": {
+        "value": 5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudSync",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.1,
+        "zinc_points": 15,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:XMrvZI6BWbLp",
+      "ts": 1765805914,
+      "label": "DomainWise",
+      "amount": {
+        "value": 12.23,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DomainWise",
+        "category": "hosting",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:IinQ3vxyLrQl",
+      "ts": 1765481340,
+      "label": "CraftMarket",
+      "amount": {
+        "value": 50.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "pending",
+      "merchant": {
+        "name": "CraftMarket",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 1.02,
+        "zinc_points": 152,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:wlMzRPWJ8mK8",
+      "ts": 1765140750,
+      "label": "LearnHub",
+      "amount": {
+        "value": 61.37,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LearnHub",
+        "category": "education",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 1.23,
+        "zinc_points": 184,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:hleWTD4NOKah",
+      "ts": 1764680977,
+      "label": "IndieMusic Hub",
+      "amount": {
+        "value": 24.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "IndieMusic Hub",
+        "category": "music",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.49,
+        "zinc_points": 73,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:U8btl89IKTjs",
+      "ts": 1764261734,
+      "label": "GlobalShop",
+      "amount": {
+        "value": 142.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GlobalShop",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 2.85,
+        "zinc_points": 428,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:C1rPeKLDTrcE",
+      "ts": 1763753936,
+      "label": "CodeForge Pro",
+      "amount": {
+        "value": 4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CodeForge Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.08,
+        "zinc_points": 12,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:hnB0x1BnsOFV",
+      "ts": 1763675124,
+      "label": "CloudSync",
+      "amount": {
+        "value": 5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudSync",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.1,
+        "zinc_points": 15,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:dbFEu9zvzr5p",
+      "ts": 1763674376,
+      "label": "DevTools Pro",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DevTools Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:SR04yRnTlpkr",
+      "ts": 1763672827,
+      "label": "DesignLab",
+      "amount": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DesignLab",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:mt3qNKMg6stC",
+      "ts": 1762914317,
+      "label": "IndieMusic Hub",
+      "amount": {
+        "value": 22.54,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "IndieMusic Hub",
+        "category": "music",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.45,
+        "zinc_points": 67,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:kggbSoSS82Yd",
+      "ts": 1761947712,
+      "label": "NotePad Plus",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "NotePad Plus",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:RVsyvxezgAP0",
+      "ts": 1761812320,
+      "label": "BookShelf Intl",
+      "amount": {
+        "value": 12.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BookShelf Intl",
+        "category": "books",
+        "country": "UK"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.25,
+        "zinc_points": 38,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:xCyo8IGRC2p6",
+      "ts": 1761452986,
+      "label": "NotePad Plus",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "NotePad Plus",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:BjNX8QOLgL46",
+      "ts": 1761428168,
+      "label": "BookShelf Intl",
+      "amount": {
+        "value": 14.66,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BookShelf Intl",
+        "category": "books",
+        "country": "UK"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.29,
+        "zinc_points": 43,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:FFYDixDpDODa",
+      "ts": 1761168686,
+      "label": "CodeForge Pro",
+      "amount": {
+        "value": 4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CodeForge Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.08,
+        "zinc_points": 12,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:zBCU5tifkWf5",
+      "ts": 1761167742,
+      "label": "CloudSync",
+      "amount": {
+        "value": 5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CloudSync",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.1,
+        "zinc_points": 15,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:isOPtPag9VKL",
+      "ts": 1761164767,
+      "label": "DevTools Pro",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DevTools Pro",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:mP8ZdX3zbETi",
+      "ts": 1760995036,
+      "label": "DesignLab",
+      "amount": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DesignLab",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:QcUZzLBZBt9Q",
+      "ts": 1760936144,
+      "label": "IndieMusic Hub",
+      "amount": {
+        "value": 24.83,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "IndieMusic Hub",
+        "category": "music",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.5,
+        "zinc_points": 74,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:tKd4PedoxCVK",
+      "ts": 1760802975,
+      "label": "GlobalShop",
+      "amount": {
+        "value": 54.12,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GlobalShop",
+        "category": "shopping",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 1.08,
+        "zinc_points": 162,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:PLLoUOUuhEGH",
+      "ts": 1760639742,
+      "label": "DomainWise",
+      "amount": {
+        "value": 11.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DomainWise",
+        "category": "hosting",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.23,
+        "zinc_points": 35,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:7b7aTQgHM9et",
+      "ts": 1760602500,
+      "label": "GameVault Store",
+      "amount": {
+        "value": 12.07,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GameVault Store",
+        "category": "gaming",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 36,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:x9Pw4ouhi8I3",
+      "ts": 1760584404,
+      "label": "IndieMusic Hub",
+      "amount": {
+        "value": 11.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "IndieMusic Hub",
+        "category": "music",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.24,
+        "zinc_points": 35,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:bfzy4ULNGamk",
+      "ts": 1760210486,
+      "label": "DomainWise",
+      "amount": {
+        "value": 28.72,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "DomainWise",
+        "category": "hosting",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.57,
+        "zinc_points": 86,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:O5ijj0qR63EL",
+      "ts": 1759039579,
+      "label": "GameVault Store",
+      "amount": {
+        "value": 17.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GameVault Store",
+        "category": "gaming",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.36,
+        "zinc_points": 53,
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:CYLSgDlOYdJK",
+      "ts": 1758849079,
+      "label": "NotePad Plus",
+      "amount": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "NotePad Plus",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:credit",
+      "ext": {
+        "cashback": 0.2,
+        "zinc_points": 30,
+        "is_subscription": false
+      }
+    }
+  ],
+  "cards": [
+    {
+      "uadp_type": "uadp:card",
+      "id": "zinc:card:credit",
+      "label": "Zinc Credit Card",
+      "type": "credit",
+      "last_four": "9201",
+      "account_id": "zinc:acc:credit",
+      "network": "Mastercard",
+      "status": "active"
+    }
+  ]
+}

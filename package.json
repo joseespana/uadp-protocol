@@ -1,0 +1,36 @@
+{
+  "name": "uadp-protocol",
+  "private": false,
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "seed": "bun run data/seed.ts",
+    "dev": "bun run --filter '*' dev",
+    "dev:gateway": "bun run --filter cosmos-gateway dev",
+    "dev:nova": "bun run --filter nova dev",
+    "dev:pulse": "bun run --filter pulse dev",
+    "dev:orbit": "bun run --filter orbit dev",
+    "dev:zinc": "bun run --filter zinc dev",
+    "dev:market": "bun run --filter market dev",
+    "dev:stream": "bun run --filter stream dev",
+    "dev:echo": "bun run --filter echo dev",
+    "dev:herald": "bun run --filter herald dev",
+    "dev:lyra": "bun run --filter lyra dev",
+    "dev:vortex": "bun run --filter vortex dev",
+    "dev:beacon": "bun run --filter beacon dev",
+    "dev:compass": "bun run --filter compass dev",
+    "dev:flame": "bun run --filter flame dev",
+    "dev:atlas": "bun run --filter atlas dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "elysia": "^1.2.0",
+    "@elysiajs/cors": "^1.1.0",
+    "@faker-js/faker": "^9.0.0"
+  }
+}

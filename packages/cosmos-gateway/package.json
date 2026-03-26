@@ -1,0 +1,11 @@
+{
+  "name": "cosmos-gateway",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "cosmos-core": "workspace:*"
+  }
+}

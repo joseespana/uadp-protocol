@@ -1,0 +1,39 @@
+{
+  "uadp_type": "uadp:profile",
+  "id": "user:jose_espana",
+  "name": "Jose España",
+  "handle": "@jose_espana",
+  "age": 34,
+  "city": "San Francisco",
+  "country": "US",
+  "occupation": "CTO & Full-stack Developer",
+  "language": "en",
+  "currency": "USD",
+  "email": "jose.espana@perseusoft.tech",
+  "phone": "+1-415-555-9876",
+  "avatar_url": "https://picsum.photos/seed/jose_espana_avatar/200/200",
+  "joined_cosmos": "2020-08-10",
+  "bio": "CTO at PerseusOft. Building the future with AI/ML, TypeScript, and too much coffee. Runner, electronic music enthusiast, and foodie.",
+  "interests": [
+    "artificial intelligence",
+    "machine learning",
+    "electronic music",
+    "fine dining",
+    "running",
+    "startups",
+    "Tesla"
+  ],
+  "social_links": {
+    "nova": "@jose_espana",
+    "pulse": "@jose_espana",
+    "codeforge": "joseespana",
+    "github": "joseespana"
+  },
+  "stats": {
+    "nova_followers": 4820,
+    "nova_following": 612,
+    "pulse_followers": 2340,
+    "pulse_following": 445,
+    "stream_subscribers": 0
+  }
+}

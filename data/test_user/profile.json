@@ -1,0 +1,38 @@
+{
+  "uadp_type": "uadp:profile",
+  "id": "user:test_user",
+  "name": "Alex Morgan",
+  "handle": "@alex_morgan",
+  "age": 27,
+  "city": "San Francisco",
+  "country": "US",
+  "occupation": "QA Engineer",
+  "language": "en",
+  "currency": "USD",
+  "email": "test@perseusoft.tech",
+  "phone": "+1-415-555-5000",
+  "avatar_url": "https://picsum.photos/seed/alex_morgan_avatar/200/200",
+  "joined_cosmos": "2022-11-01",
+  "bio": "QA Engineer at PerseusOft. Gamer, anime nerd, and aspiring developer. Learning Rust on weekends. Lofi beats and instant ramen fuel my debugging sessions.",
+  "interests": [
+    "gaming",
+    "anime",
+    "lofi music",
+    "QA automation",
+    "learning to code",
+    "ramen",
+    "manga"
+  ],
+  "social_links": {
+    "nova": "@alex_morgan",
+    "pulse": "@alex_morgan",
+    "gaming": "alexm_gamer"
+  },
+  "stats": {
+    "nova_followers": 342,
+    "nova_following": 890,
+    "pulse_followers": 187,
+    "pulse_following": 456,
+    "stream_subscribers": 0
+  }
+}

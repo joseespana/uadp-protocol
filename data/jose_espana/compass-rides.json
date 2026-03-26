@@ -1,0 +1,946 @@
+{
+  "rides": [
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:4sREX7GwUzgL",
+      "ts": 1774309058,
+      "label": "Tesla Service Center → Atelier Crenn",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.75158385345812,
+        "lng": -122.41799509279959
+      },
+      "destination": {
+        "name": "Atelier Crenn",
+        "lat": 37.800421748930724,
+        "lng": -122.437344361929
+      },
+      "distance_km": 21.64,
+      "duration_minutes": 120,
+      "fare": {
+        "value": 57.56,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Yessenia O'Keefe",
+        "rating": 4.31,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "YZU-1228"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:IppNJ0FFXL9H",
+      "ts": 1774099979,
+      "label": "Tesla Service Center → State Bird Provisions",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.75040907226191,
+        "lng": -122.41622259730671
+      },
+      "destination": {
+        "name": "State Bird Provisions",
+        "lat": 37.787571252755335,
+        "lng": -122.44035693972872
+      },
+      "distance_km": 6.9,
+      "duration_minutes": 29,
+      "fare": {
+        "value": 38.02,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Garret Stark",
+        "rating": 4.86,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "UCN-3848"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:JJSW8AE0WhKF",
+      "ts": 1774067239,
+      "label": "State Bird Provisions → Pacific Heights Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "State Bird Provisions",
+        "lat": 37.78635632172708,
+        "lng": -122.44063486373236
+      },
+      "destination": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.79243697683504,
+        "lng": -122.43805006959533
+      },
+      "distance_km": 25.28,
+      "duration_minutes": 119,
+      "fare": {
+        "value": 64.96,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Jany Feest",
+        "rating": 4.6,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "TJK-1910"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:aVMwKJQvX9jc",
+      "ts": 1773847824,
+      "label": "SFO Airport → Atelier Crenn",
+      "status": "completed",
+      "origin": {
+        "name": "SFO Airport",
+        "lat": 37.62023000378677,
+        "lng": -122.37963968705117
+      },
+      "destination": {
+        "name": "Atelier Crenn",
+        "lat": 37.801214717171,
+        "lng": -122.43586735390681
+      },
+      "distance_km": 10.29,
+      "duration_minutes": 42,
+      "fare": {
+        "value": 36.3,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Chauncey Gleason",
+        "rating": 4.35,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "KXG-1475"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:pM8eG6hBHfSC",
+      "ts": 1773633168,
+      "label": "Tesla Service Center → Trick Dog",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.751398392448394,
+        "lng": -122.41793777432416
+      },
+      "destination": {
+        "name": "Trick Dog",
+        "lat": 37.7629842181039,
+        "lng": -122.4186399387315
+      },
+      "distance_km": 21.37,
+      "duration_minutes": 104,
+      "fare": {
+        "value": 123.86,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Erika Will",
+        "rating": 4.91,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "YZR-2995"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:O5dAmSuSrbgv",
+      "ts": 1773522345,
+      "label": "Tesla Service Center → Pacific Heights Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.751227601552344,
+        "lng": -122.41786279954104
+      },
+      "destination": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.793622368455786,
+        "lng": -122.43722430458541
+      },
+      "distance_km": 24.41,
+      "duration_minutes": 140,
+      "fare": {
+        "value": 96.07,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kim Greenfelder",
+        "rating": 4.78,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "GXY-1414"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:2PPPyqwYPOyj",
+      "ts": 1773002068,
+      "label": "State Bird Provisions → Atelier Crenn",
+      "status": "completed",
+      "origin": {
+        "name": "State Bird Provisions",
+        "lat": 37.78628432638256,
+        "lng": -122.44038829480442
+      },
+      "destination": {
+        "name": "Atelier Crenn",
+        "lat": 37.79799555773658,
+        "lng": -122.43799063821973
+      },
+      "distance_km": 16.74,
+      "duration_minutes": 77,
+      "fare": {
+        "value": 71.64,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Emmett Wintheiser",
+        "rating": 4.42,
+        "vehicle": "Mercedes C300 Silver 2022",
+        "plate": "ZGZ-2327"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:JDUvqPul0SQP",
+      "ts": 1772985076,
+      "label": "Tesla Service Center → State Bird Provisions",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.75244959454644,
+        "lng": -122.41825003632363
+      },
+      "destination": {
+        "name": "State Bird Provisions",
+        "lat": 37.7893102537879,
+        "lng": -122.44029615298687
+      },
+      "distance_km": 24.3,
+      "duration_minutes": 122,
+      "fare": {
+        "value": 88.54,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Ross Murphy",
+        "rating": 4.71,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "VIN-7424"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:YYflS95h9NfM",
+      "ts": 1772770606,
+      "label": "Pacific Heights Apartment → Sushi Kaze",
+      "status": "completed",
+      "origin": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.79080367283621,
+        "lng": -122.438926382438
+      },
+      "destination": {
+        "name": "Sushi Kaze",
+        "lat": 37.77708227008195,
+        "lng": -122.40985285533095
+      },
+      "distance_km": 3.59,
+      "duration_minutes": 13,
+      "fare": {
+        "value": 22.9,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Boyd Schimmel",
+        "rating": 4.74,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "BYW-1257"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:x5HtShwDjpIb",
+      "ts": 1772462264,
+      "label": "Trick Dog → Pacific Heights Apartment",
+      "status": "cancelled",
+      "origin": {
+        "name": "Trick Dog",
+        "lat": 37.76087145789121,
+        "lng": -122.42017608187226
+      },
+      "destination": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.791047188369745,
+        "lng": -122.4372261254594
+      },
+      "distance_km": 16.68,
+      "duration_minutes": 82,
+      "fare": {
+        "value": 112.59,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Rosie Hettinger",
+        "rating": 4.51,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "GCD-6181"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:19nhRx53F3yB",
+      "ts": 1771944386,
+      "label": "Tesla Service Center → Pacific Heights Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.7528545175546,
+        "lng": -122.41762644409346
+      },
+      "destination": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.794274630740254,
+        "lng": -122.43999344543332
+      },
+      "distance_km": 18.43,
+      "duration_minutes": 56,
+      "fare": {
+        "value": 113.76,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Jess Connelly",
+        "rating": 4.26,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "ZAF-9412"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:bkDMv5QjMeNI",
+      "ts": 1771668070,
+      "label": "PerseusOft HQ — SoMa → Atelier Crenn",
+      "status": "completed",
+      "origin": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.7833480128856,
+        "lng": -122.39913157155176
+      },
+      "destination": {
+        "name": "Atelier Crenn",
+        "lat": 37.798961576241,
+        "lng": -122.43536874506715
+      },
+      "distance_km": 5.67,
+      "duration_minutes": 26,
+      "fare": {
+        "value": 25.21,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Damon Kassulke",
+        "rating": 4.54,
+        "vehicle": "Audi A4 Grey 2023",
+        "plate": "WWH-2763"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:xmeD0x5ZobSA",
+      "ts": 1771610207,
+      "label": "Trick Dog → Sushi Kaze",
+      "status": "completed",
+      "origin": {
+        "name": "Trick Dog",
+        "lat": 37.76146092651181,
+        "lng": -122.42086515149077
+      },
+      "destination": {
+        "name": "Sushi Kaze",
+        "lat": 37.77694551897366,
+        "lng": -122.40835634121626
+      },
+      "distance_km": 8.41,
+      "duration_minutes": 27,
+      "fare": {
+        "value": 26.17,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Virginia Hessel",
+        "rating": 4.82,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "FUK-0429"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:2noh0CI7GDVc",
+      "ts": 1771321013,
+      "label": "Pacific Heights Apartment → Tesla Service Center",
+      "status": "cancelled",
+      "origin": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.7923177637688,
+        "lng": -122.43641016127863
+      },
+      "destination": {
+        "name": "Tesla Service Center",
+        "lat": 37.749672675519285,
+        "lng": -122.41949215991775
+      },
+      "distance_km": 16.49,
+      "duration_minutes": 64,
+      "fare": {
+        "value": 101.56,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kaleigh Mayert",
+        "rating": 4.23,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "NSH-2722"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:NWXmtxHU6REk",
+      "ts": 1771218617,
+      "label": "Client Office — Palo Alto → Tesla Service Center",
+      "status": "completed",
+      "origin": {
+        "name": "Client Office — Palo Alto",
+        "lat": 37.443254177343114,
+        "lng": -122.14106359387469
+      },
+      "destination": {
+        "name": "Tesla Service Center",
+        "lat": 37.749200591658024,
+        "lng": -122.41929823470169
+      },
+      "distance_km": 8.23,
+      "duration_minutes": 37,
+      "fare": {
+        "value": 32.76,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Brisa Roob",
+        "rating": 4.27,
+        "vehicle": "Audi A4 Grey 2023",
+        "plate": "DTB-2822"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:vpROjAtzuceR",
+      "ts": 1770844724,
+      "label": "State Bird Provisions → Pacific Heights Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "State Bird Provisions",
+        "lat": 37.78837930802514,
+        "lng": -122.44022709644004
+      },
+      "destination": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.79184812418453,
+        "lng": -122.43622937815661
+      },
+      "distance_km": 11.25,
+      "duration_minutes": 65,
+      "fare": {
+        "value": 39.01,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Dennis Prohaska",
+        "rating": 4.66,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "ICQ-1517"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:4C0mCVZHbfjR",
+      "ts": 1770808878,
+      "label": "Pacific Heights Apartment → Tesla Service Center",
+      "status": "completed",
+      "origin": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.79182677716489,
+        "lng": -122.43973406798696
+      },
+      "destination": {
+        "name": "Tesla Service Center",
+        "lat": 37.75060773340259,
+        "lng": -122.4161773603966
+      },
+      "distance_km": 14.01,
+      "duration_minutes": 81,
+      "fare": {
+        "value": 56.05,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Michael Huel",
+        "rating": 4.59,
+        "vehicle": "Mercedes C300 Silver 2022",
+        "plate": "TAN-6530"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:9AxirK1qC0xb",
+      "ts": 1770738050,
+      "label": "Tesla Service Center → Sushi Kaze",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.75259506087401,
+        "lng": -122.41955475853689
+      },
+      "destination": {
+        "name": "Sushi Kaze",
+        "lat": 37.778047087419836,
+        "lng": -122.40894585777785
+      },
+      "distance_km": 17.51,
+      "duration_minutes": 71,
+      "fare": {
+        "value": 87.49,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Harvey Romaguera",
+        "rating": 4.9,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "SYF-4086"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:B4LZWfWOWW26",
+      "ts": 1770593518,
+      "label": "Tesla Service Center → PerseusOft HQ — SoMa",
+      "status": "completed",
+      "origin": {
+        "name": "Tesla Service Center",
+        "lat": 37.74990304343057,
+        "lng": -122.41648689931512
+      },
+      "destination": {
+        "name": "PerseusOft HQ — SoMa",
+        "lat": 37.786755513278386,
+        "lng": -122.39968507133877
+      },
+      "distance_km": 29.37,
+      "duration_minutes": 171,
+      "fare": {
+        "value": 184.9,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Emanuel Gerlach",
+        "rating": 4.41,
+        "vehicle": "Audi A4 Grey 2023",
+        "plate": "AHV-8524"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:uQDym6VrHYpQ",
+      "ts": 1770459587,
+      "label": "Golden Gate Park Running Track → Client Office — Palo Alto",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park Running Track",
+        "lat": 37.76983452088892,
+        "lng": -122.48462562457917
+      },
+      "destination": {
+        "name": "Client Office — Palo Alto",
+        "lat": 37.440870135006264,
+        "lng": -122.1444385508093
+      },
+      "distance_km": 24.66,
+      "duration_minutes": 146,
+      "fare": {
+        "value": 95.67,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Bryan Rogahn",
+        "rating": 4.78,
+        "vehicle": "Mercedes C300 Silver 2022",
+        "plate": "HYX-9380"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:8D1kD9HZz2pn",
+      "ts": 1769544693,
+      "label": "SFO Airport → Golden Gate Park Running Track",
+      "status": "completed",
+      "origin": {
+        "name": "SFO Airport",
+        "lat": 37.622375751793776,
+        "lng": -122.38093426981642
+      },
+      "destination": {
+        "name": "Golden Gate Park Running Track",
+        "lat": 37.76849702472276,
+        "lng": -122.48535538397556
+      },
+      "distance_km": 4.48,
+      "duration_minutes": 15,
+      "fare": {
+        "value": 17.54,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kathleen Huels",
+        "rating": 4.27,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "XQV-8902"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:y2wsTe5RG8qp",
+      "ts": 1769182516,
+      "label": "Pacific Heights Apartment → Client Office — Palo Alto",
+      "status": "completed",
+      "origin": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.790695185791755,
+        "lng": -122.43921070345385
+      },
+      "destination": {
+        "name": "Client Office — Palo Alto",
+        "lat": 37.44082909072941,
+        "lng": -122.14366061727354
+      },
+      "distance_km": 5.08,
+      "duration_minutes": 15,
+      "fare": {
+        "value": 25.74,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Bill Stokes",
+        "rating": 4.89,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "MIS-3359"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:1qL2zdbPimSQ",
+      "ts": 1769027411,
+      "label": "Golden Gate Park Running Track → SFO Airport",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park Running Track",
+        "lat": 37.76753085448503,
+        "lng": -122.48687806202132
+      },
+      "destination": {
+        "name": "SFO Airport",
+        "lat": 37.620927920502965,
+        "lng": -122.37999877207
+      },
+      "distance_km": 29.3,
+      "duration_minutes": 103,
+      "fare": {
+        "value": 136.16,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Vickie Bashirian",
+        "rating": 4.68,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "NID-7047"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:ucXlNS3eBLTf",
+      "ts": 1768805318,
+      "label": "Golden Gate Park Running Track → Sushi Kaze",
+      "status": "completed",
+      "origin": {
+        "name": "Golden Gate Park Running Track",
+        "lat": 37.77020946542001,
+        "lng": -122.4872088198167
+      },
+      "destination": {
+        "name": "Sushi Kaze",
+        "lat": 37.77753103483935,
+        "lng": -122.4101251820392
+      },
+      "distance_km": 3.12,
+      "duration_minutes": 17,
+      "fare": {
+        "value": 11.29,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kaylie Leffler",
+        "rating": 4.77,
+        "vehicle": "Mercedes C300 Silver 2022",
+        "plate": "RRL-7240"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:JXAyIzALX0Yf",
+      "ts": 1768342221,
+      "label": "Atelier Crenn → Tesla Service Center",
+      "status": "completed",
+      "origin": {
+        "name": "Atelier Crenn",
+        "lat": 37.80177450324506,
+        "lng": -122.43715497838237
+      },
+      "destination": {
+        "name": "Tesla Service Center",
+        "lat": 37.75083745339447,
+        "lng": -122.41607295985436
+      },
+      "distance_km": 4.66,
+      "duration_minutes": 23,
+      "fare": {
+        "value": 21.18,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Nella Macejkovic",
+        "rating": 4.52,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "UPS-6935"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:GcESNhYXoAuR",
+      "ts": 1767730750,
+      "label": "Client Office — Palo Alto → Sushi Kaze",
+      "status": "completed",
+      "origin": {
+        "name": "Client Office — Palo Alto",
+        "lat": 37.44337737339039,
+        "lng": -122.14306689479125
+      },
+      "destination": {
+        "name": "Sushi Kaze",
+        "lat": 37.77905001115225,
+        "lng": -122.41097254946281
+      },
+      "distance_km": 18.37,
+      "duration_minutes": 56,
+      "fare": {
+        "value": 99.04,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Glenn Schiller",
+        "rating": 4.66,
+        "vehicle": "BMW 330i Black 2023",
+        "plate": "MLC-4717"
+      },
+      "ride_type": "premium"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:wyFe8sTVZUia",
+      "ts": 1767292705,
+      "label": "Atelier Crenn → Pacific Heights Apartment",
+      "status": "completed",
+      "origin": {
+        "name": "Atelier Crenn",
+        "lat": 37.80005906539961,
+        "lng": -122.43718223093232
+      },
+      "destination": {
+        "name": "Pacific Heights Apartment",
+        "lat": 37.791860428015376,
+        "lng": -122.43971808011145
+      },
+      "distance_km": 17,
+      "duration_minutes": 69,
+      "fare": {
+        "value": 43.27,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Kelvin Dach",
+        "rating": 4.29,
+        "vehicle": "Mercedes C300 Silver 2022",
+        "plate": "MMW-0358"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:j2bv4cJHxW5h",
+      "ts": 1767167244,
+      "label": "Client Office — Palo Alto → Trick Dog",
+      "status": "completed",
+      "origin": {
+        "name": "Client Office — Palo Alto",
+        "lat": 37.44182831543285,
+        "lng": -122.141460114579
+      },
+      "destination": {
+        "name": "Trick Dog",
+        "lat": 37.760597829733115,
+        "lng": -122.4213176330611
+      },
+      "distance_km": 28.22,
+      "duration_minutes": 103,
+      "fare": {
+        "value": 88.73,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Tabitha Jacobs",
+        "rating": 4.99,
+        "vehicle": "Tesla Model Y Blue 2023",
+        "plate": "ICF-4470"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:foj5Zg7QQZwG",
+      "ts": 1767069955,
+      "label": "Trick Dog → Sushi Kaze",
+      "status": "completed",
+      "origin": {
+        "name": "Trick Dog",
+        "lat": 37.76088491042627,
+        "lng": -122.42111952578493
+      },
+      "destination": {
+        "name": "Sushi Kaze",
+        "lat": 37.77958169677641,
+        "lng": -122.40854990871131
+      },
+      "distance_km": 6.47,
+      "duration_minutes": 24,
+      "fare": {
+        "value": 23.71,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Caleigh Kilback",
+        "rating": 4.85,
+        "vehicle": "Tesla Model 3 White 2024",
+        "plate": "CDG-1452"
+      },
+      "ride_type": "standard"
+    },
+    {
+      "uadp_type": "uadp:ride",
+      "id": "compass:ride:xwmbCD9yeZaX",
+      "ts": 1766661424,
+      "label": "Atelier Crenn → SFO Airport",
+      "status": "completed",
+      "origin": {
+        "name": "Atelier Crenn",
+        "lat": 37.79977520425804,
+        "lng": -122.43820191682062
+      },
+      "destination": {
+        "name": "SFO Airport",
+        "lat": 37.62188874725799,
+        "lng": -122.3788081120072
+      },
+      "distance_km": 14.64,
+      "duration_minutes": 80,
+      "fare": {
+        "value": 84.09,
+        "currency": "USD"
+      },
+      "driver": {
+        "name": "Angelo Casper",
+        "rating": 4.78,
+        "vehicle": "Mercedes C300 Silver 2022",
+        "plate": "EPV-2364"
+      },
+      "ride_type": "premium"
+    }
+  ],
+  "saved_places": [
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:UQIUu1NObKDd",
+      "name": "Home",
+      "label": "Pacific Heights apartment",
+      "address": "340 Pacific Ave, Apt 12A, Pacific Heights, SF",
+      "lat": 37.7925,
+      "lng": -122.4382,
+      "category": "home"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:ZfTjcXej0EHT",
+      "name": "PerseusOft",
+      "label": "PerseusOft HQ",
+      "address": "101 2nd St, Floor 18, SoMa, SF",
+      "lat": 37.7849,
+      "lng": -122.3994,
+      "category": "work"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:GDdGZ8WhK8mM",
+      "name": "Airport",
+      "label": "SFO Terminal 2",
+      "address": "San Francisco International Airport, T2",
+      "lat": 37.6213,
+      "lng": -122.379,
+      "category": "favorite"
+    },
+    {
+      "uadp_type": "uadp:saved_place",
+      "id": "compass:place:BDeNMqf14ayp",
+      "name": "Golden Gate Park",
+      "label": "Running track",
+      "address": "Golden Gate Park, SF",
+      "lat": 37.7694,
+      "lng": -122.4862,
+      "category": "favorite"
+    }
+  ]
+}
