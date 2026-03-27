@@ -2,7 +2,7 @@ import { Elysia } from 'elysia'
 import { cors } from '@elysiajs/cors'
 import { requestLogger, getAvailableUsers, USERS } from 'cosmos-core'
 
-const BASE_URL = process.env.COSMOS_BASE_URL || 'http://localhost:41900'
+const BASE_URL = process.env.COSMOS_BASE_URL || 'https://uadp.perseusoft.tech'
 
 const SERVICES = {
   nova:    { name: 'Nova',    port: 4001, path: '/nova',    category: 'uadp:reading_social' },

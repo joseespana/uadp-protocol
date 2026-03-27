@@ -232,6 +232,23 @@ Services can declare data-handling rules that agents **must** follow:
 
 These rules are enforced at the agent level &mdash; the service trusts the agent to comply, and the manifest makes the rules explicit and machine-readable.
 
+### Security as an Open Frontier
+
+The possibilities for adding security layers to UADP are virtually infinite &mdash; this is a space wide open for exploration. The current implementation provides a functional baseline (token-based auth, endpoint-level access control, `safety_rules` in manifests), but there's a whole universe of security mechanisms that could be built on top of the protocol:
+
+- **OAuth 2.0 / OpenID Connect** integration for real-world identity providers
+- **Mutual TLS (mTLS)** between agents and services for transport-level trust
+- **Scoped tokens** with fine-grained permissions (read-only, write, admin)
+- **Rate limiting and abuse detection** per agent, per user, per service
+- **Request signing** (HMAC or asymmetric) to guarantee message integrity
+- **Audit trails** &mdash; immutable logs of every agent action for compliance
+- **Agent identity verification** &mdash; cryptographic proof of which agent is making requests
+- **Consent-based access** &mdash; users explicitly approve what data an agent can access per service
+- **End-to-end encryption** for sensitive data like banking or messaging
+- **Zero-trust architectures** where every request is verified regardless of network position
+
+You have to start somewhere, and this reference implementation is that starting point. The protocol is designed to be extensible &mdash; new security mechanisms can be layered in without breaking existing integrations.
+
 ---
 
 ## Architecture
