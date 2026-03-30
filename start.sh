@@ -79,13 +79,17 @@ wait_for_gateway() {
   if [ "$READY" -eq 1 ]; then
     ok "Gateway is responding!"
     echo ""
-    echo -e "  Run ${YELLOW}./test.sh${NC} to probe all endpoints."
-    echo -e "  Run ${YELLOW}./start.sh down${NC} to stop everything."
-    echo -e "  Press ${YELLOW}Ctrl+C${NC} to detach from logs.\n"
-    docker compose logs -f --tail=20
+    echo -e "  ${GREEN}All 15 services are running in the background.${NC}"
+    echo -e "  Closing this terminal will ${BOLD}NOT${NC} stop them."
+    echo ""
+    echo -e "  ${YELLOW}./start.sh logs${NC}         Tail all logs"
+    echo -e "  ${YELLOW}./start.sh logs nova${NC}    Tail a specific service"
+    echo -e "  ${YELLOW}./start.sh status${NC}       Check running containers"
+    echo -e "  ${YELLOW}./start.sh down${NC}         Stop everything"
+    echo -e "  ${YELLOW}./test.sh${NC}               Probe all endpoints"
+    echo ""
   else
-    warn "Gateway not responding yet. Showing logs:"
-    docker compose logs -f
+    warn "Gateway not responding yet. Check logs with: ${YELLOW}./start.sh logs${NC}"
   fi
 }
 
