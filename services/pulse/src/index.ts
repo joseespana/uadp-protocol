@@ -1,6 +1,7 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
 import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes } from 'cosmos-core'
+import type { UadpManifest, UadpAiHints } from 'cosmos-core'
 
 // ── Data ────────────────────────────────────────────────────────────────────
 
@@ -86,7 +87,7 @@ function getProfiles(userId: string): Map<string, PulsePhoto['author']> {
 
 // ── UADP Manifest ───────────────────────────────────────────────────────────
 
-const manifest = {
+const manifest: UadpManifest = {
   service_id: 'pulse',
   service_name: 'Pulse',
   uadp_version: '1.0',
@@ -107,52 +108,57 @@ const manifest = {
     { path: '/uadp/v1/dm/inbox', method: 'GET', description: 'Direct messages inbox', auth_required: false },
   ],
   ai_hints: {
-    persona: 'Pulse is a visual social network combining Instagram and TikTok. Content includes photos, carousels, and short-form vertical videos (Reels). Media-first with captions, stories, and an explore grid.',
+    persona: 'Pulse is a visual social network combining Instagram and TikTok. Content includes photos, carousels, and short-form vertical videos.',
     language: 'en',
     rendering: {
-      default_view: 'grid',
-      image_display: 'prominent',
-      media_priority: 'high',
-      media_types: 'image (1:1 or 4:5), video/reel (9:16 vertical, 15-180 seconds), carousel (swipeable images)',
-      aspect_ratio_hint: 'Respect the aspect_ratio field on each post for correct image rendering. Common values: 1:1, 4:5, 9:16.',
-      video_player: 'Videos should auto-play on scroll with muted audio, tap to unmute. Show duration badge.',
-      reel_display: 'Vertical full-screen with overlay text (caption, author, likes)',
-      carousel_display: 'Swipeable dots indicator, show image count',
-      comments: 'Some posts include inline comments array for preview',
-      story_display: 'horizontal_carousel',
-      grid_columns: 3,
-      image_first: true,
-      caption_secondary: true,
+      layout: 'media_grid',
+      accent: '#fb923c',
       date_format: 'relative',
+      card: {
+        title: '$.author.name',
+        subtitle: '$.author.handle',
+        body: '$.body',
+        image: '$.media_url',
+        avatar: '$.author.avatar_url',
+        meta: ['$.likes | number', '$.reposts | number'],
+      },
+      detail: {
+        body: '$.body',
+        media: '$.media_url',
+        media_type: 'image',
+      },
+      actions: [
+        { label: 'Like', icon: 'heart', endpoint: '/uadp/v1/post/:id/like', method: 'POST' },
+      ],
+      config: {
+        grid_columns: 3,
+        aspect_ratio_field: '$.aspect_ratio',
+        media_type_field: '$.media_type',
+        story_support: true,
+        dynamic_media_type: '$.media_type',
+      },
+      empty_state: { icon: 'image', message: 'No photos or videos found.' },
     },
     key_concepts: {
-      'ext.pulse.media_post': 'A post where the image or video is the primary content. Always render the media prominently.',
-      'ext.pulse.story': 'Ephemeral content that expires in 24 hours. Display in a horizontal carousel at the top.',
-      'ext.pulse.explore': 'Discovery feed with popular and trending visual content arranged in a masonry grid.',
-      'ext.pulse.aspect_ratio': 'Width-to-height ratio hint for rendering media (e.g. 1:1, 4:5, 16:9).',
-      'ext.pulse.grid_view': 'Profile posts should be displayed as a 3-column image grid without captions.',
+      'aspect_ratio': 'Width-to-height ratio for rendering media (e.g. 1:1, 4:5, 9:16).',
+      'media_type': 'image, video, or carousel.',
     },
     user_goals: [
       'Browse the visual feed of photos and videos',
-      'Explore trending and popular visual content',
-      'View stories from friends in a horizontal carousel',
+      'Explore trending visual content',
+      'View stories from friends',
       'Post a new photo with a caption',
-      'View a user profile as an image grid',
-      'Like and interact with posts',
     ],
-    platform_notes: [
-      'This is a visual-first platform — images must be displayed prominently, not as small thumbnails.',
-      'The feed should render as a vertical scroll of full-width images with captions below.',
-      'The explore page should render as a dense image grid (3 columns) for discovery.',
-      'Stories appear as circular avatars in a horizontal scrollable row at the top of the feed.',
-      'Profile pages show a header with user info and a 3-column image grid of their posts.',
-    ],
-    proactive_suggestions: [
-      'When opening Pulse, display stories carousel first, then the visual feed below it.',
-      'If a post has no media_url, render it as a text-only card with a muted background.',
-      'Suggest explore content when the user reaches the end of their feed.',
-    ],
-  },
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  realtime: [
+    { transport: 'sse', endpoint: '/uadp/v1/feed/stream', event_types: ['new_post'], event_schema: 'uadp:media_post', trigger: 'on_view_open' },
+  ],
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── App ─────────────────────────────────────────────────────────────────────

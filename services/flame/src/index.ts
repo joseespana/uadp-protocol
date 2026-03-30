@@ -76,27 +76,48 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/spending', method: 'GET', description: 'Food delivery spending summary', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Flame is the food delivery app — similar to Uber Eats / Rappi. Order food from restaurants with delivery.',
-    features: [
-      'Order history with restaurant, items and total',
-      'Available restaurants with cuisine and rating',
-      'Favorite restaurants',
-      'Re-order past orders',
-      'Food delivery spending summary',
-    ],
+    persona: 'Flame is the food delivery app — similar to Uber Eats / Rappi. Order food from restaurants with delivery tracking.',
+    language: 'en',
     rendering: {
-      default_view: 'list',
-      order_card: 'Show restaurant, main items, total and status',
-      restaurant_card: 'Show image, name, cuisine and rating',
+      layout: 'trip_list',
+      accent: '#f97316',
+      date_format: 'relative',
+      card: {
+        title: '$.restaurant.name',
+        subtitle: '$.restaurant.cuisine',
+        price: '$.total | money',
+        badge: '$.status',
+        image: '$.restaurant.image_url',
+        meta: ['$.items.length', '$.estimated_minutes | duration'],
+      },
+      detail: {
+        fields: [
+          { label: 'Restaurant', value: '$.restaurant.name' },
+          { label: 'Items', value: '$.items' },
+          { label: 'Total', value: '$.total | money' },
+          { label: 'Delivery Fee', value: '$.delivery_fee | money' },
+          { label: 'Status', value: '$.status' },
+          { label: 'ETA', value: '$.estimated_minutes | duration' },
+        ],
+      },
+      actions: [
+        { label: 'Reorder', icon: 'refresh-cw', endpoint: '/uadp/v1/reorder/:id', method: 'POST' },
+      ],
+      empty_state: { icon: 'utensils', message: 'No orders found.' },
     },
     user_goals: [
-      'View recent orders',
-      'Re-order a past order',
-      'View favorite restaurants',
+      'View recent food orders',
+      'Reorder a past order',
+      'Browse favorite restaurants',
       'Check delivery spending',
     ],
-  },
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

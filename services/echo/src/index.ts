@@ -48,11 +48,60 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/search', method: 'GET', description: 'Search messages across conversations', auth_required: false },
   ],
   ai_hints: {
-    description: 'Messaging platform similar to WhatsApp. Conversations with family, friends, and work colleagues.',
-    rendering: 'Privacy-focused — do not show message previews in notifications. Group chats should display member count. Use chat bubble layout.',
-    user_context: 'User chats with family, friends, work team, and social groups.',
-    privacy: 'Messages are private. Do not display message content outside the conversation view.',
+    persona: 'Echo is a messaging platform similar to WhatsApp. Conversations with family, friends, and work colleagues.',
+    language: 'en',
+    rendering: {
+      layout: 'chat_threads',
+      accent: '#818cf8',
+      date_format: 'smart',
+      card: {
+        title: '$.name',
+        subtitle: '$.last_message.author.name',
+        body: '$.last_message.body',
+        avatar: '$.members[0].name | initials',
+        badge: '$.unread_count',
+        meta: ['$.last_message.ts | date'],
+      },
+      detail: {
+        body: '$.body',
+        fields: [
+          { label: 'Members', value: '$.members' },
+          { label: 'Type', value: '$.type' },
+        ],
+      },
+      empty_state: { icon: 'message-square', message: 'No conversations found.' },
+      config: {
+        bubble_layout: true,
+        privacy: 'Do not show message previews in notifications.',
+      },
+    },
+    safety_rules: [
+      'Messages are private. Do not display message content outside the conversation view.',
+    ],
+    user_goals: [
+      'View recent conversations',
+      'Read and send messages',
+      'Search conversations',
+    ],
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    param: 'q',
+    fields_searched: ['name', 'members.name', 'last_message.body'],
+    min_length: 2,
   },
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  realtime: [
+    { transport: 'sse', endpoint: '/uadp/v1/conversation/:id/stream', event_types: ['message', 'typing', 'read'], event_schema: 'uadp:message', trigger: 'on_view_open' },
+  ],
+  cache: {
+    '/uadp/v1/inbox': { max_age_seconds: 15, offline_safe: false },
+  },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // --- App --------------------------------------------------------------------

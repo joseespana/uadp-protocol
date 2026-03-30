@@ -73,27 +73,50 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/search', method: 'GET', description: 'Search titles by name or genre', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Vortex is the movies and series platform — similar to Netflix. Browse catalog, manage a personal list, and track what you are watching.',
-    features: [
-      'Movies and series catalog',
-      'Continue watching — titles in progress',
-      'Personal saved titles list',
-      'Trending — most popular',
-      'Search by title or genre',
-    ],
+    persona: 'Vortex is the movies and series platform — similar to Netflix. Browse catalog, manage watchlist, and track viewing progress.',
+    language: 'en',
     rendering: {
-      default_view: 'grid',
-      poster_display: 'prominent',
-      title_card: 'Show poster, title, year, rating and genres',
+      layout: 'poster_grid',
+      accent: '#c084fc',
+      date_format: 'relative',
+      card: {
+        title: '$.title',
+        subtitle: '$.genre | join',
+        image: '$.poster_url',
+        badge: '$.type',
+        meta: ['$.rating | stars', '$.year', '$.duration_minutes | duration'],
+      },
+      detail: {
+        body: '$.synopsis',
+        media: '$.backdrop_url',
+        media_type: 'image',
+        fields: [
+          { label: 'Type', value: '$.type' },
+          { label: 'Year', value: '$.year' },
+          { label: 'Rating', value: '$.rating | stars' },
+          { label: 'Seasons', value: '$.seasons' },
+          { label: 'Episodes', value: '$.episodes' },
+        ],
+      },
+      empty_state: { icon: 'film', message: 'No movies or series found.' },
+      config: {
+        progress_field: '$.progress',
+        poster_aspect: '2:3',
+      },
     },
     user_goals: [
       'See what I am currently watching',
       'Search for a movie or series',
-      'See what is trending',
+      'See trending titles',
       'View my saved list',
     ],
-  },
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

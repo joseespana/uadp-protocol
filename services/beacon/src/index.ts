@@ -50,33 +50,48 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/starred', method: 'GET', description: 'Starred emails', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Beacon is the email service — similar to Gmail. Receives notifications from GitHub, work emails, bank notifications, online store receipts, and family messages.',
-    features: [
-      'Inbox with unread emails',
-      'Folders: inbox, sent, drafts, spam, trash',
-      'Search by subject, sender or content',
-      'Starred emails',
-      'Email attachments',
-    ],
+    persona: 'Beacon is the email service — similar to Gmail. Notifications from GitHub, work emails, bank receipts, and personal messages.',
+    language: 'en',
     rendering: {
-      default_view: 'list',
-      email_row: 'Show sender, subject, body preview, date and read status',
-      unread_highlight: true,
-    },
-    auth: {
-      method: 'Bearer token in Authorization header',
-      public_endpoints: 'Endpoints with auth_required: false work without a token',
-      private_endpoints: 'Endpoints with auth_required: true need Authorization: Bearer <token>',
-      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+      layout: 'email_inbox',
+      accent: '#22d3ee',
+      date_format: 'smart',
+      card: {
+        title: '$.subject',
+        subtitle: '$.from.name',
+        body: '$.body_text',
+        avatar: '$.from.address | initials',
+        badge: '$.folder',
+        meta: ['$.ts | date'],
+      },
+      detail: {
+        body: '$.body_text',
+        fields: [
+          { label: 'From', value: '$.from.name' },
+          { label: 'To', value: '$.to[0].name' },
+          { label: 'Date', value: '$.ts | date_abs' },
+          { label: 'Folder', value: '$.folder' },
+        ],
+      },
+      empty_state: { icon: 'mail', message: 'No emails found.' },
+      config: {
+        folders: ['inbox', 'sent', 'drafts', 'spam', 'trash'],
+        unread_highlight: true,
+        starred_support: true,
+      },
     },
     user_goals: [
       'View unread emails',
       'Search for a specific email',
-      'View sent emails',
-      'View starred emails',
+      'View sent or starred emails',
     ],
-  },
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

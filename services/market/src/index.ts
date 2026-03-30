@@ -1,6 +1,6 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
-import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, type UadpManifest } from 'cosmos-core'
+import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, type UadpManifest, type UadpAiHints } from 'cosmos-core'
 
 // ---------------------------------------------------------------------------
 // Data
@@ -104,34 +104,64 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/wishlist', method: 'GET', description: 'View wishlist', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Market is an e-commerce platform similar to Amazon. Users can browse a product catalog, search and filter by category or price range, manage a shopping cart, place orders, and track shipments.',
-    features: [
-      'Product search with category, price range, and sorting filters',
-      'Product detail pages with ratings and review counts',
-      'Persistent shopping cart with add-to-cart functionality',
-      'Order history with status timeline (ordered, processing, shipped, delivered)',
-      'Real-time shipment tracking with stage progression',
-      'Wishlist for saving products',
-    ],
-    data_model: {
-      'price': '{ value: number, currency: string } — Read currency field to determine denomination and symbol.',
-      'total': '{ value: number, currency: string } — Order total with currency.',
-    },
+    persona: 'Market is an e-commerce platform similar to Amazon. Browse products, search, manage cart, place orders, and track shipments.',
+    language: 'en',
     rendering: {
-      currency_format: 'Read currency from price.currency / total.currency. Format with proper symbol and 2 decimals.',
-      product_grid: 'Render products in a responsive grid with image, title, price, and rating stars',
-      order_timeline: 'Show order tracking as a vertical timeline with status badges and timestamps',
-      price_highlight: 'Show prices prominently; use green for discounts',
-      image_display: 'Product images should be displayed as cards with consistent aspect ratio',
+      layout: 'product_catalog',
+      accent: '#f59e0b',
+      date_format: 'relative',
+      card: {
+        title: '$.title',
+        subtitle: '$.category',
+        body: '$.description',
+        image: '$.image_url',
+        price: '$.price | money',
+        badge: '$.in_stock',
+        meta: ['$.rating | stars', '$.reviews_count | number'],
+      },
+      detail: {
+        body: '$.description',
+        media: '$.image_url',
+        media_type: 'image',
+        fields: [
+          { label: 'Rating', value: '$.rating | stars' },
+          { label: 'Reviews', value: '$.reviews_count | number' },
+          { label: 'Tags', value: '$.tags' },
+        ],
+      },
+      actions: [
+        { label: 'Add to Cart', icon: 'shopping-cart', endpoint: '/uadp/v1/cart/add', method: 'POST' },
+      ],
+      empty_state: { icon: 'shopping-bag', message: 'No products found. Try a different search.' },
     },
+    user_goals: [
+      'Search for products',
+      'View product details and reviews',
+      'Add to cart and checkout',
+      'Track an order',
+    ],
     auth: {
       method: 'Bearer token in Authorization header',
-      public_endpoints: 'Endpoints with auth_required: false work without a token',
-      private_endpoints: 'Endpoints with auth_required: true need Authorization: Bearer <token>',
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
+  } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/products/search',
+    param: 'q',
+    fields_searched: ['title', 'description', 'category', 'tags'],
+    min_length: 2,
+    filters: ['category', 'min_price', 'max_price'],
+    sort_options: ['relevance', 'price_asc', 'price_desc', 'rating', 'reviews'],
   },
+  pagination: { strategy: 'page', default_page_size: 20, max_page_size: 50 },
+  cache: {
+    '/uadp/v1/products/search': { max_age_seconds: 300, offline_safe: true },
+    '/uadp/v1/cart': { max_age_seconds: 30, offline_safe: false },
+  },
+  cross_service_links: [
+    { field: '$.total', target_service: 'orbit', target_endpoint: '/uadp/v1/accounts/:id/transactions', label: 'View bank charge' },
+  ],
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ---------------------------------------------------------------------------

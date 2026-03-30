@@ -14,6 +14,215 @@ export interface UadpFeed {
   items: UadpItem[]
 }
 
+// ─── UADP Rendering Hints (v2) ──────────────────────────────────
+// These hints are prescriptive — the browser uses them directly to
+// render content without if/else chains. The service tells the
+// browser exactly how to display its data.
+
+/** Which visual layout the browser should use. */
+export type UadpLayout =
+  | 'timeline'          // Vertical feed of posts (social)
+  | 'media_grid'        // Image/video grid (visual social)
+  | 'finance_dashboard' // Accounts + transaction list
+  | 'video_gallery'     // Video cards with thumbnails + embed player
+  | 'music_player'      // Track list with playback controls
+  | 'product_catalog'   // Product cards with prices + ratings
+  | 'article_reader'    // Article cards → full read view
+  | 'email_inbox'       // Email rows with folder tabs
+  | 'chat_threads'      // Messaging threads → bubble view
+  | 'poster_grid'       // Movie/series poster grid
+  | 'trip_list'         // Origin → destination cards (rides, delivery)
+  | 'calendar_agenda'   // Agenda / schedule view
+
+/** Format pipe — how to render a value. Appended after field path with |  */
+export type UadpFormatPipe =
+  | 'number'     // 1234567 → "1,234,567" or "1.2M"
+  | 'money'      // reads .value + .currency → "$1,234.56"
+  | 'duration'   // seconds → "3:42" or "1h 23m"
+  | 'date'       // unix ts → relative ("2h ago") or absolute
+  | 'date_abs'   // unix ts → "Mar 29, 2026"
+  | 'stars'      // number → ★★★★☆
+  | 'percent'    // 0.73 → "73%"
+  | 'size'       // bytes → "4.2 MB"
+  | 'initials'   // "John Doe" → "JD" (avatar fallback)
+  | 'join'       // ["Rock","Pop"] → "Rock, Pop" (array to string)
+  | 'boolean'    // true → "Yes" / false → "No"
+  | 'uppercase'  // "hello" → "HELLO"
+
+/** Card field mapping — tells the browser which data field to render where. */
+export interface UadpCardHints {
+  /** Main display title. e.g. "$.title" or "$.subject" */
+  title: string
+  /** Secondary line. e.g. "$.author.name" or "$.artist.name" */
+  subtitle?: string
+  /** Third line or body preview. e.g. "$.body" or "$.summary" */
+  body?: string
+  /** Image URL field. e.g. "$.thumbnail_url" or "$.album.cover_url" */
+  image?: string
+  /** Avatar URL for the author/sender. e.g. "$.author.avatar_url" */
+  avatar?: string
+  /** Badge text. e.g. "$.category" or "$.status" */
+  badge?: string
+  /** Array of metadata items shown below the card. e.g. ["$.views | number", "$.duration_seconds | duration"] */
+  meta?: string[]
+  /** If the card has a price. e.g. "$.price | money" */
+  price?: string
+  /** Color field for per-item accent. e.g. "$.color" */
+  color_field?: string
+}
+
+/** Detail view — what to show when the user clicks/expands an item. */
+export interface UadpDetailHints {
+  /** Full body/content field. e.g. "$.body_markdown || $.body || $.body_text" */
+  body?: string
+  /** Embeddable media URL. e.g. "$.youtube_url" or "$.media_url" */
+  media?: string
+  /** How to render the media: embed an iframe, show an image, or play audio. */
+  media_type?: 'video_embed' | 'image' | 'audio' | 'iframe'
+  /** Key-value fields shown in the detail view. */
+  fields?: Array<{ label: string; value: string }>
+}
+
+/** Action the user can perform from the UI. */
+export interface UadpActionHint {
+  label: string
+  icon?: string
+  endpoint: string
+  method: 'GET' | 'POST' | 'PUT' | 'DELETE'
+  /** If true, ask the user for confirmation before executing. */
+  confirm?: boolean
+}
+
+/** Complete rendering specification that a service provides in ai_hints. */
+export interface UadpRenderingHints {
+  /** Which layout component the browser should use. This is the PRIMARY signal. */
+  layout: UadpLayout
+  /** Default accent color for this service (hex). */
+  accent?: string
+  /** Card field mapping. */
+  card: UadpCardHints
+  /** Detail/expanded view mapping. */
+  detail?: UadpDetailHints
+  /** Date format preference. */
+  date_format?: 'relative' | 'absolute' | 'smart'
+  /** Number format preference. */
+  number_format?: 'full' | 'compact'
+  /** Available user actions. */
+  actions?: UadpActionHint[]
+  /** What to show when no items are found. */
+  empty_state?: { icon?: string; message: string }
+  /** Additional layout-specific config (e.g. grid columns, group_by). */
+  config?: Record<string, unknown>
+}
+
+/** Full ai_hints structure with typed rendering. */
+export interface UadpAiHints {
+  /** One-paragraph description of the service for LLM context. */
+  persona: string
+  /** Primary language of the content. */
+  language: string
+  /** Prescriptive rendering specification. */
+  rendering: UadpRenderingHints
+  /** Keywords that help agents understand domain concepts. */
+  key_concepts?: Record<string, string>
+  /** What the user typically wants to do with this service. */
+  user_goals?: string[]
+  /** Authentication instructions. */
+  auth?: Record<string, string>
+  /** Safety rules for agents handling this data. */
+  safety_rules?: string[]
+  /** Proactive suggestions for the agent. */
+  proactive_suggestions?: string[]
+  /** Accessibility hints for screen readers and high contrast. */
+  accessibility?: UadpAccessibilityHints
+  /** Onboarding: what to show/fetch on first visit. */
+  onboarding?: string[]
+}
+
+/** Accessibility hints for inclusive rendering. */
+export interface UadpAccessibilityHints {
+  /** Template for card aria-label. e.g. "Post by $.author.name: $.body" */
+  card_aria_label?: string
+  /** Template for image alt text. e.g. "$.title album cover" */
+  image_alt?: string
+  /** High-contrast alternative accent color (WCAG AA compliant). */
+  high_contrast_accent?: string
+}
+
+/** Search behavior declaration. */
+export interface UadpSearchHints {
+  /** The search endpoint path. */
+  endpoint: string
+  /** Query parameter name (default: "q"). */
+  param?: string
+  /** Which data fields are searched. */
+  fields_searched?: string[]
+  /** Minimum query length. */
+  min_length?: number
+  /** Available filter parameters. */
+  filters?: string[]
+  /** Available sort options. */
+  sort_options?: string[]
+}
+
+/** Pagination strategy declaration. */
+export interface UadpPaginationHints {
+  /** Pagination strategy. */
+  strategy: 'cursor' | 'offset' | 'page'
+  /** Default page size. */
+  default_page_size?: number
+  /** Maximum page size. */
+  max_page_size?: number
+  /** Cursor parameter name (default: "cursor"). */
+  cursor_param?: string
+}
+
+/** Real-time update declaration. */
+export interface UadpRealtimeHints {
+  /** Transport protocol. */
+  transport: 'sse' | 'websocket' | 'polling'
+  /** Endpoint path for the real-time stream. */
+  endpoint: string
+  /** What event types this stream emits. */
+  event_types?: string[]
+  /** Schema type of emitted events. */
+  event_schema?: string
+  /** When to connect: 'on_view_open' | 'on_login' | 'always' */
+  trigger?: 'on_view_open' | 'on_login' | 'always'
+  /** Polling interval in seconds (only for transport: 'polling'). */
+  poll_interval_seconds?: number
+}
+
+/** Cache policy per endpoint. */
+export interface UadpCacheHints {
+  /** Max age in seconds before data is considered stale. */
+  max_age_seconds: number
+  /** Whether this data can be stored for offline use. */
+  offline_safe?: boolean
+}
+
+/** Cross-service link declaration. */
+export interface UadpCrossServiceLink {
+  /** Field on this service's data that links to another service. */
+  field: string
+  /** Target service ID. */
+  target_service: string
+  /** Endpoint template on the target service. */
+  target_endpoint: string
+  /** Human-readable label for the link. */
+  label: string
+}
+
+/** Hints version tracking. */
+export interface UadpVersioningHints {
+  /** Semantic version of the ai_hints block. */
+  hints_version: string
+  /** Unix timestamp of last update. */
+  last_updated: number
+  /** Human-readable changelog. */
+  changelog?: string
+}
+
 // UADP Manifest (/.well-known/uadp.json)
 export interface UadpManifest {
   service_id: string
@@ -22,7 +231,21 @@ export interface UadpManifest {
   category: string
   base_url: string
   endpoints: UadpEndpoint[]
-  ai_hints: Record<string, unknown>
+  ai_hints: UadpAiHints
+  /** Search behavior — how the browser should construct search queries. */
+  search?: UadpSearchHints
+  /** Pagination strategy. */
+  pagination?: UadpPaginationHints
+  /** Real-time update channels. */
+  realtime?: UadpRealtimeHints[]
+  /** Cache policies per endpoint path. */
+  cache?: Record<string, UadpCacheHints>
+  /** Cross-service data links. */
+  cross_service_links?: UadpCrossServiceLink[]
+  /** Security tier: 'standard' or 'elevated' (banking/gov). Elevated = shorter TTL, biometric confirm. */
+  security_tier?: 'standard' | 'elevated'
+  /** Hints versioning for cache invalidation. */
+  versioning?: UadpVersioningHints
 }
 
 export interface UadpEndpoint {
@@ -31,6 +254,8 @@ export interface UadpEndpoint {
   description: string
   auth_required: boolean
   streaming?: boolean
+  /** Request body schema hint (for POST/PUT endpoints). */
+  body_params?: Record<string, string>
 }
 
 // Post (Nova, Pulse)

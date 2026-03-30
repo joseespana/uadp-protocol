@@ -1,6 +1,7 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
 import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, requireAuth } from 'cosmos-core'
+import type { UadpManifest, UadpAiHints } from 'cosmos-core'
 
 // ---------------------------------------------------------------------------
 // Data
@@ -83,7 +84,7 @@ function getTransfers(userId: string): Record<string, { id: string; status: stri
 // Manifest
 // ---------------------------------------------------------------------------
 
-const manifest = {
+const manifest: UadpManifest = {
   service_id: 'orbit',
   service_name: 'Orbit',
   uadp_version: '1.0',
@@ -104,34 +105,36 @@ const manifest = {
     { path: '/uadp/v1/spending/analytics',        method: 'GET',  description: 'Category breakdown of spending',        auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Orbit is the primary banking service. It provides checking and savings accounts, wire transfers, debit cards, transaction history, and spending analytics. All amounts are in USD (US Dollars).',
-    safety_rules: [
-      'Always mask the account number when displaying — show only the last 4 digits.',
-      'Confirm transfer details (destination, amount, concept) with the user before calling /transfer/initiate.',
-      'Do not cache account balances or transaction data for more than 5 minutes.',
-    ],
-    data_model: {
-      'amount': '{ value: number, currency: string } — The currency field (e.g. "USD") tells you which currency the amount is in. Always read this field, never assume.',
-      'balance': '{ value: number, currency: string } — Same pattern. Account balance with its currency.',
-      'balance_after': '{ value: number, currency: string } — Running balance after the transaction.',
-      'direction': '"in" = income/deposit, "out" = expense/payment.',
-      'merchant': '{ name, category, city, country } — category is the spending classification (groceries, food_drink, electronics, housing, transport, entertainment, salary, subscription).',
-      'ts': 'Unix timestamp in seconds. Use to sort, filter by date range, and group by month/week for charts.',
-      'status': '"completed", "pending", or "failed".',
-    },
+    persona: 'Orbit is the primary banking service. Checking and savings accounts, transactions, wire transfers, and spending analytics.',
+    language: 'en',
     rendering: {
-      currency_format: 'Read the currency field from amount/balance objects. Format: symbol + value with 2 decimals (e.g. $1,234.56 for USD, €1.234,56 for EUR).',
-      transaction_list: 'Show merchant name, amount with currency symbol, direction badge (green ↑ for income, red ↓ for expense), date, and category.',
-      account_card: 'Show account label, balance with currency from balance.currency, and account type.',
-      date_format: 'relative for recent (today, yesterday), absolute for older.',
-      charts: 'Transaction data supports charting: spending by category (pie), income vs expenses by month (bar), spending trend over time (line). Group by merchant.category for breakdowns.',
-    },
-    auth: {
-      method: 'Bearer token in Authorization header',
-      public_endpoints: 'Endpoints with auth_required: false work without a token',
-      private_endpoints: 'Endpoints with auth_required: true need Authorization: Bearer <token>',
-      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+      layout: 'finance_dashboard',
+      accent: '#34d399',
+      date_format: 'smart',
+      card: {
+        title: '$.merchant.name || $.label',
+        subtitle: '$.merchant.category',
+        price: '$.amount | money',
+        badge: '$.direction',
+        meta: ['$.status', '$.ts | date'],
+      },
+      detail: {
+        fields: [
+          { label: 'Account', value: '$.account_id' },
+          { label: 'Balance After', value: '$.balance_after | money' },
+          { label: 'Status', value: '$.status' },
+          { label: 'Date', value: '$.ts | date_abs' },
+        ],
+      },
+      actions: [
+        { label: 'Transfer', icon: 'send', endpoint: '/uadp/v1/transfer/initiate', method: 'POST', confirm: true },
+        { label: 'Freeze Card', icon: 'lock', endpoint: '/uadp/v1/cards/:id/freeze', method: 'POST', confirm: true },
+      ],
+      empty_state: { icon: 'credit-card', message: 'No transactions found.' },
+      config: {
+        account_card: { balance: '$.balance | money', type: '$.type', masked_id: '$.id' },
+        direction_colors: { in: '#34d399', out: '#ef4444' },
+      },
     },
     user_goals: [
       'Check account balance',
@@ -139,9 +142,33 @@ const manifest = {
       'Transfer money',
       'Freeze or unfreeze a card',
       'Understand monthly spending patterns',
-      'See spending analytics by category',
     ],
+    safety_rules: [
+      'Always mask the account number — show only the last 4 digits.',
+      'Confirm transfer details with the user before executing.',
+      'Do not cache account balances for more than 5 minutes.',
+    ],
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/accounts/:id/transactions',
+    param: 'q',
+    fields_searched: ['label', 'merchant.name', 'merchant.category'],
+    filters: ['from_ts', 'to_ts', 'direction', 'min_amount', 'max_amount'],
   },
+  pagination: { strategy: 'cursor', default_page_size: 25, max_page_size: 100 },
+  cache: {
+    '/uadp/v1/accounts': { max_age_seconds: 300, offline_safe: false },
+    '/uadp/v1/cards': { max_age_seconds: 600, offline_safe: false },
+  },
+  security_tier: 'elevated',
+  cross_service_links: [
+    { field: '$.merchant.name', target_service: 'market', target_endpoint: '/uadp/v1/products/search?q={value}', label: 'Search on Market' },
+  ],
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000, changelog: 'v2: prescriptive rendering, safety rules, cross-service links.' },
 }
 
 // ---------------------------------------------------------------------------

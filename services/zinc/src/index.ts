@@ -8,6 +8,7 @@ import {
   type UadpManifest,
   type UadpAccount,
   type UadpTransaction,
+  type UadpAiHints,
 } from 'cosmos-core'
 
 // ---------------------------------------------------------------------------
@@ -48,28 +49,54 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/fx/convert', method: 'POST', description: 'Convert an amount between currencies', auth_required: true },
   ],
   ai_hints: {
-    description:
-      'Zinc is a neobank designed for international purchases. It provides USD accounts with built-in FX conversion, cashback on foreign transactions, virtual and physical Visa/Mastercard cards, and a zinc_points loyalty program. Ideal for developers and remote workers who pay for internationally denominated services.',
-    features: [
-      'Real-time USD/EUR exchange rates',
-      'Automatic currency conversion at checkout',
-      'Up to 5% cashback on international software & SaaS purchases',
-      'zinc_points rewards program — redeem for statement credit or FX fee waivers',
-      'Virtual card generation for secure online payments',
-      'Spending analytics with category breakdown',
-    ],
-    data_model: {
-      'amount': '{ value: number, currency: string } — Always read the currency field to know the denomination.',
-      'ext.cashback': 'Cashback amount earned on this transaction.',
-      'ext.zinc_points': 'Loyalty points earned.',
-      'ext.is_subscription': 'true if this is a recurring subscription charge.',
-    },
+    persona: 'Zinc is a neobank for international purchases. USD accounts with FX conversion, cashback on foreign transactions, and a zinc_points loyalty program.',
+    language: 'en',
     rendering: {
-      currency_format: 'Read currency from amount.currency. Format with proper symbol and 2 decimals.',
-      transaction_list: 'Show merchant, amount with currency, cashback badge, and zinc_points earned',
-      fx_badge: 'When ext.original_amount exists, show converted amount and rate',
+      layout: 'finance_dashboard',
+      accent: '#a78bfa',
+      date_format: 'smart',
+      card: {
+        title: '$.merchant.name || $.label',
+        subtitle: '$.merchant.category',
+        price: '$.amount | money',
+        badge: '$.direction',
+        meta: ['$.ext.cashback | number', '$.ext.zinc_points | number'],
+      },
+      detail: {
+        fields: [
+          { label: 'Cashback', value: '$.ext.cashback | number' },
+          { label: 'Points', value: '$.ext.zinc_points | number' },
+          { label: 'Subscription', value: '$.ext.is_subscription' },
+          { label: 'FX Rate', value: '$.ext.fx_rate' },
+        ],
+      },
+      config: {
+        account_card: { balance: '$.balance | money', type: '$.type' },
+        direction_colors: { in: '#34d399', out: '#ef4444' },
+      },
+      empty_state: { icon: 'credit-card', message: 'No transactions found.' },
     },
+    user_goals: [
+      'Check account balance',
+      'View international transaction history',
+      'See cashback earned',
+      'Check FX rates',
+    ],
+    safety_rules: [
+      'Always mask account numbers — show only the last 4 digits.',
+      'Confirm transfer details before executing.',
+    ],
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  security_tier: 'elevated',
+  pagination: { strategy: 'cursor', default_page_size: 25, max_page_size: 100 },
+  cache: {
+    '/uadp/v1/accounts': { max_age_seconds: 300, offline_safe: false },
   },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ---------------------------------------------------------------------------

@@ -59,24 +59,44 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/spending', method: 'GET', description: 'Ride spending summary', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Compass is the ride-hailing app — similar to Uber. Request rides, save frequent places and review ride history.',
-    features: [
-      'Ride history with origin, destination, fare and driver',
-      'Saved places (home, work, favorites)',
-      'Transport spending summary',
-      'Ride types: standard, premium, shared',
-    ],
+    persona: 'Compass is the ride-hailing app — similar to Uber. Request rides, save frequent places, and review ride history.',
+    language: 'en',
     rendering: {
-      default_view: 'list',
-      ride_card: 'Show origin -> destination, date, fare and ride type',
+      layout: 'trip_list',
+      accent: '#a3e635',
+      date_format: 'relative',
+      card: {
+        title: '$.origin.name || $.origin',
+        subtitle: '$.destination.name || $.destination',
+        price: '$.fare | money',
+        badge: '$.ride_type',
+        meta: ['$.distance_km', '$.duration_minutes | duration', '$.status'],
+      },
+      detail: {
+        fields: [
+          { label: 'Origin', value: '$.origin' },
+          { label: 'Destination', value: '$.destination' },
+          { label: 'Driver', value: '$.driver.name' },
+          { label: 'Fare', value: '$.fare | money' },
+          { label: 'Distance', value: '$.distance_km' },
+          { label: 'Duration', value: '$.duration_minutes | duration' },
+          { label: 'Type', value: '$.ride_type' },
+        ],
+      },
+      empty_state: { icon: 'map-pin', message: 'No rides found.' },
     },
     user_goals: [
       'View ride history',
       'Check transport spending',
       'View saved places',
     ],
-  },
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

@@ -57,11 +57,58 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/bookmarks/add', method: 'POST', description: 'Add a bookmark', auth_required: true },
   ],
   ai_hints: {
-    description: 'News portal. Users read tech and economy news.',
-    rendering: 'Display as article cards with images and read time. Categories: Technology, Economy, Culture, World.',
-    user_context: 'Users follow technology and economy sections closely, occasionally reads culture and world news.',
-    categories: ['Technology', 'Economy', 'Culture', 'World'],
+    persona: 'Herald is a news portal. Users read tech, economy, culture, and world news articles.',
+    language: 'en',
+    rendering: {
+      layout: 'article_reader',
+      accent: '#2dd4bf',
+      date_format: 'relative',
+      card: {
+        title: '$.title',
+        subtitle: '$.author_name',
+        body: '$.summary',
+        image: '$.image_url',
+        badge: '$.category',
+        meta: ['$.read_time_min', '$.ts | date'],
+      },
+      detail: {
+        body: '$.body_markdown || $.summary',
+        media: '$.image_url',
+        media_type: 'image',
+        fields: [
+          { label: 'Author', value: '$.author_name' },
+          { label: 'Category', value: '$.category' },
+          { label: 'Published', value: '$.ts | date_abs' },
+        ],
+      },
+      actions: [
+        { label: 'Bookmark', icon: 'bookmark', endpoint: '/uadp/v1/bookmarks/add', method: 'POST' },
+      ],
+      empty_state: { icon: 'newspaper', message: 'No articles found. Try a different topic.' },
+    },
+    user_goals: [
+      'Read latest tech and economy news',
+      'Search for articles about a topic',
+      'View bookmarked articles',
+    ],
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    param: 'q',
+    fields_searched: ['title', 'summary', 'body_markdown', 'author_name', 'category'],
+    min_length: 2,
+    filters: ['category'],
   },
+  pagination: { strategy: 'cursor', default_page_size: 15, max_page_size: 50 },
+  cache: {
+    '/uadp/v1/feed/latest': { max_age_seconds: 60, offline_safe: true },
+    '/uadp/v1/article/:id': { max_age_seconds: 3600, offline_safe: true },
+  },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // --- App --------------------------------------------------------------------

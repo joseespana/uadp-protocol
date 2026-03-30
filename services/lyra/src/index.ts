@@ -77,28 +77,62 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/now-playing', method: 'GET', description: 'Current playback state', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Lyra is the music streaming platform — similar to Spotify. Listen to music, manage playlists, and discover artists.',
-    features: [
-      'Music streaming playback',
-      'Personal and public playlists',
-      'Recently played history',
-      'Search by song, artist or album',
-      'Liked/favorite tracks',
-    ],
+    persona: 'Lyra is the music streaming platform — similar to Spotify. Listen to music, manage playlists, and discover artists.',
+    language: 'en',
     rendering: {
-      default_view: 'list',
-      track_card: 'Show album cover, title, artist and duration. If soundcloud_url is present, render an embedded SoundCloud player.',
-      playlist_card: 'Show cover, name, track count and total duration',
-      soundcloud_embed: 'Tracks with a soundcloud_url field are real SoundCloud tracks. Embed using: <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url={SOUNDCLOUD_URL}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>',
+      layout: 'music_player',
+      accent: '#ec4899',
+      date_format: 'relative',
+      card: {
+        title: '$.title',
+        subtitle: '$.artist.name',
+        image: '$.album.cover_url || $.artist.image_url',
+        meta: ['$.duration_seconds | duration', '$.plays | number'],
+      },
+      detail: {
+        fields: [
+          { label: 'Album', value: '$.album.name' },
+          { label: 'Artist', value: '$.artist.name' },
+          { label: 'Duration', value: '$.duration_seconds | duration' },
+          { label: 'Plays', value: '$.plays | number' },
+        ],
+        media: '$.soundcloud_url',
+        media_type: 'audio',
+      },
+      empty_state: { icon: 'music', message: 'No tracks found. Try a different search.' },
+      config: {
+        playback: true,
+        duration_field: '$.duration_seconds',
+        cover_field: '$.album.cover_url',
+        artist_field: '$.artist.name',
+      },
+    },
+    key_concepts: {
+      'soundcloud_url': 'Real SoundCloud track URL — embed as an audio player when present.',
     },
     user_goals: [
-      'See what I am listening to or recently played',
+      'See recently played tracks',
       'View my playlists',
       'Search for a song or artist',
-      'View my favorite tracks',
+      'View favorite tracks',
     ],
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    param: 'q',
+    fields_searched: ['title', 'artist.name', 'album.name'],
+    min_length: 2,
   },
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  cache: {
+    '/uadp/v1/playlists': { max_age_seconds: 600, offline_safe: true },
+    '/uadp/v1/recently-played': { max_age_seconds: 30, offline_safe: false },
+  },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

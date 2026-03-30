@@ -56,27 +56,49 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/calendars', method: 'GET', description: 'Available calendars', auth_required: false },
   ],
   ai_hints: {
-    description:
-      'Atlas is the calendar service — similar to Google Calendar. Multiple calendars with color coding, recurring events, and attendee management.',
-    features: [
-      'Events with start/end time, location and attendees',
-      'Multiple calendars with colors',
-      'Recurring events (daily, weekly, monthly)',
-      'Today and upcoming 7-day views',
-      'Calendar filter',
-    ],
+    persona: 'Atlas is the calendar service — similar to Google Calendar. Multiple calendars with color coding, recurring events, and attendee management.',
+    language: 'en',
     rendering: {
-      default_view: 'agenda',
-      event_card: 'Show time, title, calendar (color) and location if applicable',
-      color_coding: 'Use the calendar color to distinguish event types',
+      layout: 'calendar_agenda',
+      accent: '#38bdf8',
+      date_format: 'smart',
+      card: {
+        title: '$.title',
+        subtitle: '$.location',
+        badge: '$.calendar',
+        color_field: '$.color',
+        meta: ['$.start_ts | date', '$.end_ts | date'],
+      },
+      detail: {
+        body: '$.description',
+        fields: [
+          { label: 'Start', value: '$.start_ts | date_abs' },
+          { label: 'End', value: '$.end_ts | date_abs' },
+          { label: 'Location', value: '$.location' },
+          { label: 'Calendar', value: '$.calendar' },
+          { label: 'Attendees', value: '$.attendees' },
+          { label: 'Recurrence', value: '$.recurrence' },
+        ],
+      },
+      empty_state: { icon: 'calendar', message: 'No events found.' },
+      config: {
+        color_by_calendar: true,
+        all_day_field: '$.all_day',
+      },
     },
     user_goals: [
       'See what I have today',
       'View my week agenda',
       'View events from a specific calendar',
-      'View event detail with attendees',
+      'View event details with attendees',
     ],
-  },
+    auth: {
+      method: 'Bearer token in Authorization header',
+      get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
+    },
+  } satisfies UadpAiHints,
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
 
 // ── App ─────────────────────────────────────────────────────────────────────

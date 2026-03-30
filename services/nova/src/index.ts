@@ -1,7 +1,7 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
 import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, USERS, getUserById } from 'cosmos-core'
-import type { UadpManifest, UadpPost, UadpNotification } from 'cosmos-core'
+import type { UadpManifest, UadpPost, UadpNotification, UadpAiHints } from 'cosmos-core'
 
 // ---------- Data ----------
 
@@ -76,9 +76,29 @@ const manifest: UadpManifest = {
     persona: 'Nova is a text-based social network for conversations about technology, culture, and daily life — similar to Twitter/X.',
     language: 'en',
     rendering: {
-      default_view: 'timeline',
+      layout: 'timeline',
+      accent: '#3b82f6',
       date_format: 'relative',
-      group_by: 'none',
+      card: {
+        title: '$.author.name',
+        subtitle: '$.author.handle',
+        body: '$.body',
+        avatar: '$.author.avatar_url',
+        badge: '$.lang',
+        meta: ['$.likes | number', '$.reposts | number', '$.replies_count | number'],
+      },
+      detail: {
+        body: '$.body',
+        fields: [
+          { label: 'Tags', value: '$.tags' },
+          { label: 'Posted', value: '$.ts | date' },
+        ],
+      },
+      actions: [
+        { label: 'Like', icon: 'heart', endpoint: '/uadp/v1/post/:id/like', method: 'POST' },
+        { label: 'New Post', icon: 'edit', endpoint: '/uadp/v1/post/create', method: 'POST' },
+      ],
+      empty_state: { icon: 'message-circle', message: 'No posts found. Try a different search.' },
     },
     key_concepts: {
       'ext.nova.view_count': 'Number of times the post was viewed.',
@@ -92,15 +112,30 @@ const manifest: UadpManifest = {
     ],
     auth: {
       method: 'Bearer token in Authorization header',
-      public_endpoints: 'Endpoints with auth_required: false work without a token',
-      private_endpoints: 'Endpoints with auth_required: true need Authorization: Bearer <token>',
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
     proactive_suggestions: [
       'If there are more than 10 unread notifications, mention it when opening.',
       'If a trending topic relates to the user interests, suggest it.',
     ],
+  } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    param: 'q',
+    fields_searched: ['body', 'author.name', 'author.handle', 'tags'],
+    min_length: 2,
+    sort_options: ['relevance', 'recent', 'popular'],
   },
+  pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
+  realtime: [
+    { transport: 'sse', endpoint: '/uadp/v1/feed/stream', event_types: ['new_post', 'like', 'repost'], event_schema: 'uadp:post', trigger: 'on_view_open' },
+  ],
+  cache: {
+    '/uadp/v1/feed': { max_age_seconds: 30, offline_safe: false },
+    '/uadp/v1/trending': { max_age_seconds: 300, offline_safe: true },
+    '/uadp/v1/profile/:id': { max_age_seconds: 600, offline_safe: true },
+  },
+  versioning: { hints_version: '2.0.0', last_updated: 1743300000, changelog: 'v2: prescriptive rendering hints with layout, card, detail, actions.' },
 }
 
 // ---------- App ----------
