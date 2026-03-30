@@ -53,7 +53,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/feed/category/:cat', method: 'GET', description: 'Articles by category', auth_required: false },
     { path: '/uadp/v1/article/:id', method: 'GET', description: 'Full article with body_markdown', auth_required: false },
     { path: '/uadp/v1/search', method: 'GET', description: 'Search articles', auth_required: false },
-    { path: '/uadp/v1/bookmarks', method: 'GET', description: 'Bookmarked articles', auth_required: true },
+    { path: '/uadp/v1/bookmarks', method: 'GET', description: 'Bookmarked articles', auth_required: false },
     { path: '/uadp/v1/bookmarks/add', method: 'POST', description: 'Add a bookmark', auth_required: true },
   ],
   ai_hints: {
@@ -120,12 +120,6 @@ const app = new Elysia()
 
   // Bookmarks
   .get('/uadp/v1/bookmarks', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const bookmarks = getBookmarks(userId)
     const bookmarked = articles.filter(a => bookmarks.includes(a.id))
     return { type: 'uadp:list' as const, items: bookmarked, authenticated: !!authToken }

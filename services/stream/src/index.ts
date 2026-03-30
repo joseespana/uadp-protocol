@@ -62,12 +62,12 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/feed', method: 'GET', description: 'Personalized video feed, paginated', auth_required: true },
-    { path: '/uadp/v1/history', method: 'GET', description: 'Watch history, paginated', auth_required: true },
-    { path: '/uadp/v1/subscriptions', method: 'GET', description: 'Subscribed channels', auth_required: true },
-    { path: '/uadp/v1/library', method: 'GET', description: 'Saved and own videos', auth_required: true },
+    { path: '/uadp/v1/feed', method: 'GET', description: 'Personalized video feed, paginated', auth_required: false },
+    { path: '/uadp/v1/history', method: 'GET', description: 'Watch history, paginated', auth_required: false },
+    { path: '/uadp/v1/subscriptions', method: 'GET', description: 'Subscribed channels', auth_required: false },
+    { path: '/uadp/v1/library', method: 'GET', description: 'Saved and own videos', auth_required: false },
     { path: '/uadp/v1/search', method: 'GET', description: 'Search videos by title, description, or tags', auth_required: false },
-    { path: '/uadp/v1/playback/state', method: 'GET', description: 'Last watched video playback state', auth_required: true },
+    { path: '/uadp/v1/playback/state', method: 'GET', description: 'Last watched video playback state', auth_required: false },
   ],
   ai_hints: {
     description:
@@ -145,12 +145,6 @@ const app = new Elysia()
 
   // Feed (paginated)
   .get('/uadp/v1/feed', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const feed = data.feed ?? []
     const limit = Math.min(Number(query.limit) || 10, 50)
@@ -160,12 +154,6 @@ const app = new Elysia()
 
   // History (paginated)
   .get('/uadp/v1/history', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const history = data.history ?? []
     const limit = Math.min(Number(query.limit) || 10, 50)
@@ -175,24 +163,12 @@ const app = new Elysia()
 
   // Subscriptions
   .get('/uadp/v1/subscriptions', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     return { type: 'uadp:subscriptions', items: data.subscriptions ?? [], authenticated: !!authToken }
   })
 
   // Library (saved / own videos)
   .get('/uadp/v1/library', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     return { type: 'uadp:library', items: data.user_videos ?? [], authenticated: !!authToken }
   })
@@ -221,12 +197,6 @@ const app = new Elysia()
 
   // Playback state
   .get('/uadp/v1/playback/state', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const history = data.history ?? []
     const lastWatched = history.length > 0 ? history[0] : null

@@ -68,12 +68,12 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/orders', method: 'GET', description: 'Past food orders, paginated', auth_required: true },
-    { path: '/uadp/v1/orders/:id', method: 'GET', description: 'Order detail', auth_required: true },
+    { path: '/uadp/v1/orders', method: 'GET', description: 'Past food orders, paginated', auth_required: false },
+    { path: '/uadp/v1/orders/:id', method: 'GET', description: 'Order detail', auth_required: false },
     { path: '/uadp/v1/restaurants', method: 'GET', description: 'Available restaurants', auth_required: false },
-    { path: '/uadp/v1/favorites', method: 'GET', description: 'Favorite restaurants', auth_required: true },
+    { path: '/uadp/v1/favorites', method: 'GET', description: 'Favorite restaurants', auth_required: false },
     { path: '/uadp/v1/reorder/:orderId', method: 'POST', description: 'Re-order a past order', auth_required: true },
-    { path: '/uadp/v1/spending', method: 'GET', description: 'Food delivery spending summary', auth_required: true },
+    { path: '/uadp/v1/spending', method: 'GET', description: 'Food delivery spending summary', auth_required: false },
   ],
   ai_hints: {
     description:
@@ -120,12 +120,6 @@ const app = new Elysia()
 
   // Orders history
   .get('/uadp/v1/orders', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const orders = getOrders(userId)
     const limit = Math.min(Number(query.limit) || 15, 50)
     const { items, next_cursor } = paginate(orders, query.cursor ?? null, limit)
@@ -134,12 +128,6 @@ const app = new Elysia()
 
   // Order detail
   .get('/uadp/v1/orders/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const orders = getOrders(userId)
     const order = orders.find(o => o.id === params.id)
     if (!order) return { error: 'not_found', message: 'Order not found' }
@@ -158,12 +146,6 @@ const app = new Elysia()
 
   // Favorites
   .get('/uadp/v1/favorites', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const favorites = getFavorites(userId)
     const restaurants = getRestaurants(userId)
     const favRestaurants = restaurants.filter(r => favorites.has(r.id))
@@ -172,12 +154,6 @@ const app = new Elysia()
 
   // Re-order
   .post('/uadp/v1/reorder/:orderId', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const orders = getOrders(userId)
     const order = orders.find(o => o.id === params.orderId)
     if (!order) return { error: 'not_found', message: 'Order not found' }
@@ -194,12 +170,6 @@ const app = new Elysia()
 
   // Spending summary
   .get('/uadp/v1/spending', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const orders = getOrders(userId)
     const delivered = orders.filter(o => o.status === 'delivered')
     const totalSpent = delivered.reduce((s, o) => s + o.total.value, 0)

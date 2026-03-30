@@ -63,11 +63,11 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/feed',            method: 'GET',  description: 'Main timeline feed',              auth_required: true },
-    { path: '/uadp/v1/feed/stream',     method: 'GET',  description: 'Real-time timeline (SSE)',        auth_required: true, streaming: true },
-    { path: '/uadp/v1/profile/:id',     method: 'GET',  description: 'User profile',                    auth_required: true },
-    { path: '/uadp/v1/notifications',   method: 'GET',  description: 'User notifications',              auth_required: true },
-    { path: '/uadp/v1/search',          method: 'GET',  description: 'Search posts',                    auth_required: true },
+    { path: '/uadp/v1/feed',            method: 'GET',  description: 'Main timeline feed',              auth_required: false },
+    { path: '/uadp/v1/feed/stream',     method: 'GET',  description: 'Real-time timeline (SSE)',        auth_required: false, streaming: true },
+    { path: '/uadp/v1/profile/:id',     method: 'GET',  description: 'User profile',                    auth_required: false },
+    { path: '/uadp/v1/notifications',   method: 'GET',  description: 'User notifications',              auth_required: false },
+    { path: '/uadp/v1/search',          method: 'GET',  description: 'Search posts',                    auth_required: false },
     { path: '/uadp/v1/post/create',     method: 'POST', description: 'Create a new post',               auth_required: true },
     { path: '/uadp/v1/post/:id/like',   method: 'POST', description: 'Like a post',                     auth_required: true },
     { path: '/uadp/v1/trending',        method: 'GET',  description: 'Trending topics',                 auth_required: false },
@@ -116,12 +116,6 @@ const app = new Elysia()
 
   // Paginated feed
   .get('/uadp/v1/feed', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getUserPosts(userId)
     const cursor = query.cursor ? parseInt(query.cursor, 10) : 0
     const limit = query.limit ? parseInt(query.limit, 10) : 20
@@ -138,12 +132,6 @@ const app = new Elysia()
 
   // SSE feed stream
   .get('/uadp/v1/feed/stream', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getUserPosts(userId)
     let idx = 0
 
@@ -175,12 +163,6 @@ const app = new Elysia()
 
   // Profile
   .get('/uadp/v1/profile/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const profiles = getUserProfiles(userId)
     const allPosts = getUserPosts(userId)
     const profile = profiles.get(params.id)
@@ -193,23 +175,11 @@ const app = new Elysia()
 
   // Notifications
   .get('/uadp/v1/notifications', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { items: getUserNotifications(userId), authenticated: !!authToken }
   })
 
   // Search
   .get('/uadp/v1/search', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getUserPosts(userId)
     const q = (query.q ?? '').toLowerCase()
     if (!q) return { items: [], authenticated: !!authToken }
@@ -267,12 +237,6 @@ const app = new Elysia()
 
   // Like post
   .post('/uadp/v1/post/:id/like', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getUserPosts(userId)
     const post = allPosts.find((p) => p.id === params.id)
     if (!post) {

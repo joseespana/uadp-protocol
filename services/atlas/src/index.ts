@@ -49,11 +49,11 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/events', method: 'GET', description: 'Events with optional date range and calendar filter', auth_required: true },
-    { path: '/uadp/v1/events/today', method: 'GET', description: 'Today\'s events', auth_required: true },
-    { path: '/uadp/v1/events/upcoming', method: 'GET', description: 'Next 7 days of events', auth_required: true },
-    { path: '/uadp/v1/events/:id', method: 'GET', description: 'Event detail', auth_required: true },
-    { path: '/uadp/v1/calendars', method: 'GET', description: 'Available calendars', auth_required: true },
+    { path: '/uadp/v1/events', method: 'GET', description: 'Events with optional date range and calendar filter', auth_required: false },
+    { path: '/uadp/v1/events/today', method: 'GET', description: 'Today\'s events', auth_required: false },
+    { path: '/uadp/v1/events/upcoming', method: 'GET', description: 'Next 7 days of events', auth_required: false },
+    { path: '/uadp/v1/events/:id', method: 'GET', description: 'Event detail', auth_required: false },
+    { path: '/uadp/v1/calendars', method: 'GET', description: 'Available calendars', auth_required: false },
   ],
   ai_hints: {
     description:
@@ -93,12 +93,6 @@ const app = new Elysia()
 
   // All events with optional filters
   .get('/uadp/v1/events', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     let filtered = [...(data.events ?? [])]
     if (query.calendar) {
@@ -117,12 +111,6 @@ const app = new Elysia()
 
   // Today's events
   .get('/uadp/v1/events/today', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const events = data.events ?? []
     const startOfDay = Math.floor(new Date().setHours(0, 0, 0, 0) / 1000)
@@ -133,12 +121,6 @@ const app = new Elysia()
 
   // Upcoming (next 7 days)
   .get('/uadp/v1/events/upcoming', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const events = data.events ?? []
     const startOfDay = Math.floor(new Date().setHours(0, 0, 0, 0) / 1000)
@@ -149,12 +131,6 @@ const app = new Elysia()
 
   // Event detail
   .get('/uadp/v1/events/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const events = data.events ?? []
     const event = events.find(e => e.id === params.id)
@@ -164,12 +140,6 @@ const app = new Elysia()
 
   // Calendars
   .get('/uadp/v1/calendars', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     return { type: 'uadp:calendars', items: data.calendars ?? [], authenticated: !!authToken }
   })

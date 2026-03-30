@@ -41,11 +41,11 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/inbox', method: 'GET', description: 'Conversations list sorted by last message', auth_required: true },
-    { path: '/uadp/v1/conversation/:id', method: 'GET', description: 'Conversation with messages', auth_required: true },
-    { path: '/uadp/v1/conversation/:id/stream', method: 'GET', description: 'SSE stream for new messages', auth_required: true, streaming: true },
+    { path: '/uadp/v1/inbox', method: 'GET', description: 'Conversations list sorted by last message', auth_required: false },
+    { path: '/uadp/v1/conversation/:id', method: 'GET', description: 'Conversation with messages', auth_required: false },
+    { path: '/uadp/v1/conversation/:id/stream', method: 'GET', description: 'SSE stream for new messages', auth_required: false, streaming: true },
     { path: '/uadp/v1/message/send', method: 'POST', description: 'Send a message', auth_required: true },
-    { path: '/uadp/v1/search', method: 'GET', description: 'Search messages across conversations', auth_required: true },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search messages across conversations', auth_required: false },
   ],
   ai_hints: {
     description: 'Messaging platform similar to WhatsApp. Conversations with family, friends, and work colleagues.',
@@ -68,12 +68,6 @@ const app = new Elysia()
 
   // Inbox — sorted by last message ts descending
   .get('/uadp/v1/inbox', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const conversations = getConversations(userId)
     const sorted = [...conversations].sort((a, b) => b.last_message.ts - a.last_message.ts)
     return { type: 'uadp:list' as const, items: sorted, authenticated: !!authToken }
@@ -81,12 +75,6 @@ const app = new Elysia()
 
   // Conversation detail + messages
   .get('/uadp/v1/conversation/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const conversations = getConversations(userId)
     const messages = getMessages(userId)
     const conv = conversations.find(c => c.id === params.id)
@@ -97,12 +85,6 @@ const app = new Elysia()
 
   // SSE stream — replays conversation messages one every 2 seconds
   .get('/uadp/v1/conversation/:id/stream', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const messages = getMessages(userId)
     const convMessages = messages[params.id] ?? []
     let idx = 0
@@ -136,12 +118,6 @@ const app = new Elysia()
 
   // Send message
   .post('/uadp/v1/message/send', ({ body, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const user = getUserById(userId)
     const conversations = getConversations(userId)
     const messages = getMessages(userId)
@@ -176,12 +152,6 @@ const app = new Elysia()
 
   // Search messages across all conversations
   .get('/uadp/v1/search', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const conversations = getConversations(userId)
     const messages = getMessages(userId)
     const q = (query.q ?? '').toLowerCase()

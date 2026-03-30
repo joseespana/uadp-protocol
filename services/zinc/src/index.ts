@@ -40,10 +40,10 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/accounts', method: 'GET', description: 'List linked accounts (USD checking + credit line)', auth_required: true },
-    { path: '/uadp/v1/transactions', method: 'GET', description: 'Paginated transaction feed with FX details', auth_required: true },
-    { path: '/uadp/v1/cards', method: 'GET', description: 'List physical and virtual cards', auth_required: true },
-    { path: '/uadp/v1/spending/analytics', method: 'GET', description: 'Spending breakdown by category', auth_required: true },
+    { path: '/uadp/v1/accounts', method: 'GET', description: 'List linked accounts (USD checking + credit line)', auth_required: false },
+    { path: '/uadp/v1/transactions', method: 'GET', description: 'Paginated transaction feed with FX details', auth_required: false },
+    { path: '/uadp/v1/cards', method: 'GET', description: 'List physical and virtual cards', auth_required: false },
+    { path: '/uadp/v1/spending/analytics', method: 'GET', description: 'Spending breakdown by category', auth_required: false },
     { path: '/uadp/v1/fx/rate', method: 'GET', description: 'Current USD/EUR exchange rate', auth_required: false },
     { path: '/uadp/v1/fx/convert', method: 'POST', description: 'Convert an amount between currencies', auth_required: true },
   ],
@@ -108,24 +108,12 @@ const app = new Elysia()
 
   // ---- Accounts -----------------------------------------------------------
   .get('/uadp/v1/accounts', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     return { type: 'uadp:list', items: data.accounts ?? [], authenticated: !!authToken }
   })
 
   // ---- Transactions -------------------------------------------------------
   .get('/uadp/v1/transactions', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const sorted = [...(data.transactions ?? [])].sort((a, b) => b.ts - a.ts)
     const { items, cursor } = paginate(sorted, (query as Record<string, string>).cursor ?? null)
@@ -134,24 +122,12 @@ const app = new Elysia()
 
   // ---- Cards --------------------------------------------------------------
   .get('/uadp/v1/cards', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     return { type: 'uadp:list', items: data.cards ?? [], authenticated: !!authToken }
   })
 
   // ---- Spending Analytics -------------------------------------------------
   .get('/uadp/v1/spending/analytics', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const txs = (data.transactions ?? []).filter((t) => t.direction === 'out' && t.status === 'completed')
     const byCategory: Record<string, number> = {}
@@ -187,12 +163,6 @@ const app = new Elysia()
 
   // ---- FX Convert ---------------------------------------------------------
   .post('/uadp/v1/fx/convert', ({ body, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const { amount, from, to } = body as { amount: number; from: string; to: string }
     const rate = 0.92 // mock USD/EUR
 

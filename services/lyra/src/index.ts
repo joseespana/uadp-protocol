@@ -69,12 +69,12 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/recently-played', method: 'GET', description: 'Recently played tracks', auth_required: true },
-    { path: '/uadp/v1/playlists', method: 'GET', description: 'User playlists', auth_required: true },
-    { path: '/uadp/v1/playlists/:id', method: 'GET', description: 'Playlist detail with tracks', auth_required: true },
-    { path: '/uadp/v1/liked', method: 'GET', description: 'Liked tracks', auth_required: true },
+    { path: '/uadp/v1/recently-played', method: 'GET', description: 'Recently played tracks', auth_required: false },
+    { path: '/uadp/v1/playlists', method: 'GET', description: 'User playlists', auth_required: false },
+    { path: '/uadp/v1/playlists/:id', method: 'GET', description: 'Playlist detail with tracks', auth_required: false },
+    { path: '/uadp/v1/liked', method: 'GET', description: 'Liked tracks', auth_required: false },
     { path: '/uadp/v1/search', method: 'GET', description: 'Search tracks, artists, albums', auth_required: false },
-    { path: '/uadp/v1/now-playing', method: 'GET', description: 'Current playback state', auth_required: true },
+    { path: '/uadp/v1/now-playing', method: 'GET', description: 'Current playback state', auth_required: false },
   ],
   ai_hints: {
     description:
@@ -122,12 +122,6 @@ const app = new Elysia()
 
   // Recently played
   .get('/uadp/v1/recently-played', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const recentlyPlayed = data.recently_played ?? []
     const limit = Math.min(Number(query.limit) || 20, 50)
@@ -137,12 +131,6 @@ const app = new Elysia()
 
   // Playlists
   .get('/uadp/v1/playlists', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const playlists = data.playlists ?? []
     return { type: 'uadp:playlists', items: playlists.map(({ tracks: _t, ...p }) => p), authenticated: !!authToken }
@@ -150,12 +138,6 @@ const app = new Elysia()
 
   // Playlist detail
   .get('/uadp/v1/playlists/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const playlists = data.playlists ?? []
     const tracks = data.tracks ?? []
@@ -169,12 +151,6 @@ const app = new Elysia()
 
   // Liked tracks
   .get('/uadp/v1/liked', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const likedTracks = getLikedTracks(userId)
     const tracks = data.tracks ?? []
@@ -207,12 +183,6 @@ const app = new Elysia()
 
   // Now playing (simulated)
   .get('/uadp/v1/now-playing', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const recentlyPlayed = data.recently_played ?? []
     const current = recentlyPlayed[0]

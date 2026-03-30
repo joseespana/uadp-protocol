@@ -53,10 +53,10 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/rides', method: 'GET', description: 'Past rides, paginated', auth_required: true },
-    { path: '/uadp/v1/rides/:id', method: 'GET', description: 'Ride detail', auth_required: true },
-    { path: '/uadp/v1/saved-places', method: 'GET', description: 'Saved places (home, work, favorites)', auth_required: true },
-    { path: '/uadp/v1/spending', method: 'GET', description: 'Ride spending summary', auth_required: true },
+    { path: '/uadp/v1/rides', method: 'GET', description: 'Past rides, paginated', auth_required: false },
+    { path: '/uadp/v1/rides/:id', method: 'GET', description: 'Ride detail', auth_required: false },
+    { path: '/uadp/v1/saved-places', method: 'GET', description: 'Saved places (home, work, favorites)', auth_required: false },
+    { path: '/uadp/v1/spending', method: 'GET', description: 'Ride spending summary', auth_required: false },
   ],
   ai_hints: {
     description:
@@ -100,12 +100,6 @@ const app = new Elysia()
 
   // Rides history
   .get('/uadp/v1/rides', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const rides = data.rides ?? []
     const limit = Math.min(Number(query.limit) || 15, 50)
@@ -115,12 +109,6 @@ const app = new Elysia()
 
   // Ride detail
   .get('/uadp/v1/rides/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const rides = data.rides ?? []
     const ride = rides.find(r => r.id === params.id)
@@ -130,24 +118,12 @@ const app = new Elysia()
 
   // Saved places
   .get('/uadp/v1/saved-places', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     return { type: 'uadp:saved_places', items: data.saved_places ?? [], authenticated: !!authToken }
   })
 
   // Spending summary
   .get('/uadp/v1/spending', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const data = getUserData(userId)
     const rides = data.rides ?? []
     const completed = rides.filter(r => r.status === 'completed')

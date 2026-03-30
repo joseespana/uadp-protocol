@@ -93,15 +93,15 @@ const manifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/accounts',                  method: 'GET',  description: 'List linked bank accounts',             auth_required: true },
-    { path: '/uadp/v1/accounts/:id',              method: 'GET',  description: 'Get account details by ID',             auth_required: true },
-    { path: '/uadp/v1/accounts/:id/transactions', method: 'GET',  description: 'Paginated transactions for an account', auth_required: true },
-    { path: '/uadp/v1/accounts/:id/statement',    method: 'GET',  description: 'Monthly summary for an account',        auth_required: true },
-    { path: '/uadp/v1/cards',                     method: 'GET',  description: 'List debit/credit cards',               auth_required: true },
+    { path: '/uadp/v1/accounts',                  method: 'GET',  description: 'List linked bank accounts',             auth_required: false },
+    { path: '/uadp/v1/accounts/:id',              method: 'GET',  description: 'Get account details by ID',             auth_required: false },
+    { path: '/uadp/v1/accounts/:id/transactions', method: 'GET',  description: 'Paginated transactions for an account', auth_required: false },
+    { path: '/uadp/v1/accounts/:id/statement',    method: 'GET',  description: 'Monthly summary for an account',        auth_required: false },
+    { path: '/uadp/v1/cards',                     method: 'GET',  description: 'List debit/credit cards',               auth_required: false },
     { path: '/uadp/v1/cards/:id/freeze',          method: 'POST', description: 'Toggle freeze status on a card',        auth_required: true },
     { path: '/uadp/v1/transfer/initiate',         method: 'POST', description: 'Initiate a bank transfer',               auth_required: true },
-    { path: '/uadp/v1/transfer/:id/status',       method: 'GET',  description: 'Check transfer status',                 auth_required: true },
-    { path: '/uadp/v1/spending/analytics',        method: 'GET',  description: 'Category breakdown of spending',        auth_required: true },
+    { path: '/uadp/v1/transfer/:id/status',       method: 'GET',  description: 'Check transfer status',                 auth_required: false },
+    { path: '/uadp/v1/spending/analytics',        method: 'GET',  description: 'Category breakdown of spending',        auth_required: false },
   ],
   ai_hints: {
     description:
@@ -180,16 +180,10 @@ const app = new Elysia()
 
   // ---- Accounts -----------------------------------------------------------
   .get('/uadp/v1/accounts', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({ error: 'unauthorized', message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { type: 'uadp:list', items: getAccounts(userId), authenticated: true }
   })
 
   .get('/uadp/v1/accounts/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({ error: 'unauthorized', message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const account = getAccounts(userId).find((a) => a.id === params.id)
     if (!account) {
       return new Response(JSON.stringify({ error: 'Account not found' }), { status: 404 })
@@ -199,9 +193,6 @@ const app = new Elysia()
 
   // ---- Transactions (per account, paginated + filters) --------------------
   .get('/uadp/v1/accounts/:id/transactions', ({ params, query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({ error: 'unauthorized', message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     let txs = getTransactions(userId).filter((tx) => tx.account_id === params.id)
 
     // Date range filters (unix timestamps)
@@ -228,9 +219,6 @@ const app = new Elysia()
 
   // ---- Statement (monthly summary) ---------------------------------------
   .get('/uadp/v1/accounts/:id/statement', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({ error: 'unauthorized', message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const txs = getTransactions(userId).filter(
       (tx) => tx.account_id === params.id && tx.status === 'completed',
     )
@@ -266,9 +254,6 @@ const app = new Elysia()
 
   // ---- Cards --------------------------------------------------------------
   .get('/uadp/v1/cards', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({ error: 'unauthorized', message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { type: 'uadp:list', items: getCards(userId), authenticated: true }
   })
 
@@ -312,9 +297,6 @@ const app = new Elysia()
 
   // ---- Spending Analytics -------------------------------------------------
   .get('/uadp/v1/spending/analytics', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({ error: 'unauthorized', message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const txs = getTransactions(userId).filter(
       (tx) => tx.direction === 'out' && tx.status === 'completed',
     )

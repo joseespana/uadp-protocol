@@ -65,8 +65,8 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/continue-watching', method: 'GET', description: 'Titles in progress', auth_required: true },
-    { path: '/uadp/v1/my-list', method: 'GET', description: 'User saved titles', auth_required: true },
+    { path: '/uadp/v1/continue-watching', method: 'GET', description: 'Titles in progress', auth_required: false },
+    { path: '/uadp/v1/my-list', method: 'GET', description: 'User saved titles', auth_required: false },
     { path: '/uadp/v1/trending', method: 'GET', description: 'Top 10 trending titles', auth_required: false },
     { path: '/uadp/v1/catalog', method: 'GET', description: 'Full catalog, filterable by type and genre', auth_required: false },
     { path: '/uadp/v1/title/:id', method: 'GET', description: 'Title detail', auth_required: false },
@@ -117,23 +117,11 @@ const app = new Elysia()
 
   // Continue watching
   .get('/uadp/v1/continue-watching', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { type: 'uadp:continue_watching', items: getContinueWatching(userId), authenticated: !!authToken }
   })
 
   // My list
   .get('/uadp/v1/my-list', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const myList = getMyList(userId)
     const items = catalog.filter(t => myList.has(t.id))
     return { type: 'uadp:my_list', items, authenticated: !!authToken }

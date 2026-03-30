@@ -42,12 +42,12 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/inbox', method: 'GET', description: 'Inbox emails, paginated', auth_required: true },
-    { path: '/uadp/v1/folder/:folder', method: 'GET', description: 'Emails by folder (inbox, sent, drafts, spam, trash)', auth_required: true },
-    { path: '/uadp/v1/email/:id', method: 'GET', description: 'Full email detail', auth_required: true },
-    { path: '/uadp/v1/search', method: 'GET', description: 'Search emails by subject, sender, or body', auth_required: true },
-    { path: '/uadp/v1/folders', method: 'GET', description: 'Folder summary with counts', auth_required: true },
-    { path: '/uadp/v1/starred', method: 'GET', description: 'Starred emails', auth_required: true },
+    { path: '/uadp/v1/inbox', method: 'GET', description: 'Inbox emails, paginated', auth_required: false },
+    { path: '/uadp/v1/folder/:folder', method: 'GET', description: 'Emails by folder (inbox, sent, drafts, spam, trash)', auth_required: false },
+    { path: '/uadp/v1/email/:id', method: 'GET', description: 'Full email detail', auth_required: false },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search emails by subject, sender, or body', auth_required: false },
+    { path: '/uadp/v1/folders', method: 'GET', description: 'Folder summary with counts', auth_required: false },
+    { path: '/uadp/v1/starred', method: 'GET', description: 'Starred emails', auth_required: false },
   ],
   ai_hints: {
     description:

@@ -96,15 +96,15 @@ const manifest = {
     { path: '/uadp/v1/auth/register', method: 'POST', description: 'Register with email to get passkey', auth_required: false },
     { path: '/uadp/v1/auth/login', method: 'POST', description: 'Login with email + passkey to get session token', auth_required: false },
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
-    { path: '/uadp/v1/feed', method: 'GET', description: 'Paginated visual feed', auth_required: true },
-    { path: '/uadp/v1/feed/stream', method: 'GET', description: 'SSE stream of feed posts', auth_required: true, streaming: true },
-    { path: '/uadp/v1/explore', method: 'GET', description: 'Explore / discover feed', auth_required: true },
-    { path: '/uadp/v1/stories', method: 'GET', description: 'Active stories carousel', auth_required: true },
-    { path: '/uadp/v1/profile/:id', method: 'GET', description: 'User profile and media grid', auth_required: true },
-    { path: '/uadp/v1/notifications', method: 'GET', description: 'User notifications', auth_required: true },
+    { path: '/uadp/v1/feed', method: 'GET', description: 'Paginated visual feed', auth_required: false },
+    { path: '/uadp/v1/feed/stream', method: 'GET', description: 'SSE stream of feed posts', auth_required: false, streaming: true },
+    { path: '/uadp/v1/explore', method: 'GET', description: 'Explore / discover feed', auth_required: false },
+    { path: '/uadp/v1/stories', method: 'GET', description: 'Active stories carousel', auth_required: false },
+    { path: '/uadp/v1/profile/:id', method: 'GET', description: 'User profile and media grid', auth_required: false },
+    { path: '/uadp/v1/notifications', method: 'GET', description: 'User notifications', auth_required: false },
     { path: '/uadp/v1/post/create', method: 'POST', description: 'Create a media post', auth_required: true },
     { path: '/uadp/v1/post/:id/like', method: 'POST', description: 'Like a post', auth_required: true },
-    { path: '/uadp/v1/dm/inbox', method: 'GET', description: 'Direct messages inbox', auth_required: true },
+    { path: '/uadp/v1/dm/inbox', method: 'GET', description: 'Direct messages inbox', auth_required: false },
   ],
   ai_hints: {
     persona: 'Pulse is a visual social network combining Instagram and TikTok. Content includes photos, carousels, and short-form vertical videos (Reels). Media-first with captions, stories, and an explore grid.',
@@ -168,12 +168,6 @@ const app = new Elysia()
 
   // Paginated feed
   .get('/uadp/v1/feed', ({ query, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getAllPosts(userId)
     const cursor = query.cursor ? parseInt(query.cursor, 10) : 0
     const limit = query.limit ? Math.min(parseInt(query.limit, 10), 50) : 20
@@ -190,12 +184,6 @@ const app = new Elysia()
 
   // SSE feed stream (generator)
   .get('/uadp/v1/feed/stream', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getAllPosts(userId)
     let idx = 0
 
@@ -227,12 +215,6 @@ const app = new Elysia()
 
   // Explore feed
   .get('/uadp/v1/explore', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return {
       type: 'uadp:feed',
       cursor: null,
@@ -243,12 +225,6 @@ const app = new Elysia()
 
   // Active stories
   .get('/uadp/v1/stories', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return {
       type: 'uadp:stories',
       items: getStories(userId),
@@ -258,12 +234,6 @@ const app = new Elysia()
 
   // User profile
   .get('/uadp/v1/profile/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const profiles = getProfiles(userId)
     const allPosts = getAllPosts(userId)
     const profile = profiles.get(params.id)
@@ -282,12 +252,6 @@ const app = new Elysia()
 
   // Notifications (stub)
   .get('/uadp/v1/notifications', ({ authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { items: [], authenticated: !!authToken }
   })
 
@@ -339,12 +303,6 @@ const app = new Elysia()
 
   // Like post
   .post('/uadp/v1/post/:id/like', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const allPosts = getAllPosts(userId)
     const explore = getExplore(userId)
     const post = allPosts.find((p) => p.id === params.id) ?? explore.find((p) => p.id === params.id)
@@ -357,12 +315,6 @@ const app = new Elysia()
 
   // DM inbox (stub)
   .get('/uadp/v1/dm/inbox', ({ authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { items: [], authenticated: !!authToken }
   })
 

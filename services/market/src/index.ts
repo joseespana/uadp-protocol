@@ -96,12 +96,12 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/auth/verify', method: 'POST', description: 'Verify if a token is valid', auth_required: false },
     { path: '/uadp/v1/products/search', method: 'GET', description: 'Search products with filters', auth_required: false },
     { path: '/uadp/v1/products/:id', method: 'GET', description: 'Get product details', auth_required: false },
-    { path: '/uadp/v1/cart', method: 'GET', description: 'View current shopping cart', auth_required: true },
+    { path: '/uadp/v1/cart', method: 'GET', description: 'View current shopping cart', auth_required: false },
     { path: '/uadp/v1/cart/add', method: 'POST', description: 'Add a product to the cart', auth_required: true },
-    { path: '/uadp/v1/orders', method: 'GET', description: 'List all orders', auth_required: true },
-    { path: '/uadp/v1/orders/:id', method: 'GET', description: 'Get order details', auth_required: true },
-    { path: '/uadp/v1/orders/:id/tracking', method: 'GET', description: 'Get order tracking info', auth_required: true },
-    { path: '/uadp/v1/wishlist', method: 'GET', description: 'View wishlist', auth_required: true },
+    { path: '/uadp/v1/orders', method: 'GET', description: 'List all orders', auth_required: false },
+    { path: '/uadp/v1/orders/:id', method: 'GET', description: 'Get order details', auth_required: false },
+    { path: '/uadp/v1/orders/:id/tracking', method: 'GET', description: 'Get order tracking info', auth_required: false },
+    { path: '/uadp/v1/wishlist', method: 'GET', description: 'View wishlist', auth_required: false },
   ],
   ai_hints: {
     description:
@@ -229,12 +229,6 @@ const app = new Elysia()
 
   // ---- Cart: View ---------------------------------------------------------
   .get('/uadp/v1/cart', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const cart = getCart(userId)
     const total = cart.items.reduce((sum, item) => sum + item.unit_price.value * item.qty, 0)
     return {
@@ -295,23 +289,11 @@ const app = new Elysia()
 
   // ---- Orders: List -------------------------------------------------------
   .get('/uadp/v1/orders', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { type: 'uadp:list', items: getOrders(userId), authenticated: !!authToken }
   })
 
   // ---- Orders: Single -----------------------------------------------------
   .get('/uadp/v1/orders/:id', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const order = getOrders(userId).find((o) => o.id === params.id)
     if (!order) {
       return new Response(JSON.stringify({ error: 'Order not found' }), { status: 404 })
@@ -321,12 +303,6 @@ const app = new Elysia()
 
   // ---- Orders: Tracking ---------------------------------------------------
   .get('/uadp/v1/orders/:id/tracking', ({ params, userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     const order = getOrders(userId).find((o) => o.id === params.id)
     if (!order) {
       return new Response(JSON.stringify({ error: 'Order not found' }), { status: 404 })
@@ -351,12 +327,6 @@ const app = new Elysia()
 
   // ---- Wishlist -----------------------------------------------------------
   .get('/uadp/v1/wishlist', ({ userId, authToken }) => {
-    if (!authToken) {
-      return new Response(JSON.stringify({
-        error: 'unauthorized',
-        message: 'Authentication required. Get a token via POST /uadp/v1/auth/login on this service.'
-      }), { status: 401, headers: { 'Content-Type': 'application/json' } })
-    }
     return { type: 'uadp:list', items: getWishlist(userId), authenticated: !!authToken }
   })
 
