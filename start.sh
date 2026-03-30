@@ -12,6 +12,8 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
+DIM='\033[2m'
+BOLD='\033[1m'
 NC='\033[0m'
 
 header() { echo -e "\n${CYAN}━━━ $1 ━━━${NC}"; }
@@ -20,25 +22,27 @@ fail()   { echo -e "  ${RED}✗${NC} $1"; }
 warn()   { echo -e "  ${YELLOW}⚠${NC} $1"; }
 
 # ── Pre-checks ──────────────────────────────────────────
-header "Pre-checks"
+prechecks() {
+  header "Pre-checks"
 
-if ! command -v docker &>/dev/null; then
-  fail "Docker not found. Install it: https://docs.docker.com/get-docker/"
-  exit 1
-fi
-ok "Docker found: $(docker --version | head -1)"
+  if ! command -v docker &>/dev/null; then
+    fail "Docker not found. Install it: https://docs.docker.com/get-docker/"
+    exit 1
+  fi
+  ok "Docker found: $(docker --version | head -1)"
 
-if ! docker compose version &>/dev/null 2>&1; then
-  fail "Docker Compose (v2) not found. Install it: https://docs.docker.com/compose/install/"
-  exit 1
-fi
-ok "Docker Compose found: $(docker compose version --short)"
+  if ! docker compose version &>/dev/null 2>&1; then
+    fail "Docker Compose (v2) not found. Install it: https://docs.docker.com/compose/install/"
+    exit 1
+  fi
+  ok "Docker Compose found: $(docker compose version --short)"
 
-if ! docker info &>/dev/null 2>&1; then
-  fail "Docker daemon is not running. Start Docker first."
-  exit 1
-fi
-ok "Docker daemon is running"
+  if ! docker info &>/dev/null 2>&1; then
+    fail "Docker daemon is not running. Start Docker first."
+    exit 1
+  fi
+  ok "Docker daemon is running"
+}
 
 # ── Service list ───────────────────────────────────────
 print_services() {
@@ -85,126 +89,184 @@ wait_for_gateway() {
   fi
 }
 
-# ── Parse args ──────────────────────────────────────────
-ACTION="${1:-up}"
+# ── Actions ────────────────────────────────────────────
+
+do_up() {
+  header "Building & starting Cosmos"
+  docker compose down --remove-orphans 2>/dev/null || true
+  echo -e "  Building images (this may take a minute the first time)...\n"
+  docker compose build --parallel
+  echo ""
+  docker compose up -d
+  print_services
+  wait_for_gateway
+}
+
+do_down() {
+  header "Stopping Cosmos"
+  docker compose down --remove-orphans
+  ok "All services stopped"
+}
+
+do_restart() {
+  header "Restarting Cosmos"
+  docker compose down --remove-orphans
+  docker compose build --parallel
+  docker compose up -d
+  print_services
+  ok "All services rebuilt and restarted"
+}
+
+do_logs() {
+  local svc="${1:-}"
+  if [ -n "$svc" ]; then
+    docker compose logs -f "$svc"
+  else
+    docker compose logs -f
+  fi
+}
+
+do_rebuild() {
+  header "Full rebuild (no cache)"
+  docker compose down --remove-orphans
+  echo -e "  Removing old images..."
+  docker compose down --rmi local 2>/dev/null || true
+  echo -e "  Building from scratch...\n"
+  docker compose build --no-cache --parallel
+  docker compose up -d
+  print_services
+  wait_for_gateway
+}
+
+do_reinstall() {
+  header "Full reinstall — nuclear option"
+  warn "This will destroy ALL containers, images, volumes, and caches for Cosmos."
+  echo ""
+  read -rp "  Are you sure? (y/N) " confirm
+  if [[ "$confirm" != [yY] ]]; then
+    echo "  Aborted."
+    return
+  fi
+
+  echo ""
+  header "Stopping all services"
+  docker compose down --remove-orphans --rmi all --volumes 2>/dev/null || true
+  ok "Containers, images, and volumes removed"
+
+  header "Cleaning up Docker resources"
+  docker builder prune -f --filter "label=com.docker.compose.project=uadp-protocol" 2>/dev/null || true
+  docker images --filter "dangling=true" -q 2>/dev/null | xargs -r docker rmi 2>/dev/null || true
+  ok "Build cache pruned"
+
+  header "Reinstalling dependencies"
+  rm -rf node_modules packages/*/node_modules services/*/node_modules
+  ok "Removed node_modules"
+  bun install
+  ok "Dependencies installed"
+
+  header "Regenerating seed data"
+  bun run seed
+  ok "Seed data regenerated"
+
+  header "Building images from scratch"
+  docker compose build --no-cache --parallel
+  ok "Images built"
+
+  header "Starting services"
+  docker compose up -d
+  print_services
+  wait_for_gateway
+}
+
+do_status() {
+  header "Service status"
+  docker compose ps
+}
+
+# ── Interactive menu ───────────────────────────────────
+
+show_menu() {
+  echo ""
+  echo -e "${BOLD}${CYAN}  ╔══════════════════════════════════════════╗${NC}"
+  echo -e "${BOLD}${CYAN}  ║        🌌  Cosmos Control Panel         ║${NC}"
+  echo -e "${BOLD}${CYAN}  ╚══════════════════════════════════════════╝${NC}"
+  echo ""
+  echo -e "  ${GREEN}1)${NC} ${BOLD}Start${NC}        Build & start all services"
+  echo -e "  ${GREEN}2)${NC} ${BOLD}Stop${NC}         Stop all services"
+  echo -e "  ${GREEN}3)${NC} ${BOLD}Restart${NC}      Rebuild & restart"
+  echo -e "  ${GREEN}4)${NC} ${BOLD}Rebuild${NC}      Full rebuild (no cache)"
+  echo -e "  ${YELLOW}5)${NC} ${BOLD}Reinstall${NC}    Nuclear: destroy all → reinstall → reseed → rebuild"
+  echo -e "  ${DIM}6)${NC} ${BOLD}Status${NC}       Show running containers"
+  echo -e "  ${DIM}7)${NC} ${BOLD}Logs${NC}         Tail all logs"
+  echo -e "  ${DIM}8)${NC} ${BOLD}Service log${NC}   Tail a specific service"
+  echo -e "  ${RED}0)${NC} ${BOLD}Exit${NC}"
+  echo ""
+  echo -ne "  ${BOLD}Pick an option: ${NC}"
+}
+
+run_menu() {
+  while true; do
+    show_menu
+    read -r choice
+
+    case "$choice" in
+      1) prechecks; do_up; break ;;
+      2) do_down; break ;;
+      3) prechecks; do_restart; break ;;
+      4) prechecks; do_rebuild; break ;;
+      5) prechecks; do_reinstall; break ;;
+      6) do_status ;;
+      7) do_logs; break ;;
+      8)
+        echo ""
+        echo -ne "  ${BOLD}Service name${NC} (nova, orbit, stream...): "
+        read -r svc_name
+        if [ -n "$svc_name" ]; then
+          do_logs "$svc_name"
+          break
+        else
+          warn "No service name provided"
+        fi
+        ;;
+      0|q|Q) echo -e "\n  Bye! 👋\n"; exit 0 ;;
+      *) warn "Invalid option '$choice'" ;;
+    esac
+  done
+}
+
+# ── Entrypoint ─────────────────────────────────────────
+
+# No args → interactive menu
+if [ $# -eq 0 ]; then
+  run_menu
+  exit 0
+fi
+
+# With args → direct command (backwards compatible)
+ACTION="$1"
+shift
+
+prechecks
 
 case "$ACTION" in
-  up|start)
-    header "Building & starting Cosmos"
-
-    # Stop existing containers first to avoid port conflicts
-    docker compose down --remove-orphans 2>/dev/null || true
-
-    echo -e "  Building images (this may take a minute the first time)...\n"
-    docker compose build --parallel
-    echo ""
-    docker compose up -d
-
-    print_services
-    wait_for_gateway
-    ;;
-
-  down|stop)
-    header "Stopping Cosmos"
-    docker compose down --remove-orphans
-    ok "All services stopped"
-    ;;
-
-  restart)
-    header "Restarting Cosmos"
-    docker compose down --remove-orphans
-    docker compose build --parallel
-    docker compose up -d
-    print_services
-    ok "All services rebuilt and restarted"
-    ;;
-
-  logs)
-    if [ -n "${2:-}" ]; then
-      docker compose logs -f "$2"
-    else
-      docker compose logs -f
-    fi
-    ;;
-
-  rebuild)
-    header "Full rebuild (no cache)"
-    docker compose down --remove-orphans
-
-    # Remove old images to force complete rebuild
-    echo -e "  Removing old images..."
-    docker compose down --rmi local 2>/dev/null || true
-
-    echo -e "  Building from scratch...\n"
-    docker compose build --no-cache --parallel
-    docker compose up -d
-
-    print_services
-    wait_for_gateway
-    ;;
-
-  reinstall)
-    header "Full reinstall — nuclear option"
-    warn "This will destroy ALL containers, images, volumes, and caches for Cosmos."
-    echo ""
-    read -rp "  Are you sure? (y/N) " confirm
-    if [[ "$confirm" != [yY] ]]; then
-      echo "  Aborted."
-      exit 0
-    fi
-
-    # 1. Stop everything
-    echo ""
-    header "Stopping all services"
-    docker compose down --remove-orphans --rmi all --volumes 2>/dev/null || true
-    ok "Containers, images, and volumes removed"
-
-    # 2. Prune any dangling resources from Cosmos
-    header "Cleaning up Docker resources"
-    docker builder prune -f --filter "label=com.docker.compose.project=uadp-protocol" 2>/dev/null || true
-    # Remove any dangling images from this project
-    docker images --filter "dangling=true" -q 2>/dev/null | xargs -r docker rmi 2>/dev/null || true
-    ok "Build cache pruned"
-
-    # 3. Reinstall dependencies
-    header "Reinstalling dependencies"
-    rm -rf node_modules packages/*/node_modules services/*/node_modules
-    ok "Removed node_modules"
-    bun install
-    ok "Dependencies installed"
-
-    # 4. Regenerate seed data
-    header "Regenerating seed data"
-    bun run seed
-    ok "Seed data regenerated"
-
-    # 5. Build and start from scratch
-    header "Building images from scratch"
-    docker compose build --no-cache --parallel
-    ok "Images built"
-
-    header "Starting services"
-    docker compose up -d
-
-    print_services
-    wait_for_gateway
-    ;;
-
-  status)
-    header "Service status"
-    docker compose ps
-    ;;
-
+  up|start)     do_up ;;
+  down|stop)    do_down ;;
+  restart)      do_restart ;;
+  logs)         do_logs "${1:-}" ;;
+  rebuild)      do_rebuild ;;
+  reinstall)    do_reinstall ;;
+  status)       do_status ;;
   *)
-    echo "Usage: ./start.sh [up|down|restart|logs|rebuild|reinstall|status]"
+    echo "Usage: ./start.sh [command]"
     echo ""
-    echo "  up         Stop old → build → start all services (default)"
-    echo "  down       Stop all services"
-    echo "  restart    Rebuild and restart all services"
-    echo "  logs       Tail logs (optional: ./start.sh logs nova)"
-    echo "  rebuild    Full rebuild from scratch (no cache, removes old images)"
-    echo "  reinstall  Nuclear: destroy everything, reinstall deps, reseed, rebuild"
-    echo "  status     Show running containers"
+    echo "  No args     Interactive menu"
+    echo "  up          Stop old → build → start all services"
+    echo "  down        Stop all services"
+    echo "  restart     Rebuild and restart all services"
+    echo "  logs        Tail logs (optional: ./start.sh logs nova)"
+    echo "  rebuild     Full rebuild (no cache, removes old images)"
+    echo "  reinstall   Nuclear: destroy everything, reinstall deps, reseed, rebuild"
+    echo "  status      Show running containers"
     exit 1
     ;;
 esac
