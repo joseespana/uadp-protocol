@@ -40,69 +40,83 @@ if ! docker info &>/dev/null 2>&1; then
 fi
 ok "Docker daemon is running"
 
+# ── Service list ───────────────────────────────────────
+print_services() {
+  header "Services"
+  echo -e "  ${CYAN}Gateway${NC}   http://localhost:4000"
+  echo -e "  ${CYAN}Nova${NC}      http://localhost:4001  (social text)"
+  echo -e "  ${CYAN}Pulse${NC}     http://localhost:4002  (social visual)"
+  echo -e "  ${CYAN}Orbit${NC}     http://localhost:4003  (bank)"
+  echo -e "  ${CYAN}Zinc${NC}      http://localhost:4004  (neobank)"
+  echo -e "  ${CYAN}Market${NC}    http://localhost:4005  (store)"
+  echo -e "  ${CYAN}Stream${NC}    http://localhost:4006  (video)"
+  echo -e "  ${CYAN}Echo${NC}      http://localhost:4007  (messaging)"
+  echo -e "  ${CYAN}Herald${NC}    http://localhost:4008  (news)"
+  echo -e "  ${CYAN}Lyra${NC}      http://localhost:4009  (music)"
+  echo -e "  ${CYAN}Vortex${NC}    http://localhost:4010  (movies)"
+  echo -e "  ${CYAN}Beacon${NC}    http://localhost:4011  (email)"
+  echo -e "  ${CYAN}Compass${NC}   http://localhost:4012  (rides)"
+  echo -e "  ${CYAN}Flame${NC}     http://localhost:4013  (food delivery)"
+  echo -e "  ${CYAN}Atlas${NC}     http://localhost:4014  (calendar)"
+}
+
+wait_for_gateway() {
+  header "Waiting for services to be ready..."
+  READY=0
+  for i in $(seq 1 30); do
+    if curl -sf http://localhost:4000/services >/dev/null 2>&1; then
+      READY=1
+      break
+    fi
+    sleep 1
+    echo -ne "  Attempt $i/30...\r"
+  done
+
+  if [ "$READY" -eq 1 ]; then
+    ok "Gateway is responding!"
+    echo ""
+    echo -e "  Run ${YELLOW}./test.sh${NC} to probe all endpoints."
+    echo -e "  Run ${YELLOW}./start.sh down${NC} to stop everything."
+    echo -e "  Press ${YELLOW}Ctrl+C${NC} to detach from logs.\n"
+    docker compose logs -f --tail=20
+  else
+    warn "Gateway not responding yet. Showing logs:"
+    docker compose logs -f
+  fi
+}
+
 # ── Parse args ──────────────────────────────────────────
 ACTION="${1:-up}"
 
 case "$ACTION" in
   up|start)
     header "Building & starting Cosmos"
+
+    # Stop existing containers first to avoid port conflicts
+    docker compose down --remove-orphans 2>/dev/null || true
+
     echo -e "  Building images (this may take a minute the first time)...\n"
     docker compose build --parallel
     echo ""
     docker compose up -d
 
-    header "Services"
-    echo -e "  ${CYAN}Gateway${NC}   http://localhost:4000"
-    echo -e "  ${CYAN}Nova${NC}      http://localhost:4001  (social text)"
-    echo -e "  ${CYAN}Pulse${NC}     http://localhost:4002  (social visual)"
-    echo -e "  ${CYAN}Orbit${NC}     http://localhost:4003  (bank)"
-    echo -e "  ${CYAN}Zinc${NC}      http://localhost:4004  (neobank)"
-    echo -e "  ${CYAN}Market${NC}    http://localhost:4005  (store)"
-    echo -e "  ${CYAN}Stream${NC}    http://localhost:4006  (video)"
-    echo -e "  ${CYAN}Echo${NC}      http://localhost:4007  (messaging)"
-    echo -e "  ${CYAN}Herald${NC}    http://localhost:4008  (news)"
-    echo -e "  ${CYAN}Lyra${NC}      http://localhost:4009  (music)"
-    echo -e "  ${CYAN}Vortex${NC}    http://localhost:4010  (movies)"
-    echo -e "  ${CYAN}Beacon${NC}    http://localhost:4011  (email)"
-    echo -e "  ${CYAN}Compass${NC}   http://localhost:4012  (rides)"
-    echo -e "  ${CYAN}Flame${NC}     http://localhost:4013  (food delivery)"
-    echo -e "  ${CYAN}Atlas${NC}     http://localhost:4014  (calendar)"
-
-    header "Waiting for services to be ready..."
-    READY=0
-    for i in $(seq 1 30); do
-      if curl -sf http://localhost:4000/services >/dev/null 2>&1; then
-        READY=1
-        break
-      fi
-      sleep 1
-      echo -ne "  Attempt $i/30...\r"
-    done
-
-    if [ "$READY" -eq 1 ]; then
-      ok "Gateway is responding!"
-      echo ""
-      echo -e "  Run ${YELLOW}./test.sh${NC} to probe all endpoints."
-      echo -e "  Run ${YELLOW}./start.sh down${NC} to stop everything."
-      echo -e "  Press ${YELLOW}Ctrl+C${NC} to detach from logs.\n"
-      docker compose logs -f --tail=20
-    else
-      warn "Gateway not responding yet. Showing logs:"
-      docker compose logs -f
-    fi
+    print_services
+    wait_for_gateway
     ;;
 
   down|stop)
     header "Stopping Cosmos"
-    docker compose down
+    docker compose down --remove-orphans
     ok "All services stopped"
     ;;
 
   restart)
     header "Restarting Cosmos"
-    docker compose down
+    docker compose down --remove-orphans
+    docker compose build --parallel
     docker compose up -d
-    ok "All services restarted"
+    print_services
+    ok "All services rebuilt and restarted"
     ;;
 
   logs)
@@ -114,11 +128,66 @@ case "$ACTION" in
     ;;
 
   rebuild)
-    header "Full rebuild"
-    docker compose down
+    header "Full rebuild (no cache)"
+    docker compose down --remove-orphans
+
+    # Remove old images to force complete rebuild
+    echo -e "  Removing old images..."
+    docker compose down --rmi local 2>/dev/null || true
+
+    echo -e "  Building from scratch...\n"
     docker compose build --no-cache --parallel
     docker compose up -d
-    ok "Rebuilt and started"
+
+    print_services
+    wait_for_gateway
+    ;;
+
+  reinstall)
+    header "Full reinstall — nuclear option"
+    warn "This will destroy ALL containers, images, volumes, and caches for Cosmos."
+    echo ""
+    read -rp "  Are you sure? (y/N) " confirm
+    if [[ "$confirm" != [yY] ]]; then
+      echo "  Aborted."
+      exit 0
+    fi
+
+    # 1. Stop everything
+    echo ""
+    header "Stopping all services"
+    docker compose down --remove-orphans --rmi all --volumes 2>/dev/null || true
+    ok "Containers, images, and volumes removed"
+
+    # 2. Prune any dangling resources from Cosmos
+    header "Cleaning up Docker resources"
+    docker builder prune -f --filter "label=com.docker.compose.project=uadp-protocol" 2>/dev/null || true
+    # Remove any dangling images from this project
+    docker images --filter "dangling=true" -q 2>/dev/null | xargs -r docker rmi 2>/dev/null || true
+    ok "Build cache pruned"
+
+    # 3. Reinstall dependencies
+    header "Reinstalling dependencies"
+    rm -rf node_modules packages/*/node_modules services/*/node_modules
+    ok "Removed node_modules"
+    bun install
+    ok "Dependencies installed"
+
+    # 4. Regenerate seed data
+    header "Regenerating seed data"
+    bun run seed
+    ok "Seed data regenerated"
+
+    # 5. Build and start from scratch
+    header "Building images from scratch"
+    docker compose build --no-cache --parallel
+    ok "Images built"
+
+    header "Starting services"
+    docker compose up -d
+
+    print_services
+    wait_for_gateway
     ;;
 
   status)
@@ -127,14 +196,15 @@ case "$ACTION" in
     ;;
 
   *)
-    echo "Usage: ./start.sh [up|down|restart|logs|rebuild|status]"
+    echo "Usage: ./start.sh [up|down|restart|logs|rebuild|reinstall|status]"
     echo ""
-    echo "  up       Build & start all services (default)"
-    echo "  down     Stop all services"
-    echo "  restart  Restart all services"
-    echo "  logs     Tail logs (optional: ./start.sh logs nova)"
-    echo "  rebuild  Full rebuild from scratch (no cache)"
-    echo "  status   Show running containers"
+    echo "  up         Stop old → build → start all services (default)"
+    echo "  down       Stop all services"
+    echo "  restart    Rebuild and restart all services"
+    echo "  logs       Tail logs (optional: ./start.sh logs nova)"
+    echo "  rebuild    Full rebuild from scratch (no cache, removes old images)"
+    echo "  reinstall  Nuclear: destroy everything, reinstall deps, reseed, rebuild"
+    echo "  status     Show running containers"
     exit 1
     ;;
 esac
