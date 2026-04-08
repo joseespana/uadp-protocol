@@ -110,11 +110,39 @@ const manifest: UadpManifest = {
       snippet: '$.driver.name',
       meta: ['$.fare | money', '$.distance_km | number', '$.ride_type'],
     },
-    domain_tags: ['transport', 'rides', 'rideshare', 'commute', 'travel'],
+    domain_tags: ['transport', 'rides', 'uber', 'taxi', 'trip', 'rideshare', 'commute', 'travel'],
     relevance_weight: 0.4,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:transport': 500 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['rides', 'commute', 'airport', 'weekend'],
+  intents: {
+    'request-ride': { description: 'View ride options and request a new ride',   endpoints: ['/uadp/v1/saved-places'] },
+    'view-history': { description: 'Browse past ride history',                    endpoints: ['/uadp/v1/rides'] },
+    track:          { description: 'Track ride spending summary',                 endpoints: ['/uadp/v1/spending'] },
+    'rate-driver':  { description: 'View ride details including driver info',     endpoints: ['/uadp/v1/rides/:id'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:transport', title: 'Ride to Aeropuerto AICM — Apr 5, 06:30', category: 'airport',  fare: { value: 385, currency: 'MXN' } },
+    { uadp_type: 'uadp:transport', title: 'Daily commute — Condesa to Santa Fe',    category: 'commute',  fare: { value: 142, currency: 'MXN' } },
+    { uadp_type: 'uadp:transport', title: 'Saturday night out — Polanco to Roma',   category: 'weekend',  fare: { value: 98,  currency: 'MXN' } },
+  ],
+  quality: {
+    data_source:       'institutional',
+    verification:      'verified',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'orbit', relation: 'ride_charges',  description: 'Compass ride fares charged to Orbit bank account' },
+    { service: 'flame', relation: 'food_charges',  description: 'Flame food + Compass ride combo orders' },
+  ],
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

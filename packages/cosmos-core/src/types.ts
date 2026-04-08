@@ -266,6 +266,62 @@ export interface UadpVersioningHints {
   changelog?: string
 }
 
+/** Content inventory — how much data this service currently holds. */
+export interface UadpContentStats {
+  /** Approximate total number of items available. */
+  total_items: number
+  /** Map of uadp_type → item count. */
+  types: Record<string, number>
+  /** How often content is updated. */
+  update_frequency: 'real-time' | 'minutely' | 'hourly' | 'daily' | 'weekly'
+  /** ISO 8601 timestamp of the last content update. */
+  last_content_update: string
+}
+
+/** An intent declaration — what user action/verb this service can fulfill. */
+export interface UadpIntentDeclaration {
+  /** Human-readable description of what this intent does. */
+  description: string
+  /** Endpoint paths that handle this intent. */
+  endpoints: string[]
+  /** Whether authentication is required for this intent. */
+  auth_required?: boolean
+}
+
+/** A minimal featured item for agent context (2–3 representative samples). */
+export interface UadpFeaturedItem {
+  /** UADP schema type of the item. */
+  uadp_type: string
+  /** Display title. */
+  title: string
+  /** Domain category this item belongs to. */
+  category: string
+  /** Additional metadata fields (arbitrary). */
+  [key: string]: unknown
+}
+
+/** Trust and quality signals for this service's content. */
+export interface UadpQualitySignals {
+  /** Origin of the data: 'institutional', 'curated', 'user-generated', or combined via '+'. */
+  data_source: string
+  /** Moderation/verification level applied to content. */
+  verification: 'editorial' | 'moderated' | 'community-moderated' | 'verified' | 'licensed' | 'none'
+  /** How current the content is. */
+  content_freshness: 'real-time' | 'hourly' | 'daily' | 'weekly'
+  /** Audience rating of the content. */
+  content_rating: 'general' | 'teen' | 'mature'
+}
+
+/** How this service relates to another service in the Cosmos ecosystem. */
+export interface UadpServiceRelationship {
+  /** The service_id of the related service. */
+  service: string
+  /** Semantic relation type. */
+  relation: 'payment_for' | 'cross-posted' | 'reviews' | 'shared' | 'discussed' | 'linked_account' | 'event_invites' | 'meeting_links' | 'music_videos' | 'delivery_tracking' | 'food_charges' | 'ride_charges' | 'purchase_records' | 'order_confirmations'
+  /** Human-readable explanation of the relationship. */
+  description: string
+}
+
 // UADP Manifest (/.well-known/uadp.json)
 export interface UadpManifest {
   service_id: string
@@ -289,6 +345,21 @@ export interface UadpManifest {
   security_tier?: 'standard' | 'elevated'
   /** Hints versioning for cache invalidation. */
   versioning?: UadpVersioningHints
+
+  // ── Autodiscovery fields (v2.1) ──────────────────────────────────────────
+
+  /** Content inventory: how many items and how often they are updated. */
+  content_stats?: UadpContentStats
+  /** Domain taxonomy tags describing content categories available. */
+  content_taxonomy?: string[]
+  /** Intent map: user verbs/actions this service can fulfill. */
+  intents?: Record<string, UadpIntentDeclaration>
+  /** Representative sample items (2–3) for agent context priming. */
+  featured?: UadpFeaturedItem[]
+  /** Trust and quality signals for content ranking and agent decisions. */
+  quality?: UadpQualitySignals
+  /** Relationships to other services in the ecosystem. */
+  relationships?: UadpServiceRelationship[]
 }
 
 export interface UadpEndpoint {

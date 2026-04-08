@@ -162,7 +162,7 @@ const manifest: UadpManifest = {
       image: '$.image_url',
       meta: ['$.price | money', '$.rating | stars', '$.reviews_count | number'],
     },
-    domain_tags: ['shopping', 'products', 'e-commerce', 'electronics', 'books', 'clothing'],
+    domain_tags: ['shopping', 'products', 'buy', 'store', 'orders', 'e-commerce', 'electronics', 'books', 'clothing'],
     relevance_weight: 0.9,
   },
   pagination: { strategy: 'page', default_page_size: 20, max_page_size: 50 },
@@ -174,6 +174,35 @@ const manifest: UadpManifest = {
     { field: '$.total', target_service: 'orbit', target_endpoint: '/uadp/v1/accounts/:id/transactions', label: 'View bank charge' },
   ],
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 602,
+    types: { 'uadp:product': 500, 'uadp:order': 102 },
+    update_frequency: 'hourly',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['electronics', 'books', 'clothing', 'home', 'accessories', 'gaming'],
+  intents: {
+    browse:       { description: 'Browse the product catalog',                       endpoints: ['/uadp/v1/products/search'] },
+    search:       { description: 'Search products by keyword, category, or price',   endpoints: ['/uadp/v1/products/search'] },
+    buy:          { description: 'Add a product to cart',                            endpoints: ['/uadp/v1/cart/add'], auth_required: true },
+    'track-order':{ description: 'Track an existing order',                          endpoints: ['/uadp/v1/orders/:id/tracking'] },
+    review:       { description: 'View order details and products',                  endpoints: ['/uadp/v1/orders/:id'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:product', title: 'MacBook Pro M4 — 16-inch, 32 GB RAM',       category: 'electronics', price: { value: 35999, currency: 'MXN' } },
+    { uadp_type: 'uadp:product', title: 'Mechanical keyboard TKL — Cherry MX Brown', category: 'accessories',  price: { value: 2499,  currency: 'MXN' } },
+    { uadp_type: 'uadp:order',   title: 'Order #MKT-8821 — delivered Apr 3, 2026',   category: 'electronics'                                          },
+  ],
+  quality: {
+    data_source:       'curated+user-reviews',
+    verification:      'moderated',
+    content_freshness: 'daily',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'orbit', relation: 'payment_for', description: 'Market purchases charged to Orbit bank account' },
+    { service: 'zinc',  relation: 'payment_for', description: 'Market purchases paid with Zinc international card' },
+  ],
 }
 
 // ---------------------------------------------------------------------------

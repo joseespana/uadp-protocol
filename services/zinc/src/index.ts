@@ -115,6 +115,33 @@ const manifest: UadpManifest = {
     '/uadp/v1/accounts': { max_age_seconds: 300, offline_safe: false },
   },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:transaction': 498, 'uadp:card': 2 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['international', 'subscriptions', 'online-shopping', 'cashback'],
+  intents: {
+    'check-balance':     { description: 'View USD account and credit line balance',         endpoints: ['/uadp/v1/accounts'] },
+    'view-transactions': { description: 'Browse international transaction history with FX', endpoints: ['/uadp/v1/transactions'] },
+    'check-rewards':     { description: 'View cashback earned and zinc_points balance',     endpoints: ['/uadp/v1/spending/analytics'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:transaction', title: 'Netflix subscription — USD 15.99',                  category: 'subscriptions', direction: 'out' },
+    { uadp_type: 'uadp:transaction', title: 'Amazon US — MacBook accessories purchase',           category: 'online-shopping', direction: 'out' },
+    { uadp_type: 'uadp:transaction', title: 'GitHub Copilot monthly — developer tools',           category: 'subscriptions', direction: 'out' },
+  ],
+  quality: {
+    data_source:       'institutional',
+    verification:      'verified',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'orbit',  relation: 'linked_account',   description: 'Orbit is the primary account linked to Zinc' },
+    { service: 'market', relation: 'purchase_records',  description: 'Market purchases paid with Zinc card' },
+  ],
 }
 
 // ---------------------------------------------------------------------------

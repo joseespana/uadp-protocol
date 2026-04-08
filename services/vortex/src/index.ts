@@ -130,11 +130,38 @@ const manifest: UadpManifest = {
       image: '$.poster_url',
       meta: ['$.rating | stars', '$.year | number', '$.type'],
     },
-    domain_tags: ['movies', 'series', 'streaming', 'entertainment', 'vod'],
+    domain_tags: ['movies', 'series', 'films', 'watch', 'netflix', 'entertainment', 'vod'],
     relevance_weight: 0.5,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:title': 500 },
+    update_frequency: 'weekly',
+    last_content_update: '2026-04-07T00:00:00Z',
+  },
+  content_taxonomy: ['action', 'drama', 'comedy', 'sci-fi', 'thriller', 'documentary', 'anime'],
+  intents: {
+    watch:       { description: 'Watch or resume a movie or series',         endpoints: ['/uadp/v1/continue-watching', '/uadp/v1/title/:id'] },
+    search:      { description: 'Search catalog by title, genre, or year',   endpoints: ['/uadp/v1/search'] },
+    'add-to-list':{ description: 'Save a title to My List',                  endpoints: ['/uadp/v1/my-list'] },
+    rate:        { description: 'View ratings and top trending titles',       endpoints: ['/uadp/v1/trending'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:title', title: 'Dune: Part Three',                        category: 'sci-fi',  type: 'movie',  year: 2026 },
+    { uadp_type: 'uadp:title', title: 'Narco Republic — Season 2',               category: 'thriller', type: 'series', year: 2025 },
+    { uadp_type: 'uadp:title', title: 'Planeta Tierra IV — nature documentary', category: 'documentary', type: 'series', year: 2026 },
+  ],
+  quality: {
+    data_source:       'licensed',
+    verification:      'curated',
+    content_freshness: 'weekly',
+    content_rating:    'mature',
+  },
+  relationships: [
+    { service: 'herald', relation: 'reviews', description: 'Herald publishes reviews and news about Vortex titles' },
+  ],
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

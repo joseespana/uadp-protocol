@@ -104,11 +104,40 @@ const manifest: UadpManifest = {
       snippet: '$.body_text',
       meta: ['$.from.name', '$.folder', '$.ts | date'],
     },
-    domain_tags: ['email', 'communication', 'notifications', 'work', 'personal'],
+    domain_tags: ['email', 'mail', 'inbox', 'communication', 'notifications', 'work', 'personal'],
     relevance_weight: 0.6,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 517,
+    types: { 'uadp:email': 517 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['work', 'personal', 'notifications', 'promotions', 'newsletters'],
+  intents: {
+    read:     { description: 'Read inbox or folder emails',                   endpoints: ['/uadp/v1/inbox', '/uadp/v1/folder/:folder'] },
+    compose:  { description: 'Compose and send a new email',                  endpoints: ['/uadp/v1/inbox'],                               auth_required: true },
+    search:   { description: 'Search emails by subject, sender, or content', endpoints: ['/uadp/v1/search'] },
+    archive:  { description: 'View sent or trash folder',                     endpoints: ['/uadp/v1/folder/:folder'] },
+    label:    { description: 'View starred emails',                           endpoints: ['/uadp/v1/starred'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:email', title: 'GitHub: PR #112 merged — feat: UADP autodiscovery',    category: 'notifications', from: 'github@notifications.com' },
+    { uadp_type: 'uadp:email', title: 'Orbit Bank: your statement for March 2026 is ready',   category: 'notifications', from: 'no-reply@orbit.bank'       },
+    { uadp_type: 'uadp:email', title: 'Team standup notes — April 8th',                        category: 'work',          from: 'ana.torres@fintech.mx'     },
+  ],
+  quality: {
+    data_source:       'user-generated',
+    verification:      'none',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'market', relation: 'order_confirmations', description: 'Market order confirmation emails arrive in Beacon' },
+    { service: 'atlas',  relation: 'event_invites',       description: 'Atlas calendar invites sent and received via Beacon' },
+  ],
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

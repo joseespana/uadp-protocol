@@ -128,7 +128,7 @@ const manifest: UadpManifest = {
       image: '$.thumbnail_url',
       meta: ['$.views | number', '$.duration_seconds | duration', '$.channel.name'],
     },
-    domain_tags: ['video', 'streaming', 'tutorials', 'tech', 'entertainment', 'reviews'],
+    domain_tags: ['video', 'youtube', 'watch', 'streaming', 'tutorials', 'tech', 'entertainment', 'reviews'],
     relevance_weight: 0.8,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
@@ -137,6 +137,34 @@ const manifest: UadpManifest = {
     '/uadp/v1/search': { max_age_seconds: 120, offline_safe: true },
   },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 560,
+    types: { 'uadp:video': 560 },
+    update_frequency: 'hourly',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['tech-reviews', 'tutorials', 'entertainment', 'music-videos', 'vlogs'],
+  intents: {
+    watch:     { description: 'Watch a video from the feed or search results',  endpoints: ['/uadp/v1/feed'] },
+    search:    { description: 'Search for videos by title, channel, or topic',  endpoints: ['/uadp/v1/search'] },
+    subscribe: { description: 'View and manage channel subscriptions',          endpoints: ['/uadp/v1/subscriptions'] },
+    like:      { description: 'Like a video',                                   endpoints: ['/uadp/v1/feed'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:video', title: 'Rust vs Go in 2026 — which one should you learn?', category: 'tech-reviews', channel: 'CodeLab MX'   },
+    { uadp_type: 'uadp:video', title: 'Building a REST API with Bun + Elysia in 20 min',  category: 'tutorials',    channel: 'DevStream LATAM' },
+    { uadp_type: 'uadp:video', title: 'My CDMX apartment studio setup — 2026 edition',    category: 'vlogs',        channel: 'AlejandroVega' },
+  ],
+  quality: {
+    data_source:       'user-generated',
+    verification:      'community-moderated',
+    content_freshness: 'hourly',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'nova', relation: 'discussed', description: 'Stream videos discussed and shared on Nova' },
+    { service: 'lyra', relation: 'music_videos', description: 'Official music videos from Lyra artists' },
+  ],
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

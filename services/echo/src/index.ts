@@ -102,7 +102,7 @@ const manifest: UadpManifest = {
       snippet: '$.body',
       meta: ['$.conversation_name', '$.ts | date'],
     },
-    domain_tags: ['messaging', 'chat', 'conversations', 'contacts'],
+    domain_tags: ['messaging', 'chat', 'messages', 'conversations', 'contacts', 'whatsapp'],
     relevance_weight: 0.4,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
@@ -113,6 +113,31 @@ const manifest: UadpManifest = {
     '/uadp/v1/inbox': { max_age_seconds: 15, offline_safe: false },
   },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 1057,
+    types: { 'uadp:conversation': 57, 'uadp:message': 1000 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['personal', 'work', 'family', 'groups'],
+  intents: {
+    'read-messages':  { description: 'Read conversations and message threads',   endpoints: ['/uadp/v1/inbox', '/uadp/v1/conversation/:id'] },
+    send:             { description: 'Send a message to a conversation',          endpoints: ['/uadp/v1/message/send'], auth_required: true },
+    search:           { description: 'Search for messages across conversations', endpoints: ['/uadp/v1/search'] },
+    'create-group':   { description: 'View or manage group conversations',        endpoints: ['/uadp/v1/inbox'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:conversation', title: 'Trabajo — Fintech startup team chat', category: 'work',   type: 'group'  },
+    { uadp_type: 'uadp:conversation', title: 'Familia Vega — family group',          category: 'family', type: 'group'  },
+    { uadp_type: 'uadp:message',      title: 'Hey, did you see the deploy notes?',   category: 'work'                  },
+  ],
+  quality: {
+    data_source:       'user-generated',
+    verification:      'none',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [],
 }
 
 // --- App --------------------------------------------------------------------

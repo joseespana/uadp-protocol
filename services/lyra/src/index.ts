@@ -136,7 +136,7 @@ const manifest: UadpManifest = {
       image: '$.album.cover_url || $.image_url',
       meta: ['$.plays | number', '$.duration_seconds | duration'],
     },
-    domain_tags: ['music', 'streaming', 'audio', 'playlists', 'artists', 'albums'],
+    domain_tags: ['music', 'songs', 'listen', 'audio', 'playlists', 'artists', 'albums', 'spotify'],
     relevance_weight: 0.5,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
@@ -145,6 +145,33 @@ const manifest: UadpManifest = {
     '/uadp/v1/recently-played': { max_age_seconds: 30, offline_safe: false },
   },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:track': 420, 'uadp:playlist': 80 },
+    update_frequency: 'daily',
+    last_content_update: '2026-04-08T00:00:00Z',
+  },
+  content_taxonomy: ['rock', 'electronic', 'hip-hop', 'jazz', 'classical', 'latin', 'pop'],
+  intents: {
+    listen:           { description: 'Play a track or resume recently played',    endpoints: ['/uadp/v1/recently-played', '/uadp/v1/now-playing'] },
+    search:           { description: 'Search for tracks, artists, or albums',     endpoints: ['/uadp/v1/search'] },
+    'create-playlist':{ description: 'View and manage personal playlists',         endpoints: ['/uadp/v1/playlists'] },
+    discover:         { description: 'Discover new music via liked tracks',        endpoints: ['/uadp/v1/liked'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:track',    title: 'Oye Como Va — Carlos Santana',               category: 'latin',      artist: 'Santana'          },
+    { uadp_type: 'uadp:track',    title: 'Blinding Lights — The Weeknd',               category: 'pop',        artist: 'The Weeknd'       },
+    { uadp_type: 'uadp:playlist', title: 'Friday Work Session — focus beats playlist', category: 'electronic'                             },
+  ],
+  quality: {
+    data_source:       'licensed',
+    verification:      'verified',
+    content_freshness: 'daily',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'stream', relation: 'music_videos', description: 'Music videos for Lyra tracks available on Stream' },
+  ],
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

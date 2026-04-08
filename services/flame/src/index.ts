@@ -132,11 +132,39 @@ const manifest: UadpManifest = {
       image: '$.restaurant.image_url || $.image_url',
       meta: ['$.total | money', '$.status', '$.ts | date'],
     },
-    domain_tags: ['food', 'delivery', 'restaurants', 'dining', 'takeout'],
+    domain_tags: ['food', 'delivery', 'order-food', 'restaurants', 'dining', 'takeout', 'ubereats'],
     relevance_weight: 0.6,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:food_order': 350, 'uadp:restaurant': 150 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['mexican', 'sushi', 'pizza', 'burgers', 'healthy', 'breakfast', 'desserts'],
+  intents: {
+    order:              { description: 'Order food from a restaurant',                endpoints: ['/uadp/v1/restaurants'],              auth_required: true },
+    'search-restaurant':{ description: 'Search or browse available restaurants',      endpoints: ['/uadp/v1/restaurants', '/uadp/v1/search'] },
+    reorder:            { description: 'Re-order a previous food order',              endpoints: ['/uadp/v1/reorder/:orderId'],         auth_required: true },
+    'track-delivery':   { description: 'View order status and estimated delivery time', endpoints: ['/uadp/v1/orders/:id'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:food_order',  title: 'Tacos El Paisa — 3x pastor, 2x suadero',          category: 'mexican',    status: 'delivered' },
+    { uadp_type: 'uadp:food_order',  title: 'Sushi Nori — Dragon Roll combo for two',           category: 'sushi',      status: 'delivered' },
+    { uadp_type: 'uadp:restaurant',  title: 'Verde Saludable — healthy bowls & smoothies',      category: 'healthy',    rating: 4.7         },
+  ],
+  quality: {
+    data_source:       'curated+user-reviews',
+    verification:      'moderated',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'orbit',   relation: 'food_charges',      description: 'Flame food orders charged to Orbit bank account' },
+    { service: 'compass', relation: 'delivery_tracking',  description: 'Compass handles delivery rider tracking for Flame' },
+  ],
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

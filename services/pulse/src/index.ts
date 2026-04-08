@@ -172,7 +172,7 @@ const manifest: UadpManifest = {
       image: '$.thumbnail_url',
       meta: ['$.likes | number', '$.media_type'],
     },
-    domain_tags: ['visual', 'photos', 'videos', 'reels', 'social', 'creators'],
+    domain_tags: ['visual', 'photos', 'images', 'reels', 'stories', 'social', 'creators', 'instagram', 'tiktok'],
     relevance_weight: 0.6,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
@@ -180,6 +180,33 @@ const manifest: UadpManifest = {
     { transport: 'sse', endpoint: '/uadp/v1/feed/stream', event_types: ['new_post'], event_schema: 'uadp:media_post', trigger: 'on_view_open' },
   ],
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 601,
+    types: { 'uadp:media_post': 601 },
+    update_frequency: 'minutely',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['lifestyle', 'travel', 'food', 'fashion', 'photography'],
+  intents: {
+    browse:  { description: 'Browse the visual photo and video feed',  endpoints: ['/uadp/v1/feed'] },
+    post:    { description: 'Upload a new photo or video',             endpoints: ['/uadp/v1/post/create'], auth_required: true },
+    explore: { description: 'Explore trending visual content',         endpoints: ['/uadp/v1/explore'] },
+    like:    { description: 'Like a photo or video',                   endpoints: ['/uadp/v1/post/:id/like'], auth_required: true },
+  },
+  featured: [
+    { uadp_type: 'uadp:media_post', title: 'Sunset in Puerto Vallarta — golden hour magic', category: 'travel', media_type: 'image' },
+    { uadp_type: 'uadp:media_post', title: 'New outfit drop — summer vibes in CDMX',        category: 'fashion', media_type: 'image' },
+    { uadp_type: 'uadp:media_post', title: 'Cooking authentic mole negro from scratch',     category: 'food',   media_type: 'video' },
+  ],
+  quality: {
+    data_source:       'user-generated',
+    verification:      'none',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'nova', relation: 'cross-posted', description: 'Visual posts cross-posted to Nova feed' },
+  ],
 }
 
 // ── App ─────────────────────────────────────────────────────────────────────

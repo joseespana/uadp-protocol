@@ -135,7 +135,7 @@ const manifest: UadpManifest = {
       image: '$.author.avatar_url',
       meta: ['$.likes | number', '$.ts | date'],
     },
-    domain_tags: ['social', 'posts', 'discussions', 'tech', 'community'],
+    domain_tags: ['social', 'posts', 'tweets', 'discussions', 'tech', 'community', 'timeline', 'threads'],
     relevance_weight: 0.7,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
@@ -148,6 +148,35 @@ const manifest: UadpManifest = {
     '/uadp/v1/profile/:id': { max_age_seconds: 600, offline_safe: true },
   },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000, changelog: 'v2: prescriptive rendering hints with layout, card, detail, actions.' },
+  content_stats: {
+    total_items: 1927,
+    types: { 'uadp:post': 1927 },
+    update_frequency: 'minutely',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['tech', 'culture', 'daily-life', 'startups', 'programming'],
+  intents: {
+    browse:  { description: 'Browse the main timeline feed',        endpoints: ['/uadp/v1/feed'] },
+    post:    { description: 'Create a new post',                    endpoints: ['/uadp/v1/post/create'],   auth_required: true },
+    search:  { description: 'Search posts by keyword or tag',       endpoints: ['/uadp/v1/search'] },
+    like:    { description: 'Like a post',                          endpoints: ['/uadp/v1/post/:id/like'], auth_required: true },
+    follow:  { description: 'Follow another user profile',          endpoints: ['/uadp/v1/profile/:id'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:post', title: 'Just shipped a new open-source Rust HTTP client — check it out!', category: 'programming' },
+    { uadp_type: 'uadp:post', title: 'Hot take: AI agents will replace SaaS dashboards within 3 years', category: 'tech' },
+    { uadp_type: 'uadp:post', title: 'México City skyline at dawn — nothing beats the CDMX morning',   category: 'daily-life' },
+  ],
+  quality: {
+    data_source:       'user-generated',
+    verification:      'none',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'pulse',  relation: 'cross-posted', description: 'Visual posts cross-posted from Pulse' },
+    { service: 'herald', relation: 'shared',        description: 'Herald articles shared and discussed on Nova' },
+  ],
 }
 
 // ---------- App ----------

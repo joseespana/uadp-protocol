@@ -112,7 +112,7 @@ const manifest: UadpManifest = {
       image: '$.image_url',
       meta: ['$.category', '$.read_time_min | number', '$.ts | date'],
     },
-    domain_tags: ['news', 'articles', 'journalism', 'current-events', 'analysis'],
+    domain_tags: ['news', 'articles', 'blogs', 'journalism', 'current-events', 'analysis', 'reading'],
     relevance_weight: 0.8,
   },
   pagination: { strategy: 'cursor', default_page_size: 15, max_page_size: 50 },
@@ -121,6 +121,33 @@ const manifest: UadpManifest = {
     '/uadp/v1/article/:id': { max_age_seconds: 3600, offline_safe: true },
   },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:article': 500 },
+    update_frequency: 'hourly',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['tech', 'science', 'health', 'sports', 'environment', 'education', 'economy', 'culture'],
+  intents: {
+    read:                { description: 'Read latest news articles by category',        endpoints: ['/uadp/v1/feed/latest', '/uadp/v1/feed/category/:cat'] },
+    search:              { description: 'Search articles by keyword or topic',          endpoints: ['/uadp/v1/search'] },
+    bookmark:            { description: 'Save articles to personal bookmarks',          endpoints: ['/uadp/v1/bookmarks/add'], auth_required: true },
+    'subscribe-category':{ description: 'Browse articles in a specific category',      endpoints: ['/uadp/v1/feed/category/:cat'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:article', title: 'AI agents are transforming how we use the internet', category: 'tech',    author_name: 'Laura Mendez'   },
+    { uadp_type: 'uadp:article', title: 'Climate summit 2026: commitments and skepticism',     category: 'environment', author_name: 'Carlos Reyes' },
+    { uadp_type: 'uadp:article', title: 'Mexico startup ecosystem hits record investment',      category: 'economy', author_name: 'Ana Torres'     },
+  ],
+  quality: {
+    data_source:       'curated',
+    verification:      'editorial',
+    content_freshness: 'hourly',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'nova', relation: 'shared', description: 'Herald articles shared and discussed on Nova' },
+  ],
 }
 
 // --- App --------------------------------------------------------------------

@@ -167,7 +167,7 @@ const manifest: UadpManifest = {
       snippet: '$.merchant.name',
       meta: ['$.amount | money', '$.direction', '$.ts | date'],
     },
-    domain_tags: ['banking', 'finance', 'transactions', 'payments', 'salary'],
+    domain_tags: ['banking', 'finance', 'money', 'balance', 'account', 'transactions', 'payments', 'salary'],
     relevance_weight: 0.7,
   },
   pagination: { strategy: 'cursor', default_page_size: 25, max_page_size: 100 },
@@ -180,6 +180,36 @@ const manifest: UadpManifest = {
     { field: '$.merchant.name', target_service: 'market', target_endpoint: '/uadp/v1/products/search?q={value}', label: 'Search on Market' },
   ],
   versioning: { hints_version: '2.0.0', last_updated: 1743300000, changelog: 'v2: prescriptive rendering, safety rules, cross-service links.' },
+  content_stats: {
+    total_items: 1512,
+    types: { 'uadp:account': 2, 'uadp:transaction': 1510 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['checking', 'savings', 'transfers', 'bills', 'salary'],
+  intents: {
+    'check-balance':        { description: 'View account balances',                        endpoints: ['/uadp/v1/accounts'] },
+    'view-transactions':    { description: 'Browse or filter recent transactions',          endpoints: ['/uadp/v1/accounts/:id/transactions'] },
+    transfer:               { description: 'Initiate a bank transfer',                     endpoints: ['/uadp/v1/transfer/initiate'], auth_required: true },
+    pay:                    { description: 'View spending analytics by category',           endpoints: ['/uadp/v1/spending/analytics'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:transaction', title: 'Nómina Quincena — salary deposit Apr 1',    category: 'salary',    direction: 'in'  },
+    { uadp_type: 'uadp:transaction', title: 'CFE Electricidad — monthly bill payment',   category: 'bills',     direction: 'out' },
+    { uadp_type: 'uadp:account',     title: 'Cuenta Corriente Orbit — main checking',    category: 'checking'                   },
+  ],
+  quality: {
+    data_source:       'institutional',
+    verification:      'verified',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'zinc',    relation: 'linked_account',   description: 'Zinc neobank linked to this Orbit account' },
+    { service: 'market',  relation: 'purchase_records', description: 'Market purchases appear as Orbit charges' },
+    { service: 'flame',   relation: 'food_charges',     description: 'Flame food delivery charges in transactions' },
+    { service: 'compass', relation: 'ride_charges',     description: 'Compass ride fares appear as Orbit charges' },
+  ],
 }
 
 // ---------------------------------------------------------------------------

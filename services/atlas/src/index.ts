@@ -112,11 +112,39 @@ const manifest: UadpManifest = {
       snippet: '$.description',
       meta: ['$.calendar', '$.start_ts | date', '$.location'],
     },
-    domain_tags: ['calendar', 'events', 'schedule', 'meetings', 'appointments'],
+    domain_tags: ['calendar', 'events', 'agenda', 'schedule', 'meetings', 'appointments', 'reminder'],
     relevance_weight: 0.7,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
+  content_stats: {
+    total_items: 500,
+    types: { 'uadp:calendar_event': 500 },
+    update_frequency: 'real-time',
+    last_content_update: '2026-04-08T12:00:00Z',
+  },
+  content_taxonomy: ['work', 'personal', 'birthdays', 'meetings', 'deadlines', 'social'],
+  intents: {
+    'view-schedule': { description: 'View today or weekly event schedule',          endpoints: ['/uadp/v1/events/today', '/uadp/v1/events/upcoming'] },
+    'create-event':  { description: 'View calendars and create a new event',        endpoints: ['/uadp/v1/calendars'],                                auth_required: true },
+    search:          { description: 'Search events by title, location, or keyword', endpoints: ['/uadp/v1/search'] },
+    'set-reminder':  { description: 'View upcoming events with reminders',          endpoints: ['/uadp/v1/events/upcoming'] },
+  },
+  featured: [
+    { uadp_type: 'uadp:calendar_event', title: 'Standup diario — Fintech team 10:00 AM', category: 'meetings',  calendar: 'Trabajo', recurrence: 'daily'  },
+    { uadp_type: 'uadp:calendar_event', title: 'Cumpleaños mamá — April 15',              category: 'birthdays', calendar: 'Personal'                      },
+    { uadp_type: 'uadp:calendar_event', title: 'Sprint review Q2 — presentation',        category: 'deadlines', calendar: 'Trabajo'                       },
+  ],
+  quality: {
+    data_source:       'user-generated',
+    verification:      'none',
+    content_freshness: 'real-time',
+    content_rating:    'general',
+  },
+  relationships: [
+    { service: 'beacon', relation: 'event_invites',  description: 'Atlas calendar invites sent and received via Beacon email' },
+    { service: 'echo',   relation: 'meeting_links',  description: 'Echo meeting links embedded in Atlas event descriptions' },
+  ],
 }
 
 // ── App ─────────────────────────────────────────────────────────────────────
