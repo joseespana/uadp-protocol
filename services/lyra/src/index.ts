@@ -126,6 +126,18 @@ const manifest: UadpManifest = {
     param: 'q',
     fields_searched: ['title', 'artist.name', 'album.name'],
     min_length: 2,
+    response_schema: {
+      result_keys: ['items', 'tracks', 'artists'],
+      result_types: { items: 'uadp:track | uadp:artist', tracks: 'uadp:track', artists: 'uadp:artist' },
+    },
+    preview_fields: {
+      title: '$.title || $.name',
+      snippet: '$.artist.name || $.label',
+      image: '$.album.cover_url || $.image_url',
+      meta: ['$.plays | number', '$.duration_seconds | duration'],
+    },
+    domain_tags: ['music', 'streaming', 'audio', 'playlists', 'artists', 'albums'],
+    relevance_weight: 0.5,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   cache: {
@@ -200,7 +212,7 @@ const app = new Elysia()
     const tracks = data.tracks ?? []
     const artists = data.artists ?? []
     const q = (query.q ?? '').toLowerCase().trim()
-    if (!q) return { type: 'uadp:search', query: '', tracks: [], artists: [], authenticated: !!authToken }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, groups: { tracks: [], artists: [] }, authenticated: !!authToken }
 
     const matchedTracks = tracks.filter(t =>
       t.title.toLowerCase().includes(q) ||
@@ -212,7 +224,8 @@ const app = new Elysia()
       a.name.toLowerCase().includes(q)
     ).slice(0, 10)
 
-    return { type: 'uadp:search', query: q, tracks: matchedTracks, artists: matchedArtists, authenticated: !!authToken }
+    const allResults = [...matchedTracks, ...matchedArtists]
+    return { type: 'uadp:search_results' as const, query: q, items: allResults, total: allResults.length, groups: { tracks: matchedTracks, artists: matchedArtists }, authenticated: !!authToken }
   })
 
   // Now playing (simulated)

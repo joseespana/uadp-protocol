@@ -125,6 +125,18 @@ const manifest: UadpManifest = {
     fields_searched: ['body', 'author.name', 'author.handle', 'tags'],
     min_length: 2,
     sort_options: ['relevance', 'recent', 'popular'],
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:post' },
+    },
+    preview_fields: {
+      title: '$.author.name',
+      snippet: '$.body',
+      image: '$.author.avatar_url',
+      meta: ['$.likes | number', '$.ts | date'],
+    },
+    domain_tags: ['social', 'posts', 'discussions', 'tech', 'community'],
+    relevance_weight: 0.7,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   realtime: [
@@ -217,14 +229,14 @@ const app = new Elysia()
   .get('/uadp/v1/search', ({ query, userId, authToken }) => {
     const allPosts = getUserPosts(userId)
     const q = (query.q ?? '').toLowerCase()
-    if (!q) return { items: [], authenticated: !!authToken }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
     const results = allPosts.filter(
       (p) =>
         p.body.toLowerCase().includes(q) ||
         p.label.toLowerCase().includes(q) ||
         p.tags.some((tag) => tag.toLowerCase().includes(q))
     )
-    return { items: results, authenticated: !!authToken }
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   // Create post

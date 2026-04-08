@@ -26,7 +26,14 @@ The service manifest is a single JSON file served at the well-known path `/.well
       "response_type": "string (optional)"
     }
   ],
-  "ai_hints": "object (required)"
+  "ai_hints": "object (required)",
+  "search": "object (optional)",
+  "pagination": "object (optional)",
+  "realtime": "array (optional)",
+  "cache": "object (optional)",
+  "cross_service_links": "array (optional)",
+  "security_tier": "string (optional)",
+  "versioning": "object (optional)"
 }
 ```
 
@@ -44,6 +51,13 @@ The service manifest is a single JSON file served at the well-known path `/.well
 | `base_url` | string | Yes | Base path for all UADP endpoints. Typically `"/uadp/v1"` |
 | `endpoints` | array | Yes | List of available endpoints. See [Endpoint Objects](#endpoint-objects) |
 | `ai_hints` | object | Yes | AI guidance object. See [AI Hints documentation](ai-hints.md) |
+| `search` | object | No | Search behavior declaration. See [Search Hints](#search-hints) |
+| `pagination` | object | No | Pagination strategy: `cursor`, `offset`, or `page` |
+| `realtime` | array | No | Real-time update channels (SSE, WebSocket, polling) |
+| `cache` | object | No | Cache policies per endpoint path |
+| `cross_service_links` | array | No | Cross-service data links for agent navigation |
+| `security_tier` | string | No | `"standard"` or `"elevated"` (banking/gov) |
+| `versioning` | object | No | Hints version tracking for cache invalidation |
 
 ### Endpoint Objects
 
@@ -79,6 +93,97 @@ Categories follow the `uadp:` namespace convention and can be nested with colons
 | `uadp:productivity:calendar` | Calendar and scheduling | Google Calendar, Outlook |
 
 You can define custom categories for your domain. The convention is `uadp:domain:subdomain`.
+
+### Search Hints
+
+The `search` object declares how agents should construct search queries and parse results. This is critical for cross-service search engines.
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `endpoint` | string | Yes | The search endpoint path |
+| `param` | string | No | Query parameter name (default: `"q"`) |
+| `fields_searched` | string[] | No | Which data fields are searched |
+| `min_length` | number | No | Minimum query length |
+| `filters` | string[] | No | Available filter parameters |
+| `sort_options` | string[] | No | Available sort options |
+| `response_schema` | object | No | Describes the shape of search results |
+| `response_schema.result_keys` | string[] | Yes | Keys in response JSON that hold result arrays. Default: `["items"]` |
+| `response_schema.result_types` | object | Yes | Maps each key to the `uadp_type` it contains |
+| `preview_fields` | object | No | Compact preview mapping for search result display |
+| `preview_fields.title` | string | Yes | JSON path to the display title |
+| `preview_fields.snippet` | string | Yes | JSON path to the text snippet |
+| `preview_fields.image` | string | No | JSON path to thumbnail/image |
+| `preview_fields.meta` | string[] | No | Additional metadata paths with format pipes |
+| `domain_tags` | string[] | No | Semantic tags for cross-service search relevance |
+| `relevance_weight` | number | No | Base weight (0.0–1.0) for cross-service ranking |
+
+**Example:**
+
+```json
+{
+  "search": {
+    "endpoint": "/uadp/v1/search",
+    "param": "q",
+    "fields_searched": ["title", "description", "channel.name", "tags"],
+    "response_schema": {
+      "result_keys": ["items"],
+      "result_types": { "items": "uadp:video" }
+    },
+    "preview_fields": {
+      "title": "$.title",
+      "snippet": "$.description",
+      "image": "$.thumbnail_url",
+      "meta": ["$.views | number", "$.duration_seconds | duration"]
+    },
+    "domain_tags": ["video", "streaming", "tutorials", "entertainment"],
+    "relevance_weight": 0.8
+  }
+}
+```
+
+**Multi-type search (services returning multiple result types):**
+
+```json
+{
+  "search": {
+    "endpoint": "/uadp/v1/search",
+    "response_schema": {
+      "result_keys": ["items", "tracks", "artists"],
+      "result_types": {
+        "items": "uadp:track | uadp:artist",
+        "tracks": "uadp:track",
+        "artists": "uadp:artist"
+      }
+    }
+  }
+}
+```
+
+The `items` key always contains ALL results. Named keys in `groups` provide typed subsets for convenience.
+
+### Standard Search Response
+
+All UADP services **must** return search results in this format:
+
+```json
+{
+  "type": "uadp:search_results",
+  "query": "macbook",
+  "items": [ ... ],
+  "total": 42,
+  "groups": { },
+  "authenticated": true
+}
+```
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `type` | string | Yes | Always `"uadp:search_results"` |
+| `query` | string | Yes | The original search query |
+| `items` | array | Yes | Primary result array — agents check this first |
+| `total` | number | Yes | Total matching results (may exceed `items.length`) |
+| `groups` | object | No | Named sub-arrays for multi-type results |
+| `authenticated` | boolean | No | Whether the request had a valid token |
 
 ## Complete Example
 

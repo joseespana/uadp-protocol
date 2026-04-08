@@ -57,6 +57,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/rides/:id', method: 'GET', description: 'Ride detail', auth_required: false },
     { path: '/uadp/v1/saved-places', method: 'GET', description: 'Saved places (home, work, favorites)', auth_required: false },
     { path: '/uadp/v1/spending', method: 'GET', description: 'Ride spending summary', auth_required: false },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search rides by origin, destination, or driver', auth_required: false },
   ],
   ai_hints: {
     persona: 'Compass is the ride-hailing app — similar to Uber. Request rides, save frequent places, and review ride history.',
@@ -95,6 +96,23 @@ const manifest: UadpManifest = {
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
   } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['origin.name', 'destination.name', 'driver.name', 'ride_type'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:ride' },
+    },
+    preview_fields: {
+      title: '$.label',
+      snippet: '$.driver.name',
+      meta: ['$.fare | money', '$.distance_km | number', '$.ride_type'],
+    },
+    domain_tags: ['transport', 'rides', 'rideshare', 'commute', 'travel'],
+    relevance_weight: 0.4,
+  },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
@@ -164,6 +182,23 @@ const app = new Elysia()
       by_type: byType,
       authenticated: !!authToken,
     }
+  })
+
+  // Search rides
+  .get('/uadp/v1/search', ({ query, userId, authToken }) => {
+    const q = ((query as Record<string, string>).q ?? '').toLowerCase().trim()
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
+
+    const data = getUserData(userId)
+    const results = (data.rides ?? []).filter(r =>
+      r.origin?.name?.toLowerCase().includes(q) ||
+      r.destination?.name?.toLowerCase().includes(q) ||
+      r.driver?.name?.toLowerCase().includes(q) ||
+      r.ride_type?.toLowerCase().includes(q) ||
+      r.label?.toLowerCase().includes(q)
+    ).slice(0, 50)
+
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   .listen(4012)

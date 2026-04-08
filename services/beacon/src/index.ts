@@ -90,6 +90,23 @@ const manifest: UadpManifest = {
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
   } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['subject', 'from.name', 'from.address', 'body_text'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:email' },
+    },
+    preview_fields: {
+      title: '$.subject',
+      snippet: '$.body_text',
+      meta: ['$.from.name', '$.folder', '$.ts | date'],
+    },
+    domain_tags: ['email', 'communication', 'notifications', 'work', 'personal'],
+    relevance_weight: 0.6,
+  },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
@@ -147,14 +164,14 @@ const app = new Elysia()
     const data = getUserData(userId)
     const emails = data.emails ?? []
     const q = (query.q ?? '').toLowerCase().trim()
-    if (!q) return { type: 'uadp:search', query: '', items: [] }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
     const results = emails.filter(e =>
       e.subject.toLowerCase().includes(q) ||
       e.from.name.toLowerCase().includes(q) ||
       e.from.address.toLowerCase().includes(q) ||
       e.body_text.toLowerCase().includes(q)
     )
-    return { type: 'uadp:search', query: q, items: results }
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   // Folders summary

@@ -158,6 +158,17 @@ const manifest: UadpManifest = {
     param: 'q',
     fields_searched: ['label', 'merchant.name', 'merchant.category'],
     filters: ['from_ts', 'to_ts', 'direction', 'min_amount', 'max_amount'],
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:transaction' },
+    },
+    preview_fields: {
+      title: '$.label',
+      snippet: '$.merchant.name',
+      meta: ['$.amount | money', '$.direction', '$.ts | date'],
+    },
+    domain_tags: ['banking', 'finance', 'transactions', 'payments', 'salary'],
+    relevance_weight: 0.7,
   },
   pagination: { strategy: 'cursor', default_page_size: 25, max_page_size: 100 },
   cache: {

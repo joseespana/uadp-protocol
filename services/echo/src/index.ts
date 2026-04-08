@@ -93,6 +93,17 @@ const manifest: UadpManifest = {
     param: 'q',
     fields_searched: ['name', 'members.name', 'last_message.body'],
     min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:message' },
+    },
+    preview_fields: {
+      title: '$.author.name',
+      snippet: '$.body',
+      meta: ['$.conversation_name', '$.ts | date'],
+    },
+    domain_tags: ['messaging', 'chat', 'conversations', 'contacts'],
+    relevance_weight: 0.4,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   realtime: [
@@ -204,7 +215,7 @@ const app = new Elysia()
     const conversations = getConversations(userId)
     const messages = getMessages(userId)
     const q = (query.q ?? '').toLowerCase()
-    if (!q) return { type: 'uadp:list' as const, items: [], authenticated: !!authToken }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
 
     const results: (UadpMessage & { conversation_name?: string })[] = []
     for (const conv of conversations) {
@@ -215,7 +226,7 @@ const app = new Elysia()
         }
       }
     }
-    return { type: 'uadp:list' as const, items: results, authenticated: !!authToken }
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   }, {
     query: t.Object({ q: t.Optional(t.String()) }),
   })

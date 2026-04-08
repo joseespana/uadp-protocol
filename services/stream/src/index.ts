@@ -118,6 +118,18 @@ const manifest: UadpManifest = {
     fields_searched: ['title', 'description', 'channel.name', 'tags'],
     min_length: 2,
     sort_options: ['relevance', 'date', 'views'],
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:video' },
+    },
+    preview_fields: {
+      title: '$.title',
+      snippet: '$.description',
+      image: '$.thumbnail_url',
+      meta: ['$.views | number', '$.duration_seconds | duration', '$.channel.name'],
+    },
+    domain_tags: ['video', 'streaming', 'tutorials', 'tech', 'entertainment', 'reviews'],
+    relevance_weight: 0.8,
   },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   cache: {
@@ -184,7 +196,7 @@ const app = new Elysia()
   .get('/uadp/v1/search', ({ query, userId, authToken }) => {
     const data = getUserData(userId)
     const q = (query.q ?? '').toLowerCase().trim()
-    if (!q) return { type: 'uadp:search', query: '', items: [], authenticated: !!authToken }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
 
     const allVideos = [...(data.feed ?? []), ...(data.history ?? []), ...(data.user_videos ?? [])]
     const seen = new Set<string>()
@@ -199,7 +211,7 @@ const app = new Elysia()
       }
     }
 
-    return { type: 'uadp:search', query: q, items: results, authenticated: !!authToken }
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   // Playback state

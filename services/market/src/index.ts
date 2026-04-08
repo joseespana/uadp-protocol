@@ -152,6 +152,18 @@ const manifest: UadpManifest = {
     min_length: 2,
     filters: ['category', 'min_price', 'max_price'],
     sort_options: ['relevance', 'price_asc', 'price_desc', 'rating', 'reviews'],
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:product' },
+    },
+    preview_fields: {
+      title: '$.title',
+      snippet: '$.description',
+      image: '$.image_url',
+      meta: ['$.price | money', '$.rating | stars', '$.reviews_count | number'],
+    },
+    domain_tags: ['shopping', 'products', 'e-commerce', 'electronics', 'books', 'clothing'],
+    relevance_weight: 0.9,
   },
   pagination: { strategy: 'page', default_page_size: 20, max_page_size: 50 },
   cache: {
@@ -238,11 +250,12 @@ const app = new Elysia()
     const paged = results.slice(start, start + limit)
 
     return {
-      type: 'uadp:list',
+      type: 'uadp:search_results' as const,
+      query: params.q || '',
+      items: paged,
       total: results.length,
       page,
       page_size: limit,
-      items: paged,
       authenticated: !!authToken,
     }
   })

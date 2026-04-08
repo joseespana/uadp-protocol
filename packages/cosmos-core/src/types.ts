@@ -163,6 +163,49 @@ export interface UadpSearchHints {
   filters?: string[]
   /** Available sort options. */
   sort_options?: string[]
+
+  // ── Search Response Contract (v2.1) ──────────────────────────────
+
+  /** Describes the shape of search responses so agents can parse them generically. */
+  response_schema?: {
+    /** Key(s) in the response JSON that hold result arrays. Default: ["items"]. */
+    result_keys: string[]
+    /** Maps each result key to the uadp_type it contains. */
+    result_types: Record<string, string>
+  }
+
+  /** Compact preview mapping for cross-service search result display. */
+  preview_fields?: {
+    /** JSON path to the display title. e.g. "$.title" */
+    title: string
+    /** JSON path to the text snippet. e.g. "$.body" */
+    snippet: string
+    /** JSON path to thumbnail/image. e.g. "$.thumbnail_url" */
+    image?: string
+    /** Additional metadata paths. e.g. ["$.likes | number", "$.ts | date"] */
+    meta?: string[]
+  }
+
+  /** Semantic domain tags for cross-service search relevance ranking. */
+  domain_tags?: string[]
+
+  /** Base relevance weight (0.0–1.0) for cross-service search prioritization. Higher = more likely to surface. */
+  relevance_weight?: number
+}
+
+/** Standard search response that all UADP services should return. */
+export interface UadpSearchResponse {
+  type: 'uadp:search_results'
+  /** The original query string. */
+  query: string
+  /** Primary result array — agents should always check this key first. */
+  items: UadpItem[]
+  /** Total number of matching results (may be greater than items.length). */
+  total: number
+  /** Optional grouped results for services that return multiple types. */
+  groups?: Record<string, UadpItem[]>
+  /** Whether the request was authenticated. */
+  authenticated?: boolean
 }
 
 /** Pagination strategy declaration. */

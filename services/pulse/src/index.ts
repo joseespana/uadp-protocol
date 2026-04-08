@@ -59,7 +59,8 @@ const userProfiles = new Map<string, Map<string, PulsePhoto['author']>>()
 
 for (const [userId, data] of allUsersData) {
   const feed = data.feed ?? []
-  userAllPosts.set(userId, [...feed])
+  const userPosts = data.user_posts ?? []
+  userAllPosts.set(userId, [...feed, ...userPosts])
   userStories.set(userId, data.stories ?? [])
   userExplore.set(userId, data.explore ?? [])
 
@@ -106,6 +107,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/post/create', method: 'POST', description: 'Create a media post', auth_required: true },
     { path: '/uadp/v1/post/:id/like', method: 'POST', description: 'Like a post', auth_required: true },
     { path: '/uadp/v1/dm/inbox', method: 'GET', description: 'Direct messages inbox', auth_required: false },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search posts by caption, author, or tags', auth_required: false },
   ],
   ai_hints: {
     persona: 'Pulse is a visual social network combining Instagram and TikTok. Content includes photos, carousels, and short-form vertical videos.',
@@ -148,12 +150,31 @@ const manifest: UadpManifest = {
       'Explore trending visual content',
       'View stories from friends',
       'Post a new photo with a caption',
+      'Search for specific posts or creators',
     ],
     auth: {
       method: 'Bearer token in Authorization header',
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
   } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['body', 'author.name', 'author.handle', 'tags'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:media_post' },
+    },
+    preview_fields: {
+      title: '$.author.name',
+      snippet: '$.body',
+      image: '$.thumbnail_url',
+      meta: ['$.likes | number', '$.media_type'],
+    },
+    domain_tags: ['visual', 'photos', 'videos', 'reels', 'social', 'creators'],
+    relevance_weight: 0.6,
+  },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   realtime: [
     { transport: 'sse', endpoint: '/uadp/v1/feed/stream', event_types: ['new_post'], event_schema: 'uadp:media_post', trigger: 'on_view_open' },
@@ -322,6 +343,22 @@ const app = new Elysia()
   // DM inbox (stub)
   .get('/uadp/v1/dm/inbox', ({ authToken }) => {
     return { items: [], authenticated: !!authToken }
+  })
+
+  // Search posts by caption, author, or tags
+  .get('/uadp/v1/search', ({ query, userId, authToken }) => {
+    const q = ((query as Record<string, string>).q ?? '').toLowerCase().trim()
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
+
+    const allPosts = getAllPosts(userId)
+    const results = allPosts.filter(p =>
+      p.body?.toLowerCase().includes(q) ||
+      p.author?.name?.toLowerCase().includes(q) ||
+      p.author?.handle?.toLowerCase().includes(q) ||
+      p.tags?.some(t => t.toLowerCase().includes(q))
+    ).slice(0, 50)
+
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   .listen(4002)

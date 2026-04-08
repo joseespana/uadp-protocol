@@ -47,6 +47,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/spending/analytics', method: 'GET', description: 'Spending breakdown by category', auth_required: false },
     { path: '/uadp/v1/fx/rate', method: 'GET', description: 'Current USD/EUR exchange rate', auth_required: false },
     { path: '/uadp/v1/fx/convert', method: 'POST', description: 'Convert an amount between currencies', auth_required: true },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search transactions by merchant, label, or category', auth_required: false },
   ],
   ai_hints: {
     persona: 'Zinc is a neobank for international purchases. USD accounts with FX conversion, cashback on foreign transactions, and a zinc_points loyalty program.',
@@ -93,6 +94,23 @@ const manifest: UadpManifest = {
   } satisfies UadpAiHints,
   security_tier: 'elevated',
   pagination: { strategy: 'cursor', default_page_size: 25, max_page_size: 100 },
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['label', 'merchant.name', 'merchant.category'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:transaction' },
+    },
+    preview_fields: {
+      title: '$.label',
+      snippet: '$.merchant.name',
+      meta: ['$.amount | money', '$.ext.cashback | number', '$.ts | date'],
+    },
+    domain_tags: ['banking', 'international', 'credit-card', 'subscriptions', 'cashback'],
+    relevance_weight: 0.5,
+  },
   cache: {
     '/uadp/v1/accounts': { max_age_seconds: 300, offline_safe: false },
   },
@@ -214,6 +232,21 @@ const app = new Elysia()
       ts: Math.floor(Date.now() / 1000),
       authenticated: !!authToken,
     }
+  })
+
+  // Search transactions
+  .get('/uadp/v1/search', ({ query, userId, authToken }) => {
+    const q = ((query as Record<string, string>).q ?? '').toLowerCase().trim()
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
+
+    const data = getUserData(userId)
+    const results = (data.transactions ?? []).filter(tx =>
+      tx.label?.toLowerCase().includes(q) ||
+      tx.merchant?.name?.toLowerCase().includes(q) ||
+      tx.merchant?.category?.toLowerCase().includes(q)
+    ).slice(0, 50)
+
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   .listen(4004)

@@ -116,6 +116,57 @@ All responses follow a consistent structure depending on whether they return a l
 }
 ```
 
+### Search Response
+
+All search endpoints return a standardized `uadp:search_results` response:
+
+```json
+{
+  "type": "uadp:search_results",
+  "query": "macbook",
+  "items": [
+    {
+      "uadp_type": "uadp:video",
+      "id": "stream:vid:abc123",
+      "ts": 1774302750,
+      "title": "MacBook Pro M5 review: is it worth the upgrade?",
+      "description": "Full review after 30 days...",
+      "thumbnail_url": "https://picsum.photos/seed/vid_abc/1280/720",
+      "views": 125000,
+      "channel": { "name": "Tech Explained" }
+    }
+  ],
+  "total": 42,
+  "authenticated": true
+}
+```
+
+| Field | Type | Description |
+|---|---|---|
+| `type` | string | Always `"uadp:search_results"` &mdash; agents can reliably check this |
+| `query` | string | The original search query string |
+| `items` | array | Primary result array. Each item has a `uadp_type` field |
+| `total` | number | Total matching results (may be greater than `items.length`) |
+| `groups` | object | Optional named sub-arrays for services returning multiple types |
+| `authenticated` | boolean | Whether the request included a valid bearer token |
+
+**Multi-type search** &mdash; Services like music (tracks + artists) or food delivery (orders + restaurants) include all results in `items` AND provide typed groups:
+
+```json
+{
+  "type": "uadp:search_results",
+  "query": "moon",
+  "items": [ ...all results mixed... ],
+  "total": 21,
+  "groups": {
+    "tracks": [ ...only tracks... ],
+    "artists": [ ...only artists... ]
+  }
+}
+```
+
+The manifest's `search.response_schema` declares which keys and types are available.
+
 ### Error Response
 
 ```json

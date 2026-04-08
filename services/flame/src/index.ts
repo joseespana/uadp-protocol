@@ -74,6 +74,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/favorites', method: 'GET', description: 'Favorite restaurants', auth_required: false },
     { path: '/uadp/v1/reorder/:orderId', method: 'POST', description: 'Re-order a past order', auth_required: true },
     { path: '/uadp/v1/spending', method: 'GET', description: 'Food delivery spending summary', auth_required: false },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search orders and restaurants by name, cuisine, or items', auth_required: false },
   ],
   ai_hints: {
     persona: 'Flame is the food delivery app — similar to Uber Eats / Rappi. Order food from restaurants with delivery tracking.',
@@ -116,6 +117,24 @@ const manifest: UadpManifest = {
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
   } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['restaurant.name', 'restaurant.cuisine', 'items.name', 'label'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items', 'orders', 'restaurants'],
+      result_types: { items: 'uadp:food_order | uadp:restaurant', orders: 'uadp:food_order', restaurants: 'uadp:restaurant' },
+    },
+    preview_fields: {
+      title: '$.restaurant.name || $.name',
+      snippet: '$.restaurant.cuisine || $.cuisine',
+      image: '$.restaurant.image_url || $.image_url',
+      meta: ['$.total | money', '$.status', '$.ts | date'],
+    },
+    domain_tags: ['food', 'delivery', 'restaurants', 'dining', 'takeout'],
+    relevance_weight: 0.6,
+  },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
@@ -207,6 +226,30 @@ const app = new Elysia()
       by_cuisine: byCuisine,
       authenticated: !!authToken,
     }
+  })
+
+  // Search orders and restaurants
+  .get('/uadp/v1/search', ({ query, userId, authToken }) => {
+    const q = ((query as Record<string, string>).q ?? '').toLowerCase().trim()
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, groups: { orders: [], restaurants: [] }, authenticated: !!authToken }
+
+    const orders = getOrders(userId)
+    const restaurants = getRestaurants(userId)
+
+    const matchedOrders = orders.filter(o =>
+      o.restaurant?.name?.toLowerCase().includes(q) ||
+      o.restaurant?.cuisine?.toLowerCase().includes(q) ||
+      o.items?.some(it => it.name?.toLowerCase().includes(q)) ||
+      o.label?.toLowerCase().includes(q)
+    ).slice(0, 50)
+
+    const matchedRestaurants = restaurants.filter(r =>
+      r.name?.toLowerCase().includes(q) ||
+      r.cuisine?.toLowerCase().includes(q)
+    )
+
+    const allResults = [...matchedOrders, ...matchedRestaurants]
+    return { type: 'uadp:search_results' as const, query: q, items: allResults, total: allResults.length, groups: { orders: matchedOrders, restaurants: matchedRestaurants }, authenticated: !!authToken }
   })
 
   .listen(4013)

@@ -54,6 +54,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/events/upcoming', method: 'GET', description: 'Next 7 days of events', auth_required: false },
     { path: '/uadp/v1/events/:id', method: 'GET', description: 'Event detail', auth_required: false },
     { path: '/uadp/v1/calendars', method: 'GET', description: 'Available calendars', auth_required: false },
+    { path: '/uadp/v1/search', method: 'GET', description: 'Search events by title, description, or location', auth_required: false },
   ],
   ai_hints: {
     persona: 'Atlas is the calendar service — similar to Google Calendar. Multiple calendars with color coding, recurring events, and attendee management.',
@@ -97,6 +98,23 @@ const manifest: UadpManifest = {
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
   } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['title', 'description', 'location', 'calendar'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:calendar_event' },
+    },
+    preview_fields: {
+      title: '$.title',
+      snippet: '$.description',
+      meta: ['$.calendar', '$.start_ts | date', '$.location'],
+    },
+    domain_tags: ['calendar', 'events', 'schedule', 'meetings', 'appointments'],
+    relevance_weight: 0.7,
+  },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
@@ -164,6 +182,22 @@ const app = new Elysia()
   .get('/uadp/v1/calendars', ({ userId, authToken }) => {
     const data = getUserData(userId)
     return { type: 'uadp:calendars', items: data.calendars ?? [], authenticated: !!authToken }
+  })
+
+  // Search events
+  .get('/uadp/v1/search', ({ query, userId, authToken }) => {
+    const q = ((query as Record<string, string>).q ?? '').toLowerCase().trim()
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
+
+    const data = getUserData(userId)
+    const results = (data.events ?? []).filter(e =>
+      e.title?.toLowerCase().includes(q) ||
+      e.description?.toLowerCase().includes(q) ||
+      e.location?.toLowerCase().includes(q) ||
+      e.calendar?.toLowerCase().includes(q)
+    ).slice(0, 50)
+
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   .listen(4014)

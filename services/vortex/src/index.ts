@@ -115,6 +115,24 @@ const manifest: UadpManifest = {
       get_token: 'POST /uadp/v1/auth/register with email, then POST /uadp/v1/auth/login with email and passkey',
     },
   } satisfies UadpAiHints,
+  search: {
+    endpoint: '/uadp/v1/search',
+    query_param: 'q',
+    fields_searched: ['title', 'synopsis', 'genre'],
+    min_length: 2,
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:title' },
+    },
+    preview_fields: {
+      title: '$.title',
+      snippet: '$.synopsis',
+      image: '$.poster_url',
+      meta: ['$.rating | stars', '$.year | number', '$.type'],
+    },
+    domain_tags: ['movies', 'series', 'streaming', 'entertainment', 'vod'],
+    relevance_weight: 0.5,
+  },
   pagination: { strategy: 'cursor', default_page_size: 20, max_page_size: 50 },
   versioning: { hints_version: '2.0.0', last_updated: 1743300000 },
 }
@@ -178,13 +196,13 @@ const app = new Elysia()
   // Search (public)
   .get('/uadp/v1/search', ({ query, authToken }) => {
     const q = (query.q ?? '').toLowerCase().trim()
-    if (!q) return { type: 'uadp:search', query: '', items: [], authenticated: !!authToken }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
     const results = catalog.filter(t =>
       t.title.toLowerCase().includes(q) ||
       t.synopsis.toLowerCase().includes(q) ||
       t.genre.some(g => g.toLowerCase().includes(q))
     )
-    return { type: 'uadp:search', query: q, items: results, authenticated: !!authToken }
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   })
 
   .listen(4010)

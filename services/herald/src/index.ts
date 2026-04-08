@@ -102,6 +102,18 @@ const manifest: UadpManifest = {
     fields_searched: ['title', 'summary', 'body_markdown', 'author_name', 'category'],
     min_length: 2,
     filters: ['category'],
+    response_schema: {
+      result_keys: ['items'],
+      result_types: { items: 'uadp:article' },
+    },
+    preview_fields: {
+      title: '$.title',
+      snippet: '$.summary',
+      image: '$.image_url',
+      meta: ['$.category', '$.read_time_min | number', '$.ts | date'],
+    },
+    domain_tags: ['news', 'articles', 'journalism', 'current-events', 'analysis'],
+    relevance_weight: 0.8,
   },
   pagination: { strategy: 'cursor', default_page_size: 15, max_page_size: 50 },
   cache: {
@@ -153,14 +165,14 @@ const app = new Elysia()
   // Search articles
   .get('/uadp/v1/search', ({ query, authToken }) => {
     const q = (query.q ?? '').toLowerCase()
-    if (!q) return { type: 'uadp:feed' as const, cursor: null, items: [], authenticated: !!authToken }
+    if (!q) return { type: 'uadp:search_results' as const, query: '', items: [], total: 0, authenticated: !!authToken }
     const results = articles.filter(a =>
       a.title.toLowerCase().includes(q) ||
       a.summary.toLowerCase().includes(q) ||
       a.category.toLowerCase().includes(q) ||
       a.author_name.toLowerCase().includes(q)
     )
-    return { type: 'uadp:feed' as const, cursor: null, items: results, authenticated: !!authToken }
+    return { type: 'uadp:search_results' as const, query: q, items: results, total: results.length, authenticated: !!authToken }
   }, {
     query: t.Object({ q: t.Optional(t.String()) }),
   })

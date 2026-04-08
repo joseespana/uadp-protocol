@@ -357,21 +357,67 @@ bun run dev     # Start all services in parallel
 | Service | Port | Category | Description | Key Endpoints |
 |---|---|---|---|---|
 | **Nova** | 4001 | `reading_social` | Text social network | `/feed`, `/search`, `/trending`, `/post/create` |
-| **Pulse** | 4002 | `visual_social` | Visual social network | `/feed`, `/explore`, `/stories`, `/post/create` |
-| **Orbit** | 4003 | `banking` | Primary bank | `/accounts`, `/transactions`, `/spending/analytics`, `/transfer/initiate` |
-| **Zinc** | 4004 | `banking` | International neobank | `/accounts`, `/transactions`, `/fx/rate`, `/fx/convert` |
+| **Pulse** | 4002 | `visual_social` | Visual social network | `/feed`, `/search`, `/explore`, `/stories`, `/post/create` |
+| **Orbit** | 4003 | `banking` | Primary bank | `/accounts`, `/transactions` (with search filters), `/spending/analytics` |
+| **Zinc** | 4004 | `banking` | International neobank | `/accounts`, `/transactions`, `/search`, `/fx/rate`, `/fx/convert` |
 | **Market** | 4005 | `commerce` | E-commerce store | `/products/search`, `/orders`, `/cart`, `/wishlist` |
-| **Stream** | 4006 | `media:video` | Video platform | `/feed`, `/history`, `/search`, `/subscriptions` |
-| **Echo** | 4007 | `messaging` | Instant messaging | `/inbox`, `/conversation/:id`, `/message/send` |
-| **Herald** | 4008 | `news` | News portal | `/feed/latest`, `/feed/category/:cat`, `/search` |
-| **Lyra** | 4009 | `media:music` | Music streaming | `/recently-played`, `/playlists`, `/liked`, `/now-playing` |
-| **Vortex** | 4010 | `media:vod` | Movies & series | `/continue-watching`, `/my-list`, `/catalog`, `/trending` |
-| **Beacon** | 4011 | `communication:email` | Email client | `/inbox`, `/folder/:folder`, `/search`, `/starred` |
-| **Compass** | 4012 | `transport:rideshare` | Ride-hailing | `/rides`, `/saved-places`, `/spending` |
-| **Flame** | 4013 | `food:delivery` | Food delivery | `/orders`, `/restaurants`, `/favorites`, `/spending` |
-| **Atlas** | 4014 | `productivity:calendar` | Calendar & events | `/events/today`, `/events/upcoming`, `/calendars` |
+| **Stream** | 4006 | `media:video` | Video platform | `/feed`, `/search`, `/history`, `/subscriptions` |
+| **Echo** | 4007 | `messaging` | Instant messaging | `/inbox`, `/search`, `/conversation/:id`, `/message/send` |
+| **Herald** | 4008 | `news` | News portal | `/feed/latest`, `/search`, `/feed/category/:cat` |
+| **Lyra** | 4009 | `media:music` | Music streaming | `/search`, `/recently-played`, `/playlists`, `/liked` |
+| **Vortex** | 4010 | `media:vod` | Movies & series | `/search`, `/continue-watching`, `/my-list`, `/catalog` |
+| **Beacon** | 4011 | `communication:email` | Email client | `/inbox`, `/search`, `/folder/:folder`, `/starred` |
+| **Compass** | 4012 | `transport:rideshare` | Ride-hailing | `/rides`, `/search`, `/saved-places`, `/spending` |
+| **Flame** | 4013 | `food:delivery` | Food delivery | `/orders`, `/search`, `/restaurants`, `/favorites` |
+| **Atlas** | 4014 | `productivity:calendar` | Calendar & events | `/events/today`, `/search`, `/events/upcoming`, `/calendars` |
 
-All endpoints are prefixed with `/uadp/v1/`. Every service also exposes `/.well-known/uadp.json` and the auth endpoints (`/register`, `/login`, `/verify`).
+All 14 services support search via `/uadp/v1/search?q=...` (or domain-specific paths like Market's `/products/search`). All return the standard `uadp:search_results` response format. Every service also exposes `/.well-known/uadp.json` and the auth endpoints (`/register`, `/login`, `/verify`).
+
+---
+
+## Cross-Service Search
+
+UADP enables unified search across all services through standardized manifest declarations. An AI agent can:
+
+1. **Discover search capabilities** from each service's `search` block in the manifest
+2. **Route queries intelligently** using `domain_tags` and `relevance_weight`
+3. **Parse results generically** via `response_schema.result_keys` and `response_schema.result_types`
+4. **Display previews** using `preview_fields` for compact, cross-service result cards
+
+### How Cross-Service Search Works
+
+```
+User: "Show me everything about macbook"
+
+Agent reads manifests → matches "macbook" against domain_tags:
+  Market  (relevance: 0.9, tags: [shopping, products, electronics]) → HIGH
+  Stream  (relevance: 0.8, tags: [video, tutorials, reviews])       → HIGH
+  Herald  (relevance: 0.8, tags: [news, articles])                  → HIGH
+  Nova    (relevance: 0.7, tags: [social, posts])                   → MEDIUM
+  Echo    (relevance: 0.4, tags: [messaging, chat])                 → LOW → skip
+
+Agent calls search on top services → merges results using preview_fields:
+  [Product] MacBook Pro M5 14" — $2,499 ★★★★★
+  [Video]   MacBook Pro M5 review: is it worth it? — 125K views
+  [Article] MacBook Pro M5: Apple's Fusion Architecture — 8 min read
+  [Post]    Just upgraded to the M5 MacBook. Battery life is absurd...
+```
+
+### Standard Search Response
+
+All services return `uadp:search_results`:
+
+```json
+{
+  "type": "uadp:search_results",
+  "query": "macbook",
+  "items": [ { "uadp_type": "uadp:product", ... }, ... ],
+  "total": 42,
+  "authenticated": true
+}
+```
+
+See [Search Hints](docs/service-manifest.md#search-hints) for the full manifest specification.
 
 ---
 
