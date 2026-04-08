@@ -69,6 +69,7 @@ const manifest: UadpManifest = {
     { path: '/uadp/v1/notifications',   method: 'GET',  description: 'User notifications',              auth_required: false },
     { path: '/uadp/v1/search',          method: 'GET',  description: 'Search posts',                    auth_required: false },
     { path: '/uadp/v1/post/create',     method: 'POST', description: 'Create a new post',               auth_required: true },
+    { path: '/uadp/v1/post/:id/thread', method: 'GET',  description: 'Get post with replies/thread',    auth_required: false },
     { path: '/uadp/v1/post/:id/like',   method: 'POST', description: 'Like a post',                     auth_required: true },
     { path: '/uadp/v1/trending',        method: 'GET',  description: 'Trending topics',                 auth_required: false },
   ],
@@ -310,6 +311,69 @@ const app = new Elysia()
       }),
     }
   )
+
+  // Thread / replies for a post
+  .get('/uadp/v1/post/:id/thread', ({ params, userId, authToken }) => {
+    const allPosts = getUserPosts(userId)
+    const post = allPosts.find((p) => p.id === params.id)
+    if (!post) {
+      return new Response(JSON.stringify({ error: 'Post not found' }), { status: 404 })
+    }
+
+    // Generate deterministic fake replies based on post ID
+    const replyCount = post.replies_count || post.comments_count || 0
+    const actualCount = Math.min(replyCount, 15) // cap at 15 replies
+    const replyAuthors = [
+      { id: 'reply_user_1', name: 'María García', handle: '@maria_dev', avatar_url: 'https://picsum.photos/seed/reply1/100/100' },
+      { id: 'reply_user_2', name: 'Carlos López', handle: '@carlos_tech', avatar_url: 'https://picsum.photos/seed/reply2/100/100' },
+      { id: 'reply_user_3', name: 'Ana Martínez', handle: '@ana_writes', avatar_url: 'https://picsum.photos/seed/reply3/100/100' },
+      { id: 'reply_user_4', name: 'Diego Ruiz', handle: '@diego_sf', avatar_url: 'https://picsum.photos/seed/reply4/100/100' },
+      { id: 'reply_user_5', name: 'Sofia Chen', handle: '@sofia_ux', avatar_url: 'https://picsum.photos/seed/reply5/100/100' },
+      { id: 'reply_user_6', name: 'Javier Morales', handle: '@javi_code', avatar_url: 'https://picsum.photos/seed/reply6/100/100' },
+      { id: 'reply_user_7', name: 'Valentina Torres', handle: '@val_design', avatar_url: 'https://picsum.photos/seed/reply7/100/100' },
+      { id: 'reply_user_8', name: 'Lucas Hernández', handle: '@lucas_pm', avatar_url: 'https://picsum.photos/seed/reply8/100/100' },
+    ]
+    const replyBodies = [
+      'Totally agree with this! Great perspective.',
+      'Interesting take. I had a different experience though — the key is consistency.',
+      'This is exactly what I was thinking about yesterday. Well said!',
+      'Hot take but I think you\'re right. The industry needs to catch up.',
+      '100% this. Shared with my team.',
+      'Hmm, not sure I agree. What about the edge cases?',
+      'This changed my mind about the whole topic. Thanks for sharing.',
+      'Been saying this for years! Finally someone gets it.',
+      'Great thread. Would love to see a follow-up on this.',
+      'Saving this for later. Really insightful.',
+      'The data backs this up. I did some research last week and found similar patterns.',
+      'Counterpoint: what if we approach it from the user\'s perspective instead?',
+      'This is why I follow you. Always dropping knowledge.',
+      'Just tried this approach and it actually works. Mind blown.',
+      'Nuanced take. Refreshing to see this kind of discussion here.',
+    ]
+
+    const replies = Array.from({ length: actualCount }, (_, i) => ({
+      uadp_type: 'uadp:post' as const,
+      id: `${post.id}:reply:${i}`,
+      ts: post.ts - (actualCount - i) * 300, // replies spread over time
+      label: replyBodies[i % replyBodies.length].slice(0, 60),
+      body: replyBodies[i % replyBodies.length],
+      author: { ...replyAuthors[i % replyAuthors.length], verified: i % 5 === 0 },
+      likes: Math.floor(Math.random() * 50),
+      reposts: Math.floor(Math.random() * 10),
+      replies_count: 0,
+      lang: 'en',
+      tags: [],
+      parent_id: post.id,
+    }))
+
+    return {
+      type: 'uadp:thread',
+      post,
+      replies,
+      total_replies: replyCount,
+      authenticated: !!authToken,
+    }
+  })
 
   // Like post
   .post('/uadp/v1/post/:id/like', ({ params, userId, authToken }) => {
