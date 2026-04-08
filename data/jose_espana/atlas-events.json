@@ -2,498 +2,7 @@
   "events": [
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:62JKvadtYkqA",
-      "ts": 1773723600,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1773723600,
-      "end_ts": 1773726300,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:cjdwEambWrae",
-      "ts": 1773741600,
-      "label": "1:1 with Alex (QA)",
-      "title": "1:1 with Alex (QA)",
-      "description": "Weekly 1:1 with Alex Morgan",
-      "start_ts": 1773741600,
-      "end_ts": 1773743400,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:37NqPff38oyr",
-      "ts": 1773811800,
-      "label": "Gym — Strength & HIIT",
-      "title": "Gym — Strength & HIIT",
-      "description": "Strength training and HIIT at GymFit Black",
-      "start_ts": 1773811800,
-      "end_ts": 1773815400,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:aVUrwAXb0isO",
-      "ts": 1773838800,
-      "label": "Client Call — TechNova",
-      "title": "Client Call — TechNova",
-      "description": "Bi-weekly sync with TechNova client",
-      "start_ts": 1773838800,
-      "end_ts": 1773841500,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:P4WeuFGPEWyZ",
-      "ts": 1773896400,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1773896400,
-      "end_ts": 1773899100,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:8nolpvMvCkZb",
-      "ts": 1773928800,
-      "label": "Architecture Review",
-      "title": "Architecture Review",
-      "description": "Weekly ML pipeline architecture review",
-      "start_ts": 1773928800,
-      "end_ts": 1773932400,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:R4jKdHcEkYlI",
-      "ts": 1773984600,
-      "label": "Gym — Strength & HIIT",
-      "title": "Gym — Strength & HIIT",
-      "description": "Strength training and HIIT at GymFit Black",
-      "start_ts": 1773984600,
-      "end_ts": 1773988200,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:XvDZJ6IYzO1V",
-      "ts": 1774069200,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1774069200,
-      "end_ts": 1774071900,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:1tEMXGAmkc5Z",
-      "ts": 1774243800,
-      "label": "Gym — Strength & HIIT",
-      "title": "Gym — Strength & HIIT",
-      "description": "Strength training and HIIT at GymFit Black",
-      "start_ts": 1774243800,
-      "end_ts": 1774247400,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:wcKoAhViwF3O",
-      "ts": 1774256400,
-      "label": "Sprint Planning",
-      "title": "Sprint Planning",
-      "description": "Monday sprint planning with the team",
-      "start_ts": 1774256400,
-      "end_ts": 1774260000,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:XegqipGXXavM",
-      "ts": 1774328400,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1774328400,
-      "end_ts": 1774331100,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:JtStRe9YYVQE",
-      "ts": 1774346400,
-      "label": "1:1 with Alex (QA)",
-      "title": "1:1 with Alex (QA)",
-      "description": "Weekly 1:1 with Alex Morgan",
-      "start_ts": 1774346400,
-      "end_ts": 1774348200,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:kr1G4tWDj58o",
-      "ts": 1774416600,
-      "label": "Gym — Strength & HIIT",
-      "title": "Gym — Strength & HIIT",
-      "description": "Strength training and HIIT at GymFit Black",
-      "start_ts": 1774416600,
-      "end_ts": 1774420200,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:J6Vpt4Rw2I2q",
-      "ts": 1774443600,
-      "label": "Client Call — TechNova",
-      "title": "Client Call — TechNova",
-      "description": "Bi-weekly sync with TechNova client",
-      "start_ts": 1774443600,
-      "end_ts": 1774446300,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:VDftWai29NlX",
-      "ts": 1774501200,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1774501200,
-      "end_ts": 1774503900,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:KPnh5xWnshWl",
-      "ts": 1774533600,
-      "label": "Architecture Review",
-      "title": "Architecture Review",
-      "description": "Weekly ML pipeline architecture review",
-      "start_ts": 1774533600,
-      "end_ts": 1774537200,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:cD9cHVCsy0B7",
-      "ts": 1774551600,
-      "label": "Dinner reservation — Atelier Crenn",
-      "title": "Dinner reservation — Atelier Crenn",
-      "description": "Anniversary dinner with Sofia",
-      "start_ts": 1774551600,
-      "end_ts": 1774555200,
-      "all_day": false,
-      "location": "Atelier Crenn, Pacific Heights, SF",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:nSqsrISCQH3U",
-      "ts": 1774589400,
-      "label": "Gym — Strength & HIIT",
-      "title": "Gym — Strength & HIIT",
-      "description": "Strength training and HIIT at GymFit Black",
-      "start_ts": 1774589400,
-      "end_ts": 1774593000,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:geBal0eueBmb",
-      "ts": 1774674000,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1774674000,
-      "end_ts": 1774676700,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:3qXsfYtSYcet",
-      "ts": 1774695600,
-      "label": "Family Brunch",
-      "title": "Family Brunch",
-      "description": "Sunday brunch with parents",
-      "start_ts": 1774695600,
-      "end_ts": 1774699200,
-      "all_day": false,
-      "location": "Mom's house",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:zz9gMd9wvhve",
-      "ts": 1774845000,
-      "label": "Gym — Strength & HIIT",
-      "title": "Gym — Strength & HIIT",
-      "description": "Strength training and HIIT at GymFit Black",
-      "start_ts": 1774845000,
-      "end_ts": 1774848600,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:PQGCXddrx80G",
-      "ts": 1774857600,
-      "label": "Sprint Planning",
-      "title": "Sprint Planning",
-      "description": "Monday sprint planning with the team",
-      "start_ts": 1774857600,
-      "end_ts": 1774861200,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:XwgexRLpdeWO",
-      "ts": 1774929600,
-      "label": "5K Run — Golden Gate Park",
-      "title": "5K Run — Golden Gate Park",
-      "description": "Morning 5K run at Golden Gate Park",
-      "start_ts": 1774929600,
-      "end_ts": 1774932300,
-      "all_day": false,
-      "calendar": "Fitness",
-      "color": "#D50000",
-      "recurrence": "weekly"
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:J8SCHzrK7xzi",
-      "ts": 1774947600,
-      "label": "1:1 with Alex (QA)",
-      "title": "1:1 with Alex (QA)",
-      "description": "Weekly 1:1 with Alex Morgan",
-      "start_ts": 1774947600,
-      "end_ts": 1774949400,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "weekly",
-      "attendees": [
-        {
-          "name": "Alex Morgan",
-          "email": "test@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Miguel Santos",
-          "email": "miguel.santos@perseusoft.tech",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:xhQ3jF8qhGKK",
+      "id": "atlas:event:2FlzlrmEtSQl",
       "ts": 1775017800,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -507,7 +16,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:J4W5Uldecn6h",
+      "id": "atlas:event:mV0t0nBiIsdP",
       "ts": 1775030400,
       "label": "PerseusOft Board Meeting",
       "title": "PerseusOft Board Meeting",
@@ -538,22 +47,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:w1Np3gWGsp3D",
-      "ts": 1775030400,
-      "label": "Tesla Service Appointment",
-      "title": "Tesla Service Appointment",
-      "description": "20,000 mile service",
-      "start_ts": 1775030400,
-      "end_ts": 1775034000,
-      "all_day": false,
-      "location": "Tesla Service Center SF",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:tHfIIsP8enO2",
+      "id": "atlas:event:mLwR2amLHomv",
       "ts": 1775044800,
       "label": "Client Call — TechNova",
       "title": "Client Call — TechNova",
@@ -584,7 +78,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:lWmmUONsWizh",
+      "id": "atlas:event:LkCzsfpaJ08J",
       "ts": 1775102400,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -598,7 +92,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:mdsEL2LjhYXO",
+      "id": "atlas:event:2V7iVTxaLXne",
       "ts": 1775134800,
       "label": "Architecture Review",
       "title": "Architecture Review",
@@ -629,7 +123,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:u8DyECRDcy8Z",
+      "id": "atlas:event:wfQ3I52ik3DG",
       "ts": 1775190600,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -643,7 +137,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:Tz9ewKfPLcVm",
+      "id": "atlas:event:vVG3NDCYucch",
       "ts": 1775275200,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -657,22 +151,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:UlFBVYYGBA4D",
-      "ts": 1775325600,
-      "label": "Investor Dinner",
-      "title": "Investor Dinner",
-      "description": "Dinner with Series B investors",
-      "start_ts": 1775325600,
-      "end_ts": 1775329200,
-      "all_day": false,
-      "location": "Quince, SF",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:OeYk1CiHBgdX",
+      "id": "atlas:event:wnM7t0DgDITh",
       "ts": 1775449800,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -686,7 +165,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:UqxIQJHmaJ5s",
+      "id": "atlas:event:xVPom5eF94nI",
       "ts": 1775462400,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -717,7 +196,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:OKxpNHWf7O0I",
+      "id": "atlas:event:1XVZsMaAgCng",
       "ts": 1775534400,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -731,7 +210,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:fky7I8GG6hjM",
+      "id": "atlas:event:cUFOiXngLRxY",
       "ts": 1775552400,
       "label": "1:1 with Alex (QA)",
       "title": "1:1 with Alex (QA)",
@@ -762,7 +241,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:ouuSEEypGo53",
+      "id": "atlas:event:zr1PyodZx29r",
       "ts": 1775622600,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -776,7 +255,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:7qjqrZgwrTmi",
+      "id": "atlas:event:ksJXWRCqm7C5",
       "ts": 1775649600,
       "label": "Client Call — TechNova",
       "title": "Client Call — TechNova",
@@ -807,7 +286,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:2x3mjXOJTAks",
+      "id": "atlas:event:ALa62JKvadtY",
       "ts": 1775707200,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -821,7 +300,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:o1QmY88Kz5JO",
+      "id": "atlas:event:F4rl5pgmxY0t",
       "ts": 1775739600,
       "label": "Architecture Review",
       "title": "Architecture Review",
@@ -852,7 +331,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:tMrxad3YtZaA",
+      "id": "atlas:event:kqA37NqPff38",
       "ts": 1775795400,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -866,7 +345,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:maltyqaV9YrV",
+      "id": "atlas:event:brDGx7c0k6Qz",
+      "ts": 1775844000,
+      "label": "Dinner reservation — Atelier Crenn",
+      "title": "Dinner reservation — Atelier Crenn",
+      "description": "Anniversary dinner with Sofia",
+      "start_ts": 1775844000,
+      "end_ts": 1775847600,
+      "all_day": false,
+      "location": "Atelier Crenn, Pacific Heights, SF",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:oyrP4WeuFGPE",
       "ts": 1775880000,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -880,22 +374,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:gKxhUQU75bru",
-      "ts": 1776013200,
-      "label": "Sofia's Birthday",
-      "title": "Sofia's Birthday",
-      "description": "Birthday celebration",
-      "start_ts": 1776013200,
-      "end_ts": 1776016800,
+      "id": "atlas:event:ucLbD4tN2EPK",
+      "ts": 1775988000,
+      "label": "Family Brunch",
+      "title": "Family Brunch",
+      "description": "Sunday brunch with parents",
+      "start_ts": 1775988000,
+      "end_ts": 1775991600,
       "all_day": false,
-      "location": "Home",
+      "location": "Mom's house",
       "calendar": "Personal",
       "color": "#4285F4",
       "recurrence": null
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:g8vTPRuadrdH",
+      "id": "atlas:event:WyZR4jKdHcEk",
       "ts": 1776054600,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -909,7 +403,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:TIpqwLwl82Fl",
+      "id": "atlas:event:SA9cjdwEambW",
       "ts": 1776067200,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -940,7 +434,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:tsRBrXReOst9",
+      "id": "atlas:event:YlIXvDZJ6IYz",
       "ts": 1776139200,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -954,7 +448,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:zlrmEtSQlLkC",
+      "id": "atlas:event:raeaVUrwAXb0",
       "ts": 1776157200,
       "label": "1:1 with Alex (QA)",
       "title": "1:1 with Alex (QA)",
@@ -985,7 +479,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:efmm4vWGZbrD",
+      "id": "atlas:event:O1V1tEMXGAmk",
       "ts": 1776227400,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -999,7 +493,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:zsfpaJ08JwfQ",
+      "id": "atlas:event:jQx3l5Dh9P4K",
+      "ts": 1776240000,
+      "label": "Tesla Service Appointment",
+      "title": "Tesla Service Appointment",
+      "description": "20,000 mile service",
+      "start_ts": 1776240000,
+      "end_ts": 1776243600,
+      "all_day": false,
+      "location": "Tesla Service Center SF",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:isO8nolpvMvC",
       "ts": 1776254400,
       "label": "Client Call — TechNova",
       "title": "Client Call — TechNova",
@@ -1030,7 +539,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:Gx7c0k6QzPSx",
+      "id": "atlas:event:c5ZXegqipGXX",
       "ts": 1776312000,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -1044,7 +553,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:3I52ik3DGvVG",
+      "id": "atlas:event:kZbwcKoAhViw",
       "ts": 1776344400,
       "label": "Architecture Review",
       "title": "Architecture Review",
@@ -1075,7 +584,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:9HcZfS7u8Hwj",
+      "id": "atlas:event:avMkr1G4tWDj",
       "ts": 1776400200,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -1089,7 +598,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:DgTuySYCv2cO",
+      "id": "atlas:event:58oVDftWai29",
       "ts": 1776484800,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -1103,22 +612,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:WhpCkdiOCOpH",
-      "ts": 1776578400,
-      "label": "Napa Team Retreat",
-      "title": "Napa Team Retreat",
-      "description": "PerseusOft team building in Napa",
-      "start_ts": 1776578400,
-      "end_ts": 1776582000,
+      "id": "atlas:event:Ez4ULv7eAo8E",
+      "ts": 1776535200,
+      "label": "Investor Dinner",
+      "title": "Investor Dinner",
+      "description": "Dinner with Series B investors",
+      "start_ts": 1776535200,
+      "end_ts": 1776538800,
       "all_day": false,
-      "location": "Napa Valley",
+      "location": "Quince, SF",
       "calendar": "Personal",
       "color": "#4285F4",
       "recurrence": null
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:P9j6gpafxjQx",
+      "id": "atlas:event:NlXnSqsrISCQ",
       "ts": 1776659400,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -1132,7 +641,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:3NDCYucchwnM",
+      "id": "atlas:event:F3OJtStRe9YY",
       "ts": 1776672000,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -1163,7 +672,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:3l5Dh9P4KIjL",
+      "id": "atlas:event:H3UgeBal0eue",
       "ts": 1776744000,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -1177,7 +686,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:7t0DgDITh1XV",
+      "id": "atlas:event:VQEJ6Vpt4Rw2",
       "ts": 1776762000,
       "label": "1:1 with Alex (QA)",
       "title": "1:1 with Alex (QA)",
@@ -1208,7 +717,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:5OJtUPNvLEz4",
+      "id": "atlas:event:Bmbzz9gMd9wv",
       "ts": 1776832200,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -1222,7 +731,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:ZsMaAgCngzr1",
+      "id": "atlas:event:I2qKPnh5xWns",
       "ts": 1776859200,
       "label": "Client Call — TechNova",
       "title": "Client Call — TechNova",
@@ -1253,7 +762,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:ULv7eAo8EucL",
+      "id": "atlas:event:hveXwgexRLpd",
       "ts": 1776916800,
       "label": "5K Run — Golden Gate Park",
       "title": "5K Run — Golden Gate Park",
@@ -1267,7 +776,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:PyodZx29rALa",
+      "id": "atlas:event:hWlPQGCXddrx",
       "ts": 1776949200,
       "label": "Architecture Review",
       "title": "Architecture Review",
@@ -1298,7 +807,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:bD4tN2EPKdcE",
+      "id": "atlas:event:eWOxhQ3jF8qh",
       "ts": 1777005000,
       "label": "Gym — Strength & HIIT",
       "title": "Gym — Strength & HIIT",
@@ -1312,13 +821,490 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:WanpWPrLcLCC",
-      "ts": 1777006800,
+      "id": "atlas:event:GKKlWmmUONsW",
+      "ts": 1777089600,
+      "label": "5K Run — Golden Gate Park",
+      "title": "5K Run — Golden Gate Park",
+      "description": "Morning 5K run at Golden Gate Park",
+      "start_ts": 1777089600,
+      "end_ts": 1777092300,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:PSx9HcZfS7u8",
+      "ts": 1777222800,
+      "label": "Sofia's Birthday",
+      "title": "Sofia's Birthday",
+      "description": "Birthday celebration",
+      "start_ts": 1777222800,
+      "end_ts": 1777226400,
+      "all_day": false,
+      "location": "Home",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:izhu8DyECRDc",
+      "ts": 1777264200,
+      "label": "Gym — Strength & HIIT",
+      "title": "Gym — Strength & HIIT",
+      "description": "Strength training and HIIT at GymFit Black",
+      "start_ts": 1777264200,
+      "end_ts": 1777267800,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:80GJ8SCHzrK7",
+      "ts": 1777276800,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning with the team",
+      "start_ts": 1777276800,
+      "end_ts": 1777280400,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:y8ZTz9ewKfPL",
+      "ts": 1777348800,
+      "label": "5K Run — Golden Gate Park",
+      "title": "5K Run — Golden Gate Park",
+      "description": "Morning 5K run at Golden Gate Park",
+      "start_ts": 1777348800,
+      "end_ts": 1777351500,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:xziJ4W5Uldec",
+      "ts": 1777366800,
+      "label": "1:1 with Alex (QA)",
+      "title": "1:1 with Alex (QA)",
+      "description": "Weekly 1:1 with Alex Morgan",
+      "start_ts": 1777366800,
+      "end_ts": 1777368600,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:cVmOeYk1CiHB",
+      "ts": 1777437000,
+      "label": "Gym — Strength & HIIT",
+      "title": "Gym — Strength & HIIT",
+      "description": "Strength training and HIIT at GymFit Black",
+      "start_ts": 1777437000,
+      "end_ts": 1777440600,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:n6htHfIIsP8e",
+      "ts": 1777464000,
+      "label": "Client Call — TechNova",
+      "title": "Client Call — TechNova",
+      "description": "Bi-weekly sync with TechNova client",
+      "start_ts": 1777464000,
+      "end_ts": 1777466700,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:gdXOKxpNHWf7",
+      "ts": 1777521600,
+      "label": "5K Run — Golden Gate Park",
+      "title": "5K Run — Golden Gate Park",
+      "description": "Morning 5K run at Golden Gate Park",
+      "start_ts": 1777521600,
+      "end_ts": 1777524300,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:nO2mdsEL2Ljh",
+      "ts": 1777554000,
+      "label": "Architecture Review",
+      "title": "Architecture Review",
+      "description": "Weekly ML pipeline architecture review",
+      "start_ts": 1777554000,
+      "end_ts": 1777557600,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:O0IouuSEEypG",
+      "ts": 1777609800,
+      "label": "Gym — Strength & HIIT",
+      "title": "Gym — Strength & HIIT",
+      "description": "Strength training and HIIT at GymFit Black",
+      "start_ts": 1777609800,
+      "end_ts": 1777613400,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:YXOUqxIQJHma",
+      "ts": 1777622400,
+      "label": "PerseusOft Board Meeting",
+      "title": "PerseusOft Board Meeting",
+      "description": "Monthly board meeting with investors",
+      "start_ts": 1777622400,
+      "end_ts": 1777627800,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "monthly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:o532x3mjXOJT",
+      "ts": 1777694400,
+      "label": "5K Run — Golden Gate Park",
+      "title": "5K Run — Golden Gate Park",
+      "description": "Morning 5K run at Golden Gate Park",
+      "start_ts": 1777694400,
+      "end_ts": 1777697100,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:HwjDgTuySYCv",
+      "ts": 1777788000,
+      "label": "Napa Team Retreat",
+      "title": "Napa Team Retreat",
+      "description": "PerseusOft team building in Napa",
+      "start_ts": 1777788000,
+      "end_ts": 1777791600,
+      "all_day": false,
+      "location": "Napa Valley",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:AkstMrxad3Yt",
+      "ts": 1777869000,
+      "label": "Gym — Strength & HIIT",
+      "title": "Gym — Strength & HIIT",
+      "description": "Strength training and HIIT at GymFit Black",
+      "start_ts": 1777869000,
+      "end_ts": 1777872600,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:J5sfky7I8GG6",
+      "ts": 1777881600,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning with the team",
+      "start_ts": 1777881600,
+      "end_ts": 1777885200,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:ZaAmaltyqaV9",
+      "ts": 1777953600,
+      "label": "5K Run — Golden Gate Park",
+      "title": "5K Run — Golden Gate Park",
+      "description": "Morning 5K run at Golden Gate Park",
+      "start_ts": 1777953600,
+      "end_ts": 1777956300,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:hjM7qjqrZgwr",
+      "ts": 1777971600,
+      "label": "1:1 with Alex (QA)",
+      "title": "1:1 with Alex (QA)",
+      "description": "Weekly 1:1 with Alex Morgan",
+      "start_ts": 1777971600,
+      "end_ts": 1777973400,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:YrVg8vTPRuad",
+      "ts": 1778041800,
+      "label": "Gym — Strength & HIIT",
+      "title": "Gym — Strength & HIIT",
+      "description": "Strength training and HIIT at GymFit Black",
+      "start_ts": 1778041800,
+      "end_ts": 1778045400,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:Tmio1QmY88Kz",
+      "ts": 1778068800,
+      "label": "Client Call — TechNova",
+      "title": "Client Call — TechNova",
+      "description": "Bi-weekly sync with TechNova client",
+      "start_ts": 1778068800,
+      "end_ts": 1778071500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:rdHtsRBrXReO",
+      "ts": 1778126400,
+      "label": "5K Run — Golden Gate Park",
+      "title": "5K Run — Golden Gate Park",
+      "description": "Morning 5K run at Golden Gate Park",
+      "start_ts": 1778126400,
+      "end_ts": 1778129100,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:5JOTIpqwLwl8",
+      "ts": 1778158800,
+      "label": "Architecture Review",
+      "title": "Architecture Review",
+      "description": "Weekly ML pipeline architecture review",
+      "start_ts": 1778158800,
+      "end_ts": 1778162400,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly",
+      "attendees": [
+        {
+          "name": "Alex Morgan",
+          "email": "test@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Miguel Santos",
+          "email": "miguel.santos@perseusoft.tech",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:st9efmm4vWGZ",
+      "ts": 1778214600,
+      "label": "Gym — Strength & HIIT",
+      "title": "Gym — Strength & HIIT",
+      "description": "Strength training and HIIT at GymFit Black",
+      "start_ts": 1778214600,
+      "end_ts": 1778218200,
+      "all_day": false,
+      "calendar": "Fitness",
+      "color": "#D50000",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:IjL5OJtUPNvL",
+      "ts": 1778216400,
       "label": "Half Marathon SF",
       "title": "Half Marathon SF",
       "description": "SF Half Marathon 2025",
-      "start_ts": 1777006800,
-      "end_ts": 1777010400,
+      "start_ts": 1778216400,
+      "end_ts": 1778220000,
       "all_day": false,
       "location": "Golden Gate Bridge",
       "calendar": "Personal",
@@ -1327,13 +1313,13 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:GUsOzYaSkpLg",
-      "ts": 1778310000,
+      "id": "atlas:event:2cOP9j6gpafx",
+      "ts": 1779519600,
       "label": "AWS re:Invent",
       "title": "AWS re:Invent",
       "description": "Speaking: Serverless ML Inference Architecture",
-      "start_ts": 1778310000,
-      "end_ts": 1778313600,
+      "start_ts": 1779519600,
+      "end_ts": 1779523200,
       "all_day": false,
       "location": "Las Vegas Convention Center",
       "calendar": "Personal",

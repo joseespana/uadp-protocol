@@ -574,8 +574,8 @@ function generatePulsePhotos() {
     post.thumbnail_url = picsum(`pulse_ale_${i}`, 300, 533)
   }
 
-  // 480 feed posts from others
-  const feed = Array.from({ length: 480 }, (_, i) => {
+  // 520 feed posts from others
+  const feed = Array.from({ length: 520 }, (_, i) => {
     const author = faker.helpers.arrayElement(FORTY_AUTHORS)
     const caption = faker.lorem.sentence()
     return buildPulsePost(i, caption, author, 'pulse_feed', false)
@@ -620,7 +620,7 @@ function generatePulsePhotos() {
 }
 
 // =========================================================================
-// 4. ORBIT TRANSACTIONS — checking ~5200, savings ~15000, 180 tx, 1 debit
+// 4. ORBIT TRANSACTIONS — checking ~5200, savings ~15000, 500 tx, 1 debit
 // =========================================================================
 
 // We will store Market order data here so Orbit can reference it
@@ -785,7 +785,7 @@ function generateOrbitTransactions() {
     { brands: 'pharmacy', category: 'health', min: 10, max: 80 },
   ]
 
-  const remaining = 180 - transactions.length
+  const remaining = 500 - transactions.length
   for (let i = 0; i < Math.max(0, remaining); i++) {
     const cat = faker.helpers.arrayElement(variableCategories)
     const brand = pickBrand(cat.brands)
@@ -820,7 +820,7 @@ function generateOrbitTransactions() {
 }
 
 // =========================================================================
-// 5. ZINC TRANSACTIONS — USD ~8000, credit 5000, 60 tx, 1 credit card
+// 5. ZINC TRANSACTIONS — USD ~8000, credit 5000, 500 tx, 1 credit card
 // =========================================================================
 function generateZincTransactions() {
   const accounts = [
@@ -904,7 +904,7 @@ function generateZincTransactions() {
     { name: 'BookShelf Intl', category: 'books', country: 'UK', min: 10, max: 40 },
   ]
 
-  const remainingTx = 60 - transactions.length
+  const remainingTx = 500 - transactions.length
   for (let i = 0; i < remainingTx; i++) {
     const merchant = faker.helpers.arrayElement(intlMerchants)
     const amount = roundUSD(faker.number.float({ min: merchant.min, max: merchant.max }))
@@ -936,7 +936,7 @@ function generateZincTransactions() {
 }
 
 // =========================================================================
-// 6. MARKET ORDERS — 25 orders, 500 products, 2 cart, 8 wishlist
+// 6. MARKET ORDERS — 100 orders, 500 products, 2 cart, 8 wishlist
 // =========================================================================
 function generateMarketOrders() {
   const productCategories = [
@@ -1037,8 +1037,8 @@ function generateMarketOrders() {
     country: 'US',
   }
 
-  // 25 orders — 1 "shipped" (in transit), rest delivered or other statuses
-  const orders = Array.from({ length: 25 }, (_, i) => {
+  // 100 orders — 1 "shipped" (in transit), rest delivered or other statuses
+  const orders = Array.from({ length: 100 }, (_, i) => {
     const numItems = faker.number.int({ min: 1, max: 4 })
     const selectedProducts = faker.helpers.arrayElements(products, numItems)
     const items = selectedProducts.map(p => ({
@@ -1109,7 +1109,7 @@ function generateMarketOrders() {
 }
 
 // =========================================================================
-// 7. STREAM HISTORY — 60 feed, 200 history, 18 subs, 3 user videos
+// 7. STREAM HISTORY — 300 feed, 250 history, 40 subs, 3 user videos
 // =========================================================================
 function generateStreamHistory() {
   const channelNames = [
@@ -1117,7 +1117,12 @@ function generateStreamHistory() {
     'Frontend Masters', 'Linux and More', 'Data Science', 'Gaming Central',
     'Easy Cooking', 'Pop Science', 'Lofi Music', 'Travel Vlogs',
     'Home Fitness', 'Simple Economics', 'Digital Design', 'AI Explained',
-    'Bun Tutorial', 'Podcast Dev',
+    'Bun Tutorial', 'Podcast Dev', 'Retro Gaming', 'Crypto Analysis',
+    'Math Visualized', 'Music Production', 'Bike Mechanic', 'Solar Punk',
+    'Space News Daily', 'Chef at Home', 'Urban Gardening', 'Drone Footage',
+    'History Uncovered', 'DIY Electronics', 'Mindful Meditation', 'Street Art',
+    'Typography Talk', 'Rust Crab', 'TypeScript Tips', 'Go Gopher',
+    'Python Tricks', 'Java Brew', 'C++ Deep Dive', 'Kotlin Daily',
   ]
 
   const channels = channelNames.map((name, i) => ({
@@ -1143,6 +1148,41 @@ function generateStreamHistory() {
     'Linux tips every developer needs',
     'Automating my homelab with scripts',
     'Understanding async/await in depth',
+    'MacBook Pro M5 review: is it worth the upgrade?',
+    'iPhone 17 Pro: developer features you need to know',
+    'iPad as a portable dev machine — full setup guide',
+    'Building a news aggregator with AI in 30 minutes',
+    'My $3000 home server build for development',
+    'Neovim vs VS Code: the ultimate comparison',
+    'Docker Compose for local development — full tutorial',
+    'GraphQL vs REST: when to use which',
+    'The complete guide to SSH keys and GPG signing',
+    'How I automate my entire workflow with scripts',
+    'PostgreSQL tips for backend developers',
+    'Redis caching patterns that actually work',
+    'Building real-time features with WebSockets',
+    'CI/CD pipeline from scratch with GitHub Actions',
+    'Monitoring your app with Prometheus and Grafana',
+    'Tailwind CSS: love it or hate it?',
+    'React Server Components explained simply',
+    'SolidJS: the React killer?',
+    'Svelte 5 runes: a game changer',
+    'Next.js vs Remix vs Astro — framework showdown',
+    'Mobile dev with React Native in 2025',
+    'Flutter vs Swift: cross-platform or native?',
+    'Kubernetes for small teams — is it worth it?',
+    'The truth about microservices architecture',
+    'Event-driven architecture with Kafka',
+    'Machine learning for web developers — crash course',
+    'Building an AI chatbot from scratch',
+    'Computer science basics you should know',
+    'Data structures explained with animations',
+    'System design interview prep — live walkthrough',
+    'How DNS actually works — deep dive',
+    'TLS/SSL explained: securing your connections',
+    'OAuth 2.0 and OpenID Connect demystified',
+    'Best mechanical keyboards for developers 2025',
+    'Standing desk review after 1 year of use',
   ]
 
   function makeVideo(channelOverride?: typeof channels[0], daysRange = 180) {
@@ -1167,11 +1207,11 @@ function generateStreamHistory() {
     }
   }
 
-  // 60 feed videos
-  const feed = Array.from({ length: 60 }, () => makeVideo())
+  // 300 feed videos
+  const feed = Array.from({ length: 300 }, () => makeVideo())
 
-  // 200 history entries (watched videos)
-  const history = Array.from({ length: 200 }, () => {
+  // 250 history entries (watched videos)
+  const history = Array.from({ length: 250 }, () => {
     const vid = makeVideo(undefined, 180)
     return {
       ...vid,
@@ -1248,7 +1288,7 @@ function generateStreamHistory() {
 }
 
 // =========================================================================
-// 8. ECHO CONVERSATIONS — 12 convos, ~500 messages
+// 8. ECHO CONVERSATIONS — 12 convos, ~1000 messages
 // =========================================================================
 function generateEchoConversations() {
   // Family: Mom Rosa, Dad Carlos, sister Diana
@@ -1285,7 +1325,7 @@ function generateEchoConversations() {
       type: 'group',
       name: 'Vega Family',
       members: [ale, contacts.mama_rosa, contacts.papa_carlos, contacts.hermana_diana],
-      msgCount: 80,
+      msgCount: 150,
       topicPool: [
         'Who\'s coming for Sunday lunch?',
         'Mom, I need the lasagna recipe',
@@ -1302,6 +1342,16 @@ function generateEchoConversations() {
         'Already picked up groceries',
         'What time is brunch?',
         'Mom, I already sent the utility money',
+        'Don\'t forget to call your uncle',
+        'I made empanadas, come get some',
+        'Dad\'s birthday is next week, any gift ideas?',
+        'The wifi at mom\'s house is down again',
+        'Diana, did you take my charger?',
+        'Family photo turned out great!',
+        'Who left their jacket here?',
+        'Movie night this Friday at my place?',
+        'The plumber is coming tomorrow morning',
+        'Sending the grocery list for Sunday',
       ],
     },
     // Group: Work Devs (5 coworkers)
@@ -1309,7 +1359,7 @@ function generateEchoConversations() {
       type: 'group',
       name: 'Work Devs',
       members: [ale, contacts.daniel, contacts.lucia, contacts.pablo, contacts.mariana, contacts.ivan],
-      msgCount: 120,
+      msgCount: 200,
       topicPool: [
         'Staging deploy failed, anyone looking into it?',
         'PR ready for review',
@@ -1333,7 +1383,7 @@ function generateEchoConversations() {
       type: 'group',
       name: 'SF Friends',
       members: [ale, contacts.camila, contacts.andres, contacts.fernanda, contacts.rodrigo],
-      msgCount: 90,
+      msgCount: 150,
       topicPool: [
         'Anyone down for lunch today?',
         'There\'s a concert at the Fillmore on Saturday',
@@ -1347,6 +1397,18 @@ function generateEchoConversations() {
         'The corner diner changed their menu',
         'What\'s up with the music festival?',
         'Anyone want to go to the museum on Saturday?',
+        'Found a new rooftop bar with amazing views',
+        'Who\'s running the marathon this year?',
+        'Weekend road trip to Tahoe anyone?',
+        'That new sushi place is fire',
+        'Game night at my place, bring snacks',
+        'Beach bonfire tomorrow night?',
+        'Anyone selling their old bike?',
+        'Trivia night at The Pub, we need a team',
+        'The fog is insane today, check my story',
+        'Spotted a coyote in Golden Gate Park!',
+        'Food truck festival this weekend in SOMA',
+        'Escape room next Friday, who\'s in?',
       ],
     },
   ]
@@ -1364,7 +1426,7 @@ function generateEchoConversations() {
       type: 'direct',
       name: contact.name,
       members: [ale, contact],
-      msgCount: faker.number.int({ min: 15, max: 40 }),
+      msgCount: faker.number.int({ min: 30, max: 80 }),
       topicPool: [
         `Hey ${firstName}, got a minute?`,
         'Thanks for the help!',
@@ -1434,7 +1496,7 @@ function generateEchoConversations() {
 }
 
 // =========================================================================
-// 9. HERALD ARTICLES — 100 articles, 8 bookmarks
+// 9. HERALD ARTICLES — 500+ articles, 8 bookmarks
 // =========================================================================
 function generateHeraldArticles() {
   const categoryPool: { cat: string; titlePool: string[] }[] = [
@@ -1504,6 +1566,91 @@ function generateHeraldArticles() {
         'Nordic countries top global quality of life index again',
       ],
     },
+    {
+      cat: 'Science',
+      titlePool: [
+        'NASA confirms water ice deposits on lunar south pole',
+        'CRISPR gene therapy trial shows 95% success rate',
+        'Fusion reactor achieves net energy gain for second time',
+        'New antibiotic discovered using AI protein folding',
+        'Quantum computing reaches 1000-qubit milestone',
+        'Mars sample return mission enters final planning phase',
+        'Brain-computer interface allows paralyzed patient to type',
+        'Deep sea expedition discovers New species in Pacific trench',
+        'Superconductor breakthrough at near room temperature',
+        'James Webb telescope finds oldest galaxy ever observed',
+        'Synthetic biology creates fully artificial cell',
+        'Electric aircraft completes first transatlantic crossing',
+      ],
+    },
+    {
+      cat: 'Health',
+      titlePool: [
+        'Universal flu vaccine enters phase 3 clinical trials',
+        'Study links gut microbiome diversity to mental health',
+        'Wearable devices now predict seizures 30 minutes ahead',
+        'Plant-based diets shown to reverse early heart disease',
+        'AI diagnostic tool matches dermatologists in accuracy',
+        'New sleep study reveals optimal nap duration for productivity',
+        'Cancer immunotherapy combined approach shows 80% response',
+        'WHO declares end to last major disease outbreak of decade',
+        'Telemedicine adoption triples in rural communities',
+        'Mental health apps prove effective in randomized trials',
+        'Exercise shown to be as effective as antidepressants',
+        'New rapid test detects infections in under 5 minutes',
+      ],
+    },
+    {
+      cat: 'Sports',
+      titlePool: [
+        'Formula E surpasses Formula 1 in global viewership',
+        'Esports officially recognized as Olympic discipline',
+        'Record-breaking marathon time set in Berlin',
+        'NBA introduces AI-powered referee assistance system',
+        'Women\'s soccer league reaches historic TV deal',
+        'Surf competition in SF draws record crowds',
+        'CrossFit games expand to 40 countries',
+        'Ultra-marathon runner completes seven continents challenge',
+        'Bay Area startup revolutionizes sports analytics',
+        'College basketball introduces 4-point line experiment',
+        'Climate-controlled stadiums become new standard',
+        'Drone racing league secures major broadcast deal',
+      ],
+    },
+    {
+      cat: 'Environment',
+      titlePool: [
+        'Solar energy now cheapest source in 90% of countries',
+        'Ocean cleanup project removes millionth ton of plastic',
+        'Urban forests reduce city temperatures by 5 degrees',
+        'Electric vehicle sales surpass gas cars in Europe',
+        'Carbon capture technology scales to industrial level',
+        'Rewilding project restores ecosystem in Central California',
+        'Vertical farming feeds entire neighborhood in Tokyo',
+        'Biodegradable packaging becomes industry standard',
+        'Global tree planting initiative hits 1 billion milestone',
+        'Coral reef restoration shows unprecedented recovery',
+        'Hydrogen-powered ships enter commercial service',
+        'Smart grid technology eliminates 30% of energy waste',
+      ],
+    },
+    {
+      cat: 'Education',
+      titlePool: [
+        'AI tutoring platforms close achievement gaps in schools',
+        'Coding bootcamps now accepted as equivalent to CS degrees',
+        'VR classrooms show 40% better retention in studies',
+        'Open source textbooks save students $2B annually',
+        'University offers first degree in AI ethics',
+        'Micro-credentials gain acceptance across Fortune 500',
+        'Gamification in education boosts engagement by 60%',
+        'Online learning platform reaches 500 million users',
+        'Lifelong learning accounts proposed in new legislation',
+        'STEM education gap narrows for first time in decade',
+        'Peer-to-peer learning platforms disrupt traditional tutoring',
+        'AI grading tools free teachers for one-on-one mentoring',
+      ],
+    },
   ]
 
   const articles: any[] = []
@@ -1531,8 +1678,8 @@ function generateHeraldArticles() {
     }
   }
 
-  // Pad to 100 articles
-  while (articles.length < 100) {
+  // Pad to 500 articles
+  while (articles.length < 500) {
     const { cat, titlePool } = faker.helpers.arrayElement(categoryPool)
     const artId = uid('herald:art')
     const title = `${faker.helpers.arrayElement(titlePool).split(':')[0]}: ${faker.lorem.sentence().slice(0, 40)}`
@@ -1562,7 +1709,7 @@ function generateHeraldArticles() {
 }
 
 // =========================================================================
-// 10. LYRA MUSIC — 300 tracks, 15 playlists, 50 recently played, 40 liked
+// 10. LYRA MUSIC — 500 tracks, 15 playlists, 50 recently played, 40 liked
 // =========================================================================
 function generateLyraMusic() {
   const artistNames = [
@@ -1635,8 +1782,8 @@ function generateLyraMusic() {
     { url: 'https://soundcloud.com/max-acid-348214225/electronic-music-for-studying-concentration-chill-out-electronic-study-music-instrumental-mix', scTitle: 'Electronic Focus Mix' },
   ]
 
-  // Build 300 tracks (first 20 have real SoundCloud URLs)
-  const tracks = Array.from({ length: 300 }, (_, i) => {
+  // Build 500 tracks (first 20 have real SoundCloud URLs)
+  const tracks = Array.from({ length: 500 }, (_, i) => {
     const album = faker.helpers.arrayElement(albums)
     const sc = i < SOUNDCLOUD_TRACKS.length ? SOUNDCLOUD_TRACKS[i] : null
     const title = i < trackTitles.length
@@ -1697,7 +1844,7 @@ function generateLyraMusic() {
 }
 
 // =========================================================================
-// 11. VORTEX CATALOG — 80 titles, 12 continue watching, 30 my list
+// 11. VORTEX CATALOG — 350+ titles, 25 continue watching, 80 my list
 // =========================================================================
 function generateVortexCatalog() {
   const genres = ['Action', 'Comedy', 'Drama', 'Sci-Fi', 'Documentary', 'Thriller', 'Horror', 'Romance', 'Animation', 'Crime']
@@ -1714,6 +1861,66 @@ function generateVortexCatalog() {
     'Beneath the Surface', 'Crossroads', 'Final Flash',
     'Silicon Island', 'Echoes of Tomorrow', 'Dormant Virus',
     'The Shadow Architect', 'Titanium Waves',
+    'Binary Horizon', 'Ghost Protocol', 'Digital Mirage',
+    'The Cloud Atlas', 'Neon Rain', 'Firewall Down',
+    'Code Red', 'Proxy War', 'Deep Packet',
+    'The Compiler', 'Quantum Break', 'Byte Storm',
+    'Dark Network', 'End of Line', 'The Transistor',
+    'Null Island', 'Stack Trace', 'Process Kill',
+    'The Fork', 'Memory Leak', 'Dead Reckoning',
+    'Circuit Breaker', 'The Emulator', 'Output Error',
+    'Blue Screen', 'Kernel Panic', 'The Debugger',
+    'Return Value', 'Infinite Recursion', 'The Interpreter',
+    'Machine Code', 'Static Noise', 'The Assembler',
+    'Overflow', 'Segfault', 'The Linker',
+    'Runtime', 'Cold Boot', 'The Indexer',
+    'Hash Collision', 'Thread Lock', 'The Daemon',
+    'Packet Loss', 'Bit Flip', 'The Router',
+    'Sync Error', 'The Gateway', 'Broadcast Storm',
+    'Wired', 'Unplugged', 'The Terminal',
+    'Zero Day', 'Exploit', 'The Sandbox',
+    'Containment', 'Root Shell', 'The Payload',
+    'Injection', 'The Backdoor', 'Cleartext',
+    'Encrypted', 'The Cipher', 'Plaintext War',
+    'Binary Star', 'The Matrix Reboot', 'Virtual Memory',
+    'Pointer', 'The Reference', 'Garbage Collected',
+    'Heap Space', 'The Allocator', 'Free Memory',
+    'Swap File', 'The Partition', 'Boot Sector',
+    'Recovery Mode', 'The Restore', 'Backup Plan',
+    'Snapshot', 'The Archive', 'Compression',
+    'Lossy', 'The Encoder', 'Pixel Perfect',
+    'Frame Drop', 'The Renderer', 'Anti-Alias',
+    'Depth Buffer', 'The Shader', 'Ray Traced',
+    'Polygon Mesh', 'The Texture', 'UV Mapped',
+    'Light Source', 'The Camera', 'Focus Pull',
+    'Wide Angle', 'The Lens', 'Chromatic',
+    'Exposure', 'The Filter', 'Color Grade',
+    'Final Cut', 'The Edit', 'Rough Draft',
+    'Second Take', 'The Director', 'Opening Scene',
+    'Credits Roll', 'The Producer', 'Box Office',
+    'Standing Ovation', 'The Critic', 'Five Stars',
+    'Red Carpet', 'The Premiere', 'After Party',
+    'Sequel', 'The Franchise', 'Spin Off',
+    'Prequel', 'The Remaster', 'Directors Cut',
+    'Extended Edition', 'The Anthology', 'Season Finale',
+    'Cliffhanger', 'The Pilot', 'Episode One',
+    'Story Arc', 'The Narrator', 'Plot Twist',
+    'Double Cross', 'The Reveal', 'Hidden Agenda',
+    'Secret Identity', 'The Mask', 'Undercover',
+    'Shadow Agent', 'The Informant', 'Deep Cover',
+    'Safe House', 'The Extraction', 'Exit Strategy',
+    'Point of No Return', 'The Escape', 'Freedom Run',
+    'Last Stand', 'The Siege', 'Breach Point',
+    'Countdown', 'The Timer', 'Final Hour',
+    'Red Zone', 'The Perimeter', 'Lockdown',
+    'Quarantine', 'The Outbreak', 'Patient Zero',
+    'Ground Zero', 'The Epicenter', 'Shock Wave',
+    'Aftershock', 'The Tremor', 'Fault Line',
+    'Fracture', 'The Collapse', 'Free Fall',
+    'Impact Zone', 'The Crater', 'Dust Cloud',
+    'Clear Sky', 'The Horizon', 'First Light',
+    'Golden Hour', 'The Dawn', 'New Morning',
+    'Fresh Start', 'The Beginning', 'Chapter One',
   ]
 
   const seriesTitles = [
@@ -1724,9 +1931,42 @@ function generateVortexCatalog() {
     'The Deployment', 'Root Access', 'Merge Request',
     'Latency', 'Kernel', 'The Secret Repo',
     'Pipeline', 'Iteration',
+    'The API', 'Webhook', 'Push Notification',
+    'Serverless', 'The Container', 'Orchestrated',
+    'Microservice', 'The Monolith', 'Refactored',
+    'Legacy Code', 'The Migration', 'Breaking Changes',
+    'Deprecation Notice', 'The Update', 'Patch Tuesday',
+    'Release Candidate', 'The Branch', 'Main Line',
+    'Feature Flag', 'The Toggle', 'A/B Tested',
+    'Experiment', 'The Hypothesis', 'Data Driven',
+    'Machine Learned', 'The Model', 'Training Set',
+    'Validation', 'The Benchmark', 'Stress Tested',
+    'Load Balanced', 'The Cluster', 'Distributed',
+    'Replicated', 'The Shard', 'Partitioned',
+    'Consistent', 'The Transaction', 'Committed',
+    'Rolled Back', 'The Snapshot', 'Point in Time',
+    'The Recovery', 'Failover', 'High Availability',
+    'Redundant', 'The Backup', 'Disaster Recovery',
+    'Incident Report', 'The Postmortem', 'Root Cause',
+    'The Fix', 'Hot Patch', 'Cold Deploy',
+    'Blue Green', 'The Canary', 'Rolling Update',
+    'Circuit Open', 'The Retry', 'Exponential Backoff',
+    'Rate Limited', 'The Throttle', 'Queue Full',
+    'Dead Letter', 'The Consumer', 'Event Sourced',
+    'CQRS', 'The Projection', 'Eventually Consistent',
+    'Saga Pattern', 'The Orchestrator', 'Choreography',
+    'Domain Event', 'The Aggregate', 'Bounded Context',
+    'Ubiquitous Language', 'The Domain', 'Value Object',
+    'Entity', 'The Repository', 'Unit of Work',
+    'Specification', 'The Factory', 'Abstract Type',
+    'Concrete Implementation', 'The Adapter', 'Port and Adapter',
+    'Hexagonal', 'The Layer', 'Clean Architecture',
+    'The Dependency', 'Inverted Control', 'Injected',
+    'Wired Up', 'The Configuration', 'Environment',
+    'Development Mode', 'The Staging', 'Production Ready',
   ]
 
-  // 50 movies
+  // 250 movies
   const movies = movieTitles.map((title, i) => ({
     uadp_type: 'uadp:title' as const,
     id: uid('vortex:title'),
@@ -1743,7 +1983,7 @@ function generateVortexCatalog() {
     duration_minutes: faker.number.int({ min: 80, max: 180 }),
   }))
 
-  // 30 series
+  // 100+ series
   const series = seriesTitles.map((title, i) => ({
     uadp_type: 'uadp:title' as const,
     id: uid('vortex:title'),
@@ -1761,18 +2001,61 @@ function generateVortexCatalog() {
     episodes: faker.number.int({ min: 6, max: 60 }),
   }))
 
-  const catalog = [...movies, ...series]
+  let catalog = [...movies, ...series]
 
-  // 12 "continue watching" with progress
-  const continue_watching = faker.helpers.arrayElements(catalog, 12).map(t => ({
+  // Pad catalog to 500 titles with generated entries
+  while (catalog.length < 500) {
+    const isMovie = faker.datatype.boolean(0.6)
+    const title = isMovie
+      ? `${faker.word.adjective()} ${faker.word.noun()}`
+      : `${faker.word.adjective()} ${faker.word.noun()}: Season ${faker.number.int({ min: 1, max: 5 })}`
+    const idx = catalog.length
+    if (isMovie) {
+      catalog.push({
+        uadp_type: 'uadp:title' as const,
+        id: uid('vortex:title'),
+        ts: tsRandom(365),
+        label: title,
+        title,
+        synopsis: faker.lorem.paragraph(),
+        type: 'movie' as const,
+        genre: faker.helpers.arrayElements(genres, faker.number.int({ min: 1, max: 3 })),
+        poster_url: picsum(`movie_extra_${idx}`, 400, 600),
+        backdrop_url: picsum(`movie_bg_extra_${idx}`, 1920, 1080),
+        rating: roundUSD(faker.number.float({ min: 5.0, max: 9.8 })),
+        year: faker.number.int({ min: 2019, max: 2025 }),
+        duration_minutes: faker.number.int({ min: 80, max: 180 }),
+      } as any)
+    } else {
+      catalog.push({
+        uadp_type: 'uadp:title' as const,
+        id: uid('vortex:title'),
+        ts: tsRandom(365),
+        label: title,
+        title,
+        synopsis: faker.lorem.paragraph(),
+        type: 'series' as const,
+        genre: faker.helpers.arrayElements(genres, faker.number.int({ min: 1, max: 3 })),
+        poster_url: picsum(`series_extra_${idx}`, 400, 600),
+        backdrop_url: picsum(`series_bg_extra_${idx}`, 1920, 1080),
+        rating: roundUSD(faker.number.float({ min: 6.0, max: 9.5 })),
+        year: faker.number.int({ min: 2020, max: 2025 }),
+        seasons: faker.number.int({ min: 1, max: 6 }),
+        episodes: faker.number.int({ min: 6, max: 60 }),
+      } as any)
+    }
+  }
+
+  // 25 "continue watching" with progress
+  const continue_watching = faker.helpers.arrayElements(catalog, 25).map(t => ({
     ...t,
     progress: t.type === 'series'
       ? { season: faker.number.int({ min: 1, max: (t as any).seasons || 1 }), episode: faker.number.int({ min: 1, max: 8 }), percent: faker.number.int({ min: 10, max: 85 }) }
       : { percent: faker.number.int({ min: 10, max: 85 }) },
   }))
 
-  // 30 "my list"
-  const my_list = faker.helpers.arrayElements(catalog, 30).map(t => t.id)
+  // 80 "my list"
+  const my_list = faker.helpers.arrayElements(catalog, 80).map(t => t.id)
 
   // Trending (top 10)
   const trending = faker.helpers.arrayElements(catalog, 10)
@@ -1781,7 +2064,7 @@ function generateVortexCatalog() {
 }
 
 // =========================================================================
-// 12. BEACON EMAILS — 150 inbox, 40 sent, 5 drafts
+// 12. BEACON EMAILS — 400 inbox, 100 sent, 15 drafts
 // =========================================================================
 function generateBeaconEmails() {
   const senders = [
@@ -1835,8 +2118,8 @@ function generateBeaconEmails() {
 
   const aleEmail = { name: ALEJANDRO.name, address: ALEJANDRO.email }
 
-  // 150 inbox emails
-  const inbox = Array.from({ length: 150 }, (_, i) => {
+  // 400 inbox emails
+  const inbox = Array.from({ length: 400 }, (_, i) => {
     const sender = faker.helpers.arrayElement(senders)
     const subject = i < subjectPool.length ? subjectPool[i] : `${faker.helpers.arrayElement(subjectPool).split(':')[0]}: ${faker.lorem.sentence().slice(0, 40)}`
     return {
@@ -1866,7 +2149,7 @@ function generateBeaconEmails() {
     'Re: Your biweekly pay stub is available',
   ]
 
-  const sent = Array.from({ length: 40 }, (_, i) => {
+  const sent = Array.from({ length: 100 }, (_, i) => {
     const recipient = faker.helpers.arrayElement(senders)
     const subject = i < sentSubjects.length ? sentSubjects[i] : `Re: ${faker.lorem.sentence().slice(0, 40)}`
     return {
@@ -1884,8 +2167,8 @@ function generateBeaconEmails() {
     }
   })
 
-  // 5 drafts
-  const drafts = Array.from({ length: 5 }, () => {
+  // 15 drafts
+  const drafts = Array.from({ length: 15 }, () => {
     const recipient = faker.helpers.arrayElement(senders)
     return {
       uadp_type: 'uadp:email' as const,
@@ -1917,7 +2200,7 @@ function generateBeaconEmails() {
 }
 
 // =========================================================================
-// 13. COMPASS RIDES — 60 rides, 5 saved places
+// 13. COMPASS RIDES — 500 rides, 5 saved places
 // =========================================================================
 function generateCompassRides() {
   const sfPlaces = [
@@ -1936,6 +2219,30 @@ function generateCompassRides() {
     { name: 'Hayes Valley', lat: 37.7759, lng: -122.4245 },
     { name: 'Sausalito', lat: 37.8590, lng: -122.4852 },
     { name: 'Stanford', lat: 37.4275, lng: -122.1697 },
+    { name: 'Fisherman\'s Wharf', lat: 37.8080, lng: -122.4177 },
+    { name: 'Chinatown', lat: 37.7941, lng: -122.4078 },
+    { name: 'Castro', lat: 37.7609, lng: -122.4350 },
+    { name: 'Embarcadero', lat: 37.7936, lng: -122.3930 },
+    { name: 'Presidio', lat: 37.7989, lng: -122.4662 },
+    { name: 'Japantown', lat: 37.7854, lng: -122.4294 },
+    { name: 'UCSF Medical Center', lat: 37.7631, lng: -122.4576 },
+    { name: 'Oracle Park', lat: 37.7786, lng: -122.3893 },
+    { name: 'Treasure Island', lat: 37.8235, lng: -122.3708 },
+    { name: 'Twin Peaks', lat: 37.7544, lng: -122.4477 },
+    { name: 'Ocean Beach', lat: 37.7596, lng: -122.5107 },
+    { name: 'Sunset District', lat: 37.7525, lng: -122.4938 },
+    { name: 'Richmond District', lat: 37.7803, lng: -122.4716 },
+    { name: 'North Beach', lat: 37.8060, lng: -122.4103 },
+    { name: 'Pacific Heights', lat: 37.7925, lng: -122.4382 },
+    { name: 'Potrero Hill', lat: 37.7610, lng: -122.4000 },
+    { name: 'Dogpatch', lat: 37.7586, lng: -122.3872 },
+    { name: 'Bernal Heights', lat: 37.7438, lng: -122.4157 },
+    { name: 'Glen Park', lat: 37.7340, lng: -122.4332 },
+    { name: 'San Jose', lat: 37.3382, lng: -121.8863 },
+    { name: 'Oakland', lat: 37.8044, lng: -122.2712 },
+    { name: 'Daly City', lat: 37.6879, lng: -122.4702 },
+    { name: 'South San Francisco', lat: 37.6547, lng: -122.4077 },
+    { name: 'Half Moon Bay', lat: 37.4636, lng: -122.4286 },
   ]
 
   const vehicles = [
@@ -1946,8 +2253,8 @@ function generateCompassRides() {
 
   const rideTypes = ['standard', 'premium', 'shared'] as const
 
-  // 60 past rides
-  const rides = Array.from({ length: 60 }, () => {
+  // 500 past rides
+  const rides = Array.from({ length: 500 }, () => {
     const origin = faker.helpers.arrayElement(sfPlaces)
     let destination = faker.helpers.arrayElement(sfPlaces)
     while (destination.name === origin.name) {
@@ -1963,7 +2270,7 @@ function generateCompassRides() {
     return {
       uadp_type: 'uadp:ride' as const,
       id: uid('compass:ride'),
-      ts: tsRandom(90),
+      ts: tsRandom(365),
       label: `${origin.name} → ${destination.name}`,
       status: faker.helpers.weightedArrayElement([
         { value: 'completed' as const, weight: 0.9 },
@@ -1997,7 +2304,7 @@ function generateCompassRides() {
 }
 
 // =========================================================================
-// 14. FLAME FOOD ORDERS — 45 orders, 12 favorite restaurants
+// 14. FLAME FOOD ORDERS — 500 orders, 30 favorite restaurants
 // =========================================================================
 function generateFlameOrders() {
   const restaurants = [
@@ -2013,6 +2320,22 @@ function generateFlameOrders() {
     { id: uid('flame:rest'), name: 'Cevicheria del Mar', cuisine: 'Seafood', rating: 4.6, image_url: picsum('rest_9', 400, 300) },
     { id: uid('flame:rest'), name: 'Veggie Verde', cuisine: 'Vegetarian', rating: 4.3, image_url: picsum('rest_10', 400, 300) },
     { id: uid('flame:rest'), name: 'El Fogon Kitchen', cuisine: 'Mexican', rating: 4.8, image_url: picsum('rest_11', 400, 300) },
+    { id: uid('flame:rest'), name: 'Thai Garden', cuisine: 'Thai', rating: 4.5, image_url: picsum('rest_12', 400, 300) },
+    { id: uid('flame:rest'), name: 'Mumbai Bites', cuisine: 'Indian', rating: 4.7, image_url: picsum('rest_13', 400, 300) },
+    { id: uid('flame:rest'), name: 'Seoul Kitchen', cuisine: 'Korean', rating: 4.6, image_url: picsum('rest_14', 400, 300) },
+    { id: uid('flame:rest'), name: 'Pho House', cuisine: 'Vietnamese', rating: 4.4, image_url: picsum('rest_15', 400, 300) },
+    { id: uid('flame:rest'), name: 'Mediterranean Grill', cuisine: 'Mediterranean', rating: 4.5, image_url: picsum('rest_16', 400, 300) },
+    { id: uid('flame:rest'), name: 'Poke Paradise', cuisine: 'Hawaiian', rating: 4.3, image_url: picsum('rest_17', 400, 300) },
+    { id: uid('flame:rest'), name: 'Empanada Express', cuisine: 'Argentine', rating: 4.6, image_url: picsum('rest_18', 400, 300) },
+    { id: uid('flame:rest'), name: 'Ramen Lab', cuisine: 'Japanese', rating: 4.8, image_url: picsum('rest_19', 400, 300) },
+    { id: uid('flame:rest'), name: 'Greek Corner', cuisine: 'Greek', rating: 4.4, image_url: picsum('rest_20', 400, 300) },
+    { id: uid('flame:rest'), name: 'BBQ Smokehouse', cuisine: 'American', rating: 4.7, image_url: picsum('rest_21', 400, 300) },
+    { id: uid('flame:rest'), name: 'Dim Sum Palace', cuisine: 'Chinese', rating: 4.5, image_url: picsum('rest_22', 400, 300) },
+    { id: uid('flame:rest'), name: 'Ethiopian Delight', cuisine: 'Ethiopian', rating: 4.6, image_url: picsum('rest_23', 400, 300) },
+    { id: uid('flame:rest'), name: 'Taco Bell Cantina', cuisine: 'Mexican', rating: 3.9, image_url: picsum('rest_24', 400, 300) },
+    { id: uid('flame:rest'), name: 'Bagel Bros', cuisine: 'American', rating: 4.2, image_url: picsum('rest_25', 400, 300) },
+    { id: uid('flame:rest'), name: 'Curry House', cuisine: 'Indian', rating: 4.5, image_url: picsum('rest_26', 400, 300) },
+    { id: uid('flame:rest'), name: 'Acai Bowl Bar', cuisine: 'Brazilian', rating: 4.3, image_url: picsum('rest_27', 400, 300) },
   ]
 
   const menusByRestType: Record<string, { name: string; price: number }[]> = {
@@ -2055,6 +2378,46 @@ function generateFlameOrders() {
       { name: 'Buddha Bowl', price: 14.99 }, { name: 'Jackfruit Tacos x3', price: 10.99 },
       { name: 'Green Smoothie', price: 7.99 }, { name: 'Quinoa Salad', price: 11.99 },
     ],
+    Thai: [
+      { name: 'Pad Thai', price: 14.99 }, { name: 'Green Curry', price: 15.99 },
+      { name: 'Tom Yum Soup', price: 11.99 }, { name: 'Mango Sticky Rice', price: 8.99 },
+    ],
+    Indian: [
+      { name: 'Butter Chicken', price: 16.99 }, { name: 'Garlic Naan x2', price: 5.99 },
+      { name: 'Biryani', price: 15.99 }, { name: 'Samosa x3', price: 7.99 },
+    ],
+    Korean: [
+      { name: 'Bibimbap', price: 15.99 }, { name: 'Korean Fried Chicken', price: 14.99 },
+      { name: 'Kimchi Jjigae', price: 13.99 }, { name: 'Bulgogi', price: 17.99 },
+    ],
+    Vietnamese: [
+      { name: 'Pho Beef', price: 14.99 }, { name: 'Banh Mi Sandwich', price: 10.99 },
+      { name: 'Spring Rolls x4', price: 8.99 }, { name: 'Vietnamese Coffee', price: 5.99 },
+    ],
+    Mediterranean: [
+      { name: 'Grilled Lamb Kebab', price: 18.99 }, { name: 'Mixed Mezze Platter', price: 14.99 },
+      { name: 'Fattoush Salad', price: 10.99 }, { name: 'Baklava', price: 6.99 },
+    ],
+    Hawaiian: [
+      { name: 'Ahi Poke Bowl', price: 16.99 }, { name: 'Spam Musubi x3', price: 8.99 },
+      { name: 'Loco Moco', price: 14.99 }, { name: 'Açaí Bowl', price: 12.99 },
+    ],
+    Argentine: [
+      { name: 'Beef Empanadas x4', price: 12.99 }, { name: 'Choripan', price: 9.99 },
+      { name: 'Milanesa Napolitana', price: 16.99 }, { name: 'Dulce de Leche Flan', price: 7.99 },
+    ],
+    Greek: [
+      { name: 'Gyro Platter', price: 15.99 }, { name: 'Spanakopita', price: 9.99 },
+      { name: 'Moussaka', price: 14.99 }, { name: 'Greek Salad', price: 10.99 },
+    ],
+    Ethiopian: [
+      { name: 'Doro Wot', price: 16.99 }, { name: 'Injera Combo Platter', price: 19.99 },
+      { name: 'Kitfo', price: 17.99 }, { name: 'Ethiopian Coffee', price: 4.99 },
+    ],
+    Brazilian: [
+      { name: 'Açaí Bowl Grande', price: 14.99 }, { name: 'Coxinha x4', price: 9.99 },
+      { name: 'Pão de Queijo x6', price: 7.99 }, { name: 'Guaraná', price: 3.99 },
+    ],
   }
 
   // Default menu for cuisines not listed
@@ -2063,12 +2426,12 @@ function generateFlameOrders() {
     { name: 'Beverage', price: 3.99 }, { name: 'Dessert', price: 6.99 },
   ]
 
-  // 45 food orders
-  const orders = Array.from({ length: 45 }, () => {
+  // 500 food orders
+  const orders = Array.from({ length: 500 }, () => {
     const restaurant = faker.helpers.arrayElement(restaurants)
     const menu = menusByRestType[restaurant.cuisine] || defaultMenu
     const numItems = faker.number.int({ min: 1, max: 4 })
-    const selectedItems = faker.helpers.arrayElements(menu, numItems).map(item => ({
+    const selectedItems = faker.helpers.arrayElements(menu, Math.min(numItems, menu.length)).map(item => ({
       name: item.name,
       qty: faker.number.int({ min: 1, max: 2 }),
       unit_price: { value: item.price, currency: 'USD' },
@@ -2080,7 +2443,7 @@ function generateFlameOrders() {
     return {
       uadp_type: 'uadp:food_order' as const,
       id: uid('flame:order'),
-      ts: tsRandom(90),
+      ts: tsRandom(365),
       label: `${restaurant.name} — $${total} USD`,
       status: faker.helpers.weightedArrayElement([
         { value: 'delivered' as const, weight: 0.85 },
@@ -2103,7 +2466,7 @@ function generateFlameOrders() {
 }
 
 // =========================================================================
-// 15. ATLAS EVENTS — 80 calendar events across 3 calendars
+// 15. ATLAS EVENTS — 500+ calendar events across 3 calendars
 // =========================================================================
 function generateAtlasEvents() {
   const calendars = [
@@ -2139,13 +2502,49 @@ function generateAtlasEvents() {
     { title: 'Dinner with friends', description: 'Dinner at Bistro on Valencia with the SF crew', hour: 20, daysFromNow: 1, location: 'Bistro on Valencia, Mission' },
     { title: 'Haircut', description: 'Fellow Barber appointment', hour: 12, daysFromNow: 6, location: 'Fellow Barber, Hayes Valley' },
     { title: 'Car maintenance', description: '30,000 mile maintenance service', hour: 8, daysFromNow: 12, location: 'AutoCare Express, SoMa' },
+    { title: 'Doctor appointment', description: 'Annual checkup with Dr. Kim', hour: 10, daysFromNow: -15, location: 'SF Medical Center' },
+    { title: 'Grocery shopping', description: 'Weekly big shopping run', hour: 11, daysFromNow: -8 },
+    { title: 'Movie night', description: 'New sci-fi release at CinemaGo IMAX', hour: 20, daysFromNow: -3, location: 'CinemaGo IMAX, Metreon' },
+    { title: 'Oil change', description: 'Quick oil change for the car', hour: 9, daysFromNow: -20, location: 'QuickLube SoMa' },
+    { title: 'Concert at The Fillmore', description: 'Indie rock show with Andres and Camila', hour: 20, daysFromNow: 10, location: 'The Fillmore, SF' },
+    { title: 'Weekend hike', description: 'Mt. Tamalpais trail with SF friends', hour: 8, daysFromNow: 14, location: 'Mt. Tamalpais' },
+    { title: 'Tax filing deadline', description: 'Submit federal and state taxes', hour: 17, daysFromNow: -25 },
+    { title: 'UADP demo prep', description: 'Final rehearsal for TechConf talk', hour: 15, daysFromNow: 13 },
+    { title: 'Team happy hour', description: 'Friday drinks with TechCorp team', hour: 18, daysFromNow: -10, location: 'The Pub, SoMa' },
+    { title: 'Apartment cleaning', description: 'Deep clean before guests arrive', hour: 10, daysFromNow: -12 },
+    { title: 'Bike repair', description: 'Fix flat tire and brake adjustment', hour: 14, daysFromNow: -18, location: 'Bay Cycles, Mission' },
+    { title: 'Farmers market', description: 'Saturday farmers market in Ferry Building', hour: 9, daysFromNow: -6, location: 'Ferry Building, Embarcadero' },
+    { title: 'Board game night', description: 'Board games at Rodrigo\'s place', hour: 19, daysFromNow: 7, location: 'Rodrigo\'s apartment, SoMa' },
+    { title: 'Photography walk', description: 'Sunset photography session', hour: 17, daysFromNow: 9, location: 'Baker Beach, SF' },
+    { title: 'Volunteer event', description: 'Beach cleanup with SF Cares', hour: 9, daysFromNow: 20, location: 'Ocean Beach, SF' },
+    { title: 'Cooking class', description: 'Japanese cooking workshop', hour: 18, daysFromNow: 25, location: 'Culinary Academy, SF' },
+    { title: 'Eye exam', description: 'Annual eye exam and new glasses', hour: 14, daysFromNow: -30, location: 'Bay Vision, Union Square' },
+    { title: 'Return Amazon package', description: 'Return faulty USB hub at UPS', hour: 12, daysFromNow: -22, location: 'UPS Store, Valencia St' },
+    { title: 'Library visit', description: 'Pick up reserved tech books', hour: 16, daysFromNow: -35, location: 'SF Public Library, Civic Center' },
+    { title: 'Car wash', description: 'Monthly car wash', hour: 10, daysFromNow: -40 },
+    { title: 'Furniture delivery', description: 'New standing desk arrives', hour: 13, daysFromNow: -45 },
+    { title: 'Lease renewal', description: 'Sign lease renewal for apartment', hour: 11, daysFromNow: -50 },
+    { title: 'AWS re:Invent meetup', description: 'Local re:Invent watch party', hour: 18, daysFromNow: 35, location: 'AWS SF Office' },
+    { title: 'Birthday dinner', description: 'Andres birthday celebration', hour: 20, daysFromNow: 40, location: 'Nobu, SF' },
+    { title: 'Wine tasting', description: 'Napa Valley day trip with friends', hour: 10, daysFromNow: 45, location: 'Napa Valley' },
+    { title: 'Home gym setup', description: 'Assemble new workout bench', hour: 14, daysFromNow: -55 },
+    { title: 'Podcast recording', description: 'Guest spot on DevTalks podcast', hour: 16, daysFromNow: 50 },
+    { title: 'Beach day', description: 'Relaxing day at Stinson Beach', hour: 10, daysFromNow: 55, location: 'Stinson Beach' },
+    { title: 'Career coaching', description: 'Session with career coach', hour: 11, daysFromNow: -60 },
+    { title: 'Piano lesson', description: 'Started learning piano', hour: 17, daysFromNow: -65, location: 'SF Music School' },
+    { title: 'Camping trip', description: 'Weekend camping at Big Sur', hour: 7, daysFromNow: 60, location: 'Big Sur, CA' },
+    { title: 'Immigration paperwork', description: 'Submit work visa renewal docs', hour: 10, daysFromNow: -70 },
+    { title: 'Computer upgrade', description: 'Install new RAM and SSD', hour: 15, daysFromNow: -75 },
+    { title: 'Potluck dinner', description: 'Neighborhood potluck event', hour: 18, daysFromNow: 65, location: 'Community Center, Mission' },
+    { title: 'Thrift shopping', description: 'Vintage shopping in Haight', hour: 13, daysFromNow: -80, location: 'Haight-Ashbury, SF' },
+    { title: 'Kayaking', description: 'Morning kayak on the Bay', hour: 8, daysFromNow: 70, location: 'SF Kayak Center' },
   ]
 
   const events: any[] = []
 
-  // Generate recurring work events for next 30 days
+  // Generate recurring work events for 180 days (past 90 + future 90)
   for (const we of workEvents) {
-    for (let d = -7; d <= 30; d++) {
+    for (let d = -90; d <= 90; d++) {
       const date = new Date(NOW + d * ONE_DAY_MS)
       const dayOfWeek = date.getDay()
       if (dayOfWeek === 0 || dayOfWeek === 6) continue // skip weekends
@@ -2181,7 +2580,7 @@ function generateAtlasEvents() {
   }
 
   // Fitness events: Gym Mon/Wed/Fri, Running Tue/Thu
-  for (let d = -7; d <= 30; d++) {
+  for (let d = -90; d <= 90; d++) {
     const date = new Date(NOW + d * ONE_DAY_MS)
     const dayOfWeek = date.getDay()
     if (dayOfWeek === 0 || dayOfWeek === 6) continue
@@ -2220,6 +2619,43 @@ function generateAtlasEvents() {
       start_ts: startTs, end_ts: startTs + 3600,
       all_day: false, location: (pe as any).location,
       calendar: 'Personal', color: '#4285F4',
+      recurrence: null,
+    })
+  }
+
+  // Pad with additional personal/social events to reach 500+
+  const padEventTemplates = [
+    'Coffee with friend', 'Grocery run', 'Laundry', 'Read at cafe',
+    'Side project work', 'YouTube recording session', 'Blog writing',
+    'Budget review', 'Apartment tidy up', 'Cook meal prep',
+    'Respond to emails', 'Review PRs', 'Study session', 'Meditation',
+    'Call with recruiter', 'Dentist followup', 'Pharmacy run',
+    'Return library books', 'Water plants', 'Update resume',
+    'Research conference talks', 'Practice presentation', 'Team lunch',
+    'Networking event', 'Watch tech talk', 'Update portfolio',
+    'Fix personal website', 'Organize photos', 'Backup data',
+    'Plan weekend trip', 'Review investments', 'Cancel subscriptions',
+  ]
+
+  while (events.length < 500) {
+    const d = faker.number.int({ min: -90, max: 90 })
+    const date = new Date(NOW + d * ONE_DAY_MS)
+    const hour = faker.number.int({ min: 7, max: 21 })
+    const startTs = Math.floor(date.setHours(hour, 0, 0, 0) / 1000)
+    const durationMin = faker.helpers.arrayElement([15, 30, 45, 60, 90, 120])
+    const calIdx = faker.number.int({ min: 0, max: 2 })
+    events.push({
+      uadp_type: 'uadp:calendar_event',
+      id: uid('atlas:event'),
+      ts: startTs,
+      label: faker.helpers.arrayElement(padEventTemplates),
+      title: faker.helpers.arrayElement(padEventTemplates),
+      description: faker.lorem.sentence(),
+      start_ts: startTs,
+      end_ts: startTs + durationMin * 60,
+      all_day: false,
+      calendar: calendars[calIdx].name,
+      color: calendars[calIdx].color,
       recurrence: null,
     })
   }
