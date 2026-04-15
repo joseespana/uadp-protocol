@@ -586,7 +586,7 @@ uadp-protocol/
 │   └── ...                   # 14 services total
 ├── data/
 │   ├── seed.ts               # Deterministic data generator
-│   └── alejandro/            # Generated user data (JSON files)
+│   └── jose_espana/          # Generated user data (JSON files)
 ├── nginx/
 │   └── nginx.conf            # Reverse proxy configuration
 ├── docker-compose.yml
