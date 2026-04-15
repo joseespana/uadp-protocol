@@ -134,7 +134,7 @@ Authorization: Bearer eyJ...
       "id": "nova:post:abc123",
       "ts": 1774302750,
       "body": "Just deployed my new project with Bun and Elysia...",
-      "author": { "id": "user:alejandro_vega", "name": "Alejandro Vega", "handle": "@alejandro" },
+      "author": { "id": "user:jose_espana", "name": "Jose Espana", "handle": "@joseespana" },
       "likes": 142,
       "reposts": 23,
       "tags": ["bun", "elysia", "dev"]
