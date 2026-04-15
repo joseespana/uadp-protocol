@@ -3,7 +3,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:WmDulEtRQWey",
-      "ts": 1775663190,
+      "ts": 1776269340,
       "label": "Re: Depopulo culpo debilito tempora terebro ",
       "subject": "Re: Depopulo culpo debilito tempora terebro ",
       "from": {
@@ -31,7 +31,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:rjbtTS8oVx85",
-      "ts": 1775605589,
+      "ts": 1776211739,
       "label": "Re: Comis amicitia enim stips inventore cena",
       "subject": "Re: Comis amicitia enim stips inventore cena",
       "from": {
@@ -51,63 +51,42 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:Pzp8jLk0HUNn",
-      "ts": 1775580434,
-      "label": "Stips error compono decipio strenuus dem",
-      "subject": "Talus tripudio comminor virtus comptus n",
+      "id": "beacon:email:7Zcp46RwqjP5",
+      "ts": 1775994777,
+      "label": "Sublime cohibeo solus defetiscor ciliciu",
+      "subject": "Canto arbor debitis cotidie suasoria adn",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Newsletter AI Weekly",
-          "address": "newsletter@aiweekly-demo.local"
+          "name": "PerseusOft Board",
+          "address": "board@perseusoft.tech"
         }
       ],
-      "body_text": "Caterva quam terror crudelis pecus beatus clarus pauci.",
+      "body_text": "Modi cunabula aranea comis tendo comparo abstergo subseco ventosus. Creber adfero tempore stips error compono decipio strenuus demergo. Vae cruciamentum numquam talus tripudio.",
       "folder": "drafts",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:RJ1HxUVz9Hr2",
-      "ts": 1775407621,
-      "label": "Client Contract: TechNova — Final Draft",
-      "subject": "Client Contract: TechNova — Final Draft",
-      "from": {
-        "name": "Newsletter AI Weekly",
-        "address": "newsletter@aiweekly-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Surgo unde tactus thalassinus ceno conicio. Apostolus sit perspiciatis bellicus depopulo bos. Argumentum optio tumultus desino placeat.\nPatior strenuus ambitus abundans comis supra vulariter derelinquo. Perferendis conatus vigilo nesciunt videlicet contigo delicate verto dedico confido. Comprehendo soleo voluptas.\nAudentia succurro clarus vinculum decimus fugiat vinculum deinde. Comburo amplus aeneus. Uredo copia accedo utor amoveo ver avaritia certus supplanto stillicidium.\nSum atrocitas cito quam vitae. Terebro tribuo tabernus arguo. Votum coerceo aperio.",
-      "folder": "inbox",
-      "read": false,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:wHVCHhtJdE04",
-      "ts": 1775372057,
-      "label": "Baiulus cuppedia aestas amitto unus eum ",
-      "subject": "Maiores sublime cohibeo.",
+      "id": "beacon:email:JjEohZ05RqWm",
+      "ts": 1775994715,
+      "label": "Quasi abscido consuasor.",
+      "subject": "Vestigium vulgo sub audeo caries comedo ",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "GitHub Notifications",
-          "address": "noreply@github-demo.local"
+          "name": "PerseusOft Finance",
+          "address": "finance@perseusoft.tech"
         }
       ],
-      "body_text": "Cilicium ventus rerum usus canto arbor. Cotidie suasoria adnuo canonicus claro demo.",
+      "body_text": "Angelus cuius vis fugiat audacia.",
       "folder": "drafts",
       "read": true,
       "starred": false
@@ -115,9 +94,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:aqg5BfVuhw6x",
-      "ts": 1775337041,
-      "label": "PerseusOft: New Employee Onboarding — Week 3",
-      "subject": "PerseusOft: New Employee Onboarding — Week 3",
+      "ts": 1775943191,
+      "label": "Newsletter: Top 10 AI Papers This Week",
+      "subject": "Newsletter: Top 10 AI Papers This Week",
       "from": {
         "name": "AWS",
         "address": "billing@aws-demo.local"
@@ -135,8 +114,29 @@
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:djSyxDkkydHs",
+      "ts": 1775925865,
+      "label": "Re: Comedo suppono dens quibusdam quae admit",
+      "subject": "Re: Comedo suppono dens quibusdam quae admit",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "TechConf SF",
+          "address": "info@conftech-demo.local"
+        }
+      ],
+      "body_text": "Coniuratio crepusculum compello stultus sui uter minima. Vespillo cilicium cometes condico cimentarius decens infit conforto aufero. Patrocinor decretum pecco tres benevolentia solum alveus.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:GScSt4Z13rAd",
-      "ts": 1775234903,
+      "ts": 1775841053,
       "label": "Re: Temporibus sto ambulo verumtamen tempora",
       "subject": "Re: Temporibus sto ambulo verumtamen tempora",
       "from": {
@@ -157,7 +157,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:tDxLjkiTgDMG",
-      "ts": 1775118128,
+      "ts": 1775724278,
       "label": "Re: Vae esse beatus conatus peior vitium uni",
       "subject": "Re: Vae esse beatus conatus peior vitium uni",
       "from": {
@@ -185,9 +185,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:fyC54VptNctg",
-      "ts": 1774992636,
-      "label": "Newsletter: Top 10 AI Papers This Week",
-      "subject": "Newsletter: Top 10 AI Papers This Week",
+      "ts": 1775598786,
+      "label": "AWS re:Invent — Registration Confirmed",
+      "subject": "AWS re:Invent — Registration Confirmed",
       "from": {
         "name": "Alex Morgan",
         "address": "test@perseusoft.tech"
@@ -205,71 +205,50 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:k2WYjax7sK18",
-      "ts": 1774829584,
-      "label": "Assentator temperantia avarus sponte coa",
-      "subject": "Urbanus tenuis turba neque.",
+      "id": "beacon:email:XkAucGfCMoBc",
+      "ts": 1775523147,
+      "label": "Aro cresco textilis tripudio verto delud",
+      "subject": "Voluptatibus vir tubineus adopto aegrota",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "TechConf SF",
-          "address": "info@conftech-demo.local"
+          "name": "Laura Chen",
+          "address": "laura.chen@perseusoft.tech"
         }
       ],
-      "body_text": "Laborum amoveo spes acidus. Carpo textus conservo confero atavus.",
+      "body_text": "Verecundia addo quidem aeternus. Tempus acies caelestis apud.",
       "folder": "drafts",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:vKGg9qBV1KFP",
-      "ts": 1774788128,
-      "label": "Re: Suscipit cubo deinde bonus uredo cuius c",
-      "subject": "Re: Suscipit cubo deinde bonus uredo cuius c",
+      "id": "beacon:email:xWs5j74VRm0S",
+      "ts": 1775416067,
+      "label": "Client Contract: TechNova — Final Draft",
+      "subject": "Client Contract: TechNova — Final Draft",
       "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
+        "name": "Ana Garcia",
+        "address": "ana.garcia@perseusoft.tech"
       },
       "to": [
         {
-          "name": "GitHub Notifications",
-          "address": "noreply@github-demo.local"
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
         }
       ],
-      "body_text": "Virtus tolero adfero comprehendo tergum spero sodalitas conor admoveo. Avarus debitis adhuc spero eum perspiciatis substantia subseco aurum. Minus id aperte virga.\nToties contigo vel vulariter placeat calco comptus verbera. Attonbitus unus reprehenderit ago thorax ea ipsum distinctio. Uredo condico theca curtus.\nLaboriosam amicitia patior suggero toties. Sunt tolero uxor condico suasoria creo addo strenuus. Supellex careo voluptatem accedo approbo tersus depopulo illo patrocinor consequuntur.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:CVLU2MQBuK0M",
-      "ts": 1774724025,
-      "label": "Soluta subiungo subseco cohaero sufficio",
-      "subject": "Volo odio suscipit numquam suus degenero",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "Alex Morgan",
-          "address": "test@perseusoft.tech"
-        }
-      ],
-      "body_text": "Curtus vilitas spiculum. Teres arca amissio id adipisci terra. Demum titulus inflammatio atque suus comitatus solum cubitum cito vulgus.",
-      "folder": "drafts",
-      "read": true,
-      "starred": false
+      "body_text": "Certus supplanto stillicidium centum. Atrocitas cito quam vitae basium terebro tribuo tabernus. Adficio votum coerceo aperio.\nVulpes inventore celo theca statua. Tenax ulterius quis commodo causa laborum vestrum tergo carpo. Acidus eveniet qui capitulus testimonium arbor canto.\nCommodi uxor quidem verecundia acies commodi delectus. Censura patruus vigilo adhaero derideo ab considero thalassinus. Tergeo clamo decerno depereo dolorum toties.\nCum dedico asperiores. Acer clarus thesis solus bestia. Deludo contra spectaculum admiratio cruciamentum accedo victoria coadunatio vitium.",
+      "folder": "inbox",
+      "read": false,
+      "starred": true
     },
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:LzPdaBheHXcG",
-      "ts": 1774632448,
+      "ts": 1775238598,
       "label": "Re: Odit tripudio audax paens cometes tenetu",
       "subject": "Re: Odit tripudio audax paens cometes tenetu",
       "from": {
@@ -289,13 +268,13 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:IBAxGQ1Rt4Fu",
-      "ts": 1774332117,
-      "label": "Re: Tamdiu antiquus vos torrens sursum cum v",
-      "subject": "Re: Tamdiu antiquus vos torrens sursum cum v",
+      "id": "beacon:email:OFQN6gStdrKN",
+      "ts": 1775213232,
+      "label": "Re: Provident decor colligo.",
+      "subject": "Re: Provident decor colligo.",
       "from": {
-        "name": "Miguel Santos",
-        "address": "miguel.santos@perseusoft.tech"
+        "name": "Ana Garcia",
+        "address": "ana.garcia@perseusoft.tech"
       },
       "to": [
         {
@@ -303,17 +282,101 @@
           "address": "jose.espana@perseusoft.tech"
         }
       ],
-      "body_text": "Ater candidus acies cado. Tepidus suadeo vis tepesco thalassinus unde. Xiphias triumphus depulso.",
+      "body_text": "Ea aliquid suffragium voro velum deduco benigne provident taedium. Sollers antea cruentus depereo despecto solus. Ter ater excepturi verbera tabgo.\nAbbas esse accedo creber dedecor adflicto eius arceo. Angelus tui colligo cubicularis coruscus adipisci spiritus tepidus acerbitas spoliatio. Cimentarius strenuus tersus victoria tunc defero solutio mollitia comes.\nVapulus tener derelinquo sono thesis amiculum ultra. Tempora subiungo constans benigne inventore. Vos tabula illum decet.\nVelit soluta uxor aperiam cunae cui ante facere templum. Aranea quidem demoror demulceo venio repellat nihil adhuc. Quaerat decretum aestus vindico angulus quos solium aqua paens.",
       "folder": "inbox",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:5qvCTwaDxiqb",
+      "ts": 1775110862,
+      "label": "Re: AWS Cost Optimization Plan",
+      "subject": "Re: AWS Cost Optimization Plan",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "PerseusOft Finance",
+          "address": "finance@perseusoft.tech"
+        }
+      ],
+      "body_text": "Asper vigilo delinquo votum. Acies totam summopere crepusculum cubitum conculco sui. Auctus cunae amoveo tum.\nArticulus ventosus aro molestiae comprehendo quia tergeo usque. Supellex desolo terminatio artificiose. Catena adnuo ver perspiciatis aggredior.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:hb4fRdJcvjaD",
+      "ts": 1775080334,
+      "label": "[PR #891] feat: add ML inference endpoint — merged",
+      "subject": "[PR #891] feat: add ML inference endpoint — merged",
+      "from": {
+        "name": "PerseusOft Board",
+        "address": "board@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Brevis carmen adeptio depopulo audio aspernatur non crustulum teres. Adicio supra amplitudo dapifer amplexus cunabula voluptatum defungo. Universe tempora claustrum suggero pax adduco.\nTerreo calcar beatus tamisium utrum sit ascit suscipit torqueo civis. Animadverto cubitum praesentium denuo caste carcer ver. Tam spiculum ut tergum itaque ut vindico tantum suasoria.\nSapiente eius arbor audacia natus surgo. Cenaculum timidus utilis viridis tero contabesco. Sordeo cibus ait.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:v8B71DMG9qnG",
+      "ts": 1775038578,
+      "label": "Re: Conatus compello recusandae quidem.",
+      "subject": "Re: Conatus compello recusandae quidem.",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Caveo tempus magni cognomen coepi sit nobis placeat. Uterque clementia ducimus trepide tandem volup adamo doloribus venustas carus. Civis ultio truculenter.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:JTRfCVLU2MQB",
+      "ts": 1775027672,
+      "label": "Abutor tertius corona torrens soluta sub",
+      "subject": "Solus toties aliquid decipio quaerat vol",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "PerseusOft Finance",
+          "address": "finance@perseusoft.tech"
+        }
+      ],
+      "body_text": "Degenero supra spes adulatio curtus vilitas spiculum desidero. Arca amissio id adipisci terra vomica demum titulus inflammatio.",
+      "folder": "drafts",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:HlWay9YUmssC",
-      "ts": 1774323436,
-      "label": "Investor Update — March 2025",
-      "subject": "Investor Update — March 2025",
+      "ts": 1774929586,
+      "label": "Re: ML Pipeline Performance Report",
+      "subject": "Re: ML Pipeline Performance Report",
       "from": {
         "name": "Sofia España",
         "address": "sofia.espana@correo-demo.local"
@@ -331,29 +394,50 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:oNPUt4xYWP34",
-      "ts": 1774032770,
-      "label": "Exercitationem artificiose verecundia ad",
-      "subject": "Articulus tempus acies.",
+      "id": "beacon:email:bxouzK2wCzl4",
+      "ts": 1774659553,
+      "label": "Voluptatem attollo sui clamo adamo.",
+      "subject": "Tenus adeptio maiores bene audentia trep",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "PerseusOft Finance",
-          "address": "finance@perseusoft.tech"
+          "name": "Orbit Bank",
+          "address": "notifications@orbit-demo.local"
         }
       ],
-      "body_text": "Arma tactus valeo usitas.",
+      "body_text": "Ut tutamen strues illum adduco.",
       "folder": "drafts",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:mLYM3NGOkHuE",
+      "ts": 1774603586,
+      "label": "Re: Facilis adhaero utor cilicium curis.",
+      "subject": "Re: Facilis adhaero utor cilicium curis.",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "Sofia España",
+          "address": "sofia.espana@correo-demo.local"
+        }
+      ],
+      "body_text": "Voluptatibus tyrannus vae aptus absconditus toties volo decimus tolero. Corpus abeo tergo adinventitias centum desolo. Pecto nobis caelum.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:lVXo6wSUI5aJ",
-      "ts": 1773928849,
+      "ts": 1774534999,
       "label": "Re: Atrox cohors aedificium.",
       "subject": "Re: Atrox cohors aedificium.",
       "from": {
@@ -374,9 +458,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:vvKxCL1ad1hx",
-      "ts": 1773916348,
-      "label": "MercadoMart: Your MacBook Pro M5 has been delivered!",
-      "subject": "MercadoMart: Your MacBook Pro M5 has been delivered!",
+      "ts": 1774522498,
+      "label": "Zinc: International charge — AWS $187.50 USD",
+      "subject": "Zinc: International charge — AWS $187.50 USD",
       "from": {
         "name": "Ana Garcia",
         "address": "ana.garcia@perseusoft.tech"
@@ -401,59 +485,10 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:WsSzYSZiodPj",
-      "ts": 1773788522,
-      "label": "Re: Voluptate culpa sumo cuius mollitia suff",
-      "subject": "Re: Voluptate culpa sumo cuius mollitia suff",
-      "from": {
-        "name": "Alex Morgan",
-        "address": "test@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Tricesimus asperiores utpote ver accommodo. Repudiandae cibo accedo temeritas pax cilicium adeo caterva. Universe recusandae tener.\nConstans confero brevis autus nostrum adnuo. Tactus temperantia tonsor votum tepidus voveo conor audio adicio. Bis tantum vix eos.\nVulgivagus currus succurro arbitro casso basium uter comedo collum abbas. Crastinus texo deleo deleniti esse auctus saepe quam volutabrum possimus. Vere tribuo agnitio colligo colo vomer peior advoco animi.\nEius tener turbo demens ademptio vester. Ex cohibeo quia ab tabgo praesentium. Peccatus earum suffragium volva tunc delinquo delicate antea.",
-      "folder": "inbox",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:gNGOLQCkfyVM",
-      "ts": 1773742184,
-      "label": "AWS Monthly Invoice — $2,847.50 USD",
-      "subject": "AWS Monthly Invoice — $2,847.50 USD",
-      "from": {
-        "name": "Maria España",
-        "address": "maria.espana@correo-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Eveniet qui capitulus. Arbor canto itaque commodi uxor quidem verecundia acies commodi. Quis censura patruus vigilo adhaero derideo.\nConsidero thalassinus depraedor. Clamo decerno depereo dolorum toties abstergo cum dedico asperiores. Acer clarus thesis solus bestia.\nDeludo contra spectaculum admiratio cruciamentum accedo victoria coadunatio vitium. Vulariter dedecor cupiditate. Vitae cohors amiculum conatus.",
-      "folder": "inbox",
-      "read": false,
-      "starred": false,
-      "attachments": [
-        {
-          "name": "casement.ogg.pdf",
-          "size_bytes": 1869684,
-          "type": "application/pdf"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:R7BgIS9h0Iqz",
-      "ts": 1773718557,
-      "label": "AWS re:Invent — Registration Confirmed",
-      "subject": "AWS re:Invent — Registration Confirmed",
+      "ts": 1774324707,
+      "label": "TechConf SF 2025 — Speaker Confirmation",
+      "subject": "TechConf SF 2025 — Speaker Confirmation",
       "from": {
         "name": "PerseusOft Board",
         "address": "board@perseusoft.tech"
@@ -472,7 +507,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:ORo7MIo53GDL",
-      "ts": 1773701939,
+      "ts": 1774308089,
       "label": "Re: Ipsam iure adaugeo.",
       "subject": "Re: Ipsam iure adaugeo.",
       "from": {
@@ -493,7 +528,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:eQZmdmsMWXbF",
-      "ts": 1773596740,
+      "ts": 1774202890,
       "label": "Re: Barba thalassinus sortitus casus vesper ",
       "subject": "Re: Barba thalassinus sortitus casus vesper ",
       "from": {
@@ -521,9 +556,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:CQMT9f7wbUSq",
-      "ts": 1773576808,
-      "label": "Love, don't forget dinner at 8pm tonight — Sofia",
-      "subject": "Love, don't forget dinner at 8pm tonight — Sofia",
+      "ts": 1774182958,
+      "label": "Tesla Service: Scheduled maintenance reminder",
+      "subject": "Tesla Service: Scheduled maintenance reminder",
       "from": {
         "name": "AWS",
         "address": "billing@aws-demo.local"
@@ -542,7 +577,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:fXZLwKTkinjL",
-      "ts": 1773465512,
+      "ts": 1774071662,
       "label": "Re: Adimpleo tyrannus tribuo termes terebro ",
       "subject": "Re: Adimpleo tyrannus tribuo termes terebro ",
       "from": {
@@ -563,7 +598,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:KsYnuMFQxZke",
-      "ts": 1773375885,
+      "ts": 1773982035,
       "label": "Re: Attero tepesco triumphus angulus caelum ",
       "subject": "Re: Attero tepesco triumphus angulus caelum ",
       "from": {
@@ -583,21 +618,63 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:YTsEsyGGqsPj",
-      "ts": 1773123743,
-      "label": "Re: AWS Cost Optimization Plan",
-      "subject": "Re: AWS Cost Optimization Plan",
+      "id": "beacon:email:bG8S7GVzYk47",
+      "ts": 1773969451,
+      "label": "Re: Eos quasi aegrotatio deinde anser temeri",
+      "subject": "Re: Eos quasi aegrotatio deinde anser temeri",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Laura Chen",
-          "address": "laura.chen@perseusoft.tech"
+          "name": "MercadoMart",
+          "address": "orders@mercadomart-demo.local"
         }
       ],
-      "body_text": "Delectatio adopto altus. Accedo fugit vos tredecim. Trepide solitudo nostrum cogo deporto aperiam sub abstergo sto.\nAgo totus volutabrum crepusculum alo curis vacuus. Tempus voluptatem currus approbo tantillus calco cognatus turba esse delicate. Deleniti stultus aliquid compono.",
+      "body_text": "Desparatus assumenda laborum. Alter capio spargo. Admoneo ut suscipit cubo deinde bonus.\nCuius calamitas animi vicissitudo desparatus temeritas stips ceno aro. Pecco verus accusator talis spargo tribuo. Usus turbo virtus.\nAdfero comprehendo tergum spero sodalitas conor admoveo temporibus avarus. Adhuc spero eum perspiciatis substantia subseco. Bos minus id aperte.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:9Hr22OtIRJNg",
+      "ts": 1773618390,
+      "label": "Board Meeting Agenda — Q1 2025 Review",
+      "subject": "Board Meeting Agenda — Q1 2025 Review",
+      "from": {
+        "name": "Maria España",
+        "address": "maria.espana@correo-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Sit perspiciatis bellicus depopulo. Coerceo argumentum optio tumultus. Placeat spoliatio patior strenuus ambitus abundans comis.\nVulariter derelinquo vigor perferendis conatus vigilo nesciunt videlicet. Delicate verto dedico confido admiratio. Soleo voluptas tamquam audentia succurro.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:i1U9SVtLVXlB",
+      "ts": 1773588883,
+      "label": "Re: Board Meeting Agenda — Q1 2025 Review",
+      "subject": "Re: Board Meeting Agenda — Q1 2025 Review",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "GitHub Notifications",
+          "address": "noreply@github-demo.local"
+        }
+      ],
+      "body_text": "Asporto vitiosus error dens crudelis copiose teneo. Villa adsidue cunae tendo. Viscus subiungo truculenter sponte comburo ambulo harum.\nDenuo ulciscor dolores conservo administratio. Stipes communis voluptatem tracto advoco depromo denuncio suppellex speculum harum. Acies adstringo clibanus voveo.",
       "folder": "sent",
       "read": true,
       "starred": false
@@ -605,9 +682,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:hI7tES1jIn2R",
-      "ts": 1772960735,
-      "label": "Re: ML Pipeline Performance Report",
-      "subject": "Re: ML Pipeline Performance Report",
+      "ts": 1773566885,
+      "label": "Sprint Planning Notes — Sprint 47",
+      "subject": "Sprint Planning Notes — Sprint 47",
       "from": {
         "name": "Sofia España",
         "address": "sofia.espana@correo-demo.local"
@@ -626,7 +703,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:j8TxRO2MZIqO",
-      "ts": 1772780330,
+      "ts": 1773386480,
       "label": "Re: Architecto truculenter vester delinquo a",
       "subject": "Re: Architecto truculenter vester delinquo a",
       "from": {
@@ -653,29 +730,8 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:J1ut9hbRTdkV",
-      "ts": 1772657622,
-      "label": "GitHub: 15 new pull requests need your review",
-      "subject": "GitHub: 15 new pull requests need your review",
-      "from": {
-        "name": "MercadoMart",
-        "address": "orders@mercadomart-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Clementia curiositas vero ducimus virgo. Minus volaticus valetudo. Laboriosam cupiditas vigilo abutor cohibeo atqui adopto verecundia.",
-      "folder": "inbox",
-      "read": false,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:nzqdPzKiYPR5",
-      "ts": 1772610903,
+      "ts": 1773217053,
       "label": "Re: Depopulo tripudio demoror soluta advenio",
       "subject": "Re: Depopulo tripudio demoror soluta advenio",
       "from": {
@@ -695,29 +751,8 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:ciEeHr8zd04R",
-      "ts": 1772572476,
-      "label": "Re: Quibusdam coaegresco peior convoco defen",
-      "subject": "Re: Quibusdam coaegresco peior convoco defen",
-      "from": {
-        "name": "Alex Morgan",
-        "address": "test@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Coniuratio rerum ambulo apostolus velut accusamus umbra auditor. Substantia accendo dolorem desino possimus caute abbas stips. Utpote degenero voluptatem tego supplanto odio fugiat tripudio caute.\nEsse civitas tres contabesco paens neque tersus tenetur umbra iure. Quod verbum canto auxilium pel sollers statua. Crastinus desolo complectus deludo acsi absens congregatio quo.",
-      "folder": "inbox",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:vc3kBkrGaBu1",
-      "ts": 1772455465,
+      "ts": 1773061615,
       "label": "Re: Audeo ara conitor quasi angulus corrobor",
       "subject": "Re: Audeo ara conitor quasi angulus corrobor",
       "from": {
@@ -738,7 +773,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:YO2Gay5LJv6C",
-      "ts": 1772396780,
+      "ts": 1773002930,
       "label": "Re: Aegre triumphus aiunt vado laboriosam th",
       "subject": "Re: Aegre triumphus aiunt vado laboriosam th",
       "from": {
@@ -758,29 +793,8 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:okGHSzNVhjkh",
-      "ts": 1772262837,
-      "label": "Re: Caelum suffoco degero adipisci aegre min",
-      "subject": "Re: Caelum suffoco degero adipisci aegre min",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "Laura Chen",
-          "address": "laura.chen@perseusoft.tech"
-        }
-      ],
-      "body_text": "Aufero quia patrocinor decretum pecco. Benevolentia solum alveus sodalitas denique eos quasi aegrotatio deinde. Temeritas auditor sto.\nUterque annus stultus verumtamen. Voluptatibus comparo aer animus coadunatio sublime aequus. Assumenda laborum adfectus alter capio spargo debeo.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:s5BvHxmXoHvD",
-      "ts": 1772197093,
+      "ts": 1772803243,
       "label": "Re: Creo defetiscor agnitio.",
       "subject": "Re: Creo defetiscor agnitio.",
       "from": {
@@ -801,9 +815,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:VQycvXqyUUOE",
-      "ts": 1772166481,
-      "label": "Tesla Service: Scheduled maintenance reminder",
-      "subject": "Tesla Service: Scheduled maintenance reminder",
+      "ts": 1772772631,
+      "label": "Investor Update — March 2025",
+      "subject": "Investor Update — March 2025",
       "from": {
         "name": "AWS",
         "address": "billing@aws-demo.local"
@@ -821,29 +835,99 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:P7eponfCrQst",
-      "ts": 1771683728,
-      "label": "Re: Board Meeting Agenda — Q1 2025 Review",
-      "subject": "Re: Board Meeting Agenda — Q1 2025 Review",
+      "id": "beacon:email:aKcGiyM9RLQz",
+      "ts": 1772389197,
+      "label": "Re: Ancilla delectus tam accusantium appono ",
+      "subject": "Re: Ancilla delectus tam accusantium appono ",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Miguel Santos",
-          "address": "miguel.santos@perseusoft.tech"
+          "name": "PerseusOft Finance",
+          "address": "finance@perseusoft.tech"
         }
       ],
-      "body_text": "Repellat tui conventus volva soluta. Cupiditate excepturi quidem appositus villa curo colligo recusandae caelum. Bellum socius eum.\nSubseco toties absconditus terror terreo. Tristis quas textilis sodalitas dens acervus delectatio tepesco torqueo patior. Sum stillicidium audentia vivo.\nLaudantium truculenter theca tergum adinventitias demens autus conscendo. Comis claustrum dolor bos calamitas cruentus angelus cedo dapifer assumenda. Corpus varietas adinventitias comparo conspergo subseco.",
+      "body_text": "Amoveo spes acidus civis carpo textus conservo. Atavus administratio earum succedo vicissitudo. Subiungo chirographum demoror tabgo bos soleo a.",
       "folder": "sent",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:RyvDUecBEGEn",
+      "ts": 1772368663,
+      "label": "Re: Civitas tres contabesco paens neque ters",
+      "subject": "Re: Civitas tres contabesco paens neque ters",
+      "from": {
+        "name": "TechConf SF",
+        "address": "info@conftech-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Acsi absens congregatio quo ustulo denique. Uredo tamdiu antiquus vos torrens. Cum vado vereor defessus suppellex pecus omnis hic.\nUllus adamo ustilo denego aestus spiculum depulso at. Apto ater candidus. Cado deleo tepidus.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:OvJ8FdN52DBW",
+      "ts": 1772361898,
+      "label": "Re: Team retreat logistics — Napa",
+      "subject": "Re: Team retreat logistics — Napa",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Tolero triduana cinis. Aliquid cruentus vesco reprehenderit tutamen similique. Summa ulciscor utor temperantia depopulo viscus alias supellex.\nDeleniti valetudo subvenio claudeo quis somniculosus caries. Esse cribro comes subnecto consectetur tricesimus. Dolorem consectetur suppono thema deripio arcesso cunctatio casso.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:CPUP5jjYB47t",
+      "ts": 1772242399,
+      "label": "Re: Deleniti esse auctus saepe quam volutabr",
+      "subject": "Re: Deleniti esse auctus saepe quam volutabr",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Demens ademptio vester creo ex cohibeo quia ab tabgo. Solutio peccatus earum suffragium volva tunc delinquo. Antea eaque tardus cinis certe attero.\nIure crur xiphias spero terga facere stillicidium. Curia adulescens volutabrum. Acies arbitro sponte virtus cognomen cupiditas.\nSummisse ad curis copia pariatur caute crux abundans. Abduco degenero vomer. Tricesimus statua bene coepi arceo vallum repellat desidero.\nUberrime depereo correptius vis benevolentia attero vilicus voluptas una. Candidus tutamen modi explicabo aveho. Sumptus tumultus angelus terebro agnitio spes sulum.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "dull.json.pdf",
+          "size_bytes": 833339,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:WNjjdezDIsfR",
-      "ts": 1771565298,
+      "ts": 1772171448,
       "label": "Re: Impedit degenero benigne articulus deper",
       "subject": "Re: Impedit degenero benigne articulus deper",
       "from": {
@@ -863,13 +947,13 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:laEB97jmD6MK",
-      "ts": 1771555049,
-      "label": "Re: Averto deprecator defleo aliquam tego pa",
-      "subject": "Re: Averto deprecator defleo aliquam tego pa",
+      "id": "beacon:email:stvIiDPmYEQp",
+      "ts": 1772156456,
+      "label": "Re: Animus campana cupiditate cruentus credo",
+      "subject": "Re: Animus campana cupiditate cruentus credo",
       "from": {
-        "name": "TechConf SF",
-        "address": "info@conftech-demo.local"
+        "name": "Miguel Santos",
+        "address": "miguel.santos@perseusoft.tech"
       },
       "to": [
         {
@@ -877,15 +961,22 @@
           "address": "jose.espana@perseusoft.tech"
         }
       ],
-      "body_text": "Xiphias tersus amissio beneficium omnis crur conforto. Qui curis advenio provident decor colligo tot somnus tumultus. Ambulo censura vae demonstro blandior debitis temeritas thesaurus apto.\nTripudio ea aliquid suffragium voro velum deduco benigne provident taedium. Sollers antea cruentus depereo despecto solus. Ter ater excepturi verbera tabgo.\nAbbas esse accedo creber dedecor adflicto eius arceo. Angelus tui colligo cubicularis coruscus adipisci spiritus tepidus acerbitas spoliatio. Cimentarius strenuus tersus victoria tunc defero solutio mollitia comes.",
+      "body_text": "Villa curo colligo recusandae. Abscido bellum socius eum. Subseco toties absconditus terror terreo.\nTristis quas textilis sodalitas dens acervus delectatio tepesco torqueo patior. Sum stillicidium audentia vivo. Laudantium truculenter theca tergum adinventitias demens autus conscendo.\nComis claustrum dolor bos calamitas cruentus angelus cedo dapifer assumenda. Corpus varietas adinventitias comparo conspergo subseco. Possimus celebrer saepe.",
       "folder": "inbox",
       "read": true,
-      "starred": false
+      "starred": false,
+      "attachments": [
+        {
+          "name": "packaging.xhtml.pdf",
+          "size_bytes": 1619776,
+          "type": "application/pdf"
+        }
+      ]
     },
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:lbDpk3YFsSTn",
-      "ts": 1771458921,
+      "ts": 1772065071,
       "label": "Re: Talis patior peior.",
       "subject": "Re: Talis patior peior.",
       "from": {
@@ -912,29 +1003,8 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:j1s3qI1ha3eN",
-      "ts": 1771424589,
-      "label": "Re: Tempore substantia tremo arca despecto v",
-      "subject": "Re: Tempore substantia tremo arca despecto v",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "MercadoMart",
-          "address": "orders@mercadomart-demo.local"
-        }
-      ],
-      "body_text": "Tandem alienus xiphias solutio synagoga non tristis odio. Tamen assumenda exercitationem curia cunabula temeritas aureus voluptatum minima. Ambulo vesco deputo versus.\nUmerus coniecto creta ulterius unde. Vix bos via illum volup. Vobis aegrus verbera eos possimus astrum creator facere tripudio conscendo.\nComminor tenetur thema advenio socius tergeo demoror demo. Comburo officia auxilium. Natus vere cumque tantillus considero.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:EpCifxpZmG6c",
-      "ts": 1771389490,
+      "ts": 1771995640,
       "label": "Re: Sol coaegresco talus video tertius supra",
       "subject": "Re: Sol coaegresco talus video tertius supra",
       "from": {
@@ -961,8 +1031,57 @@
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:TxnIh7QgeIeU",
+      "ts": 1771916182,
+      "label": "Re: Sub carpo damnatio alii delinquo sequi a",
+      "subject": "Re: Sub carpo damnatio alii delinquo sequi a",
+      "from": {
+        "name": "Orbit Bank",
+        "address": "notifications@orbit-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Vorago candidus pax subseco dolor facilis terreo coniecto textus. Patria crastinus victoria repellendus claro. Tergum utor arbitro harum soluta capitulus antiquus.\nCattus vulpes voluptate culpa sumo cuius mollitia suffragium audio. Coruscus vomer virga degenero. Maxime volo utrimque vos cogo cubitum bestia trucido commodi carcer.\nConfero tricesimus asperiores utpote ver accommodo stipes repudiandae cibo accedo. Pax cilicium adeo caterva adduco universe recusandae tener crebro. Confero brevis autus nostrum adnuo.\nTactus temperantia tonsor votum tepidus voveo conor audio adicio. Bis tantum vix eos. Vulgivagus currus succurro arbitro casso basium uter comedo collum abbas.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:YymVng4S4Fnj",
+      "ts": 1771850987,
+      "label": "[PR #887] fix: optimize Lambda cold start",
+      "subject": "[PR #887] fix: optimize Lambda cold start",
+      "from": {
+        "name": "PerseusOft Finance",
+        "address": "finance@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Apto crepusculum paens aequitas summa in crinis varietas talus tremo. Atavus succurro pariatur molestias laborum sperno consuasor. Creo somniculosus tero statua synagoga tabernus.\nCustodia sopor aro eum solus careo aedificium utroque ex admiratio. Uredo absens id aliquid conatus capto. Blanditiis ante vinitor subiungo.\nTamquam cura vaco decipio decet adsum. Auxilium cruentus molestias dedico. Beatae sapiente maxime amplexus alveus summisse uterque cribro inventore.\nAttollo atque sint quibusdam adduco aspicio veritatis consequatur ventosus. Uredo tamdiu aeger deduco canto arto degenero averto. Defaeco certe defero auctor vilis denego.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false,
+      "attachments": [
+        {
+          "name": "marten_aw.3gp.pdf",
+          "size_bytes": 4655337,
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:Z2Dozo25utJs",
-      "ts": 1771131246,
+      "ts": 1771737396,
       "label": "Re: Utroque nam desidero bene campana aegre ",
       "subject": "Re: Utroque nam desidero bene campana aegre ",
       "from": {
@@ -990,7 +1109,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:OsG1avRZ1bf3",
-      "ts": 1771100095,
+      "ts": 1771706245,
       "label": "Re: Suadeo barba torrens appono abstergo utr",
       "subject": "Re: Suadeo barba torrens appono abstergo utr",
       "from": {
@@ -1011,7 +1130,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:EfvfoWmfuAB4",
-      "ts": 1771028084,
+      "ts": 1771634234,
       "label": "Re: Carus ullam asporto crux vulariter torqu",
       "subject": "Re: Carus ullam asporto crux vulariter torqu",
       "from": {
@@ -1031,10 +1150,31 @@
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:cus5KBiihlaE",
+      "ts": 1771578220,
+      "label": "Re: Unde advoco xiphias triumphus depulso vi",
+      "subject": "Re: Unde advoco xiphias triumphus depulso vi",
+      "from": {
+        "name": "Zinc",
+        "address": "alerts@zinc-demo.local"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Comedo correptius sapiente. Testimonium tamen ex. Ea xiphias tersus amissio beneficium omnis crur conforto.",
+      "folder": "inbox",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:f3Uq1U6UXRLH",
-      "ts": 1770794236,
-      "label": "TechConf SF 2025 — Speaker Confirmation",
-      "subject": "TechConf SF 2025 — Speaker Confirmation",
+      "ts": 1771400386,
+      "label": "MercadoMart: Order #2001 — AirPods Pro shipped",
+      "subject": "MercadoMart: Order #2001 — AirPods Pro shipped",
       "from": {
         "name": "Sofia España",
         "address": "sofia.espana@correo-demo.local"
@@ -1052,92 +1192,8 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:4hb4fRdJcvja",
-      "ts": 1770755171,
-      "label": "[PR #891] feat: add ML inference endpoint — merged",
-      "subject": "[PR #891] feat: add ML inference endpoint — merged",
-      "from": {
-        "name": "Newsletter AI Weekly",
-        "address": "newsletter@aiweekly-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Turbo brevis carmen adeptio depopulo audio aspernatur. Crustulum teres sollers adicio supra amplitudo dapifer. Cunabula voluptatum defungo.",
-      "folder": "inbox",
-      "read": false,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:BWvj6OPhq5oV",
-      "ts": 1770715083,
-      "label": "Re: Dolor synagoga appono spectaculum bos te",
-      "subject": "Re: Dolor synagoga appono spectaculum bos te",
-      "from": {
-        "name": "Zinc",
-        "address": "alerts@zinc-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Suppono summa ulciscor utor temperantia depopulo viscus alias. Pauper deleniti valetudo subvenio claudeo quis somniculosus caries. Esse cribro comes subnecto consectetur tricesimus.\nDolorem consectetur suppono thema deripio arcesso cunctatio casso. Virgo volup compello vestigium. Argumentum thymbra carcer aut absorbeo.\nDemitto callide statim. Absorbeo volva arma verto tredecim sursum tergeo desidero accusamus terga. Aegrotatio centum studio nesciunt defluo crepusculum adiuvo nihil.\nVivo substantia territo animi undique canis reiciendis coadunatio sodalitas cornu. Valde cribro vel studio timidus timor. Creta magnam cuppedia voro quas sonitus cauda civis animus.",
-      "folder": "inbox",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:CgDo72eard8Z",
-      "ts": 1770709776,
-      "label": "ML Pipeline Architecture Proposal",
-      "subject": "ML Pipeline Architecture Proposal",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "PerseusOft Board",
-          "address": "board@perseusoft.tech"
-        }
-      ],
-      "body_text": "Accedo cohaero acervus verecundia argumentum. Vesco demitto tener videlicet viridis conor patruus conor quasi numquam. Vitiosus error dens crudelis.\nTeneo aureus villa adsidue cunae. Eum viscus subiungo truculenter sponte comburo ambulo harum corrumpo. Ulciscor dolores conservo administratio vestrum stipes.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:sBZUy4trkrlk",
-      "ts": 1770702254,
-      "label": "Re: Quo caput valde patria talio turbo.",
-      "subject": "Re: Quo caput valde patria talio turbo.",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "Laura Chen",
-          "address": "laura.chen@perseusoft.tech"
-        }
-      ],
-      "body_text": "Natus celo curvo. Advoco ascit asper vallum viridis. Possimus amaritudo adicio conspergo peccatus officia amet uterque.\nColligo nisi argentum. Provident denego damno turba. Sed cinis xiphias cunae cito.\nDecimus valeo amaritudo minus tunc tepesco. Aiunt damnatio distinctio provident. Earum atque quos id clementia cursus audax arcus esse canto.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:CFmJqI15cpye",
-      "ts": 1770469021,
+      "ts": 1771075171,
       "label": "Re: Curis depono cubo.",
       "subject": "Re: Curis depono cubo.",
       "from": {
@@ -1158,9 +1214,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:GYH8KJg9mKkD",
-      "ts": 1770422449,
-      "label": "Family Vacation Planning — Hawaii December",
-      "subject": "Family Vacation Planning — Hawaii December",
+      "ts": 1771028599,
+      "label": "Love, don't forget dinner at 8pm tonight — Sofia",
+      "subject": "Love, don't forget dinner at 8pm tonight — Sofia",
       "from": {
         "name": "Laura Chen",
         "address": "laura.chen@perseusoft.tech"
@@ -1179,9 +1235,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:oJUnweVFTJAm",
-      "ts": 1770413376,
-      "label": "MercadoMart: Order #2001 — AirPods Pro shipped",
-      "subject": "MercadoMart: Order #2001 — AirPods Pro shipped",
+      "ts": 1771019526,
+      "label": "MercadoMart: Your MacBook Pro M5 has been delivered!",
+      "subject": "MercadoMart: Your MacBook Pro M5 has been delivered!",
       "from": {
         "name": "Sofia España",
         "address": "sofia.espana@correo-demo.local"
@@ -1194,13 +1250,55 @@
       ],
       "body_text": "Totidem templum culpo conduco doloribus titulus ancilla. Versus super patruus comminor derideo dapifer vigor venustas ustulo. Voluptatibus decumbo denique cursus clibanus.\nUberrime desolo aperiam quaerat attonbitus minima. Audacia vis ipsam. Delibero conforto aedificium decor curso abutor.",
       "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:p7Xj6ks0geQ8",
+      "ts": 1771014311,
+      "label": "AWS Monthly Invoice — $2,847.50 USD",
+      "subject": "AWS Monthly Invoice — $2,847.50 USD",
+      "from": {
+        "name": "Ana Garcia",
+        "address": "ana.garcia@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "Jose España",
+          "address": "jose.espana@perseusoft.tech"
+        }
+      ],
+      "body_text": "Animus repudiandae corroboro quia taedium acervus deripio delibero. Cervus atrocitas unus vapulus. Comptus victoria cresco adeo.\nClementia curiositas vero ducimus virgo. Minus volaticus valetudo. Laboriosam cupiditas vigilo abutor cohibeo atqui adopto verecundia.",
+      "folder": "inbox",
+      "read": false,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:PxLkiYTsEsyG",
+      "ts": 1770952804,
+      "label": "Re: Client Contract — Approved",
+      "subject": "Re: Client Contract — Approved",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "PerseusOft Finance",
+          "address": "finance@perseusoft.tech"
+        }
+      ],
+      "body_text": "Trucido comitatus complectus sono aedificium delectatio. Altus architecto accedo. Vos tredecim tonsor trepide solitudo nostrum cogo.\nAperiam sub abstergo sto nulla ago. Volutabrum crepusculum alo curis vacuus verbera tempus voluptatem currus. Tantillus calco cognatus turba.",
+      "folder": "sent",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:kWvFzq062ltU",
-      "ts": 1770271265,
+      "ts": 1770877415,
       "label": "Re: Amiculum clibanus perferendis arx volati",
       "subject": "Re: Amiculum clibanus perferendis arx volati",
       "from": {
@@ -1220,8 +1318,50 @@
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:DezWSgpnX9f8",
+      "ts": 1770817051,
+      "label": "Re: Amplexus sono mollitia caterva sapiente ",
+      "subject": "Re: Amplexus sono mollitia caterva sapiente ",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "MercadoMart",
+          "address": "orders@mercadomart-demo.local"
+        }
+      ],
+      "body_text": "Cursim demo sint in aliqua. Creptio debeo strenuus creptio appello consuasor aestus tutis. Comptus assumenda deprecator ea.\nCanis cunae tyrannus reprehenderit stabilis officia audio spoliatio armarium utique. Carcer vigilo atrox crebro comparo aut ver adimpleo conor annus. Dedecor adulatio administratio vere velit defleo autem vobis deputo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:f3J0jZmBsDCM",
+      "ts": 1770684832,
+      "label": "Re: Pecco thalassinus utique caelestis conce",
+      "subject": "Re: Pecco thalassinus utique caelestis conce",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "Miguel Santos",
+          "address": "miguel.santos@perseusoft.tech"
+        }
+      ],
+      "body_text": "Conservo conturbo caveo. Delinquo armarium vorago reiciendis cras aliquam. Defendo villa civitas absconditus ipsa ver soleo consectetur.\nPecco cogo id derelinquo. Carmen tredecim sollers tergo. Substantia tremo arca despecto vomica cena aro volo cohibeo.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:eTtyfjkoL3pM",
-      "ts": 1770065220,
+      "ts": 1770671370,
       "label": "Re: Stultus deleo utroque cibus quo demens t",
       "subject": "Re: Stultus deleo utroque cibus quo demens t",
       "from": {
@@ -1241,13 +1381,13 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:iHB2VMecKSEa",
-      "ts": 1770012869,
-      "label": "[PR #887] fix: optimize Lambda cold start",
-      "subject": "[PR #887] fix: optimize Lambda cold start",
+      "id": "beacon:email:c01teGS0Y9VP",
+      "ts": 1770636803,
+      "label": "Re: Vestigium claro argumentum thymbra carce",
+      "subject": "Re: Vestigium claro argumentum thymbra carce",
       "from": {
-        "name": "Zinc",
-        "address": "alerts@zinc-demo.local"
+        "name": "Newsletter AI Weekly",
+        "address": "newsletter@aiweekly-demo.local"
       },
       "to": [
         {
@@ -1255,15 +1395,15 @@
           "address": "jose.espana@perseusoft.tech"
         }
       ],
-      "body_text": "Odio animadverto cubitum praesentium denuo. Carcer ver terebro tam spiculum. Tergum itaque ut vindico tantum suasoria dedico sapiente eius.\nAudacia natus surgo derideo. Timidus utilis viridis tero contabesco. Sordeo cibus ait.\nSuppono assentator vomito laboriosam convoco. Crepusculum certe aeneus uterque aegrus speciosus creber colligo molestiae utrum. Apto crepusculum paens aequitas summa in crinis varietas talus tremo.\nAtavus succurro pariatur molestias laborum sperno consuasor. Creo somniculosus tero statua synagoga tabernus. Custodia sopor aro eum solus careo aedificium utroque ex admiratio.",
+      "body_text": "Accusamus terga statua aegrotatio centum studio. Defluo crepusculum adiuvo nihil vicissitudo vivo substantia. Animi undique canis reiciendis coadunatio sodalitas cornu deleo valde.\nVel studio timidus timor trucido creta. Cuppedia voro quas sonitus cauda civis animus. Convoco capto sollicito quibusdam coaegresco peior.\nDefendo clementia absconditus adipisci bardus. Sint caput subnecto decet apostolus. Bestia accendo aetas usque cubitum cubicularis solium.\nRerum ambulo apostolus velut accusamus. Auditor suspendo substantia accendo dolorem desino possimus caute abbas. Triduana utpote degenero voluptatem tego supplanto odio fugiat.",
       "folder": "inbox",
-      "read": false,
+      "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:DKlLiumceC2g",
-      "ts": 1769938960,
+      "ts": 1770545110,
       "label": "Re: Damno ambulo rem copia.",
       "subject": "Re: Damno ambulo rem copia.",
       "from": {
@@ -1283,10 +1423,31 @@
     },
     {
       "uadp_type": "uadp:email",
+      "id": "beacon:email:t9sG5kjsDeSA",
+      "ts": 1770521476,
+      "label": "Team: Sprint 47 Priorities",
+      "subject": "Team: Sprint 47 Priorities",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "Sofia España",
+          "address": "sofia.espana@correo-demo.local"
+        }
+      ],
+      "body_text": "Perferendis vulgo verbum inventore aedificium delinquo. Concido decimus consequatur condico rerum talio. Natus celo curvo.\nAdvoco ascit asper vallum viridis. Possimus amaritudo adicio conspergo peccatus officia amet uterque. Colligo nisi argentum.\nProvident denego damno turba. Sed cinis xiphias cunae cito. Decimus valeo amaritudo minus tunc tepesco.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
       "id": "beacon:email:4MKSHHrMC4TR",
-      "ts": 1769864176,
-      "label": "Orbit: ACH transfer confirmation — $8,500 USD",
-      "subject": "Orbit: ACH transfer confirmation — $8,500 USD",
+      "ts": 1770470326,
+      "label": "GitHub: 15 new pull requests need your review",
+      "subject": "GitHub: 15 new pull requests need your review",
       "from": {
         "name": "Sofia España",
         "address": "sofia.espana@correo-demo.local"
@@ -1305,9 +1466,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:uf2cwFqGNZae",
-      "ts": 1769788080,
-      "label": "PerseusOft: Server health alert — API latency spike",
-      "subject": "PerseusOft: Server health alert — API latency spike",
+      "ts": 1770394230,
+      "label": "O'Reilly: New Course Available — Advanced MLOps",
+      "subject": "O'Reilly: New Course Available — Advanced MLOps",
       "from": {
         "name": "Zinc",
         "address": "alerts@zinc-demo.local"
@@ -1325,71 +1486,8 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:1DMG9qnG95Gg",
-      "ts": 1769752287,
-      "label": "Re: At conatus compello recusandae quidem de",
-      "subject": "Re: At conatus compello recusandae quidem de",
-      "from": {
-        "name": "TechConf SF",
-        "address": "info@conftech-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Coepi sit nobis placeat vestigium. Clementia ducimus trepide tandem volup adamo doloribus venustas carus. Civis ultio truculenter.\nCrepusculum sursum maiores sub carpo damnatio alii delinquo sequi. Velociter explicabo credo. Cervus angulus ultra cenaculum calamitas sulum campana ventus.\nTraho terga vorago candidus pax subseco dolor. Terreo coniecto textus copiose patria crastinus victoria. Claro fugiat tergum utor arbitro harum soluta capitulus.",
-      "folder": "inbox",
-      "read": true,
-      "starred": true
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:abp6PJ9U9zkC",
-      "ts": 1769643205,
-      "label": "Re: Delinquo votum possimus acies totam summ",
-      "subject": "Re: Delinquo votum possimus acies totam summ",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "PerseusOft Finance",
-          "address": "finance@perseusoft.tech"
-        }
-      ],
-      "body_text": "Supellex desolo terminatio artificiose. Catena adnuo ver perspiciatis aggredior. Vetus absum caries officiis tactus totus dolore minus adfero.\nCetera vestrum tui caute. Annus conatus corona accusantium. Vacuus vitiosus correptius virtus earum tabula corona theatrum tremo.\nTamquam pauper utrimque conicio. Acerbitas vinculum thesaurus vos possimus altus animus enim. Repudiandae ars eum curso id caelestis angelus vos tantillus corroboro.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:YQS80OYrOpm0",
-      "ts": 1769623239,
-      "label": "Re: Statua timor comparo succurro derelinquo",
-      "subject": "Re: Statua timor comparo succurro derelinquo",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "GitHub Notifications",
-          "address": "noreply@github-demo.local"
-        }
-      ],
-      "body_text": "Desolo amiculum pecto nobis caelum. Strenuus comedo suppono dens quibusdam quae admitto caelestis tardus caelestis. Uterque libero illo quo conduco.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:N90ZRgLHuboV",
-      "ts": 1769551770,
+      "ts": 1770157920,
       "label": "Re: Copia ipsam rem tredecim.",
       "subject": "Re: Copia ipsam rem tredecim.",
       "from": {
@@ -1409,21 +1507,21 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:cpJlsZj6abUg",
-      "ts": 1769406229,
-      "label": "Re: Deorsum carus audax.",
-      "subject": "Re: Deorsum carus audax.",
+      "id": "beacon:email:DbRD5NwyvfRk",
+      "ts": 1770092904,
+      "label": "Re: Toties contigo vel vulariter placeat cal",
+      "subject": "Re: Toties contigo vel vulariter placeat cal",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Zinc",
-          "address": "alerts@zinc-demo.local"
+          "name": "Newsletter AI Weekly",
+          "address": "newsletter@aiweekly-demo.local"
         }
       ],
-      "body_text": "Ventus somniculosus quae deinde amplexus sono mollitia. Sapiente cultellus saepe caput nam. Uterque centum cunctatio crapula vobis armarium carcer arbitro succedo et.\nCursim demo sint in aliqua. Creptio debeo strenuus creptio appello consuasor aestus tutis. Comptus assumenda deprecator ea.",
+      "body_text": "Laboriosam amicitia patior suggero toties. Sunt tolero uxor condico suasoria creo addo strenuus. Supellex careo voluptatem accedo approbo tersus depopulo illo patrocinor consequuntur.\nComitatus vesper cubitum adimpleo ante aggredior accendo rerum architecto. Deserunt deduco illum capto. Vulpes custodia demoror tribuo.",
       "folder": "sent",
       "read": true,
       "starred": false
@@ -1431,9 +1529,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:7kxT9y1qnlhu",
-      "ts": 1769311120,
-      "label": "Re: Team retreat logistics — Napa",
-      "subject": "Re: Team retreat logistics — Napa",
+      "ts": 1769917270,
+      "label": "Client feedback: TechNova integration complete",
+      "subject": "Client feedback: TechNova integration complete",
       "from": {
         "name": "Ana Garcia",
         "address": "ana.garcia@perseusoft.tech"
@@ -1452,7 +1550,7 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:sGBdaKfU6UEG",
-      "ts": 1769310481,
+      "ts": 1769916631,
       "label": "Re: Beatus adsuesco comminor consuasor tenui",
       "subject": "Re: Beatus adsuesco comminor consuasor tenui",
       "from": {
@@ -1472,21 +1570,42 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:0D9curxecZqt",
-      "ts": 1769235066,
-      "label": "Re: Vesper cubitum adimpleo ante aggredior.",
-      "subject": "Re: Vesper cubitum adimpleo ante aggredior.",
+      "id": "beacon:email:pKlvEHzcga2l",
+      "ts": 1769867724,
+      "label": "Re: Officia auxilium corona natus vere.",
+      "subject": "Re: Officia auxilium corona natus vere.",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Zinc",
-          "address": "alerts@zinc-demo.local"
+          "name": "GitHub Notifications",
+          "address": "noreply@github-demo.local"
         }
       ],
-      "body_text": "Pecco thalassinus utique caelestis concedo laborum cattus aperiam. Advoco taedium abundans cohibeo. Corpus pecco defessus sequi quibusdam terminatio suppellex degenero acquiro conservo.\nCaveo cunctatio delinquo armarium vorago. Cras aliquam studio defendo villa civitas absconditus ipsa. Soleo consectetur arceo pecco cogo id derelinquo ater carmen tredecim.",
+      "body_text": "Apud annus umquam avaritia aeneus desipio comminor celebrer. Curso virga delinquo defaeco sordeo reprehenderit. Addo ducimus deleo deserunt timor adfero.\nLaborum auxilium clibanus caterva. Depraedor quas solutio tutis civis carcer tepesco temporibus. Crastinus curiositas cibus repellat paens.\nAit derideo cum. Uterque patria eius tremo. Velit concedo adiuvo vindico voluptatibus comes.",
+      "folder": "sent",
+      "read": true,
+      "starred": false
+    },
+    {
+      "uadp_type": "uadp:email",
+      "id": "beacon:email:3eNxYGK5ZEJA",
+      "ts": 1769810594,
+      "label": "Re: Advenio cursus supra acceptus charisma a",
+      "subject": "Re: Advenio cursus supra acceptus charisma a",
+      "from": {
+        "name": "Jose España",
+        "address": "jose.espana@perseusoft.tech"
+      },
+      "to": [
+        {
+          "name": "GitHub Notifications",
+          "address": "noreply@github-demo.local"
+        }
+      ],
+      "body_text": "Tamen assumenda exercitationem curia cunabula temeritas aureus voluptatum minima. Ambulo vesco deputo versus. Umerus coniecto creta ulterius unde.\nVix bos via illum volup. Vobis aegrus verbera eos possimus astrum creator facere tripudio conscendo. Comminor tenetur thema advenio socius tergeo demoror demo.",
       "folder": "sent",
       "read": true,
       "starred": false
@@ -1494,9 +1613,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:zx3oWEgLUuNA",
-      "ts": 1769163948,
-      "label": "Client feedback: TechNova integration complete",
-      "subject": "Client feedback: TechNova integration complete",
+      "ts": 1769770098,
+      "label": "PerseusOft: Server health alert — API latency spike",
+      "subject": "PerseusOft: Server health alert — API latency spike",
       "from": {
         "name": "Miguel Santos",
         "address": "miguel.santos@perseusoft.tech"
@@ -1515,9 +1634,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:QTeMe4rhJn2I",
-      "ts": 1769118779,
-      "label": "O'Reilly: New Course Available — Advanced MLOps",
-      "subject": "O'Reilly: New Course Available — Advanced MLOps",
+      "ts": 1769724929,
+      "label": "Running Club SF — 5K This Saturday",
+      "subject": "Running Club SF — 5K This Saturday",
       "from": {
         "name": "Laura Chen",
         "address": "laura.chen@perseusoft.tech"
@@ -1535,73 +1654,10 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:Hmdy9ZJxrOTE",
-      "ts": 1768826179,
-      "label": "Re: Sono thesis amiculum ultra ciminatio tem",
-      "subject": "Re: Sono thesis amiculum ultra ciminatio tem",
-      "from": {
-        "name": "Zinc",
-        "address": "alerts@zinc-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Cui ante facere templum suus aranea. Demoror demulceo venio repellat nihil adhuc undique quaerat. Aestus vindico angulus quos solium aqua.",
-      "folder": "inbox",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:x5kead7WHnKp",
-      "ts": 1768816553,
-      "label": "Board Meeting Agenda — Q1 2025 Review",
-      "subject": "Board Meeting Agenda — Q1 2025 Review",
-      "from": {
-        "name": "GitHub Notifications",
-        "address": "noreply@github-demo.local"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Adsum caelum auxilium cruentus molestias dedico. Beatae sapiente maxime amplexus alveus summisse uterque cribro inventore. Attollo atque sint quibusdam adduco aspicio veritatis consequatur ventosus.\nUredo tamdiu aeger deduco canto arto degenero averto. Defaeco certe defero auctor vilis denego. Arbitro defero cunae vesco sustineo speciosus molestias apparatus.",
-      "folder": "inbox",
-      "read": false,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:AbG9SVfWbnkc",
-      "ts": 1768609787,
-      "label": "Re: Cunae tyrannus reprehenderit stabilis.",
-      "subject": "Re: Cunae tyrannus reprehenderit stabilis.",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "TechConf SF",
-          "address": "info@conftech-demo.local"
-        }
-      ],
-      "body_text": "Annus tantillus dedecor adulatio administratio. Velit defleo autem vobis deputo deleo conscendo facilis adhaero utor. Curis copiose teres voluptatibus tersus.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:RHbi6wDGnF15",
-      "ts": 1768553727,
-      "label": "Sprint Planning Notes — Sprint 47",
-      "subject": "Sprint Planning Notes — Sprint 47",
+      "ts": 1769159877,
+      "label": "PerseusOft: New Employee Onboarding — Week 3",
+      "subject": "PerseusOft: New Employee Onboarding — Week 3",
       "from": {
         "name": "MercadoMart",
         "address": "orders@mercadomart-demo.local"
@@ -1620,9 +1676,9 @@
     {
       "uadp_type": "uadp:email",
       "id": "beacon:email:jkJlc1AFiPVA",
-      "ts": 1768431073,
-      "label": "Running Club SF — 5K This Saturday",
-      "subject": "Running Club SF — 5K This Saturday",
+      "ts": 1769037223,
+      "label": "Family Vacation Planning — Hawaii December",
+      "subject": "Family Vacation Planning — Hawaii December",
       "from": {
         "name": "Laura Chen",
         "address": "laura.chen@perseusoft.tech"
@@ -1640,59 +1696,31 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:YF87Rc4vjgpq",
-      "ts": 1768287462,
-      "label": "Re: Subito nihil bellicus causa aspicio adeo",
-      "subject": "Re: Subito nihil bellicus causa aspicio adeo",
+      "id": "beacon:email:VPgf7km1OSXn",
+      "ts": 1768858260,
+      "label": "Re: Absum caries officiis tactus totus dolor",
+      "subject": "Re: Absum caries officiis tactus totus dolor",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Sofia España",
-          "address": "sofia.espana@correo-demo.local"
+          "name": "Zinc",
+          "address": "alerts@zinc-demo.local"
         }
       ],
-      "body_text": "Sordeo reprehenderit cubitum addo ducimus deleo. Timor adfero audio laborum auxilium clibanus. Solus depraedor quas solutio tutis.\nCarcer tepesco temporibus claudeo crastinus. Cibus repellat paens amita ait derideo. Ara uterque patria eius tremo cupio.",
+      "body_text": "Corona theatrum tremo attollo tamquam pauper utrimque conicio. Acerbitas vinculum thesaurus vos possimus altus animus enim. Repudiandae ars eum curso id caelestis angelus vos tantillus corroboro.\nAcer deorsum carus audax avarus cur suspendo considero. Vulgus coma amor arx atrocitas versus. Timidus conqueror laudantium ventus somniculosus.",
       "folder": "sent",
       "read": true,
       "starred": false
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:FMxG4q3Yq18G",
-      "ts": 1768255707,
-      "label": "Re: Attero doloremque iure crur xiphias.",
-      "subject": "Re: Attero doloremque iure crur xiphias.",
-      "from": {
-        "name": "Laura Chen",
-        "address": "laura.chen@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "Jose España",
-          "address": "jose.espana@perseusoft.tech"
-        }
-      ],
-      "body_text": "Supellex summisse ad curis copia pariatur. Crux abundans adimpleo abduco degenero. Spiculum tricesimus statua bene coepi arceo vallum repellat desidero thesis.\nDepereo correptius vis benevolentia attero vilicus voluptas una claustrum. Tutamen modi explicabo aveho. Sumptus tumultus angelus terebro agnitio spes sulum.",
-      "folder": "inbox",
-      "read": true,
-      "starred": false,
-      "attachments": [
-        {
-          "name": "dull.json.pdf",
-          "size_bytes": 833339,
-          "type": "application/pdf"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:email",
       "id": "beacon:email:MENopuCOah09",
-      "ts": 1768195285,
-      "label": "Zinc: International charge — AWS $187.50 USD",
-      "subject": "Zinc: International charge — AWS $187.50 USD",
+      "ts": 1768801435,
+      "label": "Orbit: ACH transfer confirmation — $8,500 USD",
+      "subject": "Orbit: ACH transfer confirmation — $8,500 USD",
       "from": {
         "name": "Alex Morgan",
         "address": "test@perseusoft.tech"
@@ -1710,42 +1738,21 @@
     },
     {
       "uadp_type": "uadp:email",
-      "id": "beacon:email:YO4utIFxd13i",
-      "ts": 1767990994,
-      "label": "Re: Client Contract — Approved",
-      "subject": "Re: Client Contract — Approved",
+      "id": "beacon:email:zrTHLs8RMjl3",
+      "ts": 1768732573,
+      "label": "ML Pipeline Architecture Proposal",
+      "subject": "ML Pipeline Architecture Proposal",
       "from": {
         "name": "Jose España",
         "address": "jose.espana@perseusoft.tech"
       },
       "to": [
         {
-          "name": "Laura Chen",
-          "address": "laura.chen@perseusoft.tech"
+          "name": "Ana Garcia",
+          "address": "ana.garcia@perseusoft.tech"
         }
       ],
-      "body_text": "Dedico valetudo subnecto tepidus delego aptus ustilo. Comitatus confido admiratio volup truculenter accedo trepide sumptus usitas. Audio cruciamentum perspiciatis bardus depereo voveo tabernus nam.\nStatua depraedor defleo barba. Triumphus cur inventore deputo neque vito barba auxilium crux adinventitias. Exercitationem nam cupiditate arbustum surculus vallum.",
-      "folder": "sent",
-      "read": true,
-      "starred": false
-    },
-    {
-      "uadp_type": "uadp:email",
-      "id": "beacon:email:oHEfMc6LVi3x",
-      "ts": 1767972533,
-      "label": "Team: Sprint 47 Priorities",
-      "subject": "Team: Sprint 47 Priorities",
-      "from": {
-        "name": "Jose España",
-        "address": "jose.espana@perseusoft.tech"
-      },
-      "to": [
-        {
-          "name": "AWS",
-          "address": "billing@aws-demo.local"
-        }
-      ],
-      "body_text": "Triumphus corrupti totidem tempora artificiose conduco iure. Volo adamo demulceo impedit urbanus apto creator aegre ipsa. Trucido explicabo teneo conduco.",
+      "body_text": "Trepide sumptus usitas. Audio cruciamentum perspiciatis bardus depereo voveo tabernus nam. Statua depraedor defleo barba.\nTriumphus cur inventore deputo neque vito barba auxilium crux adinventitias. Exercitationem nam cupiditate arbustum surculus vallum. Cresco suasoria sollers casus teres barba alter temptatio vicissitudo.\nAdmiratio fuga vulariter arx pauper. Corrupti totidem tempora artificiose conduco iure tenax volo adamo. Impedit urbanus apto creator aegre ipsa.",
       "folder": "sent",
       "read": true,
       "starred": false

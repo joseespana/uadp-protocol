@@ -1185,9 +1185,23 @@ function generateStreamHistory() {
     'Standing desk review after 1 year of use',
   ]
 
+  // Pool of real, embeddable YouTube IDs (dev/tech content).
+  // Thumbnails and playback will pull from YouTube CDN directly.
+  const REAL_YT_IDS = [
+    'dQw4w9WgXcQ', 'zQnBQ4tB3ZA', 'pTB0EiLXUC8', 'TlB_eWDSMt4', 'Tn6-PIqc4UM',
+    'zOjov-2OZ0E', 'qombFJDSBR0', 'lIFE7h3m40U', 'z1rdIIEcA4c', 'DHvZLI7Db8E',
+    '8jLOx1hD3_o', 'ZRCdORJiUgU', 'WTLPmUHTPqo', '6c0gpm9uAwQ', 'oI1b8eM9up8',
+    'l6Q-CnL0jh4', 'uNjxe8ShM-8', 'mTa2d3OLXhg', 'YQHsXMglC9A', 'JGwWNGJdvx8',
+    'kXYiU_JCYtU', 'NBcqPvAAPRM', 'L_LUpnjgPso', '3tmd-ClpJxA', 'fRh_vgS2dFE',
+    'RgKAFK5djSk', 'OPf0YbXqDm0', 'CevxZvSJLk8', 'hT_nvWreIhg', 'JGwWNGJdvx8',
+  ]
+  let ytCursor = 0
+  const nextYt = () => REAL_YT_IDS[(ytCursor++) % REAL_YT_IDS.length]
+
   function makeVideo(channelOverride?: typeof channels[0], daysRange = 180) {
     const channel = channelOverride || faker.helpers.arrayElement(channels)
-    const vidId = uid('stream:vid')
+    const ytId = nextYt()
+    const vidId = `stream:vid:${ytId}`
     return {
       uadp_type: 'uadp:video' as const,
       id: vidId,
@@ -1199,7 +1213,8 @@ function generateStreamHistory() {
       duration_seconds: faker.number.int({ min: 120, max: 7200 }),
       views: faker.number.int({ min: 100, max: 5_000_000 }),
       likes: faker.number.int({ min: 10, max: 200_000 }),
-      thumbnail_url: picsum(vidId, 1280, 720),
+      thumbnail_url: `https://i.ytimg.com/vi/${ytId}/hqdefault.jpg`,
+      youtube_url: `https://www.youtube.com/watch?v=${ytId}`,
       tags: faker.helpers.arrayElements(
         ['tutorial', 'dev', 'tech', 'rust', 'bun', 'typescript', 'linux', 'review', 'ai', 'web'],
         faker.number.int({ min: 1, max: 4 }),
@@ -1228,10 +1243,11 @@ function generateStreamHistory() {
     avatar_url: ALEJANDRO.avatar_url,
   }
 
+  const aleYt1 = nextYt(), aleYt2 = nextYt(), aleYt3 = nextYt()
   const userVideos = [
     {
       uadp_type: 'uadp:video' as const,
-      id: uid('stream:vid'),
+      id: `stream:vid:${aleYt1}`,
       ts: tsSecondsAgo(45, 2),
       label: 'My 2025 dev setup — Full tour',
       title: 'My 2025 dev setup — Full tour',
@@ -1240,12 +1256,13 @@ function generateStreamHistory() {
       duration_seconds: 1245,
       views: 3420,
       likes: 287,
-      thumbnail_url: picsum('ale_vid_1', 1280, 720),
+      thumbnail_url: `https://i.ytimg.com/vi/${aleYt1}/hqdefault.jpg`,
+      youtube_url: `https://www.youtube.com/watch?v=${aleYt1}`,
       tags: ['setup', 'dev', 'tutorial'],
     },
     {
       uadp_type: 'uadp:video' as const,
-      id: uid('stream:vid'),
+      id: `stream:vid:${aleYt2}`,
       ts: tsSecondsAgo(90, 2),
       label: 'Migrating from Node to Bun in production — What I learned',
       title: 'Migrating from Node to Bun in production — What I learned',
@@ -1254,12 +1271,13 @@ function generateStreamHistory() {
       duration_seconds: 1830,
       views: 8910,
       likes: 645,
-      thumbnail_url: picsum('ale_vid_2', 1280, 720),
+      thumbnail_url: `https://i.ytimg.com/vi/${aleYt2}/hqdefault.jpg`,
+      youtube_url: `https://www.youtube.com/watch?v=${aleYt2}`,
       tags: ['bun', 'nodejs', 'tutorial', 'migration'],
     },
     {
       uadp_type: 'uadp:video' as const,
-      id: uid('stream:vid'),
+      id: `stream:vid:${aleYt3}`,
       ts: tsSecondsAgo(150, 2),
       label: 'Building a real-time chat with Elysia WebSockets',
       title: 'Building a real-time chat with Elysia WebSockets',
@@ -1268,7 +1286,8 @@ function generateStreamHistory() {
       duration_seconds: 2460,
       views: 5230,
       likes: 412,
-      thumbnail_url: picsum('ale_vid_3', 1280, 720),
+      thumbnail_url: `https://i.ytimg.com/vi/${aleYt3}/hqdefault.jpg`,
+      youtube_url: `https://www.youtube.com/watch?v=${aleYt3}`,
       tags: ['elysia', 'websockets', 'tutorial', 'bun'],
     },
   ]

@@ -6,7 +6,7 @@
       "label": "Checking Account",
       "type": "checking",
       "balance": {
-        "value": 16184.31,
+        "value": 19474.18,
         "currency": "USD"
       },
       "currency": "USD"
@@ -15,123 +15,215 @@
   "transactions": [
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:4IUsJq26joD2",
-      "ts": 1775674183,
+      "id": "orbit:tx:cUbNywMgz9u5",
+      "ts": 1776280981,
       "label": "SuperMart",
       "amount": {
-        "value": 74.07,
+        "value": 53.67,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "Trader's Market",
+        "name": "FreshCo",
         "category": "groceries",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 18029.28,
+        "value": 21199.28,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:zpPj2LPHoy7c",
-      "ts": 1775580467,
-      "label": "FlameEats - Pizza Vulcano",
+      "id": "orbit:tx:JEUDaBKOqvaG",
+      "ts": 1776280148,
+      "label": "Payroll - PerseusOft",
       "amount": {
-        "value": 19.09,
+        "value": 3200,
         "currency": "USD"
       },
-      "direction": "out",
+      "direction": "in",
       "status": "completed",
       "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
+        "name": "PerseusOft",
+        "category": "salary",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 18369.79,
+        "value": 25900,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:9AyW7AZM6d0m",
-      "ts": 1775533963,
-      "label": "FlameEats - Ramen House",
+      "id": "orbit:tx:VMQ6BVB3TNHs",
+      "ts": 1776178366,
+      "label": "Vestimenta Co.",
       "amount": {
-        "value": 18.89,
+        "value": 48.6,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18596.03,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:lRiSdXVsXM42",
-      "ts": 1775391552,
-      "label": "FlameEats - QuickBite",
-      "amount": {
-        "value": 14.45,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18355.34,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:NZTSQBRkqolF",
-      "ts": 1775339951,
-      "label": "ThreadLine",
-      "amount": {
-        "value": 54.02,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ThreadLine",
+        "name": "Vestimenta Co.",
         "category": "clothing",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16235.99,
+        "value": 19579.37,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:WBQh8oqRi3iY",
-      "ts": 1775244635,
+      "id": "orbit:tx:F4ZWTl9qkCrM",
+      "ts": 1776120047,
+      "label": "FlameEats - Ramen House",
+      "amount": {
+        "value": 12.95,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21810.91,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YM5FP1XXT0Z5",
+      "ts": 1776102892,
+      "label": "RidaGo",
+      "amount": {
+        "value": 11.21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19788.76,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:WQpNxK6SqFOo",
+      "ts": 1775947849,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21562.11,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:s8CtVTPL1Tqf",
+      "ts": 1775848380,
+      "label": "Presto 24h",
+      "amount": {
+        "value": 7.52,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickStop",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20089.79,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xYWoA9xqKg7j",
+      "ts": 1775844112,
+      "label": "FibraMax Internet 100Mbps",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Internet 100Mbps",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24695.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:C3LXoAnnJ6fS",
+      "ts": 1775841745,
+      "label": "CrunchyRoll Premium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyRoll Premium",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24782.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:S6y7hREyu7V6",
+      "ts": 1775838598,
       "label": "MobileX Basic Plan",
       "amount": {
         "value": 25,
@@ -146,38 +238,15 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 21540.03,
+        "value": 24740.03,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:W2TeVuCFSwSU",
-      "ts": 1775152097,
-      "label": "GameVault",
-      "amount": {
-        "value": 27.6,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GameVault",
-        "category": "gaming",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17040.6,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:3LXoAnnJ6fSD",
-      "ts": 1775071041,
+      "id": "orbit:tx:5WBQh8oqRi3i",
+      "ts": 1775836913,
       "label": "GamePass Ultimate",
       "amount": {
         "value": 16.99,
@@ -192,15 +261,84 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 21565.03,
+        "value": 24765.03,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:EUDaBKOqvaGo",
-      "ts": 1775068307,
+      "id": "orbit:tx:g0w9AyW7AZM6",
+      "ts": 1775825070,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 18.39,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21845.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:DErIxuhyxdvm",
+      "ts": 1775794768,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 17.43,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21768.54,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KKibzEzeSbYy",
+      "ts": 1775762965,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 18.39,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21668.64,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QkRI7WvENNBR",
+      "ts": 1775762696,
       "label": "Rent - Tenderloin Studio",
       "amount": {
         "value": 1100,
@@ -215,7 +353,214 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 21600,
+        "value": 24800,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:yVjE7Omv0QRR",
+      "ts": 1775749779,
+      "label": "Health Express",
+      "amount": {
+        "value": 13.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19662.92,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CPhksDI7IFKe",
+      "ts": 1775661159,
+      "label": "Green Market",
+      "amount": {
+        "value": 79.39,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21119.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Q0nJupZHAWit",
+      "ts": 1775585689,
+      "label": "Discord Nitro",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Discord Nitro",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 24790.01,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:7BGwCsc0UizK",
+      "ts": 1775447231,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 16.63,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21864.08,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SrR2NZTSQBRk",
+      "ts": 1775379791,
+      "label": "ThreadLine",
+      "amount": {
+        "value": 52.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ThreadLine",
+        "category": "clothing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19526.91,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hHNiLsMk34OF",
+      "ts": 1775285406,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 15.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22269.63,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KMOwh0Vf00bU",
+      "ts": 1775272291,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 11.11,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19916.98,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gWtUDr6eir46",
+      "ts": 1775156370,
+      "label": "FlameEats - QuickBite",
+      "amount": {
+        "value": 19.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21896,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:0CmQusxZDXPz",
+      "ts": 1775126852,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 16.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21727.2,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
@@ -223,7 +568,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:H7k0dYbFTMMK",
-      "ts": 1775068158,
+      "ts": 1775069508,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -245,34 +590,57 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:WTl9qkCrMRKB",
-      "ts": 1775065184,
-      "label": "FlameEats - Wok Express",
+      "id": "orbit:tx:dX0p7Rj5bzWx",
+      "ts": 1775018816,
+      "label": "ViaRapido Express",
       "amount": {
-        "value": 24.95,
+        "value": 9.46,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
+        "name": "ViaRapido Express",
+        "category": "transport",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 18554.38,
+        "value": 19955.82,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:ywMgz9u556rh",
-      "ts": 1775050861,
-      "label": "Green Market",
+      "id": "orbit:tx:EMQD9BlgbD3L",
+      "ts": 1774997727,
+      "label": "BART SF",
       "amount": {
-        "value": 73.97,
+        "value": 10.4,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19859.26,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oeP4leksh9iM",
+      "ts": 1774970880,
+      "label": "SuperMart",
+      "amount": {
+        "value": 51.68,
         "currency": "USD"
       },
       "direction": "out",
@@ -284,179 +652,41 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 17955.31,
+        "value": 21068.21,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:aiIgqlLXnQhW",
-      "ts": 1774989864,
-      "label": "BART SF",
+      "id": "orbit:tx:gtGbyL6we9vQ",
+      "ts": 1774933128,
+      "label": "IndieHub",
       "amount": {
-        "value": 8.88,
+        "value": 42.24,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "BART SF",
-        "category": "transport",
+        "name": "IndieHub",
+        "category": "gaming",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16543.36,
+        "value": 20312.08,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:0nJupZHAWitq",
-      "ts": 1774985179,
-      "label": "CrunchyRoll Premium",
+      "id": "orbit:tx:lhOfgOuvgI3g",
+      "ts": 1774776293,
+      "label": "FlameEats - Pizza Vulcano",
       "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyRoll Premium",
-        "category": "entertainment",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 21582.02,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:6y7hREyu7V6R",
-      "ts": 1774984705,
-      "label": "FibraMax Internet 100Mbps",
-      "amount": {
-        "value": 45,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FibraMax Internet 100Mbps",
-        "category": "telecom",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 21495.03,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:kRI7WvENNBR8",
-      "ts": 1774971509,
-      "label": "Discord Nitro",
-      "amount": {
-        "value": 9.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Discord Nitro",
-        "category": "entertainment",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 21590.01,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:BVB3TNHsAJpP",
-      "ts": 1774796581,
-      "label": "Vestimenta Co.",
-      "amount": {
-        "value": 53.2,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16290.01,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:YlaAMQuWwa5I",
-      "ts": 1774734582,
-      "label": "CornerMart",
-      "amount": {
-        "value": 13.25,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "MiniExpress",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16909.12,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:XHhEq9bV6ZE7",
-      "ts": 1774673199,
-      "label": "BART SF",
-      "amount": {
-        "value": 5.3,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "BART SF",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16584.31,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:y1XZVt93JfEk",
-      "ts": 1774610922,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 17.15,
+        "value": 15.7,
         "currency": "USD"
       },
       "direction": "out",
@@ -468,18 +698,133 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18182.89,
+        "value": 21406.95,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:sDI7IFKeMJeC",
-      "ts": 1774466018,
+      "id": "orbit:tx:cs4xWuWRr2Q2",
+      "ts": 1774758599,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 22.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21319.49,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:22blRiSdXVsX",
+      "ts": 1774696956,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 24.49,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21577.11,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:mXsVEinUuPWO",
+      "ts": 1774693909,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 7.33,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19965.28,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:aDwD6NhoHu2i",
+      "ts": 1774597993,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 15.29,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21880.71,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:NM2oKsgefPF9",
+      "ts": 1774571025,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 24.1,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21520.52,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:lzM25e8NwkT5",
+      "ts": 1774375335,
       "label": "FreshCo",
       "amount": {
-        "value": 60.16,
+        "value": 58.91,
         "currency": "USD"
       },
       "direction": "out",
@@ -491,18 +836,110 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 17895.15,
+        "value": 21009.3,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:YxoUpeWMJEdw",
-      "ts": 1774444741,
+      "id": "orbit:tx:0lfy8PYfXsNq",
+      "ts": 1774362752,
+      "label": "FlameEats - QuickBite",
+      "amount": {
+        "value": 13.79,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21998.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:enh7pScqAzfE",
+      "ts": 1774337834,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 20.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22024.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uGtS27fKbVkK",
+      "ts": 1774271524,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 5.11,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19928.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:pRNPNrmlt627",
+      "ts": 1774268476,
+      "label": "RidaGo",
+      "amount": {
+        "value": 13.76,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19845.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YCFXIXogOA41",
+      "ts": 1774114016,
       "label": "CornerMart",
       "amount": {
-        "value": 3.95,
+        "value": 14.18,
         "currency": "USD"
       },
       "direction": "out",
@@ -514,202 +951,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16853.55,
+        "value": 20035.82,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:BwVJI04yRIXM",
-      "ts": 1774420892,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 8.13,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16708.41,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:AWskZtNSADy9",
-      "ts": 1774399328,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 12.9,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18507.17,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:V9QzosntOOyV",
-      "ts": 1774399287,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 24.22,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18885.02,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:2U0fzVEuYmAK",
-      "ts": 1774378507,
-      "label": "FlameEats - Ramen House",
-      "amount": {
-        "value": 18.85,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18236.47,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:p7Rj5bzWxbzM",
-      "ts": 1773973488,
-      "label": "BART SF",
-      "amount": {
-        "value": 14.65,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "BART SF",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16782.62,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:fbcnUF2RFWQk",
-      "ts": 1773919020,
-      "label": "FlameEats - Taqueria Don Julio",
-      "amount": {
-        "value": 20.97,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18923.82,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:txmI19Lt5hTY",
-      "ts": 1773905706,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 9.66,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16566.47,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:YhKzm2nAh8k1",
-      "ts": 1773905109,
-      "label": "BART SF",
-      "amount": {
-        "value": 14.23,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "BART SF",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16552.24,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:RVhvFCrfgGEf",
-      "ts": 1773852328,
+      "id": "orbit:tx:WGDFRZtWaVE6",
+      "ts": 1774113760,
       "label": "FlameEats - Burger Craft",
       "amount": {
-        "value": 19.41,
+        "value": 16.45,
         "currency": "USD"
       },
       "direction": "out",
@@ -721,18 +974,64 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18794.19,
+        "value": 21957.14,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:Y39srEiYGoit",
-      "ts": 1773825220,
-      "label": "MiniExpress",
+      "id": "orbit:tx:o2ziuPNP9TyK",
+      "ts": 1774068417,
+      "label": "RidaGo",
       "amount": {
-        "value": 5.67,
+        "value": 14.42,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19727.19,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4bsW2TeVuCFS",
+      "ts": 1774049148,
+      "label": "SteamStore",
+      "amount": {
+        "value": 47.41,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SteamStore",
+        "category": "gaming",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20214.81,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PlvnaVBqHmqa",
+      "ts": 1773966539,
+      "label": "Presto 24h",
+      "amount": {
+        "value": 11.89,
         "currency": "USD"
       },
       "direction": "out",
@@ -744,64 +1043,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16877.65,
+        "value": 20097.31,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:leksh9iMK7Kt",
-      "ts": 1773683207,
-      "label": "FreshCo",
+      "id": "orbit:tx:5C245mc7d0VI",
+      "ts": 1773863931,
+      "label": "FlameEats - Ramen House",
       "amount": {
-        "value": 52.06,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Green Market",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17843.09,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:wjyhHJjL4cS9",
-      "ts": 1773654468,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 7.58,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16700.83,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:BmD5LuNdWuVj",
-      "ts": 1773610742,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 12.49,
+        "value": 14.27,
         "currency": "USD"
       },
       "direction": "out",
@@ -813,30 +1066,122 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18421.03,
+        "value": 21635.79,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:byL6we9vQ9mK",
-      "ts": 1773603131,
-      "label": "PixelMart",
+      "id": "orbit:tx:5o7aiIgqlLXn",
+      "ts": 1773735111,
+      "label": "RidaGo",
       "amount": {
-        "value": 39.1,
+        "value": 5.18,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "PixelMart",
-        "category": "gaming",
+        "name": "RidaGo",
+        "category": "transport",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 17106.51,
+        "value": 19741.61,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:pDc7z06eEM4g",
+      "ts": 1773697596,
+      "label": "FlameEats - QuickBite",
+      "amount": {
+        "value": 23.44,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22158.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:HgxfdAxZ6IKF",
+      "ts": 1773682003,
+      "label": "Green Market",
+      "amount": {
+        "value": 77.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20931.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gxVBmaqI71uB",
+      "ts": 1773660029,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 24.21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21363.9,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zaw2U0fzVEuY",
+      "ts": 1773654805,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 15.61,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21442.1,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
@@ -844,7 +1189,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VkhOCKumOrRb",
-      "ts": 1773598784,
+      "ts": 1773600134,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -866,57 +1211,34 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:cWF2MDoiFJ6B",
-      "ts": 1773561053,
-      "label": "FlameEats - Taqueria Don Julio",
+      "id": "orbit:tx:UsoVrPCs6WeM",
+      "ts": 1773504760,
+      "label": "SteamStore",
       "amount": {
-        "value": 14.72,
+        "value": 49.86,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
+        "name": "SteamStore",
+        "category": "gaming",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 18103.35,
+        "value": 20262.22,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:AfDZ0X5wA65n",
-      "ts": 1773441192,
-      "label": "Presto 24h",
-      "amount": {
-        "value": 10.83,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CornerMart",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16929.26,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:fgOuvgI3gb4z",
-      "ts": 1773409139,
+      "id": "orbit:tx:h0xzpPj2LPHo",
+      "ts": 1773447055,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
-        "value": 22.62,
+        "value": 14.65,
         "currency": "USD"
       },
       "direction": "out",
@@ -928,317 +1250,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18200.04,
+        "value": 21601.6,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:TsJxYcuRt4Xq",
-      "ts": 1773391182,
-      "label": "Vestimenta Co.",
-      "amount": {
-        "value": 27.67,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16440.07,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:rOzig6DLzUmY",
-      "ts": 1773282336,
-      "label": "Presto 24h",
-      "amount": {
-        "value": 13.93,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Presto 24h",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16973.29,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:EsmIP4nZLc1N",
-      "ts": 1773068776,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 15.4,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18118.07,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:5e8NwkT5jkaX",
-      "ts": 1773064942,
-      "label": "Green Market",
-      "amount": {
-        "value": 51.25,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FreshCo",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17791.84,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:y8PYfXsNqLVL",
-      "ts": 1772930993,
-      "label": "FlameEats - QuickBite",
-      "amount": {
-        "value": 15.17,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18740.34,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:YzO2BcqLdjjE",
-      "ts": 1772894832,
-      "label": "Health Express",
-      "amount": {
-        "value": 22.67,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Health Express",
-        "category": "health",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16503.88,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:peYbgrThNOIP",
-      "ts": 1772830282,
-      "label": "FlameEats - QuickBite",
-      "amount": {
-        "value": 22.97,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18286.53,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:VEinUuPWODar",
-      "ts": 1772786932,
-      "label": "RidaGo",
-      "amount": {
-        "value": 14.61,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16797.27,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:TrmxUm88KGC3",
-      "ts": 1772731261,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 8.01,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16621.09,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:JM2HRuYNCpSC",
-      "ts": 1772718240,
-      "label": "CornerMart",
-      "amount": {
-        "value": 7.48,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CornerMart",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16857.5,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:7pScqAzfEb2W",
-      "ts": 1772679880,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 15.71,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18778.48,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:7uCixgwIxXDO",
-      "ts": 1772675286,
-      "label": "FlameEats - Taqueria Don Julio",
-      "amount": {
-        "value": 23.03,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18944.79,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:iuPNP9TyKftU",
-      "ts": 1772634353,
-      "label": "RidaGo",
-      "amount": {
-        "value": 5.45,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16537.91,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:Z2Y7Sq5EDnx7",
-      "ts": 1772590482,
+      "id": "orbit:tx:ILvn8sBGjSRO",
+      "ts": 1773411603,
       "label": "BART SF",
       "amount": {
-        "value": 11.36,
+        "value": 11.18,
         "currency": "USD"
       },
       "direction": "out",
@@ -1250,133 +1273,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16526.55,
+        "value": 19972.61,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:AepGnaatD3jK",
-      "ts": 1772580979,
-      "label": "Presto 24h",
+      "id": "orbit:tx:1a4AWskZtNSA",
+      "ts": 1773404786,
+      "label": "FlameEats - Wok Express",
       "amount": {
-        "value": 3.83,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CornerMart",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16922.37,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:w8HnPRyb0394",
-      "ts": 1772560555,
-      "label": "MobileX Basic Plan",
-      "amount": {
-        "value": 25,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "MobileX Basic Plan",
-        "category": "telecom",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 20335.06,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:o5OXwP5znYig",
-      "ts": 1772558975,
-      "label": "Discord Nitro",
-      "amount": {
-        "value": 9.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Discord Nitro",
-        "category": "entertainment",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 20385.04,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:dAxZ6IKFpFp1",
-      "ts": 1772554478,
-      "label": "Trader's Market",
-      "amount": {
-        "value": 57.58,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FreshCo",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17734.26,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:Dt49W7i0Eddh",
-      "ts": 1772554285,
-      "label": "CrunchyRoll Premium",
-      "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyRoll Premium",
-        "category": "entertainment",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 20377.05,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:1QX0Xo2EkX8b",
-      "ts": 1772539580,
-      "label": "FlameEats - Taqueria Don Julio",
-      "amount": {
-        "value": 13.81,
+        "value": 24.54,
         "currency": "USD"
       },
       "direction": "out",
@@ -1388,61 +1296,130 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18222.66,
+        "value": 21744,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:oP92UDtjgsri",
-      "ts": 1772505724,
-      "label": "Presto 24h",
+      "id": "orbit:tx:NHm8k0nmOzWs",
+      "ts": 1773390108,
+      "label": "FlameEats - Ramen House",
       "amount": {
-        "value": 3.18,
+        "value": 21.83,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "QuickStop",
-        "category": "convenience",
+        "name": "FlameEats",
+        "category": "food_delivery",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16956.35,
+        "value": 21823.86,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:4mGfShflr7nJ",
-      "ts": 1772504791,
+      "id": "orbit:tx:VEDRlMhOXv6g",
+      "ts": 1773339902,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 18.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21915.53,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:YDO0SAWBLF61",
+      "ts": 1773337833,
       "label": "MiniExpress",
       "amount": {
-        "value": 13.76,
+        "value": 7.3,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "MiniExpress",
+        "name": "Presto 24h",
         "category": "convenience",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16959.53,
+        "value": 20076.78,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:qfL8HkzQfzIu",
-      "ts": 1772476562,
+      "id": "orbit:tx:2GbtfVOIzhpZ",
+      "ts": 1773284551,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 17.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19490.8,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Xu1OB9Rni3th",
+      "ts": 1773254124,
+      "label": "Green Market",
+      "amount": {
+        "value": 66.59,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FreshCo",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20865.1,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:pVcDqTwIn126",
+      "ts": 1773245550,
       "label": "FibraMax Internet 100Mbps",
       "amount": {
         "value": 45,
@@ -1457,15 +1434,61 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 20290.06,
+        "value": 23490.06,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:YWoA9xqKg7jt",
-      "ts": 1772472373,
+      "id": "orbit:tx:wqfL8HkzQfzI",
+      "ts": 1773165561,
+      "label": "MobileX Basic Plan",
+      "amount": {
+        "value": 25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Basic Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23535.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hw8HnPRyb039",
+      "ts": 1773085114,
+      "label": "GamePass Ultimate",
+      "amount": {
+        "value": 16.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GamePass Ultimate",
+        "category": "gaming",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23560.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ro5OXwP5znYi",
+      "ts": 1773082234,
       "label": "Rent - Tenderloin Studio",
       "amount": {
         "value": 1100,
@@ -1480,18 +1503,110 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 20395.03,
+        "value": 23595.03,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:PNrmlt627FJd",
-      "ts": 1772422020,
+      "id": "orbit:tx:jDt49W7i0Edd",
+      "ts": 1773082089,
+      "label": "Discord Nitro",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Discord Nitro",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23585.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:eTU6RtIDDRdZ",
+      "ts": 1773065899,
+      "label": "FlameEats - QuickBite",
+      "amount": {
+        "value": 20.26,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22079.55,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SSaN1jS5IQZS",
+      "ts": 1772994643,
+      "label": "CrunchyRoll Premium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyRoll Premium",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 23577.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hmQpeYbgrThN",
+      "ts": 1772974132,
+      "label": "FlameEats - Ramen House",
+      "amount": {
+        "value": 20.85,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21499.67,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9jGBwVJI04yR",
+      "ts": 1772915612,
       "label": "ViaRapido Express",
       "amount": {
-        "value": 13.67,
+        "value": 6.35,
         "currency": "USD"
       },
       "direction": "out",
@@ -1503,7 +1618,191 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16652.47,
+        "value": 19895.19,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:jUrOzig6DLzU",
+      "ts": 1772809920,
+      "label": "SteamStore",
+      "amount": {
+        "value": 27.57,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SteamStore",
+        "category": "gaming",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20130.89,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:wM8qGqsqIhAp",
+      "ts": 1772676579,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19652.93,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ZUhiTsJxYcuR",
+      "ts": 1772648124,
+      "label": "Health Express",
+      "amount": {
+        "value": 12.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Health Express",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19676.42,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CAvwRNQWbsRK",
+      "ts": 1772632059,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 24.8,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21702.4,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:bRGwxMDXYHVb",
+      "ts": 1772562980,
+      "label": "SuperMart",
+      "amount": {
+        "value": 58.01,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20807.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:oDiZ2Y7Sq5ED",
+      "ts": 1772550700,
+      "label": "BART SF",
+      "amount": {
+        "value": 14.14,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19713.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:RZCSjAVrGVV1",
+      "ts": 1772549476,
+      "label": "BART SF",
+      "amount": {
+        "value": 9.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19983.79,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:4CLNeg7PjeFL",
+      "ts": 1772520254,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 7.64,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CornerMart",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20014.36,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
@@ -1511,7 +1810,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:71uxOVYkSY4o",
-      "ts": 1772390251,
+      "ts": 1772391601,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -1533,57 +1832,11 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:SaN1jS5IQZSm",
-      "ts": 1772385202,
-      "label": "GamePass Ultimate",
-      "amount": {
-        "value": 16.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GamePass Ultimate",
-        "category": "gaming",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 20360.06,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:GqsqIhApf9XZ",
-      "ts": 1772371309,
-      "label": "Vestimenta Co.",
-      "amount": {
-        "value": 21.42,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16389.83,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:W8wyHnYwl9vY",
-      "ts": 1772160046,
+      "id": "orbit:tx:LXXdQQ53WSR7",
+      "ts": 1772344130,
       "label": "PixelMart",
       "amount": {
-        "value": 41.24,
+        "value": 59.06,
         "currency": "USD"
       },
       "direction": "out",
@@ -1595,64 +1848,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 17203.74,
+        "value": 20354.32,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:1CQZLxphxfyI",
-      "ts": 1772150304,
-      "label": "FlameEats - Taqueria Don Julio",
-      "amount": {
-        "value": 12.23,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18274.3,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:qhO6MEUccAq8",
-      "ts": 1772080174,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 14.07,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16716.54,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:7Ln9pKRvZQ1C",
-      "ts": 1772065246,
+      "id": "orbit:tx:AdH0NYV4uLRn",
+      "ts": 1772337950,
       "label": "RidaGo",
       "amount": {
-        "value": 10.03,
+        "value": 9.82,
         "currency": "USD"
       },
       "direction": "out",
@@ -1664,64 +1871,110 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16602.49,
+        "value": 19933.2,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:7kSfhPFm6xax",
-      "ts": 1772054270,
-      "label": "ViaRapido Express",
+      "id": "orbit:tx:4NnnJM2HRuYN",
+      "ts": 1772208516,
+      "label": "QuickStop",
       "amount": {
-        "value": 10.95,
+        "value": 9.06,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "ViaRapido Express",
+        "name": "Presto 24h",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20005.3,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:J5VUvvzIHaNs",
+      "ts": 1772145315,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 3.08,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickStop",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19993.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:XYCRNxQmAMKs",
+      "ts": 1772128927,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 18.46,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19508.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9LSlYzO2BcqL",
+      "ts": 1772118164,
+      "label": "BART SF",
+      "amount": {
+        "value": 6.19,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
         "category": "transport",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16678.97,
+        "value": 19706.86,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:B9Rni3thdCpA",
-      "ts": 1772042258,
-      "label": "SuperMart",
+      "id": "orbit:tx:onQ7uCixgwIx",
+      "ts": 1772112532,
+      "label": "FlameEats - Wok Express",
       "amount": {
-        "value": 74.46,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Trader's Market",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17659.8,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:xWuWRr2Q2KoL",
-      "ts": 1772019796,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 13,
+        "value": 13.97,
         "currency": "USD"
       },
       "direction": "out",
@@ -1733,18 +1986,64 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18133.47,
+        "value": 22194.06,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:fVOIzhpZ9qQA",
-      "ts": 1772017182,
+      "id": "orbit:tx:2t14UPx0QtrU",
+      "ts": 1772084525,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 21.47,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21342.43,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:71hXHhEq9bV6",
+      "ts": 1772083191,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 12.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19775.84,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:TWV14tVzOm9X",
+      "ts": 1771920746,
       "label": "Health Express",
       "amount": {
-        "value": 8.65,
+        "value": 16.62,
         "currency": "USD"
       },
       "direction": "out",
@@ -1756,225 +2055,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16184.31,
+        "value": 19474.18,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:4UPx0QtrUE6b",
-      "ts": 1772009111,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 12.34,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18146.47,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:DC3nNrZVG5GK",
-      "ts": 1771931269,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 8.57,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16612.52,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:S27fKbVkK17B",
-      "ts": 1771778717,
-      "label": "RidaGo",
-      "amount": {
-        "value": 11.88,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16757.55,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:t6uQmGlM04sf",
-      "ts": 1771737600,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 22.97,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18755.51,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:aVBqHmqa3ZJ3",
-      "ts": 1771661366,
-      "label": "QuickStop",
-      "amount": {
-        "value": 7.61,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "MiniExpress",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16948.74,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:ExZ9RGqMhdGi",
-      "ts": 1771417386,
-      "label": "RidaGo",
-      "amount": {
-        "value": 14.17,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16730.61,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:BmaqI71uBhyx",
-      "ts": 1771415143,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 24.08,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18158.81,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:Uz9XQSDpX0nV",
-      "ts": 1771392988,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 19.33,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19030.68,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:BduLScR64ysk",
-      "ts": 1771389320,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 18.98,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18255.32,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:xMDXYHVbda8W",
-      "ts": 1771266216,
+      "id": "orbit:tx:04zIsSLkC3Zx",
+      "ts": 1771861798,
       "label": "SuperMart",
       "amount": {
-        "value": 65.84,
+        "value": 55.84,
         "currency": "USD"
       },
       "direction": "out",
@@ -1986,18 +2078,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 17593.96,
+        "value": 20751.25,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:Hp9UnODRg8lm",
-      "ts": 1771263872,
-      "label": "FlameEats - Burger Craft",
+      "id": "orbit:tx:18oy1XZVt93J",
+      "ts": 1771813539,
+      "label": "FlameEats - Wok Express",
       "amount": {
-        "value": 19.57,
+        "value": 18.84,
         "currency": "USD"
       },
       "direction": "out",
@@ -2009,18 +2101,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18388.88,
+        "value": 21388.11,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:SoGlMucuhpvt",
-      "ts": 1771206966,
+      "id": "orbit:tx:z6pSoGlMucuh",
+      "ts": 1771809388,
       "label": "RidaGo",
       "amount": {
-        "value": 6.04,
+        "value": 12.8,
         "currency": "USD"
       },
       "direction": "out",
@@ -2032,7 +2124,145 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16776.58,
+        "value": 19943.02,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xHl3wHheyrbp",
+      "ts": 1771583897,
+      "label": "FlameEats - Ramen House",
+      "amount": {
+        "value": 24.94,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21785.97,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:m0N4IUsJq26j",
+      "ts": 1771558868,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 23.74,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21252.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tmZDC3nNrZVG",
+      "ts": 1771512836,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 5.62,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19812.42,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Iv94YxoUpeWM",
+      "ts": 1771413736,
+      "label": "CornerMart",
+      "amount": {
+        "value": 8.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MiniExpress",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19996.55,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:uoIxahbzu95n",
+      "ts": 1771347532,
+      "label": "SuperMart",
+      "amount": {
+        "value": 79.75,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Green Market",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20671.5,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ASwtM3iqwtnO",
+      "ts": 1771313745,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 17.22,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22222.47,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
@@ -2040,7 +2270,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:tkeJ5cOcUSqa",
-      "ts": 1771180663,
+      "ts": 1771182013,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -2062,126 +2292,34 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:lWBKuVWdIHAR",
-      "ts": 1771168529,
-      "label": "FlameEats - Burger Craft",
+      "id": "orbit:tx:LLedY39srEiY",
+      "ts": 1771153609,
+      "label": "QuickStop",
       "amount": {
-        "value": 17.14,
+        "value": 13.82,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
+        "name": "QuickStop",
+        "category": "convenience",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 18813.6,
+        "value": 20022,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:0NYV4uLRn9g0",
-      "ts": 1771063621,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 7.15,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16769.43,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:wRNQWbsRKXzI",
-      "ts": 1771053020,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 18.67,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18471.8,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:wCsc0UizK5F3",
-      "ts": 1770930095,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 20.86,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18614.92,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:45mc7d0VIiLQ",
-      "ts": 1770818970,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 12.58,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18408.45,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:vCYTfkuP4RQ7",
-      "ts": 1770811152,
+      "id": "orbit:tx:DjhaLIfxZA0Y",
+      "ts": 1771150489,
       "label": "RidaGo",
       "amount": {
-        "value": 10.91,
+        "value": 6.19,
         "currency": "USD"
       },
       "direction": "out",
@@ -2193,133 +2331,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16689.92,
+        "value": 19769.65,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:QusxZDXPzq4s",
-      "ts": 1770809343,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 16.7,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18490.47,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:VTPL1Tqf7MiO",
-      "ts": 1770786473,
-      "label": "Presto 24h",
-      "amount": {
-        "value": 8.65,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Presto 24h",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16940.09,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:7z06eEM4g3RH",
-      "ts": 1770750622,
-      "label": "FlameEats - Ramen House",
-      "amount": {
-        "value": 14.58,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18909.24,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:sSLkC3ZxG29C",
-      "ts": 1770730607,
-      "label": "FreshCo",
-      "amount": {
-        "value": 71.29,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FreshCo",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17522.67,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:D6NhoHu2iWp6",
-      "ts": 1770719708,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 18.83,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18635.78,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:aLIfxZA0YMIi",
-      "ts": 1770658698,
+      "id": "orbit:tx:sUXqhO6MEUcc",
+      "ts": 1770953347,
       "label": "BART SF",
       "amount": {
-        "value": 8.18,
+        "value": 7.93,
         "currency": "USD"
       },
       "direction": "out",
@@ -2331,87 +2354,41 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16576.13,
+        "value": 19901.54,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:7Omv0QRRnaff",
-      "ts": 1770573544,
-      "label": "Vestimenta Co.",
+      "id": "orbit:tx:svz7Ln9pKRvZ",
+      "ts": 1770877450,
+      "label": "BART SF",
       "amount": {
-        "value": 28.82,
+        "value": 12.45,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16411.25,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:RlMhOXv6gIh8",
-      "ts": 1770548123,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 20.18,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18672.87,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:D9BlgbD3LefS",
-      "ts": 1770522285,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 12.83,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
+        "name": "BART SF",
         "category": "transport",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16666.14,
+        "value": 19799.97,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:Ixuhyxdvmofm",
-      "ts": 1770501857,
-      "label": "FlameEats - Pizza Vulcano",
+      "id": "orbit:tx:O9WV9QzosntO",
+      "ts": 1770778404,
+      "label": "FlameEats - Wok Express",
       "amount": {
-        "value": 17.81,
+        "value": 22.36,
         "currency": "USD"
       },
       "direction": "out",
@@ -2423,110 +2400,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18520.07,
+        "value": 22135.66,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:0534dOSKoQcd",
-      "ts": 1770501831,
-      "label": "FlameEats - Ramen House",
-      "amount": {
-        "value": 15.9,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18322,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:IXogOA41xC9E",
-      "ts": 1770498190,
-      "label": "Presto 24h",
-      "amount": {
-        "value": 14.51,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Presto 24h",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16883.32,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:UjZiFh1WigSo",
-      "ts": 1770418129,
-      "label": "ViaRapido Express",
-      "amount": {
-        "value": 11.31,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "ViaRapido Express",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16629.1,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:FRZtWaVE6RfU",
-      "ts": 1770365498,
-      "label": "FlameEats - Ramen House",
-      "amount": {
-        "value": 20.31,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18705.4,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:iLsMk34OF8lN",
-      "ts": 1770248170,
+      "id": "orbit:tx:tyxBduLScR64",
+      "ts": 1770744520,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
-        "value": 22.39,
+        "value": 24.37,
         "currency": "USD"
       },
       "direction": "out",
@@ -2538,110 +2423,18 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 19050.01,
+        "value": 21457.71,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:2DhasDGufdrb",
-      "ts": 1770241076,
-      "label": "IndieHub",
-      "amount": {
-        "value": 53.38,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "IndieHub",
-        "category": "gaming",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16987.22,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:8k0nmOzWsJI1",
-      "ts": 1770234053,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 16.7,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18579.33,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:3wHheyrbp3I3",
-      "ts": 1770229783,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 16.5,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18537.88,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:n8sBGjSROece",
-      "ts": 1770096665,
-      "label": "RidaGo",
-      "amount": {
-        "value": 12.6,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16811.88,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:ahbzu95nubDr",
-      "ts": 1770059277,
+      "id": "orbit:tx:STDjUQpL4nYi",
+      "ts": 1770739041,
       "label": "Trader's Market",
       "amount": {
-        "value": 66.17,
+        "value": 52.15,
         "currency": "USD"
       },
       "direction": "out",
@@ -2653,7 +2446,490 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 17456.5,
+        "value": 20619.35,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:esTtxmI19Lt5",
+      "ts": 1770654255,
+      "label": "BART SF",
+      "amount": {
+        "value": 8.02,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19761.63,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:EOOVeZLtFHsu",
+      "ts": 1770638577,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 15.37,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21687.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:B5PG0dgVVNd5",
+      "ts": 1770625147,
+      "label": "CornerMart",
+      "amount": {
+        "value": 5.68,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CornerMart",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20050,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:b8p0oP92UDtj",
+      "ts": 1770574237,
+      "label": "QuickStop",
+      "amount": {
+        "value": 14.92,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickStop",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20109.2,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QQZSgNJd0yEA",
+      "ts": 1770569857,
+      "label": "GamePass Ultimate",
+      "amount": {
+        "value": 16.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GamePass Ultimate",
+        "category": "gaming",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22355.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VHr4rBYaJq7Z",
+      "ts": 1770524185,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 7.11,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19838.39,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:nYXB7RLmdNqu",
+      "ts": 1770490783,
+      "label": "MobileX Basic Plan",
+      "amount": {
+        "value": 25,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MobileX Basic Plan",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22330.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Q6Apk7jHHGq8",
+      "ts": 1770484389,
+      "label": "CrunchyRoll Premium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyRoll Premium",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22372.08,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Fo81QX0Xo2Ek",
+      "ts": 1770435076,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 19.45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21422.65,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QzolWBKuVWdI",
+      "ts": 1770408676,
+      "label": "FlameEats - Wok Express",
+      "amount": {
+        "value": 13.67,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22065.88,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:utTyn8shUzDv",
+      "ts": 1770405625,
+      "label": "Rent - Tenderloin Studio",
+      "amount": {
+        "value": 1100,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Rent - Tenderloin Studio",
+        "category": "housing",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22390.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:S34OO9KnhHHh",
+      "ts": 1770402989,
+      "label": "FibraMax Internet 100Mbps",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FibraMax Internet 100Mbps",
+        "category": "telecom",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22285.09,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Rck9qoFGDeud",
+      "ts": 1770402821,
+      "label": "Discord Nitro",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Discord Nitro",
+        "category": "entertainment",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22380.07,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:PG7QYlaAMQuW",
+      "ts": 1770380886,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 8.32,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "MiniExpress",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20055.68,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:SKcgZknQI6PU",
+      "ts": 1770337407,
+      "label": "FlameEats - Ramen House",
+      "amount": {
+        "value": 24.44,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21973.59,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:6kgEsmIP4nZL",
+      "ts": 1770282023,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 19.27,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21300.22,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:FMtN67iFzRqO",
+      "ts": 1770184116,
+      "label": "VitaPharm",
+      "amount": {
+        "value": 17.91,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "VitaPharm",
+        "category": "health",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19688.95,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BPaVKvGTSq8t",
+      "ts": 1770127189,
+      "label": "Trader's Market",
+      "amount": {
+        "value": 53.05,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20566.3,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:qyyUz9XQSDpX",
+      "ts": 1770059868,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 12.29,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22257.34,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:QTnKwQd7aF2F",
+      "ts": 1770038027,
+      "label": "FlameEats - Ramen House",
+      "amount": {
+        "value": 15.15,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22099.81,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9gccWF2MDoiF",
+      "ts": 1769999696,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 23.53,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21276.69,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
@@ -2661,7 +2937,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:gPYuxtdzYs9f",
-      "ts": 1769973508,
+      "ts": 1769974858,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -2683,103 +2959,34 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:tTyn8shUzDv9",
-      "ts": 1769963579,
-      "label": "Discord Nitro",
+      "id": "orbit:tx:ZNhEAfDZ0X5w",
+      "ts": 1769938094,
+      "label": "MiniExpress",
       "amount": {
-        "value": 9.99,
+        "value": 5.71,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "Discord Nitro",
-        "category": "entertainment",
+        "name": "MiniExpress",
+        "category": "convenience",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 19180.07,
+        "value": 20084.08,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:VcDqTwIn126V",
-      "ts": 1769963126,
-      "label": "Rent - Tenderloin Studio",
-      "amount": {
-        "value": 1100,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Rent - Tenderloin Studio",
-        "category": "housing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19190.06,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:YXB7RLmdNque",
-      "ts": 1769962728,
-      "label": "FibraMax Internet 100Mbps",
-      "amount": {
-        "value": 45,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FibraMax Internet 100Mbps",
-        "category": "telecom",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19085.09,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:bzEzeSbYygBS",
-      "ts": 1769841555,
-      "label": "FlameEats - Ramen House",
-      "amount": {
-        "value": 15.78,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18433.52,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:gZknQI6PUiOh",
-      "ts": 1769807415,
+      "id": "orbit:tx:pdGfbcnUF2RF",
+      "ts": 1769878226,
       "label": "FlameEats - QuickBite",
       "amount": {
-        "value": 14.63,
+        "value": 12.6,
         "currency": "USD"
       },
       "direction": "out",
@@ -2791,87 +2998,41 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18725.71,
+        "value": 22181.46,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:6Apk7jHHGq8G",
-      "ts": 1769797764,
-      "label": "GamePass Ultimate",
+      "id": "orbit:tx:WBo4AepGnaat",
+      "ts": 1769853827,
+      "label": "MiniExpress",
       "amount": {
-        "value": 16.99,
+        "value": 12.78,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "GamePass Ultimate",
-        "category": "gaming",
+        "name": "QuickStop",
+        "category": "convenience",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 19155.09,
+        "value": 20064,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:ck9qoFGDeudl",
-      "ts": 1769793822,
-      "label": "CrunchyRoll Premium",
+      "id": "orbit:tx:Ur11CQZLxphx",
+      "ts": 1769799381,
+      "label": "FlameEats - Wok Express",
       "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyRoll Premium",
-        "category": "entertainment",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19172.08,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:QZSgNJd0yEAK",
-      "ts": 1769792031,
-      "label": "MobileX Basic Plan",
-      "amount": {
-        "value": 25,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "MobileX Basic Plan",
-        "category": "telecom",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19130.09,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:RqrxjrvKWd6N",
-      "ts": 1769786929,
-      "label": "FlameEats - QuickBite",
-      "amount": {
-        "value": 13.5,
+        "value": 17.59,
         "currency": "USD"
       },
       "direction": "out",
@@ -2883,18 +3044,41 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18871.52,
+        "value": 21482.08,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:wh0Vf00bUITf",
-      "ts": 1769763545,
+      "id": "orbit:tx:wzAHp9UnODRg",
+      "ts": 1769716652,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 19.54,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21616.25,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sAL7kSfhPFm6",
+      "ts": 1769688489,
       "label": "ViaRapido Express",
       "amount": {
-        "value": 12.77,
+        "value": 6.15,
         "currency": "USD"
       },
       "direction": "out",
@@ -2906,64 +3090,41 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16744.78,
+        "value": 19869.66,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:eg7PjeFLn3Fw",
-      "ts": 1769731005,
-      "label": "MiniExpress",
+      "id": "orbit:tx:HPHSI7tpoDF6",
+      "ts": 1769657856,
+      "label": "Health Express",
       "amount": {
-        "value": 12.67,
+        "value": 24.96,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "Presto 24h",
-        "category": "convenience",
+        "name": "Health Express",
+        "category": "health",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 16864.98,
+        "value": 19627.97,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:dQQ53WSR7Tay",
-      "ts": 1769647954,
-      "label": "IndieHub",
+      "id": "orbit:tx:fezRVhvFCrfg",
+      "ts": 1769590439,
+      "label": "FlameEats - Wok Express",
       "amount": {
-        "value": 58.13,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "IndieHub",
-        "category": "gaming",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17145.61,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:oKsgefPF9k4q",
-      "ts": 1769553669,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 12.5,
+        "value": 20.24,
         "currency": "USD"
       },
       "direction": "out",
@@ -2975,409 +3136,156 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 18309.5,
+        "value": 22045.64,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:UQpL4nYiFNTx",
-      "ts": 1769540230,
-      "label": "Green Market",
-      "amount": {
-        "value": 59.57,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Trader's Market",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17396.93,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:67iFzRqOT0Hn",
-      "ts": 1769509270,
-      "label": "Vestimenta Co.",
-      "amount": {
-        "value": 36.14,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16467.74,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:SAWBLF61XaTP",
-      "ts": 1769365560,
-      "label": "Presto 24h",
-      "amount": {
-        "value": 3.06,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CornerMart",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16926.2,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:VeZLtFHsudo4",
-      "ts": 1769346546,
-      "label": "FlameEats - Ramen House",
-      "amount": {
-        "value": 22.5,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18449.3,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:aoypJf7v0udn",
-      "ts": 1769276907,
-      "label": "FlameEats - QuickBite",
-      "amount": {
-        "value": 12.35,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18693.05,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:0dgVVNd5AEBh",
-      "ts": 1769127153,
-      "label": "Presto 24h",
-      "amount": {
-        "value": 11.29,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CornerMart",
-        "category": "convenience",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16897.83,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:NxK6SqFOoLxX",
-      "ts": 1769091597,
-      "label": "FlameEats - Pizza Vulcano",
-      "amount": {
-        "value": 17.44,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18337.9,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:61cEP7pd5ysw",
-      "ts": 1769089977,
-      "label": "FlameEats - Taqueria Don Julio",
-      "amount": {
-        "value": 24.34,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18967.82,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:KvGTSq8tZN6I",
-      "ts": 1769006565,
+      "id": "orbit:tx:1i3NlSQk7RZl",
+      "ts": 1769454136,
       "label": "SuperMart",
       "amount": {
-        "value": 78.01,
+        "value": 74.25,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "FreshCo",
+        "name": "SuperMart",
         "category": "groceries",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 17318.92,
+        "value": 20492.05,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:NxQmAMKszr3D",
-      "ts": 1768996258,
-      "label": "Vestimenta Co.",
+      "id": "orbit:tx:HPP2DhasDGuf",
+      "ts": 1769418328,
+      "label": "SteamStore",
       "amount": {
-        "value": 43.03,
+        "value": 56.35,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16192.96,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:SjAVrGVV1ZmC",
-      "ts": 1768989827,
-      "label": "RidaGo",
-      "amount": {
-        "value": 14.91,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16824.48,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:I7tpoDF68MQK",
-      "ts": 1768846413,
-      "label": "Vestimenta Co.",
-      "amount": {
-        "value": 46.62,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vestimenta Co.",
-        "category": "clothing",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16343.21,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:tM3iqwtnOieW",
-      "ts": 1768833959,
-      "label": "FlameEats - Taqueria Don Julio",
-      "amount": {
-        "value": 18.88,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18992.16,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:4OO9KnhHHhk7",
-      "ts": 1768773243,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 12.69,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19072.4,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:6RtIDDRdZgVK",
-      "ts": 1768747045,
-      "label": "FlameEats - QuickBite",
-      "amount": {
-        "value": 23.79,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18830.74,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:KwQd7aF2FeLp",
-      "ts": 1768740555,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 16.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18854.53,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:VrPCs6WeM9hG",
-      "ts": 1768598778,
-      "label": "GameVault",
-      "amount": {
-        "value": 38.31,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GameVault",
+        "name": "SteamStore",
         "category": "gaming",
         "city": "San Francisco",
         "country": "US"
       },
       "balance_after": {
-        "value": 17068.2,
+        "value": 20158.46,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:vzIHaNseagtt",
-      "ts": 1768515557,
+      "id": "orbit:tx:niTTrmxUm88K",
+      "ts": 1769416940,
+      "label": "BART SF",
+      "amount": {
+        "value": 9.01,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19818.04,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:Jg2BmD5LuNdW",
+      "ts": 1769413239,
+      "label": "FlameEats - QuickBite",
+      "amount": {
+        "value": 18.58,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21650.06,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:CAlvCYTfkuP4",
+      "ts": 1769401647,
+      "label": "ViaRapido Express",
+      "amount": {
+        "value": 6.52,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "ViaRapido Express",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19875.81,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:eV2YhKzm2nAh",
+      "ts": 1769299488,
+      "label": "BART SF",
+      "amount": {
+        "value": 14.84,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19746.79,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:xUqExZ9RGqMh",
+      "ts": 1769289265,
       "label": "RidaGo",
       "amount": {
-        "value": 14.16,
+        "value": 7.51,
         "currency": "USD"
       },
       "direction": "out",
@@ -3389,7 +3297,237 @@
         "country": "US"
       },
       "balance_after": {
-        "value": 16839.39,
+        "value": 19909.47,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:JO1aoypJf7v0",
+      "ts": 1769125226,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 22.69,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21934.45,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:EK7RqrxjrvKW",
+      "ts": 1769077289,
+      "label": "FlameEats - Pizza Vulcano",
+      "amount": {
+        "value": 20.7,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22114.96,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:1ZAvq5s5DNIN",
+      "ts": 1769036252,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 17.65,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22239.69,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:FDIUjZiFh1Wi",
+      "ts": 1769002951,
+      "label": "BART SF",
+      "amount": {
+        "value": 11.34,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "BART SF",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19827.05,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:BvQt6uQmGlM0",
+      "ts": 1768950879,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 12.98,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22011.82,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:sQW61cEP7pd5",
+      "ts": 1768868017,
+      "label": "FlameEats - Taqueria Don Julio",
+      "amount": {
+        "value": 14.44,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22208.03,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:ffFwjyhHJjL4",
+      "ts": 1768849773,
+      "label": "RidaGo",
+      "amount": {
+        "value": 12.86,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "RidaGo",
+        "category": "transport",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 19882.33,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:zErwzW8wyHnY",
+      "ts": 1768841083,
+      "label": "FreshCo",
+      "amount": {
+        "value": 78.67,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "SuperMart",
+        "category": "groceries",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20413.38,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:9Ei0534dOSKo",
+      "ts": 1768784495,
+      "label": "FlameEats - Burger Craft",
+      "amount": {
+        "value": 17.49,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "FlameEats",
+        "category": "food_delivery",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 21544.62,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:VWpT4mGfShfl",
+      "ts": 1768718681,
+      "label": "MiniExpress",
+      "amount": {
+        "value": 6.77,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "QuickStop",
+        "category": "convenience",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 20124.12,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"
@@ -3397,7 +3535,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:aVvZ8PVQ1PE3",
-      "ts": 1768503357,
+      "ts": 1768504707,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -3413,121 +3551,6 @@
       },
       "balance_after": {
         "value": 6700,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:4rBYaJq7Z7VD",
-      "ts": 1768459711,
-      "label": "RidaGo",
-      "amount": {
-        "value": 12.06,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "RidaGo",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16640.41,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:lSQk7RZl9c6Y",
-      "ts": 1768398585,
-      "label": "Green Market",
-      "amount": {
-        "value": 73.94,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Green Market",
-        "category": "groceries",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 17244.98,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:UDr6eir46qQd",
-      "ts": 1768386108,
-      "label": "FlameEats - Burger Craft",
-      "amount": {
-        "value": 18.26,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 18654.61,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:FP1XXT0Z51xN",
-      "ts": 1768043262,
-      "label": "BART SF",
-      "amount": {
-        "value": 12.88,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "BART SF",
-        "category": "transport",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16589.61,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:vq5s5DNINqkD",
-      "ts": 1767997154,
-      "label": "FlameEats - Wok Express",
-      "amount": {
-        "value": 19.64,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "FlameEats",
-        "category": "food_delivery",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 19011.04,
         "currency": "USD"
       },
       "account_id": "orbit:acc:alex:checking"

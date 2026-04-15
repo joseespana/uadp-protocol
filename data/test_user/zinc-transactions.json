@@ -15,71 +15,8 @@
   "transactions": [
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:573B5BIY1ij3",
-      "ts": 1775416952,
-      "label": "CrunchyrollPremium",
-      "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyrollPremium",
-        "category": "entertainment",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:EdFRaHSrTgLj",
-      "ts": 1775158436,
-      "label": "Discord Nitro",
-      "amount": {
-        "value": 9.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Discord Nitro",
-        "category": "social",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:5AK3cVg13T8U",
-      "ts": 1773761208,
-      "label": "LearnHub — Cypress Course",
-      "amount": {
-        "value": 29.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "LearnHub — Cypress Course",
-        "category": "education",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": false
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "zinc:tx:q1VES5tr8sSH",
-      "ts": 1772819191,
+      "ts": 1776017341,
       "label": "CrunchyrollPremium",
       "amount": {
         "value": 7.99,
@@ -99,29 +36,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:yHxh0gVmJF5o",
-      "ts": 1772675791,
-      "label": "GameVault Store",
-      "amount": {
-        "value": 19.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GameVault Store",
-        "category": "gaming",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": false
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:2XXyAulG6fco",
-      "ts": 1771079830,
+      "id": "zinc:tx:65AK3cVg13T8",
+      "ts": 1774758295,
       "label": "Humble Bundle",
       "amount": {
         "value": 12,
@@ -142,7 +58,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:DnejO7cLeiEQ",
-      "ts": 1770223949,
+      "ts": 1773422099,
       "label": "CrunchyrollPremium",
       "amount": {
         "value": 7.99,
@@ -162,71 +78,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:ysHM3TLJuODk",
-      "ts": 1768782852,
-      "label": "Steam Store",
-      "amount": {
-        "value": 14.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Steam Store",
-        "category": "gaming",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": false
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:Kejp3Z2Uc7s7",
-      "ts": 1768083452,
-      "label": "CrunchyrollPremium",
-      "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyrollPremium",
-        "category": "entertainment",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:OpE9WAbTG4rL",
-      "ts": 1767634661,
-      "label": "CrunchyrollPremium",
-      "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyrollPremium",
-        "category": "entertainment",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:VwsjZPlOQ5kh",
-      "ts": 1767438181,
+      "id": "zinc:tx:WnacdhSK5JWX",
+      "ts": 1772858151,
       "label": "Steam Store",
       "amount": {
         "value": 39.99,
@@ -246,50 +99,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:EpdaiMXkmvJ4",
-      "ts": 1765166279,
-      "label": "LearnHub — Rust Basics",
-      "amount": {
-        "value": 19.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "LearnHub — Rust Basics",
-        "category": "education",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": false
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:fGoRAKD2WuCy",
-      "ts": 1765042551,
-      "label": "CrunchyrollPremium",
-      "amount": {
-        "value": 7.99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "CrunchyrollPremium",
-        "category": "entertainment",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:alex:mxn",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:WV14tVzOm9XE",
-      "ts": 1762540862,
+      "id": "zinc:tx:sysHM3TLJuOD",
+      "ts": 1772016680,
       "label": "Steam Store",
       "amount": {
         "value": 24.99,
@@ -309,8 +120,92 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:nacdhSK5JWXY",
-      "ts": 1761709930,
+      "id": "zinc:tx:OpE9WAbTG4rL",
+      "ts": 1770832811,
+      "label": "CrunchyrollPremium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyrollPremium",
+        "category": "entertainment",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:573B5BIY1ij3",
+      "ts": 1770515890,
+      "label": "LearnHub — Rust Basics",
+      "amount": {
+        "value": 19.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LearnHub — Rust Basics",
+        "category": "education",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:HEpdaiMXkmvJ",
+      "ts": 1769280458,
+      "label": "LearnHub — Cypress Course",
+      "amount": {
+        "value": 29.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "LearnHub — Cypress Course",
+        "category": "education",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:fGoRAKD2WuCy",
+      "ts": 1768240701,
+      "label": "CrunchyrollPremium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyrollPremium",
+        "category": "entertainment",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:byHxh0gVmJF5",
+      "ts": 1767095997,
       "label": "Steam Store",
       "amount": {
         "value": 9.99,
@@ -326,6 +221,111 @@
       "account_id": "zinc:acc:alex:mxn",
       "ext": {
         "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:vKejp3Z2Uc7s",
+      "ts": 1765956341,
+      "label": "GameVault Store",
+      "amount": {
+        "value": 19.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GameVault Store",
+        "category": "gaming",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:2xaoDzQVYfrr",
+      "ts": 1765651182,
+      "label": "CrunchyrollPremium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyrollPremium",
+        "category": "entertainment",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:i2XXyAulG6fc",
+      "ts": 1765403540,
+      "label": "Discord Nitro",
+      "amount": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Discord Nitro",
+        "category": "social",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:xVwsjZPlOQ5k",
+      "ts": 1764191780,
+      "label": "Steam Store",
+      "amount": {
+        "value": 14.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Steam Store",
+        "category": "gaming",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:0EdFRaHSrTgL",
+      "ts": 1762063531,
+      "label": "CrunchyrollPremium",
+      "amount": {
+        "value": 7.99,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "CrunchyrollPremium",
+        "category": "entertainment",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:alex:mxn",
+      "ext": {
+        "is_subscription": true
       }
     }
   ],
