@@ -3,7 +3,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Th9C8FEy242Z",
-      "ts": 1776275513,
+      "ts": 1776277402,
       "label": "San Jose → Chinatown",
       "status": "completed",
       "origin": {
@@ -40,7 +40,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:NZGMbZDFSJjm",
-      "ts": 1776191393,
+      "ts": 1776193282,
       "label": "SFO Airport → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -77,7 +77,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:c7no1YigSpdS",
-      "ts": 1776130447,
+      "ts": 1776132336,
       "label": "Oakland → Japantown",
       "status": "completed",
       "origin": {
@@ -114,7 +114,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:nii7r564lO8L",
-      "ts": 1776061322,
+      "ts": 1776063211,
       "label": "Palo Alto → Richmond District",
       "status": "cancelled",
       "origin": {
@@ -144,7 +144,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:gyDBgMrXi6pr",
-      "ts": 1776033883,
+      "ts": 1776035772,
       "label": "Dogpatch → South San Francisco",
       "status": "completed",
       "origin": {
@@ -181,7 +181,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Pm4gRWCBYSfl",
-      "ts": 1775996907,
+      "ts": 1775998796,
       "label": "North Beach → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -218,7 +218,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:6IjlETEvs1El",
-      "ts": 1775870285,
+      "ts": 1775872174,
       "label": "Sausalito → Daly City",
       "status": "completed",
       "origin": {
@@ -255,7 +255,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:GpcNrHRCQTGw",
-      "ts": 1775808999,
+      "ts": 1775810888,
       "label": "Dogpatch → Stanford",
       "status": "cancelled",
       "origin": {
@@ -285,7 +285,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Knug5pEPYbRv",
-      "ts": 1775756705,
+      "ts": 1775758594,
       "label": "Golden Gate Park → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -322,7 +322,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Jj2g5LNWjpoJ",
-      "ts": 1775677894,
+      "ts": 1775679783,
       "label": "Castro → Nob Hill",
       "status": "completed",
       "origin": {
@@ -359,7 +359,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:OC4TFQ6tGccx",
-      "ts": 1775423561,
+      "ts": 1775425450,
       "label": "Hayes Valley → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -396,7 +396,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XJjWlakCSlqH",
-      "ts": 1775340198,
+      "ts": 1775342087,
       "label": "San Jose → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -433,7 +433,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:36HbS6GdxrsX",
-      "ts": 1775328593,
+      "ts": 1775330482,
       "label": "Twin Peaks → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -470,7 +470,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:S3tgau39DXvP",
-      "ts": 1775308901,
+      "ts": 1775310790,
       "label": "Oracle Park → Presidio",
       "status": "completed",
       "origin": {
@@ -507,7 +507,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:6I870EktjgJB",
-      "ts": 1775298644,
+      "ts": 1775300533,
       "label": "Pacific Heights → San Jose",
       "status": "completed",
       "origin": {
@@ -544,7 +544,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wfX791QAmhAV",
-      "ts": 1775271682,
+      "ts": 1775273571,
       "label": "Fisherman's Wharf → Richmond District",
       "status": "completed",
       "origin": {
@@ -581,7 +581,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:xJuZSkjRo2o3",
-      "ts": 1775100751,
+      "ts": 1775102640,
       "label": "Mission District Apartment → Sausalito",
       "status": "completed",
       "origin": {
@@ -618,7 +618,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Pk3FxuBpCAhn",
-      "ts": 1775066676,
+      "ts": 1775068565,
       "label": "Dogpatch → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -655,7 +655,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:R1UsFNB3y6t7",
-      "ts": 1775024820,
+      "ts": 1775026709,
       "label": "Sunset District → Treasure Island",
       "status": "completed",
       "origin": {
@@ -692,7 +692,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wtm8xiFjQ23c",
-      "ts": 1775022907,
+      "ts": 1775024796,
       "label": "Chinatown → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -729,7 +729,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:L6UQ87IUw3z7",
-      "ts": 1775006826,
+      "ts": 1775008715,
       "label": "GymFit Downtown → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -766,7 +766,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:T5R6Q1bb3pEj",
-      "ts": 1775005907,
+      "ts": 1775007796,
       "label": "Chinatown → Richmond District",
       "status": "completed",
       "origin": {
@@ -803,7 +803,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:xD2w9K4ZuQSt",
-      "ts": 1775003029,
+      "ts": 1775004918,
       "label": "Dogpatch → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -840,7 +840,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:BoEjmpI9wDQB",
-      "ts": 1774929068,
+      "ts": 1774930957,
       "label": "Blue Bottle Coffee → Presidio",
       "status": "completed",
       "origin": {
@@ -877,7 +877,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XukVr0y5ZUKD",
-      "ts": 1774904250,
+      "ts": 1774906139,
       "label": "Fisherman's Wharf → Oracle Park",
       "status": "completed",
       "origin": {
@@ -914,7 +914,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:MErlInh9OSTF",
-      "ts": 1774892443,
+      "ts": 1774894332,
       "label": "SFO Airport → Dogpatch",
       "status": "completed",
       "origin": {
@@ -951,7 +951,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zYlMyxMNTNyt",
-      "ts": 1774890416,
+      "ts": 1774892305,
       "label": "Oakland → GymFit Downtown",
       "status": "cancelled",
       "origin": {
@@ -981,7 +981,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:HyJ5UoGvVFg3",
-      "ts": 1774712109,
+      "ts": 1774713998,
       "label": "Oracle Park → Stanford",
       "status": "cancelled",
       "origin": {
@@ -1011,7 +1011,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DOn2jH3bnniJ",
-      "ts": 1774711987,
+      "ts": 1774713876,
       "label": "Sausalito → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -1048,7 +1048,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wcK13YP1eVPN",
-      "ts": 1774640616,
+      "ts": 1774642505,
       "label": "San Jose → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -1085,7 +1085,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:f69D71Ofu7Gi",
-      "ts": 1774530247,
+      "ts": 1774532136,
       "label": "Castro → Sausalito",
       "status": "completed",
       "origin": {
@@ -1122,7 +1122,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:icEvlfP7c8FU",
-      "ts": 1774485990,
+      "ts": 1774487879,
       "label": "Golden Gate Park → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -1159,7 +1159,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:WBDC8THZ5B5R",
-      "ts": 1774406144,
+      "ts": 1774408033,
       "label": "Bernal Heights → Sunset District",
       "status": "completed",
       "origin": {
@@ -1196,7 +1196,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:76PLtlSHv7OE",
-      "ts": 1774363423,
+      "ts": 1774365312,
       "label": "Potrero Hill → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -1233,7 +1233,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JANVx8GZgTDy",
-      "ts": 1774333620,
+      "ts": 1774335509,
       "label": "SFO Airport → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -1270,7 +1270,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tMZXFWNKzlQJ",
-      "ts": 1774294346,
+      "ts": 1774296235,
       "label": "Sunset District → Presidio",
       "status": "completed",
       "origin": {
@@ -1307,7 +1307,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4PCtdJcMh39A",
-      "ts": 1774254379,
+      "ts": 1774256268,
       "label": "Daly City → Japantown",
       "status": "completed",
       "origin": {
@@ -1344,7 +1344,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:EP7BBRC1zBw2",
-      "ts": 1774231110,
+      "ts": 1774232999,
       "label": "Daly City → San Jose",
       "status": "completed",
       "origin": {
@@ -1381,7 +1381,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qKYU7uq45nIA",
-      "ts": 1774191012,
+      "ts": 1774192901,
       "label": "Downtown / Union Square → Nob Hill",
       "status": "completed",
       "origin": {
@@ -1418,7 +1418,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Rs7ryYEbSbCU",
-      "ts": 1774163210,
+      "ts": 1774165099,
       "label": "South San Francisco → Oakland",
       "status": "completed",
       "origin": {
@@ -1455,7 +1455,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hakeDF1Y6nPt",
-      "ts": 1774118904,
+      "ts": 1774120793,
       "label": "North Beach → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -1492,7 +1492,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:yqd8kHrsV7H3",
-      "ts": 1774101499,
+      "ts": 1774103388,
       "label": "San Jose → Embarcadero",
       "status": "completed",
       "origin": {
@@ -1529,7 +1529,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ni1gzJDyzS0W",
-      "ts": 1774087668,
+      "ts": 1774089557,
       "label": "Japantown → Richmond District",
       "status": "completed",
       "origin": {
@@ -1566,7 +1566,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qOJzprypot67",
-      "ts": 1773794320,
+      "ts": 1773796209,
       "label": "Palo Alto → Half Moon Bay",
       "status": "cancelled",
       "origin": {
@@ -1596,7 +1596,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IezNnOybep5F",
-      "ts": 1773790960,
+      "ts": 1773792849,
       "label": "Golden Gate Park → Chinatown",
       "status": "completed",
       "origin": {
@@ -1633,7 +1633,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dWkpTGdZNp48",
-      "ts": 1773707050,
+      "ts": 1773708939,
       "label": "South San Francisco → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -1670,7 +1670,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:szWg8GCT9ar4",
-      "ts": 1773661648,
+      "ts": 1773663537,
       "label": "Fisherman's Wharf → Dogpatch",
       "status": "completed",
       "origin": {
@@ -1707,7 +1707,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:pVbWb62wZfQt",
-      "ts": 1773591432,
+      "ts": 1773593321,
       "label": "Daly City → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -1744,7 +1744,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iTD4jU4uoor9",
-      "ts": 1773568502,
+      "ts": 1773570391,
       "label": "SFO Airport → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -1781,7 +1781,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:x6FThRDiDrn6",
-      "ts": 1773523989,
+      "ts": 1773525878,
       "label": "Fisherman's Wharf → Dogpatch",
       "status": "completed",
       "origin": {
@@ -1818,7 +1818,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:coT7s68pbVHT",
-      "ts": 1773510656,
+      "ts": 1773512545,
       "label": "UCSF Medical Center → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -1855,7 +1855,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:f6gpRmcSzuAJ",
-      "ts": 1773500783,
+      "ts": 1773502672,
       "label": "Berkeley → Hayes Valley",
       "status": "cancelled",
       "origin": {
@@ -1885,7 +1885,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:xS0IV8CpQtg1",
-      "ts": 1773477968,
+      "ts": 1773479857,
       "label": "Glen Park → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -1922,7 +1922,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:z00qkNv3Mxim",
-      "ts": 1773439064,
+      "ts": 1773440953,
       "label": "Daly City → Downtown / Union Square",
       "status": "cancelled",
       "origin": {
@@ -1952,7 +1952,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dhZdoOnHyhwW",
-      "ts": 1773416493,
+      "ts": 1773418382,
       "label": "Sunset District → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -1989,7 +1989,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iMfvNxTzKHSc",
-      "ts": 1773353935,
+      "ts": 1773355824,
       "label": "Richmond District → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -2026,7 +2026,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:32TpzpkYcRCU",
-      "ts": 1773347557,
+      "ts": 1773349446,
       "label": "Hayes Valley → San Jose",
       "status": "completed",
       "origin": {
@@ -2063,7 +2063,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7xyq4mFF1Zqy",
-      "ts": 1773277795,
+      "ts": 1773279684,
       "label": "Golden Gate Park → San Jose",
       "status": "completed",
       "origin": {
@@ -2100,7 +2100,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:KhAgUKw6qEPA",
-      "ts": 1773254740,
+      "ts": 1773256629,
       "label": "Dogpatch → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -2137,7 +2137,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:UqmgzmpQpegm",
-      "ts": 1773157364,
+      "ts": 1773159253,
       "label": "Potrero Hill → Richmond District",
       "status": "completed",
       "origin": {
@@ -2174,7 +2174,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:MTcTKxEJ9ngr",
-      "ts": 1773140964,
+      "ts": 1773142853,
       "label": "Sunset District → SFO Airport",
       "status": "completed",
       "origin": {
@@ -2211,7 +2211,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SKf9Guf7Or02",
-      "ts": 1773139137,
+      "ts": 1773141026,
       "label": "SFO Airport → Castro",
       "status": "cancelled",
       "origin": {
@@ -2241,7 +2241,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1pwBqK5utYpJ",
-      "ts": 1773120434,
+      "ts": 1773122323,
       "label": "Glen Park → Treasure Island",
       "status": "completed",
       "origin": {
@@ -2278,7 +2278,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:LuIjJwcIi8VN",
-      "ts": 1773118741,
+      "ts": 1773120630,
       "label": "North Beach → South San Francisco",
       "status": "completed",
       "origin": {
@@ -2315,7 +2315,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5g8qlCnaquEv",
-      "ts": 1772902130,
+      "ts": 1772904019,
       "label": "SFO Airport → Castro",
       "status": "completed",
       "origin": {
@@ -2352,7 +2352,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1gYKKeZdczah",
-      "ts": 1772900823,
+      "ts": 1772902712,
       "label": "Presidio → North Beach",
       "status": "completed",
       "origin": {
@@ -2389,7 +2389,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JvwQX7Fuv1j9",
-      "ts": 1772886118,
+      "ts": 1772888007,
       "label": "Daly City → Dogpatch",
       "status": "completed",
       "origin": {
@@ -2426,7 +2426,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JZpzzBp3jUez",
-      "ts": 1772867923,
+      "ts": 1772869812,
       "label": "SuperMart SoMa → Dogpatch",
       "status": "completed",
       "origin": {
@@ -2463,7 +2463,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zDifH3hhunVL",
-      "ts": 1772795792,
+      "ts": 1772797681,
       "label": "Hayes Valley → Daly City",
       "status": "completed",
       "origin": {
@@ -2500,7 +2500,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Dx5Dp4UpQNbm",
-      "ts": 1772777290,
+      "ts": 1772779179,
       "label": "Japantown → Oakland",
       "status": "completed",
       "origin": {
@@ -2537,7 +2537,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1guulyhzaPMo",
-      "ts": 1772602189,
+      "ts": 1772604078,
       "label": "SuperMart SoMa → Palo Alto",
       "status": "completed",
       "origin": {
@@ -2574,7 +2574,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lO0iO26TgFke",
-      "ts": 1772599731,
+      "ts": 1772601620,
       "label": "Oakland → Palo Alto",
       "status": "completed",
       "origin": {
@@ -2611,7 +2611,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9rzlsfvg6Uyn",
-      "ts": 1772444276,
+      "ts": 1772446165,
       "label": "Ocean Beach → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -2648,7 +2648,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:cMYVZFvfROoN",
-      "ts": 1772388536,
+      "ts": 1772390425,
       "label": "Bernal Heights → Daly City",
       "status": "cancelled",
       "origin": {
@@ -2678,7 +2678,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hejdcjslUZ4q",
-      "ts": 1772347715,
+      "ts": 1772349604,
       "label": "Blue Bottle Coffee → Dogpatch",
       "status": "completed",
       "origin": {
@@ -2715,7 +2715,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:okau0acme5Gf",
-      "ts": 1772322767,
+      "ts": 1772324656,
       "label": "Castro → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -2752,7 +2752,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9ea17PY8w2B1",
-      "ts": 1772265983,
+      "ts": 1772267872,
       "label": "TechCorp — Office → Castro",
       "status": "completed",
       "origin": {
@@ -2789,7 +2789,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iaKJRXZS6EBS",
-      "ts": 1772167773,
+      "ts": 1772169662,
       "label": "Hayes Valley → Nob Hill",
       "status": "completed",
       "origin": {
@@ -2826,7 +2826,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:syNL1yXtUdHA",
-      "ts": 1772138474,
+      "ts": 1772140363,
       "label": "Ocean Beach → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -2863,7 +2863,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:gzfJh5DP7YKI",
-      "ts": 1772132813,
+      "ts": 1772134702,
       "label": "GymFit Downtown → Stanford",
       "status": "completed",
       "origin": {
@@ -2900,7 +2900,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kuq5GOAB0kfX",
-      "ts": 1772119537,
+      "ts": 1772121426,
       "label": "Berkeley → SFO Airport",
       "status": "completed",
       "origin": {
@@ -2937,7 +2937,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:eT1wUedtYFOS",
-      "ts": 1772118057,
+      "ts": 1772119946,
       "label": "Embarcadero → North Beach",
       "status": "completed",
       "origin": {
@@ -2974,7 +2974,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:G9fTK0gD7RQX",
-      "ts": 1771957837,
+      "ts": 1771959726,
       "label": "Ocean Beach → Nob Hill",
       "status": "completed",
       "origin": {
@@ -3011,7 +3011,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:443riVwJGUE5",
-      "ts": 1771864002,
+      "ts": 1771865891,
       "label": "SFO Airport → San Jose",
       "status": "completed",
       "origin": {
@@ -3048,7 +3048,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:U0FRr0xviRtN",
-      "ts": 1771857220,
+      "ts": 1771859109,
       "label": "Mission District Apartment → Japantown",
       "status": "completed",
       "origin": {
@@ -3085,7 +3085,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:TuMmzVOj41Qm",
-      "ts": 1771780157,
+      "ts": 1771782046,
       "label": "Chinatown → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -3122,7 +3122,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:N1n25ztbpXfB",
-      "ts": 1771762557,
+      "ts": 1771764446,
       "label": "Potrero Hill → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -3159,7 +3159,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3y6l5jrdRbqT",
-      "ts": 1771654729,
+      "ts": 1771656618,
       "label": "Embarcadero → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -3196,7 +3196,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Y9u0pzePF6eI",
-      "ts": 1771600367,
+      "ts": 1771602256,
       "label": "Presidio → SFO Airport",
       "status": "completed",
       "origin": {
@@ -3233,7 +3233,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Diu4CCdLNJRh",
-      "ts": 1771575889,
+      "ts": 1771577778,
       "label": "Treasure Island → Chinatown",
       "status": "completed",
       "origin": {
@@ -3270,7 +3270,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qzWFpPqJw9Zv",
-      "ts": 1771532291,
+      "ts": 1771534180,
       "label": "Fisherman's Wharf → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -3307,7 +3307,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ZSg1ZHnmnU4m",
-      "ts": 1771440287,
+      "ts": 1771442176,
       "label": "Oracle Park → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -3344,7 +3344,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DXeB5vI3LqqL",
-      "ts": 1771424378,
+      "ts": 1771426267,
       "label": "Glen Park → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -3381,7 +3381,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:pjZS8qGQxwk4",
-      "ts": 1771335962,
+      "ts": 1771337851,
       "label": "Fisherman's Wharf → San Jose",
       "status": "cancelled",
       "origin": {
@@ -3411,7 +3411,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:TU0Vgo0pXCUd",
-      "ts": 1771277997,
+      "ts": 1771279886,
       "label": "San Jose → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -3448,7 +3448,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:6VqU0V67d36f",
-      "ts": 1771253122,
+      "ts": 1771255011,
       "label": "Presidio → Nob Hill",
       "status": "completed",
       "origin": {
@@ -3485,7 +3485,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:RrQD3PaOPiZv",
-      "ts": 1771252805,
+      "ts": 1771254694,
       "label": "Oracle Park → Fisherman's Wharf",
       "status": "completed",
       "origin": {
@@ -3522,7 +3522,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:N37C1SD1LCXg",
-      "ts": 1771165146,
+      "ts": 1771167035,
       "label": "Pacific Heights → Castro",
       "status": "completed",
       "origin": {
@@ -3559,7 +3559,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0znd6u51qjrZ",
-      "ts": 1771145933,
+      "ts": 1771147822,
       "label": "Sunset District → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -3596,7 +3596,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:eqwFHTcVal6l",
-      "ts": 1771123295,
+      "ts": 1771125184,
       "label": "Dogpatch → Sausalito",
       "status": "completed",
       "origin": {
@@ -3633,7 +3633,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:aikO6Odln7BG",
-      "ts": 1770998051,
+      "ts": 1770999940,
       "label": "GymFit Downtown → Presidio",
       "status": "completed",
       "origin": {
@@ -3670,7 +3670,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:PVK8GDDgi5Cq",
-      "ts": 1770922153,
+      "ts": 1770924042,
       "label": "Fisherman's Wharf → Daly City",
       "status": "completed",
       "origin": {
@@ -3707,7 +3707,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wBIv6yDChQla",
-      "ts": 1770830717,
+      "ts": 1770832606,
       "label": "Bernal Heights → Embarcadero",
       "status": "cancelled",
       "origin": {
@@ -3737,7 +3737,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Nwi8ZoV13qeK",
-      "ts": 1770791555,
+      "ts": 1770793444,
       "label": "Japantown → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -3774,7 +3774,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JyGCZIts4h2c",
-      "ts": 1770786755,
+      "ts": 1770788644,
       "label": "Market Street → San Jose",
       "status": "completed",
       "origin": {
@@ -3811,7 +3811,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3Q3H1cGC5OZV",
-      "ts": 1770696544,
+      "ts": 1770698433,
       "label": "Twin Peaks → Nob Hill",
       "status": "completed",
       "origin": {
@@ -3848,7 +3848,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:cjTGCc2sBEjC",
-      "ts": 1770529871,
+      "ts": 1770531760,
       "label": "Ocean Beach → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -3885,7 +3885,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dWndEi9uFjIO",
-      "ts": 1770354699,
+      "ts": 1770356588,
       "label": "Sunset District → South San Francisco",
       "status": "cancelled",
       "origin": {
@@ -3915,7 +3915,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:aA5S7CiJ1yEn",
-      "ts": 1770341212,
+      "ts": 1770343101,
       "label": "Bernal Heights → Chinatown",
       "status": "completed",
       "origin": {
@@ -3952,7 +3952,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:PPAIsKoT1Hbv",
-      "ts": 1770314920,
+      "ts": 1770316809,
       "label": "Treasure Island → Daly City",
       "status": "completed",
       "origin": {
@@ -3989,7 +3989,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9X4YowtiqYar",
-      "ts": 1770300218,
+      "ts": 1770302107,
       "label": "Potrero Hill → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -4026,7 +4026,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Rcry3gnt57TN",
-      "ts": 1770294678,
+      "ts": 1770296567,
       "label": "Dogpatch → Sausalito",
       "status": "completed",
       "origin": {
@@ -4063,7 +4063,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:BscCDHL1ITfM",
-      "ts": 1769895788,
+      "ts": 1769897677,
       "label": "Golden Gate Park → Palo Alto",
       "status": "completed",
       "origin": {
@@ -4100,7 +4100,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vfXtvEceUll0",
-      "ts": 1769841381,
+      "ts": 1769843270,
       "label": "Daly City → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -4137,7 +4137,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:MrV6UoNuxd79",
-      "ts": 1769672045,
+      "ts": 1769673934,
       "label": "GymFit Downtown → South San Francisco",
       "status": "completed",
       "origin": {
@@ -4174,7 +4174,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:WrieXnJkLYsI",
-      "ts": 1769491585,
+      "ts": 1769493474,
       "label": "Ocean Beach → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -4211,7 +4211,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:QuAO287Jk9NO",
-      "ts": 1769470973,
+      "ts": 1769472862,
       "label": "Market Street → Sausalito",
       "status": "completed",
       "origin": {
@@ -4248,7 +4248,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hGindOq7Tis8",
-      "ts": 1769410878,
+      "ts": 1769412767,
       "label": "Presidio → Stanford",
       "status": "cancelled",
       "origin": {
@@ -4278,7 +4278,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DFaTWa9ysUdi",
-      "ts": 1769337594,
+      "ts": 1769339483,
       "label": "TechCorp — Office → Embarcadero",
       "status": "completed",
       "origin": {
@@ -4315,7 +4315,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1qVn9eY5jGVO",
-      "ts": 1769283115,
+      "ts": 1769285004,
       "label": "UCSF Medical Center → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -4352,7 +4352,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kcVKDlabge2A",
-      "ts": 1769070767,
+      "ts": 1769072656,
       "label": "Potrero Hill → Glen Park",
       "status": "completed",
       "origin": {
@@ -4389,7 +4389,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qg6dRx5jq8qd",
-      "ts": 1769070128,
+      "ts": 1769072017,
       "label": "UCSF Medical Center → San Jose",
       "status": "completed",
       "origin": {
@@ -4426,7 +4426,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:TXUacDRGENhO",
-      "ts": 1769021973,
+      "ts": 1769023862,
       "label": "Blue Bottle Coffee → Richmond District",
       "status": "completed",
       "origin": {
@@ -4463,7 +4463,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tuzeObdgXTeX",
-      "ts": 1768953489,
+      "ts": 1768955378,
       "label": "Potrero Hill → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -4500,7 +4500,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ogUdRfKQSWHq",
-      "ts": 1768897170,
+      "ts": 1768899059,
       "label": "Dogpatch → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -4537,7 +4537,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wW2HbWi7xnnp",
-      "ts": 1768867022,
+      "ts": 1768868911,
       "label": "Half Moon Bay → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -4574,7 +4574,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5Lfr6ceWqqwk",
-      "ts": 1768866209,
+      "ts": 1768868098,
       "label": "Bernal Heights → Treasure Island",
       "status": "completed",
       "origin": {
@@ -4611,7 +4611,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:nohICsQf2XAo",
-      "ts": 1768788649,
+      "ts": 1768790538,
       "label": "Pacific Heights → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -4648,7 +4648,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:voBRge45IMKd",
-      "ts": 1768729212,
+      "ts": 1768731101,
       "label": "Sunset District → Embarcadero",
       "status": "completed",
       "origin": {
@@ -4685,7 +4685,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9jMOMBiJKPX4",
-      "ts": 1768541902,
+      "ts": 1768543791,
       "label": "Chinatown → Nob Hill",
       "status": "cancelled",
       "origin": {
@@ -4715,7 +4715,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Y774q4oQTB7I",
-      "ts": 1768538764,
+      "ts": 1768540653,
       "label": "Dogpatch → SFO Airport",
       "status": "completed",
       "origin": {
@@ -4752,7 +4752,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:x0ofvsh7puIE",
-      "ts": 1768516680,
+      "ts": 1768518569,
       "label": "Oakland → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -4789,7 +4789,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8tYaWuDfPOdE",
-      "ts": 1768488801,
+      "ts": 1768490690,
       "label": "San Jose → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -4826,7 +4826,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1uRMQlb8opE9",
-      "ts": 1768473653,
+      "ts": 1768475542,
       "label": "Golden Gate Park → Dogpatch",
       "status": "completed",
       "origin": {
@@ -4863,7 +4863,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VRqVDG4CDHjX",
-      "ts": 1768400400,
+      "ts": 1768402289,
       "label": "Hayes Valley → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -4900,7 +4900,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lReeZN0pzGC3",
-      "ts": 1768222175,
+      "ts": 1768224064,
       "label": "Sausalito → Presidio",
       "status": "completed",
       "origin": {
@@ -4937,7 +4937,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ILQiUGUOyVLn",
-      "ts": 1768215280,
+      "ts": 1768217169,
       "label": "Dogpatch → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -4974,7 +4974,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3jHQpGzmX1A0",
-      "ts": 1767971432,
+      "ts": 1767973321,
       "label": "Bernal Heights → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -5011,7 +5011,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vnIcR9owhJrg",
-      "ts": 1767968102,
+      "ts": 1767969991,
       "label": "Twin Peaks → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -5048,7 +5048,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:h5JUB9qVxwaJ",
-      "ts": 1767864552,
+      "ts": 1767866441,
       "label": "SuperMart SoMa → Market Street",
       "status": "completed",
       "origin": {
@@ -5085,7 +5085,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:GQoyBGWOgvkX",
-      "ts": 1767830828,
+      "ts": 1767832717,
       "label": "Potrero Hill → Market Street",
       "status": "completed",
       "origin": {
@@ -5122,7 +5122,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dKSXVbAuZnO3",
-      "ts": 1767693032,
+      "ts": 1767694921,
       "label": "Berkeley → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -5159,7 +5159,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4qHWDnz2AVut",
-      "ts": 1767646276,
+      "ts": 1767648165,
       "label": "Potrero Hill → Treasure Island",
       "status": "completed",
       "origin": {
@@ -5196,7 +5196,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:xvf1Oi2gekcS",
-      "ts": 1767540483,
+      "ts": 1767542372,
       "label": "Daly City → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -5233,7 +5233,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kjgWVlnavlEW",
-      "ts": 1767485075,
+      "ts": 1767486964,
       "label": "Chinatown → Nob Hill",
       "status": "completed",
       "origin": {
@@ -5270,7 +5270,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SxkVoktEgise",
-      "ts": 1767409284,
+      "ts": 1767411173,
       "label": "Glen Park → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -5307,7 +5307,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:fYUOk1lqlRVP",
-      "ts": 1767408526,
+      "ts": 1767410415,
       "label": "UCSF Medical Center → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -5344,7 +5344,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:s1lGPVK1NigT",
-      "ts": 1767238941,
+      "ts": 1767240830,
       "label": "Bernal Heights → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -5381,7 +5381,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:fDTisvVvRKS6",
-      "ts": 1767161302,
+      "ts": 1767163191,
       "label": "North Beach → Daly City",
       "status": "completed",
       "origin": {
@@ -5418,7 +5418,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qF1og0MZDvrH",
-      "ts": 1767132907,
+      "ts": 1767134796,
       "label": "TechCorp — Office → San Jose",
       "status": "completed",
       "origin": {
@@ -5455,7 +5455,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:GH9W8fNT7DES",
-      "ts": 1767033467,
+      "ts": 1767035356,
       "label": "Dogpatch → Japantown",
       "status": "completed",
       "origin": {
@@ -5492,7 +5492,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:f2rqwvjpeoSI",
-      "ts": 1766891838,
+      "ts": 1766893727,
       "label": "Japantown → Castro",
       "status": "completed",
       "origin": {
@@ -5529,7 +5529,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:LxWjis4gWqwJ",
-      "ts": 1766821819,
+      "ts": 1766823708,
       "label": "Pacific Heights → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -5566,7 +5566,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dSoYdnr7O0ms",
-      "ts": 1766809833,
+      "ts": 1766811722,
       "label": "SuperMart SoMa → Chinatown",
       "status": "completed",
       "origin": {
@@ -5603,7 +5603,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4h994Xt1cfpg",
-      "ts": 1766748392,
+      "ts": 1766750281,
       "label": "Pacific Heights → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -5640,7 +5640,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XxHS3SkBUoGZ",
-      "ts": 1766747831,
+      "ts": 1766749720,
       "label": "Palo Alto → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -5677,7 +5677,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Rmdjj26ZeiXd",
-      "ts": 1766523538,
+      "ts": 1766525427,
       "label": "Market Street → Palo Alto",
       "status": "completed",
       "origin": {
@@ -5714,7 +5714,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:GuXQxaQDN5cz",
-      "ts": 1766458707,
+      "ts": 1766460596,
       "label": "South San Francisco → Chinatown",
       "status": "completed",
       "origin": {
@@ -5751,7 +5751,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5YQbTvP6elVz",
-      "ts": 1766443343,
+      "ts": 1766445232,
       "label": "Potrero Hill → San Jose",
       "status": "completed",
       "origin": {
@@ -5788,7 +5788,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:AU5Rcm7uaMqU",
-      "ts": 1766431444,
+      "ts": 1766433333,
       "label": "Embarcadero → Richmond District",
       "status": "completed",
       "origin": {
@@ -5825,7 +5825,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:rRI1u6hIfg08",
-      "ts": 1766394564,
+      "ts": 1766396453,
       "label": "Bernal Heights → Stanford",
       "status": "completed",
       "origin": {
@@ -5862,7 +5862,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:HS0DNE4mjVSP",
-      "ts": 1766260194,
+      "ts": 1766262083,
       "label": "Dogpatch → Treasure Island",
       "status": "completed",
       "origin": {
@@ -5899,7 +5899,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:2Jbtw2WDkizD",
-      "ts": 1766236443,
+      "ts": 1766238332,
       "label": "Glen Park → San Jose",
       "status": "completed",
       "origin": {
@@ -5936,7 +5936,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:UB42KdC6H6Vl",
-      "ts": 1766216117,
+      "ts": 1766218006,
       "label": "San Jose → Berkeley",
       "status": "completed",
       "origin": {
@@ -5973,7 +5973,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:fsLMCPFF1xCT",
-      "ts": 1766211774,
+      "ts": 1766213663,
       "label": "Presidio → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -6010,7 +6010,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8fGD6qyBXGlp",
-      "ts": 1766198609,
+      "ts": 1766200498,
       "label": "Pacific Heights → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -6047,7 +6047,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8AXkfjaW10Ym",
-      "ts": 1766082792,
+      "ts": 1766084681,
       "label": "Blue Bottle Coffee → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -6084,7 +6084,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:eN8TJnEvic1F",
-      "ts": 1765989987,
+      "ts": 1765991876,
       "label": "Market Street → Glen Park",
       "status": "completed",
       "origin": {
@@ -6121,7 +6121,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:k8cppBsi2nGY",
-      "ts": 1765867979,
+      "ts": 1765869868,
       "label": "Bernal Heights → Castro",
       "status": "completed",
       "origin": {
@@ -6158,7 +6158,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:njNBknzIpeqG",
-      "ts": 1765857601,
+      "ts": 1765859490,
       "label": "Half Moon Bay → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -6195,7 +6195,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:N3NWuGLFD01I",
-      "ts": 1765839698,
+      "ts": 1765841587,
       "label": "Market Street → Oracle Park",
       "status": "completed",
       "origin": {
@@ -6232,7 +6232,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hED3AnIw9us3",
-      "ts": 1765834595,
+      "ts": 1765836484,
       "label": "Oakland → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -6269,7 +6269,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SkQ4Xgbubi3w",
-      "ts": 1765816913,
+      "ts": 1765818802,
       "label": "GymFit Downtown → SFO Airport",
       "status": "completed",
       "origin": {
@@ -6306,7 +6306,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:T9n6gUIYKPyQ",
-      "ts": 1765809440,
+      "ts": 1765811329,
       "label": "Golden Gate Park → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -6343,7 +6343,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:QIOUeq4Jd5rX",
-      "ts": 1765744714,
+      "ts": 1765746603,
       "label": "San Jose → Daly City",
       "status": "cancelled",
       "origin": {
@@ -6373,7 +6373,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iqMl0KzRgasr",
-      "ts": 1765650212,
+      "ts": 1765652101,
       "label": "Daly City → Glen Park",
       "status": "completed",
       "origin": {
@@ -6410,7 +6410,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:cMCEK8VFgVyW",
-      "ts": 1765630152,
+      "ts": 1765632041,
       "label": "SFO Airport → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -6447,7 +6447,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:OBiNIU6QgX9a",
-      "ts": 1765618044,
+      "ts": 1765619933,
       "label": "Castro → Twin Peaks",
       "status": "cancelled",
       "origin": {
@@ -6477,7 +6477,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wn7ek51cI4we",
-      "ts": 1765508704,
+      "ts": 1765510593,
       "label": "Golden Gate Park → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -6514,7 +6514,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5msZ6kT7FtBQ",
-      "ts": 1765273045,
+      "ts": 1765274934,
       "label": "Glen Park → SuperMart SoMa",
       "status": "cancelled",
       "origin": {
@@ -6544,7 +6544,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5eX3AT2kfbfY",
-      "ts": 1765181877,
+      "ts": 1765183766,
       "label": "Glen Park → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -6581,7 +6581,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:rW1sey4T33HY",
-      "ts": 1765174522,
+      "ts": 1765176411,
       "label": "Fisherman's Wharf → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -6618,7 +6618,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9VmmogPrOpfT",
-      "ts": 1765164965,
+      "ts": 1765166854,
       "label": "Pacific Heights → Palo Alto",
       "status": "completed",
       "origin": {
@@ -6655,7 +6655,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SNgZYeRCryri",
-      "ts": 1764999501,
+      "ts": 1765001390,
       "label": "Sunset District → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -6692,7 +6692,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:HnNuRAJOim36",
-      "ts": 1764991838,
+      "ts": 1764993727,
       "label": "Berkeley → Castro",
       "status": "cancelled",
       "origin": {
@@ -6722,7 +6722,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wjWkOsPXS710",
-      "ts": 1764892161,
+      "ts": 1764894050,
       "label": "Sausalito → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -6759,7 +6759,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:2JnsJSwzUU86",
-      "ts": 1764823414,
+      "ts": 1764825303,
       "label": "Market Street → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -6796,7 +6796,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5n7kMWMoaGxj",
-      "ts": 1764794860,
+      "ts": 1764796749,
       "label": "UCSF Medical Center → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -6833,7 +6833,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9VwVLMLocaYe",
-      "ts": 1764657123,
+      "ts": 1764659012,
       "label": "Nob Hill → Presidio",
       "status": "completed",
       "origin": {
@@ -6870,7 +6870,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:096cijWaFtgT",
-      "ts": 1764647599,
+      "ts": 1764649488,
       "label": "Dogpatch → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -6907,7 +6907,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:st6L5y3DR8qJ",
-      "ts": 1764584752,
+      "ts": 1764586641,
       "label": "Treasure Island → Sausalito",
       "status": "completed",
       "origin": {
@@ -6944,7 +6944,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:2zTfEd4XrO0L",
-      "ts": 1764577529,
+      "ts": 1764579418,
       "label": "Treasure Island → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -6981,7 +6981,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4DmhPulnPnFc",
-      "ts": 1764574241,
+      "ts": 1764576130,
       "label": "Pacific Heights → Golden Gate Park",
       "status": "cancelled",
       "origin": {
@@ -7011,7 +7011,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DRteYTAMLch8",
-      "ts": 1764571549,
+      "ts": 1764573438,
       "label": "Fisherman's Wharf → North Beach",
       "status": "completed",
       "origin": {
@@ -7048,7 +7048,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hn5RmdQE4OLy",
-      "ts": 1764562279,
+      "ts": 1764564168,
       "label": "Daly City → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -7085,7 +7085,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0pf2eTt6lmyG",
-      "ts": 1764540193,
+      "ts": 1764542082,
       "label": "Oracle Park → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -7122,7 +7122,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8MjHmKNiVZ7X",
-      "ts": 1764471460,
+      "ts": 1764473349,
       "label": "Golden Gate Park → Nob Hill",
       "status": "completed",
       "origin": {
@@ -7159,7 +7159,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0PsxETtQcCqW",
-      "ts": 1764391271,
+      "ts": 1764393160,
       "label": "Golden Gate Park → Sunset District",
       "status": "completed",
       "origin": {
@@ -7196,7 +7196,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:mUwSrvNes82z",
-      "ts": 1764353854,
+      "ts": 1764355743,
       "label": "Berkeley → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -7233,7 +7233,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:taTtepzqMiFf",
-      "ts": 1764344909,
+      "ts": 1764346798,
       "label": "Oakland → Dogpatch",
       "status": "completed",
       "origin": {
@@ -7270,7 +7270,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Xcru0OfvZPbJ",
-      "ts": 1764051224,
+      "ts": 1764053113,
       "label": "Stanford → Twin Peaks",
       "status": "cancelled",
       "origin": {
@@ -7300,7 +7300,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:rbqDDoDbKvoq",
-      "ts": 1764033885,
+      "ts": 1764035774,
       "label": "Stanford → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -7337,7 +7337,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:CkYUGaPUIJ1C",
-      "ts": 1763991402,
+      "ts": 1763993291,
       "label": "Glen Park → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -7374,7 +7374,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7YKsMV50ex80",
-      "ts": 1763907878,
+      "ts": 1763909767,
       "label": "Embarcadero → Castro",
       "status": "completed",
       "origin": {
@@ -7411,7 +7411,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:o3AzBriVaT8o",
-      "ts": 1763895999,
+      "ts": 1763897888,
       "label": "Nob Hill → Sunset District",
       "status": "completed",
       "origin": {
@@ -7448,7 +7448,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Xt7j4HJJwRJN",
-      "ts": 1763745743,
+      "ts": 1763747632,
       "label": "Mission District Apartment → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -7485,7 +7485,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vjeKDcqYpnLQ",
-      "ts": 1763700344,
+      "ts": 1763702233,
       "label": "Japantown → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -7522,7 +7522,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Zn1zZOOv5Xzl",
-      "ts": 1763669763,
+      "ts": 1763671652,
       "label": "SuperMart SoMa → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -7559,7 +7559,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0pOmqdhxRT1R",
-      "ts": 1763553042,
+      "ts": 1763554931,
       "label": "Castro → SuperMart SoMa",
       "status": "cancelled",
       "origin": {
@@ -7589,7 +7589,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:H3Y80MWbyT7i",
-      "ts": 1763505393,
+      "ts": 1763507282,
       "label": "Japantown → North Beach",
       "status": "cancelled",
       "origin": {
@@ -7619,7 +7619,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Ni1tRnxGsuZd",
-      "ts": 1763426882,
+      "ts": 1763428771,
       "label": "Embarcadero → Dogpatch",
       "status": "completed",
       "origin": {
@@ -7656,7 +7656,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zSXF1KDdHuot",
-      "ts": 1763367188,
+      "ts": 1763369077,
       "label": "Potrero Hill → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -7693,7 +7693,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:j0jQI6GLlM3P",
-      "ts": 1763254031,
+      "ts": 1763255920,
       "label": "Dogpatch → Market Street",
       "status": "completed",
       "origin": {
@@ -7730,7 +7730,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:eoKfKucte3zU",
-      "ts": 1763243755,
+      "ts": 1763245644,
       "label": "Daly City → Market Street",
       "status": "completed",
       "origin": {
@@ -7767,7 +7767,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Y6VwMPwYJjns",
-      "ts": 1763110689,
+      "ts": 1763112578,
       "label": "Palo Alto → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -7804,7 +7804,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sxDTILNXe0QC",
-      "ts": 1763006535,
+      "ts": 1763008424,
       "label": "Richmond District → Nob Hill",
       "status": "completed",
       "origin": {
@@ -7841,7 +7841,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VYG8lZN6M8CU",
-      "ts": 1763003954,
+      "ts": 1763005843,
       "label": "GymFit Downtown → Sunset District",
       "status": "completed",
       "origin": {
@@ -7878,7 +7878,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:X8RcPBACd5xN",
-      "ts": 1762986441,
+      "ts": 1762988330,
       "label": "Glen Park → SFO Airport",
       "status": "completed",
       "origin": {
@@ -7915,7 +7915,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:K9CUAInrz1oB",
-      "ts": 1762966324,
+      "ts": 1762968213,
       "label": "Sunset District → Treasure Island",
       "status": "completed",
       "origin": {
@@ -7952,7 +7952,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:P0yDY5FnlnPK",
-      "ts": 1762957644,
+      "ts": 1762959533,
       "label": "Chinatown → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -7989,7 +7989,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ReBTEXSdFWsh",
-      "ts": 1762906100,
+      "ts": 1762907989,
       "label": "SuperMart SoMa → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -8026,7 +8026,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:61kwaPkjQkip",
-      "ts": 1762756048,
+      "ts": 1762757937,
       "label": "Half Moon Bay → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -8063,7 +8063,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:n7qFQ63RdEHD",
-      "ts": 1762712418,
+      "ts": 1762714307,
       "label": "Bernal Heights → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -8100,7 +8100,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:fDdRtIz8hDwt",
-      "ts": 1762679134,
+      "ts": 1762681023,
       "label": "Japantown → Oakland",
       "status": "cancelled",
       "origin": {
@@ -8130,7 +8130,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:L8aQi77Np0JG",
-      "ts": 1762532787,
+      "ts": 1762534676,
       "label": "Market Street → Richmond District",
       "status": "completed",
       "origin": {
@@ -8167,7 +8167,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Slzd58DYNZRo",
-      "ts": 1762445166,
+      "ts": 1762447055,
       "label": "Berkeley → Chinatown",
       "status": "completed",
       "origin": {
@@ -8204,7 +8204,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3exXC2FFcLYj",
-      "ts": 1762415616,
+      "ts": 1762417505,
       "label": "Market Street → Potrero Hill",
       "status": "cancelled",
       "origin": {
@@ -8234,7 +8234,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0uo5HEHlusBh",
-      "ts": 1762374423,
+      "ts": 1762376312,
       "label": "Mission District Apartment → South San Francisco",
       "status": "completed",
       "origin": {
@@ -8271,7 +8271,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ovHAOLl1Vq5S",
-      "ts": 1762303706,
+      "ts": 1762305595,
       "label": "Hayes Valley → Japantown",
       "status": "completed",
       "origin": {
@@ -8308,7 +8308,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7IjLjQwRGBhr",
-      "ts": 1762253549,
+      "ts": 1762255438,
       "label": "North Beach → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -8345,7 +8345,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iy76leDKo2RC",
-      "ts": 1762180532,
+      "ts": 1762182421,
       "label": "Ocean Beach → Oracle Park",
       "status": "completed",
       "origin": {
@@ -8382,7 +8382,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XTQ7y0hMlQXK",
-      "ts": 1762166092,
+      "ts": 1762167981,
       "label": "Nob Hill → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -8419,7 +8419,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qqJyFL0VZ4p5",
-      "ts": 1762112217,
+      "ts": 1762114106,
       "label": "Chinatown → Hayes Valley",
       "status": "cancelled",
       "origin": {
@@ -8449,7 +8449,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ROTdittA3eUR",
-      "ts": 1762082041,
+      "ts": 1762083930,
       "label": "Market Street → Richmond District",
       "status": "completed",
       "origin": {
@@ -8486,7 +8486,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1hNi0oqjKpfF",
-      "ts": 1762017041,
+      "ts": 1762018930,
       "label": "Ocean Beach → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -8523,7 +8523,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:g2ydcO5HfG6w",
-      "ts": 1761921466,
+      "ts": 1761923355,
       "label": "GymFit Downtown → Nob Hill",
       "status": "completed",
       "origin": {
@@ -8560,7 +8560,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kh7fkOZPgZsc",
-      "ts": 1761606005,
+      "ts": 1761607894,
       "label": "Stanford → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -8597,7 +8597,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:GhP8H8u6D4Dc",
-      "ts": 1761494039,
+      "ts": 1761495928,
       "label": "SuperMart SoMa → Nob Hill",
       "status": "completed",
       "origin": {
@@ -8634,7 +8634,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:uh0Yw7jmwnJb",
-      "ts": 1761374161,
+      "ts": 1761376050,
       "label": "Downtown / Union Square → Bernal Heights",
       "status": "cancelled",
       "origin": {
@@ -8664,7 +8664,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:KONooDjyM21l",
-      "ts": 1761339342,
+      "ts": 1761341231,
       "label": "SFO Airport → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -8701,7 +8701,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qNn4zNlBmpCQ",
-      "ts": 1761324944,
+      "ts": 1761326833,
       "label": "Berkeley → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -8738,7 +8738,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sewYISnXaynY",
-      "ts": 1761289264,
+      "ts": 1761291153,
       "label": "Chinatown → Nob Hill",
       "status": "completed",
       "origin": {
@@ -8775,7 +8775,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vTyJ3vT6HMZ8",
-      "ts": 1761208005,
+      "ts": 1761209894,
       "label": "Half Moon Bay → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -8812,7 +8812,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:yUonCjyb1B6w",
-      "ts": 1761106985,
+      "ts": 1761108874,
       "label": "Sausalito → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -8849,7 +8849,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:i49zwgchfHGO",
-      "ts": 1761079974,
+      "ts": 1761081863,
       "label": "Glen Park → Richmond District",
       "status": "cancelled",
       "origin": {
@@ -8879,7 +8879,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:48WpiswlyeXA",
-      "ts": 1761074551,
+      "ts": 1761076440,
       "label": "Richmond District → Bernal Heights",
       "status": "cancelled",
       "origin": {
@@ -8909,7 +8909,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zsJ23aGaMBCo",
-      "ts": 1761055949,
+      "ts": 1761057838,
       "label": "Mission District Apartment → Presidio",
       "status": "completed",
       "origin": {
@@ -8946,7 +8946,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9Bx2tOb8dUzd",
-      "ts": 1761030227,
+      "ts": 1761032116,
       "label": "UCSF Medical Center → Oakland",
       "status": "cancelled",
       "origin": {
@@ -8976,7 +8976,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ZJaLRsxwIric",
-      "ts": 1760936420,
+      "ts": 1760938309,
       "label": "Richmond District → Sunset District",
       "status": "completed",
       "origin": {
@@ -9013,7 +9013,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:MRA7AaEIcRQs",
-      "ts": 1760772095,
+      "ts": 1760773984,
       "label": "Embarcadero → Nob Hill",
       "status": "completed",
       "origin": {
@@ -9050,7 +9050,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7mKEdsMau2Ur",
-      "ts": 1760741344,
+      "ts": 1760743233,
       "label": "South San Francisco → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -9087,7 +9087,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tZ1CHAvmEdVV",
-      "ts": 1760658921,
+      "ts": 1760660810,
       "label": "Mission District Apartment → Presidio",
       "status": "completed",
       "origin": {
@@ -9124,7 +9124,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Ot8Cyf98yGl9",
-      "ts": 1760548036,
+      "ts": 1760549925,
       "label": "Dogpatch → Palo Alto",
       "status": "completed",
       "origin": {
@@ -9161,7 +9161,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:bSWPCQw15YUf",
-      "ts": 1760528789,
+      "ts": 1760530678,
       "label": "Pacific Heights → Nob Hill",
       "status": "completed",
       "origin": {
@@ -9198,7 +9198,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DlO9PiKv1ZLy",
-      "ts": 1760327588,
+      "ts": 1760329477,
       "label": "Palo Alto → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -9235,7 +9235,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3DSSA19HWHpu",
-      "ts": 1760299845,
+      "ts": 1760301734,
       "label": "Potrero Hill → Treasure Island",
       "status": "cancelled",
       "origin": {
@@ -9265,7 +9265,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3mnQFVJGTb49",
-      "ts": 1760298423,
+      "ts": 1760300312,
       "label": "Sunset District → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -9302,7 +9302,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tSjr2BlFzIMe",
-      "ts": 1760288342,
+      "ts": 1760290231,
       "label": "Twin Peaks → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -9339,7 +9339,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iyhUQWnuesIB",
-      "ts": 1760277118,
+      "ts": 1760279007,
       "label": "Sausalito → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -9376,7 +9376,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ZKKklSuUGV4x",
-      "ts": 1760225236,
+      "ts": 1760227125,
       "label": "Stanford → Glen Park",
       "status": "completed",
       "origin": {
@@ -9413,7 +9413,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4qZlAiEMzQX3",
-      "ts": 1760216540,
+      "ts": 1760218429,
       "label": "Ocean Beach → Oracle Park",
       "status": "completed",
       "origin": {
@@ -9450,7 +9450,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:2cw6uKhnxlGL",
-      "ts": 1760207271,
+      "ts": 1760209160,
       "label": "Golden Gate Park → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -9487,7 +9487,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:fpNc2p7scgci",
-      "ts": 1760170412,
+      "ts": 1760172301,
       "label": "Stanford → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -9524,7 +9524,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:yee2MUGZpGVo",
-      "ts": 1760143792,
+      "ts": 1760145681,
       "label": "TechCorp — Office → North Beach",
       "status": "completed",
       "origin": {
@@ -9561,7 +9561,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IDHRL4cvCXIL",
-      "ts": 1760084207,
+      "ts": 1760086096,
       "label": "Nob Hill → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -9598,7 +9598,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:TAokq28BXeMd",
-      "ts": 1759971919,
+      "ts": 1759973808,
       "label": "Golden Gate Park → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -9635,7 +9635,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:LQW3jmhqZ9Ab",
-      "ts": 1759904309,
+      "ts": 1759906198,
       "label": "Richmond District → Berkeley",
       "status": "completed",
       "origin": {
@@ -9672,7 +9672,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:CJKdEfNjZMOl",
-      "ts": 1759807472,
+      "ts": 1759809361,
       "label": "Castro → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -9709,7 +9709,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:brS5IRUix1wd",
-      "ts": 1759714902,
+      "ts": 1759716791,
       "label": "Oakland → Dogpatch",
       "status": "completed",
       "origin": {
@@ -9746,7 +9746,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qcCvb2KQvcHB",
-      "ts": 1759653224,
+      "ts": 1759655113,
       "label": "Blue Bottle Coffee → Sausalito",
       "status": "completed",
       "origin": {
@@ -9783,7 +9783,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3bRGpHnInmzn",
-      "ts": 1759596024,
+      "ts": 1759597913,
       "label": "Japantown → Embarcadero",
       "status": "cancelled",
       "origin": {
@@ -9813,7 +9813,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JdnEY5d2U4s1",
-      "ts": 1759536177,
+      "ts": 1759538066,
       "label": "SFO Airport → Japantown",
       "status": "completed",
       "origin": {
@@ -9850,7 +9850,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:QjaD0V7kDVQB",
-      "ts": 1759528953,
+      "ts": 1759530842,
       "label": "Dogpatch → Castro",
       "status": "completed",
       "origin": {
@@ -9887,7 +9887,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DXoIf9Wm4RHl",
-      "ts": 1759526857,
+      "ts": 1759528746,
       "label": "Japantown → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -9924,7 +9924,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:uUKObcXqQMpd",
-      "ts": 1759481968,
+      "ts": 1759483857,
       "label": "Nob Hill → Embarcadero",
       "status": "completed",
       "origin": {
@@ -9961,7 +9961,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Pk3nGeAUGSNm",
-      "ts": 1759425062,
+      "ts": 1759426951,
       "label": "Nob Hill → Dogpatch",
       "status": "completed",
       "origin": {
@@ -9998,7 +9998,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VnJXdVp3dTyU",
-      "ts": 1759375376,
+      "ts": 1759377265,
       "label": "Twin Peaks → Dogpatch",
       "status": "completed",
       "origin": {
@@ -10035,7 +10035,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:FfYNQnCdnRaG",
-      "ts": 1759283278,
+      "ts": 1759285167,
       "label": "Fisherman's Wharf → Sunset District",
       "status": "completed",
       "origin": {
@@ -10072,7 +10072,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:MWgJPWvr65oG",
-      "ts": 1759176741,
+      "ts": 1759178630,
       "label": "Ocean Beach → Sunset District",
       "status": "completed",
       "origin": {
@@ -10109,7 +10109,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wkzqlR3AJ5wz",
-      "ts": 1759137820,
+      "ts": 1759139709,
       "label": "Pacific Heights → Presidio",
       "status": "cancelled",
       "origin": {
@@ -10139,7 +10139,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sFE0Xbce2DhF",
-      "ts": 1759085794,
+      "ts": 1759087683,
       "label": "Treasure Island → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -10176,7 +10176,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XnhEzre3bM96",
-      "ts": 1759011643,
+      "ts": 1759013532,
       "label": "Daly City → Castro",
       "status": "completed",
       "origin": {
@@ -10213,7 +10213,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VPHIBrUpku1S",
-      "ts": 1758973813,
+      "ts": 1758975702,
       "label": "Palo Alto → South San Francisco",
       "status": "completed",
       "origin": {
@@ -10250,7 +10250,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:NUBnvNZuXKP3",
-      "ts": 1758910939,
+      "ts": 1758912828,
       "label": "San Jose → Oakland",
       "status": "completed",
       "origin": {
@@ -10287,7 +10287,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wJulVjl7EsX5",
-      "ts": 1758905495,
+      "ts": 1758907384,
       "label": "Glen Park → Stanford",
       "status": "completed",
       "origin": {
@@ -10324,7 +10324,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DIFMj3pOqCYw",
-      "ts": 1758807369,
+      "ts": 1758809258,
       "label": "Castro → Fisherman's Wharf",
       "status": "completed",
       "origin": {
@@ -10361,7 +10361,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ZgCDWLZO8Asy",
-      "ts": 1758720788,
+      "ts": 1758722677,
       "label": "SFO Airport → Market Street",
       "status": "completed",
       "origin": {
@@ -10398,7 +10398,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:jlnYP144sRug",
-      "ts": 1758689065,
+      "ts": 1758690954,
       "label": "Nob Hill → Sausalito",
       "status": "completed",
       "origin": {
@@ -10435,7 +10435,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:J3HqOHFtsrV6",
-      "ts": 1758585648,
+      "ts": 1758587537,
       "label": "Mission District Apartment → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -10472,7 +10472,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Mriqq8RJOJKj",
-      "ts": 1758534753,
+      "ts": 1758536642,
       "label": "TechCorp — Office → Castro",
       "status": "completed",
       "origin": {
@@ -10509,7 +10509,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zUxCY6eggSgz",
-      "ts": 1758421465,
+      "ts": 1758423354,
       "label": "Oakland → Presidio",
       "status": "completed",
       "origin": {
@@ -10546,7 +10546,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:PSMkmvtfeyzq",
-      "ts": 1758385078,
+      "ts": 1758386967,
       "label": "North Beach → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -10583,7 +10583,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dEot7hJFkVK2",
-      "ts": 1758327431,
+      "ts": 1758329320,
       "label": "Mission District Apartment → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -10620,7 +10620,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:u9FY47WJ3B8Q",
-      "ts": 1758318088,
+      "ts": 1758319977,
       "label": "South San Francisco → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -10657,7 +10657,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5mr5w1ZRd0rG",
-      "ts": 1758257051,
+      "ts": 1758258940,
       "label": "Market Street → SFO Airport",
       "status": "completed",
       "origin": {
@@ -10694,7 +10694,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qghf75pDbytR",
-      "ts": 1758204469,
+      "ts": 1758206358,
       "label": "Japantown → Glen Park",
       "status": "completed",
       "origin": {
@@ -10731,7 +10731,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:byIK20BGTSQx",
-      "ts": 1758159073,
+      "ts": 1758160962,
       "label": "Downtown / Union Square → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -10768,7 +10768,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:HGqnXD7uUWTw",
-      "ts": 1758013068,
+      "ts": 1758014957,
       "label": "Golden Gate Park → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -10805,7 +10805,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:cOtOtO5kti8R",
-      "ts": 1757928438,
+      "ts": 1757930327,
       "label": "UCSF Medical Center → Oracle Park",
       "status": "completed",
       "origin": {
@@ -10842,7 +10842,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:6pKG6IMDe2XN",
-      "ts": 1757923009,
+      "ts": 1757924898,
       "label": "Dogpatch → North Beach",
       "status": "completed",
       "origin": {
@@ -10879,7 +10879,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lrp9pYLwE8cS",
-      "ts": 1757869379,
+      "ts": 1757871268,
       "label": "Treasure Island → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -10916,7 +10916,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qcJqzMxvK0uQ",
-      "ts": 1757796445,
+      "ts": 1757798334,
       "label": "Oracle Park → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -10953,7 +10953,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XXh770aMFrzu",
-      "ts": 1757788350,
+      "ts": 1757790239,
       "label": "San Jose → Embarcadero",
       "status": "completed",
       "origin": {
@@ -10990,7 +10990,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1LiGQnCCtksB",
-      "ts": 1757782381,
+      "ts": 1757784270,
       "label": "Oakland → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -11027,7 +11027,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:a0VegqaY19GQ",
-      "ts": 1757727394,
+      "ts": 1757729283,
       "label": "GymFit Downtown → Fisherman's Wharf",
       "status": "completed",
       "origin": {
@@ -11064,7 +11064,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zejVZp4Bx6x5",
-      "ts": 1757685673,
+      "ts": 1757687562,
       "label": "Nob Hill → Oracle Park",
       "status": "completed",
       "origin": {
@@ -11101,7 +11101,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:iXEBIwfm1whw",
-      "ts": 1757657350,
+      "ts": 1757659239,
       "label": "TechCorp — Office → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -11138,7 +11138,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:WuHN92FIYXiI",
-      "ts": 1757651619,
+      "ts": 1757653508,
       "label": "GymFit Downtown → Treasure Island",
       "status": "completed",
       "origin": {
@@ -11175,7 +11175,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sId4ZaXgwr9t",
-      "ts": 1757497799,
+      "ts": 1757499688,
       "label": "Japantown → Stanford",
       "status": "completed",
       "origin": {
@@ -11212,7 +11212,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:OeLYjX3C9QNd",
-      "ts": 1757467757,
+      "ts": 1757469646,
       "label": "Castro → Embarcadero",
       "status": "completed",
       "origin": {
@@ -11249,7 +11249,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:S4O7rMpBrIhG",
-      "ts": 1757386538,
+      "ts": 1757388427,
       "label": "Chinatown → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -11286,7 +11286,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tl7EPlB2sd7U",
-      "ts": 1757318263,
+      "ts": 1757320152,
       "label": "Downtown / Union Square → Oakland",
       "status": "completed",
       "origin": {
@@ -11323,7 +11323,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:BiYJcc4DVjOZ",
-      "ts": 1757301724,
+      "ts": 1757303613,
       "label": "San Jose → Treasure Island",
       "status": "completed",
       "origin": {
@@ -11360,7 +11360,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:TuPXw0ZxDywF",
-      "ts": 1757298522,
+      "ts": 1757300411,
       "label": "Berkeley → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -11397,7 +11397,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:maMHjIthZsau",
-      "ts": 1757283281,
+      "ts": 1757285170,
       "label": "Richmond District → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -11434,7 +11434,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ScpIga4cLw2t",
-      "ts": 1757195682,
+      "ts": 1757197571,
       "label": "GymFit Downtown → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -11471,7 +11471,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lq6qjOd4ZQYv",
-      "ts": 1757070510,
+      "ts": 1757072399,
       "label": "Palo Alto → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -11508,7 +11508,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Y10YsuZCvHDq",
-      "ts": 1757041754,
+      "ts": 1757043643,
       "label": "GymFit Downtown → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -11545,7 +11545,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5lsLAWSkaOwQ",
-      "ts": 1757020144,
+      "ts": 1757022033,
       "label": "Hayes Valley → Japantown",
       "status": "completed",
       "origin": {
@@ -11582,7 +11582,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:nfcVeV5fyvvV",
-      "ts": 1756939432,
+      "ts": 1756941321,
       "label": "Berkeley → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -11619,7 +11619,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:blPpYbq5kSaE",
-      "ts": 1756930546,
+      "ts": 1756932435,
       "label": "Sunset District → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -11656,7 +11656,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:WkXsXWyzYCz4",
-      "ts": 1756857779,
+      "ts": 1756859668,
       "label": "Nob Hill → Oakland",
       "status": "completed",
       "origin": {
@@ -11693,7 +11693,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lQ1DMjKqvW3e",
-      "ts": 1756731085,
+      "ts": 1756732974,
       "label": "Embarcadero → Twin Peaks",
       "status": "cancelled",
       "origin": {
@@ -11723,7 +11723,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DoGPJ2WoYWDe",
-      "ts": 1756623191,
+      "ts": 1756625080,
       "label": "Castro → Bernal Heights",
       "status": "cancelled",
       "origin": {
@@ -11753,7 +11753,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:KhIUz6TGvzDi",
-      "ts": 1756588676,
+      "ts": 1756590565,
       "label": "Half Moon Bay → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -11790,7 +11790,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1L2ToVxpjDxL",
-      "ts": 1756506708,
+      "ts": 1756508597,
       "label": "Mission District Apartment → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -11827,7 +11827,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Aun6WFaf9yVI",
-      "ts": 1756452348,
+      "ts": 1756454237,
       "label": "San Jose → Palo Alto",
       "status": "completed",
       "origin": {
@@ -11864,7 +11864,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:2K4p0q7njAKT",
-      "ts": 1756387189,
+      "ts": 1756389078,
       "label": "South San Francisco → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -11901,7 +11901,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Uoykd6B1sPrc",
-      "ts": 1756150894,
+      "ts": 1756152783,
       "label": "Market Street → San Jose",
       "status": "completed",
       "origin": {
@@ -11938,7 +11938,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:owFHZPShfoik",
-      "ts": 1756132524,
+      "ts": 1756134413,
       "label": "San Jose → SFO Airport",
       "status": "completed",
       "origin": {
@@ -11975,7 +11975,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:neJXiFeLu1rn",
-      "ts": 1756056839,
+      "ts": 1756058728,
       "label": "Dogpatch → Oakland",
       "status": "completed",
       "origin": {
@@ -12012,7 +12012,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:nOOAwPF6GQSa",
-      "ts": 1756050911,
+      "ts": 1756052800,
       "label": "Dogpatch → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -12049,7 +12049,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4AXRkKflqxDm",
-      "ts": 1756038596,
+      "ts": 1756040485,
       "label": "Bernal Heights → Dogpatch",
       "status": "completed",
       "origin": {
@@ -12086,7 +12086,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:bXm0wT9OHHCB",
-      "ts": 1756022276,
+      "ts": 1756024165,
       "label": "Stanford → Chinatown",
       "status": "completed",
       "origin": {
@@ -12123,7 +12123,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:QPuSyL1yu7od",
-      "ts": 1755882549,
+      "ts": 1755884438,
       "label": "Fisherman's Wharf → Japantown",
       "status": "completed",
       "origin": {
@@ -12160,7 +12160,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JcDwuPMlsTXx",
-      "ts": 1755723882,
+      "ts": 1755725771,
       "label": "SuperMart SoMa → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -12197,7 +12197,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:s0FZeE0ZHmOX",
-      "ts": 1755493477,
+      "ts": 1755495366,
       "label": "Pacific Heights → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -12234,7 +12234,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:AOl6jIaV3SPa",
-      "ts": 1755335669,
+      "ts": 1755337558,
       "label": "Downtown / Union Square → San Jose",
       "status": "completed",
       "origin": {
@@ -12271,7 +12271,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:OJji0LUkmjGF",
-      "ts": 1755333027,
+      "ts": 1755334916,
       "label": "TechCorp — Office → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -12308,7 +12308,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5rhaeMGV6T0J",
-      "ts": 1755235227,
+      "ts": 1755237116,
       "label": "Daly City → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -12345,7 +12345,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Hsw4i2TPj3Dh",
-      "ts": 1755131720,
+      "ts": 1755133609,
       "label": "Daly City → Japantown",
       "status": "completed",
       "origin": {
@@ -12382,7 +12382,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:NhRXWpBNXiPe",
-      "ts": 1755024675,
+      "ts": 1755026564,
       "label": "GymFit Downtown → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -12419,7 +12419,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wbYrxYVFaaq9",
-      "ts": 1754954440,
+      "ts": 1754956329,
       "label": "Oracle Park → Sunset District",
       "status": "completed",
       "origin": {
@@ -12456,7 +12456,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JFObZ4NsEbiq",
-      "ts": 1754694199,
+      "ts": 1754696088,
       "label": "Glen Park → Embarcadero",
       "status": "cancelled",
       "origin": {
@@ -12486,7 +12486,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:NBMIPYO2tsZi",
-      "ts": 1754535044,
+      "ts": 1754536933,
       "label": "Oakland → Richmond District",
       "status": "completed",
       "origin": {
@@ -12523,7 +12523,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:d3uJIBSI4kR8",
-      "ts": 1754286308,
+      "ts": 1754288197,
       "label": "Presidio → Embarcadero",
       "status": "completed",
       "origin": {
@@ -12560,7 +12560,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dRzqL9QCRZpY",
-      "ts": 1754282683,
+      "ts": 1754284572,
       "label": "SFO Airport → Chinatown",
       "status": "completed",
       "origin": {
@@ -12597,7 +12597,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:AkXjOR11K2tp",
-      "ts": 1754243687,
+      "ts": 1754245576,
       "label": "UCSF Medical Center → Glen Park",
       "status": "completed",
       "origin": {
@@ -12634,7 +12634,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:bEjDe6X88OV5",
-      "ts": 1754121559,
+      "ts": 1754123448,
       "label": "Sunset District → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -12671,7 +12671,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5adCLBpHDJwz",
-      "ts": 1754113282,
+      "ts": 1754115171,
       "label": "Mission District Apartment → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -12708,7 +12708,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:e1JgO0gdxRlP",
-      "ts": 1754113177,
+      "ts": 1754115066,
       "label": "Half Moon Bay → Dogpatch",
       "status": "completed",
       "origin": {
@@ -12745,7 +12745,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sym3xgX02BKK",
-      "ts": 1753987183,
+      "ts": 1753989072,
       "label": "San Jose → Japantown",
       "status": "completed",
       "origin": {
@@ -12782,7 +12782,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:GOzjaxQG3y2q",
-      "ts": 1753983094,
+      "ts": 1753984983,
       "label": "SuperMart SoMa → Nob Hill",
       "status": "completed",
       "origin": {
@@ -12819,7 +12819,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wWeL5t9q8Afz",
-      "ts": 1753803708,
+      "ts": 1753805597,
       "label": "Half Moon Bay → Embarcadero",
       "status": "completed",
       "origin": {
@@ -12856,7 +12856,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:bsKC4IBDLmLd",
-      "ts": 1753778706,
+      "ts": 1753780595,
       "label": "Daly City → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -12893,7 +12893,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:EpXRajiYA83Z",
-      "ts": 1753777004,
+      "ts": 1753778893,
       "label": "Treasure Island → Market Street",
       "status": "cancelled",
       "origin": {
@@ -12923,7 +12923,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:jQQwrBn6QQlJ",
-      "ts": 1753618690,
+      "ts": 1753620579,
       "label": "Twin Peaks → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -12960,7 +12960,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:NDpeBTH2WDFB",
-      "ts": 1753570548,
+      "ts": 1753572437,
       "label": "Mission District Apartment → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -12997,7 +12997,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:MKqGpsafYZXP",
-      "ts": 1753508354,
+      "ts": 1753510243,
       "label": "Palo Alto → Nob Hill",
       "status": "completed",
       "origin": {
@@ -13034,7 +13034,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:U1xQBzkAtd1T",
-      "ts": 1753431982,
+      "ts": 1753433871,
       "label": "Sausalito → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -13071,7 +13071,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:YnftCYbkXBjo",
-      "ts": 1753359930,
+      "ts": 1753361819,
       "label": "Pacific Heights → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -13108,7 +13108,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:mxxf8aZebHyd",
-      "ts": 1753344106,
+      "ts": 1753345995,
       "label": "Glen Park → Japantown",
       "status": "completed",
       "origin": {
@@ -13145,7 +13145,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4yZZEOrixsO6",
-      "ts": 1753306095,
+      "ts": 1753307984,
       "label": "Dogpatch → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -13182,7 +13182,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XqOfhbuFoEU9",
-      "ts": 1753271022,
+      "ts": 1753272911,
       "label": "Castro → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -13219,7 +13219,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sFgn9q9OshN4",
-      "ts": 1753221712,
+      "ts": 1753223601,
       "label": "Berkeley → Glen Park",
       "status": "completed",
       "origin": {
@@ -13256,7 +13256,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ac36gJ9zh3Ri",
-      "ts": 1753154943,
+      "ts": 1753156832,
       "label": "Glen Park → North Beach",
       "status": "completed",
       "origin": {
@@ -13293,7 +13293,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JTKU9OttNbTG",
-      "ts": 1753150249,
+      "ts": 1753152138,
       "label": "Twin Peaks → North Beach",
       "status": "completed",
       "origin": {
@@ -13330,7 +13330,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:M7Tagkj9bpKt",
-      "ts": 1753141286,
+      "ts": 1753143175,
       "label": "Stanford → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -13367,7 +13367,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:89apqi8GgneO",
-      "ts": 1753058303,
+      "ts": 1753060192,
       "label": "Castro → Stanford",
       "status": "completed",
       "origin": {
@@ -13404,7 +13404,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SBAkQrOmO9zy",
-      "ts": 1752984466,
+      "ts": 1752986355,
       "label": "GymFit Downtown → Daly City",
       "status": "completed",
       "origin": {
@@ -13441,7 +13441,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:t81HIkVHg4gg",
-      "ts": 1752924211,
+      "ts": 1752926100,
       "label": "Japantown → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -13478,7 +13478,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:oHOSo53zChKF",
-      "ts": 1752916318,
+      "ts": 1752918207,
       "label": "Blue Bottle Coffee → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -13515,7 +13515,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Cb2S6aN07mxV",
-      "ts": 1752829428,
+      "ts": 1752831317,
       "label": "Sunset District → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -13552,7 +13552,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sIZH2eVFfAUO",
-      "ts": 1752719337,
+      "ts": 1752721226,
       "label": "Golden Gate Park → Richmond District",
       "status": "completed",
       "origin": {
@@ -13589,7 +13589,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Q36R8m76tiuw",
-      "ts": 1752715581,
+      "ts": 1752717470,
       "label": "Blue Bottle Coffee → Daly City",
       "status": "completed",
       "origin": {
@@ -13626,7 +13626,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:AenFypGoHGp4",
-      "ts": 1752655153,
+      "ts": 1752657042,
       "label": "Chinatown → Stanford",
       "status": "completed",
       "origin": {
@@ -13663,7 +13663,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:RqrbntnTvsEr",
-      "ts": 1752646368,
+      "ts": 1752648257,
       "label": "Presidio → Embarcadero",
       "status": "completed",
       "origin": {
@@ -13700,7 +13700,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:DDG6pQVD8ZS8",
-      "ts": 1752575926,
+      "ts": 1752577815,
       "label": "Glen Park → North Beach",
       "status": "completed",
       "origin": {
@@ -13737,7 +13737,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IpYvKrahk61m",
-      "ts": 1752519995,
+      "ts": 1752521884,
       "label": "Treasure Island → Sunset District",
       "status": "completed",
       "origin": {
@@ -13774,7 +13774,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IwGXzJf7TwOm",
-      "ts": 1752516673,
+      "ts": 1752518562,
       "label": "Half Moon Bay → Richmond District",
       "status": "completed",
       "origin": {
@@ -13811,7 +13811,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JqZ6BtikiTVP",
-      "ts": 1752435498,
+      "ts": 1752437387,
       "label": "Dogpatch → Nob Hill",
       "status": "completed",
       "origin": {
@@ -13848,7 +13848,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:as6IqtJ0Zi49",
-      "ts": 1752263854,
+      "ts": 1752265743,
       "label": "North Beach → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -13885,7 +13885,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:rJ1T7gRg2i09",
-      "ts": 1752197938,
+      "ts": 1752199827,
       "label": "TechCorp — Office → Sausalito",
       "status": "completed",
       "origin": {
@@ -13922,7 +13922,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lnbIHHrWSt3Q",
-      "ts": 1752185139,
+      "ts": 1752187028,
       "label": "Pacific Heights → Oakland",
       "status": "completed",
       "origin": {
@@ -13959,7 +13959,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5PtnCsaSaHRT",
-      "ts": 1752135530,
+      "ts": 1752137419,
       "label": "Fisherman's Wharf → Glen Park",
       "status": "completed",
       "origin": {
@@ -13996,7 +13996,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:h3ASvK5NbVWk",
-      "ts": 1752081432,
+      "ts": 1752083321,
       "label": "Sausalito → TechCorp — Office",
       "status": "cancelled",
       "origin": {
@@ -14026,7 +14026,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:2lulWDND3dKC",
-      "ts": 1752076628,
+      "ts": 1752078517,
       "label": "TechCorp — Office → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -14063,7 +14063,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Akk5jGjB7SaK",
-      "ts": 1752068892,
+      "ts": 1752070781,
       "label": "Blue Bottle Coffee → Nob Hill",
       "status": "completed",
       "origin": {
@@ -14100,7 +14100,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9ggt7XdBRzuR",
-      "ts": 1751927681,
+      "ts": 1751929570,
       "label": "Pacific Heights → Palo Alto",
       "status": "completed",
       "origin": {
@@ -14137,7 +14137,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sC0Ibhh5XHH1",
-      "ts": 1751925246,
+      "ts": 1751927135,
       "label": "Market Street → Berkeley",
       "status": "completed",
       "origin": {
@@ -14174,7 +14174,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:39SBsYNzQPIr",
-      "ts": 1751913236,
+      "ts": 1751915125,
       "label": "Hayes Valley → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -14211,7 +14211,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:b1FuQpbBokRJ",
-      "ts": 1751858908,
+      "ts": 1751860797,
       "label": "Oracle Park → Bernal Heights",
       "status": "completed",
       "origin": {
@@ -14248,7 +14248,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:A9vLVGmhOcmO",
-      "ts": 1751847809,
+      "ts": 1751849698,
       "label": "Glen Park → Sausalito",
       "status": "completed",
       "origin": {
@@ -14285,7 +14285,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qeCe2Ce3zOBr",
-      "ts": 1751832359,
+      "ts": 1751834248,
       "label": "Treasure Island → Daly City",
       "status": "cancelled",
       "origin": {
@@ -14315,7 +14315,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:xmIytETt6tsE",
-      "ts": 1751747092,
+      "ts": 1751748981,
       "label": "Chinatown → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -14352,7 +14352,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:82hML8LoN7EZ",
-      "ts": 1751733952,
+      "ts": 1751735841,
       "label": "Oracle Park → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -14389,7 +14389,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8U5SYQ60l2kl",
-      "ts": 1751718134,
+      "ts": 1751720023,
       "label": "Half Moon Bay → Japantown",
       "status": "completed",
       "origin": {
@@ -14426,7 +14426,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dQGZSEJJVHol",
-      "ts": 1751646961,
+      "ts": 1751648850,
       "label": "Bernal Heights → Market Street",
       "status": "completed",
       "origin": {
@@ -14463,7 +14463,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SdiUATz88I7K",
-      "ts": 1751589115,
+      "ts": 1751591004,
       "label": "Daly City → Sunset District",
       "status": "completed",
       "origin": {
@@ -14500,7 +14500,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3rDcz3jhnCQj",
-      "ts": 1751546662,
+      "ts": 1751548551,
       "label": "Market Street → Oakland",
       "status": "completed",
       "origin": {
@@ -14537,7 +14537,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3xQyk1LlDs9k",
-      "ts": 1751516238,
+      "ts": 1751518127,
       "label": "Oracle Park → SFO Airport",
       "status": "completed",
       "origin": {
@@ -14574,7 +14574,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:cL3Ag5Vjcrzk",
-      "ts": 1751411085,
+      "ts": 1751412974,
       "label": "Twin Peaks → Castro",
       "status": "completed",
       "origin": {
@@ -14611,7 +14611,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:nEZVTPR8i2eB",
-      "ts": 1751320620,
+      "ts": 1751322509,
       "label": "Treasure Island → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -14648,7 +14648,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7s5jqjN9SNCz",
-      "ts": 1751300550,
+      "ts": 1751302439,
       "label": "Palo Alto → Sausalito",
       "status": "completed",
       "origin": {
@@ -14685,7 +14685,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kNWYcTSYU37P",
-      "ts": 1751293423,
+      "ts": 1751295312,
       "label": "Stanford → Sunset District",
       "status": "completed",
       "origin": {
@@ -14722,7 +14722,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8ahOKJ6HlOk9",
-      "ts": 1751283384,
+      "ts": 1751285273,
       "label": "Nob Hill → Richmond District",
       "status": "completed",
       "origin": {
@@ -14759,7 +14759,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5p7xwaY6clJE",
-      "ts": 1751214798,
+      "ts": 1751216687,
       "label": "Daly City → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -14796,7 +14796,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Kx9DdJ1wjeJv",
-      "ts": 1751167011,
+      "ts": 1751168900,
       "label": "Berkeley → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -14833,7 +14833,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:C6T7nLtfx2cG",
-      "ts": 1751147358,
+      "ts": 1751149247,
       "label": "UCSF Medical Center → SFO Airport",
       "status": "completed",
       "origin": {
@@ -14870,7 +14870,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:TAD3N4Mo429x",
-      "ts": 1750883639,
+      "ts": 1750885528,
       "label": "Treasure Island → Daly City",
       "status": "completed",
       "origin": {
@@ -14907,7 +14907,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:AftcCWoURMqE",
-      "ts": 1750702421,
+      "ts": 1750704310,
       "label": "UCSF Medical Center → San Jose",
       "status": "completed",
       "origin": {
@@ -14944,7 +14944,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:W03aeVDpMnUI",
-      "ts": 1750623683,
+      "ts": 1750625572,
       "label": "SFO Airport → GymFit Downtown",
       "status": "completed",
       "origin": {
@@ -14981,7 +14981,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kBkL1k9OwLNm",
-      "ts": 1750534135,
+      "ts": 1750536024,
       "label": "Oakland → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -15018,7 +15018,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VCwH71054ZFL",
-      "ts": 1750521981,
+      "ts": 1750523870,
       "label": "Castro → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -15055,7 +15055,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:583dGOZa5PFt",
-      "ts": 1750485625,
+      "ts": 1750487514,
       "label": "Richmond District → SFO Airport",
       "status": "completed",
       "origin": {
@@ -15092,7 +15092,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0LUQtDB2Wn3c",
-      "ts": 1750422816,
+      "ts": 1750424705,
       "label": "Oakland → San Jose",
       "status": "completed",
       "origin": {
@@ -15129,7 +15129,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:X1M7worP8YF0",
-      "ts": 1750414762,
+      "ts": 1750416651,
       "label": "Castro → Pacific Heights",
       "status": "cancelled",
       "origin": {
@@ -15159,7 +15159,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:6rqGYwChmM9l",
-      "ts": 1750397651,
+      "ts": 1750399540,
       "label": "Hayes Valley → North Beach",
       "status": "completed",
       "origin": {
@@ -15196,7 +15196,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:CNlRrRqlaWL8",
-      "ts": 1750279468,
+      "ts": 1750281357,
       "label": "South San Francisco → Treasure Island",
       "status": "completed",
       "origin": {
@@ -15233,7 +15233,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:EtOylgmpw47Y",
-      "ts": 1750243952,
+      "ts": 1750245841,
       "label": "Palo Alto → Market Street",
       "status": "completed",
       "origin": {
@@ -15270,7 +15270,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1IZWPxXoeA6Y",
-      "ts": 1750192739,
+      "ts": 1750194628,
       "label": "Dogpatch → Glen Park",
       "status": "completed",
       "origin": {
@@ -15307,7 +15307,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vE1LUumzpxrm",
-      "ts": 1750053053,
+      "ts": 1750054942,
       "label": "GymFit Downtown → Downtown / Union Square",
       "status": "cancelled",
       "origin": {
@@ -15337,7 +15337,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:QOJBuO7Lg9YJ",
-      "ts": 1749966458,
+      "ts": 1749968347,
       "label": "Richmond District → Berkeley",
       "status": "completed",
       "origin": {
@@ -15374,7 +15374,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0gaTsotXHS3S",
-      "ts": 1749922877,
+      "ts": 1749924766,
       "label": "Pacific Heights → Treasure Island",
       "status": "completed",
       "origin": {
@@ -15411,7 +15411,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:d0LAOvtFxtk4",
-      "ts": 1749715155,
+      "ts": 1749717044,
       "label": "TechCorp — Office → Glen Park",
       "status": "completed",
       "origin": {
@@ -15448,7 +15448,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ehrRmM4Xw8wQ",
-      "ts": 1749686851,
+      "ts": 1749688740,
       "label": "Oakland → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -15485,7 +15485,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:B3pCGQzyo2zV",
-      "ts": 1749678296,
+      "ts": 1749680185,
       "label": "Half Moon Bay → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -15522,7 +15522,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:lXjzliPOtV0d",
-      "ts": 1749508441,
+      "ts": 1749510330,
       "label": "Sausalito → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -15559,7 +15559,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3FQgrmjEWmFe",
-      "ts": 1749427768,
+      "ts": 1749429657,
       "label": "Castro → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -15596,7 +15596,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:11CP40zfH3tK",
-      "ts": 1749371447,
+      "ts": 1749373336,
       "label": "Glen Park → Sausalito",
       "status": "completed",
       "origin": {
@@ -15633,7 +15633,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:c17Vxp8jBOCB",
-      "ts": 1749221242,
+      "ts": 1749223131,
       "label": "South San Francisco → Pacific Heights",
       "status": "cancelled",
       "origin": {
@@ -15663,7 +15663,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:djaMN2LADVMt",
-      "ts": 1749181076,
+      "ts": 1749182965,
       "label": "Ocean Beach → Oracle Park",
       "status": "completed",
       "origin": {
@@ -15700,7 +15700,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Q53QKtH4HdTb",
-      "ts": 1749120616,
+      "ts": 1749122505,
       "label": "SuperMart SoMa → Dogpatch",
       "status": "completed",
       "origin": {
@@ -15737,7 +15737,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7znyDJy40vda",
-      "ts": 1749063453,
+      "ts": 1749065342,
       "label": "Sausalito → Castro",
       "status": "cancelled",
       "origin": {
@@ -15767,7 +15767,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:CSBqSvLcgekX",
-      "ts": 1748913899,
+      "ts": 1748915788,
       "label": "Presidio → SFO Airport",
       "status": "completed",
       "origin": {
@@ -15804,7 +15804,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XGiXUxMhGW9g",
-      "ts": 1748806387,
+      "ts": 1748808276,
       "label": "Palo Alto → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -15841,7 +15841,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:a6UkgAXdNXQQ",
-      "ts": 1748782948,
+      "ts": 1748784837,
       "label": "UCSF Medical Center → Japantown",
       "status": "completed",
       "origin": {
@@ -15878,7 +15878,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:YJriCfD1OgD8",
-      "ts": 1748667175,
+      "ts": 1748669064,
       "label": "Presidio → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -15915,7 +15915,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:3Sjtu6r8K7Ff",
-      "ts": 1748599766,
+      "ts": 1748601655,
       "label": "Market Street → Stanford",
       "status": "completed",
       "origin": {
@@ -15952,7 +15952,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:01zybgiaWKHG",
-      "ts": 1748567537,
+      "ts": 1748569426,
       "label": "GymFit Downtown → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -15989,7 +15989,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:9QywVXrFhcPG",
-      "ts": 1748536570,
+      "ts": 1748538459,
       "label": "GymFit Downtown → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -16026,7 +16026,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:RAjmd5xLWNWf",
-      "ts": 1748528830,
+      "ts": 1748530719,
       "label": "Blue Bottle Coffee → Treasure Island",
       "status": "completed",
       "origin": {
@@ -16063,7 +16063,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JJ8h9CzBLRBd",
-      "ts": 1748486489,
+      "ts": 1748488378,
       "label": "Dogpatch → Half Moon Bay",
       "status": "cancelled",
       "origin": {
@@ -16093,7 +16093,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wyVL0Ux0TDgy",
-      "ts": 1748468077,
+      "ts": 1748469966,
       "label": "Daly City → Chinatown",
       "status": "completed",
       "origin": {
@@ -16130,7 +16130,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:bRA7vqQUisUT",
-      "ts": 1748344991,
+      "ts": 1748346880,
       "label": "UCSF Medical Center → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -16167,7 +16167,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:A4GjvM81Wbf5",
-      "ts": 1748217577,
+      "ts": 1748219466,
       "label": "Berkeley → Embarcadero",
       "status": "completed",
       "origin": {
@@ -16204,7 +16204,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IkLRy2vs5wwl",
-      "ts": 1748132674,
+      "ts": 1748134563,
       "label": "Half Moon Bay → Pacific Heights",
       "status": "completed",
       "origin": {
@@ -16241,7 +16241,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:jzGCeCdvWlAV",
-      "ts": 1748099951,
+      "ts": 1748101840,
       "label": "Oakland → Richmond District",
       "status": "completed",
       "origin": {
@@ -16278,7 +16278,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1oMqdzslXEfj",
-      "ts": 1748085000,
+      "ts": 1748086889,
       "label": "SFO Airport → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -16315,7 +16315,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:aTqDDmGeZgQ9",
-      "ts": 1748080230,
+      "ts": 1748082119,
       "label": "UCSF Medical Center → Oracle Park",
       "status": "cancelled",
       "origin": {
@@ -16345,7 +16345,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:6x6PGNG3wrS9",
-      "ts": 1748042671,
+      "ts": 1748044560,
       "label": "Hayes Valley → Embarcadero",
       "status": "completed",
       "origin": {
@@ -16382,7 +16382,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:aXOeLIaBQNQR",
-      "ts": 1747998250,
+      "ts": 1748000139,
       "label": "UCSF Medical Center → Dogpatch",
       "status": "completed",
       "origin": {
@@ -16419,7 +16419,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:f9kAv1ExejpP",
-      "ts": 1747980571,
+      "ts": 1747982460,
       "label": "Treasure Island → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -16456,7 +16456,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:7GSAiMCxprQV",
-      "ts": 1747755593,
+      "ts": 1747757482,
       "label": "Pacific Heights → Market Street",
       "status": "completed",
       "origin": {
@@ -16493,7 +16493,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ARompUgql4g0",
-      "ts": 1747683519,
+      "ts": 1747685408,
       "label": "GymFit Downtown → Stanford",
       "status": "completed",
       "origin": {
@@ -16530,7 +16530,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qxQKyZ2AQSud",
-      "ts": 1747634936,
+      "ts": 1747636825,
       "label": "South San Francisco → Market Street",
       "status": "completed",
       "origin": {
@@ -16567,7 +16567,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hjt0bnMEYhS5",
-      "ts": 1747529853,
+      "ts": 1747531742,
       "label": "Market Street → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -16604,7 +16604,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0Dzwrdd1I037",
-      "ts": 1747294854,
+      "ts": 1747296743,
       "label": "Dogpatch → Sunset District",
       "status": "completed",
       "origin": {
@@ -16641,7 +16641,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:S6RaxQ1QLpjh",
-      "ts": 1747278372,
+      "ts": 1747280261,
       "label": "Nob Hill → Embarcadero",
       "status": "completed",
       "origin": {
@@ -16678,7 +16678,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:BlqzDsJrxOOK",
-      "ts": 1747171280,
+      "ts": 1747173169,
       "label": "Hayes Valley → Downtown / Union Square",
       "status": "completed",
       "origin": {
@@ -16715,7 +16715,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hsXitu4M3StE",
-      "ts": 1747071225,
+      "ts": 1747073114,
       "label": "Sausalito → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -16752,7 +16752,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0TuBrAtLCY0B",
-      "ts": 1747046814,
+      "ts": 1747048703,
       "label": "Japantown → Richmond District",
       "status": "completed",
       "origin": {
@@ -16789,7 +16789,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:w3LMODUqFf4T",
-      "ts": 1746997120,
+      "ts": 1746999009,
       "label": "TechCorp — Office → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -16826,7 +16826,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:xBGdN63iYe6u",
-      "ts": 1746866140,
+      "ts": 1746868029,
       "label": "Sausalito → Presidio",
       "status": "completed",
       "origin": {
@@ -16863,7 +16863,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:BjbXxBxtyqXq",
-      "ts": 1746860060,
+      "ts": 1746861949,
       "label": "Sausalito → SFO Airport",
       "status": "completed",
       "origin": {
@@ -16900,7 +16900,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4S9vMfNM6cMl",
-      "ts": 1746717583,
+      "ts": 1746719472,
       "label": "Presidio → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -16937,7 +16937,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qYLfPAZ1Mm6W",
-      "ts": 1746570674,
+      "ts": 1746572563,
       "label": "Oakland → South San Francisco",
       "status": "completed",
       "origin": {
@@ -16974,7 +16974,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tLw55xOWIxs6",
-      "ts": 1746563213,
+      "ts": 1746565102,
       "label": "Embarcadero → TechCorp — Office",
       "status": "completed",
       "origin": {
@@ -17011,7 +17011,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1skeP1xvGElB",
-      "ts": 1746486814,
+      "ts": 1746488703,
       "label": "Castro → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -17048,7 +17048,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:PWuUXDl33g5W",
-      "ts": 1746362005,
+      "ts": 1746363894,
       "label": "Downtown / Union Square → Sausalito",
       "status": "completed",
       "origin": {
@@ -17085,7 +17085,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:cZn0uJLrG5eg",
-      "ts": 1746287623,
+      "ts": 1746289512,
       "label": "SuperMart SoMa → Castro",
       "status": "completed",
       "origin": {
@@ -17122,7 +17122,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:BRSBLzGycGOO",
-      "ts": 1746240594,
+      "ts": 1746242483,
       "label": "Fisherman's Wharf → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -17159,7 +17159,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:m4ARaFwwarKb",
-      "ts": 1746215097,
+      "ts": 1746216986,
       "label": "Ocean Beach → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -17196,7 +17196,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:pjobg6jbKepz",
-      "ts": 1746030262,
+      "ts": 1746032151,
       "label": "Palo Alto → Hayes Valley",
       "status": "completed",
       "origin": {
@@ -17233,7 +17233,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:J0J1xGPd2JfA",
-      "ts": 1745925642,
+      "ts": 1745927531,
       "label": "South San Francisco → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -17270,7 +17270,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IlGiirMM6CXy",
-      "ts": 1745902021,
+      "ts": 1745903910,
       "label": "Oracle Park → South San Francisco",
       "status": "completed",
       "origin": {
@@ -17307,7 +17307,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8STjAVUy8pPm",
-      "ts": 1745860422,
+      "ts": 1745862311,
       "label": "Potrero Hill → UCSF Medical Center",
       "status": "completed",
       "origin": {
@@ -17344,7 +17344,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vQD1qXwrmALU",
-      "ts": 1745802921,
+      "ts": 1745804810,
       "label": "Sunset District → Mission District Apartment",
       "status": "completed",
       "origin": {
@@ -17381,7 +17381,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hnbm4qt4OHg7",
-      "ts": 1745783611,
+      "ts": 1745785500,
       "label": "Twin Peaks → Oracle Park",
       "status": "completed",
       "origin": {
@@ -17418,7 +17418,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4tLrKtFnEflw",
-      "ts": 1745766500,
+      "ts": 1745768389,
       "label": "Presidio → Fisherman's Wharf",
       "status": "completed",
       "origin": {
@@ -17455,7 +17455,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:IzTqekoIc7So",
-      "ts": 1745750587,
+      "ts": 1745752476,
       "label": "Ocean Beach → Chinatown",
       "status": "completed",
       "origin": {
@@ -17492,7 +17492,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VEz835iNMIz1",
-      "ts": 1745744939,
+      "ts": 1745746828,
       "label": "Hayes Valley → Twin Peaks",
       "status": "completed",
       "origin": {
@@ -17529,7 +17529,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:zOEhqINQvWfn",
-      "ts": 1745739745,
+      "ts": 1745741634,
       "label": "Castro → Half Moon Bay",
       "status": "completed",
       "origin": {
@@ -17566,7 +17566,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:YEjiAao2YPW2",
-      "ts": 1745649886,
+      "ts": 1745651775,
       "label": "Embarcadero → Market Street",
       "status": "cancelled",
       "origin": {
@@ -17596,7 +17596,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qucmbv7Hcffv",
-      "ts": 1745545978,
+      "ts": 1745547867,
       "label": "Market Street → UCSF Medical Center",
       "status": "cancelled",
       "origin": {
@@ -17626,7 +17626,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:wlt8eofk5oYg",
-      "ts": 1745529778,
+      "ts": 1745531667,
       "label": "Pacific Heights → North Beach",
       "status": "completed",
       "origin": {
@@ -17663,7 +17663,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:gfNXsA1K2yww",
-      "ts": 1745529602,
+      "ts": 1745531491,
       "label": "Sausalito → Sunset District",
       "status": "completed",
       "origin": {
@@ -17700,7 +17700,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:VjE8heXUbZKt",
-      "ts": 1745420198,
+      "ts": 1745422087,
       "label": "TechCorp — Office → Presidio",
       "status": "completed",
       "origin": {
@@ -17737,7 +17737,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tYLlEIzZwCiV",
-      "ts": 1745414160,
+      "ts": 1745416049,
       "label": "Pacific Heights → Japantown",
       "status": "completed",
       "origin": {
@@ -17774,7 +17774,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:kRkYUK8mnTtd",
-      "ts": 1745402961,
+      "ts": 1745404850,
       "label": "Stanford → Market Street",
       "status": "cancelled",
       "origin": {
@@ -17804,7 +17804,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:0VRmP9isb7aC",
-      "ts": 1745295649,
+      "ts": 1745297538,
       "label": "Pacific Heights → Glen Park",
       "status": "cancelled",
       "origin": {
@@ -17834,7 +17834,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ishI4Fypz4V8",
-      "ts": 1745259123,
+      "ts": 1745261012,
       "label": "Stanford → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -17871,7 +17871,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:HjY7XwZiAgjL",
-      "ts": 1745165105,
+      "ts": 1745166994,
       "label": "SuperMart SoMa → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -17908,7 +17908,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Rx4uZfPVLDio",
-      "ts": 1745138826,
+      "ts": 1745140715,
       "label": "Dogpatch → Ocean Beach",
       "status": "completed",
       "origin": {
@@ -17945,7 +17945,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:1ZDcTUCgH0lT",
-      "ts": 1745137411,
+      "ts": 1745139300,
       "label": "Sausalito → SuperMart SoMa",
       "status": "completed",
       "origin": {
@@ -17982,7 +17982,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:pKlW31PBiJxQ",
-      "ts": 1745080721,
+      "ts": 1745082610,
       "label": "North Beach → Potrero Hill",
       "status": "completed",
       "origin": {
@@ -18019,7 +18019,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:e4a8sLIDEnRT",
-      "ts": 1745055965,
+      "ts": 1745057854,
       "label": "Berkeley → Richmond District",
       "status": "completed",
       "origin": {
@@ -18056,7 +18056,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:KH3PXXR6zx3S",
-      "ts": 1744907440,
+      "ts": 1744909329,
       "label": "Pacific Heights → Golden Gate Park",
       "status": "completed",
       "origin": {
@@ -18093,7 +18093,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:R1Cc6oFSqFT1",
-      "ts": 1744856731,
+      "ts": 1744858620,
       "label": "Bernal Heights → Blue Bottle Coffee",
       "status": "completed",
       "origin": {
@@ -18130,7 +18130,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:P0YE4237r3k3",
-      "ts": 1744831856,
+      "ts": 1744833745,
       "label": "Embarcadero → Daly City",
       "status": "completed",
       "origin": {

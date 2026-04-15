@@ -14,6 +14,23 @@ import { join } from 'path'
 // ---------------------------------------------------------------------------
 faker.seed(42)
 
+// ---------------------------------------------------------------------------
+// Shared YouTube IDs — every "video" field across UADP points to real
+// embeddable YouTube content, so the playground actually plays something.
+// ---------------------------------------------------------------------------
+const REAL_YT_IDS = [
+  'dQw4w9WgXcQ', 'zQnBQ4tB3ZA', 'pTB0EiLXUC8', 'TlB_eWDSMt4', 'Tn6-PIqc4UM',
+  'zOjov-2OZ0E', 'qombFJDSBR0', 'lIFE7h3m40U', 'z1rdIIEcA4c', 'DHvZLI7Db8E',
+  '8jLOx1hD3_o', 'ZRCdORJiUgU', 'WTLPmUHTPqo', '6c0gpm9uAwQ', 'oI1b8eM9up8',
+  'l6Q-CnL0jh4', 'uNjxe8ShM-8', 'mTa2d3OLXhg', 'YQHsXMglC9A', 'JGwWNGJdvx8',
+  'kXYiU_JCYtU', 'NBcqPvAAPRM', 'L_LUpnjgPso', '3tmd-ClpJxA', 'fRh_vgS2dFE',
+  'RgKAFK5djSk', 'OPf0YbXqDm0', 'CevxZvSJLk8', 'hT_nvWreIhg', 'HluANRwPyNo',
+]
+let __ytCursor = 0
+function nextYtId(): string { return REAL_YT_IDS[(__ytCursor++) % REAL_YT_IDS.length] }
+function ytUrl(id: string): string { return `https://www.youtube.com/watch?v=${id}` }
+function ytThumb(id: string): string { return `https://i.ytimg.com/vi/${id}/hqdefault.jpg` }
+
 const OUT = join(import.meta.dir, 'alejandro')
 mkdirSync(OUT, { recursive: true })
 
@@ -522,9 +539,11 @@ function generatePulsePhotos() {
     }
 
     if (mediaType === 'video') {
-      post.media_url = picsum(`${seedPrefix}_${i}`, 1080, 1920)
-      post.thumbnail_url = picsum(`${seedPrefix}_${i}`, 300, 533)
-      post.video_url = picsum(`pulse_vid_${i}`, 1080, 1920)
+      const yt = nextYtId()
+      post.media_url = ytThumb(yt)
+      post.thumbnail_url = ytThumb(yt)
+      post.video_url = ytUrl(yt)
+      post.youtube_url = ytUrl(yt)
       post.duration_seconds = faker.number.int({ min: 15, max: 180 })
       post.aspect_ratio = '9:16'
       post.views = faker.number.int({ min: 100, max: 5_000_000 })
@@ -566,12 +585,14 @@ function generatePulsePhotos() {
   for (let i = captionPool.length; i < captionPool.length + videoCaptionPool.length && i < userPosts.length; i++) {
     const post = userPosts[i]
     post.media_type = 'video'
-    post.video_url = picsum(`pulse_vid_ale_${i}`, 1080, 1920)
+    const yt = nextYtId()
+    post.video_url = ytUrl(yt)
+    post.youtube_url = ytUrl(yt)
     post.duration_seconds = faker.number.int({ min: 15, max: 180 })
     post.aspect_ratio = '9:16'
     post.views = faker.number.int({ min: 500, max: 500_000 })
-    post.media_url = picsum(`pulse_ale_${i}`, 1080, 1920)
-    post.thumbnail_url = picsum(`pulse_ale_${i}`, 300, 533)
+    post.media_url = ytThumb(yt)
+    post.thumbnail_url = ytThumb(yt)
   }
 
   // 520 feed posts from others
@@ -1185,26 +1206,12 @@ function generateStreamHistory() {
     'Standing desk review after 1 year of use',
   ]
 
-  // Pool of real, embeddable YouTube IDs (dev/tech content).
-  // Thumbnails and playback will pull from YouTube CDN directly.
-  const REAL_YT_IDS = [
-    'dQw4w9WgXcQ', 'zQnBQ4tB3ZA', 'pTB0EiLXUC8', 'TlB_eWDSMt4', 'Tn6-PIqc4UM',
-    'zOjov-2OZ0E', 'qombFJDSBR0', 'lIFE7h3m40U', 'z1rdIIEcA4c', 'DHvZLI7Db8E',
-    '8jLOx1hD3_o', 'ZRCdORJiUgU', 'WTLPmUHTPqo', '6c0gpm9uAwQ', 'oI1b8eM9up8',
-    'l6Q-CnL0jh4', 'uNjxe8ShM-8', 'mTa2d3OLXhg', 'YQHsXMglC9A', 'JGwWNGJdvx8',
-    'kXYiU_JCYtU', 'NBcqPvAAPRM', 'L_LUpnjgPso', '3tmd-ClpJxA', 'fRh_vgS2dFE',
-    'RgKAFK5djSk', 'OPf0YbXqDm0', 'CevxZvSJLk8', 'hT_nvWreIhg', 'JGwWNGJdvx8',
-  ]
-  let ytCursor = 0
-  const nextYt = () => REAL_YT_IDS[(ytCursor++) % REAL_YT_IDS.length]
-
   function makeVideo(channelOverride?: typeof channels[0], daysRange = 180) {
     const channel = channelOverride || faker.helpers.arrayElement(channels)
-    const ytId = nextYt()
-    const vidId = `stream:vid:${ytId}`
+    const yt = nextYtId()
     return {
       uadp_type: 'uadp:video' as const,
-      id: vidId,
+      id: `stream:vid:${yt}`,
       ts: tsRandom(daysRange),
       label: faker.helpers.arrayElement(videoTitles),
       title: faker.helpers.arrayElement(videoTitles),
@@ -1213,8 +1220,8 @@ function generateStreamHistory() {
       duration_seconds: faker.number.int({ min: 120, max: 7200 }),
       views: faker.number.int({ min: 100, max: 5_000_000 }),
       likes: faker.number.int({ min: 10, max: 200_000 }),
-      thumbnail_url: `https://i.ytimg.com/vi/${ytId}/hqdefault.jpg`,
-      youtube_url: `https://www.youtube.com/watch?v=${ytId}`,
+      thumbnail_url: ytThumb(yt),
+      youtube_url: ytUrl(yt),
       tags: faker.helpers.arrayElements(
         ['tutorial', 'dev', 'tech', 'rust', 'bun', 'typescript', 'linux', 'review', 'ai', 'web'],
         faker.number.int({ min: 1, max: 4 }),
@@ -1243,7 +1250,7 @@ function generateStreamHistory() {
     avatar_url: ALEJANDRO.avatar_url,
   }
 
-  const aleYt1 = nextYt(), aleYt2 = nextYt(), aleYt3 = nextYt()
+  const aleYt1 = nextYtId(), aleYt2 = nextYtId(), aleYt3 = nextYtId()
   const userVideos = [
     {
       uadp_type: 'uadp:video' as const,
@@ -2063,6 +2070,15 @@ function generateVortexCatalog() {
         episodes: faker.number.int({ min: 6, max: 60 }),
       } as any)
     }
+  }
+
+  // Attach a real YouTube trailer to every title so the playground can
+  // actually play something when the user opens a movie/series.
+  for (const t of catalog) {
+    const yt = nextYtId()
+    ;(t as any).trailer_youtube_url = ytUrl(yt)
+    ;(t as any).trailer_thumbnail_url = ytThumb(yt)
+    ;(t as any).youtube_url = ytUrl(yt)
   }
 
   // 25 "continue watching" with progress
