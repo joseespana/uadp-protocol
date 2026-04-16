@@ -109,8 +109,6 @@ services:
       dockerfile: packages/uadp-scraper/Dockerfile
     restart: unless-stopped
     env_file: packages/uadp-scraper/.env
-    depends_on:
-      - rsshub
     networks:
       - default
       - perseusoft-mongodb-network
