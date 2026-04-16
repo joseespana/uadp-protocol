@@ -222,6 +222,16 @@ do_reinstall() {
   wait_for_gateway
 }
 
+do_scrape_now() {
+  header "Running scraper manually"
+  if ! docker compose ps scraper --format '{{.Status}}' 2>/dev/null | grep -q "Up"; then
+    fail "Scraper container is not running. Start it first: ./start.sh restart-one scraper"
+    return
+  fi
+  echo -e "  Executing scrape inside running container...\n"
+  docker compose exec scraper bun run scrape
+}
+
 do_status() {
   header "Service status"
   docker compose ps
@@ -240,10 +250,11 @@ show_menu() {
   echo -e "  ${GREEN}3)${NC} ${BOLD}Restart${NC}      Rebuild & restart all"
   echo -e "  ${GREEN}4)${NC} ${BOLD}Rebuild${NC}      Full rebuild (no cache)"
   echo -e "  ${CYAN}5)${NC} ${BOLD}Restart one${NC}  Rebuild & restart a single service"
-  echo -e "  ${YELLOW}6)${NC} ${BOLD}Reinstall${NC}    Nuclear: destroy all → reinstall → reseed → rebuild"
-  echo -e "  ${DIM}7)${NC} ${BOLD}Status${NC}       Show running containers"
-  echo -e "  ${DIM}8)${NC} ${BOLD}Logs${NC}         Tail all logs"
-  echo -e "  ${DIM}9)${NC} ${BOLD}Service log${NC}   Tail a specific service"
+  echo -e "  ${CYAN}6)${NC} ${BOLD}Scrape now${NC}   Run scraper manually (articles/videos/social/music)"
+  echo -e "  ${YELLOW}7)${NC} ${BOLD}Reinstall${NC}    Nuclear: destroy all → reinstall → reseed → rebuild"
+  echo -e "  ${DIM}8)${NC} ${BOLD}Status${NC}       Show running containers"
+  echo -e "  ${DIM}9)${NC} ${BOLD}Logs${NC}         Tail all logs"
+  echo -e "  ${DIM}10)${NC} ${BOLD}Service log${NC}  Tail a specific service"
   echo -e "  ${RED}0)${NC} ${BOLD}Exit${NC}"
   echo ""
   echo -ne "  ${BOLD}Pick an option: ${NC}"
@@ -269,10 +280,11 @@ run_menu() {
           warn "No service name provided"
         fi
         ;;
-      6) prechecks; do_reinstall; break ;;
-      7) do_status ;;
-      8) do_logs; break ;;
-      9)
+      6) do_scrape_now; break ;;
+      7) prechecks; do_reinstall; break ;;
+      8) do_status ;;
+      9) do_logs; break ;;
+      10)
         echo ""
         echo -ne "  ${BOLD}Service name${NC} (nova, orbit, stream...): "
         read -r svc_name
@@ -314,6 +326,7 @@ case "$ACTION" in
       exit 1
     fi
     do_restart_one "$1" ;;
+  scrape)           do_scrape_now ;;
   logs)             do_logs "${1:-}" ;;
   rebuild)          do_rebuild ;;
   reinstall)        do_reinstall ;;
@@ -326,6 +339,7 @@ case "$ACTION" in
     echo "  down             Stop all services"
     echo "  restart          Rebuild and restart all services"
     echo "  restart-one SVC  Rebuild and restart a single service"
+    echo "  scrape           Run scraper manually right now"
     echo "  logs [SVC]       Tail logs (optional: ./start.sh logs nova)"
     echo "  rebuild          Full rebuild (no cache, removes old images)"
     echo "  reinstall        Nuclear: destroy everything, reinstall deps, reseed, rebuild"

@@ -1,6 +1,6 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
-import { loadData, loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes } from 'cosmos-core'
+import { loadData, loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, connectMongo, hasMongo, getCollection } from 'cosmos-core'
 import type { UadpManifest, UadpArticle } from 'cosmos-core'
 
 // --- Data -------------------------------------------------------------------
@@ -10,9 +10,33 @@ interface HeraldData {
   bookmarks: string[]
 }
 
+// Try MongoDB first (real scraped data), fallback to static JSON
+await connectMongo()
+
 // Shared articles loaded once (from alejandro or first available)
 const sharedData = loadData<HeraldData>('herald-articles')
-const articles: UadpArticle[] = sharedData.articles ?? []
+const staticArticles: UadpArticle[] = sharedData.articles ?? []
+
+/** Get articles — Mongo if available, else static JSON seed. */
+async function getArticles(): Promise<UadpArticle[]> {
+  if (hasMongo()) {
+    const col = getCollection('articles')
+    if (col) {
+      const docs = await col.find({}).sort({ ts: -1 }).limit(500).toArray()
+      if (docs.length > 0) return docs as unknown as UadpArticle[]
+    }
+  }
+  return staticArticles
+}
+
+// For sync endpoints that can't await, keep a cached copy refreshed periodically
+let articles: UadpArticle[] = staticArticles
+async function refreshCache() {
+  articles = await getArticles()
+  console.log(`[herald] Cache refreshed: ${articles.length} articles (${hasMongo() ? 'MongoDB' : 'static JSON'})`)
+}
+await refreshCache()
+setInterval(refreshCache, 5 * 60 * 1000) // refresh every 5 min
 
 // Per-user bookmarks
 const allUsersData = loadAllUsersData<HeraldData>('herald-articles')

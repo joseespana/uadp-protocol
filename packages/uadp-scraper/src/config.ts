@@ -20,6 +20,7 @@ export const config = {
     health: (process.env.RSS_HEALTH ?? "").split(",").filter(Boolean),
   },
   ytChannels: (process.env.YT_CHANNELS ?? "").split(",").filter(Boolean),
+  ytKeywords: (process.env.YT_KEYWORDS ?? "").split(",").filter(Boolean),
   rssProducts: (process.env.RSS_PRODUCTS ?? "").split(",").filter(Boolean),
   // RSSHub (self-hosted) for Twitter/X scraping
   rsshubUrl: process.env.RSSHUB_URL ?? "",
