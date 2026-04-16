@@ -22,6 +22,11 @@ const CATEGORY_FEEDS: Record<string, string[]> = {
   Science: config.rss.science,
   Economy: config.rss.economy,
   Health: config.rss.health,
+  Travel: config.rss.travel,
+  Sports: config.rss.sports,
+  Entertainment: config.rss.entertainment,
+  Lifestyle: config.rss.lifestyle,
+  Gaming: config.rss.gaming,
 };
 
 export async function scrapeArticles(): Promise<number> {
