@@ -15,29 +15,8 @@
   "transactions": [
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:9OP8ygXAJj6B",
-      "ts": 1776025099,
-      "label": "Figma Business",
-      "amount": {
-        "value": 45,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Figma Business",
-        "category": "design",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:XYKRVTa48VTI",
-      "ts": 1776022365,
+      "id": "zinc:tx:1BJpsAYqD8fI",
+      "ts": 1776068419,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -57,8 +36,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:d1BJpsAYqD8f",
-      "ts": 1776017897,
+      "id": "zinc:tx:3PkcC2doMv9U",
+      "ts": 1775979312,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -78,8 +57,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:GkNtV1Jc2Aab",
-      "ts": 1776016028,
+      "id": "zinc:tx:HLBcvI86ybsU",
+      "ts": 1775979233,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -99,8 +78,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:uHLBcvI86ybs",
-      "ts": 1776015863,
+      "id": "zinc:tx:YKRVTa48VTIi",
+      "ts": 1775895588,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -120,92 +99,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:3xItJLAz2e3S",
-      "ts": 1773427644,
-      "label": "Vercel Pro",
-      "amount": {
-        "value": 20,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vercel Pro",
-        "category": "cloud",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:qRnxDsSCN1BT",
-      "ts": 1773339489,
-      "label": "OpenAI API",
-      "amount": {
-        "value": 95,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "OpenAI API",
-        "category": "ai",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:SpxXKNJjAxXq",
-      "ts": 1773260244,
-      "label": "AWS Services",
-      "amount": {
-        "value": 187.5,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "AWS Services",
-        "category": "cloud",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:ms5HJWYSqtCO",
-      "ts": 1773254738,
-      "label": "GitHub Enterprise",
-      "amount": {
-        "value": 21,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GitHub Enterprise",
-        "category": "software",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:Q61qULDavfww",
-      "ts": 1773252758,
+      "id": "zinc:tx:kNtV1Jc2AabT",
+      "ts": 1775895547,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -225,8 +120,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:i3AGRCZOvXjj",
-      "ts": 1772800043,
+      "id": "zinc:tx:8gmH10xckcLq",
+      "ts": 1775438784,
       "label": "Anthropic API Credits",
       "amount": {
         "value": 250,
@@ -246,92 +141,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:ei0KXjlocCIi",
-      "ts": 1771521646,
-      "label": "TechCrunch Disrupt Ticket",
-      "amount": {
-        "value": 995,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "TechCrunch Disrupt Ticket",
-        "category": "conference",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": false
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:18gmH10xckcL",
-      "ts": 1770857607,
-      "label": "Apple Developer Program",
-      "amount": {
-        "value": 99,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Apple Developer Program",
-        "category": "software",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": false
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:GWBjn2ItGoDI",
-      "ts": 1770839139,
-      "label": "GitHub Enterprise",
-      "amount": {
-        "value": 21,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GitHub Enterprise",
-        "category": "software",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:XhPdJsCl1dE8",
-      "ts": 1770834862,
-      "label": "Vercel Pro",
-      "amount": {
-        "value": 20,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Vercel Pro",
-        "category": "cloud",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:BsdVvw0c4sU7",
-      "ts": 1770667444,
+      "id": "zinc:tx:xItJLAz2e3Sy",
+      "ts": 1773472298,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -351,8 +162,29 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:S99ivpNilVBj",
-      "ts": 1770666023,
+      "id": "zinc:tx:OP8ygXAJj6B3",
+      "ts": 1773465950,
+      "label": "GitHub Enterprise",
+      "amount": {
+        "value": 21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GitHub Enterprise",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:RnxDsSCN1BTI",
+      "ts": 1773382139,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -372,8 +204,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:GHRWX5QNaFNH",
-      "ts": 1770662534,
+      "id": "zinc:tx:s5HJWYSqtCOz",
+      "ts": 1773382002,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -393,8 +225,29 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:e2Nw6yPxj1vf",
-      "ts": 1768548611,
+      "id": "zinc:tx:pxXKNJjAxXq3",
+      "ts": 1773303268,
+      "label": "Vercel Pro",
+      "amount": {
+        "value": 20,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vercel Pro",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:i0KXjlocCIi6",
+      "ts": 1772569840,
       "label": "O'Reilly Annual Subscription",
       "amount": {
         "value": 499,
@@ -414,71 +267,29 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:DJ9DE4JHNqsr",
-      "ts": 1768246091,
-      "label": "Vercel Pro",
+      "id": "zinc:tx:2Nw6yPxj1vfj",
+      "ts": 1772466369,
+      "label": "Apple Developer Program",
       "amount": {
-        "value": 20,
+        "value": 99,
         "currency": "USD"
       },
       "direction": "out",
       "status": "completed",
       "merchant": {
-        "name": "Vercel Pro",
-        "category": "cloud",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:VenTO5vE0ROF",
-      "ts": 1768239895,
-      "label": "GitHub Enterprise",
-      "amount": {
-        "value": 21,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "GitHub Enterprise",
+        "name": "Apple Developer Program",
         "category": "software",
         "country": "US"
       },
       "account_id": "zinc:acc:jose:usd",
       "ext": {
-        "is_subscription": true
+        "is_subscription": false
       }
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:6erBD6hC62ZI",
-      "ts": 1768239301,
-      "label": "AWS Services",
-      "amount": {
-        "value": 187.5,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "AWS Services",
-        "category": "cloud",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:LHNgqluMysYt",
-      "ts": 1768155393,
+      "id": "zinc:tx:sdVvw0c4sU78",
+      "ts": 1770788892,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -498,50 +309,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:QWS5rmfydSGz",
-      "ts": 1768073056,
-      "label": "OpenAI API",
-      "amount": {
-        "value": 95,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "OpenAI API",
-        "category": "ai",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:rBfJyC5QPm3J",
-      "ts": 1765653300,
-      "label": "AWS Services",
-      "amount": {
-        "value": 187.5,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "AWS Services",
-        "category": "cloud",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:D8hXCqKCVJ5A",
-      "ts": 1765652639,
+      "id": "zinc:tx:HRWX5QNaFNHA",
+      "ts": 1770709476,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -561,8 +330,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:NqOnyAsk0jfj",
-      "ts": 1765570055,
+      "id": "zinc:tx:61qULDavfwwK",
+      "ts": 1770709149,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -582,29 +351,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:VNN1aQsmKbn7",
-      "ts": 1765567145,
-      "label": "Figma Business",
-      "amount": {
-        "value": 45,
-        "currency": "USD"
-      },
-      "direction": "out",
-      "status": "completed",
-      "merchant": {
-        "name": "Figma Business",
-        "category": "design",
-        "country": "US"
-      },
-      "account_id": "zinc:acc:jose:usd",
-      "ext": {
-        "is_subscription": true
-      }
-    },
-    {
-      "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:GIxy5igPt1kJ",
-      "ts": 1765481712,
+      "id": "zinc:tx:hPdJsCl1dE8D",
+      "ts": 1770702072,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -624,8 +372,134 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:PK3aQZkkXfYA",
-      "ts": 1763427743,
+      "id": "zinc:tx:WBjn2ItGoDIe",
+      "ts": 1770701484,
+      "label": "AWS Services",
+      "amount": {
+        "value": 187.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "AWS Services",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:erBD6hC62ZIX",
+      "ts": 1768291497,
+      "label": "Vercel Pro",
+      "amount": {
+        "value": 20,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vercel Pro",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:J9DE4JHNqsrk",
+      "ts": 1768196922,
+      "label": "OpenAI API",
+      "amount": {
+        "value": 95,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "OpenAI API",
+        "category": "ai",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:enTO5vE0ROFU",
+      "ts": 1768119118,
+      "label": "AWS Services",
+      "amount": {
+        "value": 187.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "AWS Services",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:99ivpNilVBjg",
+      "ts": 1768118072,
+      "label": "GitHub Enterprise",
+      "amount": {
+        "value": 21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GitHub Enterprise",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:WS5rmfydSGzl",
+      "ts": 1768115811,
+      "label": "Figma Business",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Figma Business",
+        "category": "design",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:qZsxE8pN8rKn",
+      "ts": 1766536840,
       "label": "AWS re:Invent Registration",
       "amount": {
         "value": 1799,
@@ -645,8 +519,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:HCNfMJ482AL1",
-      "ts": 1762978716,
+      "id": "zinc:tx:BfJyC5QPm3Jp",
+      "ts": 1765613560,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -666,8 +540,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:t7m4yN5dQkZU",
-      "ts": 1762977556,
+      "id": "zinc:tx:8hXCqKCVJ5As",
+      "ts": 1765605720,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -687,8 +561,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:gtuFtc9BSsEv",
-      "ts": 1762889033,
+      "id": "zinc:tx:qOnyAsk0jfj6",
+      "ts": 1765525508,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -708,8 +582,29 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:EqZsxE8pN8rK",
-      "ts": 1762888815,
+      "id": "zinc:tx:HNgqluMysYtJ",
+      "ts": 1765521852,
+      "label": "GitHub Enterprise",
+      "amount": {
+        "value": 21,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "GitHub Enterprise",
+        "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:Ixy5igPt1kJi",
+      "ts": 1765521743,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -729,8 +624,92 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "zinc:tx:GpUvo7Xl8gXn",
-      "ts": 1762886951,
+      "id": "zinc:tx:K3aQZkkXfYAf",
+      "ts": 1764068581,
+      "label": "TechCrunch Disrupt Ticket",
+      "amount": {
+        "value": 995,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "TechCrunch Disrupt Ticket",
+        "category": "conference",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": false
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:tuFtc9BSsEvl",
+      "ts": 1763101798,
+      "label": "Vercel Pro",
+      "amount": {
+        "value": 20,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Vercel Pro",
+        "category": "cloud",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:7m4yN5dQkZU9",
+      "ts": 1763012261,
+      "label": "Figma Business",
+      "amount": {
+        "value": 45,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "Figma Business",
+        "category": "design",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:CNfMJ482AL13",
+      "ts": 1762931869,
+      "label": "OpenAI API",
+      "amount": {
+        "value": 95,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "OpenAI API",
+        "category": "ai",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:NN1aQsmKbn7n",
+      "ts": 1762927904,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -741,6 +720,27 @@
       "merchant": {
         "name": "GitHub Enterprise",
         "category": "software",
+        "country": "US"
+      },
+      "account_id": "zinc:acc:jose:usd",
+      "ext": {
+        "is_subscription": true
+      }
+    },
+    {
+      "uadp_type": "uadp:transaction",
+      "id": "zinc:tx:pUvo7Xl8gXnx",
+      "ts": 1762925446,
+      "label": "AWS Services",
+      "amount": {
+        "value": 187.5,
+        "currency": "USD"
+      },
+      "direction": "out",
+      "status": "completed",
+      "merchant": {
+        "name": "AWS Services",
+        "category": "cloud",
         "country": "US"
       },
       "account_id": "zinc:acc:jose:usd",

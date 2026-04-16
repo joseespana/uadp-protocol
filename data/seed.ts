@@ -8,6 +8,7 @@
 import { faker } from '@faker-js/faker/locale/en'
 import { writeFileSync, mkdirSync } from 'fs'
 import { join } from 'path'
+import { generateArticleBody } from './article-bodies'
 
 // ---------------------------------------------------------------------------
 // Deterministic seed & output
@@ -1545,6 +1546,7 @@ function generateHeraldArticles() {
         'Alternative runtimes bet on full Node compatibility',
         'The future of databases: SQL is not dead',
         'MacBook Pro M5 Pro and M5 Max: Apple\'s Fusion Architecture changes everything',
+        'iPhone 17 Pro vs Samsung Galaxy S27 Ultra: the definitive comparison',
       ],
     },
     {
@@ -1685,44 +1687,49 @@ function generateHeraldArticles() {
   for (const { cat, titlePool } of categoryPool) {
     for (let i = 0; i < titlePool.length; i++) {
       const artId = uid('herald:art')
-      const p1 = faker.lorem.paragraphs(1)
-      const p2 = faker.lorem.paragraphs(1)
-      const p3 = faker.lorem.paragraphs(1)
+      const body = generateArticleBody(titlePool[i], cat)
+      const words = body.split(/\s+/).length
+      // Extract first 2 sentences as summary (instead of lorem)
+      const firstParagraph = body.split('\n\n').find(p => p.length > 40 && !p.startsWith('#')) || ''
+      const summary = firstParagraph.slice(0, 280).trim() + (firstParagraph.length > 280 ? '…' : '')
       articles.push({
         uadp_type: 'uadp:article',
         id: artId,
         ts: tsRandom(180),
         label: titlePool[i],
         title: titlePool[i],
-        summary: faker.lorem.sentences(2),
-        body_markdown: `# ${titlePool[i]}\n\n${p1}\n\n${p2}\n\n${p3}`,
+        summary,
+        body_markdown: body,
         category: cat,
         author_name: `${faker.person.firstName()} ${faker.person.lastName()}`,
         image_url: picsum(`herald_${cat}_${i}`, 1200, 630),
-        read_time_min: faker.number.int({ min: 3, max: 15 }),
+        read_time_min: Math.max(2, Math.round(words / 220)),
       })
     }
   }
 
-  // Pad to 500 articles
+  // Pad to 500 articles using category-specific coherent content
   while (articles.length < 500) {
     const { cat, titlePool } = faker.helpers.arrayElement(categoryPool)
     const artId = uid('herald:art')
-    const title = `${faker.helpers.arrayElement(titlePool).split(':')[0]}: ${faker.lorem.sentence().slice(0, 40)}`
-    const p1 = faker.lorem.paragraphs(1)
-    const p2 = faker.lorem.paragraphs(1)
+    const baseTitle = faker.helpers.arrayElement(titlePool).split(':')[0]
+    const title = `${baseTitle}: ${faker.company.catchPhrase()}`
+    const body = generateArticleBody(title, cat)
+    const words = body.split(/\s+/).length
+    const firstParagraph = body.split('\n\n').find(p => p.length > 40 && !p.startsWith('#')) || ''
+    const summary = firstParagraph.slice(0, 280).trim() + (firstParagraph.length > 280 ? '…' : '')
     articles.push({
       uadp_type: 'uadp:article',
       id: artId,
       ts: tsRandom(180),
       label: title,
       title,
-      summary: faker.lorem.sentences(2),
-      body_markdown: `# ${title}\n\n${p1}\n\n${p2}`,
+      summary,
+      body_markdown: body,
       category: cat,
       author_name: `${faker.person.firstName()} ${faker.person.lastName()}`,
       image_url: picsum(`herald_extra_${articles.length}`, 1200, 630),
-      read_time_min: faker.number.int({ min: 3, max: 12 }),
+      read_time_min: Math.max(2, Math.round(words / 220)),
     })
   }
 
