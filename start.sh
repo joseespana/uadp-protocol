@@ -141,6 +141,26 @@ do_restart() {
   ok "All services rebuilt and restarted"
 }
 
+do_restart_one() {
+  local svc="$1"
+  header "Rebuilding & restarting: $svc"
+  echo -e "  Stopping ${CYAN}$svc${NC}..."
+  docker compose stop "$svc" 2>/dev/null || true
+  docker compose rm -f "$svc" 2>/dev/null || true
+  echo -e "  Building ${CYAN}$svc${NC}..."
+  docker compose build "$svc"
+  echo -e "  Starting ${CYAN}$svc${NC}..."
+  docker compose up -d "$svc"
+  sleep 2
+  local status
+  status=$(docker compose ps "$svc" --format '{{.Status}}' 2>/dev/null | head -1)
+  if echo "$status" | grep -q "Up"; then
+    ok "$svc is running: $status"
+  else
+    fail "$svc may have failed — check logs: ./start.sh logs $svc"
+  fi
+}
+
 do_logs() {
   local svc="${1:-}"
   if [ -n "$svc" ]; then
@@ -217,12 +237,13 @@ show_menu() {
   echo ""
   echo -e "  ${GREEN}1)${NC} ${BOLD}Start${NC}        Build & start all services"
   echo -e "  ${GREEN}2)${NC} ${BOLD}Stop${NC}         Stop all services"
-  echo -e "  ${GREEN}3)${NC} ${BOLD}Restart${NC}      Rebuild & restart"
+  echo -e "  ${GREEN}3)${NC} ${BOLD}Restart${NC}      Rebuild & restart all"
   echo -e "  ${GREEN}4)${NC} ${BOLD}Rebuild${NC}      Full rebuild (no cache)"
-  echo -e "  ${YELLOW}5)${NC} ${BOLD}Reinstall${NC}    Nuclear: destroy all → reinstall → reseed → rebuild"
-  echo -e "  ${DIM}6)${NC} ${BOLD}Status${NC}       Show running containers"
-  echo -e "  ${DIM}7)${NC} ${BOLD}Logs${NC}         Tail all logs"
-  echo -e "  ${DIM}8)${NC} ${BOLD}Service log${NC}   Tail a specific service"
+  echo -e "  ${CYAN}5)${NC} ${BOLD}Restart one${NC}  Rebuild & restart a single service"
+  echo -e "  ${YELLOW}6)${NC} ${BOLD}Reinstall${NC}    Nuclear: destroy all → reinstall → reseed → rebuild"
+  echo -e "  ${DIM}7)${NC} ${BOLD}Status${NC}       Show running containers"
+  echo -e "  ${DIM}8)${NC} ${BOLD}Logs${NC}         Tail all logs"
+  echo -e "  ${DIM}9)${NC} ${BOLD}Service log${NC}   Tail a specific service"
   echo -e "  ${RED}0)${NC} ${BOLD}Exit${NC}"
   echo ""
   echo -ne "  ${BOLD}Pick an option: ${NC}"
@@ -238,10 +259,20 @@ run_menu() {
       2) do_down; break ;;
       3) prechecks; do_restart; break ;;
       4) prechecks; do_rebuild; break ;;
-      5) prechecks; do_reinstall; break ;;
-      6) do_status ;;
-      7) do_logs; break ;;
-      8)
+      5)
+        echo ""
+        echo -ne "  ${BOLD}Service name${NC} (scraper, herald, nova, stream...): "
+        read -r svc_name
+        if [ -n "$svc_name" ]; then
+          prechecks; do_restart_one "$svc_name"; break
+        else
+          warn "No service name provided"
+        fi
+        ;;
+      6) prechecks; do_reinstall; break ;;
+      7) do_status ;;
+      8) do_logs; break ;;
+      9)
         echo ""
         echo -ne "  ${BOLD}Service name${NC} (nova, orbit, stream...): "
         read -r svc_name
@@ -273,24 +304,36 @@ shift
 prechecks
 
 case "$ACTION" in
-  up|start)     do_up ;;
-  down|stop)    do_down ;;
-  restart)      do_restart ;;
-  logs)         do_logs "${1:-}" ;;
-  rebuild)      do_rebuild ;;
-  reinstall)    do_reinstall ;;
-  status)       do_status ;;
+  up|start)         do_up ;;
+  down|stop)        do_down ;;
+  restart)          do_restart ;;
+  restart-one)
+    if [ -z "${1:-}" ]; then
+      echo "Usage: ./start.sh restart-one <service>"
+      echo "  e.g. ./start.sh restart-one scraper"
+      exit 1
+    fi
+    do_restart_one "$1" ;;
+  logs)             do_logs "${1:-}" ;;
+  rebuild)          do_rebuild ;;
+  reinstall)        do_reinstall ;;
+  status)           do_status ;;
   *)
     echo "Usage: ./start.sh [command]"
     echo ""
-    echo "  No args     Interactive menu"
-    echo "  up          Stop old → build → start all services"
-    echo "  down        Stop all services"
-    echo "  restart     Rebuild and restart all services"
-    echo "  logs        Tail logs (optional: ./start.sh logs nova)"
-    echo "  rebuild     Full rebuild (no cache, removes old images)"
-    echo "  reinstall   Nuclear: destroy everything, reinstall deps, reseed, rebuild"
-    echo "  status      Show running containers"
+    echo "  No args          Interactive menu"
+    echo "  up               Stop old → build → start all services"
+    echo "  down             Stop all services"
+    echo "  restart          Rebuild and restart all services"
+    echo "  restart-one SVC  Rebuild and restart a single service"
+    echo "  logs [SVC]       Tail logs (optional: ./start.sh logs nova)"
+    echo "  rebuild          Full rebuild (no cache, removes old images)"
+    echo "  reinstall        Nuclear: destroy everything, reinstall deps, reseed, rebuild"
+    echo "  status           Show running containers"
+    echo ""
+    echo "Examples:"
+    echo "  ./start.sh restart-one scraper"
+    echo "  ./start.sh logs herald"
     exit 1
     ;;
 esac
