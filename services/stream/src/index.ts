@@ -1,6 +1,6 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
-import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, type UadpManifest } from 'cosmos-core'
+import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, connectMongo, createMongoFeed, type UadpManifest } from 'cosmos-core'
 
 // ── Data ────────────────────────────────────────────────────────────────────
 
@@ -46,8 +46,15 @@ interface StreamData {
 
 const allUsersData = loadAllUsersData<StreamData>('stream-history')
 
+// MongoDB feed for real scraped videos — falls back to static JSON
+await connectMongo()
+const staticFeed = (allUsersData.get('alejandro') ?? { feed: [] }).feed ?? []
+const mongoFeed = createMongoFeed<StreamVideo>('videos', staticFeed, { limit: 300 })
+
 function getUserData(userId: string): StreamData {
-  return allUsersData.get(userId) || allUsersData.get('alejandro') || { feed: [], history: [], subscriptions: [], user_videos: [] }
+  const base = allUsersData.get(userId) || allUsersData.get('alejandro') || { feed: [], history: [], subscriptions: [], user_videos: [] }
+  // Merge MongoDB videos into the feed (real scraped content takes priority)
+  return { ...base, feed: [...mongoFeed.getItems(), ...base.feed] }
 }
 
 // ── Manifest ────────────────────────────────────────────────────────────────

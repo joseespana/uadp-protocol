@@ -1,6 +1,6 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
-import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, USERS, getUserById } from 'cosmos-core'
+import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, USERS, getUserById, connectMongo, createMongoFeed } from 'cosmos-core'
 import type { UadpManifest, UadpPost, UadpNotification, UadpAiHints } from 'cosmos-core'
 
 // ---------- Data ----------
@@ -13,6 +13,11 @@ interface NovaData {
 }
 
 const allUsersData = loadAllUsersData<NovaData>('nova-posts')
+
+// MongoDB feed for real scraped social posts — falls back to static JSON
+await connectMongo()
+const staticPosts = (allUsersData.get('alejandro') ?? { feed: [] }).feed ?? []
+const mongoPosts = createMongoFeed<UadpPost>('posts', [], { limit: 200 })
 
 // Per-user mutable state
 const userPosts = new Map<string, UadpPost[]>()
@@ -36,7 +41,9 @@ for (const [userId, data] of allUsersData) {
 }
 
 function getUserPosts(userId: string): UadpPost[] {
-  return userPosts.get(userId) || userPosts.get('alejandro') || []
+  const base = userPosts.get(userId) || userPosts.get('alejandro') || []
+  const scraped = mongoPosts.getItems()
+  return scraped.length > 0 ? [...scraped, ...base] : base
 }
 
 function getUserProfiles(userId: string): Map<string, UadpPost['author']> {

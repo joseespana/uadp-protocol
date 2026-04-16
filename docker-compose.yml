@@ -31,6 +31,10 @@ services:
     build: .
     command: bun run services/nova/src/index.ts
     restart: unless-stopped
+    env_file: packages/uadp-scraper/.env
+    networks:
+      - default
+      - perseusoft-mongodb-network
 
   pulse:
     build: .
@@ -56,6 +60,10 @@ services:
     build: .
     command: bun run services/stream/src/index.ts
     restart: unless-stopped
+    env_file: packages/uadp-scraper/.env
+    networks:
+      - default
+      - perseusoft-mongodb-network
 
   echo:
     build: .
@@ -66,11 +74,19 @@ services:
     build: .
     command: bun run services/herald/src/index.ts
     restart: unless-stopped
+    env_file: packages/uadp-scraper/.env
+    networks:
+      - default
+      - perseusoft-mongodb-network
 
   lyra:
     build: .
     command: bun run services/lyra/src/index.ts
     restart: unless-stopped
+    env_file: packages/uadp-scraper/.env
+    networks:
+      - default
+      - perseusoft-mongodb-network
 
   vortex:
     build: .

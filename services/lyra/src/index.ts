@@ -1,6 +1,6 @@
 import { Elysia, t } from 'elysia'
 import { cors } from '@elysiajs/cors'
-import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, type UadpManifest } from 'cosmos-core'
+import { loadAllUsersData, requestLogger, uadpAuth, uadpAuthRoutes, connectMongo, createMongoFeed, type UadpManifest } from 'cosmos-core'
 
 // ── Data ────────────────────────────────────────────────────────────────────
 
@@ -42,8 +42,15 @@ interface LyraData {
 
 const allUsersData = loadAllUsersData<LyraData>('lyra-music')
 
+// MongoDB feed for real scraped tracks — falls back to static JSON
+await connectMongo()
+const staticTracks = (allUsersData.get('alejandro') ?? { tracks: [] }).tracks ?? []
+const mongoTracks = createMongoFeed<LyraTrack>('tracks', [], { limit: 200 })
+
 function getUserData(userId: string): LyraData {
-  return allUsersData.get(userId) || allUsersData.get('alejandro') || { tracks: [], playlists: [], recently_played: [], liked_tracks: [], artists: [], albums: [] }
+  const base = allUsersData.get(userId) || allUsersData.get('alejandro') || { tracks: [], playlists: [], recently_played: [], liked_tracks: [], artists: [], albums: [] }
+  const scraped = mongoTracks.getItems()
+  return { ...base, tracks: scraped.length > 0 ? [...scraped, ...base.tracks] : base.tracks }
 }
 
 // Per-user liked tracks (mutable)
