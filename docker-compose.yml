@@ -96,3 +96,25 @@ services:
     build: .
     command: bun run services/atlas/src/index.ts
     restart: unless-stopped
+
+  # ─── Scraper + RSSHub ─────────────────────────────────────────────────
+  rsshub:
+    image: diygod/rsshub
+    restart: unless-stopped
+    ports: ['1200:1200']
+
+  scraper:
+    build:
+      context: .
+      dockerfile: packages/uadp-scraper/Dockerfile
+    restart: unless-stopped
+    env_file: packages/uadp-scraper/.env
+    depends_on:
+      - rsshub
+    networks:
+      - default
+      - perseusoft-mongodb-network
+
+networks:
+  perseusoft-mongodb-network:
+    external: true

@@ -42,6 +42,24 @@ prechecks() {
     exit 1
   fi
   ok "Docker daemon is running"
+
+  # Scraper .env
+  if [ ! -f "$SCRIPT_DIR/packages/uadp-scraper/.env" ]; then
+    warn "packages/uadp-scraper/.env not found — creating from example"
+    cp "$SCRIPT_DIR/packages/uadp-scraper/.env.example" \
+       "$SCRIPT_DIR/packages/uadp-scraper/.env"
+    warn "Edit packages/uadp-scraper/.env with LASTFM_API_KEY etc."
+  else
+    ok "Scraper .env found"
+  fi
+
+  # MongoDB network
+  if docker network inspect perseusoft-mongodb-network &>/dev/null; then
+    ok "perseusoft-mongodb-network found"
+  else
+    fail "perseusoft-mongodb-network not found — start MongoDB docker-compose first"
+    exit 1
+  fi
 }
 
 # ── Service list ───────────────────────────────────────
@@ -62,6 +80,8 @@ print_services() {
   echo -e "  ${CYAN}Compass${NC}   http://localhost:4012  (rides)"
   echo -e "  ${CYAN}Flame${NC}     http://localhost:4013  (food delivery)"
   echo -e "  ${CYAN}Atlas${NC}     http://localhost:4014  (calendar)"
+  echo -e "  ${CYAN}RSSHub${NC}    http://localhost:1200  (Twitter RSS proxy)"
+  echo -e "  ${CYAN}Scraper${NC}   cron @ midnight UTC    (articles/videos/social/music → MongoDB)"
 }
 
 wait_for_gateway() {
@@ -79,7 +99,7 @@ wait_for_gateway() {
   if [ "$READY" -eq 1 ]; then
     ok "Gateway is responding!"
     echo ""
-    echo -e "  ${GREEN}All 15 services are running in the background.${NC}"
+    echo -e "  ${GREEN}All services are running in the background (15 UADP + RSSHub + Scraper).${NC}"
     echo -e "  Closing this terminal will ${BOLD}NOT${NC} stop them."
     echo ""
     echo -e "  ${YELLOW}./start.sh logs${NC}         Tail all logs"
