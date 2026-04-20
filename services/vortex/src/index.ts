@@ -46,7 +46,7 @@ for (const [userId, data] of allUsersData) {
 }
 
 function getContinueWatching(userId: string): VortexTitle[] {
-  return userContinueWatching.get(userId) || userContinueWatching.get('alejandro') || []
+  return userContinueWatching.get(userId) || userContinueWatching.get('jose_espana') || []
 }
 function getMyList(userId: string): Set<string> {
   if (!userMyList.has(userId)) userMyList.set(userId, new Set())

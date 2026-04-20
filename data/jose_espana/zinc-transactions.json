@@ -16,7 +16,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:1BJpsAYqD8fI",
-      "ts": 1776068419,
+      "ts": 1776419522,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -37,7 +37,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:3PkcC2doMv9U",
-      "ts": 1775979312,
+      "ts": 1776330415,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -58,7 +58,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:HLBcvI86ybsU",
-      "ts": 1775979233,
+      "ts": 1776330336,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -79,7 +79,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:YKRVTa48VTIi",
-      "ts": 1775895588,
+      "ts": 1776246691,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -100,7 +100,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:kNtV1Jc2AabT",
-      "ts": 1775895547,
+      "ts": 1776246650,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -121,7 +121,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:8gmH10xckcLq",
-      "ts": 1775438784,
+      "ts": 1775789887,
       "label": "Anthropic API Credits",
       "amount": {
         "value": 250,
@@ -142,7 +142,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:xItJLAz2e3Sy",
-      "ts": 1773472298,
+      "ts": 1773823401,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -163,7 +163,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:OP8ygXAJj6B3",
-      "ts": 1773465950,
+      "ts": 1773817053,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -184,7 +184,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:RnxDsSCN1BTI",
-      "ts": 1773382139,
+      "ts": 1773733242,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -205,7 +205,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:s5HJWYSqtCOz",
-      "ts": 1773382002,
+      "ts": 1773733105,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -226,7 +226,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:pxXKNJjAxXq3",
-      "ts": 1773303268,
+      "ts": 1773654371,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -247,7 +247,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:i0KXjlocCIi6",
-      "ts": 1772569840,
+      "ts": 1772920943,
       "label": "O'Reilly Annual Subscription",
       "amount": {
         "value": 499,
@@ -268,7 +268,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:2Nw6yPxj1vfj",
-      "ts": 1772466369,
+      "ts": 1772817472,
       "label": "Apple Developer Program",
       "amount": {
         "value": 99,
@@ -289,7 +289,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:sdVvw0c4sU78",
-      "ts": 1770788892,
+      "ts": 1771139995,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -310,7 +310,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:HRWX5QNaFNHA",
-      "ts": 1770709476,
+      "ts": 1771060579,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -331,7 +331,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:61qULDavfwwK",
-      "ts": 1770709149,
+      "ts": 1771060252,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -352,7 +352,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:hPdJsCl1dE8D",
-      "ts": 1770702072,
+      "ts": 1771053175,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -373,7 +373,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:WBjn2ItGoDIe",
-      "ts": 1770701484,
+      "ts": 1771052587,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -394,7 +394,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:erBD6hC62ZIX",
-      "ts": 1768291497,
+      "ts": 1768642600,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -415,7 +415,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:J9DE4JHNqsrk",
-      "ts": 1768196922,
+      "ts": 1768548025,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -436,7 +436,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:enTO5vE0ROFU",
-      "ts": 1768119118,
+      "ts": 1768470221,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -457,7 +457,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:99ivpNilVBjg",
-      "ts": 1768118072,
+      "ts": 1768469175,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -478,7 +478,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:WS5rmfydSGzl",
-      "ts": 1768115811,
+      "ts": 1768466914,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -499,7 +499,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:qZsxE8pN8rKn",
-      "ts": 1766536840,
+      "ts": 1766887943,
       "label": "AWS re:Invent Registration",
       "amount": {
         "value": 1799,
@@ -520,7 +520,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:BfJyC5QPm3Jp",
-      "ts": 1765613560,
+      "ts": 1765964663,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -541,7 +541,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:8hXCqKCVJ5As",
-      "ts": 1765605720,
+      "ts": 1765956823,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -562,7 +562,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:qOnyAsk0jfj6",
-      "ts": 1765525508,
+      "ts": 1765876611,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,
@@ -583,7 +583,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:HNgqluMysYtJ",
-      "ts": 1765521852,
+      "ts": 1765872955,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -604,7 +604,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:Ixy5igPt1kJi",
-      "ts": 1765521743,
+      "ts": 1765872846,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -625,7 +625,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:K3aQZkkXfYAf",
-      "ts": 1764068581,
+      "ts": 1764419684,
       "label": "TechCrunch Disrupt Ticket",
       "amount": {
         "value": 995,
@@ -646,7 +646,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:tuFtc9BSsEvl",
-      "ts": 1763101798,
+      "ts": 1763452901,
       "label": "Vercel Pro",
       "amount": {
         "value": 20,
@@ -667,7 +667,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:7m4yN5dQkZU9",
-      "ts": 1763012261,
+      "ts": 1763363364,
       "label": "Figma Business",
       "amount": {
         "value": 45,
@@ -688,7 +688,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:CNfMJ482AL13",
-      "ts": 1762931869,
+      "ts": 1763282972,
       "label": "OpenAI API",
       "amount": {
         "value": 95,
@@ -709,7 +709,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:NN1aQsmKbn7n",
-      "ts": 1762927904,
+      "ts": 1763279007,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -730,7 +730,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "zinc:tx:pUvo7Xl8gXnx",
-      "ts": 1762925446,
+      "ts": 1763276549,
       "label": "AWS Services",
       "amount": {
         "value": 187.5,

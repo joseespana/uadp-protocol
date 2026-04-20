@@ -74,16 +74,16 @@ for (const [userId, data] of allUsersData) {
 }
 
 function getAllPosts(userId: string): PulsePhoto[] {
-  return userAllPosts.get(userId) || userAllPosts.get('alejandro') || []
+  return userAllPosts.get(userId) || userAllPosts.get('jose_espana') || []
 }
 function getStories(userId: string): PulseStory[] {
-  return userStories.get(userId) || userStories.get('alejandro') || []
+  return userStories.get(userId) || userStories.get('jose_espana') || []
 }
 function getExplore(userId: string): PulsePhoto[] {
-  return userExplore.get(userId) || userExplore.get('alejandro') || []
+  return userExplore.get(userId) || userExplore.get('jose_espana') || []
 }
 function getProfiles(userId: string): Map<string, PulsePhoto['author']> {
-  return userProfiles.get(userId) || userProfiles.get('alejandro') || new Map()
+  return userProfiles.get(userId) || userProfiles.get('jose_espana') || new Map()
 }
 
 // ── UADP Manifest ───────────────────────────────────────────────────────────

@@ -48,11 +48,11 @@ const allUsersData = loadAllUsersData<StreamData>('stream-history')
 
 // MongoDB feed for real scraped videos — falls back to static JSON
 await connectMongo()
-const staticFeed = (allUsersData.get('alejandro') ?? { feed: [] }).feed ?? []
+const staticFeed = (allUsersData.get('jose_espana') ?? { feed: [] }).feed ?? []
 const mongoFeed = createMongoFeed<StreamVideo>('videos', staticFeed, { limit: 300 })
 
 function getUserData(userId: string): StreamData {
-  const base = allUsersData.get(userId) || allUsersData.get('alejandro') || { feed: [], history: [], subscriptions: [], user_videos: [] }
+  const base = allUsersData.get(userId) || allUsersData.get('jose_espana') || { feed: [], history: [], subscriptions: [], user_videos: [] }
   // Merge MongoDB videos into the feed (real scraped content takes priority)
   return { ...base, feed: [...mongoFeed.getItems(), ...base.feed] }
 }
@@ -160,7 +160,7 @@ const manifest: UadpManifest = {
   featured: [
     { uadp_type: 'uadp:video', title: 'Rust vs Go in 2026 — which one should you learn?', category: 'tech-reviews', channel: 'CodeLab MX'   },
     { uadp_type: 'uadp:video', title: 'Building a REST API with Bun + Elysia in 20 min',  category: 'tutorials',    channel: 'DevStream LATAM' },
-    { uadp_type: 'uadp:video', title: 'My CDMX apartment studio setup — 2026 edition',    category: 'vlogs',        channel: 'AlejandroVega' },
+    { uadp_type: 'uadp:video', title: 'My SF apartment studio setup — 2026 edition',      category: 'vlogs',        channel: 'JoseEspana' },
   ],
   quality: {
     data_source:       'user-generated',

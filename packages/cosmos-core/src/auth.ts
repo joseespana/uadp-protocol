@@ -33,9 +33,9 @@ export function uadpAuth() {
           userId = cosmosUserHeader
         }
 
-        // Default to alejandro if nothing provided
+        // Default to jose_espana if nothing provided
         if (!userId) {
-          userId = 'alejandro'
+          userId = 'jose_espana'
         }
 
         return { userId, authToken }

@@ -3,58 +3,6 @@
     {
       "uadp_type": "uadp:calendar_event",
       "id": "atlas:event:vrcQiqaFRIyi",
-      "ts": 1775721600,
-      "label": "Daily Standup",
-      "title": "Daily Standup",
-      "description": "Daily team standup meeting",
-      "start_ts": 1775721600,
-      "end_ts": 1775722500,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "daily",
-      "attendees": [
-        {
-          "name": "Jose España",
-          "email": "jose.espana@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:mfyaZC6DDKC1",
-      "ts": 1775808000,
-      "label": "Daily Standup",
-      "title": "Daily Standup",
-      "description": "Daily team standup meeting",
-      "start_ts": 1775808000,
-      "end_ts": 1775808900,
-      "all_day": false,
-      "calendar": "Work",
-      "color": "#0B8043",
-      "recurrence": "daily",
-      "attendees": [
-        {
-          "name": "Jose España",
-          "email": "jose.espana@perseusoft.tech",
-          "status": "accepted"
-        },
-        {
-          "name": "Laura Chen",
-          "email": "laura.chen@perseusoft.tech",
-          "status": "accepted"
-        }
-      ]
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:hiGe4o5AqGzh",
       "ts": 1776067200,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -80,7 +28,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:9ZbYYTUSvuJ1",
+      "id": "atlas:event:mfyaZC6DDKC1",
       "ts": 1776070800,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -94,7 +42,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:hVFclVSZ9QyU",
+      "id": "atlas:event:hiGe4o5AqGzh",
       "ts": 1776153600,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -120,7 +68,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:YfBW98wjMudW",
+      "id": "atlas:event:9ZbYYTUSvuJ1",
       "ts": 1776240000,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -146,7 +94,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:nwSypw0w6g0D",
+      "id": "atlas:event:hVFclVSZ9QyU",
       "ts": 1776254400,
       "label": "QA Review Session",
       "title": "QA Review Session",
@@ -160,7 +108,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:JUXzaz0r0OwD",
+      "id": "atlas:event:YfBW98wjMudW",
       "ts": 1776326400,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -186,7 +134,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:ISGYTxWp9QY2",
+      "id": "atlas:event:nwSypw0w6g0D",
       "ts": 1776412800,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -212,22 +160,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:715xSlR3eW8D",
-      "ts": 1776618000,
-      "label": "Pizza Night with Friends",
-      "title": "Pizza Night with Friends",
-      "description": "Weekly pizza and gaming night",
-      "start_ts": 1776618000,
-      "end_ts": 1776621600,
-      "all_day": false,
-      "location": "Marco's apartment",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:oVb7E0g80h7f",
+      "id": "atlas:event:JUXzaz0r0OwD",
       "ts": 1776672000,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -253,7 +186,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:Wua8acT5pnMt",
+      "id": "atlas:event:ISGYTxWp9QY2",
       "ts": 1776675600,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -267,7 +200,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:B5zu4igfl7sv",
+      "id": "atlas:event:oVb7E0g80h7f",
       "ts": 1776758400,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -293,22 +226,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:UwJxUwT7w7Cn",
-      "ts": 1776787200,
-      "label": "Gaming Tournament — Pixel Arena",
-      "title": "Gaming Tournament — Pixel Arena",
-      "description": "Monthly gaming tournament. Competitive bracket.",
-      "start_ts": 1776787200,
-      "end_ts": 1776790800,
-      "all_day": false,
-      "location": "Pixel Arena, Mission, SF",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:CgSQDByRAfjN",
+      "id": "atlas:event:Wua8acT5pnMt",
       "ts": 1776844800,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -334,7 +252,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:vc7PFlwvaGrM",
+      "id": "atlas:event:B5zu4igfl7sv",
       "ts": 1776859200,
       "label": "QA Review Session",
       "title": "QA Review Session",
@@ -348,21 +266,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:syu4XcNUMyWv",
-      "ts": 1776880800,
-      "label": "Rust Study Group",
-      "title": "Rust Study Group",
-      "description": "Weekly Rust learning session online",
-      "start_ts": 1776880800,
-      "end_ts": 1776884400,
-      "all_day": false,
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:yx7ghtCJONeb",
+      "id": "atlas:event:CgSQDByRAfjN",
       "ts": 1776931200,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -388,7 +292,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:MDgwUVjdEAgd",
+      "id": "atlas:event:wbOSllSzMOxN",
+      "ts": 1776963600,
+      "label": "Pizza Night with Friends",
+      "title": "Pizza Night with Friends",
+      "description": "Weekly pizza and gaming night",
+      "start_ts": 1776963600,
+      "end_ts": 1776967200,
+      "all_day": false,
+      "location": "Marco's apartment",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:vc7PFlwvaGrM",
       "ts": 1777017600,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -414,22 +333,36 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:wbOSllSzMOxN",
-      "ts": 1777032000,
-      "label": "Gaming PC Upgrade",
-      "title": "Gaming PC Upgrade",
-      "description": "Pick up new GPU from store",
-      "start_ts": 1777032000,
-      "end_ts": 1777035600,
+      "id": "atlas:event:715xSlR3eW8D",
+      "ts": 1777132800,
+      "label": "Gaming Tournament — Pixel Arena",
+      "title": "Gaming Tournament — Pixel Arena",
+      "description": "Monthly gaming tournament. Competitive bracket.",
+      "start_ts": 1777132800,
+      "end_ts": 1777136400,
       "all_day": false,
-      "location": "TechZone, Westfield Mall",
+      "location": "Pixel Arena, Mission, SF",
       "calendar": "Personal",
       "color": "#4285F4",
       "recurrence": null
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:bUmQ6D9T2h2s",
+      "id": "atlas:event:uJ83q6DyK0Qd",
+      "ts": 1777226400,
+      "label": "Rust Study Group",
+      "title": "Rust Study Group",
+      "description": "Weekly Rust learning session online",
+      "start_ts": 1777226400,
+      "end_ts": 1777230000,
+      "all_day": false,
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:yx7ghtCJONeb",
       "ts": 1777276800,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -455,7 +388,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:oZDOV5i5SIhh",
+      "id": "atlas:event:MDgwUVjdEAgd",
       "ts": 1777280400,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -469,7 +402,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:FTYxNKARx7Xe",
+      "id": "atlas:event:bUmQ6D9T2h2s",
       "ts": 1777363200,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -495,22 +428,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:hHDwoCbZRpDp",
-      "ts": 1777399200,
-      "label": "Sara's Birthday",
-      "title": "Sara's Birthday",
-      "description": "College friend Sara's birthday party",
-      "start_ts": 1777399200,
-      "end_ts": 1777402800,
+      "id": "atlas:event:Zi4nr2xTUFUu",
+      "ts": 1777377600,
+      "label": "Gaming PC Upgrade",
+      "title": "Gaming PC Upgrade",
+      "description": "Pick up new GPU from store",
+      "start_ts": 1777377600,
+      "end_ts": 1777381200,
       "all_day": false,
-      "location": "Sara's apartment, SoMa",
+      "location": "TechZone, Westfield Mall",
       "calendar": "Personal",
       "color": "#4285F4",
       "recurrence": null
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:s8keOMCPAd9d",
+      "id": "atlas:event:oZDOV5i5SIhh",
       "ts": 1777449600,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -536,7 +469,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:ekAG1EBmmsk2",
+      "id": "atlas:event:FTYxNKARx7Xe",
       "ts": 1777464000,
       "label": "QA Review Session",
       "title": "QA Review Session",
@@ -550,7 +483,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:ofbTtCp5qkX8",
+      "id": "atlas:event:s8keOMCPAd9d",
       "ts": 1777536000,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -576,7 +509,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:7fkPG2BhwWHe",
+      "id": "atlas:event:ekAG1EBmmsk2",
       "ts": 1777622400,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -603,21 +536,21 @@
     {
       "uadp_type": "uadp:calendar_event",
       "id": "atlas:event:RjkoACkXUwzZ",
-      "ts": 1777626000,
-      "label": "Dentist Appointment",
-      "title": "Dentist Appointment",
-      "description": "Annual checkup",
-      "start_ts": 1777626000,
-      "end_ts": 1777629600,
+      "ts": 1777744800,
+      "label": "Sara's Birthday",
+      "title": "Sara's Birthday",
+      "description": "College friend Sara's birthday party",
+      "start_ts": 1777744800,
+      "end_ts": 1777748400,
       "all_day": false,
-      "location": "Dental Clinic, Market St",
+      "location": "Sara's apartment, SoMa",
       "calendar": "Personal",
       "color": "#4285F4",
       "recurrence": null
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:Teddgr27u4Bf",
+      "id": "atlas:event:ofbTtCp5qkX8",
       "ts": 1777881600,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -643,7 +576,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:6mKU6SuMXrwZ",
+      "id": "atlas:event:7fkPG2BhwWHe",
       "ts": 1777885200,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -657,7 +590,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:IiR5WzrFfWRL",
+      "id": "atlas:event:Teddgr27u4Bf",
       "ts": 1777968000,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -683,7 +616,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:n9SFc5f6ueQu",
+      "id": "atlas:event:xSYvNtk3Yq1f",
+      "ts": 1777971600,
+      "label": "Dentist Appointment",
+      "title": "Dentist Appointment",
+      "description": "Annual checkup",
+      "start_ts": 1777971600,
+      "end_ts": 1777975200,
+      "all_day": false,
+      "location": "Dental Clinic, Market St",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:6mKU6SuMXrwZ",
       "ts": 1778054400,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -709,22 +657,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:QDYqSQxYZ410",
-      "ts": 1778054400,
-      "label": "Anime Convention SF",
-      "title": "Anime Convention SF",
-      "description": "Annual anime convention. Cosplay contest and merch.",
-      "start_ts": 1778054400,
-      "end_ts": 1778058000,
-      "all_day": false,
-      "location": "Moscone Center, SF",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:0XPow5BzkAkw",
+      "id": "atlas:event:IiR5WzrFfWRL",
       "ts": 1778068800,
       "label": "QA Review Session",
       "title": "QA Review Session",
@@ -738,7 +671,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:I8fuzawVrua2",
+      "id": "atlas:event:n9SFc5f6ueQu",
       "ts": 1778140800,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -764,7 +697,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:Sqsz7BPdS8BG",
+      "id": "atlas:event:0XPow5BzkAkw",
       "ts": 1778227200,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -790,7 +723,22 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:Sfe5RRFTB1RU",
+      "id": "atlas:event:syu4XcNUMyWv",
+      "ts": 1778400000,
+      "label": "Anime Convention SF",
+      "title": "Anime Convention SF",
+      "description": "Annual anime convention. Cosplay contest and merch.",
+      "start_ts": 1778400000,
+      "end_ts": 1778403600,
+      "all_day": false,
+      "location": "Moscone Center, SF",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:I8fuzawVrua2",
       "ts": 1778486400,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -816,7 +764,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:UWKnacdcfXln",
+      "id": "atlas:event:Sqsz7BPdS8BG",
       "ts": 1778490000,
       "label": "Sprint Planning",
       "title": "Sprint Planning",
@@ -830,22 +778,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:uJ83q6DyK0Qd",
-      "ts": 1778518800,
-      "label": "College Alumni Meetup",
-      "title": "College Alumni Meetup",
-      "description": "Semester reunion",
-      "start_ts": 1778518800,
-      "end_ts": 1778522400,
-      "all_day": false,
-      "location": "University Campus",
-      "calendar": "Personal",
-      "color": "#4285F4",
-      "recurrence": null
-    },
-    {
-      "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:AviZaa0OgnJq",
+      "id": "atlas:event:Sfe5RRFTB1RU",
       "ts": 1778572800,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -871,7 +804,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:HJDDs7qEF2B7",
+      "id": "atlas:event:UWKnacdcfXln",
       "ts": 1778659200,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -897,7 +830,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:jks6kgmY3gsP",
+      "id": "atlas:event:AviZaa0OgnJq",
       "ts": 1778673600,
       "label": "QA Review Session",
       "title": "QA Review Session",
@@ -911,7 +844,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:sd5FDBKZMN5n",
+      "id": "atlas:event:HJDDs7qEF2B7",
       "ts": 1778745600,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -937,7 +870,7 @@
     },
     {
       "uadp_type": "uadp:calendar_event",
-      "id": "atlas:event:dDZYYqBTCVVE",
+      "id": "atlas:event:jks6kgmY3gsP",
       "ts": 1778832000,
       "label": "Daily Standup",
       "title": "Daily Standup",
@@ -960,6 +893,127 @@
           "status": "accepted"
         }
       ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:JvINNe5hmOPk",
+      "ts": 1778864400,
+      "label": "College Alumni Meetup",
+      "title": "College Alumni Meetup",
+      "description": "Semester reunion",
+      "start_ts": 1778864400,
+      "end_ts": 1778868000,
+      "all_day": false,
+      "location": "University Campus",
+      "calendar": "Personal",
+      "color": "#4285F4",
+      "recurrence": null
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:sd5FDBKZMN5n",
+      "ts": 1779091200,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily team standup meeting",
+      "start_ts": 1779091200,
+      "end_ts": 1779092100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Jose España",
+          "email": "jose.espana@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:dDZYYqBTCVVE",
+      "ts": 1779094800,
+      "label": "Sprint Planning",
+      "title": "Sprint Planning",
+      "description": "Monday sprint planning with the team",
+      "start_ts": 1779094800,
+      "end_ts": 1779098400,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly"
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:UwJxUwT7w7Cn",
+      "ts": 1779177600,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily team standup meeting",
+      "start_ts": 1779177600,
+      "end_ts": 1779178500,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Jose España",
+          "email": "jose.espana@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:QDYqSQxYZ410",
+      "ts": 1779264000,
+      "label": "Daily Standup",
+      "title": "Daily Standup",
+      "description": "Daily team standup meeting",
+      "start_ts": 1779264000,
+      "end_ts": 1779264900,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "daily",
+      "attendees": [
+        {
+          "name": "Jose España",
+          "email": "jose.espana@perseusoft.tech",
+          "status": "accepted"
+        },
+        {
+          "name": "Laura Chen",
+          "email": "laura.chen@perseusoft.tech",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "uadp_type": "uadp:calendar_event",
+      "id": "atlas:event:hHDwoCbZRpDp",
+      "ts": 1779278400,
+      "label": "QA Review Session",
+      "title": "QA Review Session",
+      "description": "Weekly QA review — test results and bug triage",
+      "start_ts": 1779278400,
+      "end_ts": 1779281100,
+      "all_day": false,
+      "calendar": "Work",
+      "color": "#0B8043",
+      "recurrence": "weekly"
     }
   ],
   "calendars": [

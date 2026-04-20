@@ -27,7 +27,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:CuYpIgAph6Uf",
-      "ts": 1776303733,
+      "ts": 1776654836,
       "label": "Aroma Central",
       "amount": {
         "value": 5.96,
@@ -50,7 +50,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wjp0UIlkkXlh",
-      "ts": 1776294317,
+      "ts": 1776645420,
       "label": "RidaGo",
       "amount": {
         "value": 23.89,
@@ -73,7 +73,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4CgznTmylp50",
-      "ts": 1776275860,
+      "ts": 1776626963,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.67,
@@ -95,31 +95,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:KgX1Z3s9BVBz",
-      "ts": 1776240884,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 8500,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 65000,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:jose:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XpOIyQ9jQpSr",
-      "ts": 1776224713,
+      "ts": 1776575816,
       "label": "ThreadLine",
       "amount": {
         "value": 98.07,
@@ -142,7 +119,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:89vOBpRHIRjA",
-      "ts": 1776223769,
+      "ts": 1776574872,
       "label": "Blue Bottle",
       "amount": {
         "value": 5.09,
@@ -165,7 +142,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:gb6ww973j6aC",
-      "ts": 1776163384,
+      "ts": 1776514487,
       "label": "ThreadLine",
       "amount": {
         "value": 115.3,
@@ -188,7 +165,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:tZEPNEgzMzQK",
-      "ts": 1776151296,
+      "ts": 1776502399,
       "label": "Trader's Market",
       "amount": {
         "value": 131.82,
@@ -211,7 +188,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:5OE7KuywbRWE",
-      "ts": 1776138479,
+      "ts": 1776489583,
       "label": "CompassRide",
       "amount": {
         "value": 10.66,
@@ -234,7 +211,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:hCnnEN9K5iUG",
-      "ts": 1776115907,
+      "ts": 1776467010,
       "label": "State Bird Provisions",
       "amount": {
         "value": 31,
@@ -257,7 +234,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:tytaJJuXH5l3",
-      "ts": 1776065645,
+      "ts": 1776416749,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.68,
@@ -280,7 +257,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:rgVLM8s78CFT",
-      "ts": 1776006618,
+      "ts": 1776357722,
       "label": "Quince",
       "amount": {
         "value": 67.56,
@@ -302,8 +279,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:KgX1Z3s9BVBz",
+      "ts": 1776246387,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 65000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Cp3f2vkEsx2L",
-      "ts": 1775892427,
+      "ts": 1776243530,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -326,7 +326,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:5gViLFXWM3TY",
-      "ts": 1775892260,
+      "ts": 1776243363,
       "label": "GymFit Black",
       "amount": {
         "value": 59.99,
@@ -349,7 +349,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:O4yFIlzzyVTV",
-      "ts": 1775888434,
+      "ts": 1776239537,
       "label": "AWS Cloud Services",
       "amount": {
         "value": 165.78,
@@ -372,7 +372,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:LQO3T78h7o3i",
-      "ts": 1775875385,
+      "ts": 1776226488,
       "label": "Blue Bottle",
       "amount": {
         "value": 6.62,
@@ -395,7 +395,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:OGW3SR5wLDY3",
-      "ts": 1775807691,
+      "ts": 1776158794,
       "label": "FibraMax Fiber 500Mbps",
       "amount": {
         "value": 65,
@@ -418,7 +418,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XGmSUjhlpS0c",
-      "ts": 1775797044,
+      "ts": 1776148147,
       "label": "VortexPlay Premium",
       "amount": {
         "value": 15.99,
@@ -441,7 +441,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:c7Fhs3CQQAgU",
-      "ts": 1775794443,
+      "ts": 1776145546,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.03,
@@ -464,7 +464,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:glHrcMw4nhCc",
-      "ts": 1775721523,
+      "ts": 1776072626,
       "label": "Tesla Insurance",
       "amount": {
         "value": 195,
@@ -487,7 +487,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Ja8Qh4rJ2bR7",
-      "ts": 1775717566,
+      "ts": 1776068669,
       "label": "Rent - Pacific Heights Apt",
       "amount": {
         "value": 2800,
@@ -510,7 +510,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:62hhMbnBBDIX",
-      "ts": 1775716887,
+      "ts": 1776067990,
       "label": "Tesla Financing",
       "amount": {
         "value": 750,
@@ -533,7 +533,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:nZAz6LJiL9qm",
-      "ts": 1775705149,
+      "ts": 1776056252,
       "label": "Sol Kitchen",
       "amount": {
         "value": 41.3,
@@ -556,7 +556,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:CDKPyMgbmRAd",
-      "ts": 1775685500,
+      "ts": 1776036604,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.07,
@@ -579,7 +579,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:prriHQx3hrNW",
-      "ts": 1775665540,
+      "ts": 1776016643,
       "label": "Quince",
       "amount": {
         "value": 43.57,
@@ -602,7 +602,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:5ZwJnhYaCQvq",
-      "ts": 1775637110,
+      "ts": 1775988213,
       "label": "TechZone",
       "amount": {
         "value": 415.45,
@@ -625,7 +625,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:tNSUAlATRgpl",
-      "ts": 1775633340,
+      "ts": 1775984443,
       "label": "LyraMusic Family",
       "amount": {
         "value": 10.99,
@@ -648,7 +648,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:JOT4bgF74u8m",
-      "ts": 1775633339,
+      "ts": 1775984442,
       "label": "MobileX Premium Plan",
       "amount": {
         "value": 85,
@@ -671,7 +671,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VMGzbiiKYjvT",
-      "ts": 1775619258,
+      "ts": 1775970361,
       "label": "Blue Bottle",
       "amount": {
         "value": 6.15,
@@ -694,7 +694,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RuLdPvT9egFw",
-      "ts": 1775582797,
+      "ts": 1775933900,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.47,
@@ -717,7 +717,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:bsFgFpinBuvq",
-      "ts": 1775554003,
+      "ts": 1775905106,
       "label": "State Bird Provisions",
       "amount": {
         "value": 40.85,
@@ -740,7 +740,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ZoMPtqhWBjTY",
-      "ts": 1775531915,
+      "ts": 1775883018,
       "label": "SuperMart",
       "amount": {
         "value": 176.12,
@@ -763,7 +763,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:nLNcPY5jd5cP",
-      "ts": 1775497588,
+      "ts": 1775848691,
       "label": "Blue Bottle",
       "amount": {
         "value": 5.68,
@@ -786,7 +786,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:xK2R6GoVPA8z",
-      "ts": 1775438803,
+      "ts": 1775789906,
       "label": "Nopa",
       "amount": {
         "value": 74.2,
@@ -809,7 +809,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Bu4jlq8tEHRH",
-      "ts": 1775341709,
+      "ts": 1775692813,
       "label": "Quince",
       "amount": {
         "value": 69.28,
@@ -832,7 +832,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:yun8pLnVCXi4",
-      "ts": 1775311271,
+      "ts": 1775662374,
       "label": "Aroma Central",
       "amount": {
         "value": 6,
@@ -855,7 +855,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:vz5TvD2En37D",
-      "ts": 1775289135,
+      "ts": 1775640238,
       "label": "RidaGo",
       "amount": {
         "value": 17.96,
@@ -878,7 +878,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:9jaKAIIp7xvH",
-      "ts": 1775224676,
+      "ts": 1775575779,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.98,
@@ -901,7 +901,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:x0okr4bB2th2",
-      "ts": 1775124945,
+      "ts": 1775476048,
       "label": "Aroma Central",
       "amount": {
         "value": 5.62,
@@ -924,7 +924,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:L8JwrDrvmyiY",
-      "ts": 1775109122,
+      "ts": 1775460225,
       "label": "FreshCo",
       "amount": {
         "value": 199.17,
@@ -947,7 +947,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:mEsqOmcVmWqA",
-      "ts": 1775045459,
+      "ts": 1775396562,
       "label": "Sushi Kaze",
       "amount": {
         "value": 50.95,
@@ -969,31 +969,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:hvvubBl3ds8j",
-      "ts": 1775027389,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 8500,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 56500,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:jose:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:idhDOqUrIvxq",
-      "ts": 1775020128,
+      "ts": 1775371231,
       "label": "Atelier Crenn",
       "amount": {
         "value": 45.56,
@@ -1016,7 +993,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:y0LrcLrojGws",
-      "ts": 1774990727,
+      "ts": 1775341830,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.35,
@@ -1039,7 +1016,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:z56mJ5mRokQ3",
-      "ts": 1774949736,
+      "ts": 1775300840,
       "label": "Aroma Central",
       "amount": {
         "value": 6.79,
@@ -1062,7 +1039,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:6asegH2QFCwI",
-      "ts": 1774939247,
+      "ts": 1775290350,
       "label": "Cafe Ventana",
       "amount": {
         "value": 5.99,
@@ -1085,7 +1062,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:KnqpSBNxEU7u",
-      "ts": 1774866105,
+      "ts": 1775217208,
       "label": "RidaGo",
       "amount": {
         "value": 9.1,
@@ -1108,7 +1085,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:eXfGIszvGctR",
-      "ts": 1774839466,
+      "ts": 1775190569,
       "label": "Tesla Supercharger",
       "amount": {
         "value": 68.63,
@@ -1131,7 +1108,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:N983wPrY5bYq",
-      "ts": 1774775263,
+      "ts": 1775126366,
       "label": "Trick Dog",
       "amount": {
         "value": 45.13,
@@ -1153,8 +1130,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:hvvubBl3ds8j",
+      "ts": 1775032892,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 56500,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7XUFXSjADl8H",
-      "ts": 1774671707,
+      "ts": 1775022810,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.23,
@@ -1177,7 +1177,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XshqhyHVicr7",
-      "ts": 1774591249,
+      "ts": 1774942352,
       "label": "SafeTaxi",
       "amount": {
         "value": 12.43,
@@ -1200,7 +1200,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ksjajGLVEZEf",
-      "ts": 1774565146,
+      "ts": 1774916249,
       "label": "Trick Dog",
       "amount": {
         "value": 44.63,
@@ -1223,7 +1223,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:UGDNLNY1mNYq",
-      "ts": 1774506262,
+      "ts": 1774857366,
       "label": "CompassRide",
       "amount": {
         "value": 24.5,
@@ -1246,7 +1246,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:JA3onsFMuu3I",
-      "ts": 1774504546,
+      "ts": 1774855650,
       "label": "Blue Bottle",
       "amount": {
         "value": 6.16,
@@ -1269,7 +1269,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ZlL6rjxKIfns",
-      "ts": 1774437221,
+      "ts": 1774788324,
       "label": "Trick Dog",
       "amount": {
         "value": 77.99,
@@ -1292,7 +1292,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:gfk0RSQaeVIo",
-      "ts": 1774423212,
+      "ts": 1774774315,
       "label": "Trader's Market",
       "amount": {
         "value": 126.69,
@@ -1315,7 +1315,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4JCpW41aufJV",
-      "ts": 1774423031,
+      "ts": 1774774135,
       "label": "Blue Bottle",
       "amount": {
         "value": 6.91,
@@ -1338,7 +1338,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:kq7qG1W7niJR",
-      "ts": 1774364929,
+      "ts": 1774716032,
       "label": "Atelier Crenn",
       "amount": {
         "value": 78.96,
@@ -1361,7 +1361,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Nj4gp5gmdJLI",
-      "ts": 1774328713,
+      "ts": 1774679817,
       "label": "Aroma Central",
       "amount": {
         "value": 7.19,
@@ -1384,7 +1384,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:8I0wUMZfeW44",
-      "ts": 1774323374,
+      "ts": 1774674477,
       "label": "Cafe Ventana",
       "amount": {
         "value": 6.17,
@@ -1407,7 +1407,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:IS8Dj7Y2TwUf",
-      "ts": 1774285206,
+      "ts": 1774636310,
       "label": "Sushi Kaze",
       "amount": {
         "value": 28.26,
@@ -1430,7 +1430,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:EcxeA2LHnsk0",
-      "ts": 1774277629,
+      "ts": 1774628732,
       "label": "Bistro Valencia",
       "amount": {
         "value": 27.53,
@@ -1453,7 +1453,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:fxsJmY42cO0c",
-      "ts": 1774270172,
+      "ts": 1774621276,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 267.77,
@@ -1476,7 +1476,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:EYbDbgU0A6qN",
-      "ts": 1774245978,
+      "ts": 1774597081,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.86,
@@ -1499,7 +1499,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ShnOLR8Wd7GN",
-      "ts": 1774221254,
+      "ts": 1774572357,
       "label": "Bistro Valencia",
       "amount": {
         "value": 58.88,
@@ -1522,7 +1522,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:dKoRJq1bsm1R",
-      "ts": 1774148687,
+      "ts": 1774499791,
       "label": "Sol Kitchen",
       "amount": {
         "value": 59.03,
@@ -1545,7 +1545,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XUap8F1VeXxg",
-      "ts": 1774088639,
+      "ts": 1774439742,
       "label": "Sol Kitchen",
       "amount": {
         "value": 64.43,
@@ -1568,7 +1568,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:sdstHMdTChUT",
-      "ts": 1774081461,
+      "ts": 1774432564,
       "label": "Nopa",
       "amount": {
         "value": 66.55,
@@ -1591,7 +1591,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:UDK6miBxrQ20",
-      "ts": 1774011235,
+      "ts": 1774362338,
       "label": "ViaRapido Express",
       "amount": {
         "value": 12.77,
@@ -1614,7 +1614,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:FzMd4TbeRjjj",
-      "ts": 1773977897,
+      "ts": 1774329000,
       "label": "Tesla Supercharger",
       "amount": {
         "value": 58.05,
@@ -1637,7 +1637,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:uNGUYLgbJPc1",
-      "ts": 1773818928,
+      "ts": 1774170031,
       "label": "FreshCo",
       "amount": {
         "value": 145.42,
@@ -1660,7 +1660,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:LcxuUDHDwBAP",
-      "ts": 1773797465,
+      "ts": 1774148569,
       "label": "The Golden Cup",
       "amount": {
         "value": 5.81,
@@ -1683,7 +1683,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:1n09PhcapT7e",
-      "ts": 1773706391,
+      "ts": 1774057494,
       "label": "ViaRapido Express",
       "amount": {
         "value": 24.84,
@@ -1706,7 +1706,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:j3MFYz71dC70",
-      "ts": 1773672168,
+      "ts": 1774023271,
       "label": "RidaGo",
       "amount": {
         "value": 14.3,
@@ -1729,7 +1729,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XDaj3GJTwPm7",
-      "ts": 1773655000,
+      "ts": 1774006104,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.12,
@@ -1752,7 +1752,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:nQ27HUYAQJJW",
-      "ts": 1773626830,
+      "ts": 1773977933,
       "label": "SafeTaxi",
       "amount": {
         "value": 8.17,
@@ -1774,31 +1774,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:OGzobC0c2DK8",
-      "ts": 1773558301,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 8500,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 48000,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:jose:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VuUHegPXPflD",
-      "ts": 1773400013,
+      "ts": 1773751117,
       "label": "ViaRapido Express",
       "amount": {
         "value": 17.26,
@@ -1821,7 +1798,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:raTuCUXlUoqm",
-      "ts": 1773384966,
+      "ts": 1773736070,
       "label": "ViaRapido Express",
       "amount": {
         "value": 12.23,
@@ -1844,7 +1821,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:hukRqKjhRLsR",
-      "ts": 1773360403,
+      "ts": 1773711506,
       "label": "Cafe Ventana",
       "amount": {
         "value": 7.35,
@@ -1867,7 +1844,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:uh69ZOrnI9SQ",
-      "ts": 1773315631,
+      "ts": 1773666734,
       "label": "Blue Bottle",
       "amount": {
         "value": 5.3,
@@ -1890,7 +1867,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YwhUf4W9IzFA",
-      "ts": 1773297880,
+      "ts": 1773648983,
       "label": "Rent - Pacific Heights Apt",
       "amount": {
         "value": 2800,
@@ -1913,7 +1890,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ZOCOE8DLviKD",
-      "ts": 1773286876,
+      "ts": 1773637979,
       "label": "Green Market",
       "amount": {
         "value": 195.04,
@@ -1935,8 +1912,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:OGzobC0c2DK8",
+      "ts": 1773563804,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 48000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:HRvoS21vrPQp",
-      "ts": 1773205124,
+      "ts": 1773556227,
       "label": "FibraMax Fiber 500Mbps",
       "amount": {
         "value": 65,
@@ -1959,7 +1959,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:1e9PNh1N8mdC",
-      "ts": 1773161797,
+      "ts": 1773512900,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.7,
@@ -1982,7 +1982,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:oZM6c04LZ25c",
-      "ts": 1773128421,
+      "ts": 1773479524,
       "label": "Tesla Insurance",
       "amount": {
         "value": 195,
@@ -2005,7 +2005,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:P3fYo83P99Iq",
-      "ts": 1773125550,
+      "ts": 1773476653,
       "label": "Tesla Financing",
       "amount": {
         "value": 750,
@@ -2028,7 +2028,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RPeblRWpfLIh",
-      "ts": 1773120839,
+      "ts": 1773471942,
       "label": "GymFit Black",
       "amount": {
         "value": 59.99,
@@ -2051,7 +2051,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Mg8pr6W54PTj",
-      "ts": 1773120483,
+      "ts": 1773471586,
       "label": "AWS Cloud Services",
       "amount": {
         "value": 165.78,
@@ -2074,7 +2074,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:yVoSvX3PY6d9",
-      "ts": 1773117106,
+      "ts": 1773468209,
       "label": "VortexPlay Premium",
       "amount": {
         "value": 15.99,
@@ -2097,7 +2097,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:bPNV5XIzM1n8",
-      "ts": 1773098044,
+      "ts": 1773449147,
       "label": "Sol Kitchen",
       "amount": {
         "value": 44.75,
@@ -2120,7 +2120,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:q6zK213UgjHM",
-      "ts": 1773041649,
+      "ts": 1773392752,
       "label": "MobileX Premium Plan",
       "amount": {
         "value": 85,
@@ -2143,7 +2143,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ERvSNTwvwqaU",
-      "ts": 1773041052,
+      "ts": 1773392155,
       "label": "LyraMusic Family",
       "amount": {
         "value": 10.99,
@@ -2166,7 +2166,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:sTA2JZdu7O2q",
-      "ts": 1773032631,
+      "ts": 1773383734,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -2189,7 +2189,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:DY3nYv1lwzLE",
-      "ts": 1772963432,
+      "ts": 1773314535,
       "label": "UrbanFit",
       "amount": {
         "value": 410.98,
@@ -2212,7 +2212,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:9ld9rdMbZpxn",
-      "ts": 1772709822,
+      "ts": 1773060926,
       "label": "CircuitCo",
       "amount": {
         "value": 869.75,
@@ -2235,7 +2235,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:HoIeYFDQY6tr",
-      "ts": 1772680419,
+      "ts": 1773031522,
       "label": "SuperMart",
       "amount": {
         "value": 131.07,
@@ -2258,7 +2258,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SNl43tHUyyQy",
-      "ts": 1772601779,
+      "ts": 1772952882,
       "label": "Tesla Supercharger",
       "amount": {
         "value": 66.57,
@@ -2281,7 +2281,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:nTb8vtREYmPZ",
-      "ts": 1772558300,
+      "ts": 1772909404,
       "label": "Atelier Crenn",
       "amount": {
         "value": 37.72,
@@ -2304,7 +2304,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:GKOp5w8GXrcm",
-      "ts": 1772533179,
+      "ts": 1772884282,
       "label": "DarkStitch",
       "amount": {
         "value": 362.74,
@@ -2327,7 +2327,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:w9avUZqSqoBN",
-      "ts": 1772488537,
+      "ts": 1772839641,
       "label": "Aroma Central",
       "amount": {
         "value": 5.17,
@@ -2350,7 +2350,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:9x17QCWHuWa9",
-      "ts": 1772462642,
+      "ts": 1772813745,
       "label": "State Bird Provisions",
       "amount": {
         "value": 68.62,
@@ -2373,7 +2373,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:LnHqRPnHLZvj",
-      "ts": 1772380831,
+      "ts": 1772731935,
       "label": "The Golden Cup",
       "amount": {
         "value": 5.76,
@@ -2396,7 +2396,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:DfcGUJGb6jwg",
-      "ts": 1772371445,
+      "ts": 1772722548,
       "label": "Cafe Ventana",
       "amount": {
         "value": 6.48,
@@ -2418,31 +2418,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:16Y0VCZBC4LR",
-      "ts": 1772346764,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 8500,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 39500,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:jose:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YGIH63RymD6E",
-      "ts": 1772255158,
+      "ts": 1772606261,
       "label": "Nopa",
       "amount": {
         "value": 41.92,
@@ -2465,7 +2442,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wN3U6KYSUmvg",
-      "ts": 1772250561,
+      "ts": 1772601664,
       "label": "CircuitCo",
       "amount": {
         "value": 901.15,
@@ -2488,7 +2465,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:0Z9aGOdvAVtc",
-      "ts": 1772175430,
+      "ts": 1772526533,
       "label": "Tesla Supercharger",
       "amount": {
         "value": 58.06,
@@ -2511,7 +2488,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:rTwA5Z9tbNDH",
-      "ts": 1772165884,
+      "ts": 1772516988,
       "label": "SafeTaxi",
       "amount": {
         "value": 16.56,
@@ -2534,7 +2511,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ngAt3GJjWFzo",
-      "ts": 1772107471,
+      "ts": 1772458574,
       "label": "Sushi Kaze",
       "amount": {
         "value": 60.7,
@@ -2557,7 +2534,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:os3HEOjNSjlE",
-      "ts": 1772080807,
+      "ts": 1772431910,
       "label": "Atelier Crenn",
       "amount": {
         "value": 52.7,
@@ -2580,7 +2557,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:D8wib5pfIeq7",
-      "ts": 1772075902,
+      "ts": 1772427005,
       "label": "Trader's Market",
       "amount": {
         "value": 194.56,
@@ -2603,7 +2580,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:xdZ9lFBWMcva",
-      "ts": 1772012887,
+      "ts": 1772363990,
       "label": "Sushi Kaze",
       "amount": {
         "value": 75.22,
@@ -2625,8 +2602,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:16Y0VCZBC4LR",
+      "ts": 1772352267,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 39500,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Wa5BvyUnWyWN",
-      "ts": 1771921143,
+      "ts": 1772272247,
       "label": "ViaRapido Express",
       "amount": {
         "value": 10.9,
@@ -2649,7 +2649,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:uU59Ncqswqe6",
-      "ts": 1771870227,
+      "ts": 1772221330,
       "label": "DigitalPlus",
       "amount": {
         "value": 984.94,
@@ -2672,7 +2672,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:COVN2CR0ppTO",
-      "ts": 1771854877,
+      "ts": 1772205980,
       "label": "CompassRide",
       "amount": {
         "value": 8.13,
@@ -2695,7 +2695,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SJPA8Irrt1VA",
-      "ts": 1771796033,
+      "ts": 1772147136,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.14,
@@ -2718,7 +2718,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:OrHSKoqBIsyi",
-      "ts": 1771762048,
+      "ts": 1772113152,
       "label": "RidaGo",
       "amount": {
         "value": 16.7,
@@ -2741,7 +2741,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:IipQZ7dxOwdk",
-      "ts": 1771694836,
+      "ts": 1772045939,
       "label": "Sol Kitchen",
       "amount": {
         "value": 71.59,
@@ -2764,7 +2764,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ZlYGeDN0MLMM",
-      "ts": 1771669918,
+      "ts": 1772021021,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.87,
@@ -2787,7 +2787,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wj4tezLYX5dM",
-      "ts": 1771465396,
+      "ts": 1771816499,
       "label": "Aroma Central",
       "amount": {
         "value": 7.54,
@@ -2810,7 +2810,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:C9L833RG2Vjd",
-      "ts": 1771455978,
+      "ts": 1771807081,
       "label": "Atelier Crenn",
       "amount": {
         "value": 67.13,
@@ -2833,7 +2833,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:cHejL9AA8YPy",
-      "ts": 1771440363,
+      "ts": 1771791466,
       "label": "Nopa",
       "amount": {
         "value": 69.92,
@@ -2856,7 +2856,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RPOE5NGSm0GY",
-      "ts": 1771363284,
+      "ts": 1771714387,
       "label": "Bistro Valencia",
       "amount": {
         "value": 41.15,
@@ -2879,7 +2879,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:cK5KecL7xYzP",
-      "ts": 1771299858,
+      "ts": 1771650961,
       "label": "SuperMart",
       "amount": {
         "value": 130.71,
@@ -2902,7 +2902,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:x7gIv8ip92Fi",
-      "ts": 1771274649,
+      "ts": 1771625752,
       "label": "SafeTaxi",
       "amount": {
         "value": 18.44,
@@ -2925,7 +2925,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:5hqCzqyfhZgp",
-      "ts": 1771259508,
+      "ts": 1771610611,
       "label": "Atelier Crenn",
       "amount": {
         "value": 69.43,
@@ -2948,7 +2948,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ghPLaje1UbHh",
-      "ts": 1771153461,
+      "ts": 1771504564,
       "label": "Nopa",
       "amount": {
         "value": 49.5,
@@ -2970,31 +2970,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:jVbhKBbiHf16",
-      "ts": 1771139276,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 8500,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 31000,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:jose:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:IsQJMZRxF6Ag",
-      "ts": 1770995109,
+      "ts": 1771346212,
       "label": "Aroma Central",
       "amount": {
         "value": 6.45,
@@ -3017,7 +2994,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:vaaCxl3F755X",
-      "ts": 1770969942,
+      "ts": 1771321045,
       "label": "Cafe Ventana",
       "amount": {
         "value": 5.41,
@@ -3039,8 +3016,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:jVbhKBbiHf16",
+      "ts": 1771144779,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 31000,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VZAaIRjtXKtY",
-      "ts": 1770793213,
+      "ts": 1771144317,
       "label": "Aroma Central",
       "amount": {
         "value": 5.87,
@@ -3063,7 +3063,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:GFjMArm8zsYd",
-      "ts": 1770791966,
+      "ts": 1771143069,
       "label": "State Bird Provisions",
       "amount": {
         "value": 30.74,
@@ -3086,7 +3086,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:zosPYWQWSFXE",
-      "ts": 1770746042,
+      "ts": 1771097145,
       "label": "Nopa",
       "amount": {
         "value": 74.05,
@@ -3109,7 +3109,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:KCmUycwaqjQ4",
-      "ts": 1770711528,
+      "ts": 1771062631,
       "label": "Tesla Financing",
       "amount": {
         "value": 750,
@@ -3132,7 +3132,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:NWtMsnbEcFXv",
-      "ts": 1770709549,
+      "ts": 1771060652,
       "label": "GitHub Enterprise",
       "amount": {
         "value": 21,
@@ -3155,7 +3155,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:uFm5GPStwWSG",
-      "ts": 1770704097,
+      "ts": 1771055200,
       "label": "SuperMart",
       "amount": {
         "value": 162.69,
@@ -3178,7 +3178,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:p4cqmbg3gFDQ",
-      "ts": 1770683677,
+      "ts": 1771034781,
       "label": "The Golden Cup",
       "amount": {
         "value": 7,
@@ -3201,7 +3201,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:rNxDCzmItPse",
-      "ts": 1770646541,
+      "ts": 1770997644,
       "label": "Sol Kitchen",
       "amount": {
         "value": 64.08,
@@ -3224,7 +3224,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:8ZZtS4JM4Wie",
-      "ts": 1770639621,
+      "ts": 1770990724,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.38,
@@ -3247,7 +3247,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:JIiidD7tIAZI",
-      "ts": 1770622197,
+      "ts": 1770973300,
       "label": "LyraMusic Family",
       "amount": {
         "value": 10.99,
@@ -3270,7 +3270,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ZKPmZ5DoCHMp",
-      "ts": 1770621084,
+      "ts": 1770972187,
       "label": "GymFit Black",
       "amount": {
         "value": 59.99,
@@ -3293,7 +3293,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:qcsXsBXGSvEE",
-      "ts": 1770620836,
+      "ts": 1770971939,
       "label": "Tesla Insurance",
       "amount": {
         "value": 195,
@@ -3316,7 +3316,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:d0N47MrMPGn3",
-      "ts": 1770619382,
+      "ts": 1770970485,
       "label": "MobileX Premium Plan",
       "amount": {
         "value": 85,
@@ -3339,7 +3339,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:bV7qz8ELBQ4Y",
-      "ts": 1770613043,
+      "ts": 1770964146,
       "label": "Rent - Pacific Heights Apt",
       "amount": {
         "value": 2800,
@@ -3362,7 +3362,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:AX2E4fpY6Hli",
-      "ts": 1770612984,
+      "ts": 1770964087,
       "label": "AWS Cloud Services",
       "amount": {
         "value": 165.78,
@@ -3385,7 +3385,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Y3Ry7Ms7PFhA",
-      "ts": 1770536504,
+      "ts": 1770887607,
       "label": "VortexPlay Premium",
       "amount": {
         "value": 15.99,
@@ -3408,7 +3408,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:bw4cuXP0BETf",
-      "ts": 1770481791,
+      "ts": 1770832894,
       "label": "Cafe Ventana",
       "amount": {
         "value": 6.75,
@@ -3431,7 +3431,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XPyxP4ctPQfU",
-      "ts": 1770479235,
+      "ts": 1770830339,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 92.84,
@@ -3454,7 +3454,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:G6RHZFseoi4j",
-      "ts": 1770472439,
+      "ts": 1770823542,
       "label": "The Golden Cup",
       "amount": {
         "value": 5.01,
@@ -3477,7 +3477,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:qZOrkqcE5saA",
-      "ts": 1770451012,
+      "ts": 1770802115,
       "label": "FibraMax Fiber 500Mbps",
       "amount": {
         "value": 65,
@@ -3500,7 +3500,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:CRFAu63UQARm",
-      "ts": 1770404159,
+      "ts": 1770755262,
       "label": "Sushi Kaze",
       "amount": {
         "value": 36.83,
@@ -3523,7 +3523,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:CwdmSActmPju",
-      "ts": 1770398466,
+      "ts": 1770749569,
       "label": "ViaRapido Express",
       "amount": {
         "value": 23.62,
@@ -3546,7 +3546,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7e0PfSww7cHM",
-      "ts": 1770360764,
+      "ts": 1770711867,
       "label": "State Bird Provisions",
       "amount": {
         "value": 28.9,
@@ -3569,7 +3569,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:3gTdzabeRhfM",
-      "ts": 1770275631,
+      "ts": 1770626734,
       "label": "Aroma Central",
       "amount": {
         "value": 6.59,
@@ -3592,7 +3592,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:HUBOo3oRXHmX",
-      "ts": 1770188184,
+      "ts": 1770539287,
       "label": "Green Market",
       "amount": {
         "value": 120.89,
@@ -3615,7 +3615,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:mTGvY00iDjNu",
-      "ts": 1770171094,
+      "ts": 1770522197,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.14,
@@ -3638,7 +3638,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:kNBxmj39umyf",
-      "ts": 1770170511,
+      "ts": 1770521615,
       "label": "Bistro Valencia",
       "amount": {
         "value": 46.65,
@@ -3661,7 +3661,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:lSts54IJtmPb",
-      "ts": 1770165608,
+      "ts": 1770516711,
       "label": "Cafe Ventana",
       "amount": {
         "value": 6.58,
@@ -3683,31 +3683,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:iar1RwJkNkI2",
-      "ts": 1769933473,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 8500,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 22500,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:jose:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:EL9ROEWUFTKZ",
-      "ts": 1769905198,
+      "ts": 1770256302,
       "label": "Sol Kitchen",
       "amount": {
         "value": 60.06,
@@ -3730,7 +3707,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:DB9nyWlmAicl",
-      "ts": 1769867138,
+      "ts": 1770218241,
       "label": "VitaPharm",
       "amount": {
         "value": 98.78,
@@ -3753,7 +3730,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Ha0fTRqIBTlb",
-      "ts": 1769859100,
+      "ts": 1770210203,
       "label": "Health Express",
       "amount": {
         "value": 57.69,
@@ -3776,7 +3753,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:xVprIHIFQhz8",
-      "ts": 1769825114,
+      "ts": 1770176217,
       "label": "ByteShop",
       "amount": {
         "value": 852.28,
@@ -3799,7 +3776,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:O904DTXlMYTK",
-      "ts": 1769806959,
+      "ts": 1770158062,
       "label": "The Golden Cup",
       "amount": {
         "value": 5.83,
@@ -3822,7 +3799,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:kZbVlWFosL03",
-      "ts": 1769776059,
+      "ts": 1770127162,
       "label": "Sushi Kaze",
       "amount": {
         "value": 55.15,
@@ -3845,7 +3822,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:JRzzYHp4LAaK",
-      "ts": 1769764374,
+      "ts": 1770115477,
       "label": "Quince",
       "amount": {
         "value": 56.8,
@@ -3868,7 +3845,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:w959tJSPQ25t",
-      "ts": 1769710825,
+      "ts": 1770061929,
       "label": "Cafe Ventana",
       "amount": {
         "value": 5.57,
@@ -3891,7 +3868,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:TjIJEFBU8Xif",
-      "ts": 1769656501,
+      "ts": 1770007604,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.54,
@@ -3914,7 +3891,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:KjmUM957SvUX",
-      "ts": 1769618980,
+      "ts": 1769970083,
       "label": "Atelier Crenn",
       "amount": {
         "value": 61.7,
@@ -3936,8 +3913,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:iar1RwJkNkI2",
+      "ts": 1769938976,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 8500,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22500,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:jose:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:2E83PWhxq05w",
-      "ts": 1769585948,
+      "ts": 1769937051,
       "label": "Trader's Market",
       "amount": {
         "value": 183.46,
@@ -3960,7 +3960,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:QUWZLOH6tMIf",
-      "ts": 1769489854,
+      "ts": 1769840957,
       "label": "Aroma Central",
       "amount": {
         "value": 5.22,
@@ -3983,7 +3983,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RI0XbLaGPPcA",
-      "ts": 1769357729,
+      "ts": 1769708833,
       "label": "Cafe Ventana",
       "amount": {
         "value": 6.06,
@@ -4006,7 +4006,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:BY75ETK1MCc0",
-      "ts": 1769350372,
+      "ts": 1769701475,
       "label": "Aroma Central",
       "amount": {
         "value": 5.52,
@@ -4029,7 +4029,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:vDl7DznYN9LQ",
-      "ts": 1769317802,
+      "ts": 1769668905,
       "label": "Tesla Supercharger",
       "amount": {
         "value": 61.4,
@@ -4052,7 +4052,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:kzO9bA0WPZq2",
-      "ts": 1769263420,
+      "ts": 1769614523,
       "label": "Trick Dog",
       "amount": {
         "value": 52.27,
@@ -4075,7 +4075,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SwULu7WsflU2",
-      "ts": 1769255114,
+      "ts": 1769606217,
       "label": "CompassRide",
       "amount": {
         "value": 8.58,
@@ -4098,7 +4098,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:oZsnIuNRxfR8",
-      "ts": 1769203797,
+      "ts": 1769554900,
       "label": "Bistro Valencia",
       "amount": {
         "value": 57.44,
@@ -4121,7 +4121,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:lYDRSbguFe5b",
-      "ts": 1769117808,
+      "ts": 1769468912,
       "label": "Bistro Valencia",
       "amount": {
         "value": 75.45,
@@ -4144,7 +4144,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:PAucmO0c408B",
-      "ts": 1769112393,
+      "ts": 1769463496,
       "label": "Sol Kitchen",
       "amount": {
         "value": 26.95,
@@ -4167,7 +4167,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7w5eiwjwbyIn",
-      "ts": 1769097646,
+      "ts": 1769448749,
       "label": "The Golden Cup",
       "amount": {
         "value": 5.63,
@@ -4190,7 +4190,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:kjvG9KuOoClP",
-      "ts": 1769095912,
+      "ts": 1769447015,
       "label": "Cafe Ventana",
       "amount": {
         "value": 7.72,
@@ -4213,7 +4213,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Z37G6HxjbLWy",
-      "ts": 1769091097,
+      "ts": 1769442200,
       "label": "Cafe Ventana",
       "amount": {
         "value": 7.26,
@@ -4236,7 +4236,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Fs6QMPdnVJTQ",
-      "ts": 1769082308,
+      "ts": 1769433411,
       "label": "Atelier Crenn",
       "amount": {
         "value": 25.83,
@@ -4259,7 +4259,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:WBWRfYefP6lD",
-      "ts": 1769062201,
+      "ts": 1769413304,
       "label": "FreshCo",
       "amount": {
         "value": 154.66,
@@ -4282,7 +4282,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:X3eXKSq7p6Zi",
-      "ts": 1769055335,
+      "ts": 1769406438,
       "label": "Tesla Supercharger",
       "amount": {
         "value": 73.28,
@@ -4305,7 +4305,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:rCmS6c5R41sg",
-      "ts": 1769050914,
+      "ts": 1769402017,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.81,
@@ -4328,7 +4328,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:IU40dGL5AzxQ",
-      "ts": 1768972682,
+      "ts": 1769323786,
       "label": "DarkStitch",
       "amount": {
         "value": 362.18,
@@ -4351,7 +4351,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Y6vqvYqwP7Iq",
-      "ts": 1768962938,
+      "ts": 1769314042,
       "label": "Blue Bottle",
       "amount": {
         "value": 5.3,
@@ -4374,7 +4374,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:2cU2v8sAN4NS",
-      "ts": 1768907859,
+      "ts": 1769258963,
       "label": "Sol Kitchen",
       "amount": {
         "value": 67.1,
@@ -4397,7 +4397,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:mrzS2lXTyzaB",
-      "ts": 1768777364,
+      "ts": 1769128467,
       "label": "The Golden Cup",
       "amount": {
         "value": 7.79,
@@ -4420,7 +4420,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Bf4LnvAhcPPV",
-      "ts": 1768776834,
+      "ts": 1769127937,
       "label": "Blue Bottle",
       "amount": {
         "value": 7.89,
@@ -4443,7 +4443,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XnWRA4f5Yp3Q",
-      "ts": 1768775391,
+      "ts": 1769126494,
       "label": "Aroma Central",
       "amount": {
         "value": 6.55,
@@ -4466,7 +4466,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:F1VJzuIqqKE2",
-      "ts": 1768748151,
+      "ts": 1769099255,
       "label": "Cafe Ventana",
       "amount": {
         "value": 7.05,
@@ -4489,7 +4489,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:xYisDJn2fHhm",
-      "ts": 1768705751,
+      "ts": 1769056854,
       "label": "The Golden Cup",
       "amount": {
         "value": 6.11,
@@ -4512,7 +4512,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:q1Kt5oAwE5Ob",
-      "ts": 1768650011,
+      "ts": 1769001114,
       "label": "VitaPharm",
       "amount": {
         "value": 81.56,
@@ -4535,7 +4535,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:fIAq4n3Av2Ra",
-      "ts": 1768589921,
+      "ts": 1768941024,
       "label": "Aroma Central",
       "amount": {
         "value": 6.74,
@@ -4558,7 +4558,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:U6FEr2pydAHA",
-      "ts": 1768565421,
+      "ts": 1768916525,
       "label": "RidaGo",
       "amount": {
         "value": 16,

@@ -16,7 +16,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4IUsJq26joD2",
-      "ts": 1776325188,
+      "ts": 1776676291,
       "label": "SuperMart",
       "amount": {
         "value": 74.07,
@@ -38,31 +38,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:H7k0dYbFTMMK",
-      "ts": 1776237563,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 3200,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 22700,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:zpPj2LPHoy7c",
-      "ts": 1776231472,
+      "ts": 1776582576,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 19.09,
@@ -85,7 +62,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:9AyW7AZM6d0m",
-      "ts": 1776184968,
+      "ts": 1776536071,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 18.89,
@@ -108,7 +85,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:lRiSdXVsXM42",
-      "ts": 1776042557,
+      "ts": 1776393660,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 14.45,
@@ -131,7 +108,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:NZTSQBRkqolF",
-      "ts": 1775990956,
+      "ts": 1776342059,
       "label": "ThreadLine",
       "amount": {
         "value": 54.02,
@@ -154,7 +131,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:WBQh8oqRi3iY",
-      "ts": 1775895640,
+      "ts": 1776246743,
       "label": "MobileX Basic Plan",
       "amount": {
         "value": 25,
@@ -176,8 +153,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:H7k0dYbFTMMK",
+      "ts": 1776243066,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 3200,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 22700,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:W2TeVuCFSwSU",
-      "ts": 1775803102,
+      "ts": 1776154205,
       "label": "GameVault",
       "amount": {
         "value": 27.6,
@@ -200,7 +200,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:3LXoAnnJ6fSD",
-      "ts": 1775722046,
+      "ts": 1776073149,
       "label": "GamePass Ultimate",
       "amount": {
         "value": 16.99,
@@ -223,7 +223,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:EUDaBKOqvaGo",
-      "ts": 1775719312,
+      "ts": 1776070415,
       "label": "Rent - Tenderloin Studio",
       "amount": {
         "value": 1100,
@@ -246,7 +246,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:WTl9qkCrMRKB",
-      "ts": 1775716189,
+      "ts": 1776067292,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 24.95,
@@ -269,7 +269,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ywMgz9u556rh",
-      "ts": 1775701866,
+      "ts": 1776052969,
       "label": "Green Market",
       "amount": {
         "value": 73.97,
@@ -292,7 +292,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:aiIgqlLXnQhW",
-      "ts": 1775640869,
+      "ts": 1775991973,
       "label": "BART SF",
       "amount": {
         "value": 8.88,
@@ -315,7 +315,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:0nJupZHAWitq",
-      "ts": 1775636184,
+      "ts": 1775987287,
       "label": "CrunchyRoll Premium",
       "amount": {
         "value": 7.99,
@@ -338,7 +338,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:6y7hREyu7V6R",
-      "ts": 1775635710,
+      "ts": 1775986813,
       "label": "FibraMax Internet 100Mbps",
       "amount": {
         "value": 45,
@@ -361,7 +361,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:kRI7WvENNBR8",
-      "ts": 1775622514,
+      "ts": 1775973617,
       "label": "Discord Nitro",
       "amount": {
         "value": 9.99,
@@ -384,7 +384,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:BVB3TNHsAJpP",
-      "ts": 1775447586,
+      "ts": 1775798690,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 53.2,
@@ -407,7 +407,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YlaAMQuWwa5I",
-      "ts": 1775385586,
+      "ts": 1775736690,
       "label": "CornerMart",
       "amount": {
         "value": 13.25,
@@ -430,7 +430,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:XHhEq9bV6ZE7",
-      "ts": 1775324204,
+      "ts": 1775675308,
       "label": "BART SF",
       "amount": {
         "value": 5.3,
@@ -453,7 +453,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:y1XZVt93JfEk",
-      "ts": 1775261927,
+      "ts": 1775613030,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 17.15,
@@ -476,7 +476,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:sDI7IFKeMJeC",
-      "ts": 1775117023,
+      "ts": 1775468126,
       "label": "FreshCo",
       "amount": {
         "value": 60.16,
@@ -499,7 +499,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YxoUpeWMJEdw",
-      "ts": 1775095746,
+      "ts": 1775446849,
       "label": "CornerMart",
       "amount": {
         "value": 3.95,
@@ -522,7 +522,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:BwVJI04yRIXM",
-      "ts": 1775071897,
+      "ts": 1775423000,
       "label": "ViaRapido Express",
       "amount": {
         "value": 8.13,
@@ -545,7 +545,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:AWskZtNSADy9",
-      "ts": 1775050333,
+      "ts": 1775401436,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 12.9,
@@ -568,7 +568,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:V9QzosntOOyV",
-      "ts": 1775050292,
+      "ts": 1775401395,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 24.22,
@@ -591,7 +591,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:2U0fzVEuYmAK",
-      "ts": 1775029512,
+      "ts": 1775380615,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 18.85,
@@ -614,7 +614,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VkhOCKumOrRb",
-      "ts": 1775027389,
+      "ts": 1775032892,
       "label": "Payroll - PerseusOft",
       "amount": {
         "value": 3200,
@@ -637,7 +637,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:p7Rj5bzWxbzM",
-      "ts": 1774624493,
+      "ts": 1774975596,
       "label": "BART SF",
       "amount": {
         "value": 14.65,
@@ -660,7 +660,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:fbcnUF2RFWQk",
-      "ts": 1774570025,
+      "ts": 1774921128,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 20.97,
@@ -683,7 +683,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:txmI19Lt5hTY",
-      "ts": 1774556711,
+      "ts": 1774907814,
       "label": "ViaRapido Express",
       "amount": {
         "value": 9.66,
@@ -706,7 +706,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YhKzm2nAh8k1",
-      "ts": 1774556114,
+      "ts": 1774907217,
       "label": "BART SF",
       "amount": {
         "value": 14.23,
@@ -729,7 +729,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RVhvFCrfgGEf",
-      "ts": 1774503333,
+      "ts": 1774854436,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 19.41,
@@ -752,7 +752,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Y39srEiYGoit",
-      "ts": 1774476225,
+      "ts": 1774827328,
       "label": "MiniExpress",
       "amount": {
         "value": 5.67,
@@ -775,7 +775,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:leksh9iMK7Kt",
-      "ts": 1774334212,
+      "ts": 1774685315,
       "label": "FreshCo",
       "amount": {
         "value": 52.06,
@@ -798,7 +798,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wjyhHJjL4cS9",
-      "ts": 1774305473,
+      "ts": 1774656576,
       "label": "ViaRapido Express",
       "amount": {
         "value": 7.58,
@@ -821,7 +821,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:BmD5LuNdWuVj",
-      "ts": 1774261747,
+      "ts": 1774612851,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 12.49,
@@ -844,7 +844,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:byL6we9vQ9mK",
-      "ts": 1774254136,
+      "ts": 1774605240,
       "label": "PixelMart",
       "amount": {
         "value": 39.1,
@@ -867,7 +867,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:cWF2MDoiFJ6B",
-      "ts": 1774212058,
+      "ts": 1774563161,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 14.72,
@@ -890,7 +890,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:AfDZ0X5wA65n",
-      "ts": 1774092197,
+      "ts": 1774443300,
       "label": "Presto 24h",
       "amount": {
         "value": 10.83,
@@ -913,7 +913,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:fgOuvgI3gb4z",
-      "ts": 1774060144,
+      "ts": 1774411247,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 22.62,
@@ -936,7 +936,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:TsJxYcuRt4Xq",
-      "ts": 1774042187,
+      "ts": 1774393290,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 27.67,
@@ -959,7 +959,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:rOzig6DLzUmY",
-      "ts": 1773933341,
+      "ts": 1774284445,
       "label": "Presto 24h",
       "amount": {
         "value": 13.93,
@@ -982,7 +982,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:EsmIP4nZLc1N",
-      "ts": 1773719781,
+      "ts": 1774070885,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 15.4,
@@ -1005,7 +1005,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:5e8NwkT5jkaX",
-      "ts": 1773715947,
+      "ts": 1774067050,
       "label": "Green Market",
       "amount": {
         "value": 51.25,
@@ -1028,7 +1028,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:y8PYfXsNqLVL",
-      "ts": 1773581998,
+      "ts": 1773933102,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 15.17,
@@ -1050,31 +1050,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:71uxOVYkSY4o",
-      "ts": 1773559656,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 3200,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 16300,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YzO2BcqLdjjE",
-      "ts": 1773545837,
+      "ts": 1773896941,
       "label": "Health Express",
       "amount": {
         "value": 22.67,
@@ -1097,7 +1074,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:peYbgrThNOIP",
-      "ts": 1773481287,
+      "ts": 1773832390,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 22.97,
@@ -1120,7 +1097,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VEinUuPWODar",
-      "ts": 1773437937,
+      "ts": 1773789041,
       "label": "RidaGo",
       "amount": {
         "value": 14.61,
@@ -1143,7 +1120,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:TrmxUm88KGC3",
-      "ts": 1773382266,
+      "ts": 1773733370,
       "label": "ViaRapido Express",
       "amount": {
         "value": 8.01,
@@ -1166,7 +1143,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:JM2HRuYNCpSC",
-      "ts": 1773369245,
+      "ts": 1773720348,
       "label": "CornerMart",
       "amount": {
         "value": 7.48,
@@ -1189,7 +1166,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7pScqAzfEb2W",
-      "ts": 1773330885,
+      "ts": 1773681988,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 15.71,
@@ -1212,7 +1189,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7uCixgwIxXDO",
-      "ts": 1773326291,
+      "ts": 1773677395,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 23.03,
@@ -1235,7 +1212,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:iuPNP9TyKftU",
-      "ts": 1773285358,
+      "ts": 1773636462,
       "label": "RidaGo",
       "amount": {
         "value": 5.45,
@@ -1258,7 +1235,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Z2Y7Sq5EDnx7",
-      "ts": 1773241487,
+      "ts": 1773592590,
       "label": "BART SF",
       "amount": {
         "value": 11.36,
@@ -1281,7 +1258,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:AepGnaatD3jK",
-      "ts": 1773231984,
+      "ts": 1773583087,
       "label": "Presto 24h",
       "amount": {
         "value": 3.83,
@@ -1303,8 +1280,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:71uxOVYkSY4o",
+      "ts": 1773565159,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 3200,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 16300,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:w8HnPRyb0394",
-      "ts": 1773211560,
+      "ts": 1773562663,
       "label": "MobileX Basic Plan",
       "amount": {
         "value": 25,
@@ -1327,7 +1327,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:o5OXwP5znYig",
-      "ts": 1773209980,
+      "ts": 1773561083,
       "label": "Discord Nitro",
       "amount": {
         "value": 9.99,
@@ -1350,7 +1350,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:dAxZ6IKFpFp1",
-      "ts": 1773205483,
+      "ts": 1773556586,
       "label": "Trader's Market",
       "amount": {
         "value": 57.58,
@@ -1373,7 +1373,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Dt49W7i0Eddh",
-      "ts": 1773205290,
+      "ts": 1773556393,
       "label": "CrunchyRoll Premium",
       "amount": {
         "value": 7.99,
@@ -1396,7 +1396,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:1QX0Xo2EkX8b",
-      "ts": 1773190585,
+      "ts": 1773541688,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 13.81,
@@ -1419,7 +1419,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:oP92UDtjgsri",
-      "ts": 1773156729,
+      "ts": 1773507832,
       "label": "Presto 24h",
       "amount": {
         "value": 3.18,
@@ -1442,7 +1442,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4mGfShflr7nJ",
-      "ts": 1773155796,
+      "ts": 1773506899,
       "label": "MiniExpress",
       "amount": {
         "value": 13.76,
@@ -1465,7 +1465,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:qfL8HkzQfzIu",
-      "ts": 1773127567,
+      "ts": 1773478670,
       "label": "FibraMax Internet 100Mbps",
       "amount": {
         "value": 45,
@@ -1488,7 +1488,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YWoA9xqKg7jt",
-      "ts": 1773123378,
+      "ts": 1773474481,
       "label": "Rent - Tenderloin Studio",
       "amount": {
         "value": 1100,
@@ -1511,7 +1511,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:PNrmlt627FJd",
-      "ts": 1773073025,
+      "ts": 1773424129,
       "label": "ViaRapido Express",
       "amount": {
         "value": 13.67,
@@ -1534,7 +1534,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SaN1jS5IQZSm",
-      "ts": 1773036207,
+      "ts": 1773387310,
       "label": "GamePass Ultimate",
       "amount": {
         "value": 16.99,
@@ -1557,7 +1557,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:GqsqIhApf9XZ",
-      "ts": 1773022314,
+      "ts": 1773373417,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 21.42,
@@ -1580,7 +1580,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:W8wyHnYwl9vY",
-      "ts": 1772811051,
+      "ts": 1773162154,
       "label": "PixelMart",
       "amount": {
         "value": 41.24,
@@ -1603,7 +1603,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:1CQZLxphxfyI",
-      "ts": 1772801309,
+      "ts": 1773152412,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 12.23,
@@ -1626,7 +1626,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:qhO6MEUccAq8",
-      "ts": 1772731179,
+      "ts": 1773082282,
       "label": "ViaRapido Express",
       "amount": {
         "value": 14.07,
@@ -1649,7 +1649,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7Ln9pKRvZQ1C",
-      "ts": 1772716251,
+      "ts": 1773067354,
       "label": "RidaGo",
       "amount": {
         "value": 10.03,
@@ -1672,7 +1672,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7kSfhPFm6xax",
-      "ts": 1772705275,
+      "ts": 1773056379,
       "label": "ViaRapido Express",
       "amount": {
         "value": 10.95,
@@ -1695,7 +1695,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:B9Rni3thdCpA",
-      "ts": 1772693263,
+      "ts": 1773044366,
       "label": "SuperMart",
       "amount": {
         "value": 74.46,
@@ -1718,7 +1718,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:xWuWRr2Q2KoL",
-      "ts": 1772670801,
+      "ts": 1773021904,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 13,
@@ -1741,7 +1741,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:fVOIzhpZ9qQA",
-      "ts": 1772668187,
+      "ts": 1773019290,
       "label": "Health Express",
       "amount": {
         "value": 8.65,
@@ -1764,7 +1764,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4UPx0QtrUE6b",
-      "ts": 1772660116,
+      "ts": 1773011219,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 12.34,
@@ -1787,7 +1787,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:DC3nNrZVG5GK",
-      "ts": 1772582274,
+      "ts": 1772933378,
       "label": "ViaRapido Express",
       "amount": {
         "value": 8.57,
@@ -1810,7 +1810,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:S27fKbVkK17B",
-      "ts": 1772429722,
+      "ts": 1772780825,
       "label": "RidaGo",
       "amount": {
         "value": 11.88,
@@ -1833,7 +1833,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:t6uQmGlM04sf",
-      "ts": 1772388605,
+      "ts": 1772739708,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 22.97,
@@ -1855,31 +1855,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:tkeJ5cOcUSqa",
-      "ts": 1772350068,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 3200,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 13100,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:aVBqHmqa3ZJ3",
-      "ts": 1772312371,
+      "ts": 1772663474,
       "label": "QuickStop",
       "amount": {
         "value": 7.61,
@@ -1902,7 +1879,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ExZ9RGqMhdGi",
-      "ts": 1772068391,
+      "ts": 1772419495,
       "label": "RidaGo",
       "amount": {
         "value": 14.17,
@@ -1925,7 +1902,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:BmaqI71uBhyx",
-      "ts": 1772066148,
+      "ts": 1772417252,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 24.08,
@@ -1948,7 +1925,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Uz9XQSDpX0nV",
-      "ts": 1772043993,
+      "ts": 1772395096,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 19.33,
@@ -1971,7 +1948,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:BduLScR64ysk",
-      "ts": 1772040325,
+      "ts": 1772391428,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 18.98,
@@ -1993,8 +1970,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:tkeJ5cOcUSqa",
+      "ts": 1772355571,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 3200,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 13100,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:xMDXYHVbda8W",
-      "ts": 1771917221,
+      "ts": 1772268324,
       "label": "SuperMart",
       "amount": {
         "value": 65.84,
@@ -2017,7 +2017,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Hp9UnODRg8lm",
-      "ts": 1771914877,
+      "ts": 1772265980,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 19.57,
@@ -2040,7 +2040,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SoGlMucuhpvt",
-      "ts": 1771857971,
+      "ts": 1772209075,
       "label": "RidaGo",
       "amount": {
         "value": 6.04,
@@ -2063,7 +2063,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:lWBKuVWdIHAR",
-      "ts": 1771819534,
+      "ts": 1772170637,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 17.14,
@@ -2086,7 +2086,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:0NYV4uLRn9g0",
-      "ts": 1771714626,
+      "ts": 1772065729,
       "label": "ViaRapido Express",
       "amount": {
         "value": 7.15,
@@ -2109,7 +2109,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wRNQWbsRKXzI",
-      "ts": 1771704025,
+      "ts": 1772055128,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 18.67,
@@ -2132,7 +2132,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wCsc0UizK5F3",
-      "ts": 1771581100,
+      "ts": 1771932203,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 20.86,
@@ -2155,7 +2155,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:45mc7d0VIiLQ",
-      "ts": 1771469975,
+      "ts": 1771821078,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 12.58,
@@ -2178,7 +2178,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:vCYTfkuP4RQ7",
-      "ts": 1771462157,
+      "ts": 1771813260,
       "label": "RidaGo",
       "amount": {
         "value": 10.91,
@@ -2201,7 +2201,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:QusxZDXPzq4s",
-      "ts": 1771460348,
+      "ts": 1771811452,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 16.7,
@@ -2224,7 +2224,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VTPL1Tqf7MiO",
-      "ts": 1771437478,
+      "ts": 1771788581,
       "label": "Presto 24h",
       "amount": {
         "value": 8.65,
@@ -2247,7 +2247,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7z06eEM4g3RH",
-      "ts": 1771401627,
+      "ts": 1771752730,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 14.58,
@@ -2270,7 +2270,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:sSLkC3ZxG29C",
-      "ts": 1771381612,
+      "ts": 1771732715,
       "label": "FreshCo",
       "amount": {
         "value": 71.29,
@@ -2293,7 +2293,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:D6NhoHu2iWp6",
-      "ts": 1771370713,
+      "ts": 1771721816,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 18.83,
@@ -2316,7 +2316,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:aLIfxZA0YMIi",
-      "ts": 1771309703,
+      "ts": 1771660807,
       "label": "BART SF",
       "amount": {
         "value": 8.18,
@@ -2339,7 +2339,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:7Omv0QRRnaff",
-      "ts": 1771224549,
+      "ts": 1771575652,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 28.82,
@@ -2362,7 +2362,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RlMhOXv6gIh8",
-      "ts": 1771199128,
+      "ts": 1771550231,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 20.18,
@@ -2385,7 +2385,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:D9BlgbD3LefS",
-      "ts": 1771173290,
+      "ts": 1771524393,
       "label": "ViaRapido Express",
       "amount": {
         "value": 12.83,
@@ -2408,7 +2408,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:Ixuhyxdvmofm",
-      "ts": 1771152862,
+      "ts": 1771503965,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 17.81,
@@ -2431,7 +2431,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:0534dOSKoQcd",
-      "ts": 1771152836,
+      "ts": 1771503939,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 15.9,
@@ -2454,7 +2454,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:IXogOA41xC9E",
-      "ts": 1771149195,
+      "ts": 1771500298,
       "label": "Presto 24h",
       "amount": {
         "value": 14.51,
@@ -2476,31 +2476,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:gPYuxtdzYs9f",
-      "ts": 1771142913,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 3200,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 9900,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:UjZiFh1WigSo",
-      "ts": 1771069134,
+      "ts": 1771420237,
       "label": "ViaRapido Express",
       "amount": {
         "value": 11.31,
@@ -2523,7 +2500,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:FRZtWaVE6RfU",
-      "ts": 1771016503,
+      "ts": 1771367607,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 20.31,
@@ -2546,7 +2523,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:iLsMk34OF8lN",
-      "ts": 1770899175,
+      "ts": 1771250278,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 22.39,
@@ -2569,7 +2546,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:2DhasDGufdrb",
-      "ts": 1770892081,
+      "ts": 1771243184,
       "label": "IndieHub",
       "amount": {
         "value": 53.38,
@@ -2592,7 +2569,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:8k0nmOzWsJI1",
-      "ts": 1770885058,
+      "ts": 1771236161,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 16.7,
@@ -2615,7 +2592,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:3wHheyrbp3I3",
-      "ts": 1770880788,
+      "ts": 1771231891,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 16.5,
@@ -2637,8 +2614,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:gPYuxtdzYs9f",
+      "ts": 1771148416,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 3200,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 9900,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:n8sBGjSROece",
-      "ts": 1770747670,
+      "ts": 1771098773,
       "label": "RidaGo",
       "amount": {
         "value": 12.6,
@@ -2661,7 +2661,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ahbzu95nubDr",
-      "ts": 1770710282,
+      "ts": 1771061385,
       "label": "Trader's Market",
       "amount": {
         "value": 66.17,
@@ -2684,7 +2684,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:tTyn8shUzDv9",
-      "ts": 1770614584,
+      "ts": 1770965687,
       "label": "Discord Nitro",
       "amount": {
         "value": 9.99,
@@ -2707,7 +2707,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VcDqTwIn126V",
-      "ts": 1770614131,
+      "ts": 1770965234,
       "label": "Rent - Tenderloin Studio",
       "amount": {
         "value": 1100,
@@ -2730,7 +2730,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:YXB7RLmdNque",
-      "ts": 1770613733,
+      "ts": 1770964836,
       "label": "FibraMax Internet 100Mbps",
       "amount": {
         "value": 45,
@@ -2753,7 +2753,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:bzEzeSbYygBS",
-      "ts": 1770492560,
+      "ts": 1770843663,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 15.78,
@@ -2776,7 +2776,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:gZknQI6PUiOh",
-      "ts": 1770458420,
+      "ts": 1770809524,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 14.63,
@@ -2799,7 +2799,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:6Apk7jHHGq8G",
-      "ts": 1770448769,
+      "ts": 1770799872,
       "label": "GamePass Ultimate",
       "amount": {
         "value": 16.99,
@@ -2822,7 +2822,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:ck9qoFGDeudl",
-      "ts": 1770444827,
+      "ts": 1770795930,
       "label": "CrunchyRoll Premium",
       "amount": {
         "value": 7.99,
@@ -2845,7 +2845,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:QZSgNJd0yEAK",
-      "ts": 1770443036,
+      "ts": 1770794139,
       "label": "MobileX Basic Plan",
       "amount": {
         "value": 25,
@@ -2868,7 +2868,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:RqrxjrvKWd6N",
-      "ts": 1770437934,
+      "ts": 1770789038,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 13.5,
@@ -2891,7 +2891,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:wh0Vf00bUITf",
-      "ts": 1770414550,
+      "ts": 1770765654,
       "label": "ViaRapido Express",
       "amount": {
         "value": 12.77,
@@ -2914,7 +2914,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:eg7PjeFLn3Fw",
-      "ts": 1770382010,
+      "ts": 1770733113,
       "label": "MiniExpress",
       "amount": {
         "value": 12.67,
@@ -2937,7 +2937,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:dQQ53WSR7Tay",
-      "ts": 1770298959,
+      "ts": 1770650062,
       "label": "IndieHub",
       "amount": {
         "value": 58.13,
@@ -2960,7 +2960,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:oKsgefPF9k4q",
-      "ts": 1770204674,
+      "ts": 1770555778,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 12.5,
@@ -2983,7 +2983,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:UQpL4nYiFNTx",
-      "ts": 1770191235,
+      "ts": 1770542338,
       "label": "Green Market",
       "amount": {
         "value": 59.57,
@@ -3006,7 +3006,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:67iFzRqOT0Hn",
-      "ts": 1770160275,
+      "ts": 1770511378,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 36.14,
@@ -3029,7 +3029,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SAWBLF61XaTP",
-      "ts": 1770016565,
+      "ts": 1770367669,
       "label": "Presto 24h",
       "amount": {
         "value": 3.06,
@@ -3052,7 +3052,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VeZLtFHsudo4",
-      "ts": 1769997550,
+      "ts": 1770348654,
       "label": "FlameEats - Ramen House",
       "amount": {
         "value": 22.5,
@@ -3074,31 +3074,8 @@
     },
     {
       "uadp_type": "uadp:transaction",
-      "id": "orbit:tx:aVvZ8PVQ1PE3",
-      "ts": 1769931962,
-      "label": "Payroll - PerseusOft",
-      "amount": {
-        "value": 3200,
-        "currency": "USD"
-      },
-      "direction": "in",
-      "status": "completed",
-      "merchant": {
-        "name": "PerseusOft",
-        "category": "salary",
-        "city": "San Francisco",
-        "country": "US"
-      },
-      "balance_after": {
-        "value": 6700,
-        "currency": "USD"
-      },
-      "account_id": "orbit:acc:alex:checking"
-    },
-    {
-      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:aoypJf7v0udn",
-      "ts": 1769927912,
+      "ts": 1770279015,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 12.35,
@@ -3121,7 +3098,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:0dgVVNd5AEBh",
-      "ts": 1769778158,
+      "ts": 1770129261,
       "label": "Presto 24h",
       "amount": {
         "value": 11.29,
@@ -3144,7 +3121,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:NxK6SqFOoLxX",
-      "ts": 1769742602,
+      "ts": 1770093705,
       "label": "FlameEats - Pizza Vulcano",
       "amount": {
         "value": 17.44,
@@ -3167,7 +3144,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:61cEP7pd5ysw",
-      "ts": 1769740982,
+      "ts": 1770092086,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 24.34,
@@ -3190,7 +3167,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:KvGTSq8tZN6I",
-      "ts": 1769657570,
+      "ts": 1770008673,
       "label": "SuperMart",
       "amount": {
         "value": 78.01,
@@ -3213,7 +3190,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:NxQmAMKszr3D",
-      "ts": 1769647263,
+      "ts": 1769998366,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 43.03,
@@ -3236,7 +3213,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:SjAVrGVV1ZmC",
-      "ts": 1769640832,
+      "ts": 1769991935,
       "label": "RidaGo",
       "amount": {
         "value": 14.91,
@@ -3258,8 +3235,31 @@
     },
     {
       "uadp_type": "uadp:transaction",
+      "id": "orbit:tx:aVvZ8PVQ1PE3",
+      "ts": 1769937465,
+      "label": "Payroll - PerseusOft",
+      "amount": {
+        "value": 3200,
+        "currency": "USD"
+      },
+      "direction": "in",
+      "status": "completed",
+      "merchant": {
+        "name": "PerseusOft",
+        "category": "salary",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "balance_after": {
+        "value": 6700,
+        "currency": "USD"
+      },
+      "account_id": "orbit:acc:alex:checking"
+    },
+    {
+      "uadp_type": "uadp:transaction",
       "id": "orbit:tx:I7tpoDF68MQK",
-      "ts": 1769497418,
+      "ts": 1769848522,
       "label": "Vestimenta Co.",
       "amount": {
         "value": 46.62,
@@ -3282,7 +3282,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:tM3iqwtnOieW",
-      "ts": 1769484964,
+      "ts": 1769836067,
       "label": "FlameEats - Taqueria Don Julio",
       "amount": {
         "value": 18.88,
@@ -3305,7 +3305,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4OO9KnhHHhk7",
-      "ts": 1769424248,
+      "ts": 1769775351,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 12.69,
@@ -3328,7 +3328,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:6RtIDDRdZgVK",
-      "ts": 1769398050,
+      "ts": 1769749154,
       "label": "FlameEats - QuickBite",
       "amount": {
         "value": 23.79,
@@ -3351,7 +3351,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:KwQd7aF2FeLp",
-      "ts": 1769391560,
+      "ts": 1769742664,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 16.99,
@@ -3374,7 +3374,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:VrPCs6WeM9hG",
-      "ts": 1769249783,
+      "ts": 1769600886,
       "label": "GameVault",
       "amount": {
         "value": 38.31,
@@ -3397,7 +3397,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:vzIHaNseagtt",
-      "ts": 1769166562,
+      "ts": 1769517666,
       "label": "RidaGo",
       "amount": {
         "value": 14.16,
@@ -3420,7 +3420,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:4rBYaJq7Z7VD",
-      "ts": 1769110716,
+      "ts": 1769461820,
       "label": "RidaGo",
       "amount": {
         "value": 12.06,
@@ -3443,7 +3443,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:lSQk7RZl9c6Y",
-      "ts": 1769049590,
+      "ts": 1769400693,
       "label": "Green Market",
       "amount": {
         "value": 73.94,
@@ -3466,7 +3466,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:UDr6eir46qQd",
-      "ts": 1769037113,
+      "ts": 1769388217,
       "label": "FlameEats - Burger Craft",
       "amount": {
         "value": 18.26,
@@ -3489,7 +3489,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:FP1XXT0Z51xN",
-      "ts": 1768694267,
+      "ts": 1769045371,
       "label": "BART SF",
       "amount": {
         "value": 12.88,
@@ -3512,7 +3512,7 @@
     {
       "uadp_type": "uadp:transaction",
       "id": "orbit:tx:vq5s5DNINqkD",
-      "ts": 1768648159,
+      "ts": 1768999263,
       "label": "FlameEats - Wok Express",
       "amount": {
         "value": 19.64,

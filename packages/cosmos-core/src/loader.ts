@@ -3,9 +3,9 @@ import { join } from 'path'
 
 const BASE_DATA_DIR = process.env.COSMOS_DATA_DIR || join(import.meta.dir, '..', '..', '..', 'data')
 
-// Keep backward compat: loads alejandro by default
+// Keep backward compat: loads jose_espana by default
 export function loadData<T = unknown>(filename: string): T {
-  return loadUserData<T>('alejandro', filename)
+  return loadUserData<T>('jose_espana', filename)
 }
 
 export function loadDataArray<T = unknown>(filename: string): T[] {

@@ -1,7 +1,7 @@
 /**
  * Cosmos Data Seed Script
  *
- * Master data generation for Alejandro Vega across every Cosmos service.
+ * Master data generation for Jose Espana across every Cosmos service.
  * Run: bun run data/seed.ts
  */
 
@@ -32,7 +32,7 @@ function nextYtId(): string { return REAL_YT_IDS[(__ytCursor++) % REAL_YT_IDS.le
 function ytUrl(id: string): string { return `https://www.youtube.com/watch?v=${id}` }
 function ytThumb(id: string): string { return `https://i.ytimg.com/vi/${id}/hqdefault.jpg` }
 
-const OUT = join(import.meta.dir, 'alejandro')
+const OUT = join(import.meta.dir, 'jose_espana')
 mkdirSync(OUT, { recursive: true })
 
 function save(name: string, data: unknown) {
@@ -74,30 +74,30 @@ function roundUSD(v: number): number {
 }
 
 // ---------------------------------------------------------------------------
-// Alejandro's profile constants
+// Jose's profile constants
 // ---------------------------------------------------------------------------
-const ALEJANDRO = {
-  id: 'user:alejandro_vega',
-  name: 'Alejandro Vega',
-  handle: '@alejandro_v',
-  age: 31,
+const JOSE = {
+  id: 'user:jose_espana',
+  name: 'Jose Espana',
+  handle: '@jose_espana',
+  age: 34,
   city: 'San Francisco',
   country: 'US',
-  occupation: 'Software developer',
+  occupation: 'CTO & Full-stack Developer',
   language: 'en',
   currency: 'USD',
-  joined_cosmos: '2021-03-15',
-  avatar_url: picsum('alejandro_avatar', 200, 200),
-  email: 'alejandro@cosmos-demo.local',
-  phone: '+1-415-555-1234',
+  joined_cosmos: '2020-08-10',
+  avatar_url: picsum('jose_espana_avatar', 200, 200),
+  email: 'jose.espana@perseusoft.tech',
+  phone: '+1-415-555-9876',
 }
 
-const ALEJANDRO_AUTHOR = {
-  id: ALEJANDRO.id,
-  name: ALEJANDRO.name,
-  handle: ALEJANDRO.handle,
-  avatar_url: ALEJANDRO.avatar_url,
-  verified: false,
+const JOSE_AUTHOR = {
+  id: JOSE.id,
+  name: JOSE.name,
+  handle: JOSE.handle,
+  avatar_url: JOSE.avatar_url,
+  verified: true,
 }
 
 // ---------------------------------------------------------------------------
@@ -151,13 +151,13 @@ const FORTY_AUTHORS = Array.from({ length: 40 }, (_, i) => makeAuthor(`fakeuser_
 function generateProfile() {
   return {
     uadp_type: 'uadp:profile',
-    ...ALEJANDRO,
+    ...JOSE,
     bio: 'Full-stack developer in SF. Lover of coffee, hiking, and open source.',
     interests: ['technology', 'coffee', 'hiking', 'electronic music', 'travel', 'craft coffee'],
     social_links: {
-      nova: '@alejandro_v',
-      pulse: '@alejandro_v',
-      codeforge: 'alejandrovega',
+      nova: '@jose_espana',
+      pulse: '@jose_espana',
+      codeforge: 'jose_espana',
     },
     stats: {
       nova_followers: 1243,
@@ -172,7 +172,7 @@ function generateProfile() {
 // =========================================================================
 // 2. NOVA POSTS — 1700 feed, 200 user, 45 notifs, 12 trending
 // =========================================================================
-const NOVA_ALEJANDRO_TOPICS = [
+const NOVA_JOSE_TOPICS = [
   'Just deployed my new project with Bun and Elysia. The speed is impressive.',
   'Anyone else trying TypeScript 5.4? The type inference improvements are great.',
   'Friday lunch in the Mission. There is no better plan.',
@@ -266,12 +266,12 @@ function generateNovaPosts() {
     },
   ]
 
-  // ── Alejandro's 200 posts ──────────────────────────────────────────────
+  // ── Jose's 200 posts ──────────────────────────────────────────────
   const userPosts = Array.from({ length: 200 }, (_, i) => {
     const d = faker.number.float({ min: 0, max: 180 })
-    const topic = i < NOVA_ALEJANDRO_TOPICS.length
-      ? NOVA_ALEJANDRO_TOPICS[i]
-      : NOVA_ALEJANDRO_TOPICS[i % NOVA_ALEJANDRO_TOPICS.length].split('.')[0] + '. ' + faker.lorem.sentence()
+    const topic = i < NOVA_JOSE_TOPICS.length
+      ? NOVA_JOSE_TOPICS[i]
+      : NOVA_JOSE_TOPICS[i % NOVA_JOSE_TOPICS.length].split('.')[0] + '. ' + faker.lorem.sentence()
     const reposts = faker.number.int({ min: 0, max: 45 })
     const replies_count = faker.number.int({ min: 0, max: 80 })
     const post: Record<string, any> = {
@@ -280,7 +280,7 @@ function generateNovaPosts() {
       ts: tsSecondsAgo(d, 12),
       label: topic.slice(0, 60),
       body: topic,
-      author: ALEJANDRO_AUTHOR,
+      author: JOSE_AUTHOR,
       likes: faker.number.int({ min: 0, max: 320 }),
       reposts,
       replies_count,
@@ -325,7 +325,7 @@ function generateNovaPosts() {
         ts: tsSecondsAgo(baseDays, 0) + idx * 120, // 2 min apart
         label: body.slice(0, 60),
         body,
-        author: ALEJANDRO_AUTHOR,
+        author: JOSE_AUTHOR,
         likes: faker.number.int({ min: 20, max: 500 }),
         reposts: faker.number.int({ min: 5, max: 100 }),
         replies_count: faker.number.int({ min: 5, max: 120 }),
@@ -477,7 +477,7 @@ function generatePulsePhotos() {
     'Cooking pasta on a Sunday with the family',
   ]
 
-  // TikTok/Reel-style captions for Alejandro's video posts
+  // TikTok/Reel-style captions for Jose's video posts
   const videoCaptionPool = [
     'POV: deploying to production on a Friday \u{1F480} #devlife',
     'My morning coding routine \u2014 coffee, lofi, and vim #developer',
@@ -505,11 +505,11 @@ function generatePulsePhotos() {
   ]
 
   // Helper to build a Pulse post with media_type
-  function buildPulsePost(i: number, caption: string, author: typeof ALEJANDRO_AUTHOR, seedPrefix: string, isAlejandro: boolean) {
+  function buildPulsePost(i: number, caption: string, author: typeof JOSE_AUTHOR, seedPrefix: string, isJose: boolean) {
     const id = uid('pulse:post')
-    const likes = faker.number.int({ min: isAlejandro ? 5 : 10, max: isAlejandro ? 450 : 8000 })
-    const reposts = faker.number.int({ min: 0, max: isAlejandro ? 30 : 500 })
-    const replies_count = faker.number.int({ min: 0, max: isAlejandro ? 60 : 150 })
+    const likes = faker.number.int({ min: isJose ? 5 : 10, max: isJose ? 450 : 8000 })
+    const reposts = faker.number.int({ min: 0, max: isJose ? 30 : 500 })
+    const replies_count = faker.number.int({ min: 0, max: isJose ? 60 : 150 })
 
     // Determine media type: 60% image, 30% video, 10% carousel
     const roll = faker.number.float({ min: 0, max: 1 })
@@ -521,7 +521,7 @@ function generatePulsePhotos() {
     const post: Record<string, any> = {
       uadp_type: 'uadp:media_post' as const,
       id,
-      ts: isAlejandro ? tsSecondsAgo(faker.number.float({ min: 0, max: 180 }), 8) : tsRandom(180),
+      ts: isJose ? tsSecondsAgo(faker.number.float({ min: 0, max: 180 }), 8) : tsRandom(180),
       label: caption.slice(0, 50),
       body: caption,
       author,
@@ -531,7 +531,7 @@ function generatePulsePhotos() {
       saves: faker.number.int({ min: 0, max: likes }),
       lang: 'en',
       tags: faker.helpers.arrayElements(
-        isAlejandro
+        isJose
           ? ['sf', 'coffee', 'dev', 'setup', 'food', 'travel', 'nature', 'code']
           : ['photo', 'life', 'art', 'food', 'travel', 'fashion', 'music', 'nature'],
         faker.number.int({ min: 1, max: 3 }),
@@ -568,7 +568,7 @@ function generatePulsePhotos() {
     return post
   }
 
-  // Alejandro's 80 media posts
+  // Jose's 80 media posts
   const userPosts = Array.from({ length: 80 }, (_, i) => {
     // Use video captions for video-type posts at the beginning
     let caption: string
@@ -579,7 +579,7 @@ function generatePulsePhotos() {
     } else {
       caption = faker.lorem.sentence()
     }
-    return buildPulsePost(i, caption, ALEJANDRO_AUTHOR, 'pulse_ale', true)
+    return buildPulsePost(i, caption, JOSE_AUTHOR, 'pulse_jose', true)
   })
 
   // Force first 7 video-caption posts to be video type
@@ -620,7 +620,7 @@ function generatePulsePhotos() {
 
   // 15 stories with expiration timestamps
   const stories = Array.from({ length: 15 }, (_, i) => {
-    const author = i < 3 ? ALEJANDRO_AUTHOR : faker.helpers.arrayElement(FORTY_AUTHORS)
+    const author = i < 3 ? JOSE_AUTHOR : faker.helpers.arrayElement(FORTY_AUTHORS)
     const storyId = uid('pulse:story')
     const hoursAgo = faker.number.int({ min: 1, max: 23 })
     const tsVal = Math.floor(NOW / 1000) - hoursAgo * 3600
@@ -1051,7 +1051,7 @@ function generateMarketOrders() {
   }
 
   const shippingAddress = {
-    name: 'Alejandro Vega',
+    name: 'Jose Espana',
     street: '245 Valencia St, Apt 8B',
     city: 'San Francisco',
     state: 'CA',
@@ -1243,12 +1243,12 @@ function generateStreamHistory() {
     }
   })
 
-  // Alejandro's channel: "Codigo con Alejandro"
-  const alejandroChannel = {
-    id: 'stream:ch:alejandro',
-    name: 'Code with Alejandro',
+  // Jose's channel: "Code with Jose"
+  const joseChannel = {
+    id: 'stream:ch:jose_espana',
+    name: 'Code with Jose',
     subscribers: 156,
-    avatar_url: ALEJANDRO.avatar_url,
+    avatar_url: JOSE.avatar_url,
   }
 
   const aleYt1 = nextYtId(), aleYt2 = nextYtId(), aleYt3 = nextYtId()
@@ -1260,7 +1260,7 @@ function generateStreamHistory() {
       label: 'My 2025 dev setup — Full tour',
       title: 'My 2025 dev setup — Full tour',
       description: 'I show you my complete full-stack development setup. Includes hardware, software, and my homelab configuration.',
-      channel: alejandroChannel,
+      channel: joseChannel,
       duration_seconds: 1245,
       views: 3420,
       likes: 287,
@@ -1275,7 +1275,7 @@ function generateStreamHistory() {
       label: 'Migrating from Node to Bun in production — What I learned',
       title: 'Migrating from Node to Bun in production — What I learned',
       description: 'I share my experience migrating a microservice from Node.js to Bun. Benchmarks, issues, and solutions.',
-      channel: alejandroChannel,
+      channel: joseChannel,
       duration_seconds: 1830,
       views: 8910,
       likes: 645,
@@ -1290,7 +1290,7 @@ function generateStreamHistory() {
       label: 'Building a real-time chat with Elysia WebSockets',
       title: 'Building a real-time chat with Elysia WebSockets',
       description: 'Step-by-step tutorial to create a real-time chat using Elysia and WebSockets with Bun.',
-      channel: alejandroChannel,
+      channel: joseChannel,
       duration_seconds: 2460,
       views: 5230,
       likes: 412,
@@ -1336,7 +1336,7 @@ function generateEchoConversations() {
     rodrigo: { id: 'user:rodrigo_mendez', name: 'Rodrigo Mendez' },
   }
 
-  const ale = { id: ALEJANDRO.id, name: ALEJANDRO.name }
+  const ale = { id: JOSE.id, name: JOSE.name }
 
   interface ConvDef {
     type: 'group' | 'direct'
@@ -1365,7 +1365,7 @@ function generateEchoConversations() {
         'Dad says the grill is ready',
         'See you at 3 at mom\'s house',
         'Kids, food is ready',
-        'Alejandro, don\'t forget the cake',
+        'Jose, don\'t forget the cake',
         'Already picked up groceries',
         'What time is brunch?',
         'Mom, I already sent the utility money',
@@ -1854,7 +1854,7 @@ function generateLyraMusic() {
       description: faker.lorem.sentence(),
       cover_url: picsum(`playlist_${i}`, 600, 600),
       owner: i < 8
-        ? { id: ALEJANDRO.id, name: ALEJANDRO.name }
+        ? { id: JOSE.id, name: JOSE.name }
         : { id: uid('lyra:user'), name: `${faker.person.firstName()} ${faker.person.lastName()}` },
       track_count: playlistTracks.length,
       duration_seconds: playlistTracks.reduce((s, t) => s + t.duration_seconds, 0),
@@ -2158,7 +2158,7 @@ function generateBeaconEmails() {
     'Reminder: FibraMax internet payment',
   ]
 
-  const aleEmail = { name: ALEJANDRO.name, address: ALEJANDRO.email }
+  const aleEmail = { name: JOSE.name, address: JOSE.email }
 
   // 400 inbox emails
   const inbox = Array.from({ length: 400 }, (_, i) => {
@@ -2739,7 +2739,7 @@ function crossReferenceMarketToOrbit(
 // =========================================================================
 // RUN ALL GENERATORS
 // =========================================================================
-console.log('Cosmos Data Seed — Generating data for Alejandro Vega...\n')
+console.log('Cosmos Data Seed — Generating data for Jose Espana...\n')
 
 const profile = generateProfile()
 const novaPosts = generateNovaPosts()
@@ -2864,7 +2864,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 7200,
     label: 'My video about migrating from Node to Bun is up',
     body: 'My video about migrating from Node to Bun in production is up on my Stream channel. Throughput 3x, memory -40%. If you haven\'t seen it, the Herald article about Bun 2.0 gives good context.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 40, max: 200 }),
     reposts: faker.number.int({ min: 5, max: 40 }),
     replies_count: faker.number.int({ min: 10, max: 50 }),
@@ -2895,7 +2895,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 86400 * 2,
     label: 'WebSockets tutorial with Elysia on my Stream channel',
     body: 'Published the tutorial on how to build a real-time chat with Elysia and WebSockets. The native Bun integration makes it ridiculously fast. Link on my Stream profile.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 30, max: 150 }),
     reposts: faker.number.int({ min: 3, max: 25 }),
     replies_count: faker.number.int({ min: 5, max: 35 }),
@@ -2935,7 +2935,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 3600,
     label: 'New video: tour of my 2025 dev setup',
     body: 'Uploaded the tour video of my new setup to Stream. After buying the new monitor on MercadoMart and reorganizing everything, it looks incredible. Also posted photos on Pulse.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 50, max: 250 }),
     reposts: faker.number.int({ min: 5, max: 30 }),
     replies_count: faker.number.int({ min: 15, max: 60 }),
@@ -2966,7 +2966,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 3600,
     label: 'WebAssembly is the future, and Herald has a great article',
     body: 'Just watched a great video about WebAssembly on Stream and read the Herald article about how it consolidates as the future of the browser. Increasingly convinced that WASM is going to change everything.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 20, max: 120 }),
     reposts: faker.number.int({ min: 2, max: 20 }),
     replies_count: faker.number.int({ min: 5, max: 30 }),
@@ -3000,7 +3000,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 3600,
     label: 'Rust Bay Area meetup this week, don\'t miss it',
     body: 'This week is the Rust Bay Area meetup here in SF. Watched a great video on Stream about Rust vs Go and Herald published that Rust is the most loved language for the fifth year. The community here keeps growing. See you there!',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 60, max: 300 }),
     reposts: faker.number.int({ min: 10, max: 50 }),
     replies_count: faker.number.int({ min: 20, max: 70 }),
@@ -3033,7 +3033,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 86400 * 2,
     label: 'Thread: my notes on AI agents and LLMs',
     body: 'After reading both Herald articles about generative AI and the era of agents, and trying the Anthrotek API for pair programming, I\'m convinced that agents are going to be the next big leap. Thread with my notes 🧵',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 80, max: 400 }),
     reposts: faker.number.int({ min: 20, max: 80 }),
     replies_count: faker.number.int({ min: 30, max: 100 }),
@@ -3080,7 +3080,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 3600,
     label: 'Six months on Linux and found a great tips video',
     body: 'Six months with Linux as a daily driver and I\'m not going back. Watched an excellent video on Stream with Linux tips for devs, and Herald published a great article for Linux\'s 34th anniversary. Highly recommend both.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 30, max: 150 }),
     reposts: faker.number.int({ min: 3, max: 20 }),
     replies_count: faker.number.int({ min: 8, max: 40 }),
@@ -3154,7 +3154,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: tsSecondsAgo(2, 1),
     label: 'In two weeks I\'ll be at TechConf Austin',
     body: 'In two weeks I\'m heading to Austin for TechConf Austin 2025. I\'ll be giving a talk about UADP and how we\'re building the protocol. Anyone else going?',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 40, max: 200 }),
     reposts: faker.number.int({ min: 8, max: 35 }),
     replies_count: faker.number.int({ min: 15, max: 50 }),
@@ -3210,7 +3210,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: ts + 86400,
     label: 'Review of my new headphones for coding',
     body: 'Watched the review on Stream of the best headphones for coding and decided to buy some on MercadoMart. One week later, I confirm: noise cancellation is essential for focus. Full review on my channel.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 25, max: 130 }),
     reposts: faker.number.int({ min: 2, max: 15 }),
     replies_count: faker.number.int({ min: 8, max: 35 }),
@@ -3246,7 +3246,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
   const researchTs = tsSecondsAgo(18, 2) // started researching 18 days ago
   const topics = ['macbook', 'm5', 'laptop', 'apple', 'hardware', 'developer', 'purchase']
 
-  // --- Real YouTube videos Alejandro watched while researching ---
+  // --- Real YouTube videos Jose watched while researching ---
   const macbookVideos = [
     {
       uadp_type: 'uadp:video' as const,
@@ -3403,8 +3403,8 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     label: 'Order confirmed: MacBook Pro 14" M5 Pro — MercadoMart',
     subject: 'Order confirmed: MacBook Pro 14" M5 Pro — MercadoMart',
     from: { name: 'MercadoMart', address: 'orders@mercadomart-demo.local' },
-    to: [{ name: ALEJANDRO.name, address: ALEJANDRO.email }],
-    body_text: 'Hi Alejandro, your order #1025 has been confirmed. MacBook Pro 14" M5 Pro — 24GB RAM / 1TB SSD — Space Black. Total: $2,499.00 USD. Estimated delivery: 3-5 business days.',
+    to: [{ name: JOSE.name, address: JOSE.email }],
+    body_text: 'Hi Jose, your order #1025 has been confirmed. MacBook Pro 14" M5 Pro — 24GB RAM / 1TB SSD — Space Black. Total: $2,499.00 USD. Estimated delivery: 3-5 business days.',
     folder: 'inbox' as const,
     read: true,
     starred: true,
@@ -3418,7 +3418,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     label: 'Your MacBook Pro has been delivered! — MercadoMart',
     subject: 'Your MacBook Pro has been delivered! — MercadoMart',
     from: { name: 'MercadoMart', address: 'orders@mercadomart-demo.local' },
-    to: [{ name: ALEJANDRO.name, address: ALEJANDRO.email }],
+    to: [{ name: JOSE.name, address: JOSE.email }],
     body_text: 'Great news! Your order #1025 (MacBook Pro 14" M5 Pro) has been delivered to 245 Valencia St, Apt 8B. Enjoy your new laptop!',
     folder: 'inbox' as const,
     read: true,
@@ -3435,7 +3435,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: researchTs + 86400 * 2,
     label: 'Been binge-watching MacBook M5 reviews on Stream',
     body: 'Been binge-watching MacBook M5 Pro reviews on Stream all week. MKBHD, Dave2D, and Max Tech all say the same thing — the M5 Pro with Fusion Architecture is the sweet spot for devs. 16-core CPU and 22-core GPU crushes everything. I think I\'m convinced.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 30, max: 180 }),
     reposts: faker.number.int({ min: 3, max: 25 }),
     replies_count: faker.number.int({ min: 10, max: 45 }),
@@ -3449,7 +3449,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: purchaseTs + 3600,
     label: 'Just pulled the trigger — MacBook Pro M5 Pro ordered',
     body: 'Just pulled the trigger on a MacBook Pro 14" M5 Pro, 24GB / 1TB in Space Black from MercadoMart. $2,499 USD — not cheap but after watching every review on Stream and reading the Herald article about M5 benchmarks, I\'m all in. Fusion Architecture is real.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 60, max: 350 }),
     reposts: faker.number.int({ min: 10, max: 50 }),
     replies_count: faker.number.int({ min: 25, max: 80 }),
@@ -3463,7 +3463,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: purchaseTs + 86400 * 3 + 7200,
     label: 'MacBook M5 Pro just arrived — first impressions are insane',
     body: 'MacBook M5 Pro just arrived from MercadoMart. First impressions: the Space Black finish is gorgeous, Thunderbolt 5 is blazing, and `bun install` on our monorepo went from 12s to 3s. Photos on Pulse. This machine is a beast.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 80, max: 400 }),
     reposts: faker.number.int({ min: 15, max: 60 }),
     replies_count: faker.number.int({ min: 30, max: 90 }),
@@ -3477,7 +3477,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: purchaseTs + 86400 * 5,
     label: 'One week with the M5 Pro — here\'s what surprised me',
     body: 'One week with the MacBook Pro M5 Pro. Docker builds are 3x faster, battery lasts through a full workday + coffee shop session, and I can run a 13B parameter LLM locally for pair programming. 16-core CPU is no joke. Best dev machine I\'ve ever owned.',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     likes: faker.number.int({ min: 50, max: 250 }),
     reposts: faker.number.int({ min: 8, max: 35 }),
     replies_count: faker.number.int({ min: 15, max: 55 }),
@@ -3494,7 +3494,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
     ts: purchaseTs + 86400 * 3 + 3600,
     label: 'New MacBook Pro M5 Pro unboxing',
     body: 'New MacBook Pro M5 Pro in Space Black just arrived. This thing is beautiful. Setup time! 💻',
-    author: ALEJANDRO_AUTHOR,
+    author: JOSE_AUTHOR,
     media_url: picsum('macbook_m5_unboxing', 1080, 1080),
     thumbnail_url: picsum('macbook_m5_unboxing', 300, 300),
     likes: faker.number.int({ min: 50, max: 300 }),
@@ -3524,7 +3524,7 @@ function tagItems(threadId: string, topics: string[], ...items: (any | undefined
           id: uid('echo:msg'),
           conversation_id: workConvo.id,
           body: 'Just ordered an M5 Pro MacBook. Anyone else upgraded yet?',
-          author: { id: ALEJANDRO.id, name: ALEJANDRO.name },
+          author: { id: JOSE.id, name: JOSE.name },
           ts: purchaseTs + 7200,
           read: true,
         },
@@ -3606,7 +3606,7 @@ for (const tx of orbitTransactions.transactions) {
 novaPosts.user_posts.sort((a: any, b: any) => b.ts - a.ts)
 novaPosts.feed.sort((a: any, b: any) => b.ts - a.ts)
 
-console.log('Writing JSON files to data/alejandro/:\n')
+console.log('Writing JSON files to data/jose_espana/:\n')
 
 save('profile', profile)
 save('nova-posts', novaPosts)
@@ -3630,7 +3630,7 @@ save('atlas-events', atlasEvents)
 const totalMessages = Object.values(echoConversations.messages).flat().length
 
 console.log('\n--- Summary ---')
-console.log(`  Profile:  Alejandro Vega (${ALEJANDRO.city})`)
+console.log(`  Profile:  Jose Espana (${JOSE.city})`)
 console.log(`  Nova:     ${novaPosts.feed.length} feed posts, ${novaPosts.user_posts.length} user posts, ${novaPosts.notifications.length} notifications, ${novaPosts.trending.length} trending`)
 console.log(`  Pulse:    ${pulsePhotos.feed.length} feed posts, ${pulsePhotos.user_posts.length} user posts, ${pulsePhotos.stories.length} stories, ${pulsePhotos.explore.length} explore`)
 console.log(`  Orbit:    ${orbitTransactions.transactions.length} transactions, ${orbitTransactions.accounts.length} accounts, ${orbitTransactions.cards.length} card(s)`)
@@ -4641,7 +4641,7 @@ function saveUser(dirName: string, name: string, data: unknown) {
     messages: joseMessages,
   })
 
-  // 9. herald-articles.json (shared, same as Alejandro)
+  // 9. herald-articles.json (shared, same as Jose)
   saveUser(dirName, 'herald-articles', heraldArticles)
 
   // 10. lyra-music.json
@@ -5275,8 +5275,8 @@ function saveUser(dirName: string, name: string, data: unknown) {
       label: caption.slice(0, 50),
       body: caption,
       author: ALEX_AUTHOR,
-      media_url: picsum(`pulse_alex_${i}`, 1080, 1080),
-      thumbnail_url: picsum(`pulse_alex_${i}`, 300, 300),
+      media_url: picsum(`pulse_josex_${i}`, 1080, 1080),
+      thumbnail_url: picsum(`pulse_josex_${i}`, 300, 300),
       likes: faker.number.int({ min: 5, max: 200 }),
       reposts: faker.number.int({ min: 0, max: 15 }),
       replies_count: faker.number.int({ min: 0, max: 30 }),
@@ -5298,8 +5298,8 @@ function saveUser(dirName: string, name: string, data: unknown) {
       label: faker.lorem.sentence().slice(0, 50),
       body: faker.lorem.sentence(),
       author,
-      media_url: picsum(`pulse_alex_feed_${i}`, 1080, 1080),
-      thumbnail_url: picsum(`pulse_alex_feed_${i}`, 300, 300),
+      media_url: picsum(`pulse_josex_feed_${i}`, 1080, 1080),
+      thumbnail_url: picsum(`pulse_josex_feed_${i}`, 300, 300),
       likes: faker.number.int({ min: 10, max: 8000 }),
       reposts: faker.number.int({ min: 0, max: 500 }),
       replies_count: faker.number.int({ min: 0, max: 150 }),

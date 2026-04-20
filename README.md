@@ -502,11 +502,11 @@ Purchases on Market, Flame, and Compass automatically generate matching transact
 
 ## Adopting UADP in Your Own Service
 
-Adding UADP support to an existing service takes three steps:
+Adding UADP support to an existing service takes three steps. Below are generic instructions followed by **real-world examples** for a blog, an e-commerce store, and a SaaS dashboard.
 
 ### 1. Publish a manifest
 
-Serve a JSON file at `/.well-known/uadp.json`:
+Serve a JSON file at `/.well-known/uadp.json`. This is the only file an AI agent needs to discover and interact with your service:
 
 ```json
 {
@@ -556,6 +556,163 @@ POST /uadp/v1/auth/verify     →  { token } → { valid, user }
 ```
 
 That's it. Any UADP-compatible agent can now discover and use your service automatically.
+
+### Real-World Examples
+
+#### Example A &mdash; Blog / News Site
+
+A WordPress or static blog can become AI-agent-friendly by serving a manifest and one search endpoint. The agent discovers your blog, searches for articles, and gets clean structured data instead of scraping HTML.
+
+**Manifest** (`https://myblog.com/.well-known/uadp.json`):
+
+```json
+{
+  "service_id": "myblog",
+  "service_name": "My Tech Blog",
+  "uadp_version": "1.0",
+  "category": "uadp:news",
+  "base_url": "/uadp/v1",
+  "endpoints": [
+    { "path": "/uadp/v1/feed/latest",     "method": "GET", "description": "Latest articles",    "auth_required": false },
+    { "path": "/uadp/v1/search",          "method": "GET", "description": "Search articles",    "auth_required": false },
+    { "path": "/uadp/v1/feed/category/:cat", "method": "GET", "description": "Filter by category", "auth_required": false }
+  ],
+  "search": {
+    "endpoint": "/uadp/v1/search",
+    "query_param": "q",
+    "domain_tags": ["blog", "articles", "tech", "tutorials"],
+    "relevance_weight": 0.8,
+    "preview_fields": ["title", "summary", "category", "read_time_min"]
+  },
+  "ai_hints": {
+    "persona": "A tech blog covering web development, Rust, and AI. Updated weekly.",
+    "rendering": { "default_view": "article_list", "date_format": "relative" },
+    "user_goals": ["Read the latest articles", "Search for tutorials on a topic"],
+    "features": ["RSS-like feed", "Full-text search", "Category filtering"]
+  }
+}
+```
+
+**Response** (`GET /uadp/v1/feed/latest?limit=3`):
+
+```json
+{
+  "type": "uadp:feed",
+  "cursor": "3",
+  "items": [
+    {
+      "uadp_type": "uadp:article",
+      "id": "myblog:post:42",
+      "ts": 1774302750,
+      "label": "Why Rust Made Me a Better TypeScript Developer",
+      "title": "Why Rust Made Me a Better TypeScript Developer",
+      "summary": "How learning Rust's ownership model changed the way I think about state management in TypeScript...",
+      "body_markdown": "## Introduction\n\nAfter six months writing Rust...",
+      "category": "rust",
+      "author": { "name": "Jose Espana" },
+      "read_time_min": 8,
+      "tags": ["rust", "typescript", "programming"]
+    }
+  ]
+}
+```
+
+> **Token savings**: An AI agent reading this article via HTML scraping would consume ~12,000 tokens. The UADP response above is ~200 tokens &mdash; a **60x reduction**.
+
+#### Example B &mdash; E-Commerce Store
+
+An online store exposes its product catalog so AI agents can search, compare prices, and check order status without scraping product pages.
+
+**Manifest** (`https://mystore.com/.well-known/uadp.json`):
+
+```json
+{
+  "service_id": "mystore",
+  "service_name": "My Store",
+  "uadp_version": "1.0",
+  "category": "uadp:commerce",
+  "base_url": "/uadp/v1",
+  "endpoints": [
+    { "path": "/uadp/v1/products/search", "method": "GET",  "description": "Search products",    "auth_required": false },
+    { "path": "/uadp/v1/products/:id",    "method": "GET",  "description": "Product details",    "auth_required": false },
+    { "path": "/uadp/v1/orders",          "method": "GET",  "description": "User order history", "auth_required": true },
+    { "path": "/uadp/v1/cart",            "method": "POST", "description": "Add to cart",        "auth_required": true }
+  ],
+  "search": {
+    "endpoint": "/uadp/v1/products/search",
+    "query_param": "q",
+    "domain_tags": ["shopping", "products", "electronics", "deals"],
+    "relevance_weight": 0.9,
+    "preview_fields": ["title", "price", "rating", "image"]
+  },
+  "ai_hints": {
+    "persona": "Online electronics store with competitive prices and fast shipping.",
+    "rendering": { "default_view": "product_grid" },
+    "user_goals": ["Find a product by name or category", "Compare prices", "Check my order status"],
+    "safety_rules": ["Always show the final price including tax", "Never auto-purchase without user confirmation"]
+  }
+}
+```
+
+**Response** (`GET /uadp/v1/products/search?q=mechanical+keyboard`):
+
+```json
+{
+  "type": "uadp:search_results",
+  "query": "mechanical keyboard",
+  "items": [
+    {
+      "uadp_type": "uadp:product",
+      "id": "mystore:prod:kb-001",
+      "ts": 1774300000,
+      "label": "Keychron Q1 Pro",
+      "title": "Keychron Q1 Pro — Wireless Mechanical Keyboard",
+      "price": { "value": 189.99, "currency": "USD" },
+      "category": "electronics/keyboards",
+      "rating": { "score": 4.7, "count": 342 },
+      "image": "https://mystore.com/img/kb-001.jpg",
+      "in_stock": true
+    }
+  ],
+  "total": 15
+}
+```
+
+#### Example C &mdash; SaaS Dashboard (authenticated)
+
+A project management tool exposes tasks and boards so AI agents can help users manage their work across tools.
+
+**Manifest** (`https://mypm.io/.well-known/uadp.json`):
+
+```json
+{
+  "service_id": "mypm",
+  "service_name": "MyPM",
+  "uadp_version": "1.0",
+  "category": "uadp:productivity",
+  "base_url": "/uadp/v1",
+  "auth": {
+    "type": "oauth2",
+    "authorize_url": "https://mypm.io/oauth/authorize",
+    "token_url": "https://mypm.io/oauth/token",
+    "scopes": ["read:tasks", "write:tasks", "read:boards"]
+  },
+  "endpoints": [
+    { "path": "/uadp/v1/tasks",          "method": "GET",  "description": "List user tasks",     "auth_required": true },
+    { "path": "/uadp/v1/search",         "method": "GET",  "description": "Search across tasks", "auth_required": true },
+    { "path": "/uadp/v1/tasks",          "method": "POST", "description": "Create a task",       "auth_required": true },
+    { "path": "/uadp/v1/tasks/:id/done", "method": "POST", "description": "Mark task complete",  "auth_required": true }
+  ],
+  "ai_hints": {
+    "persona": "Project management tool for dev teams. Boards, sprints, and task tracking.",
+    "rendering": { "default_view": "kanban" },
+    "user_goals": ["See my open tasks", "Create a new task", "Find tasks about a topic"],
+    "safety_rules": ["Never delete tasks without explicit user confirmation", "Always confirm before changing task assignee"]
+  }
+}
+```
+
+> **Note on auth**: UADP is auth-agnostic. The examples above show the built-in passkey flow (ideal for quick adoption) and OAuth 2.0 (ideal for SaaS). Services can use any auth mechanism &mdash; the manifest's `auth` block tells agents how to authenticate.
 
 ---
 

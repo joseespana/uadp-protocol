@@ -46,10 +46,10 @@ for (const [userId, data] of allUsersData) {
 }
 
 function getOrders(userId: string): FlameOrder[] {
-  return userOrders.get(userId) || userOrders.get('alejandro') || []
+  return userOrders.get(userId) || userOrders.get('jose_espana') || []
 }
 function getRestaurants(userId: string): FlameRestaurant[] {
-  return userRestaurants.get(userId) || userRestaurants.get('alejandro') || []
+  return userRestaurants.get(userId) || userRestaurants.get('jose_espana') || []
 }
 function getFavorites(userId: string): Set<string> {
   if (!userFavorites.has(userId)) userFavorites.set(userId, new Set())

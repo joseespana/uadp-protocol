@@ -24,7 +24,7 @@ interface ZincData {
 const allUsersData = loadAllUsersData<ZincData>('zinc-transactions')
 
 function getUserData(userId: string): ZincData {
-  return allUsersData.get(userId) || allUsersData.get('alejandro') || { accounts: [], transactions: [], cards: [] }
+  return allUsersData.get(userId) || allUsersData.get('jose_espana') || { accounts: [], transactions: [], cards: [] }
 }
 
 // ---------------------------------------------------------------------------

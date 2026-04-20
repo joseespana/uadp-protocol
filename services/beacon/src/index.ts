@@ -27,7 +27,7 @@ interface BeaconData {
 const allUsersData = loadAllUsersData<BeaconData>('beacon-emails')
 
 function getUserData(userId: string): BeaconData {
-  return allUsersData.get(userId) || allUsersData.get('alejandro') || { emails: [], folders: {} }
+  return allUsersData.get(userId) || allUsersData.get('jose_espana') || { emails: [], folders: {} }
 }
 
 // ── Manifest ────────────────────────────────────────────────────────────────

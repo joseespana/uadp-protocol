@@ -38,7 +38,7 @@ interface CompassData {
 const allUsersData = loadAllUsersData<CompassData>('compass-rides')
 
 function getUserData(userId: string): CompassData {
-  return allUsersData.get(userId) || allUsersData.get('alejandro') || { rides: [], saved_places: [] }
+  return allUsersData.get(userId) || allUsersData.get('jose_espana') || { rides: [], saved_places: [] }
 }
 
 // ── Manifest ────────────────────────────────────────────────────────────────

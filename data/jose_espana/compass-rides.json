@@ -3,7 +3,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ZobSAmErg6Uc",
-      "ts": 1776068349,
+      "ts": 1776419452,
       "label": "SFO Airport → Sushi Kaze",
       "status": "cancelled",
       "origin": {
@@ -33,7 +33,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:oZsWa71Kxegz",
-      "ts": 1776022350,
+      "ts": 1776373453,
       "label": "State Bird Provisions → PerseusOft HQ — SoMa",
       "status": "completed",
       "origin": {
@@ -63,7 +63,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:WorOpAxwmbCD",
-      "ts": 1775196394,
+      "ts": 1775547497,
       "label": "PerseusOft HQ — SoMa → Golden Gate Park Running Track",
       "status": "completed",
       "origin": {
@@ -93,7 +93,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:YfMfYusYfEKd",
-      "ts": 1775055602,
+      "ts": 1775406705,
       "label": "State Bird Provisions → Trick Dog",
       "status": "completed",
       "origin": {
@@ -123,7 +123,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dokUNzktq5sL",
-      "ts": 1774980172,
+      "ts": 1775331275,
       "label": "Sushi Kaze → Tesla Service Center",
       "status": "completed",
       "origin": {
@@ -153,7 +153,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:D1kD9HZz2pnC",
-      "ts": 1774971342,
+      "ts": 1775322445,
       "label": "Golden Gate Park Running Track → Pacific Heights Apartment",
       "status": "completed",
       "origin": {
@@ -183,7 +183,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:W3uBuzy845Y0",
-      "ts": 1774746650,
+      "ts": 1775097753,
       "label": "Trick Dog → Golden Gate Park Running Track",
       "status": "completed",
       "origin": {
@@ -213,7 +213,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:yrOc68gbpwft",
-      "ts": 1774688076,
+      "ts": 1775039179,
       "label": "State Bird Provisions → Tesla Service Center",
       "status": "completed",
       "origin": {
@@ -243,7 +243,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:5EvDrQKZ85E8",
-      "ts": 1774490809,
+      "ts": 1774841912,
       "label": "Trick Dog → Atelier Crenn",
       "status": "cancelled",
       "origin": {
@@ -273,7 +273,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:sKycfwHsGEqH",
-      "ts": 1774476572,
+      "ts": 1774827675,
       "label": "State Bird Provisions → Pacific Heights Apartment",
       "status": "completed",
       "origin": {
@@ -303,7 +303,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:SOXXFeUUAye9",
-      "ts": 1774117604,
+      "ts": 1774468707,
       "label": "PerseusOft HQ — SoMa → SFO Airport",
       "status": "completed",
       "origin": {
@@ -333,7 +333,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:8sTVZUiaUpxt",
-      "ts": 1773683157,
+      "ts": 1774034260,
       "label": "Pacific Heights Apartment → Sushi Kaze",
       "status": "completed",
       "origin": {
@@ -363,7 +363,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:vRJmo8Y64mVi",
-      "ts": 1773492595,
+      "ts": 1773843698,
       "label": "Pacific Heights Apartment → State Bird Provisions",
       "status": "completed",
       "origin": {
@@ -393,7 +393,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:bHi1qL2zdbPi",
-      "ts": 1773452397,
+      "ts": 1773803500,
       "label": "Trick Dog → SFO Airport",
       "status": "completed",
       "origin": {
@@ -423,7 +423,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:XL9H2olWuppB",
-      "ts": 1773410048,
+      "ts": 1773761151,
       "label": "Client Office — Palo Alto → State Bird Provisions",
       "status": "completed",
       "origin": {
@@ -453,7 +453,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:jImkxZNzGDpB",
-      "ts": 1773153568,
+      "ts": 1773504671,
       "label": "PerseusOft HQ — SoMa → Tesla Service Center",
       "status": "completed",
       "origin": {
@@ -483,7 +483,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:OyjbBao1hMuj",
-      "ts": 1773016022,
+      "ts": 1773367125,
       "label": "Tesla Service Center → Trick Dog",
       "status": "completed",
       "origin": {
@@ -513,7 +513,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:4C0mCVZHbfjR",
-      "ts": 1772745325,
+      "ts": 1773096428,
       "label": "Pacific Heights Apartment → Tesla Service Center",
       "status": "completed",
       "origin": {
@@ -543,7 +543,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Ndh43t60Ppy2",
-      "ts": 1772219168,
+      "ts": 1772570271,
       "label": "Pacific Heights Apartment → State Bird Provisions",
       "status": "completed",
       "origin": {
@@ -573,7 +573,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:95h9NfMcw4j9",
-      "ts": 1772153780,
+      "ts": 1772504883,
       "label": "State Bird Provisions → Atelier Crenn",
       "status": "completed",
       "origin": {
@@ -603,7 +603,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:dAmSuSrbgv6T",
-      "ts": 1771997372,
+      "ts": 1772348475,
       "label": "Tesla Service Center → Atelier Crenn",
       "status": "completed",
       "origin": {
@@ -633,7 +633,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:ymCo9AxirK1q",
-      "ts": 1771528927,
+      "ts": 1771880030,
       "label": "PerseusOft HQ — SoMa → Trick Dog",
       "status": "completed",
       "origin": {
@@ -663,7 +663,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:rkgbOnUf7uKv",
-      "ts": 1771141670,
+      "ts": 1771492773,
       "label": "SFO Airport → Tesla Service Center",
       "status": "completed",
       "origin": {
@@ -693,7 +693,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:tRdwl6NWXmtx",
-      "ts": 1770933344,
+      "ts": 1771284447,
       "label": "SFO Airport → PerseusOft HQ — SoMa",
       "status": "completed",
       "origin": {
@@ -723,7 +723,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:FSx5HtShwDjp",
-      "ts": 1770716318,
+      "ts": 1771067421,
       "label": "Pacific Heights Apartment → Sushi Kaze",
       "status": "completed",
       "origin": {
@@ -753,7 +753,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:hPPAhtK1Pz3h",
-      "ts": 1770683153,
+      "ts": 1771034256,
       "label": "Tesla Service Center → Pacific Heights Apartment",
       "status": "completed",
       "origin": {
@@ -783,7 +783,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:qlNQ6fCD4Okw",
-      "ts": 1770544331,
+      "ts": 1770895434,
       "label": "Tesla Service Center → PerseusOft HQ — SoMa",
       "status": "completed",
       "origin": {
@@ -813,7 +813,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:JvpROjAtzuce",
-      "ts": 1769635603,
+      "ts": 1769986706,
       "label": "Client Office — Palo Alto → State Bird Provisions",
       "status": "completed",
       "origin": {
@@ -843,7 +843,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:Tf8Hj7zbKJti",
-      "ts": 1768926299,
+      "ts": 1769277402,
       "label": "Atelier Crenn → Client Office — Palo Alto",
       "status": "completed",
       "origin": {
@@ -873,7 +873,7 @@
     {
       "uadp_type": "uadp:ride",
       "id": "compass:ride:jGtPbYWPKB4L",
-      "ts": 1768592509,
+      "ts": 1768943612,
       "label": "State Bird Provisions → Trick Dog",
       "status": "cancelled",
       "origin": {

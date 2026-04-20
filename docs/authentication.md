@@ -98,8 +98,8 @@ Validates a token without making a data request. Useful for agents to check if t
 {
   "valid": true,
   "user": {
-    "id": "user:alejandro_vega",
-    "email": "alejandro@vega.mx"
+    "id": "user:jose_espana",
+    "email": "jose.espana@perseusoft.tech"
   },
   "expires_at": 1774303600
 }
@@ -119,8 +119,8 @@ UADP tokens use HMAC-SHA256 signed JWTs with the following payload:
 
 ```json
 {
-  "sub": "user:alejandro_vega",
-  "email": "alejandro@vega.mx",
+  "sub": "user:jose_espana",
+  "email": "jose.espana@perseusoft.tech",
   "iat": 1774300000,
   "exp": 1774303600,
   "scope": "all"

@@ -22,7 +22,7 @@ for (const [userId, data] of allUsersData) {
 }
 
 function getConversations(userId: string): UadpConversation[] {
-  return userConversations.get(userId) || userConversations.get('alejandro') || []
+  return userConversations.get(userId) || userConversations.get('jose_espana') || []
 }
 function getMessages(userId: string): Record<string, UadpMessage[]> {
   if (!userMessages.has(userId)) userMessages.set(userId, {})

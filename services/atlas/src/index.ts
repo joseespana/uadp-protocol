@@ -34,7 +34,7 @@ interface AtlasData {
 const allUsersData = loadAllUsersData<AtlasData>('atlas-events')
 
 function getUserData(userId: string): AtlasData {
-  return allUsersData.get(userId) || allUsersData.get('alejandro') || { events: [], calendars: [] }
+  return allUsersData.get(userId) || allUsersData.get('jose_espana') || { events: [], calendars: [] }
 }
 
 // ── Manifest ────────────────────────────────────────────────────────────────

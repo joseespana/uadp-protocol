@@ -16,7 +16,7 @@ const allUsersData = loadAllUsersData<NovaData>('nova-posts')
 
 // MongoDB feed for real scraped social posts — falls back to static JSON
 await connectMongo()
-const staticPosts = (allUsersData.get('alejandro') ?? { feed: [] }).feed ?? []
+const staticPosts = (allUsersData.get('jose_espana') ?? { feed: [] }).feed ?? []
 const mongoPosts = createMongoFeed<UadpPost>('posts', [], { limit: 200 })
 
 // Per-user mutable state
@@ -41,21 +41,21 @@ for (const [userId, data] of allUsersData) {
 }
 
 function getUserPosts(userId: string): UadpPost[] {
-  const base = userPosts.get(userId) || userPosts.get('alejandro') || []
+  const base = userPosts.get(userId) || userPosts.get('jose_espana') || []
   const scraped = mongoPosts.getItems()
   return scraped.length > 0 ? [...scraped, ...base] : base
 }
 
 function getUserProfiles(userId: string): Map<string, UadpPost['author']> {
-  return userProfiles.get(userId) || userProfiles.get('alejandro') || new Map()
+  return userProfiles.get(userId) || userProfiles.get('jose_espana') || new Map()
 }
 
 function getUserNotifications(userId: string): UadpNotification[] {
-  return userNotifications.get(userId) || userNotifications.get('alejandro') || []
+  return userNotifications.get(userId) || userNotifications.get('jose_espana') || []
 }
 
 function getUserTrending(userId: string): { tag: string; count: number }[] {
-  return userTrending.get(userId) || userTrending.get('alejandro') || []
+  return userTrending.get(userId) || userTrending.get('jose_espana') || []
 }
 
 // ---------- UADP Manifest ----------

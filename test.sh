@@ -193,7 +193,7 @@ test_nova() {
   check "Trending" "$BASE:4001/uadp/v1/trending"
   check "Search" "$BASE:4001/uadp/v1/search?q=tech"
   check "Create post" "$BASE:4001/uadp/v1/post/create" "POST" \
-    '{"body":"Test post from probe","author":{"id":"user:alejandro_vega"},"tags":["test"]}'
+    '{"body":"Test post from probe","author":{"id":"user:jose_espana"},"tags":["test"]}'
   check_json_field "Feed has uadp_type" "$BASE:4001/uadp/v1/feed" "uadp_type"
 }
 

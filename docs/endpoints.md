@@ -78,9 +78,9 @@ All responses follow a consistent structure depending on whether they return a l
       "ts": 1774302750,
       "body": "Just deployed my new project...",
       "author": {
-        "id": "user:alejandro_vega",
-        "name": "Alejandro Vega",
-        "handle": "@alejandro"
+        "id": "user:jose_espana",
+        "name": "Jose Espana",
+        "handle": "@jose_espana"
       },
       "likes": 142,
       "reposts": 23,

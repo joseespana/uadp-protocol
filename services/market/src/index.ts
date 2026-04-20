@@ -67,17 +67,17 @@ for (const [userId, raw] of allUsersData) {
 }
 
 function getProducts(userId: string): Product[] {
-  return userProducts.get(userId) || userProducts.get('alejandro') || []
+  return userProducts.get(userId) || userProducts.get('jose_espana') || []
 }
 function getOrders(userId: string): Order[] {
-  return userOrders.get(userId) || userOrders.get('alejandro') || []
+  return userOrders.get(userId) || userOrders.get('jose_espana') || []
 }
 function getCart(userId: string): { items: CartItem[] } {
   if (!userCarts.has(userId)) userCarts.set(userId, { items: [] })
   return userCarts.get(userId)!
 }
 function getWishlist(userId: string): WishlistItem[] {
-  return userWishlists.get(userId) || userWishlists.get('alejandro') || []
+  return userWishlists.get(userId) || userWishlists.get('jose_espana') || []
 }
 
 // ---------------------------------------------------------------------------

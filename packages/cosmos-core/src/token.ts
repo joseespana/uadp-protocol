@@ -12,7 +12,6 @@ export interface UadpToken {
 
 // Pre-generated passkeys per user (deterministic for demo)
 export const USER_PASSKEYS: Record<string, string> = {
-  alejandro: 'ak_a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef12345678',
   jose_espana: 'ak_je5p4n4k3y0000000000000000000000000000000000000000000000000000000',
   test_user: 'ak_t3st4cc3ss000000000000000000000000000000000000000000000000000000',
 }
@@ -89,7 +88,7 @@ export function validatePasskey(userId: string, passkey: string): boolean {
 // Legacy compat — keep these for services that still use them
 export function createMockToken(service: string): UadpToken {
   const now = Math.floor(Date.now() / 1000)
-  return { sub: 'user:alejandro_vega', email: 'alejandro@cosmos-demo.local', iat: now, exp: now + TOKEN_TTL, scope: 'all' }
+  return { sub: 'user:jose_espana', email: 'jose.espana@perseusoft.tech', iat: now, exp: now + TOKEN_TTL, scope: 'all' }
 }
 
 export function encodeToken(token: UadpToken): string {
